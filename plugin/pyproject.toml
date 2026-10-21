@@ -1,0 +1,32 @@
+[build-system]
+requires = ["setuptools>=61"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "solaris-dev-shop"
+version = "0.62"
+description = "61 specialist workflows with deterministic task routing, local capability tools and evidence checks."
+readme = "README.md"
+license = { text = "MIT" }
+requires-python = ">=3.10"
+keywords = ["agents", "skills", "routing", "chief-of-staff"]
+
+[project.urls]
+Homepage = "https://github.com/Shaisolaris/solaris-dev-shop"
+Documentation = "https://github.com/Shaisolaris/solaris-dev-shop/blob/main/docs/quickstart.md"
+Issues = "https://github.com/Shaisolaris/solaris-dev-shop/issues"
+
+[project.scripts]
+solaris-intake = "solaris_intake:main"
+
+[tool.setuptools]
+include-package-data = false
+packages = ["solaris_intake", "solaris_intake.control_plane"]
+
+# Build the installed package from the canonical source directory. No source
+# symlink or second copy of the router is needed in the repository.
+[tool.setuptools.package-dir]
+"solaris_intake.control_plane" = "control-plane"
+
+[tool.setuptools.package-data]
+"solaris_intake.control_plane" = ["*.json", "*.md"]

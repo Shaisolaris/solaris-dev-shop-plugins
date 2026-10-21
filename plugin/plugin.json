@@ -1,0 +1,39 @@
+{
+  "name": "solaris-dev-shop",
+  "version": "0.62.0",
+  "description": "61 specialist workflows, a chief of staff and executable local helpers.",
+  "author": {
+    "name": "Solaris Technologies",
+    "email": "shehryar@solaristek.com",
+    "url": "https://solaristek.com"
+  },
+  "homepage": "https://github.com/Shaisolaris/solaris-dev-shop-plugins",
+  "repository": "https://github.com/Shaisolaris/solaris-dev-shop-plugins",
+  "license": "MIT",
+  "$schema": "https://agent-plugins.org/schemas/1.0.0/plugin.schema.json",
+  "extensions": {
+    "com.openai": {
+      "requires_local_executor": true,
+      "onboardingSkill": "./skills/chief-of-staff/SKILL.md",
+      "interface": {
+        "displayName": "Solaris Dev Shop",
+        "shortDescription": "Specialist workflows with executable local tools",
+        "longDescription": "61 specialist workflows and a chief of staff, backed by local tools for recoverable delivery, reconciled data, API behavior and evidence checks. Host tools and permissions apply; helpers retain documented runtime limits.",
+        "developerName": "Solaris Technologies",
+        "category": "Productivity",
+        "websiteURL": "https://github.com/Shaisolaris/solaris-dev-shop-plugins",
+        "supportURL": "https://github.com/Shaisolaris/solaris-dev-shop-plugins/issues",
+        "privacyPolicyURL": "https://www.solaristek.com/privacy-policy/",
+        "composerIcon": "./assets/native-plugin-icon.png",
+        "composerIconDark": "./assets/native-plugin-icon.png",
+        "logo": "./assets/native-plugin-icon.png",
+        "logoDark": "./assets/native-plugin-icon.png",
+        "defaultPrompt": [
+          "Route a code review to the appropriate Solaris specialists.",
+          "Run the local interrupted-delivery and recovery demonstration.",
+          "Check the saved evidence before accepting this delivery."
+        ]
+      }
+    }
+  }
+}

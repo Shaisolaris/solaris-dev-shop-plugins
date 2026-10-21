@@ -1,0 +1,8 @@
+{
+  "kind": "AI-assisted square listing-icon adaptation",
+  "reference_source": "https://github.com/Shaisolaris/solaris-dev-shop/blob/d6f7c37c6039320f2eb284363038edae0cf15e7b/assets/social-preview.png",
+  "original_artwork_unchanged": true,
+  "reference_sha256": "2478ce031cd8f75617303cdf60bdf226343dc55f97f7102ebc454e19664265ec",
+  "listing_icon_sha256": "293fd397b99ca61af1dc9a47b60635722e4290c7417f6bfe390cb4e1c88cf8a9",
+  "design": "Existing white wireframe employee and red monitor motif on black; text and surrounding composition excluded for a square listing icon. No product UI screenshot is implied."
+}

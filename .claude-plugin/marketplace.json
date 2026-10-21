@@ -1,0 +1,16 @@
+{
+  "name": "solaris-technologies",
+  "owner": {
+    "name": "Solaris Technologies",
+    "email": "shehryar@solaristek.com",
+    "url": "https://solaristek.com"
+  },
+  "version": "0.62.0",
+  "description": "Solaris Technologies native specialist workflows.",
+  "plugins": [
+    {
+      "name": "solaris-dev-shop",
+      "source": "./plugin"
+    }
+  ]
+}

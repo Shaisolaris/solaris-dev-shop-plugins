@@ -1,0 +1,14 @@
+{
+  "name": "solaris-dev-shop-opencode",
+  "version": "0.62.0",
+  "type": "module",
+  "description": "61 specialist workflows, a chief of staff and executable local helpers.",
+  "license": "MIT",
+  "repository": "https://github.com/Shaisolaris/solaris-dev-shop-plugins",
+  "exports": {
+    ".": "./native/opencode.mjs"
+  },
+  "dependencies": {
+    "@opencode/plugin": "2.1.2"
+  }
+}

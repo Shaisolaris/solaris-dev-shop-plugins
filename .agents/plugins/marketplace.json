@@ -1,0 +1,17 @@
+{
+  "name": "solaris-technologies",
+  "plugins": [
+    {
+      "name": "solaris-dev-shop",
+      "source": {
+        "source": "local",
+        "path": "./plugin"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Developer Tools"
+    }
+  ]
+}

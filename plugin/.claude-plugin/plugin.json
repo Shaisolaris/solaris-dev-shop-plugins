@@ -1,0 +1,14 @@
+{
+  "name": "solaris-dev-shop",
+  "version": "0.62.0",
+  "description": "61 specialist workflows, a chief of staff and executable local helpers.",
+  "author": {
+    "name": "Solaris Technologies",
+    "email": "shehryar@solaristek.com",
+    "url": "https://solaristek.com"
+  },
+  "homepage": "https://github.com/Shaisolaris/solaris-dev-shop-plugins",
+  "repository": "https://github.com/Shaisolaris/solaris-dev-shop-plugins",
+  "license": "MIT",
+  "icon": "./assets/native-plugin-icon.png"
+}
