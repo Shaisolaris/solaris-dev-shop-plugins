@@ -4,5 +4,18 @@
   "original_artwork_unchanged": true,
   "reference_sha256": "2478ce031cd8f75617303cdf60bdf226343dc55f97f7102ebc454e19664265ec",
   "listing_icon_sha256": "293fd397b99ca61af1dc9a47b60635722e4290c7417f6bfe390cb4e1c88cf8a9",
-  "design": "Existing white wireframe employee and red monitor motif on black; text and surrounding composition excluded for a square listing icon. No product UI screenshot is implied."
+  "design": "Existing white wireframe employee and red monitor motif on black; text and surrounding composition excluded for a square listing icon. No product UI screenshot is implied.",
+  "listing_icon_path": "plugin/assets/native-plugin-icon.png",
+  "openclaw_listing_variant": {
+    "path": "tools/harness-assets/openclaw-icon.png",
+    "sha256": "68c9c3e204c69be62be039bd83d55a5030890b585b1c5df65bf9cd29c6c5d5ec",
+    "bytes": 510148,
+    "decoded_dimensions": [
+      1254,
+      1254
+    ],
+    "encoding": "Lossless PNG recompression; every original RGBA pixel and colour metadata identical.",
+    "rgba_sha256": "49232ba2cbd0d3a6ed892fa39917816178011d9fa2def00780ead763d03b83af",
+    "purpose": "Fits ClawHub512KiB catalog icon limit. Original base listing icon remains unchanged."
+  }
 }

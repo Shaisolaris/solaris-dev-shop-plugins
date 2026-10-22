@@ -1,8 +1,9 @@
 {
   "prototype": false,
-  "source_native_commit": "87da307b244b3fc360d21a567c6fa27e2e1a0313",
-  "source_core_commit": "ee38d3de3d4b0d5467a589d5cb908f4964f593fe",
-  "version": "0.63.0",
+  "source_native_commit": "2ca1ffa5597981a1effbbcd43aefdc82ce03d124",
+  "source_core_commit": "3a577e42c48473f6ef8680950dd55c067820d5d3",
+  "version": "0.64.0",
+  "metadata_stage": "contained-input",
   "workflow_count": 62,
   "new_role_capabilities": 0,
   "mirrors": {
@@ -485,15 +486,15 @@
       "canonical_workflow": "employees/infrastructure/network-engineer/SKILL.md",
       "mirrored_canonical_files": {
         "employees/infrastructure/network-engineer/server-hardening-tls-headers.md": "13933a22004b9e399f19eff8167c2c7b5f447f508ea1e48a4d9d281fdd8924d8",
-        "employees/infrastructure/network-engineer/rules.md": "c65b40c561c5916082ef9565bf6c6fd785ff1d03a73a8c790b2f7b90065cd281",
+        "employees/infrastructure/network-engineer/rules.md": "3a72236febed430efcbae24c75e4888f694976a1103fec52404b3b5aec81aa47",
         "employees/infrastructure/network-engineer/plugin.json": "8a4a002e91cc1b83b5e5145836cd8859c6546baf96b29553fbd0f10905a4ac7b",
         "employees/infrastructure/network-engineer/offline-trace-diagnosis.md": "cf0ec7689784a143a0797c430e492cef0627ff3848c938bcc0b4a645715cd3db",
         "employees/infrastructure/network-engineer/netdiag.py": "1c7766826692bd3e2026bc8959e88db604d4cd569cb565c03132a5c1e336c110",
         "employees/infrastructure/network-engineer/learnings.md": "593b2f6cd2fcf4fbebd5475a8f0cd71231856091a4af9ac8c37bdc7ed4f9a6b0",
-        "employees/infrastructure/network-engineer/homelab-and-network-ops.md": "af3bb22c1e043d1c2cd6dcacda170302f79e704a040513d619e8c207299c1e2d",
+        "employees/infrastructure/network-engineer/homelab-and-network-ops.md": "e3ec662f888fb12f9446bb41bd98f82f914eeb36be7e9ac54ff05d8c7595c69d",
         "employees/infrastructure/network-engineer/enterprise-network-ops.md": "d40451d8b69d3eea6de9607bb55bcafdbd4d29b1e5136b9a16fbe3a288b2b60a",
         "employees/infrastructure/network-engineer/capability.contract.json": "4c4766e4e02d56d0bc19cc90cc0c335620b891c4242e70c6e84e213859006d63",
-        "employees/infrastructure/network-engineer/SKILL.md": "bbce72fffa50a355d2f44ac9b74b78331e4b11456fc221556851546069f4ba29"
+        "employees/infrastructure/network-engineer/SKILL.md": "b2de47e5afb47a0005a7d92d506addb5ece6aa4ca9b1b8fc849fed5a74e4cade"
       },
       "entrypoint_sha256": "7e0c73fb51badf2a8c8c807bb5cf0fc101f1b54b3c4c6ee272a313f4eeb48164"
     },
@@ -812,8 +813,8 @@
         "employees/quality-security/qa-engineer/rules.md": "5b5038d4a4fadd535a88bad802ec2a37efc1d8e315fcc0fdf8f84ab95261d3d5",
         "employees/quality-security/qa-engineer/plugin.json": "f07fd18015153a160f327335b7bf34caa529ca25cc53b62834b1f9e9424a78dd",
         "employees/quality-security/qa-engineer/learnings.md": "6defa9c04f6e82e33e88250151afee319644bc9b604535e26795f1c904a330c6",
-        "employees/quality-security/qa-engineer/host_portability.py": "3b4961d08cda0033c37a8b39610a55b01aa8e6fc84686f93fde5dd5504d9e9d2",
-        "employees/quality-security/qa-engineer/host-portability.md": "e445a108d43df5512c58a1ebc6722cee7fbcf1f0bdefec8ddd82608a95833195",
+        "employees/quality-security/qa-engineer/host_portability.py": "6e5c42e0bf90263fd19c515cfd8312d2c7010b7bbe53f59e616c64832c8e96fb",
+        "employees/quality-security/qa-engineer/host-portability.md": "0659c64c2024564815d3d45203cb5304a2e1d709fd010713ae1a5d4059d8a5b1",
         "employees/quality-security/qa-engineer/elite-manual-qa-2026.md": "a9e958e79d023616d7a66c0722bbf2a8bd362f7541a87ef6feabad7a3e6fb9cb",
         "employees/quality-security/qa-engineer/capability.contract.json": "c565947f43db5009f24a9ebb631c227ec04544dc3a07587f81ae3d7660aafc38",
         "employees/quality-security/qa-engineer/api-fuzz-mutation-integration.md": "56ff8998a5e96903aa9e52ff018ff051b56a44d5328b7e25516e4a50330e86a2",
@@ -998,7 +999,7 @@
         "employees/specialized/wordpress-master/diagnostics/diagnostic-db-autoload/SKILL.md": "f473f04a40a62a9a6fc091b11eaa622c99297ea5ed4a24c6dd7d8806f3911592",
         "employees/specialized/wordpress-master/diagnostics/diagnostic-cron-analysis/SKILL.md": "2a5a958d8cf4fbc6684cffb19f22050f8dfc64b9d4c7bb623e6e10144a0ed905",
         "employees/specialized/wordpress-master/diagnostics/diagnostic-core-integrity/SKILL.md": "b470d56a9db826c7397ccbf63f91cf6cd779364f68016035982e2a7b5145d331",
-        "employees/specialized/wordpress-master/diagnostics/diagnostic-config-security/SKILL.md": "0c53d9adbeac35bae35756f10590d5a9651e22e6672dfb20bea396d222eb6d96",
+        "employees/specialized/wordpress-master/diagnostics/diagnostic-config-security/SKILL.md": "ae89e739cc7706dc2cecc400e4ea483429ac93961354f3c816bef3533ed76424",
         "employees/specialized/wordpress-master/diagnostics/diagnostic-code-quality/SKILL.md": "8a4a7a860c46006c858131800a9f1dda966e2514297c6834829486834d3749f9",
         "employees/specialized/wordpress-master/diagnostics/diagnostic-architecture/SKILL.md": "2287b817d4d7d4b369c206553381bf7476d1a125a4d28ef99f2ae2eec444120e",
         "employees/specialized/wordpress-master/diagnostics/diagnostic-arch-narrative/SKILL.md": "f650e0e187d1a47d4d6ce6a99bbf387563ad7dcd3e9884d30fd0b6e77f817edf",
@@ -1011,7 +1012,7 @@
         "employees/specialized/wordpress-master/diagnostics/build-scaffold/SKILL.md": "b4399c2aa001fb064cd095b2059f3d72a40da94b84a8214ed278a8878ef8a01b",
         "employees/specialized/wordpress-master/diagnostics/build-modify/SKILL.md": "5f21a33b54621a1db8cd67880b9cb5edb792522beaec17749a6ce55a7c0ddb20",
         "employees/specialized/wordpress-master/diagnostics/build-mcp/SKILL.md": "1b0ed5258684c31709358f33f8d2ffd1371f8207e4a1e29ba6f105b8c722996a",
-        "employees/specialized/wordpress-master/diagnostics/build-git/SKILL.md": "c2c45e288255f66efb04baf28f79296c6b8550e7a9b1a88c59e18eb706fa93fc",
+        "employees/specialized/wordpress-master/diagnostics/build-git/SKILL.md": "7e62a333823049bc20436f6467e89271fb1deafd7b448c16fbdafc069659445b",
         "employees/specialized/wordpress-master/diagnostics/build-content/SKILL.md": "65f7cdeb593faf4321d5b72444e7aba3aa05bfbc8b7b55eb26d8fd614c3514f0",
         "employees/specialized/wordpress-master/diagnostics/accessibility/SKILL.md": "09d75c5149b4c716f8f42403a6fb7b26b16bb40e1b5c842d139fadc030537bf9",
         "employees/specialized/wordpress-master/depth-2026-06.md": "e6ee11af91026f81895804718e533e969e82e1e0aedb424f09b01118081d576d",
@@ -1046,5 +1047,7 @@
       "reference": "{url}",
       "reason": "not an existing canonical target"
     }
-  ]
+  ],
+  "publication_ready": false,
+  "required_before_publication": "Derive resource notices and relocate canonical CI snapshots exactly once in each final profile."
 }

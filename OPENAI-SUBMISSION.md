@@ -1,34 +1,7 @@
-# OpenAI listing correction for 0.63.0
+# OpenAI/Codex submission 0.64.0
 
-This records the first metadata-only correction to the published ZIP. The current
-native caller repair is regenerated directly from the source and packager pinned
-in `BUILD.json` and `tools/verify_distribution.py`; it already includes these
-listing corrections. Do not apply the old base-ZIP overlay to that new candidate.
+The tested native package is the complete `plugin/` source at [`2e51c951`](https://github.com/Shaisolaris/solaris-dev-shop-plugins/tree/2e51c951ce4573c0ab7c5cc807118d6e0c5b815c/plugin), generated from core `3a577e42`. It preserves61 specialists plus the coordinator and1,197 canonical files. The listing subtitle and software terms URL are present and checked by actual regression controls; the terms point to the existing MIT license.
 
-The public release remains immutable. The submission ZIP applies two listing
-changes to the independently checked release ZIP:
+Codex CLI0.163.0-alpha.11.1 installs the exact public Git source in an owned test configuration. Its app-server returns62 enabled Solaris workflows with matching descriptions/paths; all1,269 package bytes/modes and the actual coordinator match. No model turn is created. Claude's separate native validation is described in [the current matrix](HARNESS-DISTRIBUTION.md).
 
-- Shorten the subtitle to `61 specialist workflows` (23 characters).
-- Link the already-published MIT software license as the software terms. This
-  does not apply the separate website-use restrictions to the open-source code.
-
-`tools/prepare_openai_submission.py` pins the exact base ZIP hash, preserves the
-version, copies ZIP member metadata, changes only the listing manifest and its
-explicit overlay provenance, and writes a complete member-hash receipt. All
-canonical source, workflow adapters, assets and runtime code remain identical.
-The original distribution verifier establishes the base artifact; the overlay
-receipt and independent byte comparison establish this bounded correction.
-Do not claim the unchanged base packager directly generated the corrected ZIP.
-
-```sh
-python3 tools/prepare_openai_submission.py \
-  --base-zip /absolute/path/to/released/solaris-dev-shop-0.63.0-plugin.zip \
-  --output-dir /absolute/path/to/a/fresh/submission-directory
-```
-
-A correct package is separate from directory eligibility. Keep
-`requires_local_executor: true`. The current portal restriction on additional
-skills-only submissions requires an eligibility decision from OpenAI; a dummy
-MCP server or a claim of partner approval is not a resolution. Local MCP
-submissions additionally require OpenAI partner approval and organization
-allowlisting. See the [official desktop submission instructions](https://developers.openai.com/plugins/deploy/desktop-only).
+Business verification and the Partner Network application are separate from plugin eligibility. The skills-only directory restriction has a pending support escalation; it is not solved by adding a dummy MCP server or purchasing credits. An uploaded ZIP or validation pass is not a directory approval, partner approval, distributor appointment or reseller right. The historical `prepare_openai_submission.py` is an immutable0.63 overlay tool and is not the0.64 build path. New final artifacts must be built and checked against their exact source manifests.

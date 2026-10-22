@@ -111,7 +111,7 @@ def main():
             caller = subprocess.check_output([sys.executable, '-B', str(candidate / 'skills/chief-of-staff/scripts/run.py'),
                                               'intake', 'review this code', '--json'], cwd=temp, text=True)
             assert json.loads(caller)['assignment']['primary_capability'] == 'solaris.code-reviewer'
-            report = {'host': host, 'exact_files_and_modes': count, 'canonical_files': 1196,
+            report = {'host': host, 'exact_files_and_modes': count, 'canonical_files': 1197,
                       'native_contexts': len(entries), 'actual_assignment': 'solaris.code-reviewer'}
             if host == 'deepseek' and args.self_test:
                 report['rejected_controls'] = controls(expected)

@@ -1,115 +1,106 @@
-# Solaris native harness distributions
+# Solaris native distributions 0.64.0
 
-**61 specialist employees + one chief-of-staff coordinator = 62 workflows.**
-These distribution adapters preserve the reviewed 0.63.0 source and add zero new employee capabilities. Existing core/native release tags and assets are unchanged.
+**61 specialist employees and one chief-of-staff coordinator: 62 workflows.**
 
-## OpenCode V2
+All current profiles preserve 1,197 canonical files from core [`3a577e42`](https://github.com/Shaisolaris/solaris-dev-shop/commit/3a577e42c48473f6ef8680950dd55c067820d5d3). The immutable tested distribution source is [`2e51c951`](https://github.com/Shaisolaris/solaris-dev-shop-plugins/commit/2e51c951ce4573c0ab7c5cc807118d6e0c5b815c). Adapters add native loading and local entrypoints; they do not represent new capabilities for every specialist. Original branding, source bytes, executable modes, license notices and helper boundaries remain checked.
+
+## Tested hosts
+
+| Host | Actual native evidence | Complete profile files |
+|---|---|---:|
+| Codex CLI 0.163.0-alpha.11.1 | Public Git installation; app-server discovers 62 enabled workflows; exact payload and coordinator | 1,269 |
+| Claude Code 2.1.306 | Public branch observed at the immutable revision; enabled native inventory of 62; exact payload and coordinator | 1,269 |
+| OpenCode 2.1.2 | Public Git installation; authenticated local API exposes 62 complete bodies; exact payload and coordinator | 1,269 |
+| GitHub Copilot CLI 1.0.102 | Native install and 62 owned workflows; exact contained payload and coordinator | 1,975 |
+| Cursor 3.24.18 | Actual app displays 0.64.0 and all 62 workflows; exact payload, helpers and SQLite recovery | 1,975 |
+| DeepSeek Harness 0.2.1-rc.2 | Public Git installation; actual provider returns all 62 bodies and resource paths; helpers | 1,974 |
+| Kilo 7.8.15 | Public Git V2 API returns all 62 bodies/descriptions/locations; exact payload and helpers on macOS and Linux CI | 1,973 |
+| Pi 1.4.0 | Public Git native package resolver/skill loader exposes 62 names/descriptions/paths with no diagnostics; helpers | 1,975 contained |
+| Kimi Code 2.3.0 | Authenticated loopback native plugin API installs exact public revision, enabled/state OK/62 skills; helpers | 1,975 contained |
+| Factory Droid 0.247.0 | Native Git-subdirectory install; exact contained payload and helpers | 1,975 |
+| Gemini CLI 0.65.0 | Native extension install and 62 owned workflows; complete payload and helpers; vendor built-ins counted separately | 1,974 |
+| Qwen Code 0.26.0 | Exact public Gemini revision converted by native manager; 62 enabled workflows; exact source and helpers | 1,974 payload |
+| OpenClaw 2026.10.5 | Public Git install/enable; 62 visible eligible workflows; exact source and actual intake controls | 1,975 |
+| Antigravity CLI 1.4.5 | Fresh hosted Linux install/enable/discovery of 62 workflows; exact payload and helpers | 1,972 |
+| Cline CLI 3.0.73 / SDK 0.0.95 | Public Git CLI install; 62 owned skills plus real worker/ContributionRegistry intake execution | 1,974 |
+| Amp 0.0.1792680614-g8973a3 | Authenticated stock project discovery; separate actual native-process registration and callback outcomes | 1,974 |
+
+Native discovery, management and local helper evidence does not establish model quality, connected model invocation, a filesystem sandbox or curated marketplace approval. Tests made no model calls. Python helpers require Python 3.10+ and applicable role prerequisites; Cline/Amp helpers also require PyYAML. The host retains its normal permission boundaries.
+
+## Codex, Claude and OpenCode
 
 ```sh
-opencode plugin add 'github:Shaisolaris/solaris-dev-shop-plugins#53009f7ade20264183e8fa4ef3bc739a72299389::path:plugin'
+codex plugin marketplace add Shaisolaris/solaris-dev-shop-plugins --ref 2e51c951ce4573c0ab7c5cc807118d6e0c5b815c
+codex plugin add solaris-dev-shop@solaris-technologies
+opencode plugin add 'github:Shaisolaris/solaris-dev-shop-plugins#2e51c951ce4573c0ab7c5cc807118d6e0c5b815c::path:plugin'
 ```
 
-OpenCode 2.1.2 installed this exact public revision. Its actual HTTP skill catalog exposed all 62 canonical workflows; all 1,268 installed file bytes and executable modes matched. The installed coordinator assigned a code review from outside the checkout. The official ecosystem submission is [PR58104](https://github.com/anomalyco/opencode/pull/58104), awaiting maintainer review.
+Claude's `#ref` transport expects a branch or tag, rather than an arbitrary commit SHA. The actual test cloned `codex/native-064`, verified HEAD was exactly `2e51c951`, then installed `solaris-dev-shop@solaris-technologies`. For immutable local testing, check out the exact public revision and add that checkout with `claude plugin marketplace add /absolute/path/to/checkout`; install the same plugin selector. Do not mistake a moving branch for an immutable revision.
 
 ## DeepSeek Harness
 
-The native package at `harnesses/deepseek` declares a Cordis bundle and requires DSH **0.2.1-rc.2**, whose APIs are pre-stable. Install the complete package with `dsh plugin --profile <your-profile> add <package-source>`. For local authoring:
-
 ```sh
-dsh plugin --profile solaris-test add ./harnesses/deepseek
-dsh --profile solaris-test --dump-config
+dsh plugin --profile solaris add 'git+https://github.com/Shaisolaris/solaris-dev-shop-plugins.git#2e51c951ce4573c0ab7c5cc807118d6e0c5b815c&path:/harnesses/deepseek'
 ```
 
-Install the reviewed public Git revision:
-
-```sh
-dsh plugin --profile solaris-test add "git+https://github.com/Shaisolaris/solaris-dev-shop-plugins.git#c69fbcf49e46da3837fcf75420b9914705b2eab7&path:/harnesses/deepseek"
-```
-
-A format1 custom-market index is published at `markets/deepseek.json`; it pins the same exact source. DSH ships no default public index and custom-market publication is not DeepSeek approval. The first-party index validator accepts this index and computes the same pinned install target.
-
-The actual DSH plugin manager installed the bundle and the actual composed profile registered all 62 workflows. Every native loaded body and resource directory matched the canonical source. Registration is a framework-managed effect; the adapter declares no tool, hook, model, credential source or background schedule.
+The Cordis bundle targets pre-stable DSH 0.2.1-rc.2. The format1 custom index is [markets/deepseek.json](markets/deepseek.json). Custom-index publication is not a DeepSeek endorsement or a claimed DeepSeek-owned marketplace listing. No default public index is shipped by this host.
 
 ## Kilo
 
-`harnesses/kilo` is a self-contained server plugin. Its manifest exposes `./server` and its V2 adapter contributes exactly the 62 reviewed skill rows, preventing recursive resource mirrors from becoming extra skills. It has no npm runtime dependencies.
-
-Kilo **7.8.15** installed the local package through its real plugin manager. Its actual `/api/skill` V2 registry returned precisely 62 matching names, bodies and canonical locations. The legacy `debug skill` command is a separate catalog and is not the acceptance evidence for this V2 package. No permission, provider or model settings are modified.
-
-For local authoring:
+Keep the package name before `@github:`:
 
 ```sh
-kilo plugin file:///absolute/path/to/harnesses/kilo
+kilo plugin 'solaris-dev-shop-kilo@github:Shaisolaris/solaris-dev-shop-kilo#cfd9a91b475f7f3ab3f1d815cd959e4b07aaefd2'
 ```
 
-The public root package now has a verified native install route. Keep the package name before `@github:`:
+The native V2 API is the evidence, rather than the legacy `debug skill` catalog. The official catalog cannot currently express this passing named Git syntax; registry publication or vendor guidance is a separate requirement. See [the existing V2 issue](https://github.com/Kilo-Org/kilocode/issues/15307). No npm policy is weakened to force an unsupported transport.
+
+## Pi, Kimi and Factory
 
 ```sh
-kilo plugin 'solaris-dev-shop-kilo@github:Shaisolaris/solaris-dev-shop-kilo#3e3c611e82bee0885721c238e5c09fd5dc0d7d13'
+pi install git:github.com/Shaisolaris/solaris-dev-shop-plugins@2e51c951ce4573c0ab7c5cc807118d6e0c5b815c
 ```
 
-This exact source passed the actual Kilo7.8.15 V2 API on macOS: all62 canonical bodies/descriptions/locations,1972 profile files and modes,1196 original hashes,62 real helper contexts and a coordinator assignment. The same full verifier passed on a fresh Linux CI runner. See [the public package and bounded proof](https://github.com/Shaisolaris/solaris-dev-shop-kilo/pull/1).
+Pi's root manifest names 62 exact contained skill files and declares no extensions, prompts or themes. Its npm-indexed gallery requires a separate registry upload. Kimi's root `kimi.plugin.json` names 62 contained skill directories and declares no hooks, MCP servers or agents; install the full repository through Kimi's native plugin UI at the exact revision. Factory's actual native catalog/git-subdirectory test used `copilot/plugin` at the same public revision. Factory renames `.claude-plugin` to `.factory-plugin`; its verifier accounts for exactly that host transformation. No Factory model activation is inferred from install/list.
 
-The unnamed npm Git references and catalog-style `git:` transport still report installer success but expose zero Solaris rows. The official catalog does not accept the passing named npm-compatible Git syntax; catalog submission remains held while [the existing V2 Git-source migration issue](https://github.com/Kilo-Org/kilocode/issues/15307#issuecomment-6345057436) is resolved. No schema bypass or unpublished npm-registry claim is used. These are native discovery/helper results, not model inference, VS Code or TUI-session acceptance.
+## Gemini and Qwen
 
-## Qwen Code
-
-Qwen Code **0.26.0** directly installed the existing public Gemini-format source below, converted its manifest through the native manager, and lists 62 enabled skill entries:
+The complete native source is [`solaris-dev-shop-gemini@2f9a29a9`](https://github.com/Shaisolaris/solaris-dev-shop-gemini/commit/2f9a29a9d41da0a4d60c9ff7bea9c7aff737a189). Gemini uses its native extension format. Qwen directly accepts that Gemini format:
 
 ```sh
-qwen extensions install https://github.com/Shaisolaris/solaris-dev-shop-gemini --ref ef92e4bd85a7b9971591812e2976210fd71fa851
+qwen extensions install https://github.com/Shaisolaris/solaris-dev-shop-gemini --ref 2f9a29a9d41da0a4d60c9ff7bea9c7aff737a189
 ```
 
-All1977 installed source files and executable modes match the public revision; all62 context calls and the installed coordinator pass outside the checkout. This uses the host's documented cross-format support, with the complete source and resources retained. It is not an independent Qwen directory approval.
-
-## Pi
-
-The repository-root `package.json` is a native Pi package manifest. It declares the 62 exact skill files from the existing contained profile; it declares no extensions, prompts or themes. Pi **1.4.0** installed the local package, then its public native package resolver and skill loader found all 62 unique names with no diagnostics. The actual public Git install at `c69fbcf49e46da3837fcf75420b9914705b2eab7` also passes all62 names through the native manager and loader. All1974 contained payload file bytes/modes match; all62 live context calls and the installed coordinator work outside the checkout. The Pi gallery indexes npm packages; npm publisher authentication is a separate unresolved requirement.
-
-## Kimi Code
-
-The root `kimi.plugin.json` declares62 exact contained skill directories and no hooks, MCP servers, agents, credentials or session-start instructions. Kimi Code2.3.0's actual authenticated loopback native plugin API installed `c69fbcf49e46da3837fcf75420b9914705b2eab7` from public GitHub and reports enabled/stateOK/skillCount62 with no diagnostics. All1974 contained payload bytes/modes and62 live context calls/coordinator routing match. Install this complete repository through Kimi's `/plugins install` using the exact GitHub revision. Vendor catalog consideration is [issue4344](https://github.com/MoonshotAI/kimi-code/issues/4344); no curated or partner status is claimed.
+Qwen preserves all 1,974 payload files plus the four repository publication files and adds exactly two native conversion/install records. Its actual manager lists all 62 workflows enabled for user and workspace. This is cross-format host support, not independent directory approval.
 
 ## OpenClaw
 
-The `harnesses/openclaw` profile is a native source plugin for OpenClaw2026.10.5. It declares all62 skills and a real `openclaw solaris intake <request> --json` command. That command invokes the pinned Python coordinator with argument separation, no shell, a32KiB input limit,20second timeout and a minimal child environment. It returns an assignment and never executes specialist work. Python3.10+ is required on the caller'sPATH. There are no model calls, MCP servers, background jobs or provider credentials.
-
-The actual host loads the native plugin and registers the CLI. Its command returns a code-review assignment as JSON onstdout; literal shell syntax and option-like request text remain data, and oversized text is rejected. The first-party package inspector reports no issues. A golden rebuild checks all1974 source files/modes and1196 canonical hashes. Public transport and registry acceptance are separate gates.
-
-An earlier compatible Agent Plugins bundle is publicly installable from `Shaisolaris/solaris-dev-shop-openclaw` at its exact reviewed marketplace revision; it exposes62 visible workflows. The native SDK and notice-repair revisions passed independent review and exact-source CI. The public default now carries the native SDK profile. Registry publication uses a complete compressed source artifact, preserving Unicode fixtures and every canonical file; no compiled or opaque executable is introduced.
-
-## Google Antigravity
-
-A distinct strict native profile is public at [solaris-dev-shop-antigravity](https://github.com/Shaisolaris/solaris-dev-shop-antigravity). Actual Antigravity CLI1.4.5 in a fresh hosted Linux profile installed/enabled the plugin, discovered62 workflows and passed complete payload bytes/modes,62 helper contexts and the coordinator outcome. The1971-file profile is checked against the reviewed source; the publication repository adds its own docs/CI. Google's official marketplace interest form confirmed receipt. See [the exact validation scope](ANTIGRAVITY-DISTRIBUTION.md). No existing Google profile or retired worker was changed, and no model call was made. Submission is not Google approval.
-
-## Cline
-
-`harnesses/cline` is a native Cline package plugin: its `cline.plugins` manifest names the real SDK entrypoint, its top-level skills are discovered by Cline, and its `solaris_intake` tool runs the pinned local coordinator. ClineCLI3.0.73 and SDK0.0.95's actual worker and ContributionRegistry registered and executed that tool. All62 owned skill descriptions/bodies/paths match; the input controls keep shell text and option-like text literal and reject oversized UTF-8 or extra fields. A valid request remains usable after refused calls. No model inference is involved.
-
-The source profile has1973 files/modes and1196 canonical files. The native installer removes exactly two optional host-provided SDK dependency fields from `package.json`; the verifier checks that transformation explicitly and rejects any other change. All1972 other source files and all executable modes remain exact. The real composite provenance checker reports consistency. Source golden checks exercise62 real helper contexts plus6 no-op/partial/mode/hook/symlink refusals.
-
-The exact public source root is installable through the native manager:
-
 ```sh
-cline plugin install 'https://github.com/Shaisolaris/solaris-dev-shop-cline.git@7730f2a9a9246479b66da059598f4e54ef80f6c1'
+openclaw plugins install git:github.com/Shaisolaris/solaris-dev-shop-openclaw@9194a847a32ffd86f31946da152cde1ad9b0cfdf
+openclaw plugins enable solaris-dev-shop
+openclaw solaris intake 'review this code' --json
 ```
 
-A fresh public Git install passed the same native discovery, worker tool, source and helper gates. The manager retains its own clone metadata: the verifier binds HEAD and origin to the requested public commit and permits sample hooks only, while accounting separately for all1973 product files. It does not delete metadata or weaken npm policy. The official collection's formatting rules conflict with byte-preserved canonical documentation, so its prepared entry uses the normal versioned source-package dependency format. The npm package is ready but unpublished pending publisher authentication; no catalog keyword or approval is claimed.
+Use the normal reviewed-source confirmation. This is a source plugin with a real native intake command, not an opaque executable. Intake returns an assignment without performing specialist work. It uses argument separation, no shell, a 32KiB UTF-8 limit, a 20-second timeout and a minimal child environment. Literal shell/option text, oversized input and recovery were checked. Git installs retain host-owned Git metadata and add a dependency-free lockfile; those exact additions are verified separately from the 1,975 unchanged product files.
 
-This route targets ClineCLI/SDK/Kanban. Cline's current plugin documentation explicitly excludes VSCode and JetBrains extensions. Its official curated collection submission follows actual public Git installation and independent review; candidate source alone is not catalog approval. Python3.10+ and PyYAML are required for the local tool. It has no hooks, background jobs, MCP servers, model settings or permission changes.
+The catalog icon is losslessly recompressed below 512KiB; every original RGBA pixel, dimension and colour metadata remains identical. The older ClawHub 0.63 community listing and Review advisory remain historical. A corrected source or new upload does not silently clear that old advisory. Registry publication and its actual new scan are separate gates.
 
-## Amp
+## Antigravity
 
-`harnesses/amp` is a complete native directory plugin using Amp's `registerSkill` and `registerTool` APIs. Install the complete directory at `.amp/plugins/solaris-dev-shop` in the target project, rather than importing its entrypoint alone. Python3.10+ and PyYAML are required for local helpers.
+The strict native profile is public at [`solaris-dev-shop-antigravity@61eef051`](https://github.com/Shaisolaris/solaris-dev-shop-antigravity/commit/61eef051f66d8133b45e04b35b0fa42fdc04e757). Install the complete GitHub-root plugin or use the host's documented `.agents/plugins/` workspace folder. Its strict root manifest permits `name` and `description`; see [the format-specific provenance limitation](ANTIGRAVITY-DISTRIBUTION.md). Google's application receipt is not acceptance. The retired worker and existing Google account were not used for native CI.
 
-The actual authenticated AmpCLI0.0.1792680614-g8973a3 loaded the plugin and its `solaris_intake` tool. Its stock `skills list --json` exposed precisely62 qualified Solaris workflows; every name, description and registered path matched the unchanged bundled skill source. The profile retains1973 files/modes,1196 canonical hashes and62 working helper contexts. Source golden checks rejected all6 no-op, partial, mode, hook and symlink controls.
+## Cline and Amp
 
-The real Amp plugin process also passed a separate fresh-profile test without an account or model: a disposable QA wrapper forwards all62 skill registrations and the tool registration to Amp, then invokes the registered execute callback inside that native process. Assignment, legitimate clarification, literal shell/option inputs,3 invalid-input refusals and recovery all passed. The verifier requires a newly written result and preserves the original installed profile byte-for-byte; an empty exit0 is insufficient. This is callback/registration proof, not connected-thread tool dispatch or model-quality evidence.
+```sh
+cline plugin install 'https://github.com/Shaisolaris/solaris-dev-shop-cline.git@7d884ae7187b290024956b4a8013937672b22977'
+```
 
-This native CLI route does not establish hosted/Puck support or a curated Amp marketplace listing. Public source distribution and any hosted plugin-repository publication remain separate from native acceptance. The adapter adds no hooks, background jobs, MCP servers, provider settings or permission grants.
+Cline CLI/SDK/Kanban loads 62 owned skill bodies/descriptions/paths and executes `solaris_intake` through its real worker and ContributionRegistry. VSCode/JetBrains support is not claimed. Its installer may remove exactly two optional SDK peer-dependency fields; the remaining 1,973 file bytes and every mode are exact. Git metadata is bound to the requested public SHA/origin; only sample hooks are accepted. The native tool passed assignment, legitimate clarification, literal shell/option inputs, three invalid-input refusals and recovery. No `allow-git`/remote policy override is used.
 
-## Source and limits
+Amp uses a project directory plugin. Clone the complete [`solaris-dev-shop-amp@abdf618c`](https://github.com/Shaisolaris/solaris-dev-shop-amp/commit/abdf618c18c371daa7c9579d72c8e022fe1b3818) into `.amp/plugins/solaris-dev-shop` and check out that exact commit. Stock authenticated discovery returns 62 qualified names/descriptions/paths. A separate disposable QA wrapper forwards the actual native registration APIs and invokes the registered callback inside Amp's real plugin process; assignment, clarification, refusal and recovery passed. This does not claim connected-thread dispatch, hosted/Puck support or a curated Amp listing.
 
-All profiles retain 1,196 canonical files from core `ee38d3de3d4b0d5467a589d5cb908f4964f593fe` and the reviewed native source `085ebb9e9c137c5046c2153b9413d9badd102ce7`. The golden verifier rebuilds profiles from that source and rejects a no-op adapter, a changed adapter plus edited supplied manifest, changed modes, unexpected lifecycle hooks and symlinks. Native source/context checks are separate from model activation.
+## Verification and publication
 
-These are isolated host management, public-install, registration and helper checks with **no model calls**. They do not establish model quality, credentialed provider access, a filesystem sandbox, production readiness or absence of all vulnerabilities. Local Python helpers require Python 3.10 or later; individual workflow prerequisites and host permissions apply. The original [validation scope](VALIDATION.md) and [data handling](plugin/DATA-HANDLING.md) still apply.
+See [VALIDATION.md](VALIDATION.md), [Cursor evidence](CURSOR-VALIDATION.md) and [data handling](plugin/DATA-HANDLING.md). Golden rebuilds reject no-op adapters, a changed adapter plus edited submitted manifest, changed modes, unexpected hooks, symlinks and unfinished pre-notice input masquerading as a final distribution. Notices are applied exactly once; source CI snapshots are retained as inert data under `source-config/.github`.
+
+Official catalog requests remain vendor decisions: [OpenCode58104](https://github.com/anomalyco/opencode/pull/58104), [Factory64](https://github.com/Factory-AI/factory-plugins/pull/64), [Kimi4344](https://github.com/MoonshotAI/kimi-code/issues/4344), [Copilot5257](https://github.com/github/awesome-copilot/issues/5257). Hermes admission remains held by its actual scanner; no override or catalog-approval claim is used. Historical 0.63 evidence is retained under [docs/history](docs/history/). Existing release tags and assets are never overwritten.
