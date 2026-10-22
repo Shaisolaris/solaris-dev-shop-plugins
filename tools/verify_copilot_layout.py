@@ -73,7 +73,7 @@ def verify(self_test=False):
                              capture_output=True,text=True,timeout=60)
         assert build.returncode==0,build.stderr
         expected=members(generated)
-        assert len(expected)==1973
+        assert len(expected)==1974
         matches(package,expected)
         result={'result':'PASS','payload_files':len(expected),'workflows':62,'new_employee_capabilities':0,'model_invocation':False}
         if self_test:

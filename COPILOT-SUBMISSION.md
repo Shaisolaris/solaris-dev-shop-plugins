@@ -15,3 +15,6 @@ No model activation, provider approval or improved performance for every role is
 ```sh
 python tools/verify_copilot_layout.py --self-test
 ```
+
+
+The current metadata repair preserves the original notice at `SOURCE-NOTICE.md`, credits the byte-identical contained upstream-license copy in `NOTICE.md`, and retains the source repository's CI snapshots as inert data under `source-config/.github`. All1196 canonical file bytes remain bound through the declared path map. The contained profile now has1974 files. Actual composite G38 provenance and G42 cross-checks are required alongside native installation checks; source-core tests with repository-specific declaration counts are retained unchanged as source data.

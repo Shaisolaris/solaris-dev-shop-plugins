@@ -2,39 +2,17 @@
   "canonical_files": 1196,
   "coordinator": 1,
   "core_source": "ee38d3de3d4b0d5467a589d5cb908f4964f593fe",
+  "distribution_notice": {
+    "canonical_notice": "SOURCE-NOTICE.md",
+    "resource_license_aliases": [
+      {
+        "canonical_origin": "employees/design/ui-ux-designer/design-intelligence/LICENSE-upstream",
+        "path": "skills/ui-ux-designer/resources/canonical/employees/design/ui-ux-designer/design-intelligence/LICENSE-upstream",
+        "sha256": "738f69dfa83db5c347c678fb9d90e560877059f0de93a327c39001bff92dc014"
+      }
+    ]
+  },
   "files": {
-    ".github/ISSUE_TEMPLATE/bug.md": {
-      "executable": false,
-      "sha256": "b89052a43764b704fefad1e9f858f26775bfb40dd84da30cab92d086e3bb1eb6"
-    },
-    ".github/ISSUE_TEMPLATE/config.yml": {
-      "executable": false,
-      "sha256": "a33ab6e0df08148f69e8ebf40dd1ed2d5175f2acb3c9d2678c432624c37abe02"
-    },
-    ".github/ISSUE_TEMPLATE/feature.md": {
-      "executable": false,
-      "sha256": "f9c7d952c82aa016b2466d57bf8e28f10f8fdf1e9ce182e559a0d241a072b079"
-    },
-    ".github/ISSUE_TEMPLATE/new-employee.md": {
-      "executable": false,
-      "sha256": "35f639dca8c28593d2838415ac1d31f2a4a88ff7a692f200b29328ce1e041886"
-    },
-    ".github/ISSUE_TEMPLATE/question.md": {
-      "executable": false,
-      "sha256": "e318864cfb38b3cb203d112afdcc19073289637b2b5e1da0272080b708f2f2f2"
-    },
-    ".github/PULL_REQUEST_TEMPLATE.md": {
-      "executable": false,
-      "sha256": "1a61f5a9a87d61e0ddaddde991b7b97148be3c8dc16790f8f41e46adce49f469"
-    },
-    ".github/workflows/ci.yml": {
-      "executable": false,
-      "sha256": "011565a6bd750266c8b9980d8b82f453cec3786323f6dfd386883635f2a76c89"
-    },
-    ".github/workflows/try-router.yml": {
-      "executable": false,
-      "sha256": "fdd8d2ba86fc33dd1572dd98b558216502709e88635550b292cc180c100375ce"
-    },
     "CHANGELOG.md": {
       "executable": false,
       "sha256": "2a303c4d2dee7bac6d4e91449279b50ce964a6735dddd7da3a4c6b2e71e32438"
@@ -61,7 +39,7 @@
     },
     "NOTICE.md": {
       "executable": false,
-      "sha256": "4873642c0f2a1cddee4ca8c5e92b6af36311a37c9e52f2393b3db9fbfbffc8de"
+      "sha256": "60902bcb7c78f344c71d06cbc2f3df8a91c7582634772cd0cde98f2634757213"
     },
     "README.md": {
       "executable": false,
@@ -77,11 +55,15 @@
     },
     "SOLARIS-BUILD-SOURCE.json": {
       "executable": false,
-      "sha256": "66ddc714a0a40b7d807cf91b29f6236863467ab7f5ca772948ba243a44f6710a"
+      "sha256": "20058878f08e700c9fc1feb37449dd7824570482d7d5271d444d8aab7aa3b424"
     },
     "SOURCE-ENTRYPOINT-LAYOUT.json": {
       "executable": false,
       "sha256": "3651008c0d960f3dc921255e8bfeec45308546de75c5b61445436b86c4720513"
+    },
+    "SOURCE-NOTICE.md": {
+      "executable": false,
+      "sha256": "4873642c0f2a1cddee4ca8c5e92b6af36311a37c9e52f2393b3db9fbfbffc8de"
     },
     "SOURCE-README.md": {
       "executable": false,
@@ -7715,6 +7697,38 @@
       "executable": false,
       "sha256": "d23218739edfd63c0335d81b0eea07549e2349da9660bf290af0d0d19a821140"
     },
+    "source-config/.github/ISSUE_TEMPLATE/bug.md": {
+      "executable": false,
+      "sha256": "b89052a43764b704fefad1e9f858f26775bfb40dd84da30cab92d086e3bb1eb6"
+    },
+    "source-config/.github/ISSUE_TEMPLATE/config.yml": {
+      "executable": false,
+      "sha256": "a33ab6e0df08148f69e8ebf40dd1ed2d5175f2acb3c9d2678c432624c37abe02"
+    },
+    "source-config/.github/ISSUE_TEMPLATE/feature.md": {
+      "executable": false,
+      "sha256": "f9c7d952c82aa016b2466d57bf8e28f10f8fdf1e9ce182e559a0d241a072b079"
+    },
+    "source-config/.github/ISSUE_TEMPLATE/new-employee.md": {
+      "executable": false,
+      "sha256": "35f639dca8c28593d2838415ac1d31f2a4a88ff7a692f200b29328ce1e041886"
+    },
+    "source-config/.github/ISSUE_TEMPLATE/question.md": {
+      "executable": false,
+      "sha256": "e318864cfb38b3cb203d112afdcc19073289637b2b5e1da0272080b708f2f2f2"
+    },
+    "source-config/.github/PULL_REQUEST_TEMPLATE.md": {
+      "executable": false,
+      "sha256": "1a61f5a9a87d61e0ddaddde991b7b97148be3c8dc16790f8f41e46adce49f469"
+    },
+    "source-config/.github/workflows/ci.yml": {
+      "executable": false,
+      "sha256": "011565a6bd750266c8b9980d8b82f453cec3786323f6dfd386883635f2a76c89"
+    },
+    "source-config/.github/workflows/try-router.yml": {
+      "executable": false,
+      "sha256": "fdd8d2ba86fc33dd1572dd98b558216502709e88635550b292cc180c100375ce"
+    },
     "tests/test_assurance_packets.py": {
       "executable": false,
       "sha256": "70b0c4b2b14140e546162e002c90522706103f4e833e5e522fbaa0d9b9a69846"
@@ -7897,6 +7911,16 @@
     "plugin.json",
     "server.mjs"
   ],
+  "relocated_repository_configuration": {
+    ".github/ISSUE_TEMPLATE/bug.md": "source-config/.github/ISSUE_TEMPLATE/bug.md",
+    ".github/ISSUE_TEMPLATE/config.yml": "source-config/.github/ISSUE_TEMPLATE/config.yml",
+    ".github/ISSUE_TEMPLATE/feature.md": "source-config/.github/ISSUE_TEMPLATE/feature.md",
+    ".github/ISSUE_TEMPLATE/new-employee.md": "source-config/.github/ISSUE_TEMPLATE/new-employee.md",
+    ".github/ISSUE_TEMPLATE/question.md": "source-config/.github/ISSUE_TEMPLATE/question.md",
+    ".github/PULL_REQUEST_TEMPLATE.md": "source-config/.github/PULL_REQUEST_TEMPLATE.md",
+    ".github/workflows/ci.yml": "source-config/.github/workflows/ci.yml",
+    ".github/workflows/try-router.yml": "source-config/.github/workflows/try-router.yml"
+  },
   "specialists": 61,
   "version": "0.63.0"
 }

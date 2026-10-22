@@ -51,6 +51,11 @@ jobs:
           python -B distribution/tools/verify_harness_profiles.py --self-test
           node --check distribution/harnesses/deepseek/native/deepseek.mjs
           node --check distribution/harnesses/kilo/native/kilo.mjs
+      - name: Composite distribution notices and real provenance cross-checks
+        run: |
+          python -B distribution/tools/verify_distribution_metadata.py --self-test
+          python -B distribution/copilot/plugin/examples/capabilities/G38/authority_oracle.py
+          python -B distribution/copilot/plugin/examples/capabilities/G42/cross_checks.py
       - uses: actions/setup-node@249970729cb0ef3589644e2896645e5dc5ba9c38
         with:
           node-version: '24'

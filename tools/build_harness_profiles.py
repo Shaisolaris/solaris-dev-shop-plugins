@@ -7,6 +7,7 @@ import json
 from pathlib import Path
 import subprocess
 import tarfile
+from distribution_metadata import add_resource_notices, relocate_source_ci
 
 NATIVE_COMMIT = '085ebb9e9c137c5046c2153b9413d9badd102ce7'
 CORE_COMMIT = 'ee38d3de3d4b0d5467a589d5cb908f4964f593fe'
@@ -94,6 +95,8 @@ def build(source, output, host):
         'See ../../HARNESS-DISTRIBUTION.md in the source repository for exact install commands, tested host versions, evidence and limits. '
         'MIT licensed. Publisher: Solaris Technologies, https://solaristek.com. Support: https://github.com/Shaisolaris/solaris-dev-shop-plugins/issues.\n'
     )
+    notice = add_resource_notices(output)
+    relocated_ci = relocate_source_ci(output)
     canonical = json.loads((output / 'SOLARIS-BUILD-SOURCE.json').read_text())['canonical_files']
     for name, expected in canonical.items():
         assert digest((output / name).read_bytes()) == expected, name
@@ -101,7 +104,7 @@ def build(source, output, host):
              for f in sorted(output.rglob('*')) if f.is_file()}
     record = {'host': host, 'version': VERSION, 'native_source': NATIVE_COMMIT, 'core_source': CORE_COMMIT,
               'canonical_files': len(canonical), 'specialists': 61, 'coordinator': 1,
-              'new_employee_capabilities': 0, 'omitted_other_provider_files': sorted(omitted), 'files': files}
+              'new_employee_capabilities': 0, 'distribution_notice': notice, 'relocated_repository_configuration': relocated_ci, 'omitted_other_provider_files': sorted(omitted), 'files': files}
     (output / 'HARNESS-BUILD.json').write_text(json.dumps(record, indent=2, sort_keys=True) + '\n')
     return {'host': host, 'files': len(files) + 1, 'canonical_files': len(canonical)}
 
