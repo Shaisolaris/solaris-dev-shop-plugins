@@ -1,33 +1,19 @@
 # Native package validation
 
-The implementation source is pinned to Solaris Dev Shop commit
-[`d6f7c37c6039320f2eb284363038edae0cf15e7b`](https://github.com/Shaisolaris/solaris-dev-shop/commit/d6f7c37c6039320f2eb284363038edae0cf15e7b), released as 0.62.
-`BUILD.json` and `plugin/SOLARIS-BUILD-SOURCE.json` bind the native payload to that source.
+The 0.63.0 candidate pins Solaris Dev Shop core 0.63 at
+[`9f8cc53d3b84c78d3d26433948e2e0bdcc1b5bd5`](https://github.com/Shaisolaris/solaris-dev-shop/commit/9f8cc53d3b84c78d3d26433948e2e0bdcc1b5bd5).
+`BUILD.json` and `plugin/SOLARIS-BUILD-SOURCE.json` bind every shipped source file to that revision.
 
-## What was checked
+## Current evidence
 
-- All 1,196 shipped canonical files match their upstream bytes. The upstream README is preserved as `SOURCE-README.md`; repository `.gitignore` is deliberately omitted. The original 61-role roster and artwork files are preserved.
-- All 62 native skill entries resolve to their original workflow files and companion resources. Discovery adapters add no new capability claims.
-- Codex CLI 0.163.0-alpha.10.2 installs the package. Its app-server `skills/list` returns all 62 Solaris skills as enabled, with no Solaris discovery errors.
-- Claude Code 2.1.306 installs the package and reports 62 skills in its native component inventory. Its strict directory-profile validator reports no findings, warnings or install-instruction advice.
-- OpenCode CLI/SDK 2.1.2 loads the native adapter. Its actual authenticated local HTTP API returns all 62 Solaris workflows with contents matching the canonical files. The asynchronous catalog is awaited before acceptance.
-- Router self-tests and the 18-case delivery/recovery oracle pass from native installed package resources outside the checkout. Negative controls cover stale or rewritten evidence, missing deliveries, interrupted execution and invalid handoffs.
-- Repeated builds produce the same ZIP SHA-256. The verifier rejects a changed helper, missing workflow, dropped workflow index and mismatched source revision.
-
-The upstream [release CI](https://github.com/Shaisolaris/solaris-dev-shop/actions/runs/39686965940) passed all seven jobs. Its full POSIX suite contains 900 tests; macOS reports three explicit skips. Windows runs the documented core, assurance and platform-boundary lane. Those results belong to the pinned upstream source rather than a claim of universal platform support.
+- All 1,196 shipped canonical files match upstream bytes. The upstream README is preserved as `SOURCE-README.md`; repository `.gitignore` is deliberately omitted. The original 61 specialist roles, coordinator and artwork remain intact.
+- A rebuild with the independently pinned packager matches the complete generated payload and both catalogs, including executable modes. All nine built-in tampering controls are rejected. A separate independent audit also rejected eleven additional controls against the same verifier implementation.
+- The implementation and tests are unchanged from independently reviewed [`5b4e9c9`](https://github.com/Shaisolaris/solaris-dev-shop/commit/5b4e9c9ec4994554dba1459fb4e5c82f2017bf1e). That source passed [all seven CI jobs](https://github.com/Shaisolaris/solaris-dev-shop/actions/runs/39696362889), including 907-test Linux/macOS lanes with explicit skips and the documented supported Windows lane. The final 0.63 metadata revision has its own CI gate.
+- The native loading implementation and 62 discovery adapters are unchanged from 0.62. Native 0.62 installations were verified with Codex CLI/app-server, Claude Code 2.1.306 inventory and OpenCode 2.1.2's authenticated local catalog. Fresh 0.63.0 cache and installed-resource checks remain a release gate; historical installation results alone do not close it.
 
 ## Verification scope
 
-These are native loading, source integrity and helper-runtime checks. They do not
-establish model-driven activation quality, provider approval or every role's
-performance on real customer work. Claude CLI model authentication was unavailable;
-no model invocation is claimed. Raw host catalogs and local account information
-are kept out of this public repository.
-
-The publisher website privacy URL exists, but a direct automated fetch returned
-HTTP 403 during preparation. Its stated scope is the company website. See
-[plugin data handling](plugin/DATA-HANDLING.md) for the local package's behavior;
-a provider may request additional privacy information during review.
+Source, native discovery and local helper checks do not prove model-driven activation quality, provider-directory approval or every role's performance on real customer work. Some helpers require POSIX or additional documented tools. No model invocation or new account permission is granted by installing this package. Raw account state and host catalogs remain private.
 
 ## Run the conformance checks
 
@@ -37,12 +23,4 @@ python tools/verify_distribution.py --source /path/to/pinned-upstream-checkout \
   --packager /path/to/reviewed-packager-checkout --self-test
 ```
 
-The packager checkout must be exactly `ba4c9d99890074da35bdc8ba93c4949fb5b119e9`
-from the Solaris source repository. Its builder and assets must match that Git revision.
-The verifier rebuilds from this independent input and compares every generated byte,
-executable mode and complete marketplace catalog. Nine negative controls cover source,
-revision, index, adapters, native loaders, lifecycle scripts and extra catalog entries.
-
-The native conformance workflow fetches both pinned revisions, rejects those negative
-controls, then runs the packaged router and
-real delivery/recovery controls from outside the checkout.
+The packager checkout must be exactly `ba4c9d99890074da35bdc8ba93c4949fb5b119e9` from the Solaris source repository. Its builder and assets must match that Git revision. The verifier independently rebuilds every generated byte; an adjacent payload manifest cannot authorize changed code. Nine negative controls cover canonical source, revision, workflow index, adapter instructions, native loaders, lifecycle scripts and extra catalog entries.
