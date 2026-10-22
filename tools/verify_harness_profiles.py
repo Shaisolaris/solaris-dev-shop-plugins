@@ -83,6 +83,19 @@ def main():
     parser = argparse.ArgumentParser(description=__doc__)
     parser.add_argument('--self-test', action='store_true')
     args = parser.parse_args()
+    index = json.loads((ROOT / 'copilot/plugin/native/skills.json').read_text())
+    kimi = json.loads((ROOT / 'kimi.plugin.json').read_text())
+    expected = ['./copilot/plugin/skills/' + row['name'] for row in index]
+    assert len(index) == len(set(expected)) == 62 and kimi['skills'] == expected
+    assert kimi['name'] == 'solaris-dev-shop' and kimi['version'] == builder.VERSION
+    assert set(kimi) <= {'name', 'version', 'description', 'author', 'homepage', 'license', 'skills', 'interface'}
+    pi = json.loads((ROOT / 'package.json').read_text())
+    assert pi['pi']['skills'] == [path + '/SKILL.md' for path in expected]
+    assert set(pi['pi']) <= {'skills', 'extensions', 'prompts', 'themes'}
+    assert not any(pi['pi'].get(key) for key in ['extensions', 'prompts', 'themes'])
+    assert not pi.get('scripts') and not pi.get('dependencies')
+    for path in expected:
+        assert (ROOT / path / 'SKILL.md').is_file() and (ROOT / path / 'scripts/run.py').is_file()
     reports = []
     with tempfile.TemporaryDirectory(prefix='solaris-harness-rebuild-') as temp:
         for host in ['deepseek', 'kilo', 'openclaw', 'antigravity']:

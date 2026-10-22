@@ -51,3 +51,20 @@ jobs:
           python -B distribution/tools/verify_harness_profiles.py --self-test
           node --check distribution/harnesses/deepseek/native/deepseek.mjs
           node --check distribution/harnesses/kilo/native/kilo.mjs
+      - uses: actions/setup-node@249970729cb0ef3589644e2896645e5dc5ba9c38
+        with:
+          node-version: '24'
+      - name: Actual native OpenClaw CLI registration and coordinator outcome
+        env:
+          OPENCLAW_STATE_DIR: ${{ runner.temp }}/solaris-openclaw-state
+          OPENCLAW_CONFIG_PATH: ${{ runner.temp }}/solaris-openclaw-state/openclaw.json
+          DO_NOT_TRACK: '1'
+        run: |
+          npm install --prefix "$RUNNER_TEMP/solaris-host" --ignore-scripts --no-audit --no-fund openclaw@2026.10.5
+          HOST="$RUNNER_TEMP/solaris-host/node_modules/openclaw/openclaw.mjs"
+          node "$HOST" plugins install "$GITHUB_WORKSPACE/distribution/harnesses/openclaw" --force --accept-capabilities
+          node "$HOST" plugins enable solaris-dev-shop
+          node "$HOST" solaris intake 'review this code' --json > "$RUNNER_TEMP/solaris-intake.json"
+          python -c 'import json,os;from pathlib import Path;r=json.loads((Path(os.environ["RUNNER_TEMP"])/"solaris-intake.json").read_text());assert r["assignment"]["primary_capability"] == "solaris.code-reviewer";assert r["performed_work"] is False'
+          node "$HOST" skills list --json > "$RUNNER_TEMP/solaris-skills.json"
+          python -c 'import json,os;from pathlib import Path;i=json.loads(Path("distribution/harnesses/openclaw/native/skills.json").read_text());n={s["name"] for s in i};r=json.loads((Path(os.environ["RUNNER_TEMP"])/"solaris-skills.json").read_text());a=[s for s in r["skills"] if s["name"] in n];assert len(a)==62 and all(s["modelVisible"] for s in a)'

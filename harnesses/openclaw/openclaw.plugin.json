@@ -1,0 +1,24 @@
+{
+  "id": "solaris-dev-shop",
+  "name": "Solaris Dev Shop",
+  "version": "0.63.0",
+  "description": "61 specialist workflows and a chief-of-staff coordinator with local delivery, recovery and evidence tools.",
+  "skills": [
+    "./skills"
+  ],
+  "categories": [
+    "developer-tools"
+  ],
+  "configSchema": {
+    "type": "object",
+    "additionalProperties": false,
+    "properties": {}
+  },
+  "cliCommands": [
+    {
+      "name": "solaris",
+      "description": "Route a request through the pinned Solaris coordinator",
+      "hasSubcommands": true
+    }
+  ]
+}

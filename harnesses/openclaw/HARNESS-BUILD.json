@@ -4627,17 +4627,21 @@
       "executable": true,
       "sha256": "f08a53a44c2673379d56ce4a375d15d1585f797e3124bfe3f368f9fef102a34d"
     },
+    "native/openclaw.mjs": {
+      "executable": false,
+      "sha256": "ec496d8046dee6b82ce407f76b0861c8367c7f09df3e7ba8ed610de299a4596c"
+    },
     "native/skills.json": {
       "executable": false,
       "sha256": "a196bca0edb26f9f4c1ad9bcb4ace65ee5acbe7c646b3b9fa8aa51830242f71d"
     },
+    "openclaw.plugin.json": {
+      "executable": false,
+      "sha256": "bff7ead8cb8dda5f6f1030e42c024527e9254462c70743aa1ce5a6e466dd7b89"
+    },
     "package.json": {
       "executable": false,
-      "sha256": "cc66998325cae013045aa2e084b5e9656b63085b26ff838e2a58fe9475e47326"
-    },
-    "plugin.json": {
-      "executable": false,
-      "sha256": "1cafcdef8144d45b77a9b04bb0291fac4b7450c5408acc5f2aab14a37cbf0458"
+      "sha256": "0801a842700264cefaf1169c88f8bd4ed7f7abfca6235278515ce7f524eae717"
     },
     "pyproject.toml": {
       "executable": false,
@@ -7894,6 +7898,7 @@
   "omitted_other_provider_files": [
     ".claude-plugin/plugin.json",
     "native/opencode.mjs",
+    "plugin.json",
     "server.mjs"
   ],
   "specialists": 61,

@@ -40,7 +40,7 @@ def source_files(source):
 def build(source, output, host):
     assert not output.exists(), 'Output must be new; preserve earlier candidates.'
     original = source_files(source)
-    omitted = (OMIT | {'package.json'}) if host == 'antigravity' else (OMIT - {'plugin.json'} if host == 'openclaw' else OMIT)
+    omitted = (OMIT | {'package.json'}) if host == 'antigravity' else OMIT
     for name, (data, executable) in original.items():
         if name in omitted:
             continue
@@ -72,8 +72,12 @@ def build(source, output, host):
     if host == 'antigravity':
         (output / 'plugin.json').write_text(json.dumps({'name': 'solaris-dev-shop', 'description': '61 specialist workflows plus a chief-of-staff coordinator, with complete contained Python helpers and resources.'}, indent=2) + '\n')
     elif host == 'openclaw':
-        package.pop('main')
+        package['openclaw'] = {'extensions': ['./native/openclaw.mjs'], 'compat': {'pluginApi': '>=2026.10.5 <2027'}, 'build': {'openclawVersion': '2026.10.5'}}
+        package['main'] = './native/openclaw.mjs'
         (output / 'package.json').write_text(json.dumps(package, indent=2) + '\n')
+        (output / 'native/openclaw.mjs').write_bytes((ROOT / 'tools/harness-assets/openclaw.mjs').read_bytes())
+        manifest = {'id': 'solaris-dev-shop', 'name': 'Solaris Dev Shop', 'version': VERSION, 'description': package['description'], 'skills': ['./skills'], 'categories': ['developer-tools'], 'configSchema': {'type': 'object', 'additionalProperties': False, 'properties': {}}, 'cliCommands': [{'name': 'solaris', 'description': 'Route a request through the pinned Solaris coordinator', 'hasSubcommands': True}]}
+        (output / 'openclaw.plugin.json').write_text(json.dumps(manifest, indent=2) + '\n')
         (output / 'assets/icon.png').write_bytes((output / 'assets/native-plugin-icon.png').read_bytes())
     else:
         (output / 'native' / (host + '.mjs')).write_bytes((ROOT / 'tools/harness-assets' / (host + '.mjs')).read_bytes())
