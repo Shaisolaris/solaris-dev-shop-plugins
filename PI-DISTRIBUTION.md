@@ -1,13 +1,9 @@
-# Solaris Dev Shop for Pi
+# Solaris Dev Shop for Pi 0.64.0
 
-A native Pi package of 61 specialist workflows and the chief-of-staff coordinator, version0.63.0. It reuses the existing complete contained profile; this manifest adds zero employee capabilities.
+61 specialist workflows and the chief-of-staff coordinator, retaining 1,197 canonical files.
 
 ```sh
-pi install git:github.com/Shaisolaris/solaris-dev-shop-plugins@c69fbcf49e46da3837fcf75420b9914705b2eab7
+pi install git:github.com/Shaisolaris/solaris-dev-shop-plugins@2e51c951ce4573c0ab7c5cc807118d6e0c5b815c
 ```
 
-For local authoring, use `pi install ./path/to/checkout`. The package declares 62 exact skill file paths and no extension code, prompt templates or themes. Its complete shared Python runtime stays under `copilot/plugin`; installing individual skill folders would omit that runtime.
-
-Pi1.4.0's actual local package manager and public SDK resource/skill loaders resolve 62 unique names with no diagnostics. The same public Git installation also passed62 native skills with no diagnostics, all1974 contained payload bytes/modes,62 fresh context calls and a live coordinator assignment. The npm-indexed gallery still requires publisher authentication; Git installation is already public. No model call was made. The host provides tools and approvals; Python helpers need Python3.10 or later. This is not a security sandbox or a claim that all61roles gained new executable behavior. See [the harness distribution evidence](HARNESS-DISTRIBUTION.md).
-
-MIT licensed. Solaris Technologies — https://solaristek.com. Support: https://github.com/Shaisolaris/solaris-dev-shop-plugins/issues.
+Pi 1.4.0's actual public Git package manager and stock SDK resolver/skill loader return 62 unique workflows with matching descriptions/paths and zero diagnostics. All 1,975 contained payload bytes/modes, 62 helper contexts and the actual coordinator pass. The root manifest declares exact skills and no extensions, prompts, themes, runtime dependencies or lifecycle scripts. The npm-indexed gallery still needs registry publication. No model activation or marketplace approval is inferred. Python 3.10+ and role prerequisites apply; the host provides normal tools and approvals. See [current evidence and limits](HARNESS-DISTRIBUTION.md).
