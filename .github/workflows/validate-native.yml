@@ -68,3 +68,5 @@ jobs:
           python -c 'import json,os;from pathlib import Path;r=json.loads((Path(os.environ["RUNNER_TEMP"])/"solaris-intake.json").read_text());assert r["assignment"]["primary_capability"] == "solaris.code-reviewer";assert r["performed_work"] is False'
           node "$HOST" skills list --json > "$RUNNER_TEMP/solaris-skills.json"
           python -c 'import json,os;from pathlib import Path;i=json.loads(Path("distribution/harnesses/openclaw/native/skills.json").read_text());n={s["name"] for s in i};r=json.loads((Path(os.environ["RUNNER_TEMP"])/"solaris-skills.json").read_text());a=[s for s in r["skills"] if s["name"] in n];assert len(a)==62 and all(s["modelVisible"] for s in a)'
+      - name: Actual Antigravity native plugin manager in a fresh hosted profile
+        run: python -B distribution/tools/verify_antigravity_host.py --work "$RUNNER_TEMP/solaris-antigravity-native"
