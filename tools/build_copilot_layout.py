@@ -4,6 +4,7 @@ The shared pinned runtime is retained once. Mirrors are packaging resources,
 not new role capabilities. No source implementation or release version changes.
 """
 from pathlib import Path
+import argparse
 import sys
 import hashlib
 import json
@@ -14,9 +15,12 @@ from distribution_metadata import add_resource_notices, relocate_source_ci
 
 HERE = Path(__file__).resolve().parent
 BASE = HERE.parent/'plugin'
-if len(sys.argv) != 2:
-    raise SystemExit('Usage: build_copilot_layout.py NEW_OUTPUT_DIRECTORY')
-OUT = Path(sys.argv[1]).resolve()
+parser = argparse.ArgumentParser(description=__doc__)
+parser.add_argument('output', type=Path)
+parser.add_argument('--stage', choices=['distribution', 'contained-input'], default='distribution',
+                    help='contained-input prepares an unpublished source snapshot; final packages always derive notices and inert CI metadata')
+ARGS = parser.parse_args()
+OUT = ARGS.output.resolve()
 
 RUNNER = '''#!/usr/bin/env python3
 """Invoke this workflow's pinned shared runtime; host permissions still apply."""
@@ -76,7 +80,7 @@ def build():
     assert not OUT.exists(), 'Do not overwrite an existing candidate.'
     shutil.copytree(BASE, OUT, ignore=shutil.ignore_patterns('__pycache__', '*.pyc'))
     canonical = json.loads((BASE/'SOLARIS-BUILD-SOURCE.json').read_text())
-    assert canonical['source_commit'] == 'ee38d3de3d4b0d5467a589d5cb908f4964f593fe', 'Review a new upstream revision before changing this pin.'
+    assert canonical['source_commit'] == '3a577e42c48473f6ef8680950dd55c067820d5d3', 'Review a new upstream revision before changing this pin.'
     index = json.loads((BASE/'native/skills.json').read_text())
     records = {}
     original_missing = []
@@ -141,20 +145,25 @@ def build():
                        'entrypoint_sha256':hashlib.sha256(script.read_bytes()).hexdigest()}
     ignored_examples = set([('employees/engineering/unreal-developer/unreal-genai-asset-gen.md', 'const FString& Response, const FString& Error, bool bSuccess'), ('employees/specialized/wordpress-master/diagnostics/build-scrape/SKILL.md', '[^\\"\\\\\'>{]+'), ('employees/specialized/wordpress-master/diagnostics/build-scrape/SKILL.md', '{source_url}'), ('employees/specialized/wordpress-master/diagnostics/build-scrape/SKILL.md', '{url}')])
     assert all((x['from'], x['reference']) in ignored_examples for x in original_missing), original_missing
-    report={'prototype':False,'source_native_commit':'87da307b244b3fc360d21a567c6fa27e2e1a0313',
-            'source_core_commit':canonical['source_commit'],'version':'0.63.0',
+    report={'prototype':False,'source_native_commit':'2ca1ffa5597981a1effbbcd43aefdc82ce03d124',
+            'source_core_commit':canonical['source_commit'],'version':canonical['native_version'],
+            'metadata_stage':ARGS.stage,
             'workflow_count':len(records),'new_role_capabilities':0,'mirrors':records,
             'excluded_code_example_patterns':original_missing}
     (OUT/'README.md').write_text('''# Solaris Dev Shop for GitHub Copilot
 
-This 0.63.0 distribution preserves the 61 specialist workflows and coordinating intake workflow. Each discoverable skill contains its canonical workflow/reference mirror and a local entrypoint; the unchanged pinned runtime is shared at the plugin root. Mirrors satisfy the marketplace resource layout and add no new employee capabilities.
+This distribution preserves the 61 specialist workflows and coordinating intake workflow. Each discoverable skill contains its canonical workflow/reference mirror and a local entrypoint; the pinned runtime is shared at the plugin root. Mirrors satisfy the marketplace resource layout and add no new employee capabilities. The exact version and source are recorded in SOLARIS-BUILD-SOURCE.json.
 
 Use the local skill entrypoint for Python helpers. It preserves the original canonical working directory and refuses a helper that differs from its source manifest. Host permissions, approvals, tools and documented runtime requirements still apply. This is not a security sandbox.
 
 The source revision, mirror hashes and local entrypoint hashes are recorded in SOLARIS-BUILD-SOURCE.json and COPILOT-LAYOUT.json. See the repository COPILOT-SUBMISSION.md for validation and marketplace status. No model activation or marketplace approval is implied.
 ''')
-    report['distribution_notice'] = add_resource_notices(OUT)
-    report['relocated_repository_configuration'] = relocate_source_ci(OUT)
+    if ARGS.stage == 'distribution':
+        report['distribution_notice'] = add_resource_notices(OUT)
+        report['relocated_repository_configuration'] = relocate_source_ci(OUT)
+    else:
+        report['publication_ready'] = False
+        report['required_before_publication'] = 'Derive resource notices and relocate canonical CI snapshots exactly once in each final profile.'
     (OUT/'COPILOT-LAYOUT.json').write_text(json.dumps(report,indent=2)+'\n')
     print(json.dumps({'workflows':len(records),'mirror_files':sum(len(x['mirrored_canonical_files']) for x in records.values()),
                       'unresolved_original_references':len(original_missing),'prototype':False}))

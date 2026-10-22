@@ -1,6 +1,6 @@
 # Solaris Dev Shop for GitHub Copilot
 
-This 0.63.0 distribution preserves the 61 specialist workflows and coordinating intake workflow. Each discoverable skill contains its canonical workflow/reference mirror and a local entrypoint; the unchanged pinned runtime is shared at the plugin root. Mirrors satisfy the marketplace resource layout and add no new employee capabilities.
+This distribution preserves the 61 specialist workflows and coordinating intake workflow. Each discoverable skill contains its canonical workflow/reference mirror and a local entrypoint; the pinned runtime is shared at the plugin root. Mirrors satisfy the marketplace resource layout and add no new employee capabilities. The exact version and source are recorded in SOLARIS-BUILD-SOURCE.json.
 
 Use the local skill entrypoint for Python helpers. It preserves the original canonical working directory and refuses a helper that differs from its source manifest. Host permissions, approvals, tools and documented runtime requirements still apply. This is not a security sandbox.
 
