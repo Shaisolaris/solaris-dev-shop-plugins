@@ -20,22 +20,29 @@ def main():
     parser = argparse.ArgumentParser(description=__doc__)
     parser.add_argument('--work', type=Path, required=True)
     args = parser.parse_args()
-    assert sys.platform == 'linux' and platform.machine() == 'x86_64', 'Requires Linux x86_64'
-    assert os.environ.get('GITHUB_ACTIONS') == 'true', 'Run this check on a fresh hosted runner'
-    assert os.environ.get('RUNNER_ENVIRONMENT') == 'github-hosted', 'No owner/self-hosted profile'
+    if sys.platform != 'linux' or platform.machine() != 'x86_64':
+        raise RuntimeError('Requires Linux x86_64')
+    if os.environ.get('GITHUB_ACTIONS') != 'true':
+        raise RuntimeError('Run this check on a fresh hosted runner')
+    if os.environ.get('RUNNER_ENVIRONMENT') != 'github-hosted':
+        raise RuntimeError('No owner/self-hosted profile')
     google_home = Path.home() / '.gemini'
-    assert not google_home.exists(), 'Refuse access to an existing Google profile'
+    if google_home.exists():
+        raise RuntimeError('Refuse access to an existing Google profile')
     work = args.work.resolve()
     work.mkdir(parents=True, exist_ok=False)
     pin = json.loads((ROOT / 'tools/native-hosts/antigravity-linux.json').read_text())
-    assert pin['url'].startswith('https://storage.googleapis.com/antigravity-public/')
+    if not pin['url'].startswith('https://storage.googleapis.com/antigravity-public/'):
+        raise ValueError('Unexpected binary source')
     with urllib.request.urlopen(pin['url'], timeout=120) as response:
         payload = response.read(200 * 1024 * 1024 + 1)
     assert len(payload) <= 200 * 1024 * 1024
-    assert hashlib.sha512(payload).hexdigest() == pin['sha512'], 'Official binary digest mismatch'
+    if hashlib.sha512(payload).hexdigest() != pin['sha512']:
+        raise ValueError('Official binary digest mismatch')
     with tarfile.open(fileobj=io.BytesIO(payload)) as archive:
         entry = archive.getmember('antigravity')
-        assert entry.isfile(), 'Expected one regular native executable'
+        if not entry.isfile():
+            raise ValueError('Expected one regular native executable')
         binary = work / 'agy'
         binary.write_bytes(archive.extractfile(entry).read())
         binary.chmod(0o755)
@@ -55,6 +62,7 @@ def main():
         return result.stdout
 
     run('install', 'plugin', 'install', str(profile))
+    run('enable', 'plugin', 'enable', 'solaris-dev-shop')
     catalog = json.loads(run('list', 'plugin', 'list', '--json'))
     rows = catalog if isinstance(catalog, list) else catalog['plugins']
     own = [row for row in rows if row['name'] == 'solaris-dev-shop']
@@ -62,7 +70,8 @@ def main():
     row = own[0]
     assert row.get('enabled') is True and len(row['skills']) == 62, row
     installed = Path(row['path']).resolve()
-    assert installed.is_relative_to(google_home.resolve()) and installed != profile.resolve()
+    if not installed.is_relative_to(google_home.resolve()) or installed == profile.resolve():
+        raise ValueError('Native installed path is outside the fresh Google profile')
     count = 0
     for source in profile.rglob('*'):
         assert not source.is_symlink()
