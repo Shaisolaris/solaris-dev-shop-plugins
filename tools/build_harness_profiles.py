@@ -1,5 +1,5 @@
 #!/usr/bin/env python3
-"""Build native DSH/Kilo/OpenClaw profiles from an immutable reviewed Solaris payload."""
+"""Build native DSH/Kilo/OpenClaw/Antigravity profiles from an immutable reviewed Solaris payload."""
 import argparse
 import hashlib
 import io
@@ -40,7 +40,7 @@ def source_files(source):
 def build(source, output, host):
     assert not output.exists(), 'Output must be new; preserve earlier candidates.'
     original = source_files(source)
-    omitted = OMIT - {'plugin.json'} if host == 'openclaw' else OMIT
+    omitted = (OMIT | {'package.json'}) if host == 'antigravity' else (OMIT - {'plugin.json'} if host == 'openclaw' else OMIT)
     for name, (data, executable) in original.items():
         if name in omitted:
             continue
@@ -50,13 +50,13 @@ def build(source, output, host):
         target.write_bytes(data)
         target.chmod(0o755 if executable else 0o644)
     package = {
-        'name': 'dsh-plugin-solaris-dev-shop' if host == 'deepseek' else ('solaris-dev-shop-openclaw' if host == 'openclaw' else 'solaris-dev-shop-kilo'),
+        'name': 'dsh-plugin-solaris-dev-shop' if host == 'deepseek' else ('solaris-dev-shop-' + host),
         'version': VERSION, 'type': 'module', 'license': 'MIT',
         'description': '61 specialist workflows and a chief-of-staff coordinator with local delivery, recovery and evidence tools.',
         'author': {'name': 'Solaris Technologies', 'email': 'shehryar@solaristek.com', 'url': 'https://solaristek.com'},
         'repository': {'type': 'git', 'url': 'https://github.com/Shaisolaris/solaris-dev-shop-plugins.git', 'directory': 'harnesses/' + host},
         'homepage': 'https://github.com/Shaisolaris/solaris-dev-shop-plugins',
-        'keywords': ['solaris-dev-shop', 'agent-skills', {'deepseek': 'dsh-plugin', 'kilo': 'kilo', 'openclaw': 'openclaw-plugin'}[host]],
+        'keywords': ['solaris-dev-shop', 'agent-skills', {'deepseek': 'dsh-plugin', 'kilo': 'kilo', 'openclaw': 'openclaw-plugin', 'antigravity': 'antigravity-plugin'}[host]],
         'main': './native/' + host + '.mjs',
     }
     if host == 'deepseek':
@@ -67,15 +67,18 @@ def build(source, output, host):
     elif host == 'kilo':
         package['exports'] = {'.': './native/kilo.mjs', './server': './native/kilo.mjs'}
         package['engines'] = {'opencode': '>=7.8.15 <8'}
-    (output / 'package.json').write_text(json.dumps(package, indent=2) + '\n')
-    if host == 'openclaw':
+    if host != 'antigravity':
+        (output / 'package.json').write_text(json.dumps(package, indent=2) + '\n')
+    if host == 'antigravity':
+        (output / 'plugin.json').write_text(json.dumps({'name': 'solaris-dev-shop', 'description': '61 specialist workflows plus a chief-of-staff coordinator, with complete contained Python helpers and resources.'}, indent=2) + '\n')
+    elif host == 'openclaw':
         package.pop('main')
         (output / 'package.json').write_text(json.dumps(package, indent=2) + '\n')
         (output / 'assets/icon.png').write_bytes((output / 'assets/native-plugin-icon.png').read_bytes())
     else:
         (output / 'native' / (host + '.mjs')).write_bytes((ROOT / 'tools/harness-assets' / (host + '.mjs')).read_bytes())
     (output / 'README.md').write_text(
-        '# Solaris Dev Shop for ' + {'deepseek': 'DeepSeek Harness', 'kilo': 'Kilo', 'openclaw': 'OpenClaw'}[host] + '\n\n'
+        '# Solaris Dev Shop for ' + {'deepseek': 'DeepSeek Harness', 'kilo': 'Kilo', 'openclaw': 'OpenClaw', 'antigravity': 'Google Antigravity'}[host] + '\n\n'
         '61 specialist employees plus one chief-of-staff coordinator: 62 workflows. '
         'This native profile preserves the reviewed Solaris 0.63.0 runtime and adds zero employee capabilities.\n\n'
         'Install the complete package through the host plugin manager. Host tools, approvals and runtime requirements apply; '
@@ -104,4 +107,4 @@ if __name__ == '__main__':
     parser.add_argument('--source', type=Path, default=ROOT)
     parser.add_argument('--output', type=Path, required=True)
     args = parser.parse_args()
-    print(json.dumps([build(args.source, args.output / host, host) for host in ['deepseek', 'kilo', 'openclaw']]))
+    print(json.dumps([build(args.source, args.output / host, host) for host in ['deepseek', 'kilo', 'openclaw', 'antigravity']]))
