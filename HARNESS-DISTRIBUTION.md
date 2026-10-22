@@ -23,7 +23,7 @@ dsh --profile solaris-test --dump-config
 Install the reviewed public Git revision:
 
 ```sh
-dsh plugin --profile solaris-test add "git+https://github.com/Shaisolaris/solaris-dev-shop-plugins.git#e38f945bbd969571969dc8e27cc5f9571b2e44f8&path:/harnesses/deepseek"
+dsh plugin --profile solaris-test add "git+https://github.com/Shaisolaris/solaris-dev-shop-plugins.git#c69fbcf49e46da3837fcf75420b9914705b2eab7&path:/harnesses/deepseek"
 ```
 
 A format1 custom-market index is published at `markets/deepseek.json`; it pins the same exact source. DSH ships no default public index and custom-market publication is not DeepSeek approval. The first-party index validator accepts this index and computes the same pinned install target.
@@ -49,26 +49,26 @@ Public Git transport is **not accepted**: the native manager reports installatio
 Qwen Code **0.26.0** directly installed the existing public Gemini-format source below, converted its manifest through the native manager, and lists 62 enabled skill entries:
 
 ```sh
-qwen extensions install https://github.com/Shaisolaris/solaris-dev-shop-gemini --ref 1521695cb8b5bac656c8bdfc1146d53e1fa707de
+qwen extensions install https://github.com/Shaisolaris/solaris-dev-shop-gemini --ref ef92e4bd85a7b9971591812e2976210fd71fa851
 ```
 
-All1975 installed source files and executable modes match the public revision; all62 context calls and the installed coordinator pass outside the checkout. This uses the host's documented cross-format support, with the complete source and resources retained. It is not an independent Qwen directory approval.
+All1977 installed source files and executable modes match the public revision; all62 context calls and the installed coordinator pass outside the checkout. This uses the host's documented cross-format support, with the complete source and resources retained. It is not an independent Qwen directory approval.
 
 ## Pi
 
-The repository-root `package.json` is a native Pi package manifest. It declares the 62 exact skill files from the existing contained profile; it declares no extensions, prompts or themes. Pi **1.4.0** installed the local package, then its public native package resolver and skill loader found all 62 unique names with no diagnostics. The actual public Git install at `e38f945bbd969571969dc8e27cc5f9571b2e44f8` also passes all62 names through the native manager and loader. All1973 contained payload file bytes/modes match; all62 live context calls and the installed coordinator work outside the checkout. The Pi gallery indexes npm packages; npm publisher authentication is a separate unresolved requirement.
+The repository-root `package.json` is a native Pi package manifest. It declares the 62 exact skill files from the existing contained profile; it declares no extensions, prompts or themes. Pi **1.4.0** installed the local package, then its public native package resolver and skill loader found all 62 unique names with no diagnostics. The actual public Git install at `c69fbcf49e46da3837fcf75420b9914705b2eab7` also passes all62 names through the native manager and loader. All1974 contained payload file bytes/modes match; all62 live context calls and the installed coordinator work outside the checkout. The Pi gallery indexes npm packages; npm publisher authentication is a separate unresolved requirement.
 
 ## Kimi Code
 
-The root `kimi.plugin.json` declares62 exact contained skill directories and no hooks, MCP servers, agents, credentials or session-start instructions. Kimi Code2.3.0's actual authenticated loopback native plugin API installed `fc84da9e9e40721a49675b1c95b862b85e7fabc6` from public GitHub and reports enabled/stateOK/skillCount62 with no diagnostics. All1973 contained payload bytes/modes and62 live context calls/coordinator routing match. Install this complete repository through Kimi's `/plugins install` using the exact GitHub revision. Vendor catalog consideration is [issue4344](https://github.com/MoonshotAI/kimi-code/issues/4344); no curated or partner status is claimed.
+The root `kimi.plugin.json` declares62 exact contained skill directories and no hooks, MCP servers, agents, credentials or session-start instructions. Kimi Code2.3.0's actual authenticated loopback native plugin API installed `c69fbcf49e46da3837fcf75420b9914705b2eab7` from public GitHub and reports enabled/stateOK/skillCount62 with no diagnostics. All1974 contained payload bytes/modes and62 live context calls/coordinator routing match. Install this complete repository through Kimi's `/plugins install` using the exact GitHub revision. Vendor catalog consideration is [issue4344](https://github.com/MoonshotAI/kimi-code/issues/4344); no curated or partner status is claimed.
 
 ## OpenClaw
 
 The `harnesses/openclaw` profile is a native source plugin for OpenClaw2026.10.5. It declares all62 skills and a real `openclaw solaris intake <request> --json` command. That command invokes the pinned Python coordinator with argument separation, no shell, a32KiB input limit,20second timeout and a minimal child environment. It returns an assignment and never executes specialist work. Python3.10+ is required on the caller'sPATH. There are no model calls, MCP servers, background jobs or provider credentials.
 
-The actual host loads the native plugin and registers the CLI. Its command returns a code-review assignment as JSON onstdout; literal shell syntax and option-like request text remain data, and oversized text is rejected. The first-party package inspector reports no issues. A golden rebuild checks all1973 source files/modes and1196 canonical hashes. Public transport and registry acceptance are separate gates.
+The actual host loads the native plugin and registers the CLI. Its command returns a code-review assignment as JSON onstdout; literal shell syntax and option-like request text remain data, and oversized text is rejected. The first-party package inspector reports no issues. A golden rebuild checks all1974 source files/modes and1196 canonical hashes. Public transport and registry acceptance are separate gates.
 
-An earlier compatible Agent Plugins bundle is publicly installable from `Shaisolaris/solaris-dev-shop-openclaw` at its exact reviewed marketplace revision; it exposes62 visible workflows. The native SDK revision is being reviewed before replacing that public default. Registry publication uses a complete compressed source artifact, preserving Unicode fixtures and every canonical file; no compiled or opaque executable is introduced.
+An earlier compatible Agent Plugins bundle is publicly installable from `Shaisolaris/solaris-dev-shop-openclaw` at its exact reviewed marketplace revision; it exposes62 visible workflows. The native SDK and notice-repair revisions passed independent review and exact-source CI. The public default now carries the native SDK profile. Registry publication uses a complete compressed source artifact, preserving Unicode fixtures and every canonical file; no compiled or opaque executable is introduced.
 
 ## Google Antigravity
 
