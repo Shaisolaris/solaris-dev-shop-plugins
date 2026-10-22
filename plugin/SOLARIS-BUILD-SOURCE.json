@@ -1,5 +1,5 @@
 {
-  "source_commit": "9f8cc53d3b84c78d3d26433948e2e0bdcc1b5bd5",
+  "source_commit": "ee38d3de3d4b0d5467a589d5cb908f4964f593fe",
   "source_repository": "https://github.com/Shaisolaris/solaris-dev-shop",
   "source_version": "0.63",
   "native_version": "0.63.0",
@@ -44,7 +44,7 @@
     "chief-of-staff/plugin.json": "d5920741e1f5644882727ededc36990a43302b16a009a2494dffcb0974312307",
     "chief-of-staff/references/company-facts.md": "4a6335b6e53479a1585ea7649003f5df645d09522cfffaed55ef94e218f53126",
     "chief-of-staff/references/cross-employee-integration-patterns.md": "29566d5645fac252540e263d7daddaa8c09e60e8cf3c1ef5184b4fbba1181d2c",
-    "chief-of-staff/references/routing-patterns.md": "16f63c8826dbec4aa32d9dc06ab821654bc05098a011e794b1c1df56285702db",
+    "chief-of-staff/references/routing-patterns.md": "679cc23c9ea58124b07c67be75ae029594d1a73cabae4c60818914c1ecd4db40",
     "chief-of-staff/references/routing-table.md": "787a914a92e8750e3b757b12dc80350147417783f174b84aca3a9b824c3125e1",
     "chief-of-staff/references/supervisor-handoff-tool-pattern.md": "64c0118656941768cd2f2da38280c20fcc8e8ef80ab62a9c372645beb97b0170",
     "chief-of-staff/rules.md": "136cb26e13c7f7ff4eb75a44e4437f90cfcd474dcb9a9ba7ea627218d5dd9be0",
@@ -1130,7 +1130,7 @@
     "examples/capabilities/G41/noop_inventory.py": "d1f5768d582ec5a626d0ecddfd78dce93d288bf21c57d32f88b98eb104968215",
     "examples/capabilities/G42/README.md": "dcf205e815d8678f8b12fbf8523ff7f0a2ebbf1d5080c355c4137e7166385ec3",
     "examples/capabilities/G42/cross_checks.py": "1a22bac5dd9b75aba4dea38b6f45a17f8cd7b4ffeb0ec26b5f0cf8dc9b30f1cf",
-    "examples/capabilities/G42/plan.json": "62d4ed7b6ab1a0fa2bd0e061914798aea8c56d7de0645d9b5104e086419dc2c4",
+    "examples/capabilities/G42/plan.json": "47ec09d89b2cb39b19ffe215b577433aea4e6e3480c351736e06c627ec2f68cb",
     "examples/escalation/README.md": "1ef310e691482a9189526410c527abba8813a167f5d5a855d15df7ddcddfad98",
     "examples/escalation/input.md": "909a404c152cbc590890bda27b34c5399eb84c51f8b4c111b946d47206774cd3",
     "examples/escalation/observed.json": "54ee9f16738c8f170be3511e939afb37f86495640d33096de46ca9db9e84e203",
@@ -1203,7 +1203,7 @@
     "tests/test_g39_capability.py": "21ce97747d08059504614a706d489ac2ad211a559230c7e3db6872eeeeec3170",
     "tests/test_g40_capability.py": "c2571ff65bbe374b3ccbb8c52f6978a125d3bfe6385ab7a030b081bdeb9d0ab9",
     "tests/test_g41_capability.py": "255353ec954f594f4dbe0d7fc70a1ebf8bf11e3c431def7da87a950db200737d",
-    "tests/test_g42_capability.py": "90bdc849b901e220e88002a0c0165c594d19bcadc0ad852df4b7993e374353d7",
+    "tests/test_g42_capability.py": "1de8cb7e53565429e193b8c0c02cd4cc1345d07e05679787fcfafe662500ae19",
     "tests/test_intake_features.py": "ddec501c577c549dd7e72990a8f0602c45cfcb036a67465e8adde7f35c2dbeea",
     "tests/test_router.py": "de0db294e6681b92d45df2ab994506b3e8c15ec20540322e434f196dcc9db6fd",
     "tools/build_skill_catalog.py": "355522a0811f3cd7b368a044808d1a830e0a8aa95ce147aab4c47c82287153e4",
@@ -1215,7 +1215,7 @@
   "omitted_repository_config": [
     ".gitignore"
   ],
-  "packager_sha256": "8e447979f298d3e118d85263b53a6214495cfe6e675cb1eeed07dd0ed07a7ac3",
+  "packager_sha256": "7c50f2659c0cc05ff9107d1f550d5b9df760518a37c1c90c99b288d87152ba0c",
   "listing_icon_sha256": "293fd397b99ca61af1dc9a47b60635722e4290c7417f6bfe390cb4e1c88cf8a9",
   "official_listing_approved": false,
   "limits": "Native format support is separate from directory approval and model-driven activation. See the recorded host tests for their exact scope."

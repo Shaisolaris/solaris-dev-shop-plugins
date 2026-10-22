@@ -10,8 +10,10 @@ import re
 import shutil
 import struct
 import subprocess
+import sys
 import tarfile
 import tempfile
+from urllib.parse import urlsplit
 
 import yaml
 
@@ -33,7 +35,38 @@ def read_source(path):
     return head, result
 
 
-PACKAGER_COMMIT = "ba4c9d99890074da35bdc8ba93c4949fb5b119e9"
+PACKAGER_COMMIT = "129781961be54cc2f12d6bafe80e81d6a1cd8d02"
+
+
+def listing_metadata(portable):
+    interface = portable["extensions"]["com.openai"]["interface"]
+    subtitle = interface["shortDescription"]
+    assert isinstance(subtitle, str) and 0 < len(subtitle) <= 30
+    assert "\n" not in subtitle and "\r" not in subtitle
+    terms = interface.get("termsOfServiceURL")
+    assert isinstance(terms, str) and terms, "missing software terms URL"
+    url = urlsplit(terms)
+    assert url.scheme == "https" and url.hostname and not url.username and not url.password
+
+
+def fresh_coordinator_caller(package):
+    skill = package / "skills/chief-of-staff/SKILL.md"
+    link = re.search(r"\[routing engine\]\(([^)]+)\)", skill.read_text())
+    assert link, "native coordinator has no resolvable engine entrypoint"
+    engine = (skill.parent / link.group(1)).resolve()
+    assert engine.is_relative_to(package.resolve()) and engine.is_file()
+    # The canonical role folder is deliberately not the plugin root. Resolve
+    # the entrypoint from the native skill, as its instructions now require.
+    run = subprocess.run(
+        [sys.executable, "-B", str(engine), "intake", "review this code", "--json"],
+        cwd=package / "chief-of-staff", capture_output=True, text=True, timeout=15,
+    )
+    assert run.returncode == 0, run.stderr
+    result = json.loads(run.stdout)
+    assert result["decision"] == "assign"
+    assert result["assignment"]["primary_capability"] == "solaris.code-reviewer"
+    assert result["performed_work"] is False
+    return {"result": "PASS", "primary": "solaris.code-reviewer", "performed_work": False}
 
 
 def rebuild(source_path, packager_path, revision):
@@ -106,6 +139,7 @@ def validate(root, revision, source, generated):
             actual.add(str(file.relative_to(package)))
     assert actual == set(expected) | extra, "unexpected or missing package files"
     portable = json.loads((package / "plugin.json").read_text())
+    listing_metadata(portable)
     claude = json.loads((package / ".claude-plugin/plugin.json").read_text())
     node = json.loads((package / "package.json").read_text())
     assert portable["version"] == claude["version"] == node["version"] == build["plugin_version"]
@@ -183,4 +217,20 @@ if __name__ == "__main__":
     result = validate(root, revision, files, generated)
     if args.self_test:
         result["rejected_controls"] = controls(root, revision, files, generated)
+        result["fresh_coordinator_caller"] = fresh_coordinator_caller(root / "plugin")
+        portable = json.loads((root / "plugin/plugin.json").read_text())
+        listing_rejected = []
+        for label in ["overlong subtitle", "missing terms"]:
+            bad = json.loads(json.dumps(portable))
+            interface = bad["extensions"]["com.openai"]["interface"]
+            if label == "overlong subtitle":
+                interface["shortDescription"] = "x" * 31
+            else:
+                interface.pop("termsOfServiceURL")
+            try:
+                listing_metadata(bad)
+            except AssertionError:
+                listing_rejected.append(label)
+            assert label in listing_rejected, "listing regression accepted: " + label
+        result["rejected_listing_controls"] = listing_rejected
     print(json.dumps(result, indent=2))

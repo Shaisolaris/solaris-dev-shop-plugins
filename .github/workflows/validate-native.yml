@@ -19,13 +19,13 @@ jobs:
       - uses: actions/checkout@11d5960a326750d5838078e36cf38b85af677262
         with:
           repository: Shaisolaris/solaris-dev-shop
-          ref: 9f8cc53d3b84c78d3d26433948e2e0bdcc1b5bd5
+          ref: ee38d3de3d4b0d5467a589d5cb908f4964f593fe
           path: upstream
           persist-credentials: false
       - uses: actions/checkout@11d5960a326750d5838078e36cf38b85af677262
         with:
           repository: Shaisolaris/solaris-dev-shop
-          ref: ba4c9d99890074da35bdc8ba93c4949fb5b119e9
+          ref: 129781961be54cc2f12d6bafe80e81d6a1cd8d02
           path: reviewed-packager
           persist-credentials: false
       - uses: actions/setup-python@a26af69be951a213d495a4c3e4e4022e16d87065
