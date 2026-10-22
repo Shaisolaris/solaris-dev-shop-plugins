@@ -19,7 +19,7 @@ jobs:
       - uses: actions/checkout@11d5960a326750d5838078e36cf38b85af677262
         with:
           repository: Shaisolaris/solaris-dev-shop
-          ref: d6f7c37c6039320f2eb284363038edae0cf15e7b
+          ref: 9f8cc53d3b84c78d3d26433948e2e0bdcc1b5bd5
           path: upstream
           persist-credentials: false
       - uses: actions/checkout@11d5960a326750d5838078e36cf38b85af677262

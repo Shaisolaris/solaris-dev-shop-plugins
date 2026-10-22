@@ -1,7 +1,7 @@
 {
-  "source_commit": "d6f7c37c6039320f2eb284363038edae0cf15e7b",
-  "source_version": "0.62",
-  "plugin_version": "0.62.0",
+  "source_commit": "9f8cc53d3b84c78d3d26433948e2e0bdcc1b5bd5",
+  "source_version": "0.63",
+  "plugin_version": "0.63.0",
   "native_formats": [
     "Codex/OpenAI",
     "Claude Code",
@@ -12,8 +12,8 @@
   "employee_roles": 61,
   "coordinators": 1,
   "new_capabilities_from_adapters": 0,
-  "archive": "solaris-dev-shop-0.62.0-plugin.zip",
-  "archive_sha256": "205d25fccb78fe4f8586c2e9db1b6dbf5487cc36e78fb601092c5e7d00f39b6d",
+  "archive": "solaris-dev-shop-0.63.0-plugin.zip",
+  "archive_sha256": "93266811c90c8aa7661853fa5f173c841c93d1555a8ac4a14c20ff86820a2a08",
   "packager_sha256": "8e447979f298d3e118d85263b53a6214495cfe6e675cb1eeed07dd0ed07a7ac3",
   "published": false
 }
