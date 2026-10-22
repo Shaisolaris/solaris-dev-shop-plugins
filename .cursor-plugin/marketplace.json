@@ -1,0 +1,17 @@
+{
+  "name": "solaris-technologies",
+  "owner": {
+    "name": "Solaris Technologies",
+    "email": "shehryar@solaristek.com"
+  },
+  "metadata": {
+    "description": "Solaris specialist delivery workflows with local recovery and evidence tools."
+  },
+  "plugins": [
+    {
+      "name": "solaris-dev-shop",
+      "source": "./copilot/plugin",
+      "description": "61 specialist workflows and one chief-of-staff coordinator. Host permissions and runtime requirements apply."
+    }
+  ]
+}
