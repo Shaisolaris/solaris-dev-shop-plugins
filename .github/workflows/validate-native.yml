@@ -75,3 +75,12 @@ jobs:
           python -c 'import json,os;from pathlib import Path;i=json.loads(Path("distribution/harnesses/openclaw/native/skills.json").read_text());n={s["name"] for s in i};r=json.loads((Path(os.environ["RUNNER_TEMP"])/"solaris-skills.json").read_text());a=[s for s in r["skills"] if s["name"] in n];assert len(a)==62 and all(s["modelVisible"] for s in a)'
       - name: Actual Antigravity native plugin manager in a fresh hosted profile
         run: python -B distribution/tools/verify_antigravity_host.py --work "$RUNNER_TEMP/solaris-antigravity-native"
+      - name: Additional native Cline profile source and refusal controls
+        run: python -B distribution/tools/verify_extra_harnesses.py --host cline --self-test
+      - name: Actual Cline installation, bundled skills and worker tool outcomes
+        run: |
+          npm install --prefix "$RUNNER_TEMP/solaris-cline-host" --ignore-scripts --no-audit --no-fund cline@3.0.73
+          python -B distribution/tools/verify_cline_host.py --cli "$RUNNER_TEMP/solaris-cline-host/node_modules/.bin/cline" --modules "$RUNNER_TEMP/solaris-cline-host/node_modules" --candidate "$GITHUB_WORKSPACE/distribution/harnesses/cline" --work "$RUNNER_TEMP/solaris-cline-native"
+      - name: Actual immutable public Cline Git installation and source binding
+        run: |
+          python -B distribution/tools/verify_cline_host.py --cli "$RUNNER_TEMP/solaris-cline-host/node_modules/.bin/cline" --modules "$RUNNER_TEMP/solaris-cline-host/node_modules" --candidate "$GITHUB_WORKSPACE/distribution/harnesses/cline" --git-source 'https://github.com/Shaisolaris/solaris-dev-shop-cline.git@7730f2a9a9246479b66da059598f4e54ef80f6c1' --work "$RUNNER_TEMP/solaris-cline-public"
