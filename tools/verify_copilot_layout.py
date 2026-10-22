@@ -73,14 +73,24 @@ def verify(self_test=False):
                              capture_output=True,text=True,timeout=60)
         assert build.returncode==0,build.stderr
         expected=members(generated)
-        assert len(expected)==1974
+        assert len(expected)==1975
         matches(package,expected)
         result={'result':'PASS','payload_files':len(expected),'workflows':62,'new_employee_capabilities':0,'model_invocation':False}
         if self_test:
+            unfinished=temp/'contained-input'
+            prepared=subprocess.run([sys.executable,str(ROOT/'tools/build_copilot_layout.py'),str(unfinished),
+                                     '--stage','contained-input'],capture_output=True,text=True,timeout=60)
+            assert prepared.returncode==0,prepared.stderr
+            try:
+                matches(unfinished,expected)
+            except AssertionError:
+                pass
+            else:
+                raise AssertionError('Unfinished contained input falsely accepted as final distribution')
             copy=temp/'package';shutil.copytree(package,copy)
             work=temp/'work';work.mkdir()
             result['runtime']=smoke(copy,work)
-            refused=[]
+            refused=['unfinished contained input rejected as final distribution']
             for target in ['../../control-plane/meta_control_plane.py','/tmp/not-a-helper.py']:
                 bad=subprocess.run([sys.executable,'-B',str(copy/'skills/database-administrator/scripts/run.py'),target],capture_output=True,text=True,timeout=10)
                 assert bad.returncode==2
@@ -99,7 +109,7 @@ def verify(self_test=False):
             except AssertionError:
                 refused.append('missing contained workflow')
             reference.write_bytes(data)
-            assert len(refused)==4
+            assert len(refused)==5
             matches(copy,expected)
             result['rejected_controls']=refused
         return result

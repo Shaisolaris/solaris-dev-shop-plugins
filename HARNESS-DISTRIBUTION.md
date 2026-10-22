@@ -3,6 +3,10 @@
 **61 specialist employees + one chief-of-staff coordinator = 62 workflows.**
 These distribution adapters preserve the reviewed 0.63.0 source and add zero new employee capabilities. Existing core/native release tags and assets are unchanged.
 
+## Prepared 0.64 rollout
+
+The current branch is a prepared 0.64.0 candidate from core `3a577e42c48473f6ef8680950dd55c067820d5d3`, with 1,197 canonical files and the same 61 specialists plus coordinator. The exact source and final host evidence are recorded in the release validation record; no new tag or registry approval is claimed by this working branch. The pins below retain the previous 0.63 test history until the complete 0.64 matrix is finalized.
+
 ## OpenCode V2
 
 ```sh
