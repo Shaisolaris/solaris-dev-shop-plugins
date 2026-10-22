@@ -4633,7 +4633,7 @@
     },
     "package.json": {
       "executable": false,
-      "sha256": "76b5c2c6d38c52807f19a2f02d45b0fba2de4c2fc02c25d548e46d819e646638"
+      "sha256": "8ef8a1bb8dcb53ba6cd839c47c895f6dea7ccc98d88a8c0bd3dda8548828e4ba"
     },
     "pyproject.toml": {
       "executable": false,

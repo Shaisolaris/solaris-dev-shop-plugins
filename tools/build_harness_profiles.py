@@ -64,7 +64,7 @@ def build(source, output, host):
         package['exports'] = {'.': './native/deepseek.mjs'}
         (output / 'cordis.patch.yml').write_text('- insert:\n    - id: solaris-dev-shop\n      name: dsh-plugin-solaris-dev-shop\n')
     else:
-        package['exports'] = {'./server': './native/kilo.mjs'}
+        package['exports'] = {'.': './native/kilo.mjs', './server': './native/kilo.mjs'}
         package['engines'] = {'opencode': '>=7.8.15 <8'}
     (output / 'package.json').write_text(json.dumps(package, indent=2) + '\n')
     (output / 'native' / (host + '.mjs')).write_bytes((ROOT / 'tools/harness-assets' / (host + '.mjs')).read_bytes())
