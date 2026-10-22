@@ -1,0 +1,19 @@
+{
+  "name": "solaris-openclaw",
+  "owner": {
+    "name": "Solaris Technologies",
+    "email": "shehryar@solaristek.com"
+  },
+  "plugins": [
+    {
+      "name": "solaris-dev-shop",
+      "description": "61 specialist workflows plus a chief-of-staff coordinator; contained Python helpers.",
+      "source": {
+        "source": "git-subdir",
+        "url": "https://github.com/Shaisolaris/solaris-dev-shop-plugins",
+        "path": "harnesses/openclaw",
+        "ref": "e8eb0c143db951d2266a42fd939b9395f7628c0f"
+      }
+    }
+  ]
+}
