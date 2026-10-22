@@ -42,7 +42,15 @@ For local authoring:
 kilo plugin file:///absolute/path/to/harnesses/kilo
 ```
 
-Public Git transport is **not accepted**: the native manager reports installation success for the pinned Git package, but the actual V2 registry returns zero Solaris skills. Adding a root export did not fix this. Local loading passes; public-Git marketplace submission is held until the loading failure is resolved. This prevents installer success from being mistaken for usable runtime behavior.
+The public root package now has a verified native install route. Keep the package name before `@github:`:
+
+```sh
+kilo plugin 'solaris-dev-shop-kilo@github:Shaisolaris/solaris-dev-shop-kilo#3e3c611e82bee0885721c238e5c09fd5dc0d7d13'
+```
+
+This exact source passed the actual Kilo7.8.15 V2 API on macOS: all62 canonical bodies/descriptions/locations,1972 profile files and modes,1196 original hashes,62 real helper contexts and a coordinator assignment. The same full verifier passed on a fresh Linux CI runner. See [the public package and bounded proof](https://github.com/Shaisolaris/solaris-dev-shop-kilo/pull/1).
+
+The unnamed npm Git references and catalog-style `git:` transport still report installer success but expose zero Solaris rows. The official catalog does not accept the passing named npm-compatible Git syntax; catalog submission remains held while [the existing V2 Git-source migration issue](https://github.com/Kilo-Org/kilocode/issues/15307#issuecomment-6345057436) is resolved. No schema bypass or unpublished npm-registry claim is used. These are native discovery/helper results, not model inference, VS Code or TUI-session acceptance.
 
 ## Qwen Code
 
@@ -72,7 +80,7 @@ An earlier compatible Agent Plugins bundle is publicly installable from `Shaisol
 
 ## Google Antigravity
 
-A distinct strict native manifest and complete profile are prepared, and Google's official marketplace interest form confirmed receipt. See [the exact validation scope](ANTIGRAVITY-DISTRIBUTION.md). Native activation in an isolated Google profile is unverified; no existing Google profile or retired worker was changed. Submission is not Google approval.
+A distinct strict native profile is public at [solaris-dev-shop-antigravity](https://github.com/Shaisolaris/solaris-dev-shop-antigravity). Actual Antigravity CLI1.4.5 in a fresh hosted Linux profile installed/enabled the plugin, discovered62 workflows and passed complete payload bytes/modes,62 helper contexts and the coordinator outcome. The1971-file profile is checked against the reviewed source; the publication repository adds its own docs/CI. Google's official marketplace interest form confirmed receipt. See [the exact validation scope](ANTIGRAVITY-DISTRIBUTION.md). No existing Google profile or retired worker was changed, and no model call was made. Submission is not Google approval.
 
 ## Source and limits
 
