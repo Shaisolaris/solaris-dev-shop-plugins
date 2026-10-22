@@ -85,7 +85,7 @@ def main():
     args = parser.parse_args()
     reports = []
     with tempfile.TemporaryDirectory(prefix='solaris-harness-rebuild-') as temp:
-        for host in ['deepseek', 'kilo']:
+        for host in ['deepseek', 'kilo', 'openclaw']:
             expected = Path(temp) / host
             builder.build(ROOT, expected, host)
             candidate = ROOT / 'harnesses' / host

@@ -1,0 +1,23 @@
+{
+  "name": "solaris-dev-shop-openclaw",
+  "version": "0.63.0",
+  "type": "module",
+  "license": "MIT",
+  "description": "61 specialist workflows and a chief-of-staff coordinator with local delivery, recovery and evidence tools.",
+  "author": {
+    "name": "Solaris Technologies",
+    "email": "shehryar@solaristek.com",
+    "url": "https://solaristek.com"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/Shaisolaris/solaris-dev-shop-plugins.git",
+    "directory": "harnesses/openclaw"
+  },
+  "homepage": "https://github.com/Shaisolaris/solaris-dev-shop-plugins",
+  "keywords": [
+    "solaris-dev-shop",
+    "agent-skills",
+    "kilo"
+  ]
+}

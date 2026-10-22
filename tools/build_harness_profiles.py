@@ -1,5 +1,5 @@
 #!/usr/bin/env python3
-"""Build native DSH/Kilo profiles from an immutable reviewed Solaris payload."""
+"""Build native DSH/Kilo/OpenClaw profiles from an immutable reviewed Solaris payload."""
 import argparse
 import hashlib
 import io
@@ -40,8 +40,9 @@ def source_files(source):
 def build(source, output, host):
     assert not output.exists(), 'Output must be new; preserve earlier candidates.'
     original = source_files(source)
+    omitted = OMIT - {'plugin.json'} if host == 'openclaw' else OMIT
     for name, (data, executable) in original.items():
-        if name in OMIT:
+        if name in omitted:
             continue
         target_name = 'SOURCE-ENTRYPOINT-LAYOUT.json' if name == 'COPILOT-LAYOUT.json' else name
         target = output / target_name
@@ -49,7 +50,7 @@ def build(source, output, host):
         target.write_bytes(data)
         target.chmod(0o755 if executable else 0o644)
     package = {
-        'name': 'dsh-plugin-solaris-dev-shop' if host == 'deepseek' else 'solaris-dev-shop-kilo',
+        'name': 'dsh-plugin-solaris-dev-shop' if host == 'deepseek' else ('solaris-dev-shop-openclaw' if host == 'openclaw' else 'solaris-dev-shop-kilo'),
         'version': VERSION, 'type': 'module', 'license': 'MIT',
         'description': '61 specialist workflows and a chief-of-staff coordinator with local delivery, recovery and evidence tools.',
         'author': {'name': 'Solaris Technologies', 'email': 'shehryar@solaristek.com', 'url': 'https://solaristek.com'},
@@ -63,13 +64,18 @@ def build(source, output, host):
         package['engines'] = {'dsh': '0.2.1-rc.2'}
         package['exports'] = {'.': './native/deepseek.mjs'}
         (output / 'cordis.patch.yml').write_text('- insert:\n    - id: solaris-dev-shop\n      name: dsh-plugin-solaris-dev-shop\n')
-    else:
+    elif host == 'kilo':
         package['exports'] = {'.': './native/kilo.mjs', './server': './native/kilo.mjs'}
         package['engines'] = {'opencode': '>=7.8.15 <8'}
     (output / 'package.json').write_text(json.dumps(package, indent=2) + '\n')
-    (output / 'native' / (host + '.mjs')).write_bytes((ROOT / 'tools/harness-assets' / (host + '.mjs')).read_bytes())
+    if host == 'openclaw':
+        package.pop('main')
+        (output / 'package.json').write_text(json.dumps(package, indent=2) + '\n')
+        (output / 'assets/icon.png').write_bytes((output / 'assets/native-plugin-icon.png').read_bytes())
+    else:
+        (output / 'native' / (host + '.mjs')).write_bytes((ROOT / 'tools/harness-assets' / (host + '.mjs')).read_bytes())
     (output / 'README.md').write_text(
-        '# Solaris Dev Shop for ' + ('DeepSeek Harness' if host == 'deepseek' else 'Kilo') + '\n\n'
+        '# Solaris Dev Shop for ' + {'deepseek': 'DeepSeek Harness', 'kilo': 'Kilo', 'openclaw': 'OpenClaw'}[host] + '\n\n'
         '61 specialist employees plus one chief-of-staff coordinator: 62 workflows. '
         'This native profile preserves the reviewed Solaris 0.63.0 runtime and adds zero employee capabilities.\n\n'
         'Install the complete package through the host plugin manager. Host tools, approvals and runtime requirements apply; '
@@ -88,7 +94,7 @@ def build(source, output, host):
              for f in sorted(output.rglob('*')) if f.is_file()}
     record = {'host': host, 'version': VERSION, 'native_source': NATIVE_COMMIT, 'core_source': CORE_COMMIT,
               'canonical_files': len(canonical), 'specialists': 61, 'coordinator': 1,
-              'new_employee_capabilities': 0, 'omitted_other_provider_files': sorted(OMIT), 'files': files}
+              'new_employee_capabilities': 0, 'omitted_other_provider_files': sorted(omitted), 'files': files}
     (output / 'HARNESS-BUILD.json').write_text(json.dumps(record, indent=2, sort_keys=True) + '\n')
     return {'host': host, 'files': len(files) + 1, 'canonical_files': len(canonical)}
 
@@ -98,4 +104,4 @@ if __name__ == '__main__':
     parser.add_argument('--source', type=Path, default=ROOT)
     parser.add_argument('--output', type=Path, required=True)
     args = parser.parse_args()
-    print(json.dumps([build(args.source, args.output / host, host) for host in ['deepseek', 'kilo']]))
+    print(json.dumps([build(args.source, args.output / host, host) for host in ['deepseek', 'kilo', 'openclaw']]))
