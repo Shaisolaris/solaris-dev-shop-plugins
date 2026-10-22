@@ -38,6 +38,8 @@ jobs:
         run: |
           node --check distribution/plugin/server.mjs
           node --check distribution/plugin/native/opencode.mjs
+      - name: Copilot contained resources and actual entrypoint outcomes
+        run: python distribution/tools/verify_copilot_layout.py --self-test
       - name: Installed source router and real recovery controls
         run: |
           cd "$RUNNER_TEMP"
