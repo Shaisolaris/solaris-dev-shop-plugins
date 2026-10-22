@@ -20,17 +20,6 @@ codex plugin add solaris-dev-shop@solaris-technologies
 
 Or add this repository as a marketplace and install `solaris-dev-shop@solaris-technologies`.
 
-### Cursor
-
-The root `.cursor-plugin/marketplace.json` exposes the portable Agent Plugins
-profile at `copilot/plugin`. Cursor 3.24.18 loaded version 0.63.0 and all 62 skills
-in its actual native Customize view. See [the native-host evidence and limits](CURSOR-VALIDATION.md).
-This is public source distribution; a curated marketplace listing still requires provider review.
-
-For local development, copy the complete `copilot/plugin` folder to
-`~/.cursor/plugins/local/solaris-dev-shop` and reload Cursor, as documented by the
-host. Keep the complete folder so the shared runtime and contained resources stay together.
-
 ### OpenCode V2
 
 ```sh
