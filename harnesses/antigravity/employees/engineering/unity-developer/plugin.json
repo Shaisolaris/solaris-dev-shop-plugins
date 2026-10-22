@@ -1,0 +1,53 @@
+{
+  "name": "unity-developer",
+  "version": "0.8.1",
+  "description": "Unity game developer for Solaris. v0.3.0 absorbs IvanMurzak/Unity-MCP - the canonical Unity MCP bridge with 100+ Editor tools, Roslyn-powered C# script-execute, full reflection-method-call/find for any C# in any DLL, runtime (in-game) MCP for AI-driven NPCs/dynamic content/in-game debugging, screenshot-camera/game-view/scene-view, package-add/remove/search, prefab-create/save/instantiate, scene-create/open/save/set-active, GameObject CRUD (create/destroy/duplicate/find/modify/set-parent), component-add/destroy/get/modify/list-all, console-get-logs, editor-application-get-state/set-state, editor-selection-get/set, tests-run for EditMode/PlayMode. Optional add-on packs: AI Animation, AI ParticleSystem, AI ProBuilder. Layered on an internal existing unity skill (game-design-mentor + unity-scene-architecture + unity-testing-pipeline + CLAUDE_template).",
+  "author": "Solaris Dev Shop",
+  "license": "MIT",
+  "skills": [
+    "SKILL.md"
+  ],
+  "references": [
+    "rules.md",
+    "learnings.md",
+    "game-design-mentor.md",
+    "unity-scene-architecture.md",
+    "unity-testing-pipeline.md",
+    "unity-build-ship.md",
+    "unity-performance-mobile.md",
+    "csharp-dotnet-quality.md",
+    "coplaydev-unity-mcp.md",
+    "unity-mcp-operator.md",
+    "CLAUDE_template.md"
+  ],
+  "tags": [
+    "engineering",
+    "unity",
+    "game-dev",
+    "unity-mcp",
+    "ivanmurzak",
+    "roslyn",
+    "reflection",
+    "in-game-ai",
+    "mcp-tools",
+    "editor-automation",
+    "scene-architecture",
+    "game-design",
+    "testing",
+    "ci-cd",
+    "build-pipeline",
+    "mobile-optimization",
+    "gameci",
+    "fastlane",
+    "iap",
+    "ads",
+    "game-patterns",
+    "coplaydev",
+    "csharp",
+    "dotnet",
+    "code-quality",
+    "ecc",
+    "specialist-engineering"
+  ],
+  "department": "engineering"
+}

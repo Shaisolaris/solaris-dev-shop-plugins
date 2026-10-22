@@ -1,0 +1,35 @@
+{
+  "name": "dsh-plugin-solaris-dev-shop",
+  "version": "0.63.0",
+  "type": "module",
+  "license": "MIT",
+  "description": "61 specialist workflows and a chief-of-staff coordinator with local delivery, recovery and evidence tools.",
+  "author": {
+    "name": "Solaris Technologies",
+    "email": "shehryar@solaristek.com",
+    "url": "https://solaristek.com"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/Shaisolaris/solaris-dev-shop-plugins.git",
+    "directory": "harnesses/deepseek"
+  },
+  "homepage": "https://github.com/Shaisolaris/solaris-dev-shop-plugins",
+  "keywords": [
+    "solaris-dev-shop",
+    "agent-skills",
+    "dsh-plugin"
+  ],
+  "main": "./native/deepseek.mjs",
+  "dsh": {
+    "bundle": {
+      "patch": "./cordis.patch.yml"
+    }
+  },
+  "engines": {
+    "dsh": "0.2.1-rc.2"
+  },
+  "exports": {
+    ".": "./native/deepseek.mjs"
+  }
+}

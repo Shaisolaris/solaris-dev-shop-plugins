@@ -1,0 +1,43 @@
+{
+  "name": "ai-ml-engineer",
+  "version": "0.7.0",
+  "description": "Classical ML + deep learning + model training + MLOps engineer. Scikit-learn, XGBoost/LightGBM, PyTorch, TensorFlow, HuggingFace Transformers, computer vision, time-series forecasting, recommender systems, anomaly detection, LLM fine-tuning (LoRA/QLoRA) when genuinely needed. Distinct from LLM Agent Designer (which handles prompting / RAG / agents).",
+  "author": "Solaris Dev Shop",
+  "homepage": "https://github.com/Shaisolaris/solaris-dev-shop",
+  "license": "MIT",
+  "skills": [
+    "SKILL.md"
+  ],
+  "references": [
+    "rules.md",
+    "learnings.md",
+    "jupyter-notebook-workflow.md",
+    "ml-engineering-stack.md",
+    "rag-architecture.md"
+  ],
+  "references_source_note": "Canonical alirezarezvani senior-ml-engineer (external upstream; absorbed into this skill). Distinct from LLM Agent Designer (prompting/RAG/agents/MCP) - this employee handles TRAINING.",
+  "mcp_servers": [],
+  "tags": [
+    "engineering",
+    "ml",
+    "ai",
+    "machine-learning",
+    "deep-learning",
+    "pytorch",
+    "tensorflow",
+    "scikit-learn",
+    "xgboost",
+    "mlops",
+    "fine-tuning",
+    "lora",
+    "qlora",
+    "computer-vision",
+    "recommender",
+    "forecasting",
+    "jupyter",
+    "notebook",
+    "huggingface",
+    "model-discovery"
+  ],
+  "department": "engineering"
+}

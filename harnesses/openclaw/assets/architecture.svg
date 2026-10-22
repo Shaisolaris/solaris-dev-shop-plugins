@@ -1,0 +1,17 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1100" height="360" viewBox="0 0 1100 360">
+  <rect width="1100" height="360" fill="#f7f4ee"/>
+  <text x="40" y="46" fill="#102033" font-family="Georgia, 'Times New Roman', serif" font-size="22">How a request moves</text>
+  <rect x="40" y="90" width="200" height="88" rx="8" fill="#102033"/>
+  <text x="140" y="142" text-anchor="middle" fill="#f4f1ea" font-family="Georgia, serif" font-size="20">You</text>
+  <polygon points="250,134 300,134 300,122 332,144 300,166 300,154 250,154" fill="#e8a54b"/>
+  <rect x="344" y="80" width="280" height="108" rx="8" fill="#1d3a5f"/>
+  <text x="484" y="124" text-anchor="middle" fill="#f4f1ea" font-family="Georgia, serif" font-size="20">Chief of staff</text>
+  <text x="484" y="152" text-anchor="middle" fill="#d7deea" font-family="Georgia, serif" font-size="15">Assigns. Does not do the job.</text>
+  <polygon points="634,134 684,134 684,122 716,144 684,166 684,154 634,154" fill="#e8a54b"/>
+  <rect x="728" y="80" width="320" height="108" rx="8" fill="#245c45"/>
+  <text x="888" y="124" text-anchor="middle" fill="#f4f1ea" font-family="Georgia, serif" font-size="20">Lead + supporting roles</text>
+  <text x="888" y="152" text-anchor="middle" fill="#d7deea" font-family="Georgia, serif" font-size="15">From 61 skills; run in your host</text>
+  <text x="40" y="250" fill="#102033" font-family="Georgia, serif" font-size="18">Observed</text>
+  <text x="40" y="286" fill="#333" font-family="Georgia, serif" font-size="18">Write a test plan for the client portal login regression.</text>
+  <text x="40" y="318" fill="#333" font-family="Georgia, serif" font-size="18">Result: assign, qa, solaris.qa-engineer. performed_work is false.</text>
+</svg>
