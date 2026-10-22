@@ -1,0 +1,39 @@
+{
+  "name": "solaris-dev-shop-cline",
+  "version": "0.63.0",
+  "type": "module",
+  "license": "MIT",
+  "main": "./index.js",
+  "description": "61 Solaris specialist workflows and a chief-of-staff coordinator with contained local tools.",
+  "author": {
+    "name": "Solaris Technologies",
+    "email": "shehryar@solaristek.com",
+    "url": "https://solaristek.com"
+  },
+  "homepage": "https://github.com/Shaisolaris/solaris-dev-shop-plugins",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/Shaisolaris/solaris-dev-shop-plugins.git",
+    "directory": "harnesses/cline"
+  },
+  "cline": {
+    "plugins": [
+      {
+        "paths": [
+          "./index.js"
+        ],
+        "capabilities": [
+          "tools"
+        ]
+      }
+    ]
+  },
+  "peerDependencies": {
+    "@cline/sdk": ">=0.0.95 <0.1"
+  },
+  "peerDependenciesMeta": {
+    "@cline/sdk": {
+      "optional": true
+    }
+  }
+}

@@ -82,6 +82,18 @@ An earlier compatible Agent Plugins bundle is publicly installable from `Shaisol
 
 A distinct strict native profile is public at [solaris-dev-shop-antigravity](https://github.com/Shaisolaris/solaris-dev-shop-antigravity). Actual Antigravity CLI1.4.5 in a fresh hosted Linux profile installed/enabled the plugin, discovered62 workflows and passed complete payload bytes/modes,62 helper contexts and the coordinator outcome. The1971-file profile is checked against the reviewed source; the publication repository adds its own docs/CI. Google's official marketplace interest form confirmed receipt. See [the exact validation scope](ANTIGRAVITY-DISTRIBUTION.md). No existing Google profile or retired worker was changed, and no model call was made. Submission is not Google approval.
 
+## Cline
+
+`harnesses/cline` is a native Cline package plugin: its `cline.plugins` manifest names the real SDK entrypoint, its top-level skills are discovered by Cline, and its `solaris_intake` tool runs the pinned local coordinator. ClineCLI3.0.73 and SDK0.0.95's actual worker and ContributionRegistry registered and executed that tool. All62 owned skill descriptions/bodies/paths match; the input controls keep shell text and option-like text literal and reject oversized UTF-8 or extra fields. A valid request remains usable after refused calls. No model inference is involved.
+
+The source profile has1973 files/modes and1196 canonical files. The native installer removes exactly two optional host-provided SDK dependency fields from `package.json`; the verifier checks that transformation explicitly and rejects any other change. All1972 other source files and all executable modes remain exact. The real composite provenance checker reports consistency. Source golden checks exercise62 real helper contexts plus6 no-op/partial/mode/hook/symlink refusals.
+
+This route targets ClineCLI/SDK/Kanban. Cline's current plugin documentation explicitly excludes VSCode and JetBrains extensions. Its official curated collection submission follows actual public Git installation and independent review; candidate source alone is not catalog approval. Python3.10+ and PyYAML are required for the local tool. It has no hooks, background jobs, MCP servers, model settings or permission changes.
+
+## Amp candidate
+
+The official Amp API supports real directory plugins with `registerSkill` and `registerTool`. A minimal adapter and source builder are present, preserving the same62 workflows and bounded local intake tool. **Native runtime acceptance remains held:** the pinned Amp CLI's full discovery requires account access in the isolated profile. A zero-output debug invocation is not a passing catalog or tool result. No Amp account, terms acceptance, credential, model call or hosted workspace publication is fabricated. The candidate is not included as an accepted published profile.
+
 ## Source and limits
 
 All profiles retain 1,196 canonical files from core `ee38d3de3d4b0d5467a589d5cb908f4964f593fe` and the reviewed native source `085ebb9e9c137c5046c2153b9413d9badd102ce7`. The golden verifier rebuilds profiles from that source and rejects a no-op adapter, a changed adapter plus edited supplied manifest, changed modes, unexpected lifecycle hooks and symlinks. Native source/context checks are separate from model activation.
