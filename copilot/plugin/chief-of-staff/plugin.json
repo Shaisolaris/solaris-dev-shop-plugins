@@ -1,0 +1,29 @@
+{
+  "name": "chief-of-staff",
+  "version": "0.7.0",
+  "description": "Top-level request dispatcher. Parses intent, assembles the right team, enforces session-end learnings capture.",
+  "author": "Solaris Dev Shop",
+  "homepage": "https://github.com/Shaisolaris/solaris-dev-shop",
+  "license": "MIT",
+  "skills": [
+    "SKILL.md"
+  ],
+  "references": [
+    "rules.md",
+    "learnings.md",
+    "references/cross-employee-integration-patterns.md",
+    "references/supervisor-handoff-tool-pattern.md",
+    "references/routing-table.md",
+    "references/routing-patterns.md",
+    "NATURAL-ROUTING-PLAN.md",
+    "references/company-facts.md"
+  ],
+  "mcp_servers": [],
+  "tags": [
+    "meta",
+    "orchestration",
+    "routing",
+    "dispatch"
+  ],
+  "department": "meta"
+}
