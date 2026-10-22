@@ -10,6 +10,7 @@ import json
 import re
 import shutil
 from urllib.parse import unquote, urlsplit
+from distribution_metadata import add_resource_notices, relocate_source_ci
 
 HERE = Path(__file__).resolve().parent
 BASE = HERE.parent/'plugin'
@@ -152,6 +153,8 @@ Use the local skill entrypoint for Python helpers. It preserves the original can
 
 The source revision, mirror hashes and local entrypoint hashes are recorded in SOLARIS-BUILD-SOURCE.json and COPILOT-LAYOUT.json. See the repository COPILOT-SUBMISSION.md for validation and marketplace status. No model activation or marketplace approval is implied.
 ''')
+    report['distribution_notice'] = add_resource_notices(OUT)
+    report['relocated_repository_configuration'] = relocate_source_ci(OUT)
     (OUT/'COPILOT-LAYOUT.json').write_text(json.dumps(report,indent=2)+'\n')
     print(json.dumps({'workflows':len(records),'mirror_files':sum(len(x['mirrored_canonical_files']) for x in records.values()),
                       'unresolved_original_references':len(original_missing),'prototype':False}))
