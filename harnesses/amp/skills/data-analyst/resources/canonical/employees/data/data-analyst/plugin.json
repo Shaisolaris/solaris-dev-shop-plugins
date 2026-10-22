@@ -1,0 +1,34 @@
+{
+  "name": "data-analyst",
+  "version": "1.3.0",
+  "description": "Data Analyst - SQL analysis (window functions, EXPLAIN review), dashboards + KPI design (Metabase / Looker / Tableau / Power BI / Superset / Grafana), metric definition contracts, SaaS metrics (MRR/ARR/churn/CAC/LTV/NRR/Quick Ratio), cohort + funnel + retention analysis, A/B result interpretation, data-quality gating, instrumentation audits, data storytelling, executive reporting.",
+  "author": "Solaris Dev Shop",
+  "license": "MIT",
+  "skills": [
+    "SKILL.md"
+  ],
+  "references": [
+    "rules.md",
+    "learnings.md",
+    "excel-mcp-patterns.md",
+    "analyst-compute-and-reporting-stack.md"
+  ],
+  "tags": [
+    "data",
+    "analyst",
+    "sql",
+    "dashboard",
+    "bi",
+    "kpi",
+    "metric-definitions",
+    "cohort",
+    "funnel",
+    "retention",
+    "ltv",
+    "ab-test-analysis",
+    "data-quality",
+    "data-storytelling",
+    "executive-reporting"
+  ],
+  "department": "data"
+}

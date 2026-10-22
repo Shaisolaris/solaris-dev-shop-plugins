@@ -98,9 +98,15 @@ A fresh public Git install passed the same native discovery, worker tool, source
 
 This route targets ClineCLI/SDK/Kanban. Cline's current plugin documentation explicitly excludes VSCode and JetBrains extensions. Its official curated collection submission follows actual public Git installation and independent review; candidate source alone is not catalog approval. Python3.10+ and PyYAML are required for the local tool. It has no hooks, background jobs, MCP servers, model settings or permission changes.
 
-## Amp candidate
+## Amp
 
-The official Amp API supports real directory plugins with `registerSkill` and `registerTool`. A minimal adapter and source builder are present, preserving the same62 workflows and bounded local intake tool. **Native runtime acceptance remains held:** the pinned Amp CLI's full discovery requires account access in the isolated profile. A zero-output debug invocation is not a passing catalog or tool result. No Amp account, terms acceptance, credential, model call or hosted workspace publication is fabricated. The candidate is not included as an accepted published profile.
+`harnesses/amp` is a complete native directory plugin using Amp's `registerSkill` and `registerTool` APIs. Install the complete directory at `.amp/plugins/solaris-dev-shop` in the target project, rather than importing its entrypoint alone. Python3.10+ and PyYAML are required for local helpers.
+
+The actual authenticated AmpCLI0.0.1792680614-g8973a3 loaded the plugin and its `solaris_intake` tool. Its stock `skills list --json` exposed precisely62 qualified Solaris workflows; every name, description and registered path matched the unchanged bundled skill source. The profile retains1973 files/modes,1196 canonical hashes and62 working helper contexts. Source golden checks rejected all6 no-op, partial, mode, hook and symlink controls.
+
+The real Amp plugin process also passed a separate fresh-profile test without an account or model: a disposable QA wrapper forwards all62 skill registrations and the tool registration to Amp, then invokes the registered execute callback inside that native process. Assignment, legitimate clarification, literal shell/option inputs,3 invalid-input refusals and recovery all passed. The verifier requires a newly written result and preserves the original installed profile byte-for-byte; an empty exit0 is insufficient. This is callback/registration proof, not connected-thread tool dispatch or model-quality evidence.
+
+This native CLI route does not establish hosted/Puck support or a curated Amp marketplace listing. Public source distribution and any hosted plugin-repository publication remain separate from native acceptance. The adapter adds no hooks, background jobs, MCP servers, provider settings or permission grants.
 
 ## Source and limits
 
