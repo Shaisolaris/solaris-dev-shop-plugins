@@ -1,0 +1,58 @@
+{
+  "name": "3d-artist",
+  "version": "1.2.1",
+  "description": "Game-ready 3D asset discipline for Solaris: describe -> rigged, textured, engine-ready mesh. Pipeline: GENERATE (commercial: Rodin Gen-2 cleanest topology / Tripo via tripo-mcp / Meshy-6 with rig+anim API, ~$0.30-0.40/asset; open on 16GB+ GPU: Hunyuan3D-2.1 real PBR (license excludes EU/UK/Korea) or TRELLIS MIT best geometry + Hunyuan3D-Paint for PBR) -> BACKBONE blender-mcp (18.5k stars, MIT) for import/cleanup/decimate/UV/assemble/export (runs Python, drives every other tool) -> RIG (UniRig MIT humans/animals/objects via skeleton-prediction + skinning-weight + merge; Mixamo free humanoid-only via browser; Meshy/Tripo rig APIs for any creature) -> TEXTURE (gen-native PBR or Hunyuan3D-Paint) -> ENGINE IMPORT CONTRACT (static = GLB via Unity glTFast / Unreal native; rigged = FBX 2020 binary, embed media). Documents BOTH the commercial path and the open-GPU path. Distinct from Unity/Unreal developers (engine logic) and Image Generator (2D). Part of the Solaris creative cluster sharing a tool layer.",
+  "author": "Solaris Dev Shop",
+  "license": "MIT",
+  "skills": [
+    "SKILL.md"
+  ],
+  "references": [
+    "rules.md",
+    "learnings.md",
+    "generation-pipeline.md",
+    "blender-backbone.md",
+    "blender-motion-debugging.md",
+    "rigging.md",
+    "engine-import-contract.md",
+    "depth-2026-06.md"
+  ],
+  "tags": [
+    "creative-media",
+    "3d-artist",
+    "game-ready-3d",
+    "text-to-3d",
+    "image-to-3d",
+    "rodin-gen2",
+    "tripo",
+    "tripo-mcp",
+    "meshy",
+    "hunyuan3d",
+    "trellis",
+    "hunyuan3d-paint",
+    "blender-mcp",
+    "unirig",
+    "mixamo",
+    "auto-rig",
+    "skinning",
+    "pbr-texture",
+    "retopology",
+    "decimate",
+    "uv-unwrap",
+    "glb",
+    "fbx",
+    "gltfast",
+    "unity-import",
+    "unreal-import",
+    "motion-state-inspection",
+    "rig-debugging",
+    "foot-sliding",
+    "retarget-debug"
+  ],
+  "department": "creative-media",
+  "shared_creative_tool_layer": [
+    "blender-mcp (owned here; the Python-scriptable backbone the whole cluster can call)",
+    "ComfyUI + comfyui-mcp-server (image-generator owner; borrowed here for texture/material generation)",
+    "Replicate MCP + fal MCP (cluster-shared hosted-model gateway; some 3D-gen models reachable here too)"
+  ]
+}

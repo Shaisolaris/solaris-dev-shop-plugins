@@ -45,3 +45,9 @@ jobs:
           cd "$RUNNER_TEMP"
           python "$GITHUB_WORKSPACE/distribution/plugin/control-plane/meta_control_plane.py" self-test
           python "$GITHUB_WORKSPACE/distribution/plugin/examples/capabilities/G39/drill_oracle.py"
+      - name: Exact native harness profiles, refusal controls and installed callers
+        run: |
+          git -C distribution fetch --no-tags --depth=1 origin 085ebb9e9c137c5046c2153b9413d9badd102ce7
+          python -B distribution/tools/verify_harness_profiles.py --self-test
+          node --check distribution/harnesses/deepseek/native/deepseek.mjs
+          node --check distribution/harnesses/kilo/native/kilo.mjs
