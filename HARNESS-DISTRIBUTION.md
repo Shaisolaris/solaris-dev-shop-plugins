@@ -88,6 +88,14 @@ A distinct strict native profile is public at [solaris-dev-shop-antigravity](htt
 
 The source profile has1973 files/modes and1196 canonical files. The native installer removes exactly two optional host-provided SDK dependency fields from `package.json`; the verifier checks that transformation explicitly and rejects any other change. All1972 other source files and all executable modes remain exact. The real composite provenance checker reports consistency. Source golden checks exercise62 real helper contexts plus6 no-op/partial/mode/hook/symlink refusals.
 
+The exact public source root is installable through the native manager:
+
+```sh
+cline plugin install 'https://github.com/Shaisolaris/solaris-dev-shop-cline.git@7730f2a9a9246479b66da059598f4e54ef80f6c1'
+```
+
+A fresh public Git install passed the same native discovery, worker tool, source and helper gates. The manager retains its own clone metadata: the verifier binds HEAD and origin to the requested public commit and permits sample hooks only, while accounting separately for all1973 product files. It does not delete metadata or weaken npm policy. The official collection's formatting rules conflict with byte-preserved canonical documentation, so its prepared entry uses the normal versioned source-package dependency format. The npm package is ready but unpublished pending publisher authentication; no catalog keyword or approval is claimed.
+
 This route targets ClineCLI/SDK/Kanban. Cline's current plugin documentation explicitly excludes VSCode and JetBrains extensions. Its official curated collection submission follows actual public Git installation and independent review; candidate source alone is not catalog approval. Python3.10+ and PyYAML are required for the local tool. It has no hooks, background jobs, MCP servers, model settings or permission changes.
 
 ## Amp candidate

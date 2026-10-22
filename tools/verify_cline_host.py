@@ -5,6 +5,7 @@ import hashlib
 import json
 import os
 from pathlib import Path
+import re
 import subprocess
 import sys
 
@@ -49,10 +50,23 @@ def main():
     installed = entry.parent
     assert installed.is_relative_to(work) and not installed.is_symlink(), installed
     assert not any(path.is_symlink() for path in installed.rglob('*')), 'Symlink in installed profile'
+    retained_git = (installed / '.git').exists()
+    if retained_git:
+        pinned = re.fullmatch(r'(https://github.com/Shaisolaris/solaris-dev-shop-cline\.git)@([0-9a-f]{40})', source)
+        assert pinned and (installed / '.git').is_dir(), 'Unexpected clone metadata'
+        # This manager retains its clone. Bind it to the requested public commit;
+        # never remove metadata or confuse it with distributed product files.
+        revision = subprocess.check_output(['git', '-C', str(installed), 'rev-parse', 'HEAD'],
+                                           env=env, text=True, timeout=15).strip()
+        remote = subprocess.check_output(['git', '-C', str(installed), 'config', '--get', 'remote.origin.url'],
+                                         env=env, text=True, timeout=15).strip()
+        assert revision == pinned[2] and remote.rstrip('/') == pinned[1], 'Clone identity differs from requested source'
+        hooks = installed / '.git/hooks'
+        assert not hooks.exists() or all(path.is_file() and path.name.endswith('.sample') for path in hooks.iterdir()), 'Unexpected active Git hook'
     expected_files = {path.relative_to(args.candidate).as_posix(): path
                       for path in args.candidate.rglob('*') if path.is_file()}
     actual_files = {path.relative_to(installed).as_posix(): path
-                    for path in installed.rglob('*') if path.is_file()}
+                    for path in installed.rglob('*') if path.is_file() and '.git' not in path.relative_to(installed).parts}
     assert set(actual_files) == set(expected_files), (set(actual_files) - set(expected_files), set(expected_files) - set(actual_files))
     byte_identical = 0
     for name, original in expected_files.items():
@@ -99,6 +113,7 @@ def main():
     provenance_check = json.loads(check)
     assert provenance_check['result'] == 'consistent' and not provenance_check['findings']
     print(json.dumps({'host': 'Cline ' + version, 'profileFiles': len(actual_files), 'byteIdenticalFiles': byte_identical,
+                      'retainedGitMetadata': 'Requested exact public commit verified; sample hooks only' if retained_git else None,
                       'permittedInstallerNormalization': 'Only removal of two optional host SDK dependency fields, if present',
                       'allExecutableModesMatch': True, 'canonicalHashes': 1196, 'actualCallerContexts': 62,
                       'compositeProvenance': 'consistent', 'sdk': sdk, 'pass': True}, indent=2))
