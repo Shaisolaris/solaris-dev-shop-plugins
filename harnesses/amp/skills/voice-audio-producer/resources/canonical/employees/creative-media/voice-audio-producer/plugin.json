@@ -1,0 +1,55 @@
+{
+  "name": "voice-audio-producer",
+  "version": "1.3.3",
+  "description": "Voice + audio production discipline for Solaris, built on the official ElevenLabs MCP (MIT). Owns voiceover/narration and game audio: Text-to-Speech (multi-voice, multi-language), voice cloning + voice design, sound-effects generation, music generation, speech-to-text transcription (with speaker diarization), and voice isolation (clean voice from noisy recordings). Workflow discipline for character voices, narration scripts, SFX libraries, and audio deliverables. The voice-isolation tool is SHARED - video-editor borrows it for dialogue cleanup (single owner here, no duplication). Distinct from Video Editor (owns FFmpeg/Resolve audio post + mixing into video) and Content Marketer (script writing). Part of the Solaris creative cluster sharing a tool layer.",
+  "author": "Solaris Dev Shop",
+  "license": "MIT",
+  "skills": [
+    "SKILL.md"
+  ],
+  "references": [
+    "rules.md",
+    "learnings.md",
+    "elevenlabs-mcp.md",
+    "voice-and-audio-recipes.md",
+    "depth-2026-06.md",
+    "audio-mastering-and-qa.md",
+    "job-two-improvement.md"
+  ],
+  "tags": [
+    "creative-media",
+    "voice-audio-producer",
+    "elevenlabs",
+    "elevenlabs-mcp",
+    "tts",
+    "text-to-speech",
+    "voice-cloning",
+    "voice-design",
+    "sfx",
+    "sound-effects",
+    "music-generation",
+    "transcription",
+    "speech-to-text",
+    "diarization",
+    "voice-isolation",
+    "narration",
+    "voiceover",
+    "game-audio",
+    "character-voices",
+    "kokoro-tts",
+    "fish-speech",
+    "xtts-v2",
+    "ace-step",
+    "open-tts-lane",
+    "chatterbox",
+    "voxcpm2",
+    "orpheus-tts",
+    "vibevoice",
+    "non-commercial-flag"
+  ],
+  "department": "creative-media",
+  "shared_creative_tool_layer": [
+    "ElevenLabs MCP (owned here; video-editor borrows the voice-isolator)",
+    "FFmpeg / DaVinci Resolve MCP (video-editor owner; voice-audio-producer hands off final audio for mix-into-video)"
+  ]
+}

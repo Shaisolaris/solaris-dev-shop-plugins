@@ -77,6 +77,12 @@ jobs:
         run: python -B distribution/tools/verify_antigravity_host.py --work "$RUNNER_TEMP/solaris-antigravity-native"
       - name: Additional native Cline profile source and refusal controls
         run: python -B distribution/tools/verify_extra_harnesses.py --host cline --self-test
+      - name: Native Amp source, local callers and refusal controls
+        run: python -B distribution/tools/verify_extra_harnesses.py --host amp --self-test
+      - name: Actual Amp plugin process and registered tool callback outcomes
+        run: |
+          npm install --prefix "$RUNNER_TEMP/solaris-amp-host" --ignore-scripts --no-audit --no-fund @ampcode/cli@0.0.1792680614-g8973a3
+          python -B distribution/tools/verify_amp_host.py --cli "$RUNNER_TEMP/solaris-amp-host/node_modules/@ampcode/cli-linux-x64/amp" --candidate "$GITHUB_WORKSPACE/distribution/harnesses/amp" --work "$RUNNER_TEMP/solaris-amp-native"
       - name: Actual Cline installation, bundled skills and worker tool outcomes
         run: |
           npm install --prefix "$RUNNER_TEMP/solaris-cline-host" --ignore-scripts --no-audit --no-fund cline@3.0.73
