@@ -1,13 +1,13 @@
 # Native package validation
 
 The current 0.63.0 repair candidate pins Solaris Dev Shop core 0.63 at
-[`e3c95df7269e9f814674343707860c17b4ce930c`](https://github.com/Shaisolaris/solaris-dev-shop/commit/e3c95df7269e9f814674343707860c17b4ce930c).
+[`ee38d3de3d4b0d5467a589d5cb908f4964f593fe`](https://github.com/Shaisolaris/solaris-dev-shop/commit/ee38d3de3d4b0d5467a589d5cb908f4964f593fe).
 `BUILD.json` and `plugin/SOLARIS-BUILD-SOURCE.json` bind every shipped source file to that revision.
 The published release tags and assets remain unchanged; this is a packaging repair candidate, not a new release.
 
 ## Current repair evidence
 
-- The core change replaces a routing guide that named a removed script. Its four current examples resolve to the expected capabilities; all nine routing regression tests pass. Core implementation code is unchanged from the published 0.63 source.
+- The core change replaces a routing guide that named a removed script. Its four current examples resolve to the expected capabilities; all nine routing regression tests pass. Runtime implementation code is unchanged from the published 0.63 source. The G42 integration plan now permits this exact routing-guide path; its matching scope test was updated, while a neighboring file remains denied. Three plan tests pass locally; the final core CI gate binds the complete source revision.
 - The native coordinator now links directly to its engine and distinguishes the plugin root from the canonical role folder. Following the former instructions failed with exit 2. The new verifier resolves the entrypoint from the native skill and obtains a real `solaris.code-reviewer` assignment from a different working directory; it checks that the coordinator performed no specialist work.
 - An independently pinned rebuild matches all 1,196 canonical files and the generated payload/catalogs. Nine artifact tampering controls and the two actual listing regressions (overlong subtitle and missing software terms) are rejected.
 - The subtitle is 23 characters and the software terms point to the existing MIT license. The data-handling document names its provenance record instead of carrying an obsolete source-version label.
