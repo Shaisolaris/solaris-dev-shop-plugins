@@ -1,5 +1,5 @@
 {
-  "source_commit": "9f8cc53d3b84c78d3d26433948e2e0bdcc1b5bd5",
+  "source_commit": "e3c95df7269e9f814674343707860c17b4ce930c",
   "source_repository": "https://github.com/Shaisolaris/solaris-dev-shop",
   "source_version": "0.63",
   "native_version": "0.63.0",
@@ -44,7 +44,7 @@
     "chief-of-staff/plugin.json": "d5920741e1f5644882727ededc36990a43302b16a009a2494dffcb0974312307",
     "chief-of-staff/references/company-facts.md": "4a6335b6e53479a1585ea7649003f5df645d09522cfffaed55ef94e218f53126",
     "chief-of-staff/references/cross-employee-integration-patterns.md": "29566d5645fac252540e263d7daddaa8c09e60e8cf3c1ef5184b4fbba1181d2c",
-    "chief-of-staff/references/routing-patterns.md": "16f63c8826dbec4aa32d9dc06ab821654bc05098a011e794b1c1df56285702db",
+    "chief-of-staff/references/routing-patterns.md": "679cc23c9ea58124b07c67be75ae029594d1a73cabae4c60818914c1ecd4db40",
     "chief-of-staff/references/routing-table.md": "787a914a92e8750e3b757b12dc80350147417783f174b84aca3a9b824c3125e1",
     "chief-of-staff/references/supervisor-handoff-tool-pattern.md": "64c0118656941768cd2f2da38280c20fcc8e8ef80ab62a9c372645beb97b0170",
     "chief-of-staff/rules.md": "136cb26e13c7f7ff4eb75a44e4437f90cfcd474dcb9a9ba7ea627218d5dd9be0",
@@ -1215,7 +1215,7 @@
   "omitted_repository_config": [
     ".gitignore"
   ],
-  "packager_sha256": "8e447979f298d3e118d85263b53a6214495cfe6e675cb1eeed07dd0ed07a7ac3",
+  "packager_sha256": "7c50f2659c0cc05ff9107d1f550d5b9df760518a37c1c90c99b288d87152ba0c",
   "listing_icon_sha256": "293fd397b99ca61af1dc9a47b60635722e4290c7417f6bfe390cb4e1c88cf8a9",
   "official_listing_approved": false,
   "limits": "Native format support is separate from directory approval and model-driven activation. See the recorded host tests for their exact scope."

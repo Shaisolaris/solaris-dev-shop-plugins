@@ -1,5 +1,10 @@
 # OpenAI listing correction for 0.63.0
 
+This records the first metadata-only correction to the published ZIP. The current
+native caller repair is regenerated directly from the source and packager pinned
+in `BUILD.json` and `tools/verify_distribution.py`; it already includes these
+listing corrections. Do not apply the old base-ZIP overlay to that new candidate.
+
 The public release remains immutable. The submission ZIP applies two listing
 changes to the independently checked release ZIP:
 
