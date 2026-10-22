@@ -56,7 +56,7 @@ def build(source, output, host):
         'author': {'name': 'Solaris Technologies', 'email': 'shehryar@solaristek.com', 'url': 'https://solaristek.com'},
         'repository': {'type': 'git', 'url': 'https://github.com/Shaisolaris/solaris-dev-shop-plugins.git', 'directory': 'harnesses/' + host},
         'homepage': 'https://github.com/Shaisolaris/solaris-dev-shop-plugins',
-        'keywords': ['solaris-dev-shop', 'agent-skills', 'dsh-plugin' if host == 'deepseek' else 'kilo'],
+        'keywords': ['solaris-dev-shop', 'agent-skills', {'deepseek': 'dsh-plugin', 'kilo': 'kilo', 'openclaw': 'openclaw-plugin'}[host]],
         'main': './native/' + host + '.mjs',
     }
     if host == 'deepseek':
