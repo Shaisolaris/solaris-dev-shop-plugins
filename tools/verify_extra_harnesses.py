@@ -86,7 +86,7 @@ def main():
                                          cwd=temp, text=True, timeout=30)
         check = json.loads(result)
         assert check['result'] == 'consistent' and not check['findings']
-        report = {'host': args.host, 'exactFilesAndModes': count, 'canonicalFiles': 1197,
+        report = {'host': args.host, 'exactFilesAndModes': count, 'canonicalFiles': 1199,
                   'actualCallerContexts': 62, 'coordinatorAssignment': 'solaris.code-reviewer',
                   'newCoreCapabilities': 0, 'compositeProvenance': 'consistent',
                   'hostRuntimeAcceptance': 'Separate actual CLI/SDK gate, not implied by this source check'}
