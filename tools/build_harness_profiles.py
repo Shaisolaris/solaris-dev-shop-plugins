@@ -9,8 +9,8 @@ import subprocess
 import tarfile
 from distribution_metadata import add_resource_notices, relocate_source_ci
 
-NATIVE_COMMIT = 'bb84bd1c5154cfb74d81c60d4800093a16767542'
-CORE_COMMIT = '8182d43c6bcbe90ebab7b3dbf9130f03347968a1'
+NATIVE_COMMIT = 'df6672cd7b45a5abe7d13c6d762d71aed3763fcc'
+CORE_COMMIT = 'bf746b2f9208eae8e454eb39006f0b966daa52bd'
 VERSION = '0.66.0'
 ROOT = Path(__file__).resolve().parents[1]
 OMIT = {'.claude-plugin/plugin.json', 'plugin.json', 'server.mjs', 'native/opencode.mjs'}
