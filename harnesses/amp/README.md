@@ -6,6 +6,6 @@ The native Amp directory entry registers each exact bundled skill through regist
 
 Local helpers need Python3.10+ and PyYAML on the host PATH. Individual specialists retain their documented prerequisites and permissions. Amp hosted/Puck and Cline VS Code/JetBrains support are separate client gates, not established by native CLI/SDK discovery.
 
-Source: core 3a577e42c48473f6ef8680950dd55c067820d5d3, reviewed native b13ca3c172a18491f8097926112520970a70e2cd. SOLARIS-BUILD-SOURCE.json preserves1197 canonical hashes; HARNESS-BUILD.json records every profile byte/mode. See ../../HARNESS-DISTRIBUTION.md in the source repository for actual tested revisions, installation and publication status. A prepared profile alone does not establish a passing native install or vendor approval.
+Source: core 0d2ae8e76cba4e56dc01d9c621e553179b34c40e, reviewed native 2f5bbfe738eb8c50d75c62659a0dbf8b44ee931a. SOLARIS-BUILD-SOURCE.json preserves1199 canonical hashes; HARNESS-BUILD.json records every profile byte/mode. See ../../HARNESS-DISTRIBUTION.md in the source repository for actual tested revisions, installation and publication status. A prepared profile alone does not establish a passing native install or vendor approval.
 
 MIT licensed. Solaris Technologies, https://solaristek.com. Support: https://github.com/Shaisolaris/solaris-dev-shop-plugins/issues.

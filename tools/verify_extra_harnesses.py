@@ -69,7 +69,7 @@ def main():
         expected = Path(temp) / args.host
         builder.build(ROOT, expected, args.host)
         count = compare(expected, candidate)
-        assert count == 1974
+        assert count == 1977
         index = json.loads((candidate / 'native/skills.json').read_text())
         assert len(index) == len({row['name'] for row in index}) == 62
         package = json.loads((candidate / 'package.json').read_text())

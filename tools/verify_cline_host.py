@@ -81,7 +81,7 @@ def main():
         assert manifest.pop('peerDependencies') == {'@cline/sdk': '>=0.0.95 <0.1'}
         assert manifest.pop('peerDependenciesMeta') == {'@cline/sdk': {'optional': True}}
         assert json.loads(actual.read_text()) == manifest, 'Unexpected installed package transformation'
-    assert len(actual_files) == 1974 and byte_identical in {1973, 1974}
+    assert len(actual_files) == 1977 and byte_identical in {1976, 1977}
     provenance = json.loads((installed / 'SOLARIS-BUILD-SOURCE.json').read_text())
     assert len(provenance['canonical_files']) == 1199
     for name, digest in provenance['canonical_files'].items():
