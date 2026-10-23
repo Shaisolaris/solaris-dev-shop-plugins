@@ -1,9 +1,9 @@
 {
   "prototype": false,
   "source_native_commit": "2ca1ffa5597981a1effbbcd43aefdc82ce03d124",
-  "source_core_commit": "0391e15cc52ddfa88a6c02b5997fd9955e214491",
+  "source_core_commit": "cd1898c6dc062a2dcf01a56b53403023c1994c8d",
   "version": "0.66.0",
-  "metadata_stage": "distribution",
+  "metadata_stage": "contained-input",
   "workflow_count": 62,
   "new_role_capabilities": 0,
   "mirrors": {
@@ -278,7 +278,7 @@
         "employees/engineering/devops-engineer/local-deploy-preflight.md": "ac0e27cbf0b34a48bb27857d761235f8e879e36c9c5b94d2753ba68a7e04ffbc",
         "employees/engineering/devops-engineer/learnings.md": "cf2e9fd6335afd0fd2d56e2de568809ec2a65896d20052f5c004fca5d227a7d1",
         "employees/engineering/devops-engineer/headless-fleet-runbook.md": "919ad621cfa80d503530d50b216935ef3fe10a1e80c865d3053261b286b7c92c",
-        "employees/engineering/devops-engineer/gitops-skill.md": "42f4142d6662837d3aae6d43e8ba6dd94b1fffd1afb3ffa7371a1699408e4f42",
+        "employees/engineering/devops-engineer/gitops-skill.md": "d2aa552ade9205d8c5a8a7f375b73fd37bdb18982466f45df6686ff7966eb5ca",
         "employees/engineering/devops-engineer/gameci-unity.md": "58b97119218d388245ce31efe98093d60c34f84b97c3252ffcce368de650c115",
         "employees/engineering/devops-engineer/ftp-git-deploy.md": "083c4f89a39228321a0838f372729ca01e0149751f468fb47e75748fceb5dc21",
         "employees/engineering/devops-engineer/docker-skill.md": "56c4bea80a6e47c72ae2f5b1d50a8016c9fe28504408f413863fb27ac3c812d0",
@@ -364,7 +364,7 @@
         "employees/engineering/mobile-developer/offline-sync.md": "ec73f0d2febbdb6ad7fbc530d4dd9f96e5e3468a3045ae7f10462fc6d9185e2b",
         "employees/engineering/mobile-developer/native-mobile-language-packs.md": "1223ddc7165050f070b51a1927f580686fed94847c5216d771d7b9d4cd1483c1",
         "employees/engineering/mobile-developer/mobile-test-and-release.md": "597a1e19bec8253a710795c2e301bc7d2655ce707189fff36d58b5f0004b9518",
-        "employees/engineering/mobile-developer/mobile-mcp-operator.md": "50cfe385522c209c257cd365866b42ae38fd762f2caf922e59eae2a7d9b3a8ac",
+        "employees/engineering/mobile-developer/mobile-mcp-operator.md": "3366f4798f631e9c759602517ddf47ba95564674eeb4ab3dd47f77ce46e30fb2",
         "employees/engineering/mobile-developer/learnings.md": "da2804e64e1498f4bb566263bb20b9f4e87fade0f18efcdb5cd5e383ab67ad7c",
         "employees/engineering/mobile-developer/capability.contract.json": "c5ff74d1247ed4344399745bf3616e2efb251996bbf445f26d25fcc87453ed36",
         "employees/engineering/mobile-developer/android-architecture.md": "c52b6297c7f641d1e11f6c67050271571d9ee530d4866c6331000b4d30a7d63b",
@@ -398,7 +398,7 @@
       "mirrored_canonical_files": {
         "employees/engineering/unreal-developer/unreal-testing-pipeline.md": "5a2a982f2480cfaddf3e52e3571665174804760e508ebcefa724a6bc4fbdfdde",
         "employees/engineering/unreal-developer/unreal-scene-architecture.md": "3a5cae5aef868376ce7895e344ce349772e2b12c975064ee7f5c12613b313eb9",
-        "employees/engineering/unreal-developer/unreal-mcp-operator.md": "d672882cecd5a10b144a2580aa158cb36042cbdc3e7c6c97a34ff215b9494664",
+        "employees/engineering/unreal-developer/unreal-mcp-operator.md": "0180e1d593eb0593d1eadb59bcbf47438c4e43822f6a9668444c8c13284dbdd1",
         "employees/engineering/unreal-developer/unreal-genai-asset-gen.md": "2d6fa9a80709da863ac02f94ea93bd25e570cc228d20cd1e500bda7bd7aa2710",
         "employees/engineering/unreal-developer/unreal-gameplay-patterns.md": "198c93c917fe6892c0648ac547c734ee9c1fcec7d3516af2a0883291809e1007",
         "employees/engineering/unreal-developer/unreal-cpp-quality-and-build.md": "a37ac827df96cddfa827633734008ad2e5bc45043dec03e2b10f4c287469369a",
@@ -990,7 +990,7 @@
         "employees/specialized/wordpress-master/diagnostics/intake/SKILL.md": "ef102fe743648561b384578608f9548fcf20c49b19f5b22327eb1a0edad65b07",
         "employees/specialized/wordpress-master/diagnostics/diagnostic-wpcli-profile/SKILL.md": "7962698aaa445be155ac9bb51110ed33740770aa4d5add52e24d463cd7136ea4",
         "employees/specialized/wordpress-master/diagnostics/diagnostic-version-audit/SKILL.md": "2ea4af2f01fe2843108cce823f38ffb9fa7baf22293d906b7b594ad65019283a",
-        "employees/specialized/wordpress-master/diagnostics/diagnostic-user-audit/SKILL.md": "1ea6d843b1994b98d56f0de8a4a83d9d466e728b6abf2a5a3d7d742bd9fdb236",
+        "employees/specialized/wordpress-master/diagnostics/diagnostic-user-audit/SKILL.md": "ddb37bed7db322bf50ebc56006c1d6ed71b3cef4cef6e93905b0736646d421f0",
         "employees/specialized/wordpress-master/diagnostics/diagnostic-performance-n1/SKILL.md": "216fd192e07dcdb533f59727fc00128d40a28540492a2fba85529cc5d23218c9",
         "employees/specialized/wordpress-master/diagnostics/diagnostic-malware-scan/SKILL.md": "efada0eaa6a495b2aca3f39bc357fb5a58c8ff855df3f0434ad39a88605353d7",
         "employees/specialized/wordpress-master/diagnostics/diagnostic-https-audit/SKILL.md": "8825c6a640ca8d84ca74b2feb4276f52f8885d12d1bb0b44048fb5e87d87865e",
@@ -999,7 +999,7 @@
         "employees/specialized/wordpress-master/diagnostics/diagnostic-db-revisions/SKILL.md": "b3195c005afd2d88d1c78aaffa8532939365a1f982a2d38d333d5459adccbf32",
         "employees/specialized/wordpress-master/diagnostics/diagnostic-db-autoload/SKILL.md": "f473f04a40a62a9a6fc091b11eaa622c99297ea5ed4a24c6dd7d8806f3911592",
         "employees/specialized/wordpress-master/diagnostics/diagnostic-cron-analysis/SKILL.md": "2a5a958d8cf4fbc6684cffb19f22050f8dfc64b9d4c7bb623e6e10144a0ed905",
-        "employees/specialized/wordpress-master/diagnostics/diagnostic-core-integrity/SKILL.md": "b470d56a9db826c7397ccbf63f91cf6cd779364f68016035982e2a7b5145d331",
+        "employees/specialized/wordpress-master/diagnostics/diagnostic-core-integrity/SKILL.md": "7ee1638f246b4055c08925fc2e20ff9fa1cb8952fc9980e2b1086ae808aa4c9c",
         "employees/specialized/wordpress-master/diagnostics/diagnostic-config-security/SKILL.md": "ae89e739cc7706dc2cecc400e4ea483429ac93961354f3c816bef3533ed76424",
         "employees/specialized/wordpress-master/diagnostics/diagnostic-code-quality/SKILL.md": "8a4a7a860c46006c858131800a9f1dda966e2514297c6834829486834d3749f9",
         "employees/specialized/wordpress-master/diagnostics/diagnostic-architecture/SKILL.md": "2287b817d4d7d4b369c206553381bf7476d1a125a4d28ef99f2ae2eec444120e",
@@ -1049,24 +1049,6 @@
       "reason": "not an existing canonical target"
     }
   ],
-  "distribution_notice": {
-    "canonical_notice": "SOURCE-NOTICE.md",
-    "resource_license_aliases": [
-      {
-        "path": "skills/ui-ux-designer/resources/canonical/employees/design/ui-ux-designer/design-intelligence/LICENSE-upstream",
-        "canonical_origin": "employees/design/ui-ux-designer/design-intelligence/LICENSE-upstream",
-        "sha256": "738f69dfa83db5c347c678fb9d90e560877059f0de93a327c39001bff92dc014"
-      }
-    ]
-  },
-  "relocated_repository_configuration": {
-    ".github/ISSUE_TEMPLATE/bug.md": "source-config/.github/ISSUE_TEMPLATE/bug.md",
-    ".github/ISSUE_TEMPLATE/config.yml": "source-config/.github/ISSUE_TEMPLATE/config.yml",
-    ".github/ISSUE_TEMPLATE/feature.md": "source-config/.github/ISSUE_TEMPLATE/feature.md",
-    ".github/ISSUE_TEMPLATE/new-employee.md": "source-config/.github/ISSUE_TEMPLATE/new-employee.md",
-    ".github/ISSUE_TEMPLATE/question.md": "source-config/.github/ISSUE_TEMPLATE/question.md",
-    ".github/PULL_REQUEST_TEMPLATE.md": "source-config/.github/PULL_REQUEST_TEMPLATE.md",
-    ".github/workflows/ci.yml": "source-config/.github/workflows/ci.yml",
-    ".github/workflows/try-router.yml": "source-config/.github/workflows/try-router.yml"
-  }
+  "publication_ready": false,
+  "required_before_publication": "Derive resource notices and relocate canonical CI snapshots exactly once in each final profile."
 }
