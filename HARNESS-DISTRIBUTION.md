@@ -1,16 +1,20 @@
-# Solaris native distributions 0.65.0 candidate
+# Solaris native distributions 0.66.0
 
-61 specialist workflows plus one chief-of-staff coordinator. All profiles preserve 1,199 canonical file hashes from core `0d2ae8e76cba4e56dc01d9c621e553179b34c40e`. See [validation](VALIDATION.md) for exact current checks and limits; provider approval is separate.
+One complete product: 61 specialist workflows and one chief-of-staff coordinator. Every profile preserves 1,200 canonical file hashes from [core 0391e15](https://github.com/Shaisolaris/solaris-dev-shop/commit/0391e15cc52ddfa88a6c02b5997fd9955e214491). Native formats add no employee capabilities.
 
-| Profile | Complete files | Current source/caller checks |
+| Profile | Complete files | Source checks |
 |---|---:|---|
-| Copilot / Cursor / Factory / Pi / Kimi portable layout | 1,978 | Exact rebuild,62 contexts,coordinator, SQLite recovery and negative controls pass |
-| DeepSeek Harness | 1,977 | Exact rebuild,62 contexts and coordinator pass |
-| Kilo | 1,976 | Exact rebuild,62 contexts and coordinator pass |
-| OpenClaw | 1,978 | Exact rebuild,62 contexts and coordinator pass |
-| Antigravity | 1,975 | Exact rebuild,62 contexts and coordinator pass; strict manifest license policy finding retained |
-| Cline / Amp | 1,977 | Complete source profiles prepared; actual client and refusal checks remain separately recorded gates |
+| Copilot / Cursor / Factory / Pi / Kimi | 1,979 | Exact rebuild, 62 contexts, coordinator and SQLite recovery/refusal controls |
+| DeepSeek Harness | 1,978 | Exact rebuild, 62 contexts and coordinator |
+| Kilo | 1,977 | Exact rebuild, 62 contexts and coordinator |
+| OpenClaw | 1,979 | Exact rebuild, 62 contexts and coordinator |
+| Antigravity | 1,976 | Exact rebuild, 62 contexts and coordinator; strict-manifest license-policy finding retained |
+| Cline / Amp | 1,978 | Exact source, callers and six tampering controls per format |
 
-Codex, Claude Code and OpenCode use the shared `plugin/` layout. The portable profile uses `copilot/plugin`; each other native format lives in `harnesses/<host>`. Install complete packages, not only the skills folder. Python helpers require Python 3.10+ and PyYAML, and retain their individual operating-system and service prerequisites. Hosts supply tools and approvals; installation grants no account access and starts no schedule.
+Codex, Claude Code and OpenCode use `plugin/`. The portable profile is `copilot/plugin`; other formats are under `harnesses/<host>`. Install complete packages. Host tools, Python versions and individual workflow prerequisites apply. Loading a workflow does not start Docker, services, background jobs, source refreshes or learning rewrites. Optional setup must fit the authorized task. Host permissions are the actual access boundary.
 
-The [0.64 host matrix](docs/history/HARNESS-DISTRIBUTION-064.md) retains previously executed client versions, commands and proof. Current0.65 public source commits and native execution evidence will be bound before release. Full Hermes admission remains held. Curated listing, npm publication and partner application outcomes are not implied by Git source availability.
+## DeepSeek Discover
+
+DeepSeek Harness ships no default market index. Enable **Plugins → Experimental plugins → More → Custom plugin markets**, then **Discover → Add index source** with `https://raw.githubusercontent.com/Shaisolaris/solaris-dev-shop-plugins/v0.66.0/markets/deepseek.json`. For an immutable source, replace the tag with the distribution commit recorded in the release manifest. Select **Solaris Dev Shop** and review its exact source before installing. This index recommends only the current full 0.66 product; historical releases remain available in GitHub history. The normal Discover reader was exercised in an isolated profile. A custom market is not DeepSeek endorsement or a default store listing. See [official market documentation](https://deepseek-harness.github.io/deepseek-harness/en/guide/plugin-market).
+
+The final release receipt binds accepted commits, artifacts and exact-revision CI. [Validation](VALIDATION.md) distinguishes source checks, actual client execution and provider admission. Earlier client results in [history](docs/history/HARNESS-DISTRIBUTION-064.md) remain historical; no old tag or asset is rewritten.

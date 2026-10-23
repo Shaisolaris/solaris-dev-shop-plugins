@@ -13,25 +13,12 @@
       },
       "versions": [
         {
-          "version": "0.65.0",
-          "publishTimestamp": 1792703640,
+          "version": "0.66.0",
+          "publishTimestamp": 1792795362,
           "source": {
             "type": "git",
             "url": "https://github.com/Shaisolaris/solaris-dev-shop-plugins",
-            "commit": "83fcb4fe0738bb4fed75716c4ec85340822a74bd",
-            "path": "harnesses/deepseek"
-          },
-          "engines": {
-            "dsh": "0.2.1-rc.2"
-          }
-        },
-        {
-          "version": "0.63.0",
-          "publishTimestamp": 1792669860,
-          "source": {
-            "type": "git",
-            "url": "https://github.com/Shaisolaris/solaris-dev-shop-plugins",
-            "commit": "c69fbcf49e46da3837fcf75420b9914705b2eab7",
+            "commit": "023f610ef085101c1bb01f2ec0760390af12c4f1",
             "path": "harnesses/deepseek"
           },
           "engines": {
