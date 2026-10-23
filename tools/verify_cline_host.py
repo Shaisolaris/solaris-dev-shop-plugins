@@ -92,7 +92,7 @@ def main():
     for row in index:
         context = subprocess.check_output([sys.executable, '-B', str(installed / 'skills' / row['name'] / 'scripts/run.py'),
                                            '--context'], cwd=workspace, env=env, text=True, timeout=15)
-        assert json.loads(context)['source_commit'] == '1f06f27288ba47143574742bd340228ea492962c'
+        assert json.loads(context)['source_commit'] == '8182d43c6bcbe90ebab7b3dbf9130f03347968a1'
     for section in ['skills', 'tools']:
         result = subprocess.run([cli, 'config', section, '--json'], cwd=workspace, env=env,
                                 capture_output=True, text=True, check=True, timeout=45)

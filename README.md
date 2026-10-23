@@ -1,7 +1,7 @@
 # Solaris Dev Shop native plugin
 
 61 specialist workflows, a chief of staff and executable local helpers. Published by
-Solaris Technologies. Generated from [Solaris Dev Shop 0.66](https://github.com/Shaisolaris/solaris-dev-shop/tree/1f06f27288ba47143574742bd340228ea492962c).
+Solaris Technologies. Generated from [Solaris Dev Shop 0.66](https://github.com/Shaisolaris/solaris-dev-shop/tree/8182d43c6bcbe90ebab7b3dbf9130f03347968a1).
 
 ## Install
 

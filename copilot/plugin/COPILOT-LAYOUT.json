@@ -1,7 +1,7 @@
 {
   "prototype": false,
   "source_native_commit": "2ca1ffa5597981a1effbbcd43aefdc82ce03d124",
-  "source_core_commit": "1f06f27288ba47143574742bd340228ea492962c",
+  "source_core_commit": "8182d43c6bcbe90ebab7b3dbf9130f03347968a1",
   "version": "0.66.0",
   "metadata_stage": "contained-input",
   "workflow_count": 62,
@@ -10,7 +10,7 @@
     "chief-of-staff": {
       "canonical_workflow": "chief-of-staff/SKILL.md",
       "mirrored_canonical_files": {
-        "chief-of-staff/rules.md": "136cb26e13c7f7ff4eb75a44e4437f90cfcd474dcb9a9ba7ea627218d5dd9be0",
+        "chief-of-staff/rules.md": "d20980ef8f26ca949658370f642918a380c80eeaf5d031a251336ea61919c222",
         "chief-of-staff/references/supervisor-handoff-tool-pattern.md": "64c0118656941768cd2f2da38280c20fcc8e8ef80ab62a9c372645beb97b0170",
         "chief-of-staff/references/routing-table.md": "787a914a92e8750e3b757b12dc80350147417783f174b84aca3a9b824c3125e1",
         "chief-of-staff/references/routing-patterns.md": "679cc23c9ea58124b07c67be75ae029594d1a73cabae4c60818914c1ecd4db40",
@@ -23,7 +23,7 @@
         "chief-of-staff/learnings.md": "fcdf11b12234cff74d53b7d08897f0737f3ad626f34162da11f93e1b0f8c7ae2",
         "chief-of-staff/cross-employee-integration-patterns.md": "29566d5645fac252540e263d7daddaa8c09e60e8cf3c1ef5184b4fbba1181d2c",
         "chief-of-staff/capability.contract.json": "bc239988551e677952b1837e3e9531cdbe4bb1fde31d6c2fb4aa21bfcb536160",
-        "chief-of-staff/SKILL.md": "27fe22c5cb4aaf246a4cfcc04c976887993d536408bd8399e882ff53dc3326e9",
+        "chief-of-staff/SKILL.md": "4620398ded892a0d5639950567ba963448573b3faa22268decaf8dcfbe6ea32c",
         "chief-of-staff/NATURAL-ROUTING-PLAN.md": "ec0857738197ed5da6f98a6528e588776a6271e6a72eca5fcc22ddd867a8432a"
       },
       "entrypoint_sha256": "a2f85ec3c94fcb13d9d6ed4ac1c592b3b6bff91038df561722803ff142fd7cf0"
@@ -216,7 +216,7 @@
         "employees/engineering/ai-automation-engineer/mcp-and-pipeline-building.md": "345858f5046cbe3533b00f0c394ad8e78444f5f0dbbf0c8c7e023acd017a83a9",
         "employees/engineering/ai-automation-engineer/learnings.md": "6cb15eef82cf1e61249ae05804b4fc2fdbb3bfa4998853aece098ed18e1c33c5",
         "employees/engineering/ai-automation-engineer/capability.contract.json": "53a71c013a8286803057d967389ed4a8f6398b130af096a3783c67b295427f4b",
-        "employees/engineering/ai-automation-engineer/SKILL.md": "6243dd20248b9bfa79eab6e6d35cbf16e40b2966d2e3b2951196b88844ed458f"
+        "employees/engineering/ai-automation-engineer/SKILL.md": "a885e271425331dc5992a2b1fc2de0b8eefadc0b6ba80ff975ada17942fd5412"
       },
       "entrypoint_sha256": "128d7e1bec4acd24949ce5e96909f3a4918211856ca13e195c9adac3d4cc49a5"
     },
@@ -230,7 +230,7 @@
         "employees/engineering/ai-ml-engineer/learnings.md": "b5581a971e0ff4099bf7363e4a4daa60db898edb164b2211d7fcd5308bb877ea",
         "employees/engineering/ai-ml-engineer/jupyter-notebook-workflow.md": "c4ab61fe484248c5f25db7ecd52e3308022feb478e844df2eb75542a8801358c",
         "employees/engineering/ai-ml-engineer/capability.contract.json": "1946102f26b347c3a9f1e32f3f0149470e860cb4e48d7fe85bbea798e87a0ac4",
-        "employees/engineering/ai-ml-engineer/SKILL.md": "44788b0818aab1f4acc2ef891ba0d4498ab2cc7ea68bbbff0c98282d455fea1b"
+        "employees/engineering/ai-ml-engineer/SKILL.md": "e20e47e212629c54336e39aaecf46de03b6375ca01d361059214080e1196ff89"
       },
       "entrypoint_sha256": "65c4b03011ae277e781cc975c8dff549a1c54be731f18c66c74085cd231dee5f"
     },
@@ -284,7 +284,7 @@
         "employees/engineering/devops-engineer/docker-skill.md": "56c4bea80a6e47c72ae2f5b1d50a8016c9fe28504408f413863fb27ac3c812d0",
         "employees/engineering/devops-engineer/dagger-mise-toolchain.md": "e4f51a3c3c289162ebc9f57db90c0f7bfb00ea0f24899c44527b2e678fa2e0fe",
         "employees/engineering/devops-engineer/capability.contract.json": "725dd24df2700f960ddc6ed35ea67630410e80eb75ae31be560ece0a08600883",
-        "employees/engineering/devops-engineer/SKILL.md": "87b9b2c00e74741bc495f1b1ecb913670a29de1cd36101ae0ff9499df5810f0a"
+        "employees/engineering/devops-engineer/SKILL.md": "7f37ae14ea126d634d08b377e4c090de51614629a77eb422bcb3eafa60cfa80b"
       },
       "entrypoint_sha256": "92d6e1595df5a2aba6d0bcd956c0d7c57fa9384b807c8fec5a79e6a4f274dcb3"
     },
@@ -320,7 +320,7 @@
         "employees/engineering/full-stack-developer/capability.contract.json": "afcf0736f2fe6a8f29aa8c58213139935904bb176e7f8b3ae329a8a76d10b0ce",
         "employees/engineering/full-stack-developer/auth-patterns.md": "9470b3e3b67910336bf21f3b45b553f8811580125b1d00cf99c88530bfe05cab",
         "employees/engineering/full-stack-developer/api-design.md": "6e52356cc83994dccf07712c6ea8a98849768e4853abbb5441cb2caaf2b416db",
-        "employees/engineering/full-stack-developer/SKILL.md": "004fad65f90cbecddae73986721426b9a9b38d7534fdf8c9f880e161da9b38bf"
+        "employees/engineering/full-stack-developer/SKILL.md": "6b17abbea89e3b83693ec58f8cfda40b895db4d734bb81327c921c2df017b5a7"
       },
       "entrypoint_sha256": "d4015d7660de0be7933b94d970ba039e6c4b3767227b06633324f6a1b4b2d2bc"
     },
@@ -351,7 +351,7 @@
         "employees/engineering/llm-agent-designer/capability.contract.json": "d9974ce029111c1e5cac32748908f82f6c70b6f1fe79f4b121a98d3591255b90",
         "employees/engineering/llm-agent-designer/agentic-build-patterns.md": "135a8967c098506020d85ff370a3f4b63d43ff9f2615a635310d947922d6c673",
         "employees/engineering/llm-agent-designer/agent-engineering-craft.md": "e69ecd61522f1eecd178a9230b72113b7eaba6701f27edfbcb803772b03986c0",
-        "employees/engineering/llm-agent-designer/SKILL.md": "1bf9b73c7f75b5da49122c6b7533e3cde0b6e22b40c6831b64bc84ae2a58a75e"
+        "employees/engineering/llm-agent-designer/SKILL.md": "bfb2318924f1454294a5804aeceb2804c5748bd2bd68934c34c6c72b399d2876"
       },
       "entrypoint_sha256": "aeb109568c0589c2dce22983e4a18bd1131a231365152a03a8df00dc4c93c42c"
     },
@@ -368,7 +368,7 @@
         "employees/engineering/mobile-developer/learnings.md": "da2804e64e1498f4bb566263bb20b9f4e87fade0f18efcdb5cd5e383ab67ad7c",
         "employees/engineering/mobile-developer/capability.contract.json": "c5ff74d1247ed4344399745bf3616e2efb251996bbf445f26d25fcc87453ed36",
         "employees/engineering/mobile-developer/android-architecture.md": "c52b6297c7f641d1e11f6c67050271571d9ee530d4866c6331000b4d30a7d63b",
-        "employees/engineering/mobile-developer/SKILL.md": "ad0c216fbea0d5dff4543618669d82031b6b3726aed308bcdd89f94f92d0aed2"
+        "employees/engineering/mobile-developer/SKILL.md": "49fda057dafee2dc0c744f4275dad547a66bf9aa3b4fc6f6bdb2358c647c7572"
       },
       "entrypoint_sha256": "393e4363cee79f3f7c8131d9c2113f9a7b9a89e0e9e7f74bd36c8b8e98a905c5"
     },
@@ -383,12 +383,12 @@
         "employees/engineering/unity-developer/unity-build-ship.md": "40e030ff56aba1896ffaa58dbba5b3b333d22ff5c1aaca4a82a63ab2ca4e597a",
         "employees/engineering/unity-developer/rules.md": "d9ec68857aee85a62a0db66caf5841f18fa3bef58fba31cac3246500abb47c1e",
         "employees/engineering/unity-developer/plugin.json": "ea268b7cc766c3d92eb10299b8068551537da45972788da8546fb8b8d88e772e",
-        "employees/engineering/unity-developer/learnings.md": "95abcd8a2727b5d6200447e80a83560973c4593ae65feef79cae147f06d71fdf",
+        "employees/engineering/unity-developer/learnings.md": "34ef5859a3e1fa7a09f2590c9484cfc85c0552ba752bf8ede910aa7681208a91",
         "employees/engineering/unity-developer/game-design-mentor.md": "1a8dd552ac25a6d38f22e595a28d2b60e7a18effad05ccd2212bdec48f5e70ea",
         "employees/engineering/unity-developer/csharp-dotnet-quality.md": "22bd27e0ce104d4a0bf831c157ea7865e49637ac103df35a9a5fc63acd9076e1",
         "employees/engineering/unity-developer/coplaydev-unity-mcp.md": "b73767f94d4b5cb73b1f1fc8f7133f0e04bda3ebc73ddcd4ba418bb8eccbe29a",
         "employees/engineering/unity-developer/capability.contract.json": "f75c7b9eeb122451d84793eecef568aa4ea5bd925503a78203caf95fad3ad878",
-        "employees/engineering/unity-developer/SKILL.md": "0687c59594085cd61d5e3cea52c45c6c3be74e23776088cae42303202ef582d6",
+        "employees/engineering/unity-developer/SKILL.md": "949e794c12a943de2416faa4dd08fdad2f6154ac9dfe9ca0064001e42d1b5274",
         "employees/engineering/unity-developer/CLAUDE_template.md": "35cf434cc1c54456c3283a64d9878c5cb404e01b35d189cd42a74cf4495fc8c1"
       },
       "entrypoint_sha256": "4bd57dd65aac878ddb7a59986ddcd77a819746d80f20a0a3323cd4b2e81fe73e"
@@ -401,14 +401,14 @@
         "employees/engineering/unreal-developer/unreal-mcp-operator.md": "d672882cecd5a10b144a2580aa158cb36042cbdc3e7c6c97a34ff215b9494664",
         "employees/engineering/unreal-developer/unreal-genai-asset-gen.md": "2d6fa9a80709da863ac02f94ea93bd25e570cc228d20cd1e500bda7bd7aa2710",
         "employees/engineering/unreal-developer/unreal-gameplay-patterns.md": "198c93c917fe6892c0648ac547c734ee9c1fcec7d3516af2a0883291809e1007",
-        "employees/engineering/unreal-developer/unreal-cpp-quality-and-build.md": "6a6bdead30926f40b0c63cb69edb5aed9cd974c6b8d3077e8c4d9899bf05fbc7",
+        "employees/engineering/unreal-developer/unreal-cpp-quality-and-build.md": "a37ac827df96cddfa827633734008ad2e5bc45043dec03e2b10f4c287469369a",
         "employees/engineering/unreal-developer/rules.md": "b46253fe2a925db776a8462d294e6acc481c0bccfee90cd45509ca9fe350e655",
         "employees/engineering/unreal-developer/plugin.json": "8dd1bc80fbd481f8f2596d43ae7d839e3b429bffb4353ec181cd643324b6fd8c",
-        "employees/engineering/unreal-developer/learnings.md": "1e25b5f7a17d893efccfe2348f7d1dc518c5a983bd844cb763f63444772777f7",
+        "employees/engineering/unreal-developer/learnings.md": "bb400a054d171e8788c1e529cae76c49ff9395db5a53a77b518d805490624959",
         "employees/engineering/unreal-developer/job-two-improvement.md": "0ae705feed8ab906f4b54dd41e495504e60cf4737504dcb8e66e5cfe9d4a2097",
         "employees/engineering/unreal-developer/game-design-mentor.md": "a08a33964493765b08705dcb90a91403e8e2d4164de988d504b3e6c2f8b58496",
         "employees/engineering/unreal-developer/capability.contract.json": "db4157bfba14e6111bc061a469765fac931c78eb4d24dd59c7a589fa2116d98b",
-        "employees/engineering/unreal-developer/SKILL.md": "efe34e7995ccadb19eeb6a2101d4ad9f92820d4778913a17a92cbb9074b300f2",
+        "employees/engineering/unreal-developer/SKILL.md": "e58e04d999fbef02376606a16302dbb81b30c33906eb1493de95c7a9f21a8367",
         "employees/engineering/unreal-developer/CLAUDE_template.md": "8327b5dcb04b817498f6a78f9d3571f1d06b41b045bd284494e9f0cea8f48d76"
       },
       "entrypoint_sha256": "0170f8d864e18f450a491ee0a4fb4e0762a389081a20b36eba5e4f2375105aa0"
@@ -686,7 +686,7 @@
         "employees/marketing/seo-aso-specialist/content-diagnostics.md": "6b701f89bff3c84933685daf06c20084ad828420707c28af17c971bfeb27c94f",
         "employees/marketing/seo-aso-specialist/capability.contract.json": "65f33a5c5431b448af65a34a455d0eedaacb0e15cee6f23426ac8a8863737023",
         "employees/marketing/seo-aso-specialist/aeo-ai-visibility.md": "ae7d6fb83a71e473cde42d76bd21206c21db49fc19cd335dd371246934971238",
-        "employees/marketing/seo-aso-specialist/SKILL.md": "8a0c0d1c0c7769ebdd663fdd7db7f8f1528ce07e0554f73d0e29d5692d125bf6"
+        "employees/marketing/seo-aso-specialist/SKILL.md": "9266aabea6ce1be023356e5b57d2bbc30525adc8d8dd98ead4bcc89343f0f141"
       },
       "entrypoint_sha256": "725adb599a7c3e96825dd07b2981654a8013b2c00505e7e0298b977554cc1bb7"
     },
@@ -732,7 +732,7 @@
         "employees/product-project/delivery-lead/delivery-evidence.md": "ff2e9cec9d4684c2a1eb01454d609ae2c690f07351f81cf36eb074332eb4a077",
         "employees/product-project/delivery-lead/codebase-onboarding.md": "d4eb4df69ec5395add92fd500418c2398acaff8aafec30a3d7deb45030be3cab",
         "employees/product-project/delivery-lead/capability.contract.json": "b2574de6829bf138acc96462c27f148ea1f35a9f53afd232699528b93ffddea7",
-        "employees/product-project/delivery-lead/SKILL.md": "e4420ca5cacc2d8fcd4ec6aaaea8cef0ca64f58db9c882fd30f09623818c2616",
+        "employees/product-project/delivery-lead/SKILL.md": "4c21d871999e9bd4d6c70e5b1e22d3e77fd125d00b799c33e37c74d5c7c2aad2",
         "employees/product-project/delivery-lead/PROJECT_TAKEOVER.md": "ad8df2edfc57e8c16340f8f1d1886650a2f79a558209d5041ecdd6ec1b078cad"
       },
       "entrypoint_sha256": "ff88d99690cc484b83662c894dbb3481fa23f88414faa4c86f18ae2edcb63e04"
@@ -789,7 +789,7 @@
         "employees/quality-security/code-reviewer/codebase-takeover-and-audit.md": "10d60d1b58b17ad02951a12bf7f05f82394888de472ce30ec2052c3a860815e3",
         "employees/quality-security/code-reviewer/code-context-operator.md": "6ae86b28f45af8bd46e4242d70426c8d682d5df5d1cd5d01dc82060eb80d63bb",
         "employees/quality-security/code-reviewer/capability.contract.json": "4b7e9d6e415f0f86937478a53ea33eaab92c089b2041dfdc9a2c28c6a158fc5f",
-        "employees/quality-security/code-reviewer/SKILL.md": "548326db9b5f0214bb3878ab8cd82457ed418a241382c7c5b74c4ecf7a842695"
+        "employees/quality-security/code-reviewer/SKILL.md": "a3c82734471908e111d26258eec18594045d328785cb769b0db3707ca87b87f6"
       },
       "entrypoint_sha256": "51ae09492808b14189eff5dde20135b36e06a9d931c63ca12e3da80d079f1dd3"
     },
@@ -818,7 +818,7 @@
         "employees/quality-security/qa-engineer/elite-manual-qa-2026.md": "a9e958e79d023616d7a66c0722bbf2a8bd362f7541a87ef6feabad7a3e6fb9cb",
         "employees/quality-security/qa-engineer/capability.contract.json": "c565947f43db5009f24a9ebb631c227ec04544dc3a07587f81ae3d7660aafc38",
         "employees/quality-security/qa-engineer/api-fuzz-mutation-integration.md": "56ff8998a5e96903aa9e52ff018ff051b56a44d5328b7e25516e4a50330e86a2",
-        "employees/quality-security/qa-engineer/SKILL.md": "289b323d8b42ac07925dbea1bd1259042470cb6a8c972b9000f731c9aaadb196"
+        "employees/quality-security/qa-engineer/SKILL.md": "6450d925e0c86cd181af140105e67fa6b034ad8b9d7bf4b6ca757291b0aeabec"
       },
       "entrypoint_sha256": "b2e6ce09c5970a4ae6d76a8e8f336f2498134e880e4e2182948705b864311032"
     },
@@ -879,7 +879,7 @@
         "employees/sales-outreach/proposal-writer/plugin.json": "30e5cd1c1ca85b543c5fff9baedbab809c25548847f15d52ce10bc6192016069",
         "employees/sales-outreach/proposal-writer/learnings.md": "ca0bae15aaf5a084b87498546a1e2c6d88fae19dbd990613c78d38a1e39b8f83",
         "employees/sales-outreach/proposal-writer/capability.contract.json": "c0f4550dc52cbb4f6068f6cf57f87a8443923a02ac0c7beea5dbc85d52513acc",
-        "employees/sales-outreach/proposal-writer/SKILL.md": "62cc995b54fbc7528435de6c10daa402ac88dacef457d9c109f3866f4194e621"
+        "employees/sales-outreach/proposal-writer/SKILL.md": "d49d3d0686def773af873ddc20e8eb83d273bb90fcac1779b5dc6eea44653e7f"
       },
       "entrypoint_sha256": "699048fc50ee3da318a9d798baab46bafaa1250923bbeab60fd40f2ddc0b96c0"
     },
@@ -930,7 +930,7 @@
         "employees/specialized/engineering-design/freecad-mcp-operator.md": "026462921613a0fbb40c9e9f84110306b8cd97ed6d1803637343e68505f21c0b",
         "employees/specialized/engineering-design/depth-2026-06.md": "b519bddfe57726c44d8c08577ffad3a7bc8d239a2a82749e20ac3865daf8ebd2",
         "employees/specialized/engineering-design/capability.contract.json": "ddf40a882b939f000d154d132ea5eb6802754eb9da93abd0c0dbb70d90b0a6b9",
-        "employees/specialized/engineering-design/SKILL.md": "bda9ee909d1767c4b49b70bb89c417e1cd375de21bced9b0d948e057cfc32cf3"
+        "employees/specialized/engineering-design/SKILL.md": "2c196e4dfe96bc4e45a272ec376b7ad57b0a7cd4f227791ee43881b8e37bcd51"
       },
       "entrypoint_sha256": "7af8612974c12a6375cb14aeb2674909161cf084997198cfab3302e9a9142ef1"
     },
@@ -939,14 +939,14 @@
       "mirrored_canonical_files": {
         "employees/specialized/game-designer/rules.md": "a60202c4aadf077f3bae4624d10fc0cc7a3da76e31a392942d01fdd7b5ff65b9",
         "employees/specialized/game-designer/plugin.json": "06e9ee8c2ec93f94fd519004ba9623e841146e0c47c624ce22a32658c28dfd70",
-        "employees/specialized/game-designer/orchestration-prompt-to-playable.md": "0cb9a715ea7cde7da8fe57c7ea3e6a13cba4453f92da070eec3e1f16c6f9f841",
+        "employees/specialized/game-designer/orchestration-prompt-to-playable.md": "5379ae2cc2dd042cf2093598a904d7620acc18f54f50b0bbd525e01111ccb922",
         "employees/specialized/game-designer/narrative-ink.md": "a38e5815c96392400fd92b2026830ee5ae9c580bd09a27017cb619fe1edeb1c2",
         "employees/specialized/game-designer/learnings.md": "2412a6179c573e50cc2e7d3d4b356d99985dbaa1fa41454234d599553bb22a02",
         "employees/specialized/game-designer/design-frameworks.md": "13b3ff88e38bdb74b0ad505151a549b00e5febd42f1ac8b6a05dbb33f44baa7f",
         "employees/specialized/game-designer/design-corpora-and-connect.md": "5e8112a305958550aa0c113969a55e9f88887f2303a36614b75d5f118ea4fb9e",
         "employees/specialized/game-designer/depth-2026-06.md": "0eec174d2f652df811278e96d1e5e427a25e7a601546c840db007eee679b3ddb",
         "employees/specialized/game-designer/capability.contract.json": "b35497a3914f0e0277ee168c3c213a3e9f6a49474540c8e4e9fc250e820b49e9",
-        "employees/specialized/game-designer/SKILL.md": "b1e9a3c7586b5e8c00c5b04876b84f4e816ca416ffe8c426a84faefb9d8e6f6b"
+        "employees/specialized/game-designer/SKILL.md": "b681ad06012a03f25096806950f0188a03d749ccf9928a43bc07cee95121d05b"
       },
       "entrypoint_sha256": "c5c7f0aa2747b7d20b22e09b653cb858a55deb684a480617b9b2e0de676aa17e"
     },

@@ -42,7 +42,7 @@ def build(source, output, host):
         'Local helpers need Python3.10+ and PyYAML on the host PATH. Individual specialists retain their documented prerequisites and permissions. '
         'Amp hosted/Puck and Cline VS Code/JetBrains support are separate client gates, not established by native CLI/SDK discovery.\n\n'
         'Source: core ' + base.CORE_COMMIT + ', reviewed native ' + base.NATIVE_COMMIT + '. '
-        'SOLARIS-BUILD-SOURCE.json preserves1199 canonical hashes; HARNESS-BUILD.json records every profile byte/mode. '
+        'SOLARIS-BUILD-SOURCE.json preserves1200 canonical hashes; HARNESS-BUILD.json records every profile byte/mode. '
         'See ../../HARNESS-DISTRIBUTION.md in the source repository for actual tested revisions, installation and publication status. '
         'A prepared profile alone does not establish a passing native install or vendor approval.\n\n'
         'MIT licensed. Solaris Technologies, https://solaristek.com. Support: https://github.com/Shaisolaris/solaris-dev-shop-plugins/issues.\n')

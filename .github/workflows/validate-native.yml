@@ -19,7 +19,7 @@ jobs:
       - uses: actions/checkout@11d5960a326750d5838078e36cf38b85af677262
         with:
           repository: Shaisolaris/solaris-dev-shop
-          ref: 1f06f27288ba47143574742bd340228ea492962c
+          ref: 8182d43c6bcbe90ebab7b3dbf9130f03347968a1
           path: upstream
           persist-credentials: false
       - uses: actions/checkout@11d5960a326750d5838078e36cf38b85af677262
@@ -47,7 +47,7 @@ jobs:
           python "$GITHUB_WORKSPACE/distribution/plugin/examples/capabilities/G39/drill_oracle.py"
       - name: Exact native harness profiles, refusal controls and installed callers
         run: |
-          git -C distribution fetch --no-tags --depth=1 origin 2f5bbfe738eb8c50d75c62659a0dbf8b44ee931a
+          git -C distribution fetch --no-tags --depth=1 origin bb84bd1c5154cfb74d81c60d4800093a16767542
           python -B distribution/tools/verify_harness_profiles.py --self-test
           node --check distribution/harnesses/deepseek/native/deepseek.mjs
           node --check distribution/harnesses/kilo/native/kilo.mjs

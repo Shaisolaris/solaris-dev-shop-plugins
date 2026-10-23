@@ -1,5 +1,5 @@
 {
-  "source_commit": "1f06f27288ba47143574742bd340228ea492962c",
+  "source_commit": "8182d43c6bcbe90ebab7b3dbf9130f03347968a1",
   "source_version": "0.66",
   "plugin_version": "0.66.0",
   "native_formats": [
@@ -13,7 +13,7 @@
   "coordinators": 1,
   "new_capabilities_from_adapters": 0,
   "archive": "solaris-dev-shop-0.66.0-plugin.zip",
-  "archive_sha256": "1d6a525f53a8ff88ac8c772a29e0cbc60d75a8b848f083f9a6cf1b7cd6f51f24",
+  "archive_sha256": "0b68a64f0ac78ac936fb6bff124032a3a8e9c8cc47eab66bff074f1f835349b8",
   "packager_sha256": "7c50f2659c0cc05ff9107d1f550d5b9df760518a37c1c90c99b288d87152ba0c",
   "published": false
 }
