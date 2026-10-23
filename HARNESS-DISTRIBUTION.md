@@ -1,6 +1,6 @@
 # Solaris native distributions 0.66.0
 
-One complete product: 61 specialist workflows and one chief-of-staff coordinator. Every profile preserves 1,200 canonical file hashes from [core 0391e15](https://github.com/Shaisolaris/solaris-dev-shop/commit/0391e15cc52ddfa88a6c02b5997fd9955e214491). Native formats add no employee capabilities.
+One complete product: 61 specialist workflows and one chief-of-staff coordinator. Every profile preserves 1,200 canonical file hashes from [core cd1898c](https://github.com/Shaisolaris/solaris-dev-shop/commit/cd1898c6dc062a2dcf01a56b53403023c1994c8d). Native formats add no employee capabilities.
 
 | Profile | Complete files | Source checks |
 |---|---:|---|
