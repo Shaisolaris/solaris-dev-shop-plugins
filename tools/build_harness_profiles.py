@@ -9,7 +9,7 @@ import subprocess
 import tarfile
 from distribution_metadata import add_resource_notices, relocate_source_ci
 
-NATIVE_COMMIT = '3e65eac657a155aab9d813a5093be6442ac57eef'
+NATIVE_COMMIT = 'fc1555259dbeb7e5a8de79e59bb46f682dd11292'
 CORE_COMMIT = 'cd1898c6dc062a2dcf01a56b53403023c1994c8d'
 VERSION = '0.66.0'
 ROOT = Path(__file__).resolve().parents[1]
