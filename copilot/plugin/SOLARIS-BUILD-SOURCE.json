@@ -1,5 +1,5 @@
 {
-  "source_commit": "bf746b2f9208eae8e454eb39006f0b966daa52bd",
+  "source_commit": "0391e15cc52ddfa88a6c02b5997fd9955e214491",
   "source_repository": "https://github.com/Shaisolaris/solaris-dev-shop",
   "source_version": "0.66",
   "native_version": "0.66.0",
@@ -12,11 +12,20 @@
   "coordinators": 1,
   "discovery_adapters": 62,
   "canonical_files": {
-    "CHANGELOG.md": "c71113089b6d66bdc3046fbc809e4facfb85de7d69024b06d15289cb214bd2da",
+    ".github/ISSUE_TEMPLATE/bug.md": "b89052a43764b704fefad1e9f858f26775bfb40dd84da30cab92d086e3bb1eb6",
+    ".github/ISSUE_TEMPLATE/config.yml": "a33ab6e0df08148f69e8ebf40dd1ed2d5175f2acb3c9d2678c432624c37abe02",
+    ".github/ISSUE_TEMPLATE/feature.md": "f9c7d952c82aa016b2466d57bf8e28f10f8fdf1e9ce182e559a0d241a072b079",
+    ".github/ISSUE_TEMPLATE/new-employee.md": "35f639dca8c28593d2838415ac1d31f2a4a88ff7a692f200b29328ce1e041886",
+    ".github/ISSUE_TEMPLATE/question.md": "e318864cfb38b3cb203d112afdcc19073289637b2b5e1da0272080b708f2f2f2",
+    ".github/PULL_REQUEST_TEMPLATE.md": "1a61f5a9a87d61e0ddaddde991b7b97148be3c8dc16790f8f41e46adce49f469",
+    ".github/workflows/ci.yml": "d6bb103e1feee8d9ae41f39aa59cbf749f1101e695789b522dcea752a79197a4",
+    ".github/workflows/try-router.yml": "fdd8d2ba86fc33dd1572dd98b558216502709e88635550b292cc180c100375ce",
+    "CHANGELOG.md": "98a9439bad57bb5bd98919a934ddc89c54f545bb85ccaa2dec7ce864d79a6aba",
     "CODE_OF_CONDUCT.md": "703aa6f337dc05b5b692f070146b4b8fb7102d8b8219ff7a170728553f45f1ae",
     "CONTRIBUTING.md": "3285a8d6e86813d2e598e8e1724938e0548876b7574ede23405d586ec8c91602",
     "LICENSE": "6d47fca92f47178e139e777085850d1feab9d73a738437ec84074a42e5ddc497",
     "MANIFEST.in": "dac2fd19c3636b8537bf8b216ebf205dd21e95ee955dbcb4850deabf907c0fb7",
+    "NOTICE.md": "4873642c0f2a1cddee4ca8c5e92b6af36311a37c9e52f2393b3db9fbfbffc8de",
     "SOURCE-README.md": "faa8eb21b72d43feb44eb807fae4a02ec4a861cc60cedd68142b133a0b2fac11",
     "ROADMAP.md": "90b30940df6f5cee554bae1901e75b7f61f692ae3bf271a101761ee0aa28dc63",
     "SECURITY.md": "4a0720ebd4045cdbbe0fb1eed1464d16e9cfd25442fac9bab9d6b136708d4c3e",
@@ -1027,7 +1036,7 @@
     "examples/capabilities/G34/fixtures/unseen/site/Guides/index.html": "436e35f3e443a1988388317fa4ebaccb2d36db35a0cd38ad37ba20d014a27bfe",
     "examples/capabilities/G34/fixtures/unseen/site/Guides/knots.html": "4f82efdc17c81b40d181df029abe54cb600ef603e8e9444a07b39365c95b158b",
     "examples/capabilities/G34/fixtures/unseen/site/blog/tides-2019.html": "5e3b2d619098ac65b22671adca4c1b39c8f06313f5df8282478ae8bea549ddac",
-    "examples/capabilities/G34/fixtures/unseen/site/caf\u00e9.html": "dee1a1e8de71039a6712a512c947efc70f94fc867a8c38664720856850756561",
+    "examples/capabilities/G34/fixtures/unseen/site/café.html": "dee1a1e8de71039a6712a512c947efc70f94fc867a8c38664720856850756561",
     "examples/capabilities/G34/fixtures/unseen/site/checkout.html": "2ece71176c32f40425689da373c08e942c5c5c618a5efa6a7e7f870cd1b1f2a9",
     "examples/capabilities/G34/fixtures/unseen/site/docs/index.html": "56dc0d41aa6b1f3c5649b276ae18ca0b51bc8cf0e26507c426bb6eb83ff976bf",
     "examples/capabilities/G34/fixtures/unseen/site/draft.html": "11c5345cf2dff1be4a064a395f04b036d07995cab5c9238b1cb9687ccd74d238",
@@ -1122,7 +1131,7 @@
     "examples/capabilities/G41/noop_inventory.py": "d1f5768d582ec5a626d0ecddfd78dce93d288bf21c57d32f88b98eb104968215",
     "examples/capabilities/G42/README.md": "dcf205e815d8678f8b12fbf8523ff7f0a2ebbf1d5080c355c4137e7166385ec3",
     "examples/capabilities/G42/cross_checks.py": "1a22bac5dd9b75aba4dea38b6f45a17f8cd7b4ffeb0ec26b5f0cf8dc9b30f1cf",
-    "examples/capabilities/G42/plan.json": "14c9547619b867097560a58af84ee65a39d6e03a80d81db9fe28806ea0a6c2eb",
+    "examples/capabilities/G42/plan.json": "63d78e98eac8ad7c09a158fd5323c92c83feb3713b12a3db86e261e66b139d05",
     "examples/escalation/README.md": "1ef310e691482a9189526410c527abba8813a167f5d5a855d15df7ddcddfad98",
     "examples/escalation/input.md": "909a404c152cbc590890bda27b34c5399eb84c51f8b4c111b946d47206774cd3",
     "examples/escalation/observed.json": "54ee9f16738c8f170be3511e939afb37f86495640d33096de46ca9db9e84e203",
@@ -1153,13 +1162,13 @@
     "fixtures/control-plane/spanish_review.json": "2964c48618b0efc942ef0901e2bb1c12d9033fc67590d633456187ebe167c496",
     "fixtures/control-plane/unsupported_french_goal.json": "8c2629e3e9ca26076e80195ade3c6b5653f4484c1401d96db755e8d152785285",
     "fixtures/control-plane/unsupported_spanish_goal.json": "9fda9b90af53fbb8a3f4e1c5cdcf41e20071153b4a2f2c514f3e3c86648b0301",
-    "install.sh": "e0ba962ded799aaa3ec995024d4c3946040cca43b8d2b788b65260256005b3a7",
+    "install.sh": "7077c35dc217f19056c80cd3c2b01ca9b00f32221a52373067a10b919c559140",
     "pyproject.toml": "7ab3c3f7cd6a5eeb6bb3e26f3156478f38766bdb2b2cc1bb7a81c7fb24c7313c",
     "requirements-dev.txt": "360e653ad7f4ed00b2c8e6cc327f77fa208b26640e32d4a1968332ad425ced7e",
     "solaris_intake/__init__.py": "d23218739edfd63c0335d81b0eea07549e2349da9660bf290af0d0d19a821140",
     "tests/test_assurance_packets.py": "70b0c4b2b14140e546162e002c90522706103f4e833e5e522fbaa0d9b9a69846",
     "tests/test_closure_hardening.py": "a229d41277c202abcf83635f83f52eac8dec9bd119c2d898799ae75ad5ec2b60",
-    "tests/test_explicit_runtime_setup.py": "0f57ded11edeedc04ac181456b26b85ea0e57f4ccdc536e01d81dd7c58e45d74",
+    "tests/test_explicit_runtime_setup.py": "9c5b61f35efba210618864ce36f6e94dad0d4768f224b38048b27cdbd33f3835",
     "tests/test_fixture_runner.py": "d0789dc4128941c2ab86aabb932014e21802cf0b3e8f555d70dbd3945f681bd7",
     "tests/test_g02_capability.py": "e0740d6f8838d8b73fb4356dcf98d659ef341674ed91d7b9052096b53eb4aab4",
     "tests/test_g03_capability.py": "75edbae613db71ad6532071c7d79294c5b20b54436216bb6d0d64d5f097bf66b",
@@ -1196,34 +1205,16 @@
     "tests/test_g39_capability.py": "21ce97747d08059504614a706d489ac2ad211a559230c7e3db6872eeeeec3170",
     "tests/test_g40_capability.py": "1b0815fbc22b03dc3801e28f3ac073fe7221651553e4b6306119662c6a462a1c",
     "tests/test_g41_capability.py": "255353ec954f594f4dbe0d7fc70a1ebf8bf11e3c431def7da87a950db200737d",
-    "tests/test_g42_capability.py": "33e146caa144127c47750174ba6a7fa0664132581ba6258962b2092c37e14cb2",
+    "tests/test_g42_capability.py": "0ad3063dfe0bd00bd3e7be2d55260a599bc50a955849b998e91605cd34d57c06",
     "tests/test_intake_features.py": "ddec501c577c549dd7e72990a8f0602c45cfcb036a67465e8adde7f35c2dbeea",
     "tests/test_router.py": "de0db294e6681b92d45df2ab994506b3e8c15ec20540322e434f196dcc9db6fd",
     "tests/test_wordpress_instruction_examples.py": "018ebeb7b883b2054a5f95db6abd0d7b819fac83ca0d8476360e7a1d536d4301",
     "tests/test_wordpress_json_fields.py": "69f56c544750f7c1d7f277f72dcbc959ec4ff873a883a62e7b10e9df94490533",
     "tools/build_skill_catalog.py": "355522a0811f3cd7b368a044808d1a830e0a8aa95ce147aab4c47c82287153e4",
-    "tools/validate_skill_metadata.py": "17117a7be761c6da86d8ebde288634cf7afa62e35147909fdedfba4ea50877ad",
-    "SOURCE-NOTICE.md": "4873642c0f2a1cddee4ca8c5e92b6af36311a37c9e52f2393b3db9fbfbffc8de",
-    "source-config/.github/ISSUE_TEMPLATE/bug.md": "b89052a43764b704fefad1e9f858f26775bfb40dd84da30cab92d086e3bb1eb6",
-    "source-config/.github/ISSUE_TEMPLATE/config.yml": "a33ab6e0df08148f69e8ebf40dd1ed2d5175f2acb3c9d2678c432624c37abe02",
-    "source-config/.github/ISSUE_TEMPLATE/feature.md": "f9c7d952c82aa016b2466d57bf8e28f10f8fdf1e9ce182e559a0d241a072b079",
-    "source-config/.github/ISSUE_TEMPLATE/new-employee.md": "35f639dca8c28593d2838415ac1d31f2a4a88ff7a692f200b29328ce1e041886",
-    "source-config/.github/ISSUE_TEMPLATE/question.md": "e318864cfb38b3cb203d112afdcc19073289637b2b5e1da0272080b708f2f2f2",
-    "source-config/.github/PULL_REQUEST_TEMPLATE.md": "1a61f5a9a87d61e0ddaddde991b7b97148be3c8dc16790f8f41e46adce49f469",
-    "source-config/.github/workflows/ci.yml": "d6bb103e1feee8d9ae41f39aa59cbf749f1101e695789b522dcea752a79197a4",
-    "source-config/.github/workflows/try-router.yml": "fdd8d2ba86fc33dd1572dd98b558216502709e88635550b292cc180c100375ce"
+    "tools/validate_skill_metadata.py": "17117a7be761c6da86d8ebde288634cf7afa62e35147909fdedfba4ea50877ad"
   },
   "source_path_map": {
-    "README.md": "SOURCE-README.md",
-    "NOTICE.md": "SOURCE-NOTICE.md",
-    ".github/ISSUE_TEMPLATE/bug.md": "source-config/.github/ISSUE_TEMPLATE/bug.md",
-    ".github/ISSUE_TEMPLATE/config.yml": "source-config/.github/ISSUE_TEMPLATE/config.yml",
-    ".github/ISSUE_TEMPLATE/feature.md": "source-config/.github/ISSUE_TEMPLATE/feature.md",
-    ".github/ISSUE_TEMPLATE/new-employee.md": "source-config/.github/ISSUE_TEMPLATE/new-employee.md",
-    ".github/ISSUE_TEMPLATE/question.md": "source-config/.github/ISSUE_TEMPLATE/question.md",
-    ".github/PULL_REQUEST_TEMPLATE.md": "source-config/.github/PULL_REQUEST_TEMPLATE.md",
-    ".github/workflows/ci.yml": "source-config/.github/workflows/ci.yml",
-    ".github/workflows/try-router.yml": "source-config/.github/workflows/try-router.yml"
+    "README.md": "SOURCE-README.md"
   },
   "omitted_repository_config": [
     ".gitignore"
@@ -1231,25 +1222,5 @@
   "packager_sha256": "7c50f2659c0cc05ff9107d1f550d5b9df760518a37c1c90c99b288d87152ba0c",
   "listing_icon_sha256": "293fd397b99ca61af1dc9a47b60635722e4290c7417f6bfe390cb4e1c88cf8a9",
   "official_listing_approved": false,
-  "limits": "Native format support is separate from directory approval and model-driven activation. See the recorded host tests for their exact scope.",
-  "distribution_notice": {
-    "canonical_notice": "SOURCE-NOTICE.md",
-    "resource_license_aliases": [
-      {
-        "path": "skills/ui-ux-designer/resources/canonical/employees/design/ui-ux-designer/design-intelligence/LICENSE-upstream",
-        "canonical_origin": "employees/design/ui-ux-designer/design-intelligence/LICENSE-upstream",
-        "sha256": "738f69dfa83db5c347c678fb9d90e560877059f0de93a327c39001bff92dc014"
-      }
-    ]
-  },
-  "relocated_repository_configuration": {
-    ".github/ISSUE_TEMPLATE/bug.md": "source-config/.github/ISSUE_TEMPLATE/bug.md",
-    ".github/ISSUE_TEMPLATE/config.yml": "source-config/.github/ISSUE_TEMPLATE/config.yml",
-    ".github/ISSUE_TEMPLATE/feature.md": "source-config/.github/ISSUE_TEMPLATE/feature.md",
-    ".github/ISSUE_TEMPLATE/new-employee.md": "source-config/.github/ISSUE_TEMPLATE/new-employee.md",
-    ".github/ISSUE_TEMPLATE/question.md": "source-config/.github/ISSUE_TEMPLATE/question.md",
-    ".github/PULL_REQUEST_TEMPLATE.md": "source-config/.github/PULL_REQUEST_TEMPLATE.md",
-    ".github/workflows/ci.yml": "source-config/.github/workflows/ci.yml",
-    ".github/workflows/try-router.yml": "source-config/.github/workflows/try-router.yml"
-  }
+  "limits": "Native format support is separate from directory approval and model-driven activation. See the recorded host tests for their exact scope."
 }

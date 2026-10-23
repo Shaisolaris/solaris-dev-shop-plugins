@@ -1,9 +1,9 @@
 {
   "prototype": false,
   "source_native_commit": "2ca1ffa5597981a1effbbcd43aefdc82ce03d124",
-  "source_core_commit": "bf746b2f9208eae8e454eb39006f0b966daa52bd",
+  "source_core_commit": "0391e15cc52ddfa88a6c02b5997fd9955e214491",
   "version": "0.66.0",
-  "metadata_stage": "distribution",
+  "metadata_stage": "contained-input",
   "workflow_count": 62,
   "new_role_capabilities": 0,
   "mirrors": {
@@ -1049,24 +1049,6 @@
       "reason": "not an existing canonical target"
     }
   ],
-  "distribution_notice": {
-    "canonical_notice": "SOURCE-NOTICE.md",
-    "resource_license_aliases": [
-      {
-        "path": "skills/ui-ux-designer/resources/canonical/employees/design/ui-ux-designer/design-intelligence/LICENSE-upstream",
-        "canonical_origin": "employees/design/ui-ux-designer/design-intelligence/LICENSE-upstream",
-        "sha256": "738f69dfa83db5c347c678fb9d90e560877059f0de93a327c39001bff92dc014"
-      }
-    ]
-  },
-  "relocated_repository_configuration": {
-    ".github/ISSUE_TEMPLATE/bug.md": "source-config/.github/ISSUE_TEMPLATE/bug.md",
-    ".github/ISSUE_TEMPLATE/config.yml": "source-config/.github/ISSUE_TEMPLATE/config.yml",
-    ".github/ISSUE_TEMPLATE/feature.md": "source-config/.github/ISSUE_TEMPLATE/feature.md",
-    ".github/ISSUE_TEMPLATE/new-employee.md": "source-config/.github/ISSUE_TEMPLATE/new-employee.md",
-    ".github/ISSUE_TEMPLATE/question.md": "source-config/.github/ISSUE_TEMPLATE/question.md",
-    ".github/PULL_REQUEST_TEMPLATE.md": "source-config/.github/PULL_REQUEST_TEMPLATE.md",
-    ".github/workflows/ci.yml": "source-config/.github/workflows/ci.yml",
-    ".github/workflows/try-router.yml": "source-config/.github/workflows/try-router.yml"
-  }
+  "publication_ready": false,
+  "required_before_publication": "Derive resource notices and relocate canonical CI snapshots exactly once in each final profile."
 }
