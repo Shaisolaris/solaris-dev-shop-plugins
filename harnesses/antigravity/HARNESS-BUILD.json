@@ -1,7 +1,7 @@
 {
   "canonical_files": 1200,
   "coordinator": 1,
-  "core_source": "bf746b2f9208eae8e454eb39006f0b966daa52bd",
+  "core_source": "0391e15cc52ddfa88a6c02b5997fd9955e214491",
   "distribution_notice": {
     "canonical_notice": "SOURCE-NOTICE.md",
     "resource_license_aliases": [
@@ -15,7 +15,7 @@
   "files": {
     "CHANGELOG.md": {
       "executable": false,
-      "sha256": "c71113089b6d66bdc3046fbc809e4facfb85de7d69024b06d15289cb214bd2da"
+      "sha256": "98a9439bad57bb5bd98919a934ddc89c54f545bb85ccaa2dec7ce864d79a6aba"
     },
     "CODE_OF_CONDUCT.md": {
       "executable": false,
@@ -43,7 +43,7 @@
     },
     "README.md": {
       "executable": false,
-      "sha256": "723509b454003987e643a0ef8bdec28d84333ea8a3526a715029bf9b5766a8ec"
+      "sha256": "d8d5ae9e91d829f0ba71d8a6749db359202b39559aa19dfb5a4111d644b6a307"
     },
     "ROADMAP.md": {
       "executable": false,
@@ -55,11 +55,11 @@
     },
     "SOLARIS-BUILD-SOURCE.json": {
       "executable": false,
-      "sha256": "2bd66e1409935574d07ccb62e3d768f91608cac3941fe0e7571801d91742e7e4"
+      "sha256": "01f820e549745c7af691f0dd4f22acf733b036729476e39adeba70828606d304"
     },
     "SOURCE-ENTRYPOINT-LAYOUT.json": {
       "executable": false,
-      "sha256": "bbbf92e7794ed14d1a44d91fd20b0d70828b3fa56e427129f438f03686a931ba"
+      "sha256": "b5bd723a9544b21f45443c1471bc7d9c23f1b10ccc1251f2aeeec720b0f578c3"
     },
     "SOURCE-NOTICE.md": {
       "executable": false,
@@ -4483,7 +4483,7 @@
     },
     "examples/capabilities/G42/plan.json": {
       "executable": false,
-      "sha256": "14c9547619b867097560a58af84ee65a39d6e03a80d81db9fe28806ea0a6c2eb"
+      "sha256": "63d78e98eac8ad7c09a158fd5323c92c83feb3713b12a3db86e261e66b139d05"
     },
     "examples/escalation/README.md": {
       "executable": false,
@@ -4607,7 +4607,7 @@
     },
     "install.sh": {
       "executable": true,
-      "sha256": "e0ba962ded799aaa3ec995024d4c3946040cca43b8d2b788b65260256005b3a7"
+      "sha256": "7077c35dc217f19056c80cd3c2b01ca9b00f32221a52373067a10b919c559140"
     },
     "native/skills.json": {
       "executable": false,
@@ -7739,7 +7739,7 @@
     },
     "tests/test_explicit_runtime_setup.py": {
       "executable": false,
-      "sha256": "0f57ded11edeedc04ac181456b26b85ea0e57f4ccdc536e01d81dd7c58e45d74"
+      "sha256": "9c5b61f35efba210618864ce36f6e94dad0d4768f224b38048b27cdbd33f3835"
     },
     "tests/test_fixture_runner.py": {
       "executable": false,
@@ -7887,7 +7887,7 @@
     },
     "tests/test_g42_capability.py": {
       "executable": false,
-      "sha256": "33e146caa144127c47750174ba6a7fa0664132581ba6258962b2092c37e14cb2"
+      "sha256": "0ad3063dfe0bd00bd3e7be2d55260a599bc50a955849b998e91605cd34d57c06"
     },
     "tests/test_intake_features.py": {
       "executable": false,
@@ -7915,7 +7915,7 @@
     }
   },
   "host": "antigravity",
-  "native_source": "278a602004c32b32f9ae036ba568be717621871a",
+  "native_source": "3e65eac657a155aab9d813a5093be6442ac57eef",
   "new_employee_capabilities": 0,
   "omitted_other_provider_files": [
     ".claude-plugin/plugin.json",

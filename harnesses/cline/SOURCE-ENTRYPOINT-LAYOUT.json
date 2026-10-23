@@ -1,7 +1,7 @@
 {
   "prototype": false,
   "source_native_commit": "2ca1ffa5597981a1effbbcd43aefdc82ce03d124",
-  "source_core_commit": "bf746b2f9208eae8e454eb39006f0b966daa52bd",
+  "source_core_commit": "0391e15cc52ddfa88a6c02b5997fd9955e214491",
   "version": "0.66.0",
   "metadata_stage": "contained-input",
   "workflow_count": 62,
