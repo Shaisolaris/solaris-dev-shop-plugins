@@ -19,7 +19,7 @@ jobs:
       - uses: actions/checkout@11d5960a326750d5838078e36cf38b85af677262
         with:
           repository: Shaisolaris/solaris-dev-shop
-          ref: 3a577e42c48473f6ef8680950dd55c067820d5d3
+          ref: 0d2ae8e76cba4e56dc01d9c621e553179b34c40e
           path: upstream
           persist-credentials: false
       - uses: actions/checkout@11d5960a326750d5838078e36cf38b85af677262
@@ -47,7 +47,7 @@ jobs:
           python "$GITHUB_WORKSPACE/distribution/plugin/examples/capabilities/G39/drill_oracle.py"
       - name: Exact native harness profiles, refusal controls and installed callers
         run: |
-          git -C distribution fetch --no-tags --depth=1 origin b13ca3c172a18491f8097926112520970a70e2cd
+          git -C distribution fetch --no-tags --depth=1 origin 2f5bbfe738eb8c50d75c62659a0dbf8b44ee931a
           python -B distribution/tools/verify_harness_profiles.py --self-test
           node --check distribution/harnesses/deepseek/native/deepseek.mjs
           node --check distribution/harnesses/kilo/native/kilo.mjs
@@ -89,4 +89,4 @@ jobs:
           python -B distribution/tools/verify_cline_host.py --cli "$RUNNER_TEMP/solaris-cline-host/node_modules/.bin/cline" --modules "$RUNNER_TEMP/solaris-cline-host/node_modules" --candidate "$GITHUB_WORKSPACE/distribution/harnesses/cline" --work "$RUNNER_TEMP/solaris-cline-native"
       - name: Actual immutable public Cline Git installation and source binding
         run: |
-          python -B distribution/tools/verify_cline_host.py --cli "$RUNNER_TEMP/solaris-cline-host/node_modules/.bin/cline" --modules "$RUNNER_TEMP/solaris-cline-host/node_modules" --candidate "$GITHUB_WORKSPACE/distribution/harnesses/cline" --git-source 'https://github.com/Shaisolaris/solaris-dev-shop-cline.git@7d884ae7187b290024956b4a8013937672b22977' --work "$RUNNER_TEMP/solaris-cline-public"
+          python -B distribution/tools/verify_cline_host.py --cli "$RUNNER_TEMP/solaris-cline-host/node_modules/.bin/cline" --modules "$RUNNER_TEMP/solaris-cline-host/node_modules" --candidate "$GITHUB_WORKSPACE/distribution/harnesses/cline" --git-source 'https://github.com/Shaisolaris/solaris-dev-shop-cline.git@3b3f503118973337cf56bf502dc3ab812ce3286a' --work "$RUNNER_TEMP/solaris-cline-public"

@@ -36,7 +36,7 @@ def main():
     assert version == '0.0.1792680614-g8973a3', version
     installed = work / 'config/amp/plugins/solaris-dev-shop'
     shutil.copytree(candidate, installed)
-    assert compare(candidate, installed) == 1974
+    assert compare(candidate, installed) == 1977
 
     # The published directory remains byte-exact. A separate disposable copy
     # forwards registration to the real API and calls its registered callback.
@@ -52,8 +52,8 @@ def main():
     report = json.loads((probe / 'HOST-CALLBACK-PASS.json').read_text())
     assert report['pass'] and report['registeredSkillCalls'] == 62
     assert report['invalidInputControls'] == 3 and report['modelCalls'] == 0
-    assert compare(candidate, installed) == 1974
-    print(json.dumps({'host': 'Amp ' + version, 'profileFilesAndModes': 1974,
+    assert compare(candidate, installed) == 1977
+    print(json.dumps({'host': 'Amp ' + version, 'profileFilesAndModes': 1977,
                       'nativeCallback': report, 'ownerProfileModified': False,
                       'authenticatedDiscovery': 'Separate stock CLI gate; not implied by this unauthenticated worker check',
                       'pass': True}, indent=2))

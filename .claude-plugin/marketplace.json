@@ -5,7 +5,7 @@
     "email": "shehryar@solaristek.com",
     "url": "https://solaristek.com"
   },
-  "version": "0.64.0",
+  "version": "0.65.0",
   "description": "Solaris Technologies native specialist workflows.",
   "plugins": [
     {

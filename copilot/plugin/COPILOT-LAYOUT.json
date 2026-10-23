@@ -1,8 +1,8 @@
 {
   "prototype": false,
   "source_native_commit": "2ca1ffa5597981a1effbbcd43aefdc82ce03d124",
-  "source_core_commit": "3a577e42c48473f6ef8680950dd55c067820d5d3",
-  "version": "0.64.0",
+  "source_core_commit": "0d2ae8e76cba4e56dc01d9c621e553179b34c40e",
+  "version": "0.65.0",
   "metadata_stage": "distribution",
   "workflow_count": 62,
   "new_role_capabilities": 0,
@@ -277,7 +277,7 @@
         "employees/engineering/devops-engineer/local_deploy.py": "ad43bba29397a3b8c32b229716be3135cc06fe6fcca241200a5954b46ad914da",
         "employees/engineering/devops-engineer/local-deploy-preflight.md": "ac0e27cbf0b34a48bb27857d761235f8e879e36c9c5b94d2753ba68a7e04ffbc",
         "employees/engineering/devops-engineer/learnings.md": "3dab20d9c238656bc674febc2f4338c709b22b204836894a6185e69eabd48f20",
-        "employees/engineering/devops-engineer/headless-fleet-runbook.md": "1eb1e9c9c22be0e4c631ec31f2b1b079076cacc3d346ddcaba17ae53f4949232",
+        "employees/engineering/devops-engineer/headless-fleet-runbook.md": "685269d844a00d457454b51ba39158ab29ac1103be8963f6ec348677650ba1dc",
         "employees/engineering/devops-engineer/gitops-skill.md": "42f4142d6662837d3aae6d43e8ba6dd94b1fffd1afb3ffa7371a1699408e4f42",
         "employees/engineering/devops-engineer/gameci-unity.md": "58b97119218d388245ce31efe98093d60c34f84b97c3252ffcce368de650c115",
         "employees/engineering/devops-engineer/ftp-git-deploy.md": "083c4f89a39228321a0838f372729ca01e0149751f468fb47e75748fceb5dc21",
@@ -408,7 +408,7 @@
         "employees/engineering/unreal-developer/job-two-improvement.md": "0ae705feed8ab906f4b54dd41e495504e60cf4737504dcb8e66e5cfe9d4a2097",
         "employees/engineering/unreal-developer/game-design-mentor.md": "a08a33964493765b08705dcb90a91403e8e2d4164de988d504b3e6c2f8b58496",
         "employees/engineering/unreal-developer/capability.contract.json": "db4157bfba14e6111bc061a469765fac931c78eb4d24dd59c7a589fa2116d98b",
-        "employees/engineering/unreal-developer/SKILL.md": "ba10aca9ed7390c2d243735d45e08e3f81ec285695a22fa1c584eb57a0f9682b",
+        "employees/engineering/unreal-developer/SKILL.md": "efe34e7995ccadb19eeb6a2101d4ad9f92820d4778913a17a92cbb9074b300f2",
         "employees/engineering/unreal-developer/CLAUDE_template.md": "8412d987dad7764fed74ba51886848289e2606f0baca0db6cf209aed0ae86fda"
       },
       "entrypoint_sha256": "0170f8d864e18f450a491ee0a4fb4e0762a389081a20b36eba5e4f2375105aa0"
@@ -451,7 +451,7 @@
         "employees/infrastructure/fleet-dispatcher/handoff.py": "71131318030c8babb9bac0751df9190a0df813abde0d624cc0caffae67d80c55",
         "employees/infrastructure/fleet-dispatcher/handoff-work-orders.md": "5ee509cd84c1912c4b8b148c5b4caeb5be29acf14afddff45abad0f4933739b6",
         "employees/infrastructure/fleet-dispatcher/capability.contract.json": "c0f433a8b3459f9c88d2390246914dc9606bd26cd78a73a3ad90ac677bef778e",
-        "employees/infrastructure/fleet-dispatcher/SKILL.md": "8de67862ebbfdf7a91fb2ab12a2c0649fa955f36261dffc2aa86ac1d304359d8"
+        "employees/infrastructure/fleet-dispatcher/SKILL.md": "0723eb79aa621fb4ee9da519553dde6d6980a1bdb64e6c1d7da9b417055e5fa7"
       },
       "entrypoint_sha256": "a525ac7d33da7bc4deb0e35e3a61bea840936f55800ce2170cf08bc4243f60ed"
     },
@@ -464,7 +464,7 @@
         "employees/infrastructure/fleet-provisioner/learnings.md": "94d1f063e12249fcc4f8cf5c4a3904d32523fdd6573e1d255b7bc5531b2e7738",
         "employees/infrastructure/fleet-provisioner/fleet-registration.md": "12a48ccf47f6be8c694c88cddcb0cf057f7371c9ae6c34cfdc58f537ae1082a6",
         "employees/infrastructure/fleet-provisioner/capability.contract.json": "f05b0a4676240b49115b26a2df56131928729c898664a6e4681d61ae55bef597",
-        "employees/infrastructure/fleet-provisioner/SKILL.md": "11ad897317fd4b5929156950b22d68f616b27db0ccec68c7b2f3e763fc5c9851"
+        "employees/infrastructure/fleet-provisioner/SKILL.md": "243a692d110c119ef3b01b317263a846fc7945d95e1c46d01226383d497e4590"
       },
       "entrypoint_sha256": "92414db58f7c63be7d67a7d26af731ea5f731d4ef37a2fa2a1796437af0850e1"
     },
@@ -980,6 +980,7 @@
         "employees/specialized/wordpress-master/diagnostics/trend-tracker/SKILL.md": "6a219f5b2fa90e811cc141bc9eb45ee936880411aa02ba898da32ae9fe476c9b",
         "employees/specialized/wordpress-master/diagnostics/testing/SKILL.md": "9ca6a8cfa64f5012214414ea9903a221318ddcde4bfa0b8ab61c576ea575bf6f",
         "employees/specialized/wordpress-master/diagnostics/site-scout/SKILL.md": "2f86fad510a7ba0a87c814eaf9530e5f0643b5283627c20e28897804b76b2c52",
+        "employees/specialized/wordpress-master/diagnostics/shared/json_fields.py": "b268fb99964a8bd5b8a5aa98ccabe78c19019b8e1ab9542c7e10be6c9278b77d",
         "employees/specialized/wordpress-master/diagnostics/security-analysis/SKILL.md": "7021acddd6405b36b2872b0f8c97ea6e1db2fa499382f771d07e5d70b57b574a",
         "employees/specialized/wordpress-master/diagnostics/scan-reviewer/SKILL.md": "ad8e23dfc1416c967c1e1037566b0e74a5a0f87ca9f685abc09547acbbfb8d90",
         "employees/specialized/wordpress-master/diagnostics/reporting/SKILL.md": "7ae629450a2502ef42d53222214e5ab6786bd5928bc9edc1799786945019999a",
@@ -1008,12 +1009,12 @@
         "employees/specialized/wordpress-master/diagnostics/build-theme/SKILL.md": "ac5c208c1b7cd6ae4ff8a3962b16e86dadd013aa8bcfd5a0b24e2e64e7bbaa42",
         "employees/specialized/wordpress-master/diagnostics/build-setup/SKILL.md": "4308be62990b9ce0b8afb6f7c239045bd94bee29940e19f267fd8d07364e68c6",
         "employees/specialized/wordpress-master/diagnostics/build-scrape/scraper.js": "84edb61acba7e1305e62a263a44b3f16ed7930a268ef8070bfea3e474e8a0ef3",
-        "employees/specialized/wordpress-master/diagnostics/build-scrape/SKILL.md": "3d3fd46d16e41b4467b93e3c5ed5a0533948f575a99a6bb0730377a6d67e1575",
+        "employees/specialized/wordpress-master/diagnostics/build-scrape/SKILL.md": "3f54b433f46e47fc35149a74dff112c07d2c9b6403a2d16bb0ed6343b1f232f1",
         "employees/specialized/wordpress-master/diagnostics/build-scaffold/SKILL.md": "b4399c2aa001fb064cd095b2059f3d72a40da94b84a8214ed278a8878ef8a01b",
-        "employees/specialized/wordpress-master/diagnostics/build-modify/SKILL.md": "5f21a33b54621a1db8cd67880b9cb5edb792522beaec17749a6ce55a7c0ddb20",
+        "employees/specialized/wordpress-master/diagnostics/build-modify/SKILL.md": "aeab31ebceb06df392b1c4afed24aae1407e56afdacaeaea9375dc34540a0eeb",
         "employees/specialized/wordpress-master/diagnostics/build-mcp/SKILL.md": "1b0ed5258684c31709358f33f8d2ffd1371f8207e4a1e29ba6f105b8c722996a",
         "employees/specialized/wordpress-master/diagnostics/build-git/SKILL.md": "7e62a333823049bc20436f6467e89271fb1deafd7b448c16fbdafc069659445b",
-        "employees/specialized/wordpress-master/diagnostics/build-content/SKILL.md": "65f7cdeb593faf4321d5b72444e7aba3aa05bfbc8b7b55eb26d8fd614c3514f0",
+        "employees/specialized/wordpress-master/diagnostics/build-content/SKILL.md": "06b34c85977274e413e21f4b9925b7b19ae32dfb41da560e74f974ccfb4fa1c8",
         "employees/specialized/wordpress-master/diagnostics/accessibility/SKILL.md": "09d75c5149b4c716f8f42403a6fb7b26b16bb40e1b5c842d139fadc030537bf9",
         "employees/specialized/wordpress-master/depth-2026-06.md": "e6ee11af91026f81895804718e533e969e82e1e0aedb424f09b01118081d576d",
         "employees/specialized/wordpress-master/capability.contract.json": "20fe9fe9efd38a2085ae7749829a842d82a960e3ce5df07102b8b8591f5c9ca7",

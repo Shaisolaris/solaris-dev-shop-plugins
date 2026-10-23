@@ -13,12 +13,12 @@
       },
       "versions": [
         {
-          "version": "0.64.0",
+          "version": "0.65.0",
           "publishTimestamp": 1792703640,
           "source": {
             "type": "git",
             "url": "https://github.com/Shaisolaris/solaris-dev-shop-plugins",
-            "commit": "2e51c951ce4573c0ab7c5cc807118d6e0c5b815c",
+            "commit": "83fcb4fe0738bb4fed75716c4ec85340822a74bd",
             "path": "harnesses/deepseek"
           },
           "engines": {

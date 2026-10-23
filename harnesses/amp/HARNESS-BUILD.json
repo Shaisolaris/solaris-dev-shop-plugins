@@ -1,8 +1,8 @@
 {
   "base_contained_profile": "kilo",
-  "canonical_files": 1197,
+  "canonical_files": 1199,
   "coordinator": 1,
-  "core_source": "3a577e42c48473f6ef8680950dd55c067820d5d3",
+  "core_source": "0d2ae8e76cba4e56dc01d9c621e553179b34c40e",
   "distribution_notice": {
     "canonical_notice": "SOURCE-NOTICE.md",
     "resource_license_aliases": [
@@ -16,7 +16,7 @@
   "files": {
     "CHANGELOG.md": {
       "executable": false,
-      "sha256": "528fc37d7d0639b31fcbd51ef8a573601035efba9008b92c8e4074b949ad42c3"
+      "sha256": "1c1de2b8807c6fa5a32d1a4bbbfe22545c7fc693a3c9edf27e8af7bcae2f0f3f"
     },
     "CODE_OF_CONDUCT.md": {
       "executable": false,
@@ -44,7 +44,7 @@
     },
     "README.md": {
       "executable": false,
-      "sha256": "71ca98d5e860b6e350ff671577d8b8f18dc638d02bb7bb72cebf41cfbb34445f"
+      "sha256": "b50dc3f7e2a8f786d46ce3eae21504a4d454d2f7636eb1de123c264c36cc83e2"
     },
     "ROADMAP.md": {
       "executable": false,
@@ -56,11 +56,11 @@
     },
     "SOLARIS-BUILD-SOURCE.json": {
       "executable": false,
-      "sha256": "1e0ca359535184a8fea0b92620fb59a060d563749ebb4ce17482b47966122741"
+      "sha256": "7174df768cea227714705c09c4eb3441f473bf9cd271dfbdb07351caea54c6fd"
     },
     "SOURCE-ENTRYPOINT-LAYOUT.json": {
       "executable": false,
-      "sha256": "7a1bbfbc5302d4161817b894ebec62c10c1c312b8e680574f2f91fd53b6fefea"
+      "sha256": "0034ba3d1109726df6375bb76cfef4a36d1f8b00a05aa41caa07df83caf9439e"
     },
     "SOURCE-NOTICE.md": {
       "executable": false,
@@ -940,7 +940,7 @@
     },
     "employees/engineering/devops-engineer/headless-fleet-runbook.md": {
       "executable": false,
-      "sha256": "1eb1e9c9c22be0e4c631ec31f2b1b079076cacc3d346ddcaba17ae53f4949232"
+      "sha256": "685269d844a00d457454b51ba39158ab29ac1103be8963f6ec348677650ba1dc"
     },
     "employees/engineering/devops-engineer/learnings.md": {
       "executable": false,
@@ -1252,7 +1252,7 @@
     },
     "employees/engineering/unreal-developer/SKILL.md": {
       "executable": false,
-      "sha256": "ba10aca9ed7390c2d243735d45e08e3f81ec285695a22fa1c584eb57a0f9682b"
+      "sha256": "efe34e7995ccadb19eeb6a2101d4ad9f92820d4778913a17a92cbb9074b300f2"
     },
     "employees/engineering/unreal-developer/capability.contract.json": {
       "executable": false,
@@ -1376,7 +1376,7 @@
     },
     "employees/infrastructure/fleet-dispatcher/SKILL.md": {
       "executable": false,
-      "sha256": "8de67862ebbfdf7a91fb2ab12a2c0649fa955f36261dffc2aa86ac1d304359d8"
+      "sha256": "0723eb79aa621fb4ee9da519553dde6d6980a1bdb64e6c1d7da9b417055e5fa7"
     },
     "employees/infrastructure/fleet-dispatcher/capability.contract.json": {
       "executable": false,
@@ -1404,7 +1404,7 @@
     },
     "employees/infrastructure/fleet-provisioner/SKILL.md": {
       "executable": false,
-      "sha256": "11ad897317fd4b5929156950b22d68f616b27db0ccec68c7b2f3e763fc5c9851"
+      "sha256": "243a692d110c119ef3b01b317263a846fc7945d95e1c46d01226383d497e4590"
     },
     "employees/infrastructure/fleet-provisioner/capability.contract.json": {
       "executable": false,
@@ -2692,7 +2692,7 @@
     },
     "employees/specialized/wordpress-master/diagnostics/build-content/SKILL.md": {
       "executable": false,
-      "sha256": "65f7cdeb593faf4321d5b72444e7aba3aa05bfbc8b7b55eb26d8fd614c3514f0"
+      "sha256": "06b34c85977274e413e21f4b9925b7b19ae32dfb41da560e74f974ccfb4fa1c8"
     },
     "employees/specialized/wordpress-master/diagnostics/build-git/SKILL.md": {
       "executable": false,
@@ -2704,7 +2704,7 @@
     },
     "employees/specialized/wordpress-master/diagnostics/build-modify/SKILL.md": {
       "executable": false,
-      "sha256": "5f21a33b54621a1db8cd67880b9cb5edb792522beaec17749a6ce55a7c0ddb20"
+      "sha256": "aeab31ebceb06df392b1c4afed24aae1407e56afdacaeaea9375dc34540a0eeb"
     },
     "employees/specialized/wordpress-master/diagnostics/build-scaffold/SKILL.md": {
       "executable": false,
@@ -2712,7 +2712,7 @@
     },
     "employees/specialized/wordpress-master/diagnostics/build-scrape/SKILL.md": {
       "executable": false,
-      "sha256": "3d3fd46d16e41b4467b93e3c5ed5a0533948f575a99a6bb0730377a6d67e1575"
+      "sha256": "3f54b433f46e47fc35149a74dff112c07d2c9b6403a2d16bb0ed6343b1f232f1"
     },
     "employees/specialized/wordpress-master/diagnostics/build-scrape/scraper.js": {
       "executable": false,
@@ -2825,6 +2825,10 @@
     "employees/specialized/wordpress-master/diagnostics/security-analysis/SKILL.md": {
       "executable": false,
       "sha256": "7021acddd6405b36b2872b0f8c97ea6e1db2fa499382f771d07e5d70b57b574a"
+    },
+    "employees/specialized/wordpress-master/diagnostics/shared/json_fields.py": {
+      "executable": false,
+      "sha256": "b268fb99964a8bd5b8a5aa98ccabe78c19019b8e1ab9542c7e10be6c9278b77d"
     },
     "employees/specialized/wordpress-master/diagnostics/site-scout/SKILL.md": {
       "executable": false,
@@ -4480,7 +4484,7 @@
     },
     "examples/capabilities/G42/plan.json": {
       "executable": false,
-      "sha256": "544a628944a8dc7c8a1f99cccf468684f51e24e7535df9bf32662bd997db4b88"
+      "sha256": "23621a8db6a578ff011e39f639e79651a35870269b52373aef1fb8445df4c272"
     },
     "examples/escalation/README.md": {
       "executable": false,
@@ -4620,11 +4624,11 @@
     },
     "package.json": {
       "executable": false,
-      "sha256": "7492848393b425fe9fdf68343015cdc683a8b47334757a14505eba02c627a3fe"
+      "sha256": "30ace813825f57bd2b4840d84e8077b27ac2f549c74864e9710ca9096f52a19a"
     },
     "pyproject.toml": {
       "executable": false,
-      "sha256": "046f86f6f10d41343ec3ad3ab1448c5522ce8d53e59b929274c30214f022b78a"
+      "sha256": "6859296411dbc4efeed53c14e488e251d6fe4f2f7cb64cfad2d4583c562ed793"
     },
     "requirements-dev.txt": {
       "executable": false,
@@ -5708,7 +5712,7 @@
     },
     "skills/devops-engineer/resources/canonical/employees/engineering/devops-engineer/headless-fleet-runbook.md": {
       "executable": false,
-      "sha256": "1eb1e9c9c22be0e4c631ec31f2b1b079076cacc3d346ddcaba17ae53f4949232"
+      "sha256": "685269d844a00d457454b51ba39158ab29ac1103be8963f6ec348677650ba1dc"
     },
     "skills/devops-engineer/resources/canonical/employees/engineering/devops-engineer/learnings.md": {
       "executable": false,
@@ -5856,7 +5860,7 @@
     },
     "skills/fleet-dispatcher/resources/canonical/employees/infrastructure/fleet-dispatcher/SKILL.md": {
       "executable": false,
-      "sha256": "8de67862ebbfdf7a91fb2ab12a2c0649fa955f36261dffc2aa86ac1d304359d8"
+      "sha256": "0723eb79aa621fb4ee9da519553dde6d6980a1bdb64e6c1d7da9b417055e5fa7"
     },
     "skills/fleet-dispatcher/resources/canonical/employees/infrastructure/fleet-dispatcher/capability.contract.json": {
       "executable": false,
@@ -5892,7 +5896,7 @@
     },
     "skills/fleet-provisioner/resources/canonical/employees/infrastructure/fleet-provisioner/SKILL.md": {
       "executable": false,
-      "sha256": "11ad897317fd4b5929156950b22d68f616b27db0ccec68c7b2f3e763fc5c9851"
+      "sha256": "243a692d110c119ef3b01b317263a846fc7945d95e1c46d01226383d497e4590"
     },
     "skills/fleet-provisioner/resources/canonical/employees/infrastructure/fleet-provisioner/capability.contract.json": {
       "executable": false,
@@ -7328,7 +7332,7 @@
     },
     "skills/unreal-developer/resources/canonical/employees/engineering/unreal-developer/SKILL.md": {
       "executable": false,
-      "sha256": "ba10aca9ed7390c2d243735d45e08e3f81ec285695a22fa1c584eb57a0f9682b"
+      "sha256": "efe34e7995ccadb19eeb6a2101d4ad9f92820d4778913a17a92cbb9074b300f2"
     },
     "skills/unreal-developer/resources/canonical/employees/engineering/unreal-developer/capability.contract.json": {
       "executable": false,
@@ -7512,7 +7516,7 @@
     },
     "skills/wordpress-master/resources/canonical/employees/specialized/wordpress-master/diagnostics/build-content/SKILL.md": {
       "executable": false,
-      "sha256": "65f7cdeb593faf4321d5b72444e7aba3aa05bfbc8b7b55eb26d8fd614c3514f0"
+      "sha256": "06b34c85977274e413e21f4b9925b7b19ae32dfb41da560e74f974ccfb4fa1c8"
     },
     "skills/wordpress-master/resources/canonical/employees/specialized/wordpress-master/diagnostics/build-git/SKILL.md": {
       "executable": false,
@@ -7524,7 +7528,7 @@
     },
     "skills/wordpress-master/resources/canonical/employees/specialized/wordpress-master/diagnostics/build-modify/SKILL.md": {
       "executable": false,
-      "sha256": "5f21a33b54621a1db8cd67880b9cb5edb792522beaec17749a6ce55a7c0ddb20"
+      "sha256": "aeab31ebceb06df392b1c4afed24aae1407e56afdacaeaea9375dc34540a0eeb"
     },
     "skills/wordpress-master/resources/canonical/employees/specialized/wordpress-master/diagnostics/build-scaffold/SKILL.md": {
       "executable": false,
@@ -7532,7 +7536,7 @@
     },
     "skills/wordpress-master/resources/canonical/employees/specialized/wordpress-master/diagnostics/build-scrape/SKILL.md": {
       "executable": false,
-      "sha256": "3d3fd46d16e41b4467b93e3c5ed5a0533948f575a99a6bb0730377a6d67e1575"
+      "sha256": "3f54b433f46e47fc35149a74dff112c07d2c9b6403a2d16bb0ed6343b1f232f1"
     },
     "skills/wordpress-master/resources/canonical/employees/specialized/wordpress-master/diagnostics/build-scrape/scraper.js": {
       "executable": false,
@@ -7645,6 +7649,10 @@
     "skills/wordpress-master/resources/canonical/employees/specialized/wordpress-master/diagnostics/security-analysis/SKILL.md": {
       "executable": false,
       "sha256": "7021acddd6405b36b2872b0f8c97ea6e1db2fa499382f771d07e5d70b57b574a"
+    },
+    "skills/wordpress-master/resources/canonical/employees/specialized/wordpress-master/diagnostics/shared/json_fields.py": {
+      "executable": false,
+      "sha256": "b268fb99964a8bd5b8a5aa98ccabe78c19019b8e1ab9542c7e10be6c9278b77d"
     },
     "skills/wordpress-master/resources/canonical/employees/specialized/wordpress-master/diagnostics/site-scout/SKILL.md": {
       "executable": false,
@@ -7884,7 +7892,7 @@
     },
     "tests/test_g42_capability.py": {
       "executable": false,
-      "sha256": "d0e1c111b0a4132bb723e2c88f6bfd2bd05a2f07db225d2f5b48d712a76d800b"
+      "sha256": "3687080f195565ea7ab3616c0c46ab9e8e569ba5e80c97e993e688912bc8e125"
     },
     "tests/test_intake_features.py": {
       "executable": false,
@@ -7898,6 +7906,10 @@
       "executable": false,
       "sha256": "018ebeb7b883b2054a5f95db6abd0d7b819fac83ca0d8476360e7a1d536d4301"
     },
+    "tests/test_wordpress_json_fields.py": {
+      "executable": false,
+      "sha256": "69f56c544750f7c1d7f277f72dcbc959ec4ff873a883a62e7b10e9df94490533"
+    },
     "tools/build_skill_catalog.py": {
       "executable": false,
       "sha256": "355522a0811f3cd7b368a044808d1a830e0a8aa95ce147aab4c47c82287153e4"
@@ -7909,7 +7921,7 @@
   },
   "host": "amp",
   "native_registration": "amp directory/package plugin",
-  "native_source": "b13ca3c172a18491f8097926112520970a70e2cd",
+  "native_source": "2f5bbfe738eb8c50d75c62659a0dbf8b44ee931a",
   "new_employee_capabilities": 0,
   "omitted_other_provider_files": [
     ".claude-plugin/plugin.json",
@@ -7928,5 +7940,5 @@
     ".github/workflows/try-router.yml": "source-config/.github/workflows/try-router.yml"
   },
   "specialists": 61,
-  "version": "0.64.0"
+  "version": "0.65.0"
 }
