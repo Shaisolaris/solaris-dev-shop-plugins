@@ -1,7 +1,7 @@
-# Cursor native validation for 0.64.0
+# Cursor distribution evidence
 
-The stock Cursor 3.24.18 macOS app loads the complete `copilot/plugin` profile at [`2e51c951`](https://github.com/Shaisolaris/solaris-dev-shop-plugins/tree/2e51c951ce4573c0ab7c5cc807118d6e0c5b815c/copilot/plugin). Its native Customize screen displays Solaris Dev Shop, version0.64.0 and all62 expected workflow names:61 specialists plus the chief-of-staff coordinator.
+The complete 0.65 portable profile retains 61 specialists plus coordinator, 1,199 canonical hashes and 1,978 files/modes at native `83fcb4fe0738bb4fed75716c4ec85340822a74bd:copilot/plugin`. Its source rebuild, real helper contexts, coordinator and SQLite recovery/refusal checks pass.
 
-The installed test copy matches all1,975 source file bytes and executable modes,1,197 canonical hashes and62 fresh helper contexts. The actual coordinator assigns code review without performing specialist work. A real SQLite fixture restores two damaged rows while retaining neighboring data. The temporary owned test plugin was retained for audit and removed from the active plugin directory; no existing local plugin was overwritten, and Grok Bot's profile was untouched. The stock test app is closed after testing.
+The actual Cursor 3.24.18 app previously displayed the 0.64 plugin and all 62 workflows in an owned, temporary native test. That app/profile was cleaned up and retained evidence remains in the [0.64 matrix](docs/history/HARNESS-DISTRIBUTION-064.md). The portable adapter structure is unchanged for 0.65; the prior app execution is not relabeled as a fresh 0.65 desktop or model run.
 
-This proves in-app loading and installed local helper behavior. It does not prove cloud Grok Bot import, model invocation, a filesystem sandbox or Cursor marketplace approval. The separate Cursor-only publisher application was received; vendor acceptance remains pending. No MCP stub, hooks, credential grant or background job is introduced. Historical evidence is retained [separately](docs/history/CURSOR-VALIDATION-063.md).
+The already-received Cursor-only publisher application is separate from native compatibility, security scanning and marketplace acceptance. No xAI/Grok Bot installation or approval is implied by this source. No retired worker was restarted and no owner profile was repurposed.

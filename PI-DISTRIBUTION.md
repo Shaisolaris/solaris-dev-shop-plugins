@@ -1,9 +1,11 @@
-# Solaris Dev Shop for Pi 0.64.0
+# Solaris Dev Shop for Pi 0.65.0
 
-61 specialist workflows and the chief-of-staff coordinator, retaining 1,197 canonical files.
+61 specialist workflows plus the chief-of-staff coordinator; 1,199 canonical files. The complete contained payload has 1,978 files and retains the reviewed security corrections.
 
 ```sh
-pi install git:github.com/Shaisolaris/solaris-dev-shop-plugins@2e51c951ce4573c0ab7c5cc807118d6e0c5b815c
+pi install git:github.com/Shaisolaris/solaris-dev-shop-plugins@83fcb4fe0738bb4fed75716c4ec85340822a74bd
 ```
 
-Pi 1.4.0's actual public Git package manager and stock SDK resolver/skill loader return 62 unique workflows with matching descriptions/paths and zero diagnostics. All 1,975 contained payload bytes/modes, 62 helper contexts and the actual coordinator pass. The root manifest declares exact skills and no extensions, prompts, themes, runtime dependencies or lifecycle scripts. The npm-indexed gallery still needs registry publication. No model activation or marketplace approval is inferred. Python 3.10+ and role prerequisites apply; the host provides normal tools and approvals. See [current evidence and limits](HARNESS-DISTRIBUTION.md).
+That immutable commit contains the complete 0.65 payload. The root manifest declares all 62 exact skill paths and no extensions, prompts, themes, runtime dependencies or lifecycle scripts. The source rebuild, all 62 helper contexts, coordinator assignment and real SQLite recovery pass. Pi 1.4.0 native public-Git/SDK compatibility was exercised on the prior 0.64 distribution; its adapter and skill declarations are unchanged apart from version and repaired canonical source. Those prior client results are not relabeled as a fresh 0.65 model or native client run.
+
+The current npm archive is bound to every included file and mode; publication still requires authenticated npm access. Public Git availability does not claim an npm-indexed gallery listing. Python 3.10+, role prerequisites, host tools and approvals apply. See [current source/native evidence](VALIDATION.md) and [historical client matrix](docs/history/HARNESS-DISTRIBUTION-064.md).
