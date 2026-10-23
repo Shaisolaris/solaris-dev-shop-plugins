@@ -14,6 +14,6 @@ Canonical source: [0d2ae8e76cba4e56dc01d9c621e553179b34c40e](https://github.com/
 
 These are local/source checks, not curated marketplace approval or production/model-quality certification. The runtime changes fail closed on WordPress API identity/HTTP/JSON failure and transport modification values as data; worker documentation requires actual repository/permission/expiry scoping and preserves login protection. Contracts are policy declarations rather than OS or credential fences.
 
-The full Hermes bundle remains held by its normal security scanner. A separate focused Delivery Evidence companion passed normal Hermes validation and has a catalog application; that does not admit this complete bundle. ClawHub's current public0.64 warning is not cleared by preparing this candidate. npm account authentication and OpenAI/Claude eligibility remain separate gates.
+The full Hermes bundle remains held by its normal security scanner. A separate focused Delivery Evidence companion passed normal Hermes validation and has a catalog application; that does not admit this complete bundle. ClawHub's current public 0.64 warning is not cleared by preparing this candidate. npm account authentication and OpenAI/Claude eligibility remain separate gates.
 
-Prior exact host executions are retained in [0.64 validation history](docs/history/VALIDATION-064.md) and [host history](docs/history/HARNESS-DISTRIBUTION-064.md). They are not relabeled as new0.65 executions. No previous tag or release asset is rewritten.
+Prior exact host executions are retained in [0.64 validation history](docs/history/VALIDATION-064.md) and [host history](docs/history/HARNESS-DISTRIBUTION-064.md). They are not relabeled as new 0.65 executions. No previous tag or release asset is rewritten.
