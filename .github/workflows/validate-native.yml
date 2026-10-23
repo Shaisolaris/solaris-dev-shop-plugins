@@ -47,7 +47,7 @@ jobs:
           python "$GITHUB_WORKSPACE/distribution/plugin/examples/capabilities/G39/drill_oracle.py"
       - name: Exact native harness profiles, refusal controls and installed callers
         run: |
-          git -C distribution fetch --no-tags --depth=1 origin df6672cd7b45a5abe7d13c6d762d71aed3763fcc
+          git -C distribution fetch --no-tags --depth=1 origin 278a602004c32b32f9ae036ba568be717621871a
           python -B distribution/tools/verify_harness_profiles.py --self-test
           node --check distribution/harnesses/deepseek/native/deepseek.mjs
           node --check distribution/harnesses/kilo/native/kilo.mjs

@@ -12,20 +12,11 @@
   "coordinators": 1,
   "discovery_adapters": 62,
   "canonical_files": {
-    ".github/ISSUE_TEMPLATE/bug.md": "b89052a43764b704fefad1e9f858f26775bfb40dd84da30cab92d086e3bb1eb6",
-    ".github/ISSUE_TEMPLATE/config.yml": "a33ab6e0df08148f69e8ebf40dd1ed2d5175f2acb3c9d2678c432624c37abe02",
-    ".github/ISSUE_TEMPLATE/feature.md": "f9c7d952c82aa016b2466d57bf8e28f10f8fdf1e9ce182e559a0d241a072b079",
-    ".github/ISSUE_TEMPLATE/new-employee.md": "35f639dca8c28593d2838415ac1d31f2a4a88ff7a692f200b29328ce1e041886",
-    ".github/ISSUE_TEMPLATE/question.md": "e318864cfb38b3cb203d112afdcc19073289637b2b5e1da0272080b708f2f2f2",
-    ".github/PULL_REQUEST_TEMPLATE.md": "1a61f5a9a87d61e0ddaddde991b7b97148be3c8dc16790f8f41e46adce49f469",
-    ".github/workflows/ci.yml": "d6bb103e1feee8d9ae41f39aa59cbf749f1101e695789b522dcea752a79197a4",
-    ".github/workflows/try-router.yml": "fdd8d2ba86fc33dd1572dd98b558216502709e88635550b292cc180c100375ce",
     "CHANGELOG.md": "c71113089b6d66bdc3046fbc809e4facfb85de7d69024b06d15289cb214bd2da",
     "CODE_OF_CONDUCT.md": "703aa6f337dc05b5b692f070146b4b8fb7102d8b8219ff7a170728553f45f1ae",
     "CONTRIBUTING.md": "3285a8d6e86813d2e598e8e1724938e0548876b7574ede23405d586ec8c91602",
     "LICENSE": "6d47fca92f47178e139e777085850d1feab9d73a738437ec84074a42e5ddc497",
     "MANIFEST.in": "dac2fd19c3636b8537bf8b216ebf205dd21e95ee955dbcb4850deabf907c0fb7",
-    "NOTICE.md": "4873642c0f2a1cddee4ca8c5e92b6af36311a37c9e52f2393b3db9fbfbffc8de",
     "SOURCE-README.md": "faa8eb21b72d43feb44eb807fae4a02ec4a861cc60cedd68142b133a0b2fac11",
     "ROADMAP.md": "90b30940df6f5cee554bae1901e75b7f61f692ae3bf271a101761ee0aa28dc63",
     "SECURITY.md": "4a0720ebd4045cdbbe0fb1eed1464d16e9cfd25442fac9bab9d6b136708d4c3e",
@@ -1036,7 +1027,7 @@
     "examples/capabilities/G34/fixtures/unseen/site/Guides/index.html": "436e35f3e443a1988388317fa4ebaccb2d36db35a0cd38ad37ba20d014a27bfe",
     "examples/capabilities/G34/fixtures/unseen/site/Guides/knots.html": "4f82efdc17c81b40d181df029abe54cb600ef603e8e9444a07b39365c95b158b",
     "examples/capabilities/G34/fixtures/unseen/site/blog/tides-2019.html": "5e3b2d619098ac65b22671adca4c1b39c8f06313f5df8282478ae8bea549ddac",
-    "examples/capabilities/G34/fixtures/unseen/site/café.html": "dee1a1e8de71039a6712a512c947efc70f94fc867a8c38664720856850756561",
+    "examples/capabilities/G34/fixtures/unseen/site/caf\u00e9.html": "dee1a1e8de71039a6712a512c947efc70f94fc867a8c38664720856850756561",
     "examples/capabilities/G34/fixtures/unseen/site/checkout.html": "2ece71176c32f40425689da373c08e942c5c5c618a5efa6a7e7f870cd1b1f2a9",
     "examples/capabilities/G34/fixtures/unseen/site/docs/index.html": "56dc0d41aa6b1f3c5649b276ae18ca0b51bc8cf0e26507c426bb6eb83ff976bf",
     "examples/capabilities/G34/fixtures/unseen/site/draft.html": "11c5345cf2dff1be4a064a395f04b036d07995cab5c9238b1cb9687ccd74d238",
@@ -1211,10 +1202,28 @@
     "tests/test_wordpress_instruction_examples.py": "018ebeb7b883b2054a5f95db6abd0d7b819fac83ca0d8476360e7a1d536d4301",
     "tests/test_wordpress_json_fields.py": "69f56c544750f7c1d7f277f72dcbc959ec4ff873a883a62e7b10e9df94490533",
     "tools/build_skill_catalog.py": "355522a0811f3cd7b368a044808d1a830e0a8aa95ce147aab4c47c82287153e4",
-    "tools/validate_skill_metadata.py": "17117a7be761c6da86d8ebde288634cf7afa62e35147909fdedfba4ea50877ad"
+    "tools/validate_skill_metadata.py": "17117a7be761c6da86d8ebde288634cf7afa62e35147909fdedfba4ea50877ad",
+    "SOURCE-NOTICE.md": "4873642c0f2a1cddee4ca8c5e92b6af36311a37c9e52f2393b3db9fbfbffc8de",
+    "source-config/.github/ISSUE_TEMPLATE/bug.md": "b89052a43764b704fefad1e9f858f26775bfb40dd84da30cab92d086e3bb1eb6",
+    "source-config/.github/ISSUE_TEMPLATE/config.yml": "a33ab6e0df08148f69e8ebf40dd1ed2d5175f2acb3c9d2678c432624c37abe02",
+    "source-config/.github/ISSUE_TEMPLATE/feature.md": "f9c7d952c82aa016b2466d57bf8e28f10f8fdf1e9ce182e559a0d241a072b079",
+    "source-config/.github/ISSUE_TEMPLATE/new-employee.md": "35f639dca8c28593d2838415ac1d31f2a4a88ff7a692f200b29328ce1e041886",
+    "source-config/.github/ISSUE_TEMPLATE/question.md": "e318864cfb38b3cb203d112afdcc19073289637b2b5e1da0272080b708f2f2f2",
+    "source-config/.github/PULL_REQUEST_TEMPLATE.md": "1a61f5a9a87d61e0ddaddde991b7b97148be3c8dc16790f8f41e46adce49f469",
+    "source-config/.github/workflows/ci.yml": "d6bb103e1feee8d9ae41f39aa59cbf749f1101e695789b522dcea752a79197a4",
+    "source-config/.github/workflows/try-router.yml": "fdd8d2ba86fc33dd1572dd98b558216502709e88635550b292cc180c100375ce"
   },
   "source_path_map": {
-    "README.md": "SOURCE-README.md"
+    "README.md": "SOURCE-README.md",
+    "NOTICE.md": "SOURCE-NOTICE.md",
+    ".github/ISSUE_TEMPLATE/bug.md": "source-config/.github/ISSUE_TEMPLATE/bug.md",
+    ".github/ISSUE_TEMPLATE/config.yml": "source-config/.github/ISSUE_TEMPLATE/config.yml",
+    ".github/ISSUE_TEMPLATE/feature.md": "source-config/.github/ISSUE_TEMPLATE/feature.md",
+    ".github/ISSUE_TEMPLATE/new-employee.md": "source-config/.github/ISSUE_TEMPLATE/new-employee.md",
+    ".github/ISSUE_TEMPLATE/question.md": "source-config/.github/ISSUE_TEMPLATE/question.md",
+    ".github/PULL_REQUEST_TEMPLATE.md": "source-config/.github/PULL_REQUEST_TEMPLATE.md",
+    ".github/workflows/ci.yml": "source-config/.github/workflows/ci.yml",
+    ".github/workflows/try-router.yml": "source-config/.github/workflows/try-router.yml"
   },
   "omitted_repository_config": [
     ".gitignore"
@@ -1222,5 +1231,25 @@
   "packager_sha256": "7c50f2659c0cc05ff9107d1f550d5b9df760518a37c1c90c99b288d87152ba0c",
   "listing_icon_sha256": "293fd397b99ca61af1dc9a47b60635722e4290c7417f6bfe390cb4e1c88cf8a9",
   "official_listing_approved": false,
-  "limits": "Native format support is separate from directory approval and model-driven activation. See the recorded host tests for their exact scope."
+  "limits": "Native format support is separate from directory approval and model-driven activation. See the recorded host tests for their exact scope.",
+  "distribution_notice": {
+    "canonical_notice": "SOURCE-NOTICE.md",
+    "resource_license_aliases": [
+      {
+        "path": "skills/ui-ux-designer/resources/canonical/employees/design/ui-ux-designer/design-intelligence/LICENSE-upstream",
+        "canonical_origin": "employees/design/ui-ux-designer/design-intelligence/LICENSE-upstream",
+        "sha256": "738f69dfa83db5c347c678fb9d90e560877059f0de93a327c39001bff92dc014"
+      }
+    ]
+  },
+  "relocated_repository_configuration": {
+    ".github/ISSUE_TEMPLATE/bug.md": "source-config/.github/ISSUE_TEMPLATE/bug.md",
+    ".github/ISSUE_TEMPLATE/config.yml": "source-config/.github/ISSUE_TEMPLATE/config.yml",
+    ".github/ISSUE_TEMPLATE/feature.md": "source-config/.github/ISSUE_TEMPLATE/feature.md",
+    ".github/ISSUE_TEMPLATE/new-employee.md": "source-config/.github/ISSUE_TEMPLATE/new-employee.md",
+    ".github/ISSUE_TEMPLATE/question.md": "source-config/.github/ISSUE_TEMPLATE/question.md",
+    ".github/PULL_REQUEST_TEMPLATE.md": "source-config/.github/PULL_REQUEST_TEMPLATE.md",
+    ".github/workflows/ci.yml": "source-config/.github/workflows/ci.yml",
+    ".github/workflows/try-router.yml": "source-config/.github/workflows/try-router.yml"
+  }
 }
