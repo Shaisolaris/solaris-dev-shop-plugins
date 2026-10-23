@@ -80,7 +80,7 @@ def build():
     assert not OUT.exists(), 'Do not overwrite an existing candidate.'
     shutil.copytree(BASE, OUT, ignore=shutil.ignore_patterns('__pycache__', '*.pyc'))
     canonical = json.loads((BASE/'SOLARIS-BUILD-SOURCE.json').read_text())
-    assert canonical['source_commit'] == '0d2ae8e76cba4e56dc01d9c621e553179b34c40e', 'Review a new upstream revision before changing this pin.'
+    assert canonical['source_commit'] == '1f06f27288ba47143574742bd340228ea492962c', 'Review a new upstream revision before changing this pin.'
     index = json.loads((BASE/'native/skills.json').read_text())
     records = {}
     original_missing = []

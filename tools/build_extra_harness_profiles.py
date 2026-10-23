@@ -52,7 +52,7 @@ def build(source, output, host):
         'sha256': hashlib.sha256(path.read_bytes()).hexdigest(), 'executable': bool(path.stat().st_mode & 0o111)}
         for path in sorted(output.rglob('*')) if path.is_file() and path != output / 'HARNESS-BUILD.json'}
     (output / 'HARNESS-BUILD.json').write_text(json.dumps(record, indent=2, sort_keys=True) + '\n')
-    return {'host': host, 'files': len(record['files']) + 1, 'canonical_files': 1199}
+    return {'host': host, 'files': len(record['files']) + 1, 'canonical_files': 1200}
 
 
 if __name__ == '__main__':

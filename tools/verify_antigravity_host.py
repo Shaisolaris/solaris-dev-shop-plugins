@@ -86,7 +86,7 @@ def main():
         result = subprocess.run([sys.executable, '-B', str(installed / 'skills' / skill['name'] / 'scripts/run.py'), '--context'],
                                 cwd=work, env=env, capture_output=True, text=True, timeout=15)
         assert result.returncode == 0, (skill['name'], result.stderr)
-        assert json.loads(result.stdout)['source_commit'] == '0d2ae8e76cba4e56dc01d9c621e553179b34c40e'
+        assert json.loads(result.stdout)['source_commit'] == '1f06f27288ba47143574742bd340228ea492962c'
     result = subprocess.run([sys.executable, '-B', str(installed / 'skills/chief-of-staff/scripts/run.py'),
                              'intake', 'review this code', '--json'], cwd=work, env=env, capture_output=True, text=True, timeout=20)
     assert result.returncode == 0, result.stderr

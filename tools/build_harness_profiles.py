@@ -10,8 +10,8 @@ import tarfile
 from distribution_metadata import add_resource_notices, relocate_source_ci
 
 NATIVE_COMMIT = '2f5bbfe738eb8c50d75c62659a0dbf8b44ee931a'
-CORE_COMMIT = '0d2ae8e76cba4e56dc01d9c621e553179b34c40e'
-VERSION = '0.65.0'
+CORE_COMMIT = '1f06f27288ba47143574742bd340228ea492962c'
+VERSION = '0.66.0'
 ROOT = Path(__file__).resolve().parents[1]
 OMIT = {'.claude-plugin/plugin.json', 'plugin.json', 'server.mjs', 'native/opencode.mjs'}
 
@@ -31,10 +31,10 @@ def source_files(source):
             name = entry.name[len('copilot/plugin/'):]
             assert not Path(name).is_absolute() and '..' not in Path(name).parts
             files[name] = (stream.extractfile(entry).read(), bool(entry.mode & 0o111))
-    assert len(files) == 1977
+    assert len(files) == 1978
     original = json.loads(files['SOLARIS-BUILD-SOURCE.json'][0])
     assert original['source_commit'] == CORE_COMMIT
-    assert len(original['canonical_files']) == 1199
+    assert len(original['canonical_files']) == 1200
     assert 'SOURCE-NOTICE.md' not in original['canonical_files'], 'Host inputs must precede one-time metadata derivation'
     assert not OMIT.intersection(original['canonical_files'])
     return files
