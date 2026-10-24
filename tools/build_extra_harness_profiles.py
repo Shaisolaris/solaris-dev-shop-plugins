@@ -42,7 +42,7 @@ def build(source, output, host):
         'Local helpers need Python3.10+ and PyYAML on the host PATH. Individual specialists retain their documented prerequisites and permissions. '
         'Amp hosted/Puck and Cline VS Code/JetBrains support are separate client gates, not established by native CLI/SDK discovery.\n\n'
         'Source: core ' + base.CORE_COMMIT + ', reviewed native ' + base.NATIVE_COMMIT + '. '
-        'SOLARIS-BUILD-SOURCE.json preserves1199 canonical hashes; HARNESS-BUILD.json records every profile byte/mode. '
+        'SOLARIS-BUILD-SOURCE.json preserves1200 canonical hashes; HARNESS-BUILD.json records every profile byte/mode. '
         'See ../../HARNESS-DISTRIBUTION.md in the source repository for actual tested revisions, installation and publication status. '
         'A prepared profile alone does not establish a passing native install or vendor approval.\n\n'
         'MIT licensed. Solaris Technologies, https://solaristek.com. Support: https://github.com/Shaisolaris/solaris-dev-shop-plugins/issues.\n')
@@ -52,7 +52,7 @@ def build(source, output, host):
         'sha256': hashlib.sha256(path.read_bytes()).hexdigest(), 'executable': bool(path.stat().st_mode & 0o111)}
         for path in sorted(output.rglob('*')) if path.is_file() and path != output / 'HARNESS-BUILD.json'}
     (output / 'HARNESS-BUILD.json').write_text(json.dumps(record, indent=2, sort_keys=True) + '\n')
-    return {'host': host, 'files': len(record['files']) + 1, 'canonical_files': 1199}
+    return {'host': host, 'files': len(record['files']) + 1, 'canonical_files': 1200}
 
 
 if __name__ == '__main__':
