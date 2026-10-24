@@ -1,9 +1,7 @@
-# Solaris Dev Shop for Antigravity 0.65.0
+# Solaris Dev Shop for Antigravity 0.66.0
 
-The strict native profile preserves 61 specialists plus coordinator and 1,199 canonical files from core `0d2ae8e76cba4e56dc01d9c621e553179b34c40e`. Its complete 1,975-file payload is pinned at native `83fcb4fe0738bb4fed75716c4ec85340822a74bd:harnesses/antigravity`; the standalone reviewed source is `d7532ef437612a3913889ef02166d0970e4d0abf`.
+The strict native profile preserves 61 specialists and coordinator with 1,200 canonical hashes from core `cd1898c6dc062a2dcf01a56b53403023c1994c8d`. The 1,976-file profile is at `10dbf16811c40735955ba425b77a661c0dd0e973:harnesses/antigravity`; its standalone source is `8490100377f215b59c511c8c622f266b2a204d01`.
 
-Fresh first-party Antigravity CLI 1.4.5 hosted Linux tests install/enable the plugin, discover all 62 workflows, match every file/mode, run helper contexts and return the actual coordinator assignment. [Native PR13](https://github.com/Shaisolaris/solaris-dev-shop-plugins/pull/13) and [standalone PR3](https://github.com/Shaisolaris/solaris-dev-shop-antigravity/pull/3) passed their exact-revision CI. No retired AI worker, owner Google profile or model session was used.
+The source checker binds every byte/mode and exercises all contexts and coordinator outcomes. The native CI gate uses the first-party Antigravity CLI in a fresh isolated hosted profile to install/enable, discover 62 workflows and verify actual callers. The final exact-head checks establish that result; [prior client proofs](docs/history/HARNESS-DISTRIBUTION-064.md) remain historical. No retired AI worker, owner Google profile or model session is used.
 
-Google's strict root manifest allows only name and description. The generic Solaris checker therefore retains its single missing-license-field policy finding; the actual MIT license and notices remain present, and other findings are rejected. This is not a scanner waiver or a claim the generic checker was clean. Source CI remains inert under source-config/.github.
-
-Use the complete GitHub-root profile or its documented workspace plugin directory. Python 3.10+ and individual role prerequisites apply. The publisher application receipt is separate from curator approval. See [validation](VALIDATION.md); no new employee capability or model quality is inferred from native loading.
+Google's strict manifest permits only name and description. The generic Solaris missing-license-field policy finding is retained; the real MIT license and source notices remain verified. Source CI is inert under `source-config/.github`. This is not a scanner waiver or provider approval. Loading the workflow does not authorize Docker, services or source refresh. See [validation](VALIDATION.md).

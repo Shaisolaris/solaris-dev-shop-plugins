@@ -1,7 +1,7 @@
 {
-  "canonical_files": 1199,
+  "canonical_files": 1200,
   "coordinator": 1,
-  "core_source": "0d2ae8e76cba4e56dc01d9c621e553179b34c40e",
+  "core_source": "cd1898c6dc062a2dcf01a56b53403023c1994c8d",
   "distribution_notice": {
     "canonical_notice": "SOURCE-NOTICE.md",
     "resource_license_aliases": [
@@ -15,7 +15,7 @@
   "files": {
     "CHANGELOG.md": {
       "executable": false,
-      "sha256": "1c1de2b8807c6fa5a32d1a4bbbfe22545c7fc693a3c9edf27e8af7bcae2f0f3f"
+      "sha256": "1d21897562713cadcff10ec328772fcc1d9be69fe2730b29ea79391a6495e688"
     },
     "CODE_OF_CONDUCT.md": {
       "executable": false,
@@ -43,7 +43,7 @@
     },
     "README.md": {
       "executable": false,
-      "sha256": "bde2f70c53fef9d0d1fd4f2eb4d703194f0c1f29e326082fd5a01df46464cd53"
+      "sha256": "71dff97fc8b6a479034993de4e8821a9c11002c58983d8276880fd5888b7e7e7"
     },
     "ROADMAP.md": {
       "executable": false,
@@ -55,11 +55,11 @@
     },
     "SOLARIS-BUILD-SOURCE.json": {
       "executable": false,
-      "sha256": "7174df768cea227714705c09c4eb3441f473bf9cd271dfbdb07351caea54c6fd"
+      "sha256": "35b2cc369a9237d3fa121f62e0eb63a16208920d9bad72a3c080be9ebaf80176"
     },
     "SOURCE-ENTRYPOINT-LAYOUT.json": {
       "executable": false,
-      "sha256": "0034ba3d1109726df6375bb76cfef4a36d1f8b00a05aa41caa07df83caf9439e"
+      "sha256": "2949522e7943854a4d57db8dc316ea297b1ac3e8be874da270c3d6e70e42aca3"
     },
     "SOURCE-NOTICE.md": {
       "executable": false,
@@ -67,7 +67,7 @@
     },
     "SOURCE-README.md": {
       "executable": false,
-      "sha256": "f44080799f9db5682edaa3add7d515c57721b808fa31772289e30328ef25779f"
+      "sha256": "faa8eb21b72d43feb44eb807fae4a02ec4a861cc60cedd68142b133a0b2fac11"
     },
     "SUPPORT.md": {
       "executable": false,
@@ -107,7 +107,7 @@
     },
     "chief-of-staff/SKILL.md": {
       "executable": false,
-      "sha256": "75b209462c30ae650a9bf27f15ddd46bf0edc0d459fea6d4f9eb27fcdc390a79"
+      "sha256": "4620398ded892a0d5639950567ba963448573b3faa22268decaf8dcfbe6ea32c"
     },
     "chief-of-staff/capability.contract.json": {
       "executable": false,
@@ -147,7 +147,7 @@
     },
     "chief-of-staff/rules.md": {
       "executable": false,
-      "sha256": "136cb26e13c7f7ff4eb75a44e4437f90cfcd474dcb9a9ba7ea627218d5dd9be0"
+      "sha256": "d20980ef8f26ca949658370f642918a380c80eeaf5d031a251336ea61919c222"
     },
     "control-plane/__init__.py": {
       "executable": false,
@@ -155,11 +155,11 @@
     },
     "control-plane/budgets.json": {
       "executable": false,
-      "sha256": "f02179f464c2cbb5dcf01c153c4f74bf00567ec07812e1db80da24ed633b9508"
+      "sha256": "25498208792ff2660fedac6a49971ab40dcc8c5b948497ebc365246217ff50cd"
     },
     "control-plane/meta_control_plane.py": {
       "executable": true,
-      "sha256": "5fd44a38d678ef4b305fc8e50d4b1eb28f66ce984ec139cd87dbb95b929157b7"
+      "sha256": "5347cd052407b2364d230e33189494d740d8b92cbbe504dda4fbc0a891b70f48"
     },
     "control-plane/policy.json": {
       "executable": false,
@@ -211,7 +211,7 @@
     },
     "docs/install.md": {
       "executable": false,
-      "sha256": "e99521fefef3a2bf0b6a566777a1a214b8fc805daff6dffa37e4ea45c7319022"
+      "sha256": "3b0f40db57cdb95e019ba698f48f1bd23e6b9c3b35a2788b72a480b9c2d9a7ad"
     },
     "docs/keyword-index.md": {
       "executable": false,
@@ -247,7 +247,7 @@
     },
     "employees/README.md": {
       "executable": false,
-      "sha256": "f681b89d3aac4318b2ad5e8165dab87ee871492409f69880db59514846dc4a0f"
+      "sha256": "4e0f0f6e65baa53e97f7bfec1efaea5ad4907df0012253e6b993d8e8b4df6935"
     },
     "employees/creative-media/3d-artist/SKILL.md": {
       "executable": false,
@@ -763,7 +763,7 @@
     },
     "employees/engineering/ai-automation-engineer/SKILL.md": {
       "executable": false,
-      "sha256": "6243dd20248b9bfa79eab6e6d35cbf16e40b2966d2e3b2951196b88844ed458f"
+      "sha256": "a885e271425331dc5992a2b1fc2de0b8eefadc0b6ba80ff975ada17942fd5412"
     },
     "employees/engineering/ai-automation-engineer/capability.contract.json": {
       "executable": false,
@@ -795,7 +795,7 @@
     },
     "employees/engineering/ai-ml-engineer/SKILL.md": {
       "executable": false,
-      "sha256": "44788b0818aab1f4acc2ef891ba0d4498ab2cc7ea68bbbff0c98282d455fea1b"
+      "sha256": "e20e47e212629c54336e39aaecf46de03b6375ca01d361059214080e1196ff89"
     },
     "employees/engineering/ai-ml-engineer/capability.contract.json": {
       "executable": false,
@@ -911,7 +911,7 @@
     },
     "employees/engineering/devops-engineer/SKILL.md": {
       "executable": false,
-      "sha256": "c12d90ec359f5eeb29165b1e355ce6b5d6806c0a44123545a397931bc196165b"
+      "sha256": "7f37ae14ea126d634d08b377e4c090de51614629a77eb422bcb3eafa60cfa80b"
     },
     "employees/engineering/devops-engineer/capability.contract.json": {
       "executable": false,
@@ -923,7 +923,7 @@
     },
     "employees/engineering/devops-engineer/docker-skill.md": {
       "executable": false,
-      "sha256": "09cbb80e4346ac6f61160c5f74d7c9d724a59bf6a8650cc0f0aa8d1d262fc8d6"
+      "sha256": "56c4bea80a6e47c72ae2f5b1d50a8016c9fe28504408f413863fb27ac3c812d0"
     },
     "employees/engineering/devops-engineer/ftp-git-deploy.md": {
       "executable": false,
@@ -935,15 +935,15 @@
     },
     "employees/engineering/devops-engineer/gitops-skill.md": {
       "executable": false,
-      "sha256": "42f4142d6662837d3aae6d43e8ba6dd94b1fffd1afb3ffa7371a1699408e4f42"
+      "sha256": "d2aa552ade9205d8c5a8a7f375b73fd37bdb18982466f45df6686ff7966eb5ca"
     },
     "employees/engineering/devops-engineer/headless-fleet-runbook.md": {
       "executable": false,
-      "sha256": "685269d844a00d457454b51ba39158ab29ac1103be8963f6ec348677650ba1dc"
+      "sha256": "919ad621cfa80d503530d50b216935ef3fe10a1e80c865d3053261b286b7c92c"
     },
     "employees/engineering/devops-engineer/learnings.md": {
       "executable": false,
-      "sha256": "3dab20d9c238656bc674febc2f4338c709b22b204836894a6185e69eabd48f20"
+      "sha256": "cf2e9fd6335afd0fd2d56e2de568809ec2a65896d20052f5c004fca5d227a7d1"
     },
     "employees/engineering/devops-engineer/local-deploy-preflight.md": {
       "executable": false,
@@ -959,11 +959,11 @@
     },
     "employees/engineering/devops-engineer/plugin.json": {
       "executable": false,
-      "sha256": "ddef6a3ba256952ace989f2f51636b0daa9528ab5c208338812ef9d6792799e6"
+      "sha256": "09b4a9c54ce292bccc86525a47a16d1def60e202a60125fde4c7a0d41141a4a2"
     },
     "employees/engineering/devops-engineer/rules.md": {
       "executable": false,
-      "sha256": "636088de1e4cbd1f358df54f7965d8d01eb230049f2c50a69dc0bbd18c47580c"
+      "sha256": "47b7c186482784131ee1482c4418b77c1e8d36cb50edfc042c2c2c4e8e03d3a7"
     },
     "employees/engineering/devops-engineer/terraform-skill.md": {
       "executable": false,
@@ -1019,7 +1019,7 @@
     },
     "employees/engineering/full-stack-developer/SKILL.md": {
       "executable": false,
-      "sha256": "004fad65f90cbecddae73986721426b9a9b38d7534fdf8c9f880e161da9b38bf"
+      "sha256": "6b17abbea89e3b83693ec58f8cfda40b895db4d734bb81327c921c2df017b5a7"
     },
     "employees/engineering/full-stack-developer/api-design.md": {
       "executable": false,
@@ -1099,7 +1099,7 @@
     },
     "employees/engineering/llm-agent-designer/SKILL.md": {
       "executable": false,
-      "sha256": "1bf9b73c7f75b5da49122c6b7533e3cde0b6e22b40c6831b64bc84ae2a58a75e"
+      "sha256": "bfb2318924f1454294a5804aeceb2804c5748bd2bd68934c34c6c72b399d2876"
     },
     "employees/engineering/llm-agent-designer/agent-engineering-craft.md": {
       "executable": false,
@@ -1135,7 +1135,7 @@
     },
     "employees/engineering/llm-agent-designer/rules.md": {
       "executable": false,
-      "sha256": "dc79fc69429e2e9aed410411b02bb273fc7764a8a0aa4384e64c4a3fc5201103"
+      "sha256": "30d0b6542b2c1b035b6388486a4aa1b1836fed7ee92e06a72a385204f5b3e97d"
     },
     "employees/engineering/llm-agent-designer/superpowers-methodology.md": {
       "executable": false,
@@ -1143,7 +1143,7 @@
     },
     "employees/engineering/mobile-developer/SKILL.md": {
       "executable": false,
-      "sha256": "ad0c216fbea0d5dff4543618669d82031b6b3726aed308bcdd89f94f92d0aed2"
+      "sha256": "49fda057dafee2dc0c744f4275dad547a66bf9aa3b4fc6f6bdb2358c647c7572"
     },
     "employees/engineering/mobile-developer/android-architecture.md": {
       "executable": false,
@@ -1159,11 +1159,11 @@
     },
     "employees/engineering/mobile-developer/mobile-mcp-operator.md": {
       "executable": false,
-      "sha256": "50cfe385522c209c257cd365866b42ae38fd762f2caf922e59eae2a7d9b3a8ac"
+      "sha256": "3366f4798f631e9c759602517ddf47ba95564674eeb4ab3dd47f77ce46e30fb2"
     },
     "employees/engineering/mobile-developer/mobile-test-and-release.md": {
       "executable": false,
-      "sha256": "ec0f28327aa4d58077956f29ed93e252d2c6763ad5913478e9f200e206554ed1"
+      "sha256": "597a1e19bec8253a710795c2e301bc7d2655ce707189fff36d58b5f0004b9518"
     },
     "employees/engineering/mobile-developer/native-mobile-language-packs.md": {
       "executable": false,
@@ -1191,7 +1191,7 @@
     },
     "employees/engineering/unity-developer/SKILL.md": {
       "executable": false,
-      "sha256": "0687c59594085cd61d5e3cea52c45c6c3be74e23776088cae42303202ef582d6"
+      "sha256": "949e794c12a943de2416faa4dd08fdad2f6154ac9dfe9ca0064001e42d1b5274"
     },
     "employees/engineering/unity-developer/capability.contract.json": {
       "executable": false,
@@ -1211,7 +1211,7 @@
     },
     "employees/engineering/unity-developer/learnings.md": {
       "executable": false,
-      "sha256": "95abcd8a2727b5d6200447e80a83560973c4593ae65feef79cae147f06d71fdf"
+      "sha256": "34ef5859a3e1fa7a09f2590c9484cfc85c0552ba752bf8ede910aa7681208a91"
     },
     "employees/engineering/unity-developer/plugin.json": {
       "executable": false,
@@ -1227,7 +1227,7 @@
     },
     "employees/engineering/unity-developer/unity-mcp-operator.md": {
       "executable": false,
-      "sha256": "0673e23c9e52efb786d11c92be20b8e45fa41b440fad5b557b772b8f6f99557e"
+      "sha256": "89469edd13739ff15a0dddbda3a06a3382bccb7631dab86e44fbc11f564463f2"
     },
     "employees/engineering/unity-developer/unity-performance-mobile.md": {
       "executable": false,
@@ -1247,11 +1247,11 @@
     },
     "employees/engineering/unreal-developer/CLAUDE_template.md": {
       "executable": false,
-      "sha256": "8412d987dad7764fed74ba51886848289e2606f0baca0db6cf209aed0ae86fda"
+      "sha256": "8327b5dcb04b817498f6a78f9d3571f1d06b41b045bd284494e9f0cea8f48d76"
     },
     "employees/engineering/unreal-developer/SKILL.md": {
       "executable": false,
-      "sha256": "efe34e7995ccadb19eeb6a2101d4ad9f92820d4778913a17a92cbb9074b300f2"
+      "sha256": "e58e04d999fbef02376606a16302dbb81b30c33906eb1493de95c7a9f21a8367"
     },
     "employees/engineering/unreal-developer/capability.contract.json": {
       "executable": false,
@@ -1267,7 +1267,7 @@
     },
     "employees/engineering/unreal-developer/learnings.md": {
       "executable": false,
-      "sha256": "1e25b5f7a17d893efccfe2348f7d1dc518c5a983bd844cb763f63444772777f7"
+      "sha256": "bb400a054d171e8788c1e529cae76c49ff9395db5a53a77b518d805490624959"
     },
     "employees/engineering/unreal-developer/plugin.json": {
       "executable": false,
@@ -1279,7 +1279,7 @@
     },
     "employees/engineering/unreal-developer/unreal-cpp-quality-and-build.md": {
       "executable": false,
-      "sha256": "6a6bdead30926f40b0c63cb69edb5aed9cd974c6b8d3077e8c4d9899bf05fbc7"
+      "sha256": "a37ac827df96cddfa827633734008ad2e5bc45043dec03e2b10f4c287469369a"
     },
     "employees/engineering/unreal-developer/unreal-gameplay-patterns.md": {
       "executable": false,
@@ -1287,11 +1287,11 @@
     },
     "employees/engineering/unreal-developer/unreal-genai-asset-gen.md": {
       "executable": false,
-      "sha256": "deb8417d1c6e558eb8da6e62c16f0e6dfe5de8365b4e6af76c7b48796f79517d"
+      "sha256": "2d6fa9a80709da863ac02f94ea93bd25e570cc228d20cd1e500bda7bd7aa2710"
     },
     "employees/engineering/unreal-developer/unreal-mcp-operator.md": {
       "executable": false,
-      "sha256": "49a45fde51e8c77cc564a11af039887d640588b5059456cfd9c7578ffb4ff0c7"
+      "sha256": "0180e1d593eb0593d1eadb59bcbf47438c4e43822f6a9668444c8c13284dbdd1"
     },
     "employees/engineering/unreal-developer/unreal-scene-architecture.md": {
       "executable": false,
@@ -1595,7 +1595,7 @@
     },
     "employees/leadership/cfo/filings-and-market-data-tooling.md": {
       "executable": false,
-      "sha256": "324bfc14ee1c4b7f0f46438bd6a4e1dbdf841b702439ebc9bc6349c9e6a88880"
+      "sha256": "1365aae4215692888cc2d7caa3d867bab8ea83e60c05e3760e8c2798a2f54299"
     },
     "employees/leadership/cfo/financial-analysis.md": {
       "executable": false,
@@ -1915,7 +1915,7 @@
     },
     "employees/marketing/seo-aso-specialist/SKILL.md": {
       "executable": false,
-      "sha256": "8a0c0d1c0c7769ebdd663fdd7db7f8f1528ce07e0554f73d0e29d5692d125bf6"
+      "sha256": "9266aabea6ce1be023356e5b57d2bbc30525adc8d8dd98ead4bcc89343f0f141"
     },
     "employees/marketing/seo-aso-specialist/aeo-ai-visibility.md": {
       "executable": false,
@@ -2031,7 +2031,7 @@
     },
     "employees/product-project/delivery-lead/SKILL.md": {
       "executable": false,
-      "sha256": "e4420ca5cacc2d8fcd4ec6aaaea8cef0ca64f58db9c882fd30f09623818c2616"
+      "sha256": "4c21d871999e9bd4d6c70e5b1e22d3e77fd125d00b799c33e37c74d5c7c2aad2"
     },
     "employees/product-project/delivery-lead/capability.contract.json": {
       "executable": false,
@@ -2211,7 +2211,7 @@
     },
     "employees/quality-security/code-reviewer/SKILL.md": {
       "executable": false,
-      "sha256": "548326db9b5f0214bb3878ab8cd82457ed418a241382c7c5b74c4ecf7a842695"
+      "sha256": "a3c82734471908e111d26258eec18594045d328785cb769b0db3707ca87b87f6"
     },
     "employees/quality-security/code-reviewer/capability.contract.json": {
       "executable": false,
@@ -2291,7 +2291,7 @@
     },
     "employees/quality-security/qa-engineer/SKILL.md": {
       "executable": false,
-      "sha256": "289b323d8b42ac07925dbea1bd1259042470cb6a8c972b9000f731c9aaadb196"
+      "sha256": "6450d925e0c86cd181af140105e67fa6b034ad8b9d7bf4b6ca757291b0aeabec"
     },
     "employees/quality-security/qa-engineer/api-fuzz-mutation-integration.md": {
       "executable": false,
@@ -2455,7 +2455,7 @@
     },
     "employees/sales-outreach/proposal-writer/SKILL.md": {
       "executable": false,
-      "sha256": "62cc995b54fbc7528435de6c10daa402ac88dacef457d9c109f3866f4194e621"
+      "sha256": "d49d3d0686def773af873ddc20e8eb83d273bb90fcac1779b5dc6eea44653e7f"
     },
     "employees/sales-outreach/proposal-writer/capability.contract.json": {
       "executable": false,
@@ -2563,7 +2563,7 @@
     },
     "employees/specialized/engineering-design/SKILL.md": {
       "executable": false,
-      "sha256": "bda9ee909d1767c4b49b70bb89c417e1cd375de21bced9b0d948e057cfc32cf3"
+      "sha256": "2c196e4dfe96bc4e45a272ec376b7ad57b0a7cd4f227791ee43881b8e37bcd51"
     },
     "employees/specialized/engineering-design/capability.contract.json": {
       "executable": false,
@@ -2575,7 +2575,7 @@
     },
     "employees/specialized/engineering-design/freecad-mcp-operator.md": {
       "executable": false,
-      "sha256": "307e772d26128970c8148dc816865739766e0b87908b063c74b82fa11b91b12b"
+      "sha256": "026462921613a0fbb40c9e9f84110306b8cd97ed6d1803637343e68505f21c0b"
     },
     "employees/specialized/engineering-design/kicad-pcb-note.md": {
       "executable": false,
@@ -2591,11 +2591,11 @@
     },
     "employees/specialized/engineering-design/rules.md": {
       "executable": false,
-      "sha256": "40b3fb61496536a009060095aef74682ffc18167c440dc987f144104feddeec0"
+      "sha256": "6de94f51afa58b21ad55d5ad4c8112068fb9518c6e2e48fc6c02ba40737e85c7"
     },
     "employees/specialized/game-designer/SKILL.md": {
       "executable": false,
-      "sha256": "b1e9a3c7586b5e8c00c5b04876b84f4e816ca416ffe8c426a84faefb9d8e6f6b"
+      "sha256": "b681ad06012a03f25096806950f0188a03d749ccf9928a43bc07cee95121d05b"
     },
     "employees/specialized/game-designer/capability.contract.json": {
       "executable": false,
@@ -2623,7 +2623,7 @@
     },
     "employees/specialized/game-designer/orchestration-prompt-to-playable.md": {
       "executable": false,
-      "sha256": "0cb9a715ea7cde7da8fe57c7ea3e6a13cba4453f92da070eec3e1f16c6f9f841"
+      "sha256": "5379ae2cc2dd042cf2093598a904d7620acc18f54f50b0bbd525e01111ccb922"
     },
     "employees/specialized/game-designer/plugin.json": {
       "executable": false,
@@ -2703,11 +2703,11 @@
     },
     "employees/specialized/wordpress-master/diagnostics/build-modify/SKILL.md": {
       "executable": false,
-      "sha256": "aeab31ebceb06df392b1c4afed24aae1407e56afdacaeaea9375dc34540a0eeb"
+      "sha256": "499960feb2b1c760ab5b7c223aa1408278986fa13ea374a3deff770141d38390"
     },
     "employees/specialized/wordpress-master/diagnostics/build-scaffold/SKILL.md": {
       "executable": false,
-      "sha256": "b4399c2aa001fb064cd095b2059f3d72a40da94b84a8214ed278a8878ef8a01b"
+      "sha256": "ff6f9f0b549e26d51169b5bb49ebd701db619ed1086ac1e3f86b6956caa8d24c"
     },
     "employees/specialized/wordpress-master/diagnostics/build-scrape/SKILL.md": {
       "executable": false,
@@ -2751,7 +2751,7 @@
     },
     "employees/specialized/wordpress-master/diagnostics/diagnostic-core-integrity/SKILL.md": {
       "executable": false,
-      "sha256": "b470d56a9db826c7397ccbf63f91cf6cd779364f68016035982e2a7b5145d331"
+      "sha256": "7ee1638f246b4055c08925fc2e20ff9fa1cb8952fc9980e2b1086ae808aa4c9c"
     },
     "employees/specialized/wordpress-master/diagnostics/diagnostic-cron-analysis/SKILL.md": {
       "executable": false,
@@ -2787,7 +2787,7 @@
     },
     "employees/specialized/wordpress-master/diagnostics/diagnostic-user-audit/SKILL.md": {
       "executable": false,
-      "sha256": "1ea6d843b1994b98d56f0de8a4a83d9d466e728b6abf2a5a3d7d742bd9fdb236"
+      "sha256": "ddb37bed7db322bf50ebc56006c1d6ed71b3cef4cef6e93905b0736646d421f0"
     },
     "employees/specialized/wordpress-master/diagnostics/diagnostic-version-audit/SKILL.md": {
       "executable": false,
@@ -4483,7 +4483,7 @@
     },
     "examples/capabilities/G42/plan.json": {
       "executable": false,
-      "sha256": "23621a8db6a578ff011e39f639e79651a35870269b52373aef1fb8445df4c272"
+      "sha256": "4293dde15dbe4a6221d8baae7d4cd793cdcb5fedd1ba0b1657017113a98232e8"
     },
     "examples/escalation/README.md": {
       "executable": false,
@@ -4607,11 +4607,11 @@
     },
     "install.sh": {
       "executable": true,
-      "sha256": "f08a53a44c2673379d56ce4a375d15d1585f797e3124bfe3f368f9fef102a34d"
+      "sha256": "7077c35dc217f19056c80cd3c2b01ca9b00f32221a52373067a10b919c559140"
     },
     "native/skills.json": {
       "executable": false,
-      "sha256": "a196bca0edb26f9f4c1ad9bcb4ace65ee5acbe7c646b3b9fa8aa51830242f71d"
+      "sha256": "fca18ee220bc0868b72b72a5017acbb958bd802f3aea710040b569ab62781afc"
     },
     "plugin.json": {
       "executable": false,
@@ -4619,7 +4619,7 @@
     },
     "pyproject.toml": {
       "executable": false,
-      "sha256": "6859296411dbc4efeed53c14e488e251d6fe4f2f7cb64cfad2d4583c562ed793"
+      "sha256": "7ab3c3f7cd6a5eeb6bb3e26f3156478f38766bdb2b2cc1bb7a81c7fb24c7313c"
     },
     "requirements-dev.txt": {
       "executable": false,
@@ -4683,7 +4683,7 @@
     },
     "skills/ai-automation-engineer/resources/canonical/employees/engineering/ai-automation-engineer/SKILL.md": {
       "executable": false,
-      "sha256": "6243dd20248b9bfa79eab6e6d35cbf16e40b2966d2e3b2951196b88844ed458f"
+      "sha256": "a885e271425331dc5992a2b1fc2de0b8eefadc0b6ba80ff975ada17942fd5412"
     },
     "skills/ai-automation-engineer/resources/canonical/employees/engineering/ai-automation-engineer/capability.contract.json": {
       "executable": false,
@@ -4723,7 +4723,7 @@
     },
     "skills/ai-ml-engineer/resources/canonical/employees/engineering/ai-ml-engineer/SKILL.md": {
       "executable": false,
-      "sha256": "44788b0818aab1f4acc2ef891ba0d4498ab2cc7ea68bbbff0c98282d455fea1b"
+      "sha256": "e20e47e212629c54336e39aaecf46de03b6375ca01d361059214080e1196ff89"
     },
     "skills/ai-ml-engineer/resources/canonical/employees/engineering/ai-ml-engineer/capability.contract.json": {
       "executable": false,
@@ -4991,7 +4991,7 @@
     },
     "skills/cfo/resources/canonical/employees/leadership/cfo/filings-and-market-data-tooling.md": {
       "executable": false,
-      "sha256": "324bfc14ee1c4b7f0f46438bd6a4e1dbdf841b702439ebc9bc6349c9e6a88880"
+      "sha256": "1365aae4215692888cc2d7caa3d867bab8ea83e60c05e3760e8c2798a2f54299"
     },
     "skills/cfo/resources/canonical/employees/leadership/cfo/financial-analysis.md": {
       "executable": false,
@@ -5027,7 +5027,7 @@
     },
     "skills/chief-of-staff/resources/canonical/chief-of-staff/SKILL.md": {
       "executable": false,
-      "sha256": "75b209462c30ae650a9bf27f15ddd46bf0edc0d459fea6d4f9eb27fcdc390a79"
+      "sha256": "4620398ded892a0d5639950567ba963448573b3faa22268decaf8dcfbe6ea32c"
     },
     "skills/chief-of-staff/resources/canonical/chief-of-staff/capability.contract.json": {
       "executable": false,
@@ -5067,7 +5067,7 @@
     },
     "skills/chief-of-staff/resources/canonical/chief-of-staff/rules.md": {
       "executable": false,
-      "sha256": "136cb26e13c7f7ff4eb75a44e4437f90cfcd474dcb9a9ba7ea627218d5dd9be0"
+      "sha256": "d20980ef8f26ca949658370f642918a380c80eeaf5d031a251336ea61919c222"
     },
     "skills/chief-of-staff/resources/canonical/control-plane/policy.json": {
       "executable": false,
@@ -5155,7 +5155,7 @@
     },
     "skills/code-reviewer/resources/canonical/employees/quality-security/code-reviewer/SKILL.md": {
       "executable": false,
-      "sha256": "548326db9b5f0214bb3878ab8cd82457ed418a241382c7c5b74c4ecf7a842695"
+      "sha256": "a3c82734471908e111d26258eec18594045d328785cb769b0db3707ca87b87f6"
     },
     "skills/code-reviewer/resources/canonical/employees/quality-security/code-reviewer/capability.contract.json": {
       "executable": false,
@@ -5615,7 +5615,7 @@
     },
     "skills/delivery-lead/resources/canonical/employees/product-project/delivery-lead/SKILL.md": {
       "executable": false,
-      "sha256": "e4420ca5cacc2d8fcd4ec6aaaea8cef0ca64f58db9c882fd30f09623818c2616"
+      "sha256": "4c21d871999e9bd4d6c70e5b1e22d3e77fd125d00b799c33e37c74d5c7c2aad2"
     },
     "skills/delivery-lead/resources/canonical/employees/product-project/delivery-lead/capability.contract.json": {
       "executable": false,
@@ -5671,11 +5671,11 @@
     },
     "skills/devops-engineer/SKILL.md": {
       "executable": false,
-      "sha256": "83d007dc63a24190d889ef4e87242166467fb606df3f7a776be7bf3529b532c8"
+      "sha256": "19e18d3d7ff537f339b25297e95ba94d45dbc835ec9dea0889a72ef5aa437e14"
     },
     "skills/devops-engineer/resources/canonical/employees/engineering/devops-engineer/SKILL.md": {
       "executable": false,
-      "sha256": "c12d90ec359f5eeb29165b1e355ce6b5d6806c0a44123545a397931bc196165b"
+      "sha256": "7f37ae14ea126d634d08b377e4c090de51614629a77eb422bcb3eafa60cfa80b"
     },
     "skills/devops-engineer/resources/canonical/employees/engineering/devops-engineer/capability.contract.json": {
       "executable": false,
@@ -5687,7 +5687,7 @@
     },
     "skills/devops-engineer/resources/canonical/employees/engineering/devops-engineer/docker-skill.md": {
       "executable": false,
-      "sha256": "09cbb80e4346ac6f61160c5f74d7c9d724a59bf6a8650cc0f0aa8d1d262fc8d6"
+      "sha256": "56c4bea80a6e47c72ae2f5b1d50a8016c9fe28504408f413863fb27ac3c812d0"
     },
     "skills/devops-engineer/resources/canonical/employees/engineering/devops-engineer/ftp-git-deploy.md": {
       "executable": false,
@@ -5699,15 +5699,15 @@
     },
     "skills/devops-engineer/resources/canonical/employees/engineering/devops-engineer/gitops-skill.md": {
       "executable": false,
-      "sha256": "42f4142d6662837d3aae6d43e8ba6dd94b1fffd1afb3ffa7371a1699408e4f42"
+      "sha256": "d2aa552ade9205d8c5a8a7f375b73fd37bdb18982466f45df6686ff7966eb5ca"
     },
     "skills/devops-engineer/resources/canonical/employees/engineering/devops-engineer/headless-fleet-runbook.md": {
       "executable": false,
-      "sha256": "685269d844a00d457454b51ba39158ab29ac1103be8963f6ec348677650ba1dc"
+      "sha256": "919ad621cfa80d503530d50b216935ef3fe10a1e80c865d3053261b286b7c92c"
     },
     "skills/devops-engineer/resources/canonical/employees/engineering/devops-engineer/learnings.md": {
       "executable": false,
-      "sha256": "3dab20d9c238656bc674febc2f4338c709b22b204836894a6185e69eabd48f20"
+      "sha256": "cf2e9fd6335afd0fd2d56e2de568809ec2a65896d20052f5c004fca5d227a7d1"
     },
     "skills/devops-engineer/resources/canonical/employees/engineering/devops-engineer/local-deploy-preflight.md": {
       "executable": false,
@@ -5723,11 +5723,11 @@
     },
     "skills/devops-engineer/resources/canonical/employees/engineering/devops-engineer/plugin.json": {
       "executable": false,
-      "sha256": "ddef6a3ba256952ace989f2f51636b0daa9528ab5c208338812ef9d6792799e6"
+      "sha256": "09b4a9c54ce292bccc86525a47a16d1def60e202a60125fde4c7a0d41141a4a2"
     },
     "skills/devops-engineer/resources/canonical/employees/engineering/devops-engineer/rules.md": {
       "executable": false,
-      "sha256": "636088de1e4cbd1f358df54f7965d8d01eb230049f2c50a69dc0bbd18c47580c"
+      "sha256": "47b7c186482784131ee1482c4418b77c1e8d36cb50edfc042c2c2c4e8e03d3a7"
     },
     "skills/devops-engineer/resources/canonical/employees/engineering/devops-engineer/terraform-skill.md": {
       "executable": false,
@@ -5811,7 +5811,7 @@
     },
     "skills/engineering-design/resources/canonical/employees/specialized/engineering-design/SKILL.md": {
       "executable": false,
-      "sha256": "bda9ee909d1767c4b49b70bb89c417e1cd375de21bced9b0d948e057cfc32cf3"
+      "sha256": "2c196e4dfe96bc4e45a272ec376b7ad57b0a7cd4f227791ee43881b8e37bcd51"
     },
     "skills/engineering-design/resources/canonical/employees/specialized/engineering-design/capability.contract.json": {
       "executable": false,
@@ -5823,7 +5823,7 @@
     },
     "skills/engineering-design/resources/canonical/employees/specialized/engineering-design/freecad-mcp-operator.md": {
       "executable": false,
-      "sha256": "307e772d26128970c8148dc816865739766e0b87908b063c74b82fa11b91b12b"
+      "sha256": "026462921613a0fbb40c9e9f84110306b8cd97ed6d1803637343e68505f21c0b"
     },
     "skills/engineering-design/resources/canonical/employees/specialized/engineering-design/kicad-pcb-note.md": {
       "executable": false,
@@ -5839,7 +5839,7 @@
     },
     "skills/engineering-design/resources/canonical/employees/specialized/engineering-design/rules.md": {
       "executable": false,
-      "sha256": "40b3fb61496536a009060095aef74682ffc18167c440dc987f144104feddeec0"
+      "sha256": "6de94f51afa58b21ad55d5ad4c8112068fb9518c6e2e48fc6c02ba40737e85c7"
     },
     "skills/engineering-design/scripts/run.py": {
       "executable": true,
@@ -5979,7 +5979,7 @@
     },
     "skills/full-stack-developer/resources/canonical/employees/engineering/full-stack-developer/SKILL.md": {
       "executable": false,
-      "sha256": "004fad65f90cbecddae73986721426b9a9b38d7534fdf8c9f880e161da9b38bf"
+      "sha256": "6b17abbea89e3b83693ec58f8cfda40b895db4d734bb81327c921c2df017b5a7"
     },
     "skills/full-stack-developer/resources/canonical/employees/engineering/full-stack-developer/api-design.md": {
       "executable": false,
@@ -6035,7 +6035,7 @@
     },
     "skills/game-designer/resources/canonical/employees/specialized/game-designer/SKILL.md": {
       "executable": false,
-      "sha256": "b1e9a3c7586b5e8c00c5b04876b84f4e816ca416ffe8c426a84faefb9d8e6f6b"
+      "sha256": "b681ad06012a03f25096806950f0188a03d749ccf9928a43bc07cee95121d05b"
     },
     "skills/game-designer/resources/canonical/employees/specialized/game-designer/capability.contract.json": {
       "executable": false,
@@ -6063,7 +6063,7 @@
     },
     "skills/game-designer/resources/canonical/employees/specialized/game-designer/orchestration-prompt-to-playable.md": {
       "executable": false,
-      "sha256": "0cb9a715ea7cde7da8fe57c7ea3e6a13cba4453f92da070eec3e1f16c6f9f841"
+      "sha256": "5379ae2cc2dd042cf2093598a904d7620acc18f54f50b0bbd525e01111ccb922"
     },
     "skills/game-designer/resources/canonical/employees/specialized/game-designer/plugin.json": {
       "executable": false,
@@ -6247,7 +6247,7 @@
     },
     "skills/llm-agent-designer/resources/canonical/employees/engineering/llm-agent-designer/SKILL.md": {
       "executable": false,
-      "sha256": "1bf9b73c7f75b5da49122c6b7533e3cde0b6e22b40c6831b64bc84ae2a58a75e"
+      "sha256": "bfb2318924f1454294a5804aeceb2804c5748bd2bd68934c34c6c72b399d2876"
     },
     "skills/llm-agent-designer/resources/canonical/employees/engineering/llm-agent-designer/agent-engineering-craft.md": {
       "executable": false,
@@ -6283,7 +6283,7 @@
     },
     "skills/llm-agent-designer/resources/canonical/employees/engineering/llm-agent-designer/rules.md": {
       "executable": false,
-      "sha256": "dc79fc69429e2e9aed410411b02bb273fc7764a8a0aa4384e64c4a3fc5201103"
+      "sha256": "30d0b6542b2c1b035b6388486a4aa1b1836fed7ee92e06a72a385204f5b3e97d"
     },
     "skills/llm-agent-designer/resources/canonical/employees/engineering/llm-agent-designer/superpowers-methodology.md": {
       "executable": false,
@@ -6335,7 +6335,7 @@
     },
     "skills/mobile-developer/resources/canonical/employees/engineering/mobile-developer/SKILL.md": {
       "executable": false,
-      "sha256": "ad0c216fbea0d5dff4543618669d82031b6b3726aed308bcdd89f94f92d0aed2"
+      "sha256": "49fda057dafee2dc0c744f4275dad547a66bf9aa3b4fc6f6bdb2358c647c7572"
     },
     "skills/mobile-developer/resources/canonical/employees/engineering/mobile-developer/android-architecture.md": {
       "executable": false,
@@ -6351,11 +6351,11 @@
     },
     "skills/mobile-developer/resources/canonical/employees/engineering/mobile-developer/mobile-mcp-operator.md": {
       "executable": false,
-      "sha256": "50cfe385522c209c257cd365866b42ae38fd762f2caf922e59eae2a7d9b3a8ac"
+      "sha256": "3366f4798f631e9c759602517ddf47ba95564674eeb4ab3dd47f77ce46e30fb2"
     },
     "skills/mobile-developer/resources/canonical/employees/engineering/mobile-developer/mobile-test-and-release.md": {
       "executable": false,
-      "sha256": "ec0f28327aa4d58077956f29ed93e252d2c6763ad5913478e9f200e206554ed1"
+      "sha256": "597a1e19bec8253a710795c2e301bc7d2655ce707189fff36d58b5f0004b9518"
     },
     "skills/mobile-developer/resources/canonical/employees/engineering/mobile-developer/native-mobile-language-packs.md": {
       "executable": false,
@@ -6707,7 +6707,7 @@
     },
     "skills/proposal-writer/resources/canonical/employees/sales-outreach/proposal-writer/SKILL.md": {
       "executable": false,
-      "sha256": "62cc995b54fbc7528435de6c10daa402ac88dacef457d9c109f3866f4194e621"
+      "sha256": "d49d3d0686def773af873ddc20e8eb83d273bb90fcac1779b5dc6eea44653e7f"
     },
     "skills/proposal-writer/resources/canonical/employees/sales-outreach/proposal-writer/capability.contract.json": {
       "executable": false,
@@ -6739,7 +6739,7 @@
     },
     "skills/qa-engineer/resources/canonical/employees/quality-security/qa-engineer/SKILL.md": {
       "executable": false,
-      "sha256": "289b323d8b42ac07925dbea1bd1259042470cb6a8c972b9000f731c9aaadb196"
+      "sha256": "6450d925e0c86cd181af140105e67fa6b034ad8b9d7bf4b6ca757291b0aeabec"
     },
     "skills/qa-engineer/resources/canonical/employees/quality-security/qa-engineer/api-fuzz-mutation-integration.md": {
       "executable": false,
@@ -6879,7 +6879,7 @@
     },
     "skills/seo-aso-specialist/resources/canonical/employees/marketing/seo-aso-specialist/SKILL.md": {
       "executable": false,
-      "sha256": "8a0c0d1c0c7769ebdd663fdd7db7f8f1528ce07e0554f73d0e29d5692d125bf6"
+      "sha256": "9266aabea6ce1be023356e5b57d2bbc30525adc8d8dd98ead4bcc89343f0f141"
     },
     "skills/seo-aso-specialist/resources/canonical/employees/marketing/seo-aso-specialist/aeo-ai-visibility.md": {
       "executable": false,
@@ -7255,7 +7255,7 @@
     },
     "skills/unity-developer/resources/canonical/employees/engineering/unity-developer/SKILL.md": {
       "executable": false,
-      "sha256": "0687c59594085cd61d5e3cea52c45c6c3be74e23776088cae42303202ef582d6"
+      "sha256": "949e794c12a943de2416faa4dd08fdad2f6154ac9dfe9ca0064001e42d1b5274"
     },
     "skills/unity-developer/resources/canonical/employees/engineering/unity-developer/capability.contract.json": {
       "executable": false,
@@ -7275,7 +7275,7 @@
     },
     "skills/unity-developer/resources/canonical/employees/engineering/unity-developer/learnings.md": {
       "executable": false,
-      "sha256": "95abcd8a2727b5d6200447e80a83560973c4593ae65feef79cae147f06d71fdf"
+      "sha256": "34ef5859a3e1fa7a09f2590c9484cfc85c0552ba752bf8ede910aa7681208a91"
     },
     "skills/unity-developer/resources/canonical/employees/engineering/unity-developer/plugin.json": {
       "executable": false,
@@ -7291,7 +7291,7 @@
     },
     "skills/unity-developer/resources/canonical/employees/engineering/unity-developer/unity-mcp-operator.md": {
       "executable": false,
-      "sha256": "0673e23c9e52efb786d11c92be20b8e45fa41b440fad5b557b772b8f6f99557e"
+      "sha256": "89469edd13739ff15a0dddbda3a06a3382bccb7631dab86e44fbc11f564463f2"
     },
     "skills/unity-developer/resources/canonical/employees/engineering/unity-developer/unity-performance-mobile.md": {
       "executable": false,
@@ -7319,11 +7319,11 @@
     },
     "skills/unreal-developer/resources/canonical/employees/engineering/unreal-developer/CLAUDE_template.md": {
       "executable": false,
-      "sha256": "8412d987dad7764fed74ba51886848289e2606f0baca0db6cf209aed0ae86fda"
+      "sha256": "8327b5dcb04b817498f6a78f9d3571f1d06b41b045bd284494e9f0cea8f48d76"
     },
     "skills/unreal-developer/resources/canonical/employees/engineering/unreal-developer/SKILL.md": {
       "executable": false,
-      "sha256": "efe34e7995ccadb19eeb6a2101d4ad9f92820d4778913a17a92cbb9074b300f2"
+      "sha256": "e58e04d999fbef02376606a16302dbb81b30c33906eb1493de95c7a9f21a8367"
     },
     "skills/unreal-developer/resources/canonical/employees/engineering/unreal-developer/capability.contract.json": {
       "executable": false,
@@ -7339,7 +7339,7 @@
     },
     "skills/unreal-developer/resources/canonical/employees/engineering/unreal-developer/learnings.md": {
       "executable": false,
-      "sha256": "1e25b5f7a17d893efccfe2348f7d1dc518c5a983bd844cb763f63444772777f7"
+      "sha256": "bb400a054d171e8788c1e529cae76c49ff9395db5a53a77b518d805490624959"
     },
     "skills/unreal-developer/resources/canonical/employees/engineering/unreal-developer/plugin.json": {
       "executable": false,
@@ -7351,7 +7351,7 @@
     },
     "skills/unreal-developer/resources/canonical/employees/engineering/unreal-developer/unreal-cpp-quality-and-build.md": {
       "executable": false,
-      "sha256": "6a6bdead30926f40b0c63cb69edb5aed9cd974c6b8d3077e8c4d9899bf05fbc7"
+      "sha256": "a37ac827df96cddfa827633734008ad2e5bc45043dec03e2b10f4c287469369a"
     },
     "skills/unreal-developer/resources/canonical/employees/engineering/unreal-developer/unreal-gameplay-patterns.md": {
       "executable": false,
@@ -7359,11 +7359,11 @@
     },
     "skills/unreal-developer/resources/canonical/employees/engineering/unreal-developer/unreal-genai-asset-gen.md": {
       "executable": false,
-      "sha256": "deb8417d1c6e558eb8da6e62c16f0e6dfe5de8365b4e6af76c7b48796f79517d"
+      "sha256": "2d6fa9a80709da863ac02f94ea93bd25e570cc228d20cd1e500bda7bd7aa2710"
     },
     "skills/unreal-developer/resources/canonical/employees/engineering/unreal-developer/unreal-mcp-operator.md": {
       "executable": false,
-      "sha256": "49a45fde51e8c77cc564a11af039887d640588b5059456cfd9c7578ffb4ff0c7"
+      "sha256": "0180e1d593eb0593d1eadb59bcbf47438c4e43822f6a9668444c8c13284dbdd1"
     },
     "skills/unreal-developer/resources/canonical/employees/engineering/unreal-developer/unreal-scene-architecture.md": {
       "executable": false,
@@ -7519,11 +7519,11 @@
     },
     "skills/wordpress-master/resources/canonical/employees/specialized/wordpress-master/diagnostics/build-modify/SKILL.md": {
       "executable": false,
-      "sha256": "aeab31ebceb06df392b1c4afed24aae1407e56afdacaeaea9375dc34540a0eeb"
+      "sha256": "499960feb2b1c760ab5b7c223aa1408278986fa13ea374a3deff770141d38390"
     },
     "skills/wordpress-master/resources/canonical/employees/specialized/wordpress-master/diagnostics/build-scaffold/SKILL.md": {
       "executable": false,
-      "sha256": "b4399c2aa001fb064cd095b2059f3d72a40da94b84a8214ed278a8878ef8a01b"
+      "sha256": "ff6f9f0b549e26d51169b5bb49ebd701db619ed1086ac1e3f86b6956caa8d24c"
     },
     "skills/wordpress-master/resources/canonical/employees/specialized/wordpress-master/diagnostics/build-scrape/SKILL.md": {
       "executable": false,
@@ -7567,7 +7567,7 @@
     },
     "skills/wordpress-master/resources/canonical/employees/specialized/wordpress-master/diagnostics/diagnostic-core-integrity/SKILL.md": {
       "executable": false,
-      "sha256": "b470d56a9db826c7397ccbf63f91cf6cd779364f68016035982e2a7b5145d331"
+      "sha256": "7ee1638f246b4055c08925fc2e20ff9fa1cb8952fc9980e2b1086ae808aa4c9c"
     },
     "skills/wordpress-master/resources/canonical/employees/specialized/wordpress-master/diagnostics/diagnostic-cron-analysis/SKILL.md": {
       "executable": false,
@@ -7603,7 +7603,7 @@
     },
     "skills/wordpress-master/resources/canonical/employees/specialized/wordpress-master/diagnostics/diagnostic-user-audit/SKILL.md": {
       "executable": false,
-      "sha256": "1ea6d843b1994b98d56f0de8a4a83d9d466e728b6abf2a5a3d7d742bd9fdb236"
+      "sha256": "ddb37bed7db322bf50ebc56006c1d6ed71b3cef4cef6e93905b0736646d421f0"
     },
     "skills/wordpress-master/resources/canonical/employees/specialized/wordpress-master/diagnostics/diagnostic-version-audit/SKILL.md": {
       "executable": false,
@@ -7723,7 +7723,7 @@
     },
     "source-config/.github/workflows/ci.yml": {
       "executable": false,
-      "sha256": "ac8bfc8da4cb9e88415eb629e5631a63e4e0b7f717c6b0cda2067c70bd737fee"
+      "sha256": "d6bb103e1feee8d9ae41f39aa59cbf749f1101e695789b522dcea752a79197a4"
     },
     "source-config/.github/workflows/try-router.yml": {
       "executable": false,
@@ -7736,6 +7736,10 @@
     "tests/test_closure_hardening.py": {
       "executable": false,
       "sha256": "a229d41277c202abcf83635f83f52eac8dec9bd119c2d898799ae75ad5ec2b60"
+    },
+    "tests/test_explicit_runtime_setup.py": {
+      "executable": false,
+      "sha256": "3d2913d599d556994e7ea1becf364aeb9be158755bcfccbabf9096b8925fe12d"
     },
     "tests/test_fixture_runner.py": {
       "executable": false,
@@ -7883,7 +7887,7 @@
     },
     "tests/test_g42_capability.py": {
       "executable": false,
-      "sha256": "3687080f195565ea7ab3616c0c46ab9e8e569ba5e80c97e993e688912bc8e125"
+      "sha256": "190e8e35d660f02e0679d87505617b391ad215c9ded8a20fc9495463d278232d"
     },
     "tests/test_intake_features.py": {
       "executable": false,
@@ -7911,7 +7915,7 @@
     }
   },
   "host": "antigravity",
-  "native_source": "2f5bbfe738eb8c50d75c62659a0dbf8b44ee931a",
+  "native_source": "fc1555259dbeb7e5a8de79e59bb46f682dd11292",
   "new_employee_capabilities": 0,
   "omitted_other_provider_files": [
     ".claude-plugin/plugin.json",
@@ -7931,5 +7935,5 @@
     ".github/workflows/try-router.yml": "source-config/.github/workflows/try-router.yml"
   },
   "specialists": 61,
-  "version": "0.65.0"
+  "version": "0.66.0"
 }
