@@ -28,6 +28,12 @@ jobs:
           ref: 129781961be54cc2f12d6bafe80e81d6a1cd8d02
           path: reviewed-packager
           persist-credentials: false
+      - uses: actions/checkout@11d5960a326750d5838078e36cf38b85af677262
+        with:
+          repository: Shaisolaris/solaris-dev-shop
+          ref: ab0061f2b67abecbcb2921371da668a18dc7d64a
+          path: security-upstream
+          persist-credentials: false
       - uses: actions/setup-python@a26af69be951a213d495a4c3e4e4022e16d87065
         with:
           python-version: '3.12'
@@ -48,7 +54,9 @@ jobs:
       - name: Exact native harness profiles, refusal controls and installed callers
         run: |
           git -C distribution fetch --no-tags --depth=1 origin fc1555259dbeb7e5a8de79e59bb46f682dd11292
-          python -B distribution/tools/verify_harness_profiles.py --self-test
+          git -C distribution fetch --no-tags --depth=1 origin e02d8002d195f929e30fb5063bd04d4ed27190d6
+          python -B distribution/tools/verify_openclaw_profile.py --source security-upstream --packager reviewed-packager --self-test
+          python -B distribution/tools/verify_harness_profiles.py --openclaw-source security-upstream --packager reviewed-packager --self-test
           node --check distribution/harnesses/deepseek/native/deepseek.mjs
           node --check distribution/harnesses/kilo/native/kilo.mjs
       - name: Composite distribution notices and real provenance cross-checks

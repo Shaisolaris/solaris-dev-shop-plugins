@@ -22,10 +22,21 @@ def verify(package, host):
     original_notice = (ROOT / 'plugin/NOTICE.md').read_bytes()
     if digest(package / CHECKER) != baseline['canonical_files'][CHECKER]:
         raise ValueError('Unreviewed or no-op provenance checker')
-    if (package / 'SOURCE-NOTICE.md').read_bytes() != original_notice:
-        raise ValueError('Original canonical notice was not retained')
-    if not (package / 'NOTICE.md').read_bytes().startswith(original_notice):
-        raise ValueError('Canonical credit was removed from the distribution notice')
+    shared = host == 'openclaw'
+    if shared:
+        record = json.loads((package / 'HARNESS-BUILD.json').read_text())
+        provenance = json.loads((package / 'SOLARIS-BUILD-SOURCE.json').read_text())
+        if (record.get('layout') != 'shared-canonical' or record.get('canonical_notice') != 'NOTICE.md'
+                or record.get('redundant_resource_aliases') != []
+                or (package / 'NOTICE.md').read_bytes() != original_notice
+                or provenance['canonical_files'].get('NOTICE.md') != hashlib.sha256(original_notice).hexdigest()
+                or 'SOURCE-NOTICE.md' in provenance['canonical_files']):
+            raise ValueError('Shared layout did not retain the original canonical notice')
+    else:
+        if (package / 'SOURCE-NOTICE.md').read_bytes() != original_notice:
+            raise ValueError('Original canonical notice was not retained')
+        if not (package / 'NOTICE.md').read_bytes().startswith(original_notice):
+            raise ValueError('Canonical credit was removed from the distribution notice')
     copies = 0
     for path in package.glob('skills/*/resources/canonical/**/LICENSE*'):
         origin = path.relative_to(package).parts[4:]
@@ -33,7 +44,7 @@ def verify(package, host):
         if path.is_symlink() or digest(path) != baseline['canonical_files'].get(key):
             raise ValueError('Resource license differs from its reviewed canonical origin')
         copies += 1
-    if copies != 1:
+    if copies != (0 if shared else 1):
         raise ValueError('Missing or unexpected resource license copies')
     result = subprocess.run([sys.executable, '-B', str(package / CHECKER), 'check', str(package),
                              '--exclude', 'examples/capabilities/G38/fixtures', '--json'],
@@ -94,6 +105,37 @@ def main():
             reject('no-op checker with edited supplied manifest')
             checker.write_bytes(content); provenance.write_bytes(saved)
             verify(trial, 'copilot')
+        with tempfile.TemporaryDirectory(prefix='solaris-shared-notice-controls-') as directory:
+            trial = Path(directory) / 'package'
+            shutil.copytree(ROOT / 'harnesses/openclaw', trial)
+            verify(trial, 'openclaw')
+            def reject_shared(label):
+                try:
+                    verify(trial, 'openclaw')
+                except (ValueError, OSError):
+                    rejected.append(label)
+                else:
+                    raise ValueError('False acceptance of ' + label)
+            notice = trial / 'NOTICE.md'; original = notice.read_bytes()
+            notice.write_bytes(b'Synthetic control: credits removed\n')
+            reject_shared('shared canonical credits removed')
+            provenance = trial / 'SOLARIS-BUILD-SOURCE.json'; saved = provenance.read_bytes()
+            metadata = json.loads(saved); metadata['canonical_files']['NOTICE.md'] = digest(notice)
+            provenance.write_text(json.dumps(metadata))
+            reject_shared('shared credits removed with edited supplied manifest')
+            notice.write_bytes(original); provenance.write_bytes(saved)
+            alias = trial / 'skills/chief-of-staff/resources/canonical/LICENSE'
+            alias.parent.mkdir(parents=True)
+            alias.write_bytes((trial / 'LICENSE').read_bytes())
+            reject_shared('unexpected shared resource alias')
+            alias.unlink()
+            checker = trial / CHECKER; original = checker.read_bytes()
+            checker.write_text("print('synthetic no-op')\n")
+            metadata = json.loads(saved); metadata['canonical_files'][CHECKER] = digest(checker)
+            provenance.write_text(json.dumps(metadata))
+            reject_shared('shared no-op checker with edited supplied manifest')
+            checker.write_bytes(original); provenance.write_bytes(saved)
+            verify(trial, 'openclaw')
     print(json.dumps({'reports': reports, 'rejected_controls': rejected}, indent=2))
 
 

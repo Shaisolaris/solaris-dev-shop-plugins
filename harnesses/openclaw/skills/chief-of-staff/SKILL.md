@@ -6,8 +6,8 @@ description: Permanent Solaris control-plane agent. Fires first on multi-domain 
   or provider plugin.
 ---
 
-Load the [Solaris workflow](resources/canonical/chief-of-staff/SKILL.md) and its mirrored companion resources when this role applies. They retain the pinned canonical source bytes.
+Load the [canonical workflow](../../chief-of-staff/SKILL.md) and its companion resources. Resolve links relative to this SKILL.md; canonical resources are shared within the complete plugin.
 
-Use the local [routing entrypoint](scripts/run.py) for canonical coordinator commands, such as `python <resolved-entrypoint> intake "review this code" --json`. Resolve the entrypoint relative to this skill file; it locates the pinned shared engine and supplies its correct working directory.
+Use the [guarded routing entrypoint](scripts/run.py), for example `python <resolved-entrypoint> intake "review this code" --json`. It selects the canonical working directory and returns an assignment without performing specialist work.
 
-The shared canonical runtime remains at the plugin root; the contained resources are documentation mirrors, not a second runtime. Host tools, permissions, approvals and documented runtime requirements still apply. This layout adds no grants, background jobs or lifecycle hooks.
+The entrypoint checks helpers against the bundled source manifest; it is not a filesystem or network sandbox. Host permissions and documented runtime prerequisites apply. Loading the workflow does not authorize installation, remote access, credential changes or scheduled work.

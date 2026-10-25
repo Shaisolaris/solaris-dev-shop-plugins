@@ -82,6 +82,8 @@ def controls(expected):
 def main():
     parser = argparse.ArgumentParser(description=__doc__)
     parser.add_argument('--self-test', action='store_true')
+    parser.add_argument('--openclaw-source', type=Path, required=True)
+    parser.add_argument('--packager', type=Path, required=True)
     args = parser.parse_args()
     index = json.loads((ROOT / 'copilot/plugin/native/skills.json').read_text())
     kimi = json.loads((ROOT / 'kimi.plugin.json').read_text())
@@ -100,19 +102,28 @@ def main():
     with tempfile.TemporaryDirectory(prefix='solaris-harness-rebuild-') as temp:
         for host in ['deepseek', 'kilo', 'openclaw', 'antigravity']:
             expected = Path(temp) / host
-            builder.build(ROOT, expected, host)
+            if host == 'openclaw':
+                spec = importlib.util.spec_from_file_location('shared_openclaw_builder', ROOT / 'tools/build_openclaw_profile.py')
+                host_builder = importlib.util.module_from_spec(spec)
+                spec.loader.exec_module(host_builder)
+                host_builder.build(args.openclaw_source.resolve(), args.packager.resolve(), ROOT, expected)
+                expected_core = host_builder.CORE
+            else:
+                builder.build(ROOT, expected, host)
+                expected_core = builder.CORE_COMMIT
             candidate = ROOT / 'harnesses' / host
             count = compare(expected, candidate)
             entries = sorted(candidate.glob('skills/*/scripts/run.py'))
             assert len(entries) == 62
             for entry in entries:
                 result = json.loads(subprocess.check_output([sys.executable, '-B', str(entry), '--context'], cwd=temp, text=True))
-                assert result['source_commit'] == builder.CORE_COMMIT
+                assert result['source_commit'] == expected_core
             caller = subprocess.check_output([sys.executable, '-B', str(candidate / 'skills/chief-of-staff/scripts/run.py'),
                                               'intake', 'review this code', '--json'], cwd=temp, text=True)
             assert json.loads(caller)['assignment']['primary_capability'] == 'solaris.code-reviewer'
             report = {'host': host, 'exact_files_and_modes': count, 'canonical_files': 1200,
-                      'native_contexts': len(entries), 'actual_assignment': 'solaris.code-reviewer'}
+                      'native_contexts': len(entries), 'actual_assignment': 'solaris.code-reviewer',
+                      'core_source': expected_core}
             if host == 'deepseek' and args.self_test:
                 report['rejected_controls'] = controls(expected)
             reports.append(report)
