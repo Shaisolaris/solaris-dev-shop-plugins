@@ -1,35 +1,35 @@
 {
-  "name": "solaris-dev-shop-openclaw",
-  "version": "0.66.0",
-  "type": "module",
-  "license": "MIT",
-  "description": "61 specialist workflows and a chief-of-staff coordinator with local delivery, recovery and evidence tools.",
   "author": {
-    "name": "Solaris Technologies",
     "email": "shehryar@solaristek.com",
+    "name": "Solaris Technologies",
     "url": "https://solaristek.com"
   },
-  "repository": {
-    "type": "git",
-    "url": "https://github.com/Shaisolaris/solaris-dev-shop-plugins.git",
-    "directory": "harnesses/openclaw"
-  },
+  "description": "61 specialist workflows and a Chief of Staff with local recovery and evidence tools.",
   "homepage": "https://github.com/Shaisolaris/solaris-dev-shop-plugins",
   "keywords": [
     "solaris-dev-shop",
     "agent-skills",
     "openclaw-plugin"
   ],
+  "license": "MIT",
   "main": "./native/openclaw.mjs",
+  "name": "solaris-dev-shop-openclaw",
   "openclaw": {
-    "extensions": [
-      "./native/openclaw.mjs"
-    ],
+    "build": {
+      "openclawVersion": "2026.10.5"
+    },
     "compat": {
       "pluginApi": ">=2026.10.5 <2027"
     },
-    "build": {
-      "openclawVersion": "2026.10.5"
-    }
-  }
+    "extensions": [
+      "./native/openclaw.mjs"
+    ]
+  },
+  "repository": {
+    "directory": "harnesses/openclaw",
+    "type": "git",
+    "url": "https://github.com/Shaisolaris/solaris-dev-shop-plugins.git"
+  },
+  "type": "module",
+  "version": "0.67.0"
 }
