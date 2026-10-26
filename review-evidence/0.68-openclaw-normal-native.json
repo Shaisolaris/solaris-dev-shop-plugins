@@ -1,0 +1,196 @@
+{
+  "schema": 1,
+  "candidate": "8d619c9b6c803e6cbc5bc0de0ce2df12ea2f2c28",
+  "frozenProfileSource": "2c11999a1a13912fbb694228b176bc4ebb5f165e",
+  "core": "c7c9b395795f488dd3c48122ff916970438b67e6",
+  "helperSHA256": "1c8e07896ea97a4ca5658c8693391fbeba6c628055087f9a8c4168ccc2b41b23",
+  "provenance": "Root Codex executed independently scope-approved local native test and read authenticated hosted logs. Exact result objects are Root-brokered; public GitHub metadata verifies head/steps. Reviewer did not execute code.",
+  "localOS": "macOS arm64",
+  "hostedOS": "GitHub-hosted ubuntu-latest",
+  "localResult": {
+    "host": "OpenClaw2026.10.5",
+    "version": "0.68.0",
+    "sourceCore": "c7c9b395795f488dd3c48122ff916970438b67e6",
+    "installedFilesAndModes": 1335,
+    "actualModelVisibleWorkflows": 62,
+    "normalSourcePromptAnsweredOnce": true,
+    "forceUsed": false,
+    "capabilityOverrideUsed": false,
+    "normalPinnedCapabilityConsentAnsweredOnce": true,
+    "unauthorizedDeclarationRejections": 4,
+    "acceptedDeclaredCLI": [
+      "solaris"
+    ],
+    "acceptedDeclaredSkills": [
+      "./skills"
+    ],
+    "conversationAccess": false,
+    "shellLikeInputRemainedData": true,
+    "oversizeRefused": true,
+    "legitimateUseAfterRefusal": true,
+    "modelCommandsIssued": 0,
+    "modelUsageMetered": false,
+    "ownerProfileAccess": false,
+    "marketplaceAdmission": false,
+    "pass": true
+  },
+  "hostedResult": {
+    "host": "OpenClaw2026.10.5",
+    "version": "0.68.0",
+    "sourceCore": "c7c9b395795f488dd3c48122ff916970438b67e6",
+    "installedFilesAndModes": 1335,
+    "actualModelVisibleWorkflows": 62,
+    "normalSourcePromptAnsweredOnce": true,
+    "forceUsed": false,
+    "capabilityOverrideUsed": false,
+    "normalPinnedCapabilityConsentAnsweredOnce": true,
+    "unauthorizedDeclarationRejections": 4,
+    "acceptedDeclaredCLI": [
+      "solaris"
+    ],
+    "acceptedDeclaredSkills": [
+      "./skills"
+    ],
+    "conversationAccess": false,
+    "shellLikeInputRemainedData": true,
+    "oversizeRefused": true,
+    "legitimateUseAfterRefusal": true,
+    "modelCommandsIssued": 0,
+    "modelUsageMetered": false,
+    "ownerProfileAccess": false,
+    "marketplaceAdmission": false,
+    "pass": true
+  },
+  "publicCI": {
+    "conclusion": "success",
+    "headSha": "8d619c9b6c803e6cbc5bc0de0ce2df12ea2f2c28",
+    "jobs": [
+      {
+        "completedAt": "2026-10-26T09:32:58Z",
+        "conclusion": "success",
+        "databaseId": 121495876175,
+        "name": "native-source-and-runtime",
+        "startedAt": "2026-10-26T09:31:20Z",
+        "status": "completed",
+        "steps": [
+          {
+            "completedAt": "2026-10-26T09:31:21Z",
+            "conclusion": "success",
+            "name": "Set up job",
+            "number": 1,
+            "startedAt": "2026-10-26T09:31:20Z",
+            "status": "completed"
+          },
+          {
+            "completedAt": "2026-10-26T09:31:22Z",
+            "conclusion": "success",
+            "name": "Run actions/checkout@11d5960a326750d5838078e36cf38b85af677262",
+            "number": 2,
+            "startedAt": "2026-10-26T09:31:21Z",
+            "status": "completed"
+          },
+          {
+            "completedAt": "2026-10-26T09:31:24Z",
+            "conclusion": "success",
+            "name": "Run actions/checkout@11d5960a326750d5838078e36cf38b85af677262",
+            "number": 3,
+            "startedAt": "2026-10-26T09:31:22Z",
+            "status": "completed"
+          },
+          {
+            "completedAt": "2026-10-26T09:31:25Z",
+            "conclusion": "success",
+            "name": "Run actions/setup-python@a26af69be951a213d495a4c3e4e4022e16d87065",
+            "number": 4,
+            "startedAt": "2026-10-26T09:31:24Z",
+            "status": "completed"
+          },
+          {
+            "completedAt": "2026-10-26T09:31:25Z",
+            "conclusion": "success",
+            "name": "Run actions/setup-node@249970729cb0ef3589644e2896645e5dc5ba9c38",
+            "number": 5,
+            "startedAt": "2026-10-26T09:31:25Z",
+            "status": "completed"
+          },
+          {
+            "completedAt": "2026-10-26T09:31:26Z",
+            "conclusion": "success",
+            "name": "Every native profile file and mode matches the immutable source",
+            "number": 6,
+            "startedAt": "2026-10-26T09:31:25Z",
+            "status": "completed"
+          },
+          {
+            "completedAt": "2026-10-26T09:31:36Z",
+            "conclusion": "success",
+            "name": "Real composite provenance and cross-checks",
+            "number": 7,
+            "startedAt": "2026-10-26T09:31:26Z",
+            "status": "completed"
+          },
+          {
+            "completedAt": "2026-10-26T09:32:54Z",
+            "conclusion": "success",
+            "name": "Normal isolated OpenClaw installation, all source bytes and refusal recovery",
+            "number": 8,
+            "startedAt": "2026-10-26T09:31:36Z",
+            "status": "completed"
+          },
+          {
+            "completedAt": "2026-10-26T09:32:54Z",
+            "conclusion": "success",
+            "name": "Post Run actions/setup-node@249970729cb0ef3589644e2896645e5dc5ba9c38",
+            "number": 13,
+            "startedAt": "2026-10-26T09:32:54Z",
+            "status": "completed"
+          },
+          {
+            "completedAt": "2026-10-26T09:32:54Z",
+            "conclusion": "success",
+            "name": "Post Run actions/setup-python@a26af69be951a213d495a4c3e4e4022e16d87065",
+            "number": 14,
+            "startedAt": "2026-10-26T09:32:54Z",
+            "status": "completed"
+          },
+          {
+            "completedAt": "2026-10-26T09:32:55Z",
+            "conclusion": "success",
+            "name": "Post Run actions/checkout@11d5960a326750d5838078e36cf38b85af677262",
+            "number": 15,
+            "startedAt": "2026-10-26T09:32:54Z",
+            "status": "completed"
+          },
+          {
+            "completedAt": "2026-10-26T09:32:55Z",
+            "conclusion": "success",
+            "name": "Post Run actions/checkout@11d5960a326750d5838078e36cf38b85af677262",
+            "number": 16,
+            "startedAt": "2026-10-26T09:32:55Z",
+            "status": "completed"
+          },
+          {
+            "completedAt": "2026-10-26T09:32:55Z",
+            "conclusion": "success",
+            "name": "Complete job",
+            "number": 17,
+            "startedAt": "2026-10-26T09:32:55Z",
+            "status": "completed"
+          }
+        ],
+        "url": "https://github.com/Shaisolaris/solaris-dev-shop-openclaw/actions/runs/40300192833/job/121495876175"
+      }
+    ],
+    "status": "completed"
+  },
+  "run": 40300192833,
+  "rawHostedLogSHA256": "2e99b3895b0c87dce02f64b98233fbd71cb2df9483e9e2bdb2a896d76e6af40c",
+  "localLogSHA256": "c2cfd44eef6662c8fe6fc465d7b8fb7308f65a058b48eeb67d01f792c26b458f",
+  "previousFailedRunsPreserved": [
+    40297339090,
+    40297884847
+  ],
+  "providerAdmission": false,
+  "ClawHubRequiredScanComplete": false,
+  "releaseAllowed": false
+}
