@@ -31,7 +31,7 @@
     "tools/verify_cline_host.py": "7966ff521ed00b34ee82f4a1778a70d8e1a63726994859fb54c5bf69aeaff41c",
     "tools/verify_antigravity_host.py": "e2271e79c029a46a8b301e8f6da866ed00ca9322d3f4536d9218657603892c1f",
     "tools/verify_distribution.py": "db2dfec3c5266964b76a43796d3636fc24d9acf37ba5d85f9d6119aa0876f4cf",
-    "tools/verify_copilot_layout.py": "218c89e254551d10baaa9db39aee9ed62c63ba9ff071c218155300e80de8b082",
+    "tools/verify_copilot_layout.py": "c6df557082a861b90c30a8ddd9e372f08a10532153d3145111654817f9563d2f",
     "tools/verify_distribution_metadata.py": "7e0b615ac02ab91a079b42cb4aa551d3e6ac3ca000a4a497d0e8348878243b37",
     "tools/verify_openclaw_profile.py": "fd5f130d21f78f8d49f1d99fe558c157d52eec0ad6ae5f38178721d63306aa83",
     "tools/distribution_metadata.py": "bcf9b2707ab3d0b8ac7d2caa8ff3d4fe616eff2787eb9dcae055d44bc136ed4c",
@@ -50,7 +50,7 @@
     "immutable contained input independently rebuilt from trusted source, reject changedhelper plus both forged inventories",
     "DSH/Kilo/Antigravity exact bytes/modes,62fresh contexts each,coordinator,5DSHtamper controls",
     "unchanged ClawHub payload and10existingtamper controls",
-    "Cline1979files,62fresh contexts,coordinator,5tamper controls",
+    "Cline1979files,62fresh contexts,coordinator,6tamper controls",
     "metadata/credits/licenses8tamper controls;Google strict-manifest compatibility finding remains disclosed",
     "retiredAmp full byte/mode freeze;reuse accepted unchanged CI40269203296, no claim new0.68Amp outcome"
   ],
@@ -95,5 +95,6 @@
     "No retired-provider activation"
   ],
   "publishing_hold": "ClawHub must actually clear, then final exact-revision QA and supported public installs must pass before coherent channel publication",
-  "status": "AWAITING_INDEPENDENT_SOURCE_TEST_SCOPE_REVIEW; generated candidates are not passing QA or listings"
+  "status": "AWAITING_INDEPENDENT_SOURCE_TEST_SCOPE_REVIEW; generated candidates are not passing QA or listings",
+  "qa_correction": "QA exposed staleCopilot final-layout count1979; correctedto1980 (1979contained+oneSOURCE-NOTICE), preserving exactgolden comparison and all5controls. Failure logretained. No payload or other source/runner change."
 }
