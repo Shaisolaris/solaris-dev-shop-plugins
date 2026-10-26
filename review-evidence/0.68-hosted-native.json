@@ -1,0 +1,187 @@
+{
+  "schema": 1,
+  "createdAtUTC": "2026-10-26T07:47:32.408369+00:00",
+  "candidate": "0ce43cd9a550a033a40b4e1f429a6c3c138802c2",
+  "core": "c7c9b395795f488dd3c48122ff916970438b67e6",
+  "ciURL": "https://github.com/Shaisolaris/solaris-dev-shop-plugins/actions/runs/40287003759",
+  "runId": 40287003759,
+  "jobId": 121452915949,
+  "conclusion": "success",
+  "allStepsSuccessful": true,
+  "publicStepConclusions": [
+    {
+      "name": "Set up job",
+      "conclusion": "success"
+    },
+    {
+      "name": "Run actions/checkout@11d5960a326750d5838078e36cf38b85af677262",
+      "conclusion": "success"
+    },
+    {
+      "name": "Run actions/checkout@11d5960a326750d5838078e36cf38b85af677262",
+      "conclusion": "success"
+    },
+    {
+      "name": "Run actions/checkout@11d5960a326750d5838078e36cf38b85af677262",
+      "conclusion": "success"
+    },
+    {
+      "name": "Run actions/checkout@11d5960a326750d5838078e36cf38b85af677262",
+      "conclusion": "success"
+    },
+    {
+      "name": "Run actions/setup-python@a26af69be951a213d495a4c3e4e4022e16d87065",
+      "conclusion": "success"
+    },
+    {
+      "name": "Run python -m pip install PyYAML==6.0.3 Pillow==11.3.0",
+      "conclusion": "success"
+    },
+    {
+      "name": "Exact upstream bytes, native metadata and negative controls",
+      "conclusion": "success"
+    },
+    {
+      "name": "Native OpenCode entrypoint syntax",
+      "conclusion": "success"
+    },
+    {
+      "name": "Copilot contained resources and actual entrypoint outcomes",
+      "conclusion": "success"
+    },
+    {
+      "name": "Installed source router and real recovery controls",
+      "conclusion": "success"
+    },
+    {
+      "name": "Exact native harness profiles, refusal controls and installed callers",
+      "conclusion": "success"
+    },
+    {
+      "name": "Composite distribution notices and real provenance cross-checks",
+      "conclusion": "success"
+    },
+    {
+      "name": "Run actions/setup-node@249970729cb0ef3589644e2896645e5dc5ba9c38",
+      "conclusion": "success"
+    },
+    {
+      "name": "Actual native OpenClaw CLI registration and coordinator outcome",
+      "conclusion": "success"
+    },
+    {
+      "name": "Actual Antigravity native plugin manager in a fresh hosted profile",
+      "conclusion": "success"
+    },
+    {
+      "name": "Additional native Cline profile source and refusal controls",
+      "conclusion": "success"
+    },
+    {
+      "name": "Actual Cline installation, bundled skills and worker tool outcomes",
+      "conclusion": "success"
+    },
+    {
+      "name": "Actual immutable public Cline Git installation and source binding",
+      "conclusion": "success"
+    },
+    {
+      "name": "Post Run actions/setup-node@249970729cb0ef3589644e2896645e5dc5ba9c38",
+      "conclusion": "success"
+    },
+    {
+      "name": "Post Run actions/setup-python@a26af69be951a213d495a4c3e4e4022e16d87065",
+      "conclusion": "success"
+    },
+    {
+      "name": "Post Run actions/checkout@11d5960a326750d5838078e36cf38b85af677262",
+      "conclusion": "success"
+    },
+    {
+      "name": "Post Run actions/checkout@11d5960a326750d5838078e36cf38b85af677262",
+      "conclusion": "success"
+    },
+    {
+      "name": "Post Run actions/checkout@11d5960a326750d5838078e36cf38b85af677262",
+      "conclusion": "success"
+    },
+    {
+      "name": "Post Run actions/checkout@11d5960a326750d5838078e36cf38b85af677262",
+      "conclusion": "success"
+    },
+    {
+      "name": "Complete job",
+      "conclusion": "success"
+    }
+  ],
+  "nativeOutcomes": [
+    {
+      "pass": true,
+      "host": "Antigravity CLI",
+      "version": "1.4.5",
+      "sha512": "fd30e8d256e28c4a6d0f5fddaa0f74b47c8c5a8e9fa2285cb03f85093e90eca0406f1c2fa57a0386bb820e21ed427e27c2315a01453dfda401c2223b2639ab30",
+      "nativeWorkflows": 62,
+      "installedFilesAndModes": 1977,
+      "liveContexts": 62,
+      "coordinatorAssignment": "solaris.code-reviewer",
+      "modelCalls": 0,
+      "ownerProfileAccess": false,
+      "providerApproval": false
+    },
+    {
+      "host": "Cline 3.0.73",
+      "profileFiles": 1979,
+      "byteIdenticalFiles": 1978,
+      "retainedGitMetadata": null,
+      "permittedInstallerNormalization": "Only removal of two optional host SDK dependency fields, if present",
+      "allExecutableModesMatch": true,
+      "canonicalHashes": 1201,
+      "actualCallerContexts": 62,
+      "compositeProvenance": "consistent",
+      "sdk": {
+        "host": "Cline CLI3.0.73 and real SDK0.0.95 worker+ContributionRegistry",
+        "nativeOwnedSkillBodiesDescriptionsPaths": 62,
+        "registeredNativeTools": 1,
+        "actualToolAssignment": "solaris.code-reviewer",
+        "legitimateClarificationPreserved": true,
+        "literalShellSentinelAbsent": true,
+        "optionLikeInputLiteral": true,
+        "invalidInputControls": 3,
+        "legitimateToolUsableAfterFailures": true,
+        "modelCalls": 0,
+        "pass": true
+      },
+      "pass": true
+    },
+    {
+      "host": "Cline 3.0.73",
+      "profileFiles": 1979,
+      "byteIdenticalFiles": 1978,
+      "retainedGitMetadata": "Requested exact public commit verified; sample hooks only",
+      "permittedInstallerNormalization": "Only removal of two optional host SDK dependency fields, if present",
+      "allExecutableModesMatch": true,
+      "canonicalHashes": 1201,
+      "actualCallerContexts": 62,
+      "compositeProvenance": "consistent",
+      "sdk": {
+        "host": "Cline CLI3.0.73 and real SDK0.0.95 worker+ContributionRegistry",
+        "nativeOwnedSkillBodiesDescriptionsPaths": 62,
+        "registeredNativeTools": 1,
+        "actualToolAssignment": "solaris.code-reviewer",
+        "legitimateClarificationPreserved": true,
+        "literalShellSentinelAbsent": true,
+        "optionLikeInputLiteral": true,
+        "invalidInputControls": 3,
+        "legitimateToolUsableAfterFailures": true,
+        "modelCalls": 0,
+        "pass": true
+      },
+      "pass": true
+    }
+  ],
+  "rawCILogSHA256": "51a10c034bebbbba0b432f4fc96410ba00c228c30dd568aec4b4d0880baae5ee",
+  "provenance": "Root extracted these JSON output objects from authenticated GitHub job logs. Public CI metadata independently verifies source/step conclusions; original raw log text requires authorized GitHub access. This is evidence data, not source code or an independent raw-log fetch.",
+  "publishingAllowed": false,
+  "ClawHubSemanticScanComplete": false,
+  "marketplaceAdmission": false
+}
