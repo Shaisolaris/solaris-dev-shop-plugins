@@ -2,8 +2,12 @@
 
 Chief of Staff plus 61 specialists: one complete plugin with 62 workflows. All canonical helpers, references, licenses, fixtures and tests remain in this package. Skills reference shared canonical resources within the plugin; no Copilot-only resource mirrors are needed.
 
+## Optional specialist setup
+
+Specialist operations run only when requested for a specific task using the host tools and permissions. Unity licence activation is an optional manual setup workflow: the operator controls the Unity account, licence-file upload and repository secret. Local encrypted-DNS setup is a separate optional network-administration task requiring authorization for the selected resolver and network. Neither feature starts or receives credentials on plugin installation. Review the intended destination, credential scope and configuration before activating either workflow.
+
 The native `solaris intake` command returns a bounded assignment and does not execute specialist work. Loading the plugin installs no service, container, scheduler, updater or MCP connection and grants no account access. Host tools and permission checks apply. Local Python helpers require Python 3.10+ and their documented prerequisites.
 
-Core source: ab0061f2b67abecbcb2921371da668a18dc7d64a. Reviewed native adapter and guarded entrypoints: e02d8002d195f929e30fb5063bd04d4ed27190d6. SOLARIS-BUILD-SOURCE.json binds all 1200 canonical hashes; HARNESS-BUILD.json binds generated files and modes. A prepared candidate is not ClawHub approval or a completed security scan.
+Core source: fa1a579c1440a5af665161d0a9f3b77c46c5f4b4. Reviewed native adapter and guarded entrypoints: e02d8002d195f929e30fb5063bd04d4ed27190d6. SOLARIS-BUILD-SOURCE.json binds all 1201 canonical hashes; HARNESS-BUILD.json binds generated files and modes. A prepared candidate is not ClawHub approval or a completed security scan.
 
 MIT licensed. Solaris Technologies, https://solaristek.com. Support: https://github.com/Shaisolaris/solaris-dev-shop-plugins/issues.
