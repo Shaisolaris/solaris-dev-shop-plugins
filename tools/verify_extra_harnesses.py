@@ -69,7 +69,7 @@ def main():
         expected = Path(temp) / args.host
         builder.build(ROOT, expected, args.host)
         count = compare(expected, candidate)
-        assert count == 1978
+        assert count == 1979
         index = json.loads((candidate / 'native/skills.json').read_text())
         assert len(index) == len({row['name'] for row in index}) == 62
         package = json.loads((candidate / 'package.json').read_text())
@@ -86,7 +86,7 @@ def main():
                                          cwd=temp, text=True, timeout=30)
         check = json.loads(result)
         assert check['result'] == 'consistent' and not check['findings']
-        report = {'host': args.host, 'exactFilesAndModes': count, 'canonicalFiles': 1200,
+        report = {'host': args.host, 'exactFilesAndModes': count, 'canonicalFiles': 1201,
                   'actualCallerContexts': 62, 'coordinatorAssignment': 'solaris.code-reviewer',
                   'newCoreCapabilities': 0, 'compositeProvenance': 'consistent',
                   'hostRuntimeAcceptance': 'Separate actual CLI/SDK gate, not implied by this source check'}

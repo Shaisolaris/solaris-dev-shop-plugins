@@ -80,7 +80,7 @@ def build():
     assert not OUT.exists(), 'Do not overwrite an existing candidate.'
     shutil.copytree(BASE, OUT, ignore=shutil.ignore_patterns('__pycache__', '*.pyc'))
     canonical = json.loads((BASE/'SOLARIS-BUILD-SOURCE.json').read_text())
-    assert canonical['source_commit'] == 'cd1898c6dc062a2dcf01a56b53403023c1994c8d', 'Review a new upstream revision before changing this pin.'
+    assert canonical['source_commit'] == 'c7c9b395795f488dd3c48122ff916970438b67e6', 'Review a new upstream revision before changing this pin.'
     index = json.loads((BASE/'native/skills.json').read_text())
     records = {}
     original_missing = []
@@ -145,7 +145,8 @@ def build():
                        'entrypoint_sha256':hashlib.sha256(script.read_bytes()).hexdigest()}
     ignored_examples = set([('employees/engineering/unreal-developer/unreal-genai-asset-gen.md', 'const FString& Response, const FString& Error, bool bSuccess'), ('employees/specialized/wordpress-master/diagnostics/build-scrape/SKILL.md', '[^\\"\\\\\'>{]+'), ('employees/specialized/wordpress-master/diagnostics/build-scrape/SKILL.md', '{source_url}'), ('employees/specialized/wordpress-master/diagnostics/build-scrape/SKILL.md', '{url}')])
     assert all((x['from'], x['reference']) in ignored_examples for x in original_missing), original_missing
-    report={'prototype':False,'source_native_commit':'2ca1ffa5597981a1effbbcd43aefdc82ce03d124',
+    report={'prototype':False,'layout_origin_commit':'2ca1ffa5597981a1effbbcd43aefdc82ce03d124',
+            'builder_sha256':hashlib.sha256(Path(__file__).read_bytes()).hexdigest(),
             'source_core_commit':canonical['source_commit'],'version':canonical['native_version'],
             'metadata_stage':ARGS.stage,
             'workflow_count':len(records),'new_role_capabilities':0,'mirrors':records,

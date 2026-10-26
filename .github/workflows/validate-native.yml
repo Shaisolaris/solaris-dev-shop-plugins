@@ -19,7 +19,7 @@ jobs:
       - uses: actions/checkout@11d5960a326750d5838078e36cf38b85af677262
         with:
           repository: Shaisolaris/solaris-dev-shop
-          ref: cd1898c6dc062a2dcf01a56b53403023c1994c8d
+          ref: c7c9b395795f488dd3c48122ff916970438b67e6
           path: upstream
           persist-credentials: false
       - uses: actions/checkout@11d5960a326750d5838078e36cf38b85af677262
@@ -53,7 +53,8 @@ jobs:
           python "$GITHUB_WORKSPACE/distribution/plugin/examples/capabilities/G39/drill_oracle.py"
       - name: Exact native harness profiles, refusal controls and installed callers
         run: |
-          git -C distribution fetch --no-tags --depth=1 origin fc1555259dbeb7e5a8de79e59bb46f682dd11292
+          git -C distribution fetch --no-tags --depth=1 origin e6bbd0ed63c788431003379d928be137c81693b0
+          git -C distribution fetch --no-tags --depth=1 origin 2c11999a1a13912fbb694228b176bc4ebb5f165e
           git -C distribution fetch --no-tags --depth=1 origin e02d8002d195f929e30fb5063bd04d4ed27190d6
           python -B distribution/tools/verify_openclaw_profile.py --source security-upstream --packager reviewed-packager --self-test
           python -B distribution/tools/verify_harness_profiles.py --openclaw-source security-upstream --packager reviewed-packager --self-test
@@ -85,16 +86,13 @@ jobs:
         run: python -B distribution/tools/verify_antigravity_host.py --work "$RUNNER_TEMP/solaris-antigravity-native"
       - name: Additional native Cline profile source and refusal controls
         run: python -B distribution/tools/verify_extra_harnesses.py --host cline --self-test
-      - name: Native Amp source, local callers and refusal controls
-        run: python -B distribution/tools/verify_extra_harnesses.py --host amp --self-test
-      - name: Actual Amp plugin process and registered tool callback outcomes
-        run: |
-          npm install --prefix "$RUNNER_TEMP/solaris-amp-host" --ignore-scripts --no-audit --no-fund @ampcode/cli@0.0.1792680614-g8973a3
-          python -B distribution/tools/verify_amp_host.py --cli "$RUNNER_TEMP/solaris-amp-host/node_modules/@ampcode/cli-linux-x64/amp" --candidate "$GITHUB_WORKSPACE/distribution/harnesses/amp" --work "$RUNNER_TEMP/solaris-amp-native"
+      # Amp is owner-removed from the active release. Its complete 0.66 payload
+      # stays byte/mode-identical to accepted 2c11999 (CI 40269203296).
+      # verify_harness_profiles enforces that immutable archival boundary.
       - name: Actual Cline installation, bundled skills and worker tool outcomes
         run: |
           npm install --prefix "$RUNNER_TEMP/solaris-cline-host" --ignore-scripts --no-audit --no-fund cline@3.0.73
           python -B distribution/tools/verify_cline_host.py --cli "$RUNNER_TEMP/solaris-cline-host/node_modules/.bin/cline" --modules "$RUNNER_TEMP/solaris-cline-host/node_modules" --candidate "$GITHUB_WORKSPACE/distribution/harnesses/cline" --work "$RUNNER_TEMP/solaris-cline-native"
       - name: Actual immutable public Cline Git installation and source binding
         run: |
-          python -B distribution/tools/verify_cline_host.py --cli "$RUNNER_TEMP/solaris-cline-host/node_modules/.bin/cline" --modules "$RUNNER_TEMP/solaris-cline-host/node_modules" --candidate "$GITHUB_WORKSPACE/distribution/harnesses/cline" --git-source 'https://github.com/Shaisolaris/solaris-dev-shop-cline.git@eabe433f6e493966c8ecd72cc73e0c44294152a0' --work "$RUNNER_TEMP/solaris-cline-public"
+          python -B distribution/tools/verify_cline_host.py --cli "$RUNNER_TEMP/solaris-cline-host/node_modules/.bin/cline" --modules "$RUNNER_TEMP/solaris-cline-host/node_modules" --candidate "$GITHUB_WORKSPACE/distribution/harnesses/cline" --git-source 'https://github.com/Shaisolaris/solaris-dev-shop-cline.git@a328faad1955647e250c0d3be456aa9a40a7766f' --work "$RUNNER_TEMP/solaris-cline-public"

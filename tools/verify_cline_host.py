@@ -81,9 +81,9 @@ def main():
         assert manifest.pop('peerDependencies') == {'@cline/sdk': '>=0.0.95 <0.1'}
         assert manifest.pop('peerDependenciesMeta') == {'@cline/sdk': {'optional': True}}
         assert json.loads(actual.read_text()) == manifest, 'Unexpected installed package transformation'
-    assert len(actual_files) == 1978 and byte_identical in {1977, 1978}
+    assert len(actual_files) == 1979 and byte_identical in {1978, 1979}
     provenance = json.loads((installed / 'SOLARIS-BUILD-SOURCE.json').read_text())
-    assert len(provenance['canonical_files']) == 1200
+    assert len(provenance['canonical_files']) == 1201
     for name, digest in provenance['canonical_files'].items():
         mapped = provenance.get('source_path_map', {}).get(name, name)
         assert hashlib.sha256((installed / mapped).read_bytes()).hexdigest() == digest, name
@@ -92,7 +92,7 @@ def main():
     for row in index:
         context = subprocess.check_output([sys.executable, '-B', str(installed / 'skills' / row['name'] / 'scripts/run.py'),
                                            '--context'], cwd=workspace, env=env, text=True, timeout=15)
-        assert json.loads(context)['source_commit'] == 'cd1898c6dc062a2dcf01a56b53403023c1994c8d'
+        assert json.loads(context)['source_commit'] == 'c7c9b395795f488dd3c48122ff916970438b67e6'
     for section in ['skills', 'tools']:
         result = subprocess.run([cli, 'config', section, '--json'], cwd=workspace, env=env,
                                 capture_output=True, text=True, check=True, timeout=45)
@@ -115,7 +115,7 @@ def main():
     print(json.dumps({'host': 'Cline ' + version, 'profileFiles': len(actual_files), 'byteIdenticalFiles': byte_identical,
                       'retainedGitMetadata': 'Requested exact public commit verified; sample hooks only' if retained_git else None,
                       'permittedInstallerNormalization': 'Only removal of two optional host SDK dependency fields, if present',
-                      'allExecutableModesMatch': True, 'canonicalHashes': 1200, 'actualCallerContexts': 62,
+                      'allExecutableModesMatch': True, 'canonicalHashes': len(provenance['canonical_files']), 'actualCallerContexts': 62,
                       'compositeProvenance': 'consistent', 'sdk': sdk, 'pass': True}, indent=2))
 
 

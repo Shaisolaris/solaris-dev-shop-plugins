@@ -3,11 +3,13 @@
 import argparse
 import hashlib
 import importlib.util
+import io
 import json
 from pathlib import Path
 import shutil
 import subprocess
 import sys
+import tarfile
 import tempfile
 
 ROOT = Path(__file__).resolve().parents[1]
@@ -79,12 +81,91 @@ def controls(expected):
         return passed
 
 
+
+def compare_contained_entries(actual, expected):
+    supplied = {name: (builder.digest(data), executable)
+                for name, (data, executable) in actual.items()}
+    if supplied != inventory(expected):
+        raise ValueError('Contained input differs from the independently rebuilt source layout')
+
+
+def archive_inventory(revision, prefix):
+    data = subprocess.check_output(['git', '-C', str(ROOT), 'archive', revision, prefix])
+    rows = {}
+    with tarfile.open(fileobj=io.BytesIO(data)) as archive:
+        for entry in archive:
+            if entry.isdir():
+                continue
+            if not entry.isfile() or not entry.name.startswith(prefix + '/'):
+                raise ValueError('Non-regular immutable payload member')
+            name = entry.name[len(prefix) + 1:]
+            rows[name] = (builder.digest(archive.extractfile(entry).read()), bool(entry.mode & 0o111))
+    return rows
+
+
+def verify_release_inputs(core, packager, work, self_test):
+    # The contained Git snapshot is not its own trust anchor. First bind the
+    # base to the reviewed core/packager, then reconstruct the entire snapshot.
+    spec = importlib.util.spec_from_file_location('portable_source_verifier',
+                                                  ROOT / 'tools/verify_distribution.py')
+    portable = importlib.util.module_from_spec(spec)
+    spec.loader.exec_module(portable)
+    revision, source = portable.read_source(core)
+    if revision != builder.CORE_COMMIT:
+        raise ValueError('Unexpected security source revision')
+    portable.validate(ROOT, revision, source, portable.rebuild(core, packager, revision))
+    expected = work / 'contained'
+    built = subprocess.run([sys.executable, '-B', str(ROOT / 'tools/build_copilot_layout.py'),
+                            str(expected), '--stage', 'contained-input'],
+                           capture_output=True, text=True, timeout=90)
+    if built.returncode:
+        raise ValueError('Contained source rebuild failed: ' + built.stderr)
+    actual = builder.source_files(ROOT)
+    compare_contained_entries(actual, expected)
+    rejected = []
+    if self_test:
+        forged = dict(actual)
+        helper = 'employees/engineering/devops-engineer/local_deploy.py'
+        replacement = b'raise SystemExit(0)'
+        for name, (_, executable) in list(forged.items()):
+            if name == helper or name.endswith('/' + helper):
+                forged[name] = (replacement, executable)
+        provenance, executable = forged['SOLARIS-BUILD-SOURCE.json']
+        provenance = json.loads(provenance)
+        provenance['canonical_files'][helper] = builder.digest(replacement)
+        forged['SOLARIS-BUILD-SOURCE.json'] = (json.dumps(provenance).encode(), executable)
+        layout, executable = forged['COPILOT-LAYOUT.json']
+        layout = json.loads(layout)
+        for row in layout['mirrors'].values():
+            if helper in row['mirrored_canonical_files']:
+                row['mirrored_canonical_files'][helper] = builder.digest(replacement)
+        forged['COPILOT-LAYOUT.json'] = (json.dumps(layout).encode(), executable)
+        try:
+            compare_contained_entries(forged, expected)
+        except ValueError:
+            rejected.append('changed contained helper and both supplied inventories')
+        else:
+            raise ValueError('False acceptance of forged contained inputs')
+    frozen = '2c11999a1a13912fbb694228b176bc4ebb5f165e'
+    for host in ['amp', 'openclaw']:
+        prefix = 'harnesses/' + host
+        if inventory(ROOT / prefix) != archive_inventory(frozen, prefix):
+            raise ValueError('Previously accepted payload changed: ' + host)
+    return {'component': builder.NATIVE_COMMIT, 'core': revision,
+            'files': len(actual), 'canonical_files': 1201,
+            'rejected_controls': rejected, 'published_claw_payload_unchanged': True,
+            'retired_amp_payload_unchanged': True,
+            'archival_amp_evidence': 'Exact2c11999payload;acceptedCI40269203296;not0.68hostacceptance'}
+
 def main():
     parser = argparse.ArgumentParser(description=__doc__)
     parser.add_argument('--self-test', action='store_true')
     parser.add_argument('--openclaw-source', type=Path, required=True)
     parser.add_argument('--packager', type=Path, required=True)
     args = parser.parse_args()
+    with tempfile.TemporaryDirectory(prefix='solaris-release-inputs-') as directory:
+        input_report = verify_release_inputs(args.openclaw_source.resolve(), args.packager.resolve(),
+                                             Path(directory), args.self_test)
     index = json.loads((ROOT / 'copilot/plugin/native/skills.json').read_text())
     kimi = json.loads((ROOT / 'kimi.plugin.json').read_text())
     expected = ['./copilot/plugin/skills/' + row['name'] for row in index]
@@ -126,6 +207,8 @@ def main():
                       'core_source': expected_core}
             if host == 'deepseek' and args.self_test:
                 report['rejected_controls'] = controls(expected)
+            if host == 'deepseek':
+                report['release_inputs'] = input_report
             reports.append(report)
     print(json.dumps(reports, indent=2))
 

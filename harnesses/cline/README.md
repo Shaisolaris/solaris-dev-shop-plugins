@@ -6,6 +6,6 @@ The Cline package manifest declares its SDK entrypoint; Cline discovers the top-
 
 Local helpers need Python3.10+ and PyYAML on the host PATH. Individual specialists retain their documented prerequisites and permissions. Amp hosted/Puck and Cline VS Code/JetBrains support are separate client gates, not established by native CLI/SDK discovery.
 
-Source: core cd1898c6dc062a2dcf01a56b53403023c1994c8d, reviewed native fc1555259dbeb7e5a8de79e59bb46f682dd11292. SOLARIS-BUILD-SOURCE.json preserves1200 canonical hashes; HARNESS-BUILD.json records every profile byte/mode. See ../../HARNESS-DISTRIBUTION.md in the source repository for actual tested revisions, installation and publication status. A prepared profile alone does not establish a passing native install or vendor approval.
+Source: core c7c9b395795f488dd3c48122ff916970438b67e6, reviewed native e6bbd0ed63c788431003379d928be137c81693b0. SOLARIS-BUILD-SOURCE.json preserves1201 canonical hashes; HARNESS-BUILD.json records every profile byte/mode. See ../../HARNESS-DISTRIBUTION.md in the source repository for actual tested revisions, installation and publication status. A prepared profile alone does not establish a passing native install or vendor approval.
 
 MIT licensed. Solaris Technologies, https://solaristek.com. Support: https://github.com/Shaisolaris/solaris-dev-shop-plugins/issues.
