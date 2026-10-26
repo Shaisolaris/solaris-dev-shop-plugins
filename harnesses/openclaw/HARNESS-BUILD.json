@@ -2,11 +2,11 @@
   "canonical_files": 1201,
   "canonical_notice": "NOTICE.md",
   "coordinator": 1,
-  "core_source": "fa1a579c1440a5af665161d0a9f3b77c46c5f4b4",
+  "core_source": "c7c9b395795f488dd3c48122ff916970438b67e6",
   "files": {
     "CHANGELOG.md": {
       "executable": false,
-      "sha256": "46eef39053fbfea1d342367c24704167e531a60b35484635961960b074364c16"
+      "sha256": "10ae30bce1df171bc1a99c23a6a795dff171a4bfcce07a62feb9687b344bb4ba"
     },
     "CODE_OF_CONDUCT.md": {
       "executable": false,
@@ -34,7 +34,7 @@
     },
     "README.md": {
       "executable": false,
-      "sha256": "e6355d74c964871c8091d64cf3c670a2695976f300d93d5160da9f31c7a3c951"
+      "sha256": "7f60822c3d69d3faa05d2219ea34a29027ed08e0ff851384854f0573fa9042de"
     },
     "ROADMAP.md": {
       "executable": false,
@@ -46,7 +46,7 @@
     },
     "SOLARIS-BUILD-SOURCE.json": {
       "executable": false,
-      "sha256": "c320ecbc7bd7f3f1cd73602f07b08ef302a10493e9745c88f889be48898a5aee"
+      "sha256": "488cc24dfbc3b3451315324e73bf980750db9ea6613183361834bea852180bd7"
     },
     "SOURCE-README.md": {
       "executable": false,
@@ -918,7 +918,7 @@
     },
     "employees/engineering/devops-engineer/gameci-unity.md": {
       "executable": false,
-      "sha256": "58b97119218d388245ce31efe98093d60c34f84b97c3252ffcce368de650c115"
+      "sha256": "58eb9dfb689b4cadee662c7f35957ace5ce5cb173c0ba3a7425f65be9e46493e"
     },
     "employees/engineering/devops-engineer/gitops-skill.md": {
       "executable": false,
@@ -1450,7 +1450,7 @@
     },
     "employees/infrastructure/network-engineer/SKILL.md": {
       "executable": false,
-      "sha256": "b2de47e5afb47a0005a7d92d506addb5ece6aa4ca9b1b8fc849fed5a74e4cade"
+      "sha256": "e392efa8cff91236afcd6b4d1280a76d3ab3c7c9bc1b95d19f14548e506ca5b0"
     },
     "employees/infrastructure/network-engineer/capability.contract.json": {
       "executable": false,
@@ -1686,7 +1686,7 @@
     },
     "employees/legal-compliance/compliance-auditor/SKILL.md": {
       "executable": false,
-      "sha256": "fb8dade830defc37966e7901523395a26b8a0862403bf56eb7d6e4cd0a733fcc"
+      "sha256": "4cc6a339d56f4ee7400e28dd2d91a44aa3b50bbc9b277428915ff02dfe6952ef"
     },
     "employees/legal-compliance/compliance-auditor/capability.contract.json": {
       "executable": false,
@@ -2246,7 +2246,7 @@
     },
     "employees/quality-security/performance-engineer/SKILL.md": {
       "executable": false,
-      "sha256": "d1a30d076ec3e551f10991414ddf1a3d2985780d8c4b2f6783769948845e26c0"
+      "sha256": "6092729db0ec24f278839b9c048d7aa3de1495b9bcda29a2a14e6a0911e1d195"
     },
     "employees/quality-security/performance-engineer/capability.contract.json": {
       "executable": false,
@@ -2682,7 +2682,7 @@
     },
     "employees/specialized/wordpress-master/diagnostics/build-git/SKILL.md": {
       "executable": false,
-      "sha256": "7e62a333823049bc20436f6467e89271fb1deafd7b448c16fbdafc069659445b"
+      "sha256": "5f03dfd10e945153c5fc2833c918a1490e11639493b5712e05e2f22f627c1449"
     },
     "employees/specialized/wordpress-master/diagnostics/build-mcp/SKILL.md": {
       "executable": false,
@@ -2766,7 +2766,7 @@
     },
     "employees/specialized/wordpress-master/diagnostics/diagnostic-malware-scan/SKILL.md": {
       "executable": false,
-      "sha256": "efada0eaa6a495b2aca3f39bc357fb5a58c8ff855df3f0434ad39a88605353d7"
+      "sha256": "06a3dfc913eb2cd66900524e2961395858a9df5ef296810e1443af5f019dce32"
     },
     "employees/specialized/wordpress-master/diagnostics/diagnostic-performance-n1/SKILL.md": {
       "executable": false,
@@ -2810,7 +2810,7 @@
     },
     "employees/specialized/wordpress-master/diagnostics/security-analysis/SKILL.md": {
       "executable": false,
-      "sha256": "7021acddd6405b36b2872b0f8c97ea6e1db2fa499382f771d07e5d70b57b574a"
+      "sha256": "bf1bce5219b06f8eb6f246f6c73299e2016438b25983edc4ffc1f7196389b56e"
     },
     "employees/specialized/wordpress-master/diagnostics/shared/json_fields.py": {
       "executable": false,
@@ -4334,7 +4334,7 @@
     },
     "examples/capabilities/G38/authority_oracle.py": {
       "executable": false,
-      "sha256": "6dd8bddc2cc0be0a30cedb839535931197cffc9c574e540cdda6ccc3be5e56d6"
+      "sha256": "881789165e0d4738a32b8e74c8ba0b82b9d58ee3c55a3346c47361774bd3e8ef"
     },
     "examples/capabilities/G38/fixtures/apache-2.0.txt": {
       "executable": false,
@@ -4470,7 +4470,7 @@
     },
     "examples/capabilities/G42/plan.json": {
       "executable": false,
-      "sha256": "0fe7cda1c057d2156db402edfc2314289380f4957f99ac20445871841aa75172"
+      "sha256": "f831848c774fd5c48b32997c0ed5f4328cf54b2703a448c0a4dc36c71f1e4fce"
     },
     "examples/escalation/README.md": {
       "executable": false,
@@ -4606,15 +4606,15 @@
     },
     "openclaw.plugin.json": {
       "executable": false,
-      "sha256": "1713b733e6ed2317e4152d1ba2d2857cdabfba852ab00dd013e0990575b0a3af"
+      "sha256": "ae8501d4511c0c79b3bc239e6227e9b2d8d40cea6e5dab6ec5cc9fe4d365056a"
     },
     "package.json": {
       "executable": false,
-      "sha256": "8b376441a7781eaa3218cd12d34ee26ac664b3cb11372d03b21fb6e041638070"
+      "sha256": "3b948a2c0eaff00c90eed7c05fa8072ecfdb9f29d6ae90231cd245ebd2d06fe0"
     },
     "pyproject.toml": {
       "executable": false,
-      "sha256": "f51b6e5db8e4e57e1458a4fda349fc55c92f81e06e9ffa701e20ce96e4611470"
+      "sha256": "6fc4c128a2d59669c6e0d7d3288c169e4a32a4ad87d8e19ae2ce85b13c9a4bce"
     },
     "requirements-dev.txt": {
       "executable": false,
@@ -5290,7 +5290,7 @@
     },
     "tests/test_g38_capability.py": {
       "executable": false,
-      "sha256": "80f6c9b2259b80cc02aa6ce66554b08b1ee3279de9a1b53b3c0259c57e48dd63"
+      "sha256": "190c9bbb8401eacd0295b4793ffc7381618b8a05610fe122c24e1a63cf750802"
     },
     "tests/test_g38_takeover.py": {
       "executable": false,
@@ -5310,7 +5310,7 @@
     },
     "tests/test_g42_capability.py": {
       "executable": false,
-      "sha256": "557bec16df44cb98c685de5136b02dd7c56b6b4e14f1ee3495d34ccdbcf9e93a"
+      "sha256": "26f43de251697514679f6112fd209861b4e29c4122fdd7f1c404f58c8dc9f902"
     },
     "tests/test_intake_features.py": {
       "executable": false,
@@ -5326,7 +5326,7 @@
     },
     "tests/test_wordpress_instruction_examples.py": {
       "executable": false,
-      "sha256": "018ebeb7b883b2054a5f95db6abd0d7b819fac83ca0d8476360e7a1d536d4301"
+      "sha256": "3194b6eaac81685d0cbf1f2c022c18f6911da185dfaddcb25799ec85e514e428"
     },
     "tests/test_wordpress_json_fields.py": {
       "executable": false,
@@ -5364,5 +5364,5 @@
   },
   "reviewed_packager": "129781961be54cc2f12d6bafe80e81d6a1cd8d02",
   "specialists": 61,
-  "version": "0.67.0"
+  "version": "0.68.0"
 }
