@@ -13,7 +13,7 @@ import shutil
 import subprocess
 import tempfile
 
-CORE = 'ab0061f2b67abecbcb2921371da668a18dc7d64a'
+CORE = 'fa1a579c1440a5af665161d0a9f3b77c46c5f4b4'
 PACKAGER = '129781961be54cc2f12d6bafe80e81d6a1cd8d02'
 NATIVE = 'e02d8002d195f929e30fb5063bd04d4ed27190d6'
 VERSION = '0.67.0'
@@ -71,7 +71,7 @@ def build(source, packager, native_source, output):
         module.build(CORE, temporary / 'base')
         base = temporary / 'base/plugin'
         original = json.loads((base / 'SOLARIS-BUILD-SOURCE.json').read_text())
-        if len(original['canonical_files']) != 1200 or OMIT.intersection(original['canonical_files']):
+        if len(original['canonical_files']) != 1201 or OMIT.intersection(original['canonical_files']):
             raise ValueError('Unexpected canonical input or attempted canonical omission')
         shutil.copytree(base, output)
         for name in OMIT:
@@ -153,11 +153,17 @@ def build(source, packager, native_source, output):
         'Chief of Staff plus 61 specialists: one complete plugin with 62 workflows. '
         'All canonical helpers, references, licenses, fixtures and tests remain in this package. '
         'Skills reference shared canonical resources within the plugin; no Copilot-only resource mirrors are needed.\n\n'
+        '## Optional specialist setup\n\n'
+        'Specialist operations run only when requested for a specific task using the host tools and permissions. '
+        'Unity licence activation is an optional manual setup workflow: the operator controls the Unity account, '
+        'licence-file upload and repository secret. Local encrypted-DNS setup is a separate optional network-administration task '
+        'requiring authorization for the selected resolver and network. Neither feature starts or receives credentials on plugin installation. '
+        'Review the intended destination, credential scope and configuration before activating either workflow.\n\n'
         'The native `solaris intake` command returns a bounded assignment and does not execute specialist work. '
         'Loading the plugin installs no service, container, scheduler, updater or MCP connection and grants no account access. '
         'Host tools and permission checks apply. Local Python helpers require Python 3.10+ and their documented prerequisites.\n\n'
         'Core source: ' + CORE + '. Reviewed native adapter and guarded entrypoints: ' + NATIVE + '. '
-        'SOLARIS-BUILD-SOURCE.json binds all 1200 canonical hashes; HARNESS-BUILD.json binds generated files and modes. '
+        'SOLARIS-BUILD-SOURCE.json binds all 1201 canonical hashes; HARNESS-BUILD.json binds generated files and modes. '
         'A prepared candidate is not ClawHub approval or a completed security scan.\n\n'
         'MIT licensed. Solaris Technologies, https://solaristek.com. '
         'Support: https://github.com/Shaisolaris/solaris-dev-shop-plugins/issues.\n')
@@ -168,13 +174,13 @@ def build(source, packager, native_source, output):
     if list((output / 'skills').glob('*/resources/canonical')):
         raise ValueError('Unexpected redundant resource mirror')
     record = {'host': 'openclaw', 'version': VERSION, 'core_source': CORE, 'native_source': NATIVE,
-              'reviewed_packager': PACKAGER, 'layout': 'shared-canonical', 'canonical_files': 1200,
+              'reviewed_packager': PACKAGER, 'layout': 'shared-canonical', 'canonical_files': 1201,
               'specialists': 61, 'coordinator': 1, 'new_employee_capabilities': 0,
               'canonical_notice': 'NOTICE.md', 'redundant_resource_aliases': [],
               'relocated_repository_configuration': relocated, 'omitted_other_provider_files': sorted(OMIT),
               'files': inventory(output)}
     write_json(output / 'HARNESS-BUILD.json', record)
-    return {'host': 'openclaw', 'files': len(record['files']) + 1, 'canonical_files': 1200,
+    return {'host': 'openclaw', 'files': len(record['files']) + 1, 'canonical_files': 1201,
             'workflows': 62, 'source': CORE, 'version': VERSION}
 
 
