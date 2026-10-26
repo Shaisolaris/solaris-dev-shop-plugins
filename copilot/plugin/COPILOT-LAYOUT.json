@@ -1,9 +1,10 @@
 {
   "prototype": false,
-  "source_native_commit": "2ca1ffa5597981a1effbbcd43aefdc82ce03d124",
-  "source_core_commit": "cd1898c6dc062a2dcf01a56b53403023c1994c8d",
-  "version": "0.66.0",
-  "metadata_stage": "distribution",
+  "layout_origin_commit": "2ca1ffa5597981a1effbbcd43aefdc82ce03d124",
+  "builder_sha256": "efee2d7c70836438347477fb27082c1b5062510972abc7c86fbf8e2b0a19cff7",
+  "source_core_commit": "c7c9b395795f488dd3c48122ff916970438b67e6",
+  "version": "0.68.0",
+  "metadata_stage": "contained-input",
   "workflow_count": 62,
   "new_role_capabilities": 0,
   "mirrors": {
@@ -277,9 +278,9 @@
         "employees/engineering/devops-engineer/local_deploy.py": "ad43bba29397a3b8c32b229716be3135cc06fe6fcca241200a5954b46ad914da",
         "employees/engineering/devops-engineer/local-deploy-preflight.md": "ac0e27cbf0b34a48bb27857d761235f8e879e36c9c5b94d2753ba68a7e04ffbc",
         "employees/engineering/devops-engineer/learnings.md": "cf2e9fd6335afd0fd2d56e2de568809ec2a65896d20052f5c004fca5d227a7d1",
-        "employees/engineering/devops-engineer/headless-fleet-runbook.md": "919ad621cfa80d503530d50b216935ef3fe10a1e80c865d3053261b286b7c92c",
-        "employees/engineering/devops-engineer/gitops-skill.md": "d2aa552ade9205d8c5a8a7f375b73fd37bdb18982466f45df6686ff7966eb5ca",
-        "employees/engineering/devops-engineer/gameci-unity.md": "58b97119218d388245ce31efe98093d60c34f84b97c3252ffcce368de650c115",
+        "employees/engineering/devops-engineer/headless-fleet-runbook.md": "89144eaf576a3106dffe662233dbf047125b603a22997667e7884510def165a4",
+        "employees/engineering/devops-engineer/gitops-skill.md": "412e4263364c2b075ef3168f2c4eedcb7bb8fc16b5926f7c4376d4c85d5ed74f",
+        "employees/engineering/devops-engineer/gameci-unity.md": "58eb9dfb689b4cadee662c7f35957ace5ce5cb173c0ba3a7425f65be9e46493e",
         "employees/engineering/devops-engineer/ftp-git-deploy.md": "083c4f89a39228321a0838f372729ca01e0149751f468fb47e75748fceb5dc21",
         "employees/engineering/devops-engineer/docker-skill.md": "56c4bea80a6e47c72ae2f5b1d50a8016c9fe28504408f413863fb27ac3c812d0",
         "employees/engineering/devops-engineer/dagger-mise-toolchain.md": "e4f51a3c3c289162ebc9f57db90c0f7bfb00ea0f24899c44527b2e678fa2e0fe",
@@ -494,7 +495,7 @@
         "employees/infrastructure/network-engineer/homelab-and-network-ops.md": "e3ec662f888fb12f9446bb41bd98f82f914eeb36be7e9ac54ff05d8c7595c69d",
         "employees/infrastructure/network-engineer/enterprise-network-ops.md": "d40451d8b69d3eea6de9607bb55bcafdbd4d29b1e5136b9a16fbe3a288b2b60a",
         "employees/infrastructure/network-engineer/capability.contract.json": "4c4766e4e02d56d0bc19cc90cc0c335620b891c4242e70c6e84e213859006d63",
-        "employees/infrastructure/network-engineer/SKILL.md": "b2de47e5afb47a0005a7d92d506addb5ece6aa4ca9b1b8fc849fed5a74e4cade"
+        "employees/infrastructure/network-engineer/SKILL.md": "e392efa8cff91236afcd6b4d1280a76d3ab3c7c9bc1b95d19f14548e506ca5b0"
       },
       "entrypoint_sha256": "7e0c73fb51badf2a8c8c807bb5cf0fc101f1b54b3c4c6ee272a313f4eeb48164"
     },
@@ -591,7 +592,7 @@
         "employees/legal-compliance/compliance-auditor/healthcare-dev-compliance.md": "05901c1f38b4e3feb8ab302105ea489e9cbfb6fed90fcbf369aa9d65ef26a2ab",
         "employees/legal-compliance/compliance-auditor/depth-2026-06.md": "63f3d878b020554b108943f124541916a73c07188ffc64e4281deae470b5318e",
         "employees/legal-compliance/compliance-auditor/capability.contract.json": "82583afff93359f2f03c48e51e14710be5b8904f346e133f7d0289b259a963a7",
-        "employees/legal-compliance/compliance-auditor/SKILL.md": "fb8dade830defc37966e7901523395a26b8a0862403bf56eb7d6e4cd0a733fcc"
+        "employees/legal-compliance/compliance-auditor/SKILL.md": "4cc6a339d56f4ee7400e28dd2d91a44aa3b50bbc9b277428915ff02dfe6952ef"
       },
       "entrypoint_sha256": "b8aaeea0391516b3491ef624bea20df8f82242bd3d1eb5e3ef0ee56d95e9a8a1"
     },
@@ -803,7 +804,7 @@
         "employees/quality-security/performance-engineer/learnings.md": "8be3149dc1f8b5940bc20e97bfc4b34c9adad0237735d9ca1814c64a3a60045b",
         "employees/quality-security/performance-engineer/k6-load-test-patterns.md": "f382e152e158d3e76adfcb53228951128272cf5825799313364f1dccf4b4af43",
         "employees/quality-security/performance-engineer/capability.contract.json": "1e71d5df5bbdfcfd26d4259417e0f2d5085f0b81d2ab6a63c65c0c8e1421bacd",
-        "employees/quality-security/performance-engineer/SKILL.md": "d1a30d076ec3e551f10991414ddf1a3d2985780d8c4b2f6783769948845e26c0"
+        "employees/quality-security/performance-engineer/SKILL.md": "6092729db0ec24f278839b9c048d7aa3de1495b9bcda29a2a14e6a0911e1d195"
       },
       "entrypoint_sha256": "df37272669e070edf2028447f99aee5b725a3fc82f475360c8eb75b0b8d22c3d"
     },
@@ -979,9 +980,9 @@
         "employees/specialized/wordpress-master/diagnostics/wp-patterns/SKILL.md": "dec89aa4159a483eb72ca305c7c4820925c3bb3f2406678b42cd990170ce08e4",
         "employees/specialized/wordpress-master/diagnostics/trend-tracker/SKILL.md": "6a219f5b2fa90e811cc141bc9eb45ee936880411aa02ba898da32ae9fe476c9b",
         "employees/specialized/wordpress-master/diagnostics/testing/SKILL.md": "9ca6a8cfa64f5012214414ea9903a221318ddcde4bfa0b8ab61c576ea575bf6f",
-        "employees/specialized/wordpress-master/diagnostics/site-scout/SKILL.md": "2f86fad510a7ba0a87c814eaf9530e5f0643b5283627c20e28897804b76b2c52",
+        "employees/specialized/wordpress-master/diagnostics/site-scout/SKILL.md": "c858f8fc17d2d6d5bdd5c736cfb334ea90a44e6dc220e162e65c215cbc11a1f3",
         "employees/specialized/wordpress-master/diagnostics/shared/json_fields.py": "b268fb99964a8bd5b8a5aa98ccabe78c19019b8e1ab9542c7e10be6c9278b77d",
-        "employees/specialized/wordpress-master/diagnostics/security-analysis/SKILL.md": "7021acddd6405b36b2872b0f8c97ea6e1db2fa499382f771d07e5d70b57b574a",
+        "employees/specialized/wordpress-master/diagnostics/security-analysis/SKILL.md": "bf1bce5219b06f8eb6f246f6c73299e2016438b25983edc4ffc1f7196389b56e",
         "employees/specialized/wordpress-master/diagnostics/scan-reviewer/SKILL.md": "ad8e23dfc1416c967c1e1037566b0e74a5a0f87ca9f685abc09547acbbfb8d90",
         "employees/specialized/wordpress-master/diagnostics/reporting/SKILL.md": "7ae629450a2502ef42d53222214e5ab6786bd5928bc9edc1799786945019999a",
         "employees/specialized/wordpress-master/diagnostics/report-generator/SKILL.md": "641511e87bc4c88dd90c4661b1c7833a28aed6857e4bcca3d149e2cef6d1e934",
@@ -989,19 +990,19 @@
         "employees/specialized/wordpress-master/diagnostics/performance/SKILL.md": "48e5b6b56c76e1077796be81a216c953d85e46d131aec839d23e7357261781f3",
         "employees/specialized/wordpress-master/diagnostics/intake/SKILL.md": "ef102fe743648561b384578608f9548fcf20c49b19f5b22327eb1a0edad65b07",
         "employees/specialized/wordpress-master/diagnostics/diagnostic-wpcli-profile/SKILL.md": "7962698aaa445be155ac9bb51110ed33740770aa4d5add52e24d463cd7136ea4",
-        "employees/specialized/wordpress-master/diagnostics/diagnostic-version-audit/SKILL.md": "2ea4af2f01fe2843108cce823f38ffb9fa7baf22293d906b7b594ad65019283a",
-        "employees/specialized/wordpress-master/diagnostics/diagnostic-user-audit/SKILL.md": "ddb37bed7db322bf50ebc56006c1d6ed71b3cef4cef6e93905b0736646d421f0",
+        "employees/specialized/wordpress-master/diagnostics/diagnostic-version-audit/SKILL.md": "d1dade0e7a17eec7333eeca3a20ca63b79d2ac69cbbf5c8dc5a730738c248409",
+        "employees/specialized/wordpress-master/diagnostics/diagnostic-user-audit/SKILL.md": "e3a7460f2b62351e257d160949cd872c44f48770f3df917f88bf0844cb284a4b",
         "employees/specialized/wordpress-master/diagnostics/diagnostic-performance-n1/SKILL.md": "216fd192e07dcdb533f59727fc00128d40a28540492a2fba85529cc5d23218c9",
-        "employees/specialized/wordpress-master/diagnostics/diagnostic-malware-scan/SKILL.md": "efada0eaa6a495b2aca3f39bc357fb5a58c8ff855df3f0434ad39a88605353d7",
+        "employees/specialized/wordpress-master/diagnostics/diagnostic-malware-scan/SKILL.md": "06a3dfc913eb2cd66900524e2961395858a9df5ef296810e1443af5f019dce32",
         "employees/specialized/wordpress-master/diagnostics/diagnostic-https-audit/SKILL.md": "8825c6a640ca8d84ca74b2feb4276f52f8885d12d1bb0b44048fb5e87d87865e",
-        "employees/specialized/wordpress-master/diagnostics/diagnostic-file-permissions/SKILL.md": "d8ea35c514e6fe3e9902fe7b04bcda2b6ff52c5090f474c47f098a8bf519dd24",
+        "employees/specialized/wordpress-master/diagnostics/diagnostic-file-permissions/SKILL.md": "d31a9fd323835e1fc846b6d3762ce243f430c7a7d12257f98af6c8c424e7a98f",
         "employees/specialized/wordpress-master/diagnostics/diagnostic-db-transients/SKILL.md": "1676771a435cb1d4f4b1f1f67f1fb5c88adf4089a5af26d6317aea32967efb64",
         "employees/specialized/wordpress-master/diagnostics/diagnostic-db-revisions/SKILL.md": "b3195c005afd2d88d1c78aaffa8532939365a1f982a2d38d333d5459adccbf32",
         "employees/specialized/wordpress-master/diagnostics/diagnostic-db-autoload/SKILL.md": "f473f04a40a62a9a6fc091b11eaa622c99297ea5ed4a24c6dd7d8806f3911592",
         "employees/specialized/wordpress-master/diagnostics/diagnostic-cron-analysis/SKILL.md": "2a5a958d8cf4fbc6684cffb19f22050f8dfc64b9d4c7bb623e6e10144a0ed905",
-        "employees/specialized/wordpress-master/diagnostics/diagnostic-core-integrity/SKILL.md": "7ee1638f246b4055c08925fc2e20ff9fa1cb8952fc9980e2b1086ae808aa4c9c",
-        "employees/specialized/wordpress-master/diagnostics/diagnostic-config-security/SKILL.md": "ae89e739cc7706dc2cecc400e4ea483429ac93961354f3c816bef3533ed76424",
-        "employees/specialized/wordpress-master/diagnostics/diagnostic-code-quality/SKILL.md": "8a4a7a860c46006c858131800a9f1dda966e2514297c6834829486834d3749f9",
+        "employees/specialized/wordpress-master/diagnostics/diagnostic-core-integrity/SKILL.md": "47a959be973913b0d77e614313495fc48a819eabb68d419d3a8754723084699b",
+        "employees/specialized/wordpress-master/diagnostics/diagnostic-config-security/SKILL.md": "8527277a4ac5d8cf1128eb9dacf7a7a650ecc37194cc3ff4b10a923cdf36299a",
+        "employees/specialized/wordpress-master/diagnostics/diagnostic-code-quality/SKILL.md": "0e81c5373652ba014d48144a77b1017b89ace62bd9491923c96bac6d6df1e5af",
         "employees/specialized/wordpress-master/diagnostics/diagnostic-architecture/SKILL.md": "2287b817d4d7d4b369c206553381bf7476d1a125a4d28ef99f2ae2eec444120e",
         "employees/specialized/wordpress-master/diagnostics/diagnostic-arch-narrative/SKILL.md": "f650e0e187d1a47d4d6ce6a99bbf387563ad7dcd3e9884d30fd0b6e77f817edf",
         "employees/specialized/wordpress-master/diagnostics/code-quality/SKILL.md": "d0ad0f1ccd17d7b8892205909ad0b8850802f5dd7f799e5faacf6e54d20cf67a",
@@ -1013,7 +1014,7 @@
         "employees/specialized/wordpress-master/diagnostics/build-scaffold/SKILL.md": "ff6f9f0b549e26d51169b5bb49ebd701db619ed1086ac1e3f86b6956caa8d24c",
         "employees/specialized/wordpress-master/diagnostics/build-modify/SKILL.md": "499960feb2b1c760ab5b7c223aa1408278986fa13ea374a3deff770141d38390",
         "employees/specialized/wordpress-master/diagnostics/build-mcp/SKILL.md": "1b0ed5258684c31709358f33f8d2ffd1371f8207e4a1e29ba6f105b8c722996a",
-        "employees/specialized/wordpress-master/diagnostics/build-git/SKILL.md": "7e62a333823049bc20436f6467e89271fb1deafd7b448c16fbdafc069659445b",
+        "employees/specialized/wordpress-master/diagnostics/build-git/SKILL.md": "5f03dfd10e945153c5fc2833c918a1490e11639493b5712e05e2f22f627c1449",
         "employees/specialized/wordpress-master/diagnostics/build-content/SKILL.md": "06b34c85977274e413e21f4b9925b7b19ae32dfb41da560e74f974ccfb4fa1c8",
         "employees/specialized/wordpress-master/diagnostics/accessibility/SKILL.md": "09d75c5149b4c716f8f42403a6fb7b26b16bb40e1b5c842d139fadc030537bf9",
         "employees/specialized/wordpress-master/depth-2026-06.md": "e6ee11af91026f81895804718e533e969e82e1e0aedb424f09b01118081d576d",
@@ -1049,24 +1050,6 @@
       "reason": "not an existing canonical target"
     }
   ],
-  "distribution_notice": {
-    "canonical_notice": "SOURCE-NOTICE.md",
-    "resource_license_aliases": [
-      {
-        "path": "skills/ui-ux-designer/resources/canonical/employees/design/ui-ux-designer/design-intelligence/LICENSE-upstream",
-        "canonical_origin": "employees/design/ui-ux-designer/design-intelligence/LICENSE-upstream",
-        "sha256": "738f69dfa83db5c347c678fb9d90e560877059f0de93a327c39001bff92dc014"
-      }
-    ]
-  },
-  "relocated_repository_configuration": {
-    ".github/ISSUE_TEMPLATE/bug.md": "source-config/.github/ISSUE_TEMPLATE/bug.md",
-    ".github/ISSUE_TEMPLATE/config.yml": "source-config/.github/ISSUE_TEMPLATE/config.yml",
-    ".github/ISSUE_TEMPLATE/feature.md": "source-config/.github/ISSUE_TEMPLATE/feature.md",
-    ".github/ISSUE_TEMPLATE/new-employee.md": "source-config/.github/ISSUE_TEMPLATE/new-employee.md",
-    ".github/ISSUE_TEMPLATE/question.md": "source-config/.github/ISSUE_TEMPLATE/question.md",
-    ".github/PULL_REQUEST_TEMPLATE.md": "source-config/.github/PULL_REQUEST_TEMPLATE.md",
-    ".github/workflows/ci.yml": "source-config/.github/workflows/ci.yml",
-    ".github/workflows/try-router.yml": "source-config/.github/workflows/try-router.yml"
-  }
+  "publication_ready": false,
+  "required_before_publication": "Derive resource notices and relocate canonical CI snapshots exactly once in each final profile."
 }

@@ -1,19 +1,19 @@
 {
-  "source_commit": "cd1898c6dc062a2dcf01a56b53403023c1994c8d",
-  "source_version": "0.66",
-  "plugin_version": "0.66.0",
+  "source_commit": "c7c9b395795f488dd3c48122ff916970438b67e6",
+  "source_version": "0.68",
+  "plugin_version": "0.68.0",
   "native_formats": [
     "Codex/OpenAI",
     "Claude Code",
     "OpenCode V2"
   ],
-  "canonical_source_files": 1201,
-  "canonical_shipped_files": 1200,
+  "canonical_source_files": 1202,
+  "canonical_shipped_files": 1201,
   "employee_roles": 61,
   "coordinators": 1,
   "new_capabilities_from_adapters": 0,
-  "archive": "solaris-dev-shop-0.66.0-plugin.zip",
-  "archive_sha256": "e6d246bb2b7e1f672d6998b21ce3d06334589df9f8fc74f2548392941419d31c",
+  "archive": "solaris-dev-shop-0.68.0-plugin.zip",
+  "archive_sha256": "4dcbc80e1a4b0a64d1c6ba00f3e61c164ec827d87de4e20d0314bc9107e41a44",
   "packager_sha256": "7c50f2659c0cc05ff9107d1f550d5b9df760518a37c1c90c99b288d87152ba0c",
   "published": false
 }
