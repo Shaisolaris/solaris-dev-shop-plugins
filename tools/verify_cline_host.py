@@ -115,7 +115,7 @@ def main():
     print(json.dumps({'host': 'Cline ' + version, 'profileFiles': len(actual_files), 'byteIdenticalFiles': byte_identical,
                       'retainedGitMetadata': 'Requested exact public commit verified; sample hooks only' if retained_git else None,
                       'permittedInstallerNormalization': 'Only removal of two optional host SDK dependency fields, if present',
-                      'allExecutableModesMatch': True, 'canonicalHashes': 1200, 'actualCallerContexts': 62,
+                      'allExecutableModesMatch': True, 'canonicalHashes': len(provenance['canonical_files']), 'actualCallerContexts': 62,
                       'compositeProvenance': 'consistent', 'sdk': sdk, 'pass': True}, indent=2))
 
 

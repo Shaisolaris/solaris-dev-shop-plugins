@@ -28,7 +28,7 @@
     "tools/build_extra_harness_profiles.py": "ef525ea5e7dfce6e68724f4985a9394b9ac49e8189798025c93bb77c3fe9d6a5",
     "tools/verify_harness_profiles.py": "b24fae313ce3a6ab89ac55ed1b39b71080101a0812af2c0d0ff2afbf9efdc56f",
     "tools/verify_extra_harnesses.py": "5cefdc58e6dea5c652b5e622066511600df4a15470a0777db69659480e71d9c0",
-    "tools/verify_cline_host.py": "7966ff521ed00b34ee82f4a1778a70d8e1a63726994859fb54c5bf69aeaff41c",
+    "tools/verify_cline_host.py": "854b9b36e41c6ca6ac1b2f1b9a96781fc59cc503ace9b091123f06b718431219",
     "tools/verify_antigravity_host.py": "e2271e79c029a46a8b301e8f6da866ed00ca9322d3f4536d9218657603892c1f",
     "tools/verify_distribution.py": "db2dfec3c5266964b76a43796d3636fc24d9acf37ba5d85f9d6119aa0876f4cf",
     "tools/verify_copilot_layout.py": "c6df557082a861b90c30a8ddd9e372f08a10532153d3145111654817f9563d2f",
@@ -96,5 +96,6 @@
   ],
   "publishing_hold": "ClawHub must actually clear, then final exact-revision QA and supported public installs must pass before coherent channel publication",
   "status": "AWAITING_INDEPENDENT_SOURCE_TEST_SCOPE_REVIEW; generated candidates are not passing QA or listings",
-  "qa_correction": "QA exposed staleCopilot final-layout count1979; correctedto1980 (1979contained+oneSOURCE-NOTICE), preserving exactgolden comparison and all5controls. Failure logretained. No payload or other source/runner change."
+  "qa_correction": "QA exposed staleCopilot final-layout count1979; correctedto1980 (1979contained+oneSOURCE-NOTICE), preserving exactgolden comparison and all5controls. Failure logretained. No payload or other source/runner change.",
+  "host_report_correction": "CI40283681288passedactualassertion/loopover1201canonicalhashes, butCline reportfieldstillhardcoded1200. Derive reportcountfromverifiedprovenance;noassertion,case,CLIparameter,fixture,payloadorothercodechange. Existinglogsretained; exactaffectedsource reviewbefore CIheadadvance."
 }
