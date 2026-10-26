@@ -1,0 +1,99 @@
+{
+  "schema": 1,
+  "purpose": "Exact-source/test-scope review before QA of local0.68release preparation; not native M1/M2 production bot deployment",
+  "version": "0.68.0",
+  "base": "2c11999a1a13912fbb694228b176bc4ebb5f165e",
+  "core": "c7c9b395795f488dd3c48122ff916970438b67e6",
+  "trusted_packager": "129781961be54cc2f12d6bafe80e81d6a1cd8d02",
+  "contained_input": "e6bbd0ed63c788431003379d928be137c81693b0",
+  "cline_public_candidate": "a328faad1955647e250c0d3be456aa9a40a7766f",
+  "workflow_count": 62,
+  "canonical_files": 1201,
+  "selected_consumers": [
+    "portable Codex/Claude plugin",
+    "Copilot/Cursor contained payload",
+    "DeepSeek Harness",
+    "Kilo",
+    "Antigravity",
+    "Cline",
+    "Kimi/Pi discovery metadata"
+  ],
+  "frozen_payloads": {
+    "openclaw": "exact2c11999; existing submitted0.68artifact unchanged",
+    "amp": "owner-removed; exact2c11999archive unchanged, no0.68release or new listing"
+  },
+  "test_sources_sha256": {
+    "tools/build_copilot_layout.py": "efee2d7c70836438347477fb27082c1b5062510972abc7c86fbf8e2b0a19cff7",
+    "tools/build_harness_profiles.py": "13893e11c3f6dd764e1f4b3e74abb9fd95d0ba09012bf3031e7f9abf28a8f6f8",
+    "tools/build_extra_harness_profiles.py": "ef525ea5e7dfce6e68724f4985a9394b9ac49e8189798025c93bb77c3fe9d6a5",
+    "tools/verify_harness_profiles.py": "b24fae313ce3a6ab89ac55ed1b39b71080101a0812af2c0d0ff2afbf9efdc56f",
+    "tools/verify_extra_harnesses.py": "5cefdc58e6dea5c652b5e622066511600df4a15470a0777db69659480e71d9c0",
+    "tools/verify_cline_host.py": "7966ff521ed00b34ee82f4a1778a70d8e1a63726994859fb54c5bf69aeaff41c",
+    "tools/verify_antigravity_host.py": "e2271e79c029a46a8b301e8f6da866ed00ca9322d3f4536d9218657603892c1f",
+    "tools/verify_distribution.py": "db2dfec3c5266964b76a43796d3636fc24d9acf37ba5d85f9d6119aa0876f4cf",
+    "tools/verify_copilot_layout.py": "218c89e254551d10baaa9db39aee9ed62c63ba9ff071c218155300e80de8b082",
+    "tools/verify_distribution_metadata.py": "7e0b615ac02ab91a079b42cb4aa551d3e6ac3ca000a4a497d0e8348878243b37",
+    "tools/verify_openclaw_profile.py": "fd5f130d21f78f8d49f1d99fe558c157d52eec0ad6ae5f38178721d63306aa83",
+    "tools/distribution_metadata.py": "bcf9b2707ab3d0b8ac7d2caa8ff3d4fe616eff2787eb9dcae055d44bc136ed4c",
+    ".github/workflows/validate-native.yml": "cc86af3869f05f3bcba38f7cc371af301102ec7cba74f6c7b361035e6737d592"
+  },
+  "local_commands": [
+    "python tools/verify_distribution.py --source CORE --packager PACKAGER --self-test",
+    "python tools/verify_copilot_layout.py --self-test",
+    "python tools/verify_harness_profiles.py --openclaw-source CORE --packager PACKAGER --self-test",
+    "python tools/verify_extra_harnesses.py --host cline --self-test",
+    "python tools/verify_distribution_metadata.py --self-test"
+  ],
+  "protected_cases": [
+    "full portable golden bytes/modes and9tampering controls",
+    "Copilot golden layout/62contexts/coordinator/SQLiterestore and5tampering controls",
+    "immutable contained input independently rebuilt from trusted source, reject changedhelper plus both forged inventories",
+    "DSH/Kilo/Antigravity exact bytes/modes,62fresh contexts each,coordinator,5DSHtamper controls",
+    "unchanged ClawHub payload and10existingtamper controls",
+    "Cline1979files,62fresh contexts,coordinator,5tamper controls",
+    "metadata/credits/licenses8tamper controls;Google strict-manifest compatibility finding remains disclosed",
+    "retiredAmp full byte/mode freeze;reuse accepted unchanged CI40269203296, no claim new0.68Amp outcome"
+  ],
+  "host_cases": [
+    "fresh GitHub-hosted Linux only: official Antigravity digest-pinned binary and native plugin manager",
+    "fresh isolated Cline3.0.73 CLI/SDK: actual local install,62visibleworkflows,registered tools and callback outcomes",
+    "same Cline host: immutable public Git candidate install at statedSHA and full bytes/source binding",
+    "Claw0.68 normal isolated install is unchanged accepted evidence; CI source/callback checks are not marketplace admission"
+  ],
+  "file_allowlist": {
+    "read": [
+      "reviewed source and distribution Git clones",
+      "immutable assets and declared fixtures in those clones"
+    ],
+    "write": [
+      "owned temporary build/test directories",
+      "fresh GitHub-hosted RUNNER_TEMP and its fresh HOME for guarded native tests"
+    ],
+    "forbidden": [
+      "owner native profiles/accounts/configuration",
+      "M1/M2 installations",
+      "credentials",
+      "live browsers",
+      "mail",
+      "model or service settings"
+    ]
+  },
+  "network_allowlist": {
+    "local_tests": [],
+    "hosted_ci": [
+      "registry.npmjs.org for pinned official host packages;no install scripts",
+      "storage.googleapis.com/antigravity-public digest-pinned official binary",
+      "github.com/Shaisolaris/solaris-dev-shop-cline exactreviewcommit only"
+    ]
+  },
+  "scope_exclusions": [
+    "No paid/model API calls",
+    "No source edits requested of reviewer",
+    "No public listing/tag/main/NPM/provider upload",
+    "No scan exemption, fixture omission or required-check waiver",
+    "No version bump beyond existing0.68milestone",
+    "No retired-provider activation"
+  ],
+  "publishing_hold": "ClawHub must actually clear, then final exact-revision QA and supported public installs must pass before coherent channel publication",
+  "status": "AWAITING_INDEPENDENT_SOURCE_TEST_SCOPE_REVIEW; generated candidates are not passing QA or listings"
+}
