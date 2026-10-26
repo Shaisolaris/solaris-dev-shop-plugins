@@ -1,0 +1,77 @@
+{
+  "schema": 1,
+  "purpose": "Exactsource/testscope for isolated0.68Gemini/Claude exports; no implementation requested ofreviewer",
+  "source_refs": {
+    "native": "0ce43cd9a550a033a40b4e1f429a6c3c138802c2",
+    "contained": "e6bbd0ed63c788431003379d928be137c81693b0",
+    "core": "c7c9b395795f488dd3c48122ff916970438b67e6",
+    "gemini": "9a50300f5b7ee39cc36a8edb1ac740ee22e1891d",
+    "claude": "418e30c9530044196e5fdfcb8988f6bcb84879a8"
+  },
+  "test_runner": {
+    "path": "review-tools/verify_exports_068.py",
+    "sha256": "46478fe3fa0539078e660f8f0674d0fddb2b023a9163a3d1ea9ae6b26c74e4f4"
+  },
+  "runtime_identities": {
+    "node": {
+      "version": "24.19.0",
+      "sha256": "dbedff294bab84a0a86c04e15fbcbeb1c97ca10bef1b32b0634cd24b36f62100"
+    },
+    "gemini_entry": {
+      "package": "@google/gemini-cli",
+      "version": "0.65.0",
+      "entry": "bundle/gemini.js",
+      "sha256": "41847af2158ced805c4a3e098a05b9a2c26fb1a49b12583009b2eaf6a4059a59"
+    },
+    "claude_native": {
+      "package": "@anthropic-ai/claude-code-darwin-arm64",
+      "version": "2.1.306",
+      "sha256": "b5d795b7760032d79954b55a9cd1876dcf3a8dc9608fd6bb9f618593f69fd44b"
+    }
+  },
+  "protected_cases": [
+    "full1201CoreGitbytes/modes and exactcanonicalpathmaps onbothexports",
+    "62nativeworkflowdirectories with originalnames",
+    "Gemini exact4fieldmanifest;Claude nocustomMCP/hooks;noautomaticsurfaces",
+    "Gemini goldenrebuild fromcontainedE6 plusALL4existingnegativecontrols",
+    "sourcecoordinatorselftests onboth layouts",
+    "freshprivateGemini normaldocumentedCLI installwith explicit--consent, NO--force or--auto-update, exactpublicGitref",
+    "installedfullGitfile/modeidentity excludingONLYrootGitmetadata and rootinstallerreceipt",
+    "Gemini SDKnative skillslist requiresALL62Enabled",
+    "unchangedreviewedNativeCopilotsmoke:62contexts,boundedcoordinator,realSQLiterestore2rows,neighborunchanged",
+    "Claude officialnative2.1.306 strictdirectoryvalidation mustreportnoschemaerrors/warnings/incomplete/findings",
+    "existingexportCIwhole-source/roster/offlinesetup casesretainIDs and expectedsourcecounts"
+  ],
+  "selected_commands": [
+    "Gemini: python tools/build_gemini.py --source NATIVE --check GEMINI --self-test",
+    "QA runner: --mode source with explicit GEMINI/CLAUDE/CORE/NATIVE clones and NEW workdir",
+    "QA runner: --mode gemini with digestpinned Node/CLIentry and NEW workdir",
+    "QA runner: --mode claude with digestpinned officialMachObinary and NEW workdir",
+    "Both exportCIworkflows at exactcandidate refs, afterscopeapproval"
+  ],
+  "access_boundary": {
+    "read": [
+      "exactpublicreviewclones",
+      "declaredofficialruntimepackages/systemstdlib/CAfiles"
+    ],
+    "write": [
+      "NEWownedtemporaryworkdir,freshHOME/GEMINI_CLI_HOME/CLAUDE_CONFIG_DIR/XDGpaths",
+      "privateQAlogs only"
+    ],
+    "network": [
+      "Gemini documentedCLI publicGithubsourceinstall at exact9a50300 ref",
+      "CI explicitpublicsourcecheckouts at referencedfullSHAs"
+    ],
+    "forbidden": [
+      "ownerprofiles/accounts/keys/credentials",
+      "M1/M2botorproductionfiles",
+      "livebrowsers/mail",
+      "anymodel/prompt/inferencecommand",
+      "publication/tag/mainwrites",
+      "newservicehooks/grants/schedulers"
+    ]
+  },
+  "model_claim": "ReportzeroMODEL_COMMANDSissued; modelusageisnotmetered. Auth/providerkeysarenotpassed; management/validationcommands only. Do notinvent cost/usageevidence.",
+  "publishing_hold": "ClawHub actualrequiredsemanticScan/admission and coherentfinalrelease gates remain; these are untestedreviewcandidates, not acceptedmarketplace listings",
+  "stage": "AWAITING_INDEPENDENT_SOURCE_TEST_SCOPE_REVIEW"
+}
