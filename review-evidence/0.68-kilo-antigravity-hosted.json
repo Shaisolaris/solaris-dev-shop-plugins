@@ -1,0 +1,259 @@
+{
+  "schema": 1,
+  "provenance": "Root extracted exact JSON outputs from authenticated GitHub logs; public CI metadata independently verifies source/step outcomes. Raw logs retained locally; no independent raw-log fetch claimed.",
+  "nativeOutcomes": {
+    "kilo": {
+      "host": "Kilo 7.8.15",
+      "source": "f68254ab6bbf90296c175199ad7c82de34cc5a51",
+      "transport": "named npm-compatible Git",
+      "nativeWorkflows": 62,
+      "matchingProfileFilesAndModes": 1978,
+      "canonicalFiles": 1201,
+      "nativeCallerContexts": 62,
+      "coordinatorAssignment": "solaris.code-reviewer",
+      "compositeProvenance": "consistent",
+      "modelCalls": 0,
+      "pass": true
+    },
+    "antigravity": {
+      "pass": true,
+      "host": "Antigravity CLI",
+      "version": "1.4.5",
+      "sha512": "fd30e8d256e28c4a6d0f5fddaa0f74b47c8c5a8e9fa2285cb03f85093e90eca0406f1c2fa57a0386bb820e21ed427e27c2315a01453dfda401c2223b2639ab30",
+      "nativeWorkflows": 62,
+      "installedFilesAndModes": 1980,
+      "liveContexts": 62,
+      "coordinatorAssignment": "solaris.code-reviewer",
+      "modelCalls": 0,
+      "ownerProfileAccess": false,
+      "providerApproval": false
+    }
+  },
+  "ci": {
+    "kilo": {
+      "conclusion": "success",
+      "headSha": "be574f850f5edc8c3e5794240c4a35abf86dd3ed",
+      "jobs": [
+        {
+          "completedAt": "2026-10-26T09:03:16Z",
+          "conclusion": "success",
+          "databaseId": 121483909420,
+          "name": "native-kilo",
+          "startedAt": "2026-10-26T09:02:43Z",
+          "status": "completed",
+          "steps": [
+            {
+              "completedAt": "2026-10-26T09:02:45Z",
+              "conclusion": "success",
+              "name": "Set up job",
+              "number": 1,
+              "startedAt": "2026-10-26T09:02:44Z",
+              "status": "completed"
+            },
+            {
+              "completedAt": "2026-10-26T09:02:46Z",
+              "conclusion": "success",
+              "name": "Run actions/checkout@11d5960a326750d5838078e36cf38b85af677262",
+              "number": 2,
+              "startedAt": "2026-10-26T09:02:45Z",
+              "status": "completed"
+            },
+            {
+              "completedAt": "2026-10-26T09:02:48Z",
+              "conclusion": "success",
+              "name": "Run actions/checkout@11d5960a326750d5838078e36cf38b85af677262",
+              "number": 3,
+              "startedAt": "2026-10-26T09:02:46Z",
+              "status": "completed"
+            },
+            {
+              "completedAt": "2026-10-26T09:02:49Z",
+              "conclusion": "success",
+              "name": "Run actions/setup-python@a26af69be951a213d495a4c3e4e4022e16d87065",
+              "number": 4,
+              "startedAt": "2026-10-26T09:02:48Z",
+              "status": "completed"
+            },
+            {
+              "completedAt": "2026-10-26T09:02:49Z",
+              "conclusion": "success",
+              "name": "Run actions/setup-node@249970729cb0ef3589644e2896645e5dc5ba9c38",
+              "number": 5,
+              "startedAt": "2026-10-26T09:02:49Z",
+              "status": "completed"
+            },
+            {
+              "completedAt": "2026-10-26T09:02:49Z",
+              "conclusion": "success",
+              "name": "Exact payload and bounded publication support files",
+              "number": 6,
+              "startedAt": "2026-10-26T09:02:49Z",
+              "status": "completed"
+            },
+            {
+              "completedAt": "2026-10-26T09:02:57Z",
+              "conclusion": "success",
+              "name": "Prepare pinned native CLI and helper prerequisite",
+              "number": 7,
+              "startedAt": "2026-10-26T09:02:49Z",
+              "status": "completed"
+            },
+            {
+              "completedAt": "2026-10-26T09:03:13Z",
+              "conclusion": "success",
+              "name": "Actual public Git install, 62 complete native bodies, source bytes and callers",
+              "number": 8,
+              "startedAt": "2026-10-26T09:02:57Z",
+              "status": "completed"
+            },
+            {
+              "completedAt": "2026-10-26T09:03:13Z",
+              "conclusion": "success",
+              "name": "Post Run actions/setup-node@249970729cb0ef3589644e2896645e5dc5ba9c38",
+              "number": 13,
+              "startedAt": "2026-10-26T09:03:13Z",
+              "status": "completed"
+            },
+            {
+              "completedAt": "2026-10-26T09:03:13Z",
+              "conclusion": "success",
+              "name": "Post Run actions/setup-python@a26af69be951a213d495a4c3e4e4022e16d87065",
+              "number": 14,
+              "startedAt": "2026-10-26T09:03:13Z",
+              "status": "completed"
+            },
+            {
+              "completedAt": "2026-10-26T09:03:13Z",
+              "conclusion": "success",
+              "name": "Post Run actions/checkout@11d5960a326750d5838078e36cf38b85af677262",
+              "number": 15,
+              "startedAt": "2026-10-26T09:03:13Z",
+              "status": "completed"
+            },
+            {
+              "completedAt": "2026-10-26T09:03:13Z",
+              "conclusion": "success",
+              "name": "Post Run actions/checkout@11d5960a326750d5838078e36cf38b85af677262",
+              "number": 16,
+              "startedAt": "2026-10-26T09:03:13Z",
+              "status": "completed"
+            },
+            {
+              "completedAt": "2026-10-26T09:03:14Z",
+              "conclusion": "success",
+              "name": "Complete job",
+              "number": 17,
+              "startedAt": "2026-10-26T09:03:13Z",
+              "status": "completed"
+            }
+          ],
+          "url": "https://github.com/Shaisolaris/solaris-dev-shop-kilo/actions/runs/40296555255/job/121483909420"
+        }
+      ],
+      "status": "completed",
+      "rawLogSHA256": "92b643693e00719422bbd7165cfa57715a40f890a07a330f51a484068475e9b8"
+    },
+    "antigravity": {
+      "conclusion": "success",
+      "headSha": "b81d2b5a7c3c40f1aa55c88341f3d89aa9ee9965",
+      "jobs": [
+        {
+          "completedAt": "2026-10-26T09:03:03Z",
+          "conclusion": "success",
+          "databaseId": 121483939874,
+          "name": "native-manager-and-source",
+          "startedAt": "2026-10-26T09:02:48Z",
+          "status": "completed",
+          "steps": [
+            {
+              "completedAt": "2026-10-26T09:02:50Z",
+              "conclusion": "success",
+              "name": "Set up job",
+              "number": 1,
+              "startedAt": "2026-10-26T09:02:49Z",
+              "status": "completed"
+            },
+            {
+              "completedAt": "2026-10-26T09:02:51Z",
+              "conclusion": "success",
+              "name": "Run actions/checkout@11d5960a326750d5838078e36cf38b85af677262",
+              "number": 2,
+              "startedAt": "2026-10-26T09:02:50Z",
+              "status": "completed"
+            },
+            {
+              "completedAt": "2026-10-26T09:02:53Z",
+              "conclusion": "success",
+              "name": "Run actions/checkout@11d5960a326750d5838078e36cf38b85af677262",
+              "number": 3,
+              "startedAt": "2026-10-26T09:02:51Z",
+              "status": "completed"
+            },
+            {
+              "completedAt": "2026-10-26T09:02:54Z",
+              "conclusion": "success",
+              "name": "Run actions/setup-python@a26af69be951a213d495a4c3e4e4022e16d87065",
+              "number": 4,
+              "startedAt": "2026-10-26T09:02:53Z",
+              "status": "completed"
+            },
+            {
+              "completedAt": "2026-10-26T09:02:55Z",
+              "conclusion": "success",
+              "name": "Exact source profile and modes; no unexpected runtime surfaces",
+              "number": 5,
+              "startedAt": "2026-10-26T09:02:54Z",
+              "status": "completed"
+            },
+            {
+              "completedAt": "2026-10-26T09:03:01Z",
+              "conclusion": "success",
+              "name": "Real native plugin manager in the fresh hosted home",
+              "number": 6,
+              "startedAt": "2026-10-26T09:02:55Z",
+              "status": "completed"
+            },
+            {
+              "completedAt": "2026-10-26T09:03:01Z",
+              "conclusion": "success",
+              "name": "Post Run actions/setup-python@a26af69be951a213d495a4c3e4e4022e16d87065",
+              "number": 10,
+              "startedAt": "2026-10-26T09:03:01Z",
+              "status": "completed"
+            },
+            {
+              "completedAt": "2026-10-26T09:03:01Z",
+              "conclusion": "success",
+              "name": "Post Run actions/checkout@11d5960a326750d5838078e36cf38b85af677262",
+              "number": 11,
+              "startedAt": "2026-10-26T09:03:01Z",
+              "status": "completed"
+            },
+            {
+              "completedAt": "2026-10-26T09:03:02Z",
+              "conclusion": "success",
+              "name": "Post Run actions/checkout@11d5960a326750d5838078e36cf38b85af677262",
+              "number": 12,
+              "startedAt": "2026-10-26T09:03:01Z",
+              "status": "completed"
+            },
+            {
+              "completedAt": "2026-10-26T09:03:02Z",
+              "conclusion": "success",
+              "name": "Complete job",
+              "number": 13,
+              "startedAt": "2026-10-26T09:03:02Z",
+              "status": "completed"
+            }
+          ],
+          "url": "https://github.com/Shaisolaris/solaris-dev-shop-antigravity/actions/runs/40296564522/job/121483939874"
+        }
+      ],
+      "status": "completed",
+      "rawLogSHA256": "4e115781b6dd63c2118aeb3714db77f41f8a15cc58bbe5fc64f1770034274306"
+    }
+  },
+  "publishingAllowed": false,
+  "marketplaceAdmission": false,
+  "ClawHubRequiredScanComplete": false
+}
