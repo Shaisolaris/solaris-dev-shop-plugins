@@ -1,0 +1,42 @@
+{
+  "schema": 1,
+  "purpose": "Read-only review of Root-authored Kilo/Antigravity export source and exact existing hosted native tests; no reviewer implementation or test execution.",
+  "sources": {
+    "native": "0ce43cd9a550a033a40b4e1f429a6c3c138802c2",
+    "core": "c7c9b395795f488dd3c48122ff916970438b67e6",
+    "kilo": "be574f850f5edc8c3e5794240c4a35abf86dd3ed",
+    "kiloPureInput": "f68254ab6bbf90296c175199ad7c82de34cc5a51",
+    "kiloPureTree": "dde76c6e6b39f25b7258f9148569da8666481e53",
+    "antigravity": "b81d2b5a7c3c40f1aa55c88341f3d89aa9ee9965"
+  },
+  "scope": "Only static source exports/metadata and hosted CI. No installed owner bots or M1/M2 activation. Kilo V2 helper changes only profile count1977to1978/corepin/canonical1200to1201. Other cases and runtime versions stay unchanged. Antigravity source pin and documentation updated.",
+  "testArtifacts": {
+    "kilo/tools/verify-native-kilo.py": "db3c651f90f29959fd1d60cfefe2a6ebbbcd3da6700dd20f9ed54c172118e70c",
+    "kilo/.github/workflows/native-kilo.yml": "195c567b38b01d96ab0122739782a02161aa85c53386612d23ba32793a14cbf7",
+    "antigravity/.github/workflows/validate-native.yml": "cf106c8c453c1a7509e7be3c8aa9ba3c1434c7b3ef4e884b2038ef95959899b2",
+    "native/tools/verify_antigravity_host.py": "e2271e79c029a46a8b301e8f6da866ed00ca9322d3f4536d9218657603892c1f",
+    "native/tools/native-hosts/antigravity-linux.json": "3cbea82898d7096049b32819701f18a2326c59022ced3eac9236d2fdb1f361d8",
+    "native/tools/verify_copilot_layout.py": "c6df557082a861b90c30a8ddd9e372f08a10532153d3145111654817f9563d2f"
+  },
+  "protectedCases": [
+    "Whole native product file set/bytes/executable modes including all1201canonicalfiles and62workflows",
+    "Kilo normal full public Git plugin installation at exactpure-inputSHA using officialCLI7.8.15",
+    "Kilo fresh hosted HOME/XDG,synthetic loopback Basic auth,all62actualskillbodies/nativecatalog/callers,boundedcoordinator,provenancecheck",
+    "Antigravity normal official1.4.5 native manager install/enable/discovery and62contexts/recovery smoke through approved0ce runner",
+    "All previously reviewed helper assertions remain; no force/scanwaiver/model-inference/account/profile grants"
+  ],
+  "accessBoundary": {
+    "read": "Only exact public source checkout, pinned official registry/native host packages and system runtime on disposable GitHub-hosted runners",
+    "write": "Hosted fresh runner checkout/RUNNER_TEMP/XDG/HOME only; no local owner profiles",
+    "network": "Public GitHub exact source fetch; npm officialKilo7.8.15 and PyPI PyYAML6.0.3 prerequisite; pinned officialAntigravity download; Kilo loopback API",
+    "forbidden": [
+      "Owneraccounts/credentials/profiles",
+      "M1/M2 production code/config/runtimes",
+      "Any model prompt/inference command",
+      "Main/tag/marketplace writes",
+      "Scanner bypasses/new controllers"
+    ]
+  },
+  "stage": "AWAITING_INDEPENDENT_SOURCE_TEST_SCOPE_REVIEW",
+  "publishingAllowed": false
+}
