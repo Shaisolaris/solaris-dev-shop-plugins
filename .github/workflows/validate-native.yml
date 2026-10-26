@@ -31,7 +31,7 @@ jobs:
       - uses: actions/checkout@11d5960a326750d5838078e36cf38b85af677262
         with:
           repository: Shaisolaris/solaris-dev-shop
-          ref: fa1a579c1440a5af665161d0a9f3b77c46c5f4b4
+          ref: c7c9b395795f488dd3c48122ff916970438b67e6
           path: security-upstream
           persist-credentials: false
       - uses: actions/setup-python@a26af69be951a213d495a4c3e4e4022e16d87065

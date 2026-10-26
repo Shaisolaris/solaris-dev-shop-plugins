@@ -10,7 +10,7 @@ import sys
 import tempfile
 
 ROOT = Path(__file__).resolve().parents[1]
-EXPECTED_CORE = 'fa1a579c1440a5af665161d0a9f3b77c46c5f4b4'
+EXPECTED_CORE = 'c7c9b395795f488dd3c48122ff916970438b67e6'
 EXPECTED_NATIVE = 'e02d8002d195f929e30fb5063bd04d4ed27190d6'
 EXPECTED_PACKAGER = '129781961be54cc2f12d6bafe80e81d6a1cd8d02'
 spec = importlib.util.spec_from_file_location('openclaw_builder', ROOT / 'tools/build_openclaw_profile.py')
@@ -100,7 +100,7 @@ def controls(expected):
 
 def verify(source, packager, candidate, self_test=False):
     if (builder.CORE, builder.NATIVE, builder.PACKAGER, builder.VERSION) != (
-            EXPECTED_CORE, EXPECTED_NATIVE, EXPECTED_PACKAGER, '0.67.0'):
+            EXPECTED_CORE, EXPECTED_NATIVE, EXPECTED_PACKAGER, '0.68.0'):
         raise ValueError('Unexpected build input or version pins')
     with tempfile.TemporaryDirectory(prefix='openclaw-golden-') as temporary:
         temporary = Path(temporary)
@@ -128,7 +128,7 @@ def verify(source, packager, candidate, self_test=False):
         assignment = json.loads(output)
         if assignment['assignment']['primary_capability'] != 'solaris.code-reviewer' or assignment['performed_work'] is not False:
             raise ValueError('Fresh native caller did not return the bounded assignment')
-        result = {'result': 'PASS', 'version': '0.67.0', 'core': EXPECTED_CORE,
+        result = {'result': 'PASS', 'version': '0.68.0', 'core': EXPECTED_CORE,
                   'files': len(builder.inventory(candidate)), 'canonical_files': 1201, 'fresh_callers': 62,
                   'assignment': 'solaris.code-reviewer', 'provider_admission': False}
         if self_test:
