@@ -1,0 +1,36 @@
+{
+  "schema": 1,
+  "source": "9458ae9e8baca307b750d977a71f3991c967c38a",
+  "baseline": "f7eefa7ea553d3f077424243cd81a5951ab10f9a",
+  "frozenSubmittedSource": "2c11999a1a13912fbb694228b176bc4ebb5f165e",
+  "frozenSubmittedTree": "0eaed8b3787a06b8b6c25f563b468652e6e20c50",
+  "stage": "AWAITING_SOURCE_TEST_SCOPE_REVIEW",
+  "implementation": "Root Codex; reviewer must not implement or execute tests",
+  "tests": {
+    "tools/verify_openclaw_normal_host.py": "847496e9574ab001f3a91f54c3a466f344ec118e83f9d4c17c5e3cf20ebe993e",
+    ".github/workflows/validate-native.yml": "9c2093d7034e8b71d0cec0f7f372ff63a05f63feb5a766d756896879bdf1e791"
+  },
+  "protectedCases": [
+    "Exact1335profilebytes/modes+4priorrepositorysupportfiles+newtesthelper; all1201canonicalfiles/62workflows retained",
+    "Existing G38 authority oracle and G42 cross-checks unchanged from acceptedc7source",
+    "OfficialOpenClaw2026.10.5 install in fresh hostedHOME/state/XDG with normal exactsourceprompt answeredonce through privatePTY; NO force/capability/policy overrides",
+    "Allinstalledproductbytes/modes equal frozen submitted1335filetree before andaftermanagementcommands",
+    "Actual62modelVisibleskills,code-reviewer assignment andperformed_workfalse",
+    "Shell-likeinputremainsdata/oversize32769bytesrefused/legitimateuseafterrefusal"
+  ],
+  "sourceChangeReason": "Replace stale0.66export with alreadyaccepted2c1335fileprofile and staleforcedCIinstallation with normalinteractive sourceconsent. Shared canonical source replaces duplicate per-skill resource copies; no canonical roles/helpers/fixtures/licenses omitted. Submittedartifact bytes andproviderattempt unchanged.",
+  "accessBoundary": {
+    "read": "Exact public source clones,pinned official npm OpenClaw2026.10.5,system runtime on GitHub-hosted Linux runner",
+    "write": "Disposable runner checkout/RUNNER_TEMP and explicit fresh HOME/state/XDG/logs only",
+    "network": "Public GitHub exact checkout and official npm package installation; no inference APIs/accounts",
+    "forbidden": [
+      "Ownerprofiles/credentials",
+      "M1/M2 or production bot source/config/runtime",
+      "Forceinstall,capabilityoverride,securitypolicychange",
+      "Model/promptcommands",
+      "Main/tag/marketplacewrites or repeatedClawHubpublication"
+    ]
+  },
+  "publishingAllowed": false,
+  "scope": "Standalone source export and isolated hosted QA only; not production activation or provider admission"
+}
