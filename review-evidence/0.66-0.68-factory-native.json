@@ -1,0 +1,84 @@
+{
+  "recordedAtUTC": "2026-10-27T01:17:29.305643+00:00",
+  "qaSource": "6fb1758ba1fd5719b44a09b97d5c6816ab5ed1e7",
+  "runnerSHA256": "5d3bf4b976dca208267f6c94d0475eeba503e1ea67f2c790c3ce62e1c5218971",
+  "catalogEntrySource": "b9064234ba2eaae80bdf07a52045538dadf06457",
+  "result": {
+    "factoryHost": "Droid0.247.0",
+    "fixtureTransport": "owned local Git catalog",
+    "productTransport": "normal public GitHub git-subdir source at exact SHA",
+    "outcomes": [
+      {
+        "source": "e02d8002d195f929e30fb5063bd04d4ed27190d6",
+        "version": "0.66.0",
+        "matchingFilesAndModes": 1979,
+        "canonicalFiles": 1200,
+        "registeredEnabledPlugin": true,
+        "nativeSkillEntryFiles": 62,
+        "modelCommandsIssued": 0,
+        "directPathMatches": 1978,
+        "nativeManifestRelocation": {
+          ".claude-plugin/plugin.json": ".factory-plugin/plugin.json"
+        },
+        "ownerConfigurationPassed": false,
+        "publicListingAccepted": false
+      },
+      {
+        "source": "0ce43cd9a550a033a40b4e1f429a6c3c138802c2",
+        "version": "0.68.0",
+        "matchingFilesAndModes": 1980,
+        "canonicalFiles": 1201,
+        "registeredEnabledPlugin": true,
+        "nativeSkillEntryFiles": 62,
+        "modelCommandsIssued": 0,
+        "directPathMatches": 1979,
+        "nativeManifestRelocation": {
+          ".claude-plugin/plugin.json": ".factory-plugin/plugin.json"
+        },
+        "ownerConfigurationPassed": false,
+        "publicListingAccepted": false,
+        "actualHelperOutcomes": {
+          "context_workflows": 62,
+          "actual_assignment": "solaris.code-reviewer",
+          "actual_sqlite_rows_restored": 2,
+          "neighbor_unchanged": true
+        }
+      }
+    ],
+    "upstreamSubmissionChanged": false,
+    "productionActivation": false,
+    "releaseAllowed": false,
+    "pass": true
+  },
+  "logSHA256": {
+    "066/add.stdout": "71f4d3ebe0ab8f8cda69ce72f7fa3a5f65b7c54b3eaa8686bd4a253704dd57fc",
+    "066/install.stdout": "caa93d392694a307b6c83141195476ac570f8fe9d9e87f4e51702af22a333241",
+    "066/list.stdout": "3d0cffc913e7cbe5016812e01c28cddaa23ae0a36fa2319ba7d635685d6b9dc4",
+    "066/version.stdout": "a7479e8f3a849ef98f471c73128abd3b6e3a5848d7ba92f4427eb51755739aa7",
+    "068/add.stdout": "33bf29e766001c272ffc4101d26af26a1084f6f51d3e140fd50313089adc86bf",
+    "068/install.stdout": "e73fe1d7fb16141bcc09a4bcdcd591519caa3e76afdc0405c416af6d2377cabc",
+    "068/list.stdout": "ffb3c98ba8c14e37370c28df8e1889eef959072a61419b978c18e8c8904aa8a9",
+    "068/version.stdout": "a7479e8f3a849ef98f471c73128abd3b6e3a5848d7ba92f4427eb51755739aa7",
+    "066/add.stderr": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "066/install.stderr": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "066/list.stderr": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "066/version.stderr": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "068/add.stderr": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "068/install.stderr": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "068/list.stderr": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "068/version.stderr": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+  },
+  "outerLogSHA256": "de42c58b81863e752ef7541542d9c23e209df3dbdb4d6f9c79e82f6382b2134e",
+  "priorFailure": {
+    "preserved": true,
+    "run1LogSHA256": "06fb71dd6e009c9c4d7f34abb55274923c71bfe45df2149827616bbcd5a846c6",
+    "cause": "Literal source-layout expectation did not model native manifest relocation; original comparison proves zero changed bytes/modes and one path mapping only."
+  },
+  "evidenceProvenance": "Root executed normal native management commands and approved helper locally on macOS; actual result/log hashes are Root-brokered and raw private logs retained. Independent reviewer can inspect public source/pins/report consistency, not independently executed logs.",
+  "limits": [
+    "No inference/model session, broader specialist-quality or production certification.",
+    "Private local Git catalog fixture does not establish official Factory marketplace listing.",
+    "One explicit first-party manifest path relocation is recorded; all file contents/modes match.",
+    "No new provider application/upload/source main/tag/release or installed-bot activation."
+  ]
+}
