@@ -1,0 +1,73 @@
+{
+  "purpose": "Independent source/test-scope review only; close the explicitly historical Factory0.64 native proof gap for the current0.66 catalog and prepared0.68. No new application,provider upload,model invocation or production activation.",
+  "base": "43ce10696d6dd94a6c2b89cd059528fc8d9ffa2d",
+  "catalogSource": "b9064234ba2eaae80bdf07a52045538dadf06457",
+  "catalogRepo": "Shaisolaris/factory-plugins",
+  "sources": {
+    "066": {
+      "native": "e02d8002d195f929e30fb5063bd04d4ed27190d6",
+      "path": "copilot/plugin",
+      "files": 1979,
+      "canonicals": 1200
+    },
+    "068": {
+      "native": "0ce43cd9a550a033a40b4e1f429a6c3c138802c2",
+      "path": "copilot/plugin",
+      "files": 1980,
+      "canonicals": 1201
+    }
+  },
+  "runtime": {
+    "host": "Existing official FactoryDroid0.247.0 darwin-arm64",
+    "sha256": "f18812ff1017396664ce67f9754ad4732ac91b471004ccbc0315dff6dd3e59b5",
+    "python": "Existing isolated3.12 build environment/PyYAML; no new packages"
+  },
+  "runner": {
+    "path": "review-tools/verify_factory_066_068.py",
+    "sha256": "a35ca9fc5c78e9e66b0440eb01639f36e8b6bad42fd7bf0b28845a78703702f0"
+  },
+  "reusedHelper": {
+    "path": "tools/verify_copilot_layout.py",
+    "source": "0ce43cd9a550a033a40b4e1f429a6c3c138802c2",
+    "sha256": "c6df557082a861b90c30a8ddd9e372f08a10532153d3145111654817f9563d2f"
+  },
+  "cases": [
+    "F01 exact runtime identity and exact catalog source entry before any native command",
+    "F02 fresh normal private local Git-catalog registration per lane; selected target source is fetched by native client from publicGitHub using exact git-subdir SHA",
+    "F03 actual enabled native plugin-list entry, not install stdout alone",
+    "F04 exact installed profile bytes/executable modes1979/1980 and all canonical hashes; Git administrative metadata only excluded",
+    "F05 all62 native SKILL entry files/names present; not a claim of62 model executions or separate native skill API discovery",
+    "F06 candidate0.68 only: approved byte-bound helper actual62contexts/boundedassignment/2rowSQLite restore and neighboring-file preservation",
+    "F07 installed source still byte/mode identical after checks and client binary unchanged"
+  ],
+  "fixture": "One-entry .factory-plugin catalog derives the exact existing official-PR entry; private QA name/owner/description and selected source.sha only. Synthesized inside a NEW owned workdir and committed to a private local Git fixture branch. No product source is copied into fixture. Native management uses a normal file:// Git URL; any unsupported transport/auth prompt/source mismatch is a retained failure, not grounds for force or silent method changes.",
+  "boundary": {
+    "read": [
+      "Explicit public Git objects for catalog and both product refs",
+      "Declared cached officialDroid binary and systemGit/Python/CA libraries",
+      "Approved helper0ce and installed public candidate resources"
+    ],
+    "write": [
+      "NEW owned test workdir including separate freshHOME/FACTORY_HOME_OVERRIDE/XDG/temp/Git configuration/cache/logs/catalog/recoveryfixtures"
+    ],
+    "network": [
+      "Normal public GitHub product Git fetch; possible official Factory management/version metadata under first-party client, telemetry/update opt-out requested; no credentials or account configuration passed"
+    ],
+    "forbidden": [
+      "Model/inference/session-start commands",
+      "Owner profiles/keys/accounts or M1/M2 files/activation",
+      "Force/trust/security bypass or dependency installation",
+      "Provider application or source main/tag/release changes",
+      "New provider,worker,scheduler or controller"
+    ]
+  },
+  "evidenceLimits": [
+    "Opaque first-party client is not OS-sandboxed; fresh config/environment and permitted command set are enforced by helper, not a claim of full syscall auditing.",
+    "The actual child source SHA is established by complete installed inventory; metadata commit labels may refer to the catalog instead.",
+    "0.66 baseline executes management only, no old specialist helper.",
+    "Native registration/discovery/resources/helper outcomes do not certify live model quality or marketplace curation acceptance."
+  ],
+  "rollback": "Discard new isolated QA state only; preserve failed evidence and existing submissions.",
+  "sharedSecurityHold": "ClawHub required admission and final release gates remain; pending catalog approval is separate from compatibility.",
+  "stage": "AWAITING_INDEPENDENT_SOURCE_TEST_SCOPE_REVIEW"
+}
