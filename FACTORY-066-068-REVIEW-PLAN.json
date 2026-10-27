@@ -24,7 +24,7 @@
   },
   "runner": {
     "path": "review-tools/verify_factory_066_068.py",
-    "sha256": "a35ca9fc5c78e9e66b0440eb01639f36e8b6bad42fd7bf0b28845a78703702f0"
+    "sha256": "5d3bf4b976dca208267f6c94d0475eeba503e1ea67f2c790c3ce62e1c5218971"
   },
   "reusedHelper": {
     "path": "tools/verify_copilot_layout.py",
@@ -35,7 +35,7 @@
     "F01 exact runtime identity and exact catalog source entry before any native command",
     "F02 fresh normal private local Git-catalog registration per lane; selected target source is fetched by native client from publicGitHub using exact git-subdir SHA",
     "F03 actual enabled native plugin-list entry, not install stdout alone",
-    "F04 exact installed profile bytes/executable modes1979/1980 and all canonical hashes; Git administrative metadata only excluded",
+    "F04 exact installed bytes/executable modes1979/1980 with precisely one observed native manifest relocation .claude-plugin/plugin.json\u2192.factory-plugin/plugin.json; no ignored source files or arbitrary path changes; all canonical hashes retained",
     "F05 all62 native SKILL entry files/names present; not a claim of62 model executions or separate native skill API discovery",
     "F06 candidate0.68 only: approved byte-bound helper actual62contexts/boundedassignment/2rowSQLite restore and neighboring-file preservation",
     "F07 installed source still byte/mode identical after checks and client binary unchanged"
@@ -69,5 +69,14 @@
   ],
   "rollback": "Discard new isolated QA state only; preserve failed evidence and existing submissions.",
   "sharedSecurityHold": "ClawHub required admission and final release gates remain; pending catalog approval is separate from compatibility.",
-  "stage": "AWAITING_INDEPENDENT_SOURCE_TEST_SCOPE_REVIEW"
+  "stage": "AWAITING_INDEPENDENT_EXACT_DELTA_SCOPE_REVIEW",
+  "priorFailure": {
+    "run": "factory-native-066-068-run1",
+    "disposition": "FAIL retained, helper expected literal source layout",
+    "observed": "Actual enabled Factory0.66 install has1979files; all contents/modes match. Exactly one path moves from .claude-plugin/plugin.json to .factory-plugin/plugin.json; no other missing/extra/changed file.",
+    "correction": "Model this native manifest representation explicitly, not an arbitrary exclusion or source repair. Require every original file content/mode, exact mapped paths and no extras before and after smoke."
+  },
+  "nativeManifestMapping": {
+    ".claude-plugin/plugin.json": ".factory-plugin/plugin.json"
+  }
 }

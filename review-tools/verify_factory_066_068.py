@@ -82,6 +82,10 @@ def main():
     outcomes = []
     for lane, (ref, version, count, canonical_count) in SOURCES.items():
         expected, skill_names = expected_profile(native, ref, version, count, canonical_count)
+        native_expected = dict(expected)
+        assert '.claude-plugin/plugin.json' in native_expected
+        assert '.factory-plugin/plugin.json' not in native_expected
+        native_expected['.factory-plugin/plugin.json'] = native_expected.pop('.claude-plugin/plugin.json')
         state = work / lane
         state.mkdir()
         home = state / 'home'
@@ -132,11 +136,13 @@ def main():
         installed = [p.parent for p in cache.rglob('COPILOT-LAYOUT.json')]
         assert len(installed) == 1, installed
         root = installed[0]
-        assert inventory(root) == expected, 'Installed source files/modes differ from ' + ref
+        assert inventory(root) == native_expected, 'Installed source files/modes differ beyond the exact native manifest relocation: ' + ref
         assert {p.parent.name for p in (root / 'skills').glob('*/SKILL.md')} == skill_names
         outcome = {'source': ref, 'version': version, 'matchingFilesAndModes': count,
                    'canonicalFiles': canonical_count, 'registeredEnabledPlugin': True,
                    'nativeSkillEntryFiles': 62, 'modelCommandsIssued': 0,
+                   'directPathMatches': count - 1,
+                   'nativeManifestRelocation': {'.claude-plugin/plugin.json': '.factory-plugin/plugin.json'},
                    'ownerConfigurationPassed': False, 'publicListingAccepted': False}
         if lane == '068':
             helper = native / 'tools/verify_copilot_layout.py'
@@ -154,7 +160,7 @@ def main():
             finally:
                 os.environ.clear()
                 os.environ.update(saved_environment)
-        assert inventory(root) == expected, 'Installed source changed during checks'
+        assert inventory(root) == native_expected, 'Installed source changed during checks'
         outcomes.append(outcome)
     assert sha(cli.read_bytes()) == CLI_SHA
     report = {'factoryHost': 'Droid0.247.0', 'fixtureTransport': 'owned local Git catalog',
