@@ -4606,11 +4606,11 @@
     },
     "openclaw.plugin.json": {
       "executable": false,
-      "sha256": "ae8501d4511c0c79b3bc239e6227e9b2d8d40cea6e5dab6ec5cc9fe4d365056a"
+      "sha256": "81f390534fac23c39a6e07e21d2aa780c67538ec1ec9eed591a26ba2e3bb6d38"
     },
     "package.json": {
       "executable": false,
-      "sha256": "3b948a2c0eaff00c90eed7c05fa8072ecfdb9f29d6ae90231cd245ebd2d06fe0"
+      "sha256": "28e15862f3110818e363ac6cdadceed6506cdbc69c5bcb13d33a15f2615d01ec"
     },
     "pyproject.toml": {
       "executable": false,
@@ -5364,5 +5364,5 @@
   },
   "reviewed_packager": "129781961be54cc2f12d6bafe80e81d6a1cd8d02",
   "specialists": 61,
-  "version": "0.68.0"
+  "version": "0.69.0"
 }
