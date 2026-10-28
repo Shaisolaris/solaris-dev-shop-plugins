@@ -100,7 +100,7 @@ def controls(expected):
 
 def verify(source, packager, candidate, self_test=False):
     if (builder.CORE, builder.NATIVE, builder.PACKAGER, builder.VERSION) != (
-            EXPECTED_CORE, EXPECTED_NATIVE, EXPECTED_PACKAGER, '0.68.0'):
+            EXPECTED_CORE, EXPECTED_NATIVE, EXPECTED_PACKAGER, '0.69.0'):
         raise ValueError('Unexpected build input or version pins')
     with tempfile.TemporaryDirectory(prefix='openclaw-golden-') as temporary:
         temporary = Path(temporary)
@@ -128,7 +128,7 @@ def verify(source, packager, candidate, self_test=False):
         assignment = json.loads(output)
         if assignment['assignment']['primary_capability'] != 'solaris.code-reviewer' or assignment['performed_work'] is not False:
             raise ValueError('Fresh native caller did not return the bounded assignment')
-        result = {'result': 'PASS', 'version': '0.68.0', 'core': EXPECTED_CORE,
+        result = {'result': 'PASS', 'version': '0.69.0', 'core': EXPECTED_CORE,
                   'files': len(builder.inventory(candidate)), 'canonical_files': 1201, 'fresh_callers': 62,
                   'assignment': 'solaris.code-reviewer', 'provider_admission': False}
         if self_test:

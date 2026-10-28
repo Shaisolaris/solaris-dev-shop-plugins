@@ -16,7 +16,7 @@ import tempfile
 CORE = 'c7c9b395795f488dd3c48122ff916970438b67e6'
 PACKAGER = '129781961be54cc2f12d6bafe80e81d6a1cd8d02'
 NATIVE = 'e02d8002d195f929e30fb5063bd04d4ed27190d6'
-VERSION = '0.68.0'
+VERSION = '0.69.0'
 OMIT = {'.claude-plugin/plugin.json', 'plugin.json', 'server.mjs', 'native/opencode.mjs'}
 
 
