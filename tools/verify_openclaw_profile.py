@@ -10,7 +10,7 @@ import sys
 import tempfile
 
 ROOT = Path(__file__).resolve().parents[1]
-EXPECTED_CORE = 'dea39818dd09b2059266e44f39def0ecf6ca8151'
+EXPECTED_CORE = 'c5f58457dd92e0d4af1b19a3bfdd0761acf44877'
 EXPECTED_NATIVE = 'e02d8002d195f929e30fb5063bd04d4ed27190d6'
 EXPECTED_PACKAGER = '129781961be54cc2f12d6bafe80e81d6a1cd8d02'
 spec = importlib.util.spec_from_file_location('openclaw_builder', ROOT / 'tools/build_openclaw_profile.py')
@@ -32,7 +32,7 @@ def canonical_checks(candidate, baseline):
     mapping.update({name: relocated(name) for name in original['canonical_files'] if name.startswith('.github/')})
     if actual['source_commit'] != EXPECTED_CORE or actual['canonical_files'] != expected or actual['source_path_map'] != mapping:
         raise ValueError('Canonical source inventory/provenance differs from trusted source')
-    if len(expected) != 1203:
+    if len(expected) != 1207:
         raise ValueError('Unexpected canonical inventory size')
     for name, digest in expected.items():
         source_name = name.removeprefix('source-config/') if name.startswith('source-config/.github/') else name
@@ -129,7 +129,7 @@ def verify(source, packager, candidate, self_test=False):
         if assignment['assignment']['primary_capability'] != 'solaris.code-reviewer' or assignment['performed_work'] is not False:
             raise ValueError('Fresh native caller did not return the bounded assignment')
         result = {'result': 'PASS', 'version': '0.70.0', 'core': EXPECTED_CORE,
-                  'files': len(builder.inventory(candidate)), 'canonical_files': 1203, 'fresh_callers': 62,
+                  'files': len(builder.inventory(candidate)), 'canonical_files': 1207, 'fresh_callers': 62,
                   'assignment': 'solaris.code-reviewer', 'provider_admission': False}
         if self_test:
             result['rejected_controls'] = controls(expected)
