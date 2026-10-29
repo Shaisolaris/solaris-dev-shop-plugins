@@ -10,6 +10,7 @@ import time
 from types import SimpleNamespace
 
 import nvidia_h74_exact_classification as C
+import nvidia_h74_reconcile_classified_instances as R
 
 
 def controls(args):
@@ -132,6 +133,18 @@ def controls(args):
         changed = copy.deepcopy(raw)
         mutate(changed)
         reject(label, lambda: C.assert_complete(changed, source, scope['files']))
+    original_positive = C.read(args.classified / 'scope-008/classified-report.json')
+    missing = copy.deepcopy(original_positive)
+    removed = C.issue_identity(missing['suppressed'][0])
+    missing['suppressed'] = [x for x in missing['suppressed'] if C.issue_identity(x) != removed]
+    missing['suppressed_count'] = len(missing['suppressed'])
+    reject('missing-reviewed-suppression-refused', lambda: R.assert_instances(missing, raw))
+    extra = copy.deepcopy(original_positive)
+    novel = copy.deepcopy(extra['suppressed'][0])
+    novel['finding'] = 'PRIVATE-UNREVIEWED-IDENTITY-CONTROL'
+    extra['suppressed'].append(novel)
+    extra['suppressed_count'] = len(extra['suppressed'])
+    reject('novel-suppression-even-with-same-rule-and-location-refused', lambda: R.assert_instances(extra, raw))
     fake_runtime = cases / 'private-untrusted-runtime'
     fake_runtime.mkdir()
     (fake_runtime / 'skillspector-2.13.2.tar.gz').write_bytes(b'private invalid identity control')
