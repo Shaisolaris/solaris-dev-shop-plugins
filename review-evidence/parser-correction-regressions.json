@@ -1,0 +1,205 @@
+{
+  "fullBundleClearance": false,
+  "coreTested": "f7eab3525d882244cb83b077a28be3542137b441",
+  "nativeTested": "d3f6febc027631a987ff84795f24a9cb40b7e7d2",
+  "productTestRuns": [
+    {
+      "label": "BASELINE-2",
+      "command": [
+        "/Users/shai/Documents/ChatGPT/Marketing/Operations/Solaris-DevShop-seven-day-20261018/root-takeover-20261021/clawhub-069/qa-venv/bin/python",
+        "-B",
+        "-m",
+        "unittest",
+        "-v",
+        "tests.test_wordpress_scrape_inputs.WordPressScrapeInputs.test_css_path_and_project_imports_remain_data",
+        "tests.test_wordpress_scrape_inputs.WordPressScrapeInputs.test_nested_markdown_recipe_writes_complete_readme"
+      ],
+      "cwd": "/var/folders/vd/dn87bf4x3fl7nylswx7lm1l80000gn/T/solaris-parser-baseline-8c5-_ym42y5f",
+      "exit": 1,
+      "log": "/Users/shai/Desktop/Agent Marketplace/outputs/01a144ce-dc4c-79d0-a375-2637bd01b9ff/harness-publication-20261028/parser-corrections-20261029/BASELINE-2.log",
+      "logSha256": "34a53a22a407c43efacc8e93631c780421c5994cd7436abbc1502b8500bcb767"
+    },
+    {
+      "label": "CANDIDATE-6",
+      "command": [
+        "/Users/shai/Documents/ChatGPT/Marketing/Operations/Solaris-DevShop-seven-day-20261018/root-takeover-20261021/clawhub-069/qa-venv/bin/python",
+        "-B",
+        "-m",
+        "unittest",
+        "-v",
+        "tests.test_wordpress_scrape_inputs"
+      ],
+      "cwd": "/tmp/solaris-core-nvidia-20261028",
+      "exit": 0,
+      "log": "/Users/shai/Desktop/Agent Marketplace/outputs/01a144ce-dc4c-79d0-a375-2637bd01b9ff/harness-publication-20261028/parser-corrections-20261029/CANDIDATE-6.log",
+      "logSha256": "ce8ccb76c4a91960132e1557236e94e21082d1221406aba7fb6fc6dd07942fb8"
+    },
+    {
+      "label": "RESOURCE-FIDELITY",
+      "command": [
+        "/Users/shai/Documents/ChatGPT/Marketing/Operations/Solaris-DevShop-seven-day-20261018/root-takeover-20261021/clawhub-069/qa-venv/bin/python",
+        "-B",
+        "/tmp/solaris-nvidia-remediation-20261028/tools/verify_parser_resource_fidelity.py",
+        "--core",
+        "/tmp/solaris-core-nvidia-20261028"
+      ],
+      "cwd": "/tmp/solaris-nvidia-remediation-20261028",
+      "exit": 0,
+      "log": "/Users/shai/Desktop/Agent Marketplace/outputs/01a144ce-dc4c-79d0-a375-2637bd01b9ff/harness-publication-20261028/parser-corrections-20261029/RESOURCE-FIDELITY.log",
+      "logSha256": "3113baa3ffd529765c5cb5c285ae8628c27f4bf50a28f92a2a989ba15777d2ed"
+    },
+    {
+      "label": "NATIVE-AND-SVELTE-EQUIVALENCE",
+      "command": [
+        "/Users/shai/.cache/codex-runtimes/codex-primary-runtime/dependencies/node/bin/node",
+        "--experimental-vm-modules",
+        "/tmp/solaris-nvidia-remediation-20261028/tools/verify_openclaw_output_equivalence.mjs",
+        "/tmp/solaris-nvidia-remediation-20261028",
+        "/Users/shai/Desktop/Agent Marketplace/outputs/01a144ce-dc4c-79d0-a375-2637bd01b9ff/harness-publication-20261028/parser-corrections-20261029/RESOURCE-FIDELITY.json"
+      ],
+      "cwd": "/tmp/solaris-nvidia-remediation-20261028",
+      "exit": 0,
+      "log": "/Users/shai/Desktop/Agent Marketplace/outputs/01a144ce-dc4c-79d0-a375-2637bd01b9ff/harness-publication-20261028/parser-corrections-20261029/NATIVE-AND-SVELTE-EQUIVALENCE.log",
+      "logSha256": "ebd73cd925e8b2d41597bd7e0543963ad76b702ee28d096b198cb1505e830199"
+    },
+    {
+      "label": "WORDPRESS-G03-G23-REGRESSIONS",
+      "command": [
+        "/Users/shai/Documents/ChatGPT/Marketing/Operations/Solaris-DevShop-seven-day-20261018/root-takeover-20261021/clawhub-069/qa-venv/bin/python",
+        "-B",
+        "-m",
+        "unittest",
+        "-v",
+        "tests.test_g03_capability",
+        "tests.test_g23_capability",
+        "tests.test_wordpress_target_scope",
+        "tests.test_wordpress_content_stdin",
+        "tests.test_wordpress_visual_tokens",
+        "tests.test_wordpress_diagnostic_shell",
+        "tests.test_wordpress_instruction_examples",
+        "tests.test_wordpress_json_fields"
+      ],
+      "cwd": "/tmp/solaris-core-nvidia-20261028",
+      "exit": 0,
+      "log": "/Users/shai/Desktop/Agent Marketplace/outputs/01a144ce-dc4c-79d0-a375-2637bd01b9ff/harness-publication-20261028/parser-corrections-20261029/WORDPRESS-G03-G23-REGRESSIONS.log",
+      "logSha256": "24bcc5746877bf9ad833da7ae680beb76f57d5203e72625c746459bb736f0fbd"
+    }
+  ],
+  "resourceFidelity": {
+    "base": "8c5d1e21b8f4568e73cb58f81ff7ca27ca0d867f",
+    "tables": [
+      {
+        "table": "charts.csv",
+        "rowsIncludingHeader": 26,
+        "allOtherCellsAndRowWidthsIdentical": true,
+        "reviewedCellChanges": []
+      },
+      {
+        "table": "products.csv",
+        "rowsIncludingHeader": 162,
+        "allOtherCellsAndRowWidthsIdentical": true,
+        "reviewedCellChanges": []
+      },
+      {
+        "table": "stacks/flutter.csv",
+        "rowsIncludingHeader": 53,
+        "allOtherCellsAndRowWidthsIdentical": true,
+        "reviewedCellChanges": []
+      },
+      {
+        "table": "stacks/nextjs.csv",
+        "rowsIncludingHeader": 53,
+        "allOtherCellsAndRowWidthsIdentical": true,
+        "reviewedCellChanges": [
+          {
+            "row": 30,
+            "column": 4,
+            "before": "Export GET POST PUT DELETE",
+            "after": "Provide named GET, POST, PUT and DELETE HTTP handlers."
+          }
+        ]
+      },
+      {
+        "table": "stacks/svelte.csv",
+        "rowsIncludingHeader": 54,
+        "allOtherCellsAndRowWidthsIdentical": true,
+        "reviewedCellChanges": [
+          {
+            "row": 38,
+            "column": 7,
+            "before": "{items.map(i => `<div>${i}</div>`)}",
+            "after": "{items.map(i => \"<div>\".concat(i, \"</div>\"))}"
+          }
+        ]
+      },
+      {
+        "table": "stacks/threejs.csv",
+        "rowsIncludingHeader": 54,
+        "allOtherCellsAndRowWidthsIdentical": true,
+        "reviewedCellChanges": []
+      },
+      {
+        "table": "stacks/vue.csv",
+        "rowsIncludingHeader": 50,
+        "allOtherCellsAndRowWidthsIdentical": true,
+        "reviewedCellChanges": []
+      },
+      {
+        "reference": "design",
+        "allOtherContentByteIdentical": true
+      },
+      {
+        "reference": "draft",
+        "allOtherContentByteIdentical": true
+      }
+    ],
+    "allCapabilityContractsUnchanged": 62,
+    "originalDeclaredTestMethodsRetained": 984,
+    "originalG03AssertionsUnchanged": true,
+    "tableNegativeControlsPassed": true,
+    "sourceOrWorkflowCodeExecuted": false,
+    "nvidiaClearance": false
+  },
+  "nativeEquivalenceLog": "{\n  \"cases\": [\n    {\n      \"caseId\": \"OUTPUT-0\",\n      \"baselineAndCandidateIdentical\": true\n    },\n    {\n      \"caseId\": \"OUTPUT-1\",\n      \"baselineAndCandidateIdentical\": true\n    },\n    {\n      \"caseId\": \"OUTPUT-2\",\n      \"baselineAndCandidateIdentical\": true\n    },\n    {\n      \"caseId\": \"OUTPUT-3\",\n      \"baselineAndCandidateIdentical\": true\n    },\n    {\n      \"caseId\": \"OUTPUT-4\",\n      \"baselineAndCandidateIdentical\": true\n    },\n    {\n      \"caseId\": \"OUTPUT-5\",\n      \"baselineAndCandidateIdentical\": true\n    },\n    {\n      \"caseId\": \"OUTPUT-6\",\n      \"baselineAndCandidateIdentical\": true\n    },\n    {\n      \"caseId\": \"OUTPUT-7\",\n      \"baselineAndCandidateIdentical\": true\n    },\n    {\n      \"caseId\": \"OUTPUT-8\",\n      \"baselineAndCandidateIdentical\": true\n    },\n    {\n      \"caseId\": \"OUTPUT-9\",\n      \"baselineAndCandidateIdentical\": true\n    },\n    {\n      \"caseId\": \"OUTPUT-10\",\n      \"baselineAndCandidateIdentical\": true\n    },\n    {\n      \"caseId\": \"OUTPUT-11\",\n      \"baselineAndCandidateIdentical\": true\n    },\n    {\n      \"caseId\": \"OUTPUT-12\",\n      \"baselineAndCandidateIdentical\": true\n    },\n    {\n      \"caseId\": \"OUTPUT-13\",\n      \"baselineAndCandidateIdentical\": true\n    },\n    {\n      \"caseId\": \"MISSING-ASSIGNMENT\",\n      \"baselineAndCandidateIdentical\": true\n    },\n    {\n      \"caseId\": \"UNEXPECTED-WORK\",\n      \"baselineAndCandidateIdentical\": true\n    },\n    {\n      \"caseId\": \"MISSING-WORK-GUARD\",\n      \"baselineAndCandidateIdentical\": true\n    },\n    {\n      \"caseId\": \"EMPTY-REQUEST\",\n      \"baselineAndCandidateIdentical\": true\n    },\n    {\n      \"caseId\": \"OVERSIZE-UTF8\",\n      \"baselineAndCandidateIdentical\": true\n    },\n    {\n      \"caseId\": \"EXECUTION-FAILURE\",\n      \"baselineAndCandidateIdentical\": true\n    }\n  ],\n  \"count\": 20,\n  \"svelteResults\": [\n    {\n      \"caseId\": \"string\",\n      \"baselineAndCandidateIdentical\": true\n    },\n    {\n      \"caseId\": \"number\",\n      \"baselineAndCandidateIdentical\": true\n    },\n    {\n      \"caseId\": \"null\",\n      \"baselineAndCandidateIdentical\": true\n    },\n    {\n      \"caseId\": \"undefined\",\n      \"baselineAndCandidateIdentical\": true\n    },\n    {\n      \"caseId\": \"boolean\",\n      \"baselineAndCandidateIdentical\": true\n    },\n    {\n      \"caseId\": \"bigint\",\n      \"baselineAndCandidateIdentical\": true\n    },\n    {\n      \"caseId\": \"object\",\n      \"baselineAndCandidateIdentical\": true\n    },\n    {\n      \"caseId\": \"coercion-hint\",\n      \"baselineAndCandidateIdentical\": true\n    },\n    {\n      \"caseId\": \"symbol-error\",\n      \"baselineAndCandidateIdentical\": true\n    }\n  ],\n  \"realSubprocessesOrNetworkStartedByAdapter\": false,\n  \"nativeMarketplaceAcceptance\": false\n}\n(node:92513) ExperimentalWarning: VM Modules is an experimental feature and might change at any time\n(Use `node --trace-warnings ...` to show where the warning was created)\n",
+  "baseline2Log": "test_css_path_and_project_imports_remain_data (tests.test_wordpress_scrape_inputs.WordPressScrapeInputs.test_css_path_and_project_imports_remain_data) ... FAIL\ntest_nested_markdown_recipe_writes_complete_readme (tests.test_wordpress_scrape_inputs.WordPressScrapeInputs.test_nested_markdown_recipe_writes_complete_readme) ... FAIL\n\n======================================================================\nFAIL: test_css_path_and_project_imports_remain_data (tests.test_wordpress_scrape_inputs.WordPressScrapeInputs.test_css_path_and_project_imports_remain_data)\n----------------------------------------------------------------------\nTraceback (most recent call last):\n  File \"/private/var/folders/vd/dn87bf4x3fl7nylswx7lm1l80000gn/T/solaris-parser-baseline-8c5-_ym42y5f/tests/test_wordpress_scrape_inputs.py\", line 63, in test_css_path_and_project_imports_remain_data\n    self.assertEqual(result.returncode, 0, result.stderr)\nAssertionError: 1 != 0 :   File \"<string>\", line 3\n    css_file = '/tmp/solaris-scrape-qa-2rmp1hs2/scrape space 'quote; literal-$(touch MUST_NOT_EXIST)/styles/main.css'\n                                                                                                                    ^\nSyntaxError: unterminated string literal (detected at line 3)\n\n\n======================================================================\nFAIL: test_nested_markdown_recipe_writes_complete_readme (tests.test_wordpress_scrape_inputs.WordPressScrapeInputs.test_nested_markdown_recipe_writes_complete_readme)\n----------------------------------------------------------------------\nTraceback (most recent call last):\n  File \"/private/var/folders/vd/dn87bf4x3fl7nylswx7lm1l80000gn/T/solaris-parser-baseline-8c5-_ym42y5f/tests/test_wordpress_scrape_inputs.py\", line 111, in test_nested_markdown_recipe_writes_complete_readme\n    self.assertIsNotNone(match, 'The rendered recipe must retain the complete JSON fence')\nAssertionError: unexpectedly None : The rendered recipe must retain the complete JSON fence\n\n----------------------------------------------------------------------\nRan 2 tests in 0.033s\n\nFAILED (failures=2)\n",
+  "candidate6Log": "test_css_path_and_project_imports_remain_data (tests.test_wordpress_scrape_inputs.WordPressScrapeInputs.test_css_path_and_project_imports_remain_data) ... ok\ntest_manifest_status_remains_data_and_preserves_other_fields (tests.test_wordpress_scrape_inputs.WordPressScrapeInputs.test_manifest_status_remains_data_and_preserves_other_fields) ... ok\ntest_nested_markdown_recipe_writes_complete_readme (tests.test_wordpress_scrape_inputs.WordPressScrapeInputs.test_nested_markdown_recipe_writes_complete_readme) ... ok\ntest_scrape_helper_refuses_symlink_and_invalid_manifest_without_changes (tests.test_wordpress_scrape_inputs.WordPressScrapeInputs.test_scrape_helper_refuses_symlink_and_invalid_manifest_without_changes) ... ok\ntest_scrape_staging_is_private_and_cleanup_keeps_owner_files (tests.test_wordpress_scrape_inputs.WordPressScrapeInputs.test_scrape_staging_is_private_and_cleanup_keeps_owner_files) ... ok\ntest_visual_staging_is_private_and_copies_assets (tests.test_wordpress_scrape_inputs.WordPressScrapeInputs.test_visual_staging_is_private_and_copies_assets) ... ok\n\n----------------------------------------------------------------------\nRan 6 tests in 1.071s\n\nOK\n",
+  "regressions121Log": "test_actual_values_restored_and_previous_file_kept (tests.test_g03_capability.CleanRestore.test_actual_values_restored_and_previous_file_kept) ... ok\ntest_missing_database_is_recreated (tests.test_g03_capability.CleanRestore.test_missing_database_is_recreated) ... ok\ntest_wal_source_and_sidecars_are_handled (tests.test_g03_capability.CleanRestore.test_wal_source_and_sidecars_are_handled) ... ok\ntest_cli_round_trip_and_exit_codes (tests.test_g03_capability.Cli.test_cli_round_trip_and_exit_codes) ... ok\ntest_exact_missing_database_check (tests.test_g03_capability.HealthAndScale.test_exact_missing_database_check) ... ok\ntest_health_catches_changed_values_with_equal_counts (tests.test_g03_capability.HealthAndScale.test_health_catches_changed_values_with_equal_counts) ... ok\ntest_larger_dataset_restores_exact_values (tests.test_g03_capability.HealthAndScale.test_larger_dataset_restores_exact_values) ... ok\ntest_dry_run_is_byte_identical_and_reports_live_only_rows (tests.test_g03_capability.IntentAndDryRun.test_dry_run_is_byte_identical_and_reports_live_only_rows) ... ok\ntest_newer_live_data_needs_explicit_intent_and_is_kept (tests.test_g03_capability.IntentAndDryRun.test_newer_live_data_needs_explicit_intent_and_is_kept) ... ok\ntest_crash_during_staging_discards_only_staged_copies (tests.test_g03_capability.Interruption.test_crash_during_staging_discards_only_staged_copies) ... ok\ntest_every_crash_point_with_two_databases_and_wal_sidecar (tests.test_g03_capability.Interruption.test_every_crash_point_with_two_databases_and_wal_sidecar) ... ok\ntest_forged_journal_cannot_rename_owner_files (tests.test_g03_capability.Interruption.test_forged_journal_cannot_rename_owner_files) ... ok\ntest_gap_after_install_before_journal_cleared (tests.test_g03_capability.Interruption.test_gap_after_install_before_journal_cleared) ... ok\ntest_gap_after_set_aside_target_absent_recovers_without_snapshot (tests.test_g03_capability.Interruption.test_gap_after_set_aside_target_absent_recovers_without_snapshot) ... ok\ntest_gap_after_set_aside_with_damaged_stage_rolls_back (tests.test_g03_capability.Interruption.test_gap_after_set_aside_with_damaged_stage_rolls_back) ... ok\ntest_gap_after_set_aside_with_vanished_stage_rolls_back (tests.test_g03_capability.Interruption.test_gap_after_set_aside_with_vanished_stage_rolls_back) ... ok\ntest_journal_dry_run_lock_and_corrupt_snapshot_never_mutate (tests.test_g03_capability.Interruption.test_journal_dry_run_lock_and_corrupt_snapshot_never_mutate) ... ok\ntest_extra_member_hardlink_and_unsafe_manifest_names (tests.test_g03_capability.InvalidSnapshots.test_extra_member_hardlink_and_unsafe_manifest_names) ... ok\ntest_flipped_byte_in_database_copy (tests.test_g03_capability.InvalidSnapshots.test_flipped_byte_in_database_copy) ... ok\ntest_garbage_manifest_and_snapshot_inside_dataset (tests.test_g03_capability.InvalidSnapshots.test_garbage_manifest_and_snapshot_inside_dataset) ... ok\ntest_resigned_manifest_with_wrong_values_is_caught (tests.test_g03_capability.InvalidSnapshots.test_resigned_manifest_with_wrong_values_is_caught) ... ok\ntest_symlink_member_pointing_outside_is_never_followed (tests.test_g03_capability.InvalidSnapshots.test_symlink_member_pointing_outside_is_never_followed) ... ok\ntest_symlinked_target_database_is_not_replaced (tests.test_g03_capability.InvalidSnapshots.test_symlinked_target_database_is_not_replaced) ... ok\ntest_database_already_matching_is_left_in_place (tests.test_g03_capability.KnownGoodData.test_database_already_matching_is_left_in_place) ... ok\ntest_nothing_to_restore_changes_nothing (tests.test_g03_capability.KnownGoodData.test_nothing_to_restore_changes_nothing) ... ok\ntest_repeated_restores_from_one_snapshot_keep_every_copy (tests.test_g03_capability.KnownGoodData.test_repeated_restores_from_one_snapshot_keep_every_copy) ... ok\ntest_concurrent_restores_leave_one_consistent_result (tests.test_g03_capability.LocksAndTimeouts.test_concurrent_restores_leave_one_consistent_result) ... ok\ntest_dataset_lock_blocks_restore_recover_and_dry_runs (tests.test_g03_capability.LocksAndTimeouts.test_dataset_lock_blocks_restore_recover_and_dry_runs) ... ok\ntest_restore_over_locked_target_is_bounded_and_untouched (tests.test_g03_capability.LocksAndTimeouts.test_restore_over_locked_target_is_bounded_and_untouched) ... ok\ntest_snapshot_of_locked_source_is_bounded (tests.test_g03_capability.LocksAndTimeouts.test_snapshot_of_locked_source_is_bounded) ... ok\ntest_ra_health_during_an_interrupted_restore_opens_no_database (tests.test_g03_capability.M03R2Rework.test_ra_health_during_an_interrupted_restore_opens_no_database) ... ok\ntest_ra_sidecar_creating_fallback_is_never_used_while_a_journal_exists (tests.test_g03_capability.M03R2Rework.test_ra_sidecar_creating_fallback_is_never_used_while_a_journal_exists) ... ok\ntest_rb_refused_or_failed_snapshot_creates_no_folder (tests.test_g03_capability.M03R2Rework.test_rb_refused_or_failed_snapshot_creates_no_folder) ... ok\ntest_rc_another_tool_run_is_kept_out_while_the_dataset_lock_is_held (tests.test_g03_capability.M03R2Rework.test_rc_another_tool_run_is_kept_out_while_the_dataset_lock_is_held) ... ok\ntest_crash_after_staging_is_discarded_not_rolled_forward (tests.test_g03_capability.M03Rework.test_crash_after_staging_is_discarded_not_rolled_forward) ... ok\ntest_dry_run_with_confirm_never_restores (tests.test_g03_capability.M03Rework.test_dry_run_with_confirm_never_restores) ... ok\ntest_external_dataset_lock_blocks_restore_and_dry_run (tests.test_g03_capability.M03Rework.test_external_dataset_lock_blocks_restore_and_dry_run) ... ok\ntest_extra_snapshot_member_and_symlinked_database_are_refused (tests.test_g03_capability.M03Rework.test_extra_snapshot_member_and_symlinked_database_are_refused) ... ok\ntest_f1_user_tables_named_like_sqlite_are_compared_and_restored (tests.test_g03_capability.M03Rework.test_f1_user_tables_named_like_sqlite_are_compared_and_restored) ... ok\ntest_f2_user_version_and_application_id_are_compared_and_restored (tests.test_g03_capability.M03Rework.test_f2_user_version_and_application_id_are_compared_and_restored) ... ok\ntest_f3_live_writer_snapshot_keeps_no_sidecar (tests.test_g03_capability.M03Rework.test_f3_live_writer_snapshot_keeps_no_sidecar) ... ok\ntest_f3_quiescent_wal_database_snapshots_without_sidecars (tests.test_g03_capability.M03Rework.test_f3_quiescent_wal_database_snapshots_without_sidecars) ... ok\ntest_f4_health_without_snapshot_rejects_empty_databases (tests.test_g03_capability.M03Rework.test_f4_health_without_snapshot_rejects_empty_databases) ... ok\ntest_f5_manifest_entry_without_tables_is_refused_cleanly (tests.test_g03_capability.M03Rework.test_f5_manifest_entry_without_tables_is_refused_cleanly) ... ok\ntest_f6_one_missing_snapshot_folder_level_is_created (tests.test_g03_capability.M03Rework.test_f6_one_missing_snapshot_folder_level_is_created) ... ok\ntest_f7_non_finite_lock_timeouts_are_rejected (tests.test_g03_capability.M03Rework.test_f7_non_finite_lock_timeouts_are_rejected) ... ok\ntest_health_fails_while_a_finished_swap_still_has_its_journal (tests.test_g03_capability.M03Rework.test_health_fails_while_a_finished_swap_still_has_its_journal) ... ok\ntest_recover_previews_roll_back_for_a_damaged_stage (tests.test_g03_capability.M03Rework.test_recover_previews_roll_back_for_a_damaged_stage) ... ok\ntest_different_measurements_no_claim (tests.test_g23_capability.Compare.test_different_measurements_no_claim) ... ok\ntest_overlap_is_inconclusive_and_same_file_refused (tests.test_g23_capability.Compare.test_overlap_is_inconclusive_and_same_file_refused) ... ok\ntest_same_measurements_claim (tests.test_g23_capability.Compare.test_same_measurements_claim) ... ok\ntest_bisect_ambiguous_is_reported_without_a_culprit (tests.test_g23_capability.Fixtures.test_bisect_ambiguous_is_reported_without_a_culprit) ... ok\ntest_clean_control (tests.test_g23_capability.Fixtures.test_clean_control) ... ok\ntest_config_faults (tests.test_g23_capability.Fixtures.test_config_faults) ... ok\ntest_fixtures_are_reproducible (tests.test_g23_capability.Fixtures.test_fixtures_are_reproducible) ... ok\ntest_plugin_conflict_one_finding_both_sources (tests.test_g23_capability.Fixtures.test_plugin_conflict_one_finding_both_sources) ... ok\ntest_slow_and_repeated_query_localized (tests.test_g23_capability.Fixtures.test_slow_and_repeated_query_localized) ... ok\ntest_invalid_inputs_exit_2_and_keep_report (tests.test_g23_capability.Invocation.test_invalid_inputs_exit_2_and_keep_report) ... ok\ntest_s1_memory_exhaustion_is_the_limit_not_the_allocating_plugin (tests.test_g23_capability.M23Rework.test_s1_memory_exhaustion_is_the_limit_not_the_allocating_plugin) ... ok\ntest_s2_slow_log_file_and_line_are_kept (tests.test_g23_capability.M23Rework.test_s2_slow_log_file_and_line_are_kept) ... ok\ntest_s3_compare_rules (tests.test_g23_capability.M23Rework.test_s3_compare_rules) ... ok\ntest_s3_documented_thresholds_and_rules (tests.test_g23_capability.M23Rework.test_s3_documented_thresholds_and_rules) ... ok\ntest_s3_s5_out_rules (tests.test_g23_capability.M23Rework.test_s3_s5_out_rules) ... ok\ntest_s4_json_with_out_prints_json (tests.test_g23_capability.M23Rework.test_s4_json_with_out_prints_json) ... ok\ntest_s5_unknown_component_and_declarer_outside_wp_content (tests.test_g23_capability.M23Rework.test_s5_unknown_component_and_declarer_outside_wp_content) ... ok\ntest_stubs_fail (tests.test_g23_capability.Oracle.test_stubs_fail) ... ok\ntest_tool_passes_all (tests.test_g23_capability.Oracle.test_tool_passes_all) ... ok\ntest_each_config_fault_alone_and_controls (tests.test_g23_capability.Rules.test_each_config_fault_alone_and_controls) ... ok\ntest_error_log_forms (tests.test_g23_capability.Rules.test_error_log_forms) ... ok\ntest_repeat_threshold_is_per_caller_and_inclusive (tests.test_g23_capability.Rules.test_repeat_threshold_is_per_caller_and_inclusive) ... ok\ntest_same_pair_twice_in_log_is_one_finding (tests.test_g23_capability.Rules.test_same_pair_twice_in_log_is_one_finding) ... ok\ntest_secret_values_are_neither_stored_nor_checked (tests.test_g23_capability.Rules.test_secret_values_are_neither_stored_nor_checked) ... ok\ntest_secrets_never_echoed (tests.test_g23_capability.Rules.test_secrets_never_echoed) ... ok\ntest_slow_hook (tests.test_g23_capability.Rules.test_slow_hook) ... ok\ntest_bisect_explain (tests.test_g23_capability.Units.test_bisect_explain) ... ok\ntest_fingerprint_folds_literals_and_in_lists (tests.test_g23_capability.Units.test_fingerprint_folds_literals_and_in_lists) ... ok\ntest_path_component (tests.test_g23_capability.Units.test_path_component) ... ok\ntest_size (tests.test_g23_capability.Units.test_size) ... ok\ntest_content_preserves_selected_target (tests.test_wordpress_target_scope.WordPressTargetScopeTests.test_content_preserves_selected_target) ... ok\ntest_mcp_preserves_selected_target (tests.test_wordpress_target_scope.WordPressTargetScopeTests.test_mcp_preserves_selected_target) ... ok\ntest_theme_preserves_selected_target (tests.test_wordpress_target_scope.WordPressTargetScopeTests.test_theme_preserves_selected_target) ... ok\ntest_visual_preserves_selected_target (tests.test_wordpress_target_scope.WordPressTargetScopeTests.test_visual_preserves_selected_target) ... ok\ntest_image_script_runs_from_stdin_without_local_module_execution (tests.test_wordpress_content_stdin.WordPressContentStdinTests.test_image_script_runs_from_stdin_without_local_module_execution) ... ok\ntest_pages_and_post_preserve_literal_content_and_selected_target (tests.test_wordpress_content_stdin.WordPressContentStdinTests.test_pages_and_post_preserve_literal_content_and_selected_target) ... ok\ntest_missing_export_cleans_up_the_owned_intermediate (tests.test_wordpress_visual_tokens.WordPressVisualTokenTests.test_missing_export_cleans_up_the_owned_intermediate) ... ok\ntest_symlinked_css_is_refused_without_json_output (tests.test_wordpress_visual_tokens.WordPressVisualTokenTests.test_symlinked_css_is_refused_without_json_output) ... ok\ntest_unexported_paths_reach_isolated_helper_and_private_json (tests.test_wordpress_visual_tokens.WordPressVisualTokenTests.test_unexported_paths_reach_isolated_helper_and_private_json) ... ok\ntest_parent_config_path_remains_supported (tests.test_wordpress_diagnostic_shell.WordPressDiagnosticShellTests.test_parent_config_path_remains_supported) ... ok\ntest_profile_name_is_a_literal_json_key (tests.test_wordpress_diagnostic_shell.WordPressDiagnosticShellTests.test_profile_name_is_a_literal_json_key) ... ok\ntest_quotes_spaces_and_dollars_in_standard_path (tests.test_wordpress_diagnostic_shell.WordPressDiagnosticShellTests.test_quotes_spaces_and_dollars_in_standard_path) ... ok\ntest_remote_path_metacharacters_remain_data (tests.test_wordpress_diagnostic_shell.WordPressDiagnosticShellTests.test_remote_path_metacharacters_remain_data) ... ok\ntest_failed_or_unexpected_debug_cli_result_is_unknown (tests.test_wordpress_diagnostic_shell.WordPressRemoteDiagnosticVariants.test_failed_or_unexpected_debug_cli_result_is_unknown) ... ok\ntest_literal_site_names_in_every_profile_lookup (tests.test_wordpress_diagnostic_shell.WordPressRemoteDiagnosticVariants.test_literal_site_names_in_every_profile_lookup) ... ok\ntest_local_code_quality_target_is_data (tests.test_wordpress_diagnostic_shell.WordPressRemoteDiagnosticVariants.test_local_code_quality_target_is_data) ... ok\ntest_metacharacters_remain_remote_path_data (tests.test_wordpress_diagnostic_shell.WordPressRemoteDiagnosticVariants.test_metacharacters_remain_remote_path_data) ... ok\ntest_missing_site_refuses_metadata_fallbacks (tests.test_wordpress_diagnostic_shell.WordPressRemoteDiagnosticVariants.test_missing_site_refuses_metadata_fallbacks) ... ok\ntest_permission_debug_fallback_without_wp_cli (tests.test_wordpress_diagnostic_shell.WordPressRemoteDiagnosticVariants.test_permission_debug_fallback_without_wp_cli) ... ok\ntest_php_reported_error_log_is_data (tests.test_wordpress_diagnostic_shell.WordPressRemoteDiagnosticVariants.test_php_reported_error_log_is_data) ... ok\ntest_privileged_user_id_stays_one_argument (tests.test_wordpress_diagnostic_shell.WordPressRemoteDiagnosticVariants.test_privileged_user_id_stays_one_argument) ... ok\ntest_quoted_profile_paths_preserve_intended_diagnostics (tests.test_wordpress_diagnostic_shell.WordPressRemoteDiagnosticVariants.test_quoted_profile_paths_preserve_intended_diagnostics) ... ok\ntest_unreadable_debug_config_is_unknown (tests.test_wordpress_diagnostic_shell.WordPressRemoteDiagnosticVariants.test_unreadable_debug_config_is_unknown) ... ok\ntest_build_manifest_works_with_ordinary_and_quoted_paths (tests.test_wordpress_instruction_examples.WordPressInstructionExamples.test_build_manifest_works_with_ordinary_and_quoted_paths) ... ok\ntest_directory_name_is_data_and_recovery_remains_useful (tests.test_wordpress_instruction_examples.WordPressInstructionExamples.test_directory_name_is_data_and_recovery_remains_useful) ... ok\ntest_invalid_boolean_is_refused_before_manifest_write (tests.test_wordpress_instruction_examples.WordPressInstructionExamples.test_invalid_boolean_is_refused_before_manifest_write) ... ok\ntest_malware_search_does_not_follow_symlinks (tests.test_wordpress_instruction_examples.WordPressInstructionExamples.test_malware_search_does_not_follow_symlinks) ... ok\ntest_malware_search_includes_dependencies_without_modifying_them (tests.test_wordpress_instruction_examples.WordPressInstructionExamples.test_malware_search_includes_dependencies_without_modifying_them) ... ok\ntest_malware_search_refuses_invalid_site_names_before_reading (tests.test_wordpress_instruction_examples.WordPressInstructionExamples.test_malware_search_refuses_invalid_site_names_before_reading) ... ok\ntest_manifest_reader_does_not_import_project_modules (tests.test_wordpress_instruction_examples.WordPressInstructionExamples.test_manifest_reader_does_not_import_project_modules) ... ok\ntest_remote_config_directory_is_quoted_as_data (tests.test_wordpress_instruction_examples.WordPressInstructionExamples.test_remote_config_directory_is_quoted_as_data) ... ok\ntest_security_source_search_covers_spaced_calls_without_executing_them (tests.test_wordpress_instruction_examples.WordPressInstructionExamples.test_security_source_search_covers_spaced_calls_without_executing_them) ... ok\ntest_data_and_project_imports_do_not_execute (tests.test_wordpress_json_fields.DiagnosticJsonFields.test_data_and_project_imports_do_not_execute) ... ok\ntest_documented_plugin_check_rejects_unverified_installation (tests.test_wordpress_json_fields.DiagnosticJsonFields.test_documented_plugin_check_rejects_unverified_installation) ... ok\ntest_expected_fields_and_boolean_false (tests.test_wordpress_json_fields.DiagnosticJsonFields.test_expected_fields_and_boolean_false) ... ok\ntest_invalid_data_is_not_success_or_echoed (tests.test_wordpress_json_fields.DiagnosticJsonFields.test_invalid_data_is_not_success_or_echoed) ... ok\ntest_invalid_slug_is_refused_before_network (tests.test_wordpress_json_fields.DiagnosticJsonFields.test_invalid_slug_is_refused_before_network) ... ok\ntest_plugin_identity_must_match (tests.test_wordpress_json_fields.DiagnosticJsonFields.test_plugin_identity_must_match) ... ok\ntest_unknown_commands_and_invalid_expected_slug_are_rejected (tests.test_wordpress_json_fields.DiagnosticJsonFields.test_unknown_commands_and_invalid_expected_slug_are_rejected) ... ok\ntest_build_paths_and_theme_names_are_data (tests.test_wordpress_json_fields.ModifyInstructionDataBoundaries.test_build_paths_and_theme_names_are_data) ... ok\ntest_every_python_heredoc_compiles (tests.test_wordpress_json_fields.ModifyInstructionDataBoundaries.test_every_python_heredoc_compiles) ... ok\ntest_theme_value_and_modification_metadata_do_not_become_code (tests.test_wordpress_json_fields.ModifyInstructionDataBoundaries.test_theme_value_and_modification_metadata_do_not_become_code) ... ok\ntest_version_scan_treats_basename_literally (tests.test_wordpress_json_fields.ModifyInstructionDataBoundaries.test_version_scan_treats_basename_literally) ... ok\n\n----------------------------------------------------------------------\nRan 121 tests in 44.891s\n\nOK\n",
+  "buildDependencyPin": {
+    "checkedAtUTC": "2026-10-29T20:07:36.615182+00:00",
+    "pypiSource": "https://pypi.org/pypi/setuptools/84.2.1/json",
+    "name": "setuptools",
+    "version": "84.2.1",
+    "requiresPython": ">=3.10",
+    "osvEndpoint": "https://api.osv.dev/v1/query",
+    "osvQuery": {
+      "version": "84.2.1",
+      "package": {
+        "name": "setuptools",
+        "ecosystem": "PyPI"
+      }
+    },
+    "osvResult": {},
+    "distributions": [
+      {
+        "filename": "setuptools-84.2.1-py3-none-any.whl",
+        "sha256": "ca140b45d5325a9478f880e351484f62fef15f336462e449ca0c03c873d589c2"
+      },
+      {
+        "filename": "setuptools-84.2.1.tar.gz",
+        "sha256": "3ff8b3b5492a0aa66960f4419365a86b84e013070d4313e4d4a6894f5d64d6bc"
+      }
+    ]
+  },
+  "binding": {
+    "subject": "9c801fc12d65ebb1b9e85ca5d07a2489a9cdc6f3",
+    "component": "ee7198336748ba883c84fc3a832c8f37b29c25ac",
+    "head": "5efe9a59ac1b87e88010e4c97518e8bc8d1267eb",
+    "canonicalFiles": 1213,
+    "integrationDeltaFiles": [
+      "examples/capabilities/G42/plan.json",
+      "tests/test_g42_capability.py"
+    ],
+    "allOriginalCaseIdsRetained": true,
+    "fullBundleNvidiaCleared": false
+  }
+}
