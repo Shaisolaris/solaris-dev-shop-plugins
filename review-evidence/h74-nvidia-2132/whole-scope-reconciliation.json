@@ -1,0 +1,52 @@
+{
+  "wholeFindings": 847,
+  "scopeFindings": 846,
+  "exactMultisetCommon": 846,
+  "wholeOnly": [
+    {
+      "category": "Supply Chain",
+      "code_snippet": null,
+      "confidence": 1.0,
+      "evidence": {},
+      "explanation": "Dependency has known vulnerabilities (CVEs). Using packages with unpatched security flaws exposes the environment to known exploits.",
+      "finding": "SC4 fallback active",
+      "id": "SC4",
+      "intent": null,
+      "location": {
+        "end_line": null,
+        "file": "requirements-dev.txt",
+        "start_line": 1
+      },
+      "match_fingerprint": "d72d6321240ae9d21e301fd977b7166e9da0b11fff924f75c5308492aaf1a953",
+      "occurrences": [
+        {
+          "end_line": null,
+          "file": "requirements-dev.txt",
+          "start_line": 1
+        }
+      ],
+      "pattern": "\ud83d\udfe1 SC4: OSV.dev unreachable, using static fallback (15 packages). Results may be incomplete. Set SKILLSPECTOR_OSV_TIMEOUT to increase timeout or check network connectivity to api.osv.dev.",
+      "remediation": "Update the dependency to a patched version that addresses the known CVE. Check OSV (osv.dev) or NVD for details on the vulnerability.",
+      "severity": "LOW",
+      "tags": [
+        "Supply Chain"
+      ]
+    }
+  ],
+  "scopeOnly": [],
+  "wholeNativeComplete": false,
+  "wholeLedgerExceptions": [
+    {
+      "outcome": "partial",
+      "phase": "ledger_output",
+      "reason_code": "output_limit",
+      "message": "Inspection reached its configured output limit.",
+      "path": "tests/test_g04_capability.py",
+      "start_line": null,
+      "end_line": null,
+      "fatal": false
+    }
+  ],
+  "method": "Every original issue field and occurrence retained; only random finding_id removed.",
+  "wholePluginCleared": false
+}

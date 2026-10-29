@@ -1,0 +1,42 @@
+{
+  "core": "32f31c0d5c14b2cd9159a52a191d047cb7ba21ec",
+  "fullLocal": {
+    "tests": 993,
+    "exit": 0,
+    "seconds": 609.081,
+    "skips": {
+      "liveCaddy": "Separately exact-head CI success",
+      "G20_CHROME": "Existing optional rendered browser check not run"
+    },
+    "logSHA256": "bfd09c2ade5ea3cffeeb1848b4260a95f84d3ae8f1f62860df78cfb5299b7d1b"
+  },
+  "g42": {
+    "tests": 23,
+    "pass": true,
+    "logSHA256": "b459b518b082dde0b7f51973af1eaae832a4f79e4e736655f178072e7b25a540"
+  },
+  "golden": {
+    "result": "PASS",
+    "version": "0.70.0",
+    "core": "32f31c0d5c14b2cd9159a52a191d047cb7ba21ec",
+    "files": 1348,
+    "canonical_files": 1214,
+    "fresh_callers": 62,
+    "assignment": "solaris.code-reviewer",
+    "provider_admission": false,
+    "rejected_controls": [
+      "changed canonical helper",
+      "missing refusal fixture",
+      "missing workflow",
+      "no-op native adapter",
+      "changed helper plus both supplied manifests",
+      "added install lifecycle",
+      "undeclared automatic hook",
+      "changed entrypoint mode",
+      "symlink payload",
+      "removed canonical license"
+    ]
+  },
+  "ci": "5/8 success;3stillrunning at latest readback",
+  "wholePluginCleared": false
+}
