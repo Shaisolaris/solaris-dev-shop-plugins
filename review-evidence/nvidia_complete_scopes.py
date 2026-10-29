@@ -1,0 +1,211 @@
+#!/usr/bin/env python3
+"""Stage lossless scan scopes and run the unchanged NVIDIA CLI.
+
+This raw-evidence driver never accepts findings or issues a release clearance.
+Reports and the partition manifest remain outside every scanned input.
+"""
+import argparse
+from concurrent.futures import ThreadPoolExecutor
+import hashlib
+import json
+import os
+from pathlib import Path, PurePosixPath
+import shutil
+import subprocess
+import time
+import zipfile
+
+SCANNER_COMMIT = 'd501c0d5035c2ed6385740a384d942bb05651fda'
+SCANNER_ZIP_SHA256 = '4b1111faf921b04dc351a55d122da112575b2ad6b34263762b5214e0de2fb257'
+STRICT_FLAGS = ['--no-llm', '--format', 'json', '--fail-on-incomplete',
+                '--fail-on-findings', '--min-coverage', '100']
+
+
+def digest(data):
+    return hashlib.sha256(data).hexdigest()
+
+
+def inventory(root):
+    result = {}
+    if root.is_symlink() or not root.is_dir():
+        raise ValueError('Use a regular input directory')
+    for path in sorted(root.rglob('*')):
+        if path.is_symlink():
+            raise ValueError('Symbolic link in scan input')
+        if path.is_file():
+            raw = path.read_bytes()
+            result[path.relative_to(root).as_posix()] = {
+                'sha256': digest(raw), 'bytes': len(raw),
+                'executable': bool(path.stat().st_mode & 0o111)}
+    return result
+
+
+def validate_git(candidate, repository, revision):
+    tree = subprocess.check_output(
+        ['git', '-C', str(repository), 'ls-tree', '-rz', revision + ':harnesses/openclaw'])
+    expected = {}
+    for row in tree.split(b'\0'):
+        if not row:
+            continue
+        header, encoded = row.split(b'\t', 1)
+        mode, kind, object_id = header.decode().split()
+        name = encoded.decode()
+        path = PurePosixPath(name)
+        if kind != 'blob' or mode not in ('100644', '100755') or path.is_absolute() or '..' in path.parts:
+            raise ValueError('Non-regular or unsafe Git input')
+        if name in expected:
+            raise ValueError('Duplicate Git path')
+        expected[name] = (object_id, mode == '100755')
+    actual = inventory(candidate)
+    if set(actual) != set(expected):
+        raise ValueError('Candidate paths differ from immutable Git tree')
+    for name, (object_id, executable) in expected.items():
+        raw = (candidate / name).read_bytes()
+        if hashlib.sha1(b'blob ' + str(len(raw)).encode() + b'\0' + raw).hexdigest() != object_id:
+            raise ValueError('Candidate bytes differ from Git: ' + name)
+        if actual[name]['executable'] != executable:
+            raise ValueError('Candidate executable mode differs from Git: ' + name)
+    record = json.loads((candidate / 'HARNESS-BUILD.json').read_text())
+    if (record['specialists'], record['coordinator']) != (61, 1):
+        raise ValueError('The fixed 61+1 scope changed')
+    return actual
+
+
+def verify_runtime(runtime):
+    archive = runtime / 'source.zip'
+    if digest(archive.read_bytes()) != SCANNER_ZIP_SHA256:
+        raise ValueError('Unexpected NVIDIA source archive')
+    with zipfile.ZipFile(archive) as stream:
+        for entry in stream.infolist():
+            parts = PurePosixPath(entry.filename).parts[1:]
+            if not parts or entry.is_dir():
+                continue
+            relative = PurePosixPath(*parts)
+            if relative.is_absolute() or '..' in relative.parts:
+                raise ValueError('Unsafe vendor archive path')
+            source = runtime / 'source' / relative
+            if source.is_symlink() or source.read_bytes() != stream.read(entry):
+                raise ValueError('NVIDIA source was modified: ' + str(relative))
+    scanner = runtime / 'source/.venv/bin/skillspector'
+    if not scanner.is_file():
+        raise ValueError('The locked NVIDIA installation is missing')
+    return scanner
+
+
+def prepare(candidate, repository, revision, output, maximum):
+    if output.exists():
+        raise ValueError('Use a new evidence directory; preserve earlier runs')
+    files = validate_git(candidate, repository, revision)
+    output.mkdir(parents=True)
+    entries = list(files)
+    scopes = []
+    for start in range(0, len(entries), maximum):
+        scope_id = 'scope-%03d' % len(scopes)
+        root = output / 'scopes' / scope_id / 'input'
+        chosen = entries[start:start + maximum]
+        for name in chosen:
+            target = root / name
+            target.parent.mkdir(parents=True, exist_ok=True)
+            shutil.copyfile(candidate / name, target)
+            target.chmod(0o755 if files[name]['executable'] else 0o644)
+        expected = {name: files[name] for name in chosen}
+        if inventory(root) != expected:
+            raise ValueError('Staged bytes or modes changed')
+        scopes.append({'id': scope_id, 'files': expected})
+    merged = {}
+    for scope in scopes:
+        if set(merged).intersection(scope['files']):
+            raise ValueError('Overlapping partition paths')
+        merged.update(scope['files'])
+    if merged != files or inventory(candidate) != files:
+        raise ValueError('The partition is not the exact immutable package')
+    manifest = {'schema': 'solaris.nvidia-complete-scopes/1', 'revision': revision,
+                'source_path': 'harnesses/openclaw', 'scanner_commit': SCANNER_COMMIT,
+                'scanner_zip_sha256': SCANNER_ZIP_SHA256, 'flags': STRICT_FLAGS,
+                'physical_files': len(files), 'files': files, 'scopes': scopes,
+                'baseline_used': False, 'clearance': False}
+    (output / 'partition.json').write_text(json.dumps(manifest, indent=2) + '\n')
+    return {'staged_files': len(files), 'scopes': len(scopes), 'clearance': False}
+
+
+def run_raw(output, runtime, parser_bin, workers):
+    scanner = verify_runtime(runtime)
+    manifest = json.loads((output / 'partition.json').read_text())
+    if (manifest['scanner_commit'], manifest['scanner_zip_sha256'], manifest['flags']) != (
+            SCANNER_COMMIT, SCANNER_ZIP_SHA256, STRICT_FLAGS):
+        raise ValueError('Mixed scanner configuration')
+
+    def run_one(scope):
+        folder = output / 'scopes' / scope['id']
+        root = folder / 'input'
+        if inventory(root) != scope['files']:
+            raise ValueError('Scope source drift: ' + scope['id'])
+        report = folder / 'raw-report.json'
+        receipt_path = folder / 'raw-receipt.json'
+        if report.exists() or receipt_path.exists():
+            raise ValueError('Refusing to overwrite previous evidence')
+        home = folder / 'home'
+        home.mkdir(mode=0o700)
+        environment = {'PATH': str(scanner.parent) + ':' + str(parser_bin) + ':/usr/bin:/bin',
+                       'HOME': str(home), 'XDG_CACHE_HOME': str(home / 'cache'),
+                       'LANG': 'en_US.UTF-8', 'PYTHONUNBUFFERED': '1',
+                       'SKILLSPECTOR_BUILD_REVISION': SCANNER_COMMIT}
+        command = [str(scanner), 'scan', str(root), '--output', str(report)] + STRICT_FLAGS
+        started = time.monotonic()
+        with (folder / 'raw.stdout.log').open('x') as stdout, (folder / 'raw.stderr.log').open('x') as stderr:
+            try:
+                code = subprocess.run(command, cwd=folder, env=environment,
+                                      stdout=stdout, stderr=stderr, timeout=720).returncode
+            except subprocess.TimeoutExpired:
+                code = None
+        source_unchanged = inventory(root) == scope['files']
+        parsed = json.loads(report.read_text()) if report.is_file() else {}
+        completeness = parsed.get('analysis_completeness', {})
+        paths = {entry['path'] for entry in parsed.get('components', [])}
+        missing = sorted(set(scope['files']) - paths)
+        exceptions = completeness.get('ledger_exceptions', [])
+        complete = (source_unchanged and not missing and parsed.get('execution_successful') is True
+                    and completeness.get('is_complete') is True
+                    and completeness.get('coverage_percent') == 100
+                    and completeness.get('partially_inspected_files') == 0
+                    and completeness.get('entirely_uninspected_files') == 0
+                    and not any(x.get('outcome') in ('partial', 'failed') for x in exceptions))
+        receipt = {'id': scope['id'], 'command': command, 'exit_code': code,
+                   'wall_seconds': round(time.monotonic() - started, 3),
+                   'scanner_commit': SCANNER_COMMIT, 'scanner_zip_sha256': SCANNER_ZIP_SHA256,
+                   'source_unchanged': source_unchanged, 'missing_physical_components': missing,
+                   'complete_in_scope': complete, 'analysis_completeness': completeness,
+                   'findings': len(parsed.get('issues', [])),
+                   'report_sha256': digest(report.read_bytes()) if report.exists() else None,
+                   'model_calls': 0, 'baseline_used': False, 'clearance': False}
+        receipt_path.write_text(json.dumps(receipt, indent=2) + '\n')
+        return receipt
+
+    with ThreadPoolExecutor(max_workers=workers) as pool:
+        results = list(pool.map(run_one, manifest['scopes']))
+    verify_runtime(runtime)
+    summary = {'scopes': len(results), 'complete_scopes': sum(x['complete_in_scope'] for x in results),
+               'incomplete_scope_ids': [x['id'] for x in results if not x['complete_in_scope']],
+               'physical_files': manifest['physical_files'], 'baseline_used': False,
+               'findings_not_yet_classified': sum(x['findings'] for x in results), 'clearance': False}
+    (output / 'raw-summary.json').write_text(json.dumps(summary, indent=2) + '\n')
+    return summary
+
+
+if __name__ == '__main__':
+    parser = argparse.ArgumentParser(description=__doc__)
+    commands = parser.add_subparsers(dest='mode', required=True)
+    stage = commands.add_parser('prepare')
+    for name in ('candidate', 'repository', 'output'):
+        stage.add_argument('--' + name, type=Path, required=True)
+    stage.add_argument('--revision', required=True)
+    stage.add_argument('--max-files', type=int, default=150, choices=range(1, 301))
+    raw = commands.add_parser('run-raw')
+    for name in ('output', 'runtime', 'parser-bin'):
+        raw.add_argument('--' + name, type=Path, required=True)
+    raw.add_argument('--workers', type=int, default=2, choices=(1, 2, 3, 4))
+    args = parser.parse_args()
+    result = prepare(args.candidate.resolve(), args.repository.resolve(), args.revision,
+                     args.output.resolve(), args.max_files) if args.mode == 'prepare' else run_raw(
+                         args.output.resolve(), args.runtime.resolve(), args.parser_bin.resolve(), args.workers)
+    print(json.dumps(result, indent=2))
