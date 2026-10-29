@@ -1,0 +1,54 @@
+{
+  "head": "32f31c0d5c14b2cd9159a52a191d047cb7ba21ec",
+  "checks": [
+    {
+      "name": "router (ubuntu-latest, 3.13)",
+      "status": "completed",
+      "conclusion": "success",
+      "url": "https://github.com/Shaisolaris/solaris-dev-shop/actions/runs/40962948213/job/123760143662"
+    },
+    {
+      "name": "router (ubuntu-latest, 3.12)",
+      "status": "completed",
+      "conclusion": "success",
+      "url": "https://github.com/Shaisolaris/solaris-dev-shop/actions/runs/40962948213/job/123760143474"
+    },
+    {
+      "name": "router (macos-latest, 3.12)",
+      "status": "completed",
+      "conclusion": "success",
+      "url": "https://github.com/Shaisolaris/solaris-dev-shop/actions/runs/40962948213/job/123760143437"
+    },
+    {
+      "name": "router (ubuntu-latest, 3.10)",
+      "status": "completed",
+      "conclusion": "success",
+      "url": "https://github.com/Shaisolaris/solaris-dev-shop/actions/runs/40962948213/job/123760143333"
+    },
+    {
+      "name": "manifests",
+      "status": "completed",
+      "conclusion": "success",
+      "url": "https://github.com/Shaisolaris/solaris-dev-shop/actions/runs/40962948213/job/123760143327"
+    },
+    {
+      "name": "router (windows-latest, 3.12)",
+      "status": "completed",
+      "conclusion": "success",
+      "url": "https://github.com/Shaisolaris/solaris-dev-shop/actions/runs/40962948213/job/123760143293"
+    },
+    {
+      "name": "network-tls-guidance",
+      "status": "completed",
+      "conclusion": "success",
+      "url": "https://github.com/Shaisolaris/solaris-dev-shop/actions/runs/40962948213/job/123760143186"
+    },
+    {
+      "name": "quality",
+      "status": "completed",
+      "conclusion": "success",
+      "url": "https://github.com/Shaisolaris/solaris-dev-shop/actions/runs/40962948213/job/123760143105"
+    }
+  ],
+  "allEightSuccess": true
+}

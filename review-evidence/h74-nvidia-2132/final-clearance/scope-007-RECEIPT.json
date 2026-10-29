@@ -1,0 +1,23 @@
+{
+  "scope": "scope-007",
+  "physicalFiles": 150,
+  "nativeExit": 0,
+  "nativeComplete": true,
+  "nativeCoverage": 100,
+  "recommendation": "SAFE",
+  "score": 0,
+  "activeFindings": 0,
+  "baselineSha256": "5bc6332b305c29e1e7ee37e920e2ccf77f59636885f84d12248ad895904652a4",
+  "reportSha256": "98b9ab8fe6e80291090a28c3efbf4d2780276e69dca0d93e0cdd088de2833af6",
+  "reviewSidecarSha256": "f0ed1e5fd15d7bcc499051a7342a86684fc17cca2e9082ad63182f7b96724971",
+  "media": {},
+  "reviewedUniqueFindings": 43,
+  "nativeSuppressedInstances": 43,
+  "identicalDuplicateInstances": 0,
+  "duplicateEvidence": [],
+  "exactFormattingAliases": {},
+  "noMissingOrNewFindingIdentities": true,
+  "nativeReportsAndBaselinesUnchanged": true,
+  "scannerInvokedByReconciler": false,
+  "releaseClearance": false
+}

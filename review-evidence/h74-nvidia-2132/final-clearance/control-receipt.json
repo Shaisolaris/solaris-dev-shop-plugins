@@ -1,0 +1,118 @@
+{
+  "controlsPassed": [
+    "official-source-byte-drift-reactivates-four-rules",
+    "official-new-unexecuted-finding-remains-active",
+    "native-incomplete-cannot-be-classified-clear",
+    "official-wrong-baseline-scanner-version-reactivates-all-findings",
+    "missing-physical-source-refused",
+    "changed-source-hash-refused",
+    "changed-executable-mode-refused",
+    "extra-physical-source-refused",
+    "symbolic-link-input-refused",
+    "native-false-completeness-refused",
+    "wrong-scanner-report-refused",
+    "boolean-analyzer-counter-refused",
+    "analyzer-work-gap-refused",
+    "missing-reviewed-suppression-refused",
+    "novel-suppression-even-with-same-rule-and-location-refused",
+    "novel-column-instance-refused-despite-fingerprint-count-projection",
+    "unlisted-ast-equivalent-display-variant-refused",
+    "untrusted-scanner-artifact-refused",
+    "unresolved-finding-refused",
+    "missing-finding-disposition-refused",
+    "changed-review-source-hash-refused"
+  ],
+  "actualVendorCommands": [
+    {
+      "label": "source-byte-drift",
+      "command": [
+        "/private/tmp/solaris-skillspector-2132-20261029/skillspector-2.13.2/.venv/bin/skillspector",
+        "scan",
+        "/Users/shai/Desktop/Agent Marketplace/outputs/01a144ce-dc4c-79d0-a375-2637bd01b9ff/harness-publication-20261028/parser-corrections-20261029/nvidia-2132-h74-controls/private-controls/source-byte-drift/input",
+        "--output",
+        "/Users/shai/Desktop/Agent Marketplace/outputs/01a144ce-dc4c-79d0-a375-2637bd01b9ff/harness-publication-20261028/parser-corrections-20261029/nvidia-2132-h74-controls/private-controls/source-byte-drift/vendor-report.json",
+        "--baseline",
+        "/Users/shai/Desktop/Agent Marketplace/outputs/01a144ce-dc4c-79d0-a375-2637bd01b9ff/harness-publication-20261028/parser-corrections-20261029/nvidia-2132-h74-classified/scope-008/official-baseline.json",
+        "--show-suppressed",
+        "--no-llm",
+        "--format",
+        "json",
+        "--fail-on-incomplete",
+        "--fail-on-findings"
+      ],
+      "exit": 1,
+      "seconds": 40.491,
+      "reportSha256": "3e1f585218861bc3815e5eb51c1fb1769dae13cbfd01317ec328ed78c4c201d3"
+    },
+    {
+      "label": "new-unexecuted-finding",
+      "command": [
+        "/private/tmp/solaris-skillspector-2132-20261029/skillspector-2.13.2/.venv/bin/skillspector",
+        "scan",
+        "/Users/shai/Desktop/Agent Marketplace/outputs/01a144ce-dc4c-79d0-a375-2637bd01b9ff/harness-publication-20261028/parser-corrections-20261029/nvidia-2132-h74-controls/private-controls/new-unexecuted-finding/input",
+        "--output",
+        "/Users/shai/Desktop/Agent Marketplace/outputs/01a144ce-dc4c-79d0-a375-2637bd01b9ff/harness-publication-20261028/parser-corrections-20261029/nvidia-2132-h74-controls/private-controls/new-unexecuted-finding/vendor-report.json",
+        "--baseline",
+        "/Users/shai/Desktop/Agent Marketplace/outputs/01a144ce-dc4c-79d0-a375-2637bd01b9ff/harness-publication-20261028/parser-corrections-20261029/nvidia-2132-h74-classified/scope-008/official-baseline.json",
+        "--show-suppressed",
+        "--no-llm",
+        "--format",
+        "json",
+        "--fail-on-incomplete",
+        "--fail-on-findings"
+      ],
+      "exit": 1,
+      "seconds": 39.002,
+      "reportSha256": "7a6b5ed700c64d1b8fab1b7ad1bb6ff2358091a9f78168888936d22f053265dc"
+    },
+    {
+      "label": "required-opaque-primary",
+      "command": [
+        "/private/tmp/solaris-skillspector-2132-20261029/skillspector-2.13.2/.venv/bin/skillspector",
+        "scan",
+        "/Users/shai/Desktop/Agent Marketplace/outputs/01a144ce-dc4c-79d0-a375-2637bd01b9ff/harness-publication-20261028/parser-corrections-20261029/nvidia-2132-h74-controls/private-controls/required-opaque-primary/input",
+        "--output",
+        "/Users/shai/Desktop/Agent Marketplace/outputs/01a144ce-dc4c-79d0-a375-2637bd01b9ff/harness-publication-20261028/parser-corrections-20261029/nvidia-2132-h74-controls/private-controls/required-opaque-primary/vendor-report.json",
+        "--baseline",
+        "/Users/shai/Desktop/Agent Marketplace/outputs/01a144ce-dc4c-79d0-a375-2637bd01b9ff/harness-publication-20261028/parser-corrections-20261029/nvidia-2132-h74-classified/scope-008/official-baseline.json",
+        "--show-suppressed",
+        "--no-llm",
+        "--format",
+        "json",
+        "--fail-on-incomplete",
+        "--fail-on-findings"
+      ],
+      "exit": 2,
+      "seconds": 38.624,
+      "reportSha256": "b4b7da2385a0aaaaffc1e1b77661cb495207276175e0b3394847ba471e2549b7"
+    },
+    {
+      "label": "baseline-version-tamper",
+      "command": [
+        "/private/tmp/solaris-skillspector-2132-20261029/skillspector-2.13.2/.venv/bin/skillspector",
+        "scan",
+        "/Users/shai/Desktop/Agent Marketplace/outputs/01a144ce-dc4c-79d0-a375-2637bd01b9ff/harness-publication-20261028/parser-corrections-20261029/nvidia-2132-h74-controls/private-controls/baseline-version-tamper/input",
+        "--output",
+        "/Users/shai/Desktop/Agent Marketplace/outputs/01a144ce-dc4c-79d0-a375-2637bd01b9ff/harness-publication-20261028/parser-corrections-20261029/nvidia-2132-h74-controls/private-controls/baseline-version-tamper/vendor-report.json",
+        "--baseline",
+        "/Users/shai/Desktop/Agent Marketplace/outputs/01a144ce-dc4c-79d0-a375-2637bd01b9ff/harness-publication-20261028/parser-corrections-20261029/nvidia-2132-h74-controls/private-controls/baseline-version-tamper/private-tampered-baseline.json",
+        "--show-suppressed",
+        "--no-llm",
+        "--format",
+        "json",
+        "--fail-on-incomplete",
+        "--fail-on-findings"
+      ],
+      "exit": 1,
+      "seconds": 40.004,
+      "reportSha256": "921abffd3267efd1fdb4b5770cce92a0df468b9ac1ef01bbeec3e3e47d941034"
+    }
+  ],
+  "sourcePackageUnchanged": true,
+  "originalBaselineUnchanged": true,
+  "scannerSourceUnchanged": true,
+  "privateControlCodeExecuted": false,
+  "providerApproval": false,
+  "releaseClearance": false,
+  "note": "Control evidence only; release decision must also reconcile all nine classified scopes and whole-report limitations."
+}

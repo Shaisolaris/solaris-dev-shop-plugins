@@ -1,0 +1,22 @@
+{
+  "sourceRevision": "1b3212f0ba9fc58f7675877be9cf0ea0d8283ee8",
+  "scannerVersion": "2.13.2",
+  "completeSafeScopes": 9,
+  "exactPhysicalFilesCovered": 1348,
+  "reviewedFindingsClassified": 846,
+  "nativeSuppressedInstances": 856,
+  "identicalDuplicateInstances": 10,
+  "allClassifiedScopesSafe": true,
+  "originalReportsRetained": true,
+  "sourceUnchanged": true,
+  "vendorSourceUnchanged": true,
+  "controlsRequired": true,
+  "releaseClearance": false,
+  "providerApproval": false,
+  "singleWholeReportComplete": false,
+  "wholeReportLimitNotWaived": true,
+  "exactFormattingAliasCount": 1,
+  "aliasManifestSHA256": "06dc8c659d3e555f8b5a04fdd5f74a6f20c0c30f7bc9545fc94fa6373705d872",
+  "classifiedEvidenceRoot": "/Users/shai/Desktop/Agent Marketplace/outputs/01a144ce-dc4c-79d0-a375-2637bd01b9ff/harness-publication-20261028/parser-corrections-20261029/nvidia-2132-h74-classified",
+  "consumerCorrection": "Native active findings are deduplicated; suppressed instances are not. Exact identities, every source location and all vendor multiplicities remain preserved."
+}

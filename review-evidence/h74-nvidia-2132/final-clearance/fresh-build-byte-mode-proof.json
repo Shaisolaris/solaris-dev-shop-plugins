@@ -1,0 +1,16 @@
+{
+  "atUTC": "2026-10-29T23:01:10.689022+00:00",
+  "freshBuildDirectory": "/Users/shai/Desktop/Agent Marketplace/outputs/01a144ce-dc4c-79d0-a375-2637bd01b9ff/harness-publication-20261028/parser-corrections-20261029/release-070-cleared/openclaw",
+  "exactClearedBytesAndModesMatch": true,
+  "physicalFiles": 1348,
+  "canonicalFiles": 1214,
+  "workflows": 62,
+  "version": "0.70.0",
+  "archive": "/Users/shai/Desktop/Agent Marketplace/outputs/01a144ce-dc4c-79d0-a375-2637bd01b9ff/harness-publication-20261028/parser-corrections-20261029/solaris-dev-shop-openclaw-0.70.0-cleared.tgz",
+  "archiveSHA256": "6e65224833ac4af27084e85627fe01f9f6a6b1f0ef96967a95ff85666c05c586",
+  "archiveBytes": 6102313,
+  "allArchiveFileHashesAndModesVerified": true,
+  "sourceRevision": "1b3212f0ba9fc58f7675877be9cf0ea0d8283ee8",
+  "localNvidiaGatePassedBeforeFreshBuild": true,
+  "publicListingVerified": false
+}

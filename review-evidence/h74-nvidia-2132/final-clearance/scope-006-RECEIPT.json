@@ -1,0 +1,115 @@
+{
+  "scope": "scope-006",
+  "physicalFiles": 150,
+  "nativeExit": 0,
+  "nativeComplete": true,
+  "nativeCoverage": 100,
+  "recommendation": "SAFE",
+  "score": 0,
+  "activeFindings": 0,
+  "baselineSha256": "e39b722c9520cec6fd2369614b55a04a22f8c191ba585c33d371b24048801f2d",
+  "reportSha256": "812f0fb4cbccd68586510728b0b64f94d7919376eaddb27641be226dcfeaa697",
+  "reviewSidecarSha256": "f0ed1e5fd15d7bcc499051a7342a86684fc17cca2e9082ad63182f7b96724971",
+  "media": {
+    "examples/capabilities/G20/rendered/screenshot-1280.png": {
+      "sha256": "2a5f7602c9b8f9edc3c6324ab8888eb67055afc818743fe3b5c29b1c67671a4b",
+      "bytes": 58070,
+      "format": "PNG",
+      "size": [
+        1280,
+        800
+      ],
+      "framesDecoded": 1,
+      "sourceBytesUnchanged": true,
+      "nonExecutable": true,
+      "chunks": [
+        "IHDR",
+        "IDAT",
+        "IDAT",
+        "IDAT",
+        "IDAT",
+        "IDAT",
+        "IDAT",
+        "IDAT",
+        "IDAT",
+        "IDAT",
+        "IDAT",
+        "IDAT",
+        "IDAT",
+        "IDAT",
+        "IDAT",
+        "IDAT",
+        "IDAT",
+        "IEND"
+      ]
+    },
+    "examples/capabilities/G20/rendered/screenshot-320.png": {
+      "sha256": "f988c347e3a5c5118f2a4147d6f8d4b5d483d8534d239e49f09e03101dedf8fc",
+      "bytes": 46817,
+      "format": "PNG",
+      "size": [
+        320,
+        800
+      ],
+      "framesDecoded": 1,
+      "sourceBytesUnchanged": true,
+      "nonExecutable": true,
+      "chunks": [
+        "IHDR",
+        "IDAT",
+        "IDAT",
+        "IDAT",
+        "IDAT",
+        "IDAT",
+        "IDAT",
+        "IDAT",
+        "IDAT",
+        "IDAT",
+        "IDAT",
+        "IDAT",
+        "IDAT",
+        "IDAT",
+        "IEND"
+      ]
+    },
+    "examples/capabilities/G20/rendered/screenshot-360.png": {
+      "sha256": "c100322d28b111c1356483dd2ca349db78cc398d571229a4760363f9c652d846",
+      "bytes": 51963,
+      "format": "PNG",
+      "size": [
+        360,
+        800
+      ],
+      "framesDecoded": 1,
+      "sourceBytesUnchanged": true,
+      "nonExecutable": true,
+      "chunks": [
+        "IHDR",
+        "IDAT",
+        "IDAT",
+        "IDAT",
+        "IDAT",
+        "IDAT",
+        "IDAT",
+        "IDAT",
+        "IDAT",
+        "IDAT",
+        "IDAT",
+        "IDAT",
+        "IDAT",
+        "IDAT",
+        "IDAT",
+        "IEND"
+      ]
+    }
+  },
+  "reviewedUniqueFindings": 44,
+  "nativeSuppressedInstances": 44,
+  "identicalDuplicateInstances": 0,
+  "duplicateEvidence": [],
+  "exactFormattingAliases": {},
+  "noMissingOrNewFindingIdentities": true,
+  "nativeReportsAndBaselinesUnchanged": true,
+  "scannerInvokedByReconciler": false,
+  "releaseClearance": false
+}

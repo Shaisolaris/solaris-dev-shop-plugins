@@ -1,0 +1,13 @@
+{
+  "atUTC": "2026-10-29T23:13:14.388574+00:00",
+  "archive": "/Users/shai/Desktop/Agent Marketplace/outputs/01a144ce-dc4c-79d0-a375-2637bd01b9ff/harness-publication-20261028/parser-corrections-20261029/solaris-dev-shop-openclaw-0.70.0-cleared.zip",
+  "sha256": "35e5f29cc93ad2e83e38228cac1a18b9cd5dd8a91bfd211c259d0d36f491a908",
+  "bytes": 6882143,
+  "fileCount": 1348,
+  "everyClearedByteAndExecutableModeIdentical": true,
+  "archiveContainerOnlyChanged": true,
+  "browserTarError": "RangeError: path should be a path.relative() string, got ./@PaxHeader",
+  "noPaxOrAuxiliaryArchiveEntries": true,
+  "sourceRevision": "1b3212f0ba9fc58f7675877be9cf0ea0d8283ee8",
+  "version": "0.70.0"
+}

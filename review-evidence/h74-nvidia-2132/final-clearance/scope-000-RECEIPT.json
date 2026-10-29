@@ -1,0 +1,187 @@
+{
+  "scope": "scope-000",
+  "physicalFiles": 150,
+  "nativeExit": 0,
+  "nativeComplete": true,
+  "nativeCoverage": 100,
+  "recommendation": "SAFE",
+  "score": 0,
+  "activeFindings": 0,
+  "baselineSha256": "fe266f2b104c6b214adb045f83628312ba712c0fe97a34e631aa1006bc11c667",
+  "reportSha256": "411d2423662cff3d7e4b4577d5d3e80a92ef5105e1c5caed0b6dfcc591229c9a",
+  "reviewSidecarSha256": "f0ed1e5fd15d7bcc499051a7342a86684fc17cca2e9082ad63182f7b96724971",
+  "media": {
+    "assets/demo.gif": {
+      "sha256": "bbe9af7d242c77129d35dfef2ffc2cce7e39c8a9daf731796269236e0550e532",
+      "bytes": 137853,
+      "format": "GIF",
+      "size": [
+        760,
+        480
+      ],
+      "framesDecoded": 33,
+      "sourceBytesUnchanged": true,
+      "nonExecutable": true,
+      "imageBlocks": 33
+    },
+    "assets/icon.png": {
+      "sha256": "68c9c3e204c69be62be039bd83d55a5030890b585b1c5df65bf9cd29c6c5d5ec",
+      "bytes": 510148,
+      "format": "PNG",
+      "size": [
+        1254,
+        1254
+      ],
+      "framesDecoded": 1,
+      "sourceBytesUnchanged": true,
+      "nonExecutable": true,
+      "chunks": [
+        "IHDR",
+        "IDAT",
+        "IEND"
+      ]
+    },
+    "assets/native-plugin-icon.png": {
+      "sha256": "293fd397b99ca61af1dc9a47b60635722e4290c7417f6bfe390cb4e1c88cf8a9",
+      "bytes": 685519,
+      "format": "PNG",
+      "size": [
+        1254,
+        1254
+      ],
+      "framesDecoded": 1,
+      "sourceBytesUnchanged": true,
+      "nonExecutable": true,
+      "chunks": [
+        "IHDR",
+        "caBX",
+        "IDAT",
+        "IEND"
+      ]
+    },
+    "assets/social-preview.png": {
+      "sha256": "2478ce031cd8f75617303cdf60bdf226343dc55f97f7102ebc454e19664265ec",
+      "bytes": 868693,
+      "format": "PNG",
+      "size": [
+        1600,
+        1200
+      ],
+      "framesDecoded": 1,
+      "sourceBytesUnchanged": true,
+      "nonExecutable": true,
+      "chunks": [
+        "IHDR",
+        "pHYs",
+        "sRGB",
+        "gAMA",
+        "tEXt",
+        "IDAT",
+        "IEND"
+      ]
+    },
+    "assets/walkthrough-preview.png": {
+      "sha256": "3628161cc5109d1cf6837de3c5a65e401fb2bb8b6f9d6afbce2fbee48b44e821",
+      "bytes": 168800,
+      "format": "PNG",
+      "size": [
+        2560,
+        1440
+      ],
+      "framesDecoded": 1,
+      "sourceBytesUnchanged": true,
+      "nonExecutable": true,
+      "chunks": [
+        "IHDR",
+        "iCCP",
+        "IDAT",
+        "IDAT",
+        "IDAT",
+        "IDAT",
+        "IDAT",
+        "IDAT",
+        "IDAT",
+        "IDAT",
+        "IDAT",
+        "IDAT",
+        "IDAT",
+        "IDAT",
+        "IDAT",
+        "IDAT",
+        "IDAT",
+        "IDAT",
+        "IDAT",
+        "IDAT",
+        "IDAT",
+        "IDAT",
+        "IDAT",
+        "IDAT",
+        "IDAT",
+        "IDAT",
+        "IDAT",
+        "IDAT",
+        "IDAT",
+        "IDAT",
+        "IDAT",
+        "IDAT",
+        "IDAT",
+        "IDAT",
+        "IDAT",
+        "IDAT",
+        "IDAT",
+        "IDAT",
+        "IDAT",
+        "IDAT",
+        "IDAT",
+        "IDAT",
+        "IDAT",
+        "IDAT",
+        "IDAT",
+        "IEND"
+      ]
+    }
+  },
+  "reviewedUniqueFindings": 112,
+  "nativeSuppressedInstances": 114,
+  "identicalDuplicateInstances": 2,
+  "duplicateEvidence": [
+    {
+      "finding": {
+        "category": "MCP Rug Pull",
+        "code_snippet": null,
+        "confidence": 0.7,
+        "evidence": {},
+        "explanation": "npx commands without a version suffix (e.g. @1.0.0) create a rug-pull risk if the upstream server is compromised and publishes a malicious update.",
+        "finding": null,
+        "id": "RP1",
+        "intent": null,
+        "location": {
+          "end_line": null,
+          "file": "employees/design/technical-writer/codebase-onboarding-2026.md",
+          "start_line": 14
+        },
+        "match_fingerprint": "12d1850b559f1231581d84bd11751d63936b9046245f0b40f3a683e64dd802ac",
+        "occurrences": [
+          {
+            "end_line": null,
+            "file": "employees/design/technical-writer/codebase-onboarding-2026.md",
+            "start_line": 14
+          }
+        ],
+        "pattern": null,
+        "remediation": "Pin the version: npx @scope/server@1.2.3",
+        "severity": "MEDIUM",
+        "tags": [
+          "ASI16"
+        ]
+      },
+      "rawInstances": 1,
+      "nativeSuppressedInstances": 3
+    }
+  ],
+  "exactFormattingAliases": {},
+  "noMissingOrNewFindingIdentities": true,
+  "nativeReportsAndBaselinesUnchanged": true,
+  "scannerInvokedByReconciler": false,
+  "releaseClearance": false
+}

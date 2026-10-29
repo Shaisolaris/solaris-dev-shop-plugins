@@ -1,0 +1,222 @@
+{
+  "scope": "scope-001",
+  "physicalFiles": 150,
+  "nativeExit": 0,
+  "nativeComplete": true,
+  "nativeCoverage": 100,
+  "recommendation": "SAFE",
+  "score": 0,
+  "activeFindings": 0,
+  "baselineSha256": "59f668bf5314ad0b7230492b86841597aaa7fdf93bed845e13b1b03db49caae1",
+  "reportSha256": "a73fa9e11fed49fa0c4468f758614eaeca5868af078ac0b88fa4bf79561bd1a1",
+  "reviewSidecarSha256": "f0ed1e5fd15d7bcc499051a7342a86684fc17cca2e9082ad63182f7b96724971",
+  "media": {},
+  "reviewedUniqueFindings": 109,
+  "nativeSuppressedInstances": 116,
+  "identicalDuplicateInstances": 7,
+  "duplicateEvidence": [
+    {
+      "finding": {
+        "category": "MCP Rug Pull",
+        "code_snippet": null,
+        "confidence": 0.7,
+        "evidence": {},
+        "explanation": "npx commands without a version suffix (e.g. @1.0.0) create a rug-pull risk if the upstream server is compromised and publishes a malicious update.",
+        "finding": null,
+        "id": "RP1",
+        "intent": null,
+        "location": {
+          "end_line": null,
+          "file": "employees/design/ui-ux-designer/design-intelligence/data/stacks/astro.csv",
+          "start_line": 37
+        },
+        "match_fingerprint": "1fc12cbf34ff66660f8df2822253260f3d4414cda578e4279ccdf4ebed1d9c6e",
+        "occurrences": [
+          {
+            "end_line": null,
+            "file": "employees/design/ui-ux-designer/design-intelligence/data/stacks/astro.csv",
+            "start_line": 37
+          }
+        ],
+        "pattern": null,
+        "remediation": "Pin the version: npx @scope/server@1.2.3",
+        "severity": "MEDIUM",
+        "tags": [
+          "ASI16"
+        ]
+      },
+      "rawInstances": 1,
+      "nativeSuppressedInstances": 2
+    },
+    {
+      "finding": {
+        "category": "MCP Rug Pull",
+        "code_snippet": null,
+        "confidence": 0.7,
+        "evidence": {},
+        "explanation": "npx commands without a version suffix (e.g. @1.0.0) create a rug-pull risk if the upstream server is compromised and publishes a malicious update.",
+        "finding": null,
+        "id": "RP1",
+        "intent": null,
+        "location": {
+          "end_line": null,
+          "file": "employees/design/ui-ux-designer/design-intelligence/data/stacks/shadcn.csv",
+          "start_line": 2
+        },
+        "match_fingerprint": "6c764939ae27574d4fab2f3831679cdcaf8ea064eb9d57e5227437e8695d7325",
+        "occurrences": [
+          {
+            "end_line": null,
+            "file": "employees/design/ui-ux-designer/design-intelligence/data/stacks/shadcn.csv",
+            "start_line": 2
+          }
+        ],
+        "pattern": null,
+        "remediation": "Pin the version: npx @scope/server@1.2.3",
+        "severity": "MEDIUM",
+        "tags": [
+          "ASI16"
+        ]
+      },
+      "rawInstances": 1,
+      "nativeSuppressedInstances": 2
+    },
+    {
+      "finding": {
+        "category": "MCP Rug Pull",
+        "code_snippet": null,
+        "confidence": 0.7,
+        "evidence": {},
+        "explanation": "npx commands without a version suffix (e.g. @1.0.0) create a rug-pull risk if the upstream server is compromised and publishes a malicious update.",
+        "finding": null,
+        "id": "RP1",
+        "intent": null,
+        "location": {
+          "end_line": null,
+          "file": "employees/design/ui-ux-designer/design-intelligence/data/stacks/shadcn.csv",
+          "start_line": 3
+        },
+        "match_fingerprint": "6c764939ae27574d4fab2f3831679cdcaf8ea064eb9d57e5227437e8695d7325",
+        "occurrences": [
+          {
+            "end_line": null,
+            "file": "employees/design/ui-ux-designer/design-intelligence/data/stacks/shadcn.csv",
+            "start_line": 3
+          }
+        ],
+        "pattern": null,
+        "remediation": "Pin the version: npx @scope/server@1.2.3",
+        "severity": "MEDIUM",
+        "tags": [
+          "ASI16"
+        ]
+      },
+      "rawInstances": 1,
+      "nativeSuppressedInstances": 3
+    },
+    {
+      "finding": {
+        "category": "MCP Rug Pull",
+        "code_snippet": null,
+        "confidence": 0.7,
+        "evidence": {},
+        "explanation": "npx commands without a version suffix (e.g. @1.0.0) create a rug-pull risk if the upstream server is compromised and publishes a malicious update.",
+        "finding": null,
+        "id": "RP1",
+        "intent": null,
+        "location": {
+          "end_line": null,
+          "file": "employees/design/ui-ux-designer/design-intelligence/data/stacks/shadcn.csv",
+          "start_line": 51
+        },
+        "match_fingerprint": "6c764939ae27574d4fab2f3831679cdcaf8ea064eb9d57e5227437e8695d7325",
+        "occurrences": [
+          {
+            "end_line": null,
+            "file": "employees/design/ui-ux-designer/design-intelligence/data/stacks/shadcn.csv",
+            "start_line": 51
+          }
+        ],
+        "pattern": null,
+        "remediation": "Pin the version: npx @scope/server@1.2.3",
+        "severity": "MEDIUM",
+        "tags": [
+          "ASI16"
+        ]
+      },
+      "rawInstances": 1,
+      "nativeSuppressedInstances": 2
+    },
+    {
+      "finding": {
+        "category": "MCP Rug Pull",
+        "code_snippet": null,
+        "confidence": 0.7,
+        "evidence": {},
+        "explanation": "npx commands without a version suffix (e.g. @1.0.0) create a rug-pull risk if the upstream server is compromised and publishes a malicious update.",
+        "finding": null,
+        "id": "RP1",
+        "intent": null,
+        "location": {
+          "end_line": null,
+          "file": "employees/engineering/mobile-developer/SKILL.md",
+          "start_line": 22
+        },
+        "match_fingerprint": "e38517e0fbc08df74e70542e838fb144ee7c3b4722682d30fde47eb05961c500",
+        "occurrences": [
+          {
+            "end_line": null,
+            "file": "employees/engineering/mobile-developer/SKILL.md",
+            "start_line": 22
+          }
+        ],
+        "pattern": null,
+        "remediation": "Pin the version: npx @scope/server@1.2.3",
+        "severity": "MEDIUM",
+        "tags": [
+          "ASI16"
+        ]
+      },
+      "rawInstances": 1,
+      "nativeSuppressedInstances": 2
+    },
+    {
+      "finding": {
+        "category": "MCP Rug Pull",
+        "code_snippet": null,
+        "confidence": 0.7,
+        "evidence": {},
+        "explanation": "npx commands without a version suffix (e.g. @1.0.0) create a rug-pull risk if the upstream server is compromised and publishes a malicious update.",
+        "finding": null,
+        "id": "RP1",
+        "intent": null,
+        "location": {
+          "end_line": null,
+          "file": "employees/engineering/mobile-developer/SKILL.md",
+          "start_line": 55
+        },
+        "match_fingerprint": "e38517e0fbc08df74e70542e838fb144ee7c3b4722682d30fde47eb05961c500",
+        "occurrences": [
+          {
+            "end_line": null,
+            "file": "employees/engineering/mobile-developer/SKILL.md",
+            "start_line": 55
+          }
+        ],
+        "pattern": null,
+        "remediation": "Pin the version: npx @scope/server@1.2.3",
+        "severity": "MEDIUM",
+        "tags": [
+          "ASI16"
+        ]
+      },
+      "rawInstances": 1,
+      "nativeSuppressedInstances": 2
+    }
+  ],
+  "exactFormattingAliases": {},
+  "noMissingOrNewFindingIdentities": true,
+  "nativeReportsAndBaselinesUnchanged": true,
+  "scannerInvokedByReconciler": false,
+  "releaseClearance": false
+}

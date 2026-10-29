@@ -1,0 +1,116 @@
+{
+  "verifiedAtUTC": "2026-10-29T22:59:49.005292+00:00",
+  "localNvidiaReleaseGatePassed": true,
+  "sourceRevision": "1b3212f0ba9fc58f7675877be9cf0ea0d8283ee8",
+  "coreRevision": "32f31c0d5c14b2cd9159a52a191d047cb7ba21ec",
+  "scannerVersion": "2.13.2",
+  "scannerSDISTSHA256": "a08ffad0998e6e94578a7dc747be30a80f7db251e833c5900af585dbc7ef400e",
+  "basis": "Nine complete native static scans over the exact disjoint immutable package union; independently reviewed exact v2 false-positive classification; full native instances preserved;21 fail-closed controls; original whole finding anchor reconciled with one operational OSV notice answered by live primary evidence.",
+  "scopeResults": [
+    {
+      "scope": "scope-000",
+      "nativeComplete": true,
+      "risk": 0,
+      "recommendation": "SAFE",
+      "physicalFiles": 150,
+      "reviewedUnique": 112,
+      "nativeInstances": 114
+    },
+    {
+      "scope": "scope-001",
+      "nativeComplete": true,
+      "risk": 0,
+      "recommendation": "SAFE",
+      "physicalFiles": 150,
+      "reviewedUnique": 109,
+      "nativeInstances": 116
+    },
+    {
+      "scope": "scope-002",
+      "nativeComplete": true,
+      "risk": 0,
+      "recommendation": "SAFE",
+      "physicalFiles": 150,
+      "reviewedUnique": 48,
+      "nativeInstances": 48
+    },
+    {
+      "scope": "scope-003",
+      "nativeComplete": true,
+      "risk": 0,
+      "recommendation": "SAFE",
+      "physicalFiles": 150,
+      "reviewedUnique": 68,
+      "nativeInstances": 69
+    },
+    {
+      "scope": "scope-004",
+      "nativeComplete": true,
+      "risk": 0,
+      "recommendation": "SAFE",
+      "physicalFiles": 150,
+      "reviewedUnique": 147,
+      "nativeInstances": 147
+    },
+    {
+      "scope": "scope-005",
+      "nativeComplete": true,
+      "risk": 0,
+      "recommendation": "SAFE",
+      "physicalFiles": 150,
+      "reviewedUnique": 31,
+      "nativeInstances": 31
+    },
+    {
+      "scope": "scope-006",
+      "nativeComplete": true,
+      "risk": 0,
+      "recommendation": "SAFE",
+      "physicalFiles": 150,
+      "reviewedUnique": 44,
+      "nativeInstances": 44
+    },
+    {
+      "scope": "scope-007",
+      "nativeComplete": true,
+      "risk": 0,
+      "recommendation": "SAFE",
+      "physicalFiles": 150,
+      "reviewedUnique": 43,
+      "nativeInstances": 43
+    },
+    {
+      "scope": "scope-008",
+      "nativeComplete": true,
+      "risk": 0,
+      "recommendation": "SAFE",
+      "physicalFiles": 148,
+      "reviewedUnique": 244,
+      "nativeInstances": 244
+    }
+  ],
+  "physicalFiles": 1348,
+  "canonicalFiles": 1214,
+  "specialists": 61,
+  "chiefOfStaff": 1,
+  "allFunctionalityAndOriginalTestsRetained": true,
+  "activeFindings": 0,
+  "uniqueReviewedFindings": 846,
+  "nativeSuppressedInstancesPreserved": 856,
+  "nativeDuplicateInstancesPreserved": 10,
+  "exactOneDisplayAliasSHA256": "06dc8c659d3e555f8b5a04fdd5f74a6f20c0c30f7bc9545fc94fa6373705d872",
+  "controlsPassed": 21,
+  "fullRegressionTests": 993,
+  "existingSkips": 2,
+  "g42Tests": 23,
+  "ciChecksPassed": 8,
+  "sourceAndScannerUnchanged": true,
+  "noGlobSuppressions": true,
+  "baselinesOutsidePackage": true,
+  "wholeMonolithicReportComplete": false,
+  "wholeMonolithicLedgerOutputLimitRetained": true,
+  "wholeOnlyOSVNoticeNotSuppressedOrReclassified": true,
+  "providerOwnRuntimeApproval": false,
+  "publicMarketplaceListingVerified": false,
+  "next": "Fresh deterministic build must match every cleared byte/mode. Reconcile unused0.70 again; publish through Chrome only and verify provider security/public ordinary installation."
+}
