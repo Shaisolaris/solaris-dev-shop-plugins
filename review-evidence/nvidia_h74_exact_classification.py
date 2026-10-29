@@ -5,6 +5,7 @@ Every vendor report/baseline stays unmodified and outside scanned inputs.
 This stage cannot authorize publication: independent controls remain mandatory.
 """
 import argparse
+import copy
 from concurrent.futures import ThreadPoolExecutor
 from collections import Counter
 import hashlib
@@ -93,27 +94,48 @@ def assert_complete(report, root, files):
     return MEDIA.native_media_contract(report, root, files)
 
 
+def fingerprint_public_projection(issue):
+    # Official suppression.py finding_fingerprint v2 binds lines, not columns.
+    # Keep all other public evidence, and keep full columns in final scan matching.
+    value = copy.deepcopy(issue)
+    value.pop('finding_id', None)
+    for location in [value['location'], *value.get('occurrences', [])]:
+        location.pop('start_column', None)
+        location.pop('end_column', None)
+    return issue_identity(value)
+
+
 def assert_baseline(data, issues, reason):
     entries = data.get('fingerprints', [])
     if data.get('version') != 2 or data.get('scanner_version') != VERSION or data.get('rules') != []:
         raise ValueError('Only the official version-2 exact baseline is accepted; no glob rules')
-    if len(entries) != len(issues) or len({x['hash'] for x in entries}) != len(entries):
-        raise ValueError('Generated fingerprint count differs from the reviewed one-occurrence findings')
-    if Counter((x['rule_id'], x['file']) for x in entries) != Counter((x['id'], x['location']['file']) for x in issues):
+    projected = {fingerprint_public_projection(x): x for x in issues}
+    if len(entries) != len(projected) or len({x['hash'] for x in entries}) != len(entries):
+        raise ValueError('Generated fingerprint count differs from exact reviewed v2 public projections')
+    if Counter((x['rule_id'], x['file']) for x in entries) != Counter((x['id'], x['location']['file']) for x in projected.values()):
         raise ValueError('Generated baseline contains a different rule or component')
     if not all(re.fullmatch(r'sha256:[0-9a-f]{64}', x['hash']) and x.get('reason') == reason for x in entries):
         raise ValueError('Invalid generated fingerprint or unbound reason')
 
 
 def assert_classified(report, raw):
-    if report.get('issues') or report.get('suppressed_count') != len(raw['issues']):
-        raise ValueError('Active, missing or unexpected finding after classification')
     suppressed = report.get('suppressed', [])
-    if Counter(map(issue_identity, suppressed)) != Counter(map(issue_identity, raw['issues'])):
-        raise ValueError('Suppressed vendor evidence differs from the reviewed original findings')
+    if (report.get('issues') or type(report.get('suppressed_count')) is not int
+            or report['suppressed_count'] != len(suppressed)):
+        raise ValueError('Active findings or inconsistent native suppressed-instance count')
+    expected = Counter(map(issue_identity, raw['issues']))
+    actual = Counter(map(issue_identity, suppressed))
+    if set(actual) != set(expected) or any(actual[key] < count for key, count in expected.items()):
+        raise ValueError('Missing or new finding identity; full columns and evidence remain mandatory')
     risk = report.get('risk_assessment', {})
     if risk.get('score') != 0 or risk.get('recommendation') != 'SAFE':
         raise ValueError('Vendor did not return zero-risk SAFE')
+    return {'reviewedSuppressedFindings': len(expected),
+            'nativeSuppressedInstances': len(suppressed),
+            'identicalDuplicateInstances': sum(actual.values()) - sum(expected.values()),
+            'duplicateEvidence': [{'finding': json.loads(key), 'rawInstances': expected[key],
+                                  'nativeSuppressedInstances': count}
+                                 for key, count in actual.items() if count != expected[key]]}
 
 
 def classify(args):
@@ -165,7 +187,10 @@ def classify(args):
                 raise ValueError('An exact finding is unreviewed, unresolved or actionable: ' + key)
     if union != frozen or len(expected_keys) != 846 or set(rows) != expected_keys:
         raise ValueError('Incomplete source union or extra/missing disposition keys')
-    args.output.mkdir(mode=0o700)
+    resume = getattr(args, 'resume', False)
+    if (args.output / 'CLASSIFIED-SUMMARY.json').exists():
+        raise ValueError('Completed evidence must not be overwritten')
+    args.output.mkdir(mode=0o700, exist_ok=resume)
     review_digest = sha(args.review)
     reason = ('Exact contextual false positives individually reviewed in sidecar SHA256 ' + review_digest
               + '; source ' + REVISION + '; original findings ' + RAW_EVIDENCE
@@ -173,16 +198,30 @@ def classify(args):
 
     def run_scope(scope):
         folder = args.output / scope['id']
-        folder.mkdir(mode=0o700)
+        folder.mkdir(mode=0o700, exist_ok=resume)
         home = folder / 'home'
-        home.mkdir(mode=0o700)
+        home.mkdir(mode=0o700, exist_ok=resume)
         root = args.scopes / 'scopes' / scope['id'] / 'input'
         env = {'PATH': str(scanner.parent) + ':' + str(args.parser_bin) + ':/usr/bin:/bin',
                'HOME': str(home), 'XDG_CACHE_HOME': str(home / 'cache'), 'LANG': 'en_US.UTF-8',
                'PYTHONUNBUFFERED': '1', 'SKILLSPECTOR_BUILD_REVISION': DRIVER.SCANNER_RELEASE}
-        commands = []
+        existing = folder / 'commands.json'
+        commands = read(existing) if resume and existing.exists() else []
+        if [x.get('label') for x in commands] not in ([], ['generate'], ['generate', 'classified']):
+            raise ValueError('Unknown previous command sequence')
+        if any(x.get('exit') != 0 for x in commands):
+            raise ValueError('Failed vendor commands must not be retried implicitly')
+        original_commands = json.loads(json.dumps(commands))
+        if commands:
+            with (folder / 'PRE-RESUME-COMMANDS.json').open('x') as stream:
+                stream.write(json.dumps(commands, indent=2) + '\n')
         def run(label, arguments):
             command = [str(scanner), *arguments]
+            saved = next((x for x in original_commands if x['label'] == label), None)
+            if saved is not None:
+                if saved.get('command') != command or saved.get('exit') != 0:
+                    raise ValueError('Previous successful command does not match exact reviewed invocation')
+                return saved['exit']
             started = time.monotonic()
             with (folder / (label + '.stdout.log')).open('x') as out, (folder / (label + '.stderr.log')).open('x') as err:
                 code = subprocess.run(command, cwd=folder, env=env, stdout=out, stderr=err, timeout=720).returncode
@@ -204,16 +243,19 @@ def classify(args):
         if code != 0 or sha(baseline) != baseline_digest:
             raise ValueError('Classified scan failed or baseline changed: ' + scope['id'])
         media = assert_complete(report, root, scope['files'])
-        assert_classified(report, raw)
+        accounting = assert_classified(report, raw)
         if not all(x.get('suppression_reason') == reason for x in report['suppressed']):
             raise ValueError('A suppression reason lost its review-sidecar binding')
         receipt = {'scope': scope['id'], 'physicalFiles': len(scope['files']), 'exit': code,
                    'nativeComplete': True, 'nativeCoverage': 100, 'recommendation': 'SAFE', 'score': 0,
-                   'activeFindings': 0, 'reviewedSuppressedFindings': len(report['suppressed']),
+                   'activeFindings': 0, **accounting,
                    'baselineSha256': baseline_digest, 'reportSha256': sha(report_path),
                    'reviewSidecarSha256': review_digest, 'media': media,
-                   'sourceUnchanged': True, 'noGlobRules': True, 'releaseClearance': False}
-        (folder / 'RECEIPT.json').write_text(json.dumps(receipt, indent=2) + '\n')
+                   'sourceUnchanged': True, 'noGlobRules': True, 'reusedOfficialCommands': original_commands,
+                   'releaseClearance': False}
+        receipt_path = folder / ('RECONCILED-RECEIPT.json' if resume else 'RECEIPT.json')
+        with receipt_path.open('x') as stream:
+            stream.write(json.dumps(receipt, indent=2) + '\n')
         return receipt
     with ThreadPoolExecutor(max_workers=2) as pool:
         results = list(pool.map(run_scope, manifest['scopes']))
@@ -225,6 +267,8 @@ def classify(args):
     summary = {'sourceRevision': REVISION, 'scannerVersion': VERSION, 'completeSafeScopes': len(results),
                'exactPhysicalFilesCovered': sum(x['physicalFiles'] for x in results),
                'reviewedFindingsClassified': sum(x['reviewedSuppressedFindings'] for x in results),
+               'nativeSuppressedInstances': sum(x['nativeSuppressedInstances'] for x in results),
+               'identicalDuplicateInstances': sum(x['identicalDuplicateInstances'] for x in results),
                'allClassifiedScopesSafe': True, 'originalReportsRetained': True,
                'sourceUnchanged': True, 'vendorSourceUnchanged': True,
                'controlsRequired': True, 'releaseClearance': False, 'providerApproval': False,
@@ -250,7 +294,9 @@ if __name__ == '__main__':
     parser = argparse.ArgumentParser(description=__doc__)
     for name in ('scopes', 'review', 'candidate', 'runtime', 'parser-bin', 'output'):
         parser.add_argument('--' + name, type=Path, required=True)
+    parser.add_argument('--resume', action='store_true', help='Reuse only exact successful official commands; never overwrite reports or repeat failed commands')
     args = parser.parse_args()
     for name in vars(args):
-        setattr(args, name, getattr(args, name).resolve())
+        if isinstance(getattr(args, name), Path):
+            setattr(args, name, getattr(args, name).resolve())
     print(json.dumps(classify(args), indent=2))
