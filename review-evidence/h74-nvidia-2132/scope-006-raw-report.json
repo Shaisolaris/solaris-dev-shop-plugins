@@ -1,0 +1,3467 @@
+{
+  "skill": {
+    "name": "unknown",
+    "source": "/Users/shai/Desktop/Agent Marketplace/outputs/01a144ce-dc4c-79d0-a375-2637bd01b9ff/harness-publication-20261028/parser-corrections-20261029/nvidia-2132-h74-scopes/scopes/scope-006/input",
+    "scanned_at": "2026-10-29T22:07:09.870565+00:00"
+  },
+  "risk_assessment": {
+    "score": 100,
+    "severity": "CRITICAL",
+    "recommendation": "DO_NOT_INSTALL",
+    "max_issue_severity": "HIGH"
+  },
+  "components": [
+    {
+      "path": "examples/capabilities/G20/naive_core.js",
+      "type": "javascript",
+      "lines": 31,
+      "executable": true,
+      "size_bytes": 2181,
+      "source_url": null,
+      "source_identity": null,
+      "source_digest": null
+    },
+    {
+      "path": "examples/capabilities/G20/noop_core.js",
+      "type": "javascript",
+      "lines": 9,
+      "executable": true,
+      "size_bytes": 723,
+      "source_url": null,
+      "source_identity": null,
+      "source_digest": null
+    },
+    {
+      "path": "examples/capabilities/G20/oracle_checks.js",
+      "type": "javascript",
+      "lines": 226,
+      "executable": true,
+      "size_bytes": 14734,
+      "source_url": null,
+      "source_identity": null,
+      "source_digest": null
+    },
+    {
+      "path": "examples/capabilities/G20/rendered/README.md",
+      "type": "markdown",
+      "lines": 16,
+      "executable": false,
+      "size_bytes": 1275,
+      "source_url": null,
+      "source_identity": null,
+      "source_digest": null
+    },
+    {
+      "path": "examples/capabilities/G20/rendered/report.json",
+      "type": "json",
+      "lines": 360,
+      "executable": false,
+      "size_bytes": 8152,
+      "source_url": null,
+      "source_identity": null,
+      "source_digest": null
+    },
+    {
+      "path": "examples/capabilities/G20/rendered/screenshot-1280.png",
+      "type": "other",
+      "lines": 1239,
+      "executable": false,
+      "size_bytes": 58070,
+      "source_url": null,
+      "source_identity": null,
+      "source_digest": null
+    },
+    {
+      "path": "examples/capabilities/G20/rendered/screenshot-320.png",
+      "type": "other",
+      "lines": 1286,
+      "executable": false,
+      "size_bytes": 46817,
+      "source_url": null,
+      "source_identity": null,
+      "source_digest": null
+    },
+    {
+      "path": "examples/capabilities/G20/rendered/screenshot-360.png",
+      "type": "other",
+      "lines": 1422,
+      "executable": false,
+      "size_bytes": 51963,
+      "source_url": null,
+      "source_identity": null,
+      "source_digest": null
+    },
+    {
+      "path": "examples/capabilities/G20/ui_oracle.py",
+      "type": "python",
+      "lines": 122,
+      "executable": true,
+      "size_bytes": 6750,
+      "source_url": null,
+      "source_identity": null,
+      "source_digest": null
+    },
+    {
+      "path": "examples/capabilities/G21/README.md",
+      "type": "markdown",
+      "lines": 39,
+      "executable": false,
+      "size_bytes": 2294,
+      "source_url": null,
+      "source_identity": null,
+      "source_digest": null
+    },
+    {
+      "path": "examples/capabilities/G21/naive_sync.py",
+      "type": "python",
+      "lines": 72,
+      "executable": true,
+      "size_bytes": 2742,
+      "source_url": null,
+      "source_identity": null,
+      "source_digest": null
+    },
+    {
+      "path": "examples/capabilities/G21/noop_sync.py",
+      "type": "python",
+      "lines": 14,
+      "executable": true,
+      "size_bytes": 473,
+      "source_url": null,
+      "source_identity": null,
+      "source_digest": null
+    },
+    {
+      "path": "examples/capabilities/G21/sync_oracle.py",
+      "type": "python",
+      "lines": 507,
+      "executable": true,
+      "size_bytes": 25432,
+      "source_url": null,
+      "source_identity": null,
+      "source_digest": null
+    },
+    {
+      "path": "examples/capabilities/G22/README.md",
+      "type": "markdown",
+      "lines": 55,
+      "executable": false,
+      "size_bytes": 4144,
+      "source_url": null,
+      "source_identity": null,
+      "source_digest": null
+    },
+    {
+      "path": "examples/capabilities/G22/fixtures/catalog.json",
+      "type": "json",
+      "lines": 4,
+      "executable": false,
+      "size_bytes": 287,
+      "source_url": null,
+      "source_identity": null,
+      "source_digest": null
+    },
+    {
+      "path": "examples/capabilities/G22/fixtures/september.jsonl",
+      "type": "other",
+      "lines": 13,
+      "executable": false,
+      "size_bytes": 3571,
+      "source_url": null,
+      "source_identity": null,
+      "source_digest": null
+    },
+    {
+      "path": "examples/capabilities/G22/fixtures/test-secret.txt",
+      "type": "text",
+      "lines": 1,
+      "executable": false,
+      "size_bytes": 39,
+      "source_url": null,
+      "source_identity": null,
+      "source_digest": null
+    },
+    {
+      "path": "examples/capabilities/G22/ledger_oracle.py",
+      "type": "python",
+      "lines": 334,
+      "executable": true,
+      "size_bytes": 18289,
+      "source_url": null,
+      "source_identity": null,
+      "source_digest": null
+    },
+    {
+      "path": "examples/capabilities/G22/make_stream.py",
+      "type": "python",
+      "lines": 44,
+      "executable": true,
+      "size_bytes": 2792,
+      "source_url": null,
+      "source_identity": null,
+      "source_digest": null
+    },
+    {
+      "path": "examples/capabilities/G22/naive_ledger.py",
+      "type": "python",
+      "lines": 37,
+      "executable": true,
+      "size_bytes": 1430,
+      "source_url": null,
+      "source_identity": null,
+      "source_digest": null
+    },
+    {
+      "path": "examples/capabilities/G22/noop_ledger.py",
+      "type": "python",
+      "lines": 15,
+      "executable": true,
+      "size_bytes": 631,
+      "source_url": null,
+      "source_identity": null,
+      "source_digest": null
+    },
+    {
+      "path": "examples/capabilities/G23/README.md",
+      "type": "markdown",
+      "lines": 42,
+      "executable": false,
+      "size_bytes": 3365,
+      "source_url": null,
+      "source_identity": null,
+      "source_digest": null
+    },
+    {
+      "path": "examples/capabilities/G23/fixtures/01-clean-control.json",
+      "type": "json",
+      "lines": 1271,
+      "executable": false,
+      "size_bytes": 31671,
+      "source_url": null,
+      "source_identity": null,
+      "source_digest": null
+    },
+    {
+      "path": "examples/capabilities/G23/fixtures/02-plugin-conflict.json",
+      "type": "json",
+      "lines": 210,
+      "executable": false,
+      "size_bytes": 4718,
+      "source_url": null,
+      "source_identity": null,
+      "source_digest": null
+    },
+    {
+      "path": "examples/capabilities/G23/fixtures/03-slow-and-repeated-query.json",
+      "type": "json",
+      "lines": 2181,
+      "executable": false,
+      "size_bytes": 72271,
+      "source_url": null,
+      "source_identity": null,
+      "source_digest": null
+    },
+    {
+      "path": "examples/capabilities/G23/fixtures/04-config-faults.json",
+      "type": "json",
+      "lines": 167,
+      "executable": false,
+      "size_bytes": 3919,
+      "source_url": null,
+      "source_identity": null,
+      "source_digest": null
+    },
+    {
+      "path": "examples/capabilities/G23/fixtures/05-before.json",
+      "type": "json",
+      "lines": 949,
+      "executable": false,
+      "size_bytes": 25342,
+      "source_url": null,
+      "source_identity": null,
+      "source_digest": null
+    },
+    {
+      "path": "examples/capabilities/G23/fixtures/06-after-same-measurements.json",
+      "type": "json",
+      "lines": 865,
+      "executable": false,
+      "size_bytes": 21409,
+      "source_url": null,
+      "source_identity": null,
+      "source_digest": null
+    },
+    {
+      "path": "examples/capabilities/G23/fixtures/07-after-different-measurements.json",
+      "type": "json",
+      "lines": 633,
+      "executable": false,
+      "size_bytes": 15599,
+      "source_url": null,
+      "source_identity": null,
+      "source_digest": null
+    },
+    {
+      "path": "examples/capabilities/G23/fixtures/08-bisect-ambiguous.json",
+      "type": "json",
+      "lines": 135,
+      "executable": false,
+      "size_bytes": 2808,
+      "source_url": null,
+      "source_identity": null,
+      "source_digest": null
+    },
+    {
+      "path": "examples/capabilities/G23/make_fixtures.py",
+      "type": "python",
+      "lines": 97,
+      "executable": true,
+      "size_bytes": 6347,
+      "source_url": null,
+      "source_identity": null,
+      "source_digest": null
+    },
+    {
+      "path": "examples/capabilities/G23/naive_stub.py",
+      "type": "python",
+      "lines": 29,
+      "executable": true,
+      "size_bytes": 1460,
+      "source_url": null,
+      "source_identity": null,
+      "source_digest": null
+    },
+    {
+      "path": "examples/capabilities/G23/noop_stub.py",
+      "type": "python",
+      "lines": 13,
+      "executable": true,
+      "size_bytes": 690,
+      "source_url": null,
+      "source_identity": null,
+      "source_digest": null
+    },
+    {
+      "path": "examples/capabilities/G23/wp_oracle.py",
+      "type": "python",
+      "lines": 454,
+      "executable": true,
+      "size_bytes": 24721,
+      "source_url": null,
+      "source_identity": null,
+      "source_digest": null
+    },
+    {
+      "path": "examples/capabilities/G25/README.md",
+      "type": "markdown",
+      "lines": 47,
+      "executable": false,
+      "size_bytes": 3530,
+      "source_url": null,
+      "source_identity": null,
+      "source_digest": null
+    },
+    {
+      "path": "examples/capabilities/G25/fixtures/clean-events.jsonl",
+      "type": "other",
+      "lines": 10,
+      "executable": false,
+      "size_bytes": 955,
+      "source_url": null,
+      "source_identity": null,
+      "source_digest": null
+    },
+    {
+      "path": "examples/capabilities/G25/fixtures/commands.jsonl",
+      "type": "other",
+      "lines": 4,
+      "executable": false,
+      "size_bytes": 222,
+      "source_url": null,
+      "source_identity": null,
+      "source_digest": null
+    },
+    {
+      "path": "examples/capabilities/G25/fixtures/faulty-events.jsonl",
+      "type": "other",
+      "lines": 17,
+      "executable": false,
+      "size_bytes": 1721,
+      "source_url": null,
+      "source_identity": null,
+      "source_digest": null
+    },
+    {
+      "path": "examples/capabilities/G25/fixtures/malformed-events.jsonl",
+      "type": "other",
+      "lines": 19,
+      "executable": false,
+      "size_bytes": 71390,
+      "source_url": null,
+      "source_identity": null,
+      "source_digest": null
+    },
+    {
+      "path": "examples/capabilities/G25/fixtures/unexplained-events.jsonl",
+      "type": "other",
+      "lines": 4,
+      "executable": false,
+      "size_bytes": 385,
+      "source_url": null,
+      "source_identity": null,
+      "source_digest": null
+    },
+    {
+      "path": "examples/capabilities/G25/naive_stub.py",
+      "type": "python",
+      "lines": 35,
+      "executable": true,
+      "size_bytes": 1278,
+      "source_url": null,
+      "source_identity": null,
+      "source_digest": null
+    },
+    {
+      "path": "examples/capabilities/G25/noop_stub.py",
+      "type": "python",
+      "lines": 11,
+      "executable": true,
+      "size_bytes": 622,
+      "source_url": null,
+      "source_identity": null,
+      "source_digest": null
+    },
+    {
+      "path": "examples/capabilities/G25/protocol_oracle.py",
+      "type": "python",
+      "lines": 442,
+      "executable": true,
+      "size_bytes": 24148,
+      "source_url": null,
+      "source_identity": null,
+      "source_digest": null
+    },
+    {
+      "path": "examples/capabilities/G31/README.md",
+      "type": "markdown",
+      "lines": 48,
+      "executable": false,
+      "size_bytes": 3779,
+      "source_url": null,
+      "source_identity": null,
+      "source_digest": null
+    },
+    {
+      "path": "examples/capabilities/G31/fixtures/capacity/books-sept/bank.csv",
+      "type": "other",
+      "lines": 2,
+      "executable": false,
+      "size_bytes": 45,
+      "source_url": null,
+      "source_identity": null,
+      "source_digest": null
+    },
+    {
+      "path": "examples/capabilities/G31/fixtures/capacity/books-sept/credits.csv",
+      "type": "other",
+      "lines": 1,
+      "executable": false,
+      "size_bytes": 62,
+      "source_url": null,
+      "source_identity": null,
+      "source_digest": null
+    },
+    {
+      "path": "examples/capabilities/G31/fixtures/capacity/books-sept/invoices.csv",
+      "type": "other",
+      "lines": 4,
+      "executable": false,
+      "size_bytes": 364,
+      "source_url": null,
+      "source_identity": null,
+      "source_digest": null
+    },
+    {
+      "path": "examples/capabilities/G31/fixtures/capacity/books-sept/package.json",
+      "type": "json",
+      "lines": 10,
+      "executable": false,
+      "size_bytes": 317,
+      "source_url": null,
+      "source_identity": null,
+      "source_digest": null
+    },
+    {
+      "path": "examples/capabilities/G31/fixtures/capacity/books-sept/payments.csv",
+      "type": "other",
+      "lines": 4,
+      "executable": false,
+      "size_bytes": 243,
+      "source_url": null,
+      "source_identity": null,
+      "source_digest": null
+    },
+    {
+      "path": "examples/capabilities/G31/fixtures/capacity/studio-result.json",
+      "type": "json",
+      "lines": 870,
+      "executable": false,
+      "size_bytes": 19361,
+      "source_url": null,
+      "source_identity": null,
+      "source_digest": null
+    },
+    {
+      "path": "examples/capabilities/G31/fixtures/capacity/studio.json",
+      "type": "json",
+      "lines": 374,
+      "executable": false,
+      "size_bytes": 7862,
+      "source_url": null,
+      "source_identity": null,
+      "source_digest": null
+    },
+    {
+      "path": "examples/capabilities/G31/fixtures/delivery.json",
+      "type": "json",
+      "lines": 51,
+      "executable": false,
+      "size_bytes": 1153,
+      "source_url": null,
+      "source_identity": null,
+      "source_digest": null
+    },
+    {
+      "path": "examples/capabilities/G31/fixtures/demos/CAP-booking.json",
+      "type": "json",
+      "lines": 8,
+      "executable": false,
+      "size_bytes": 225,
+      "source_url": null,
+      "source_identity": null,
+      "source_digest": null
+    },
+    {
+      "path": "examples/capabilities/G31/fixtures/demos/CAP-dashboard.json",
+      "type": "json",
+      "lines": 8,
+      "executable": false,
+      "size_bytes": 227,
+      "source_url": null,
+      "source_identity": null,
+      "source_digest": null
+    },
+    {
+      "path": "examples/capabilities/G31/fixtures/demos/CAP-import.json",
+      "type": "json",
+      "lines": 8,
+      "executable": false,
+      "size_bytes": 221,
+      "source_url": null,
+      "source_identity": null,
+      "source_digest": null
+    },
+    {
+      "path": "examples/capabilities/G31/fixtures/demos/CAP-sms.json",
+      "type": "json",
+      "lines": 8,
+      "executable": false,
+      "size_bytes": 218,
+      "source_url": null,
+      "source_identity": null,
+      "source_digest": null
+    },
+    {
+      "path": "examples/capabilities/G31/fixtures/evidence/AC1.txt",
+      "type": "text",
+      "lines": 1,
+      "executable": false,
+      "size_bytes": 39,
+      "source_url": null,
+      "source_identity": null,
+      "source_digest": null
+    },
+    {
+      "path": "examples/capabilities/G31/fixtures/evidence/AC2.txt",
+      "type": "text",
+      "lines": 1,
+      "executable": false,
+      "size_bytes": 39,
+      "source_url": null,
+      "source_identity": null,
+      "source_digest": null
+    },
+    {
+      "path": "examples/capabilities/G31/fixtures/evidence/AC3.txt",
+      "type": "text",
+      "lines": 1,
+      "executable": false,
+      "size_bytes": 39,
+      "source_url": null,
+      "source_identity": null,
+      "source_digest": null
+    },
+    {
+      "path": "examples/capabilities/G31/fixtures/evidence/AC4.txt",
+      "type": "text",
+      "lines": 1,
+      "executable": false,
+      "size_bytes": 39,
+      "source_url": null,
+      "source_identity": null,
+      "source_digest": null
+    },
+    {
+      "path": "examples/capabilities/G31/fixtures/evidence/AC5.txt",
+      "type": "text",
+      "lines": 1,
+      "executable": false,
+      "size_bytes": 39,
+      "source_url": null,
+      "source_identity": null,
+      "source_digest": null
+    },
+    {
+      "path": "examples/capabilities/G31/fixtures/portal.json",
+      "type": "json",
+      "lines": 296,
+      "executable": false,
+      "size_bytes": 5958,
+      "source_url": null,
+      "source_identity": null,
+      "source_digest": null
+    },
+    {
+      "path": "examples/capabilities/G31/naive_scope.py",
+      "type": "python",
+      "lines": 39,
+      "executable": true,
+      "size_bytes": 2012,
+      "source_url": null,
+      "source_identity": null,
+      "source_digest": null
+    },
+    {
+      "path": "examples/capabilities/G31/noop_scope.py",
+      "type": "python",
+      "lines": 13,
+      "executable": true,
+      "size_bytes": 614,
+      "source_url": null,
+      "source_identity": null,
+      "source_digest": null
+    },
+    {
+      "path": "examples/capabilities/G31/scope_oracle.py",
+      "type": "python",
+      "lines": 443,
+      "executable": true,
+      "size_bytes": 26348,
+      "source_url": null,
+      "source_identity": null,
+      "source_digest": null
+    },
+    {
+      "path": "examples/capabilities/G32/README.md",
+      "type": "markdown",
+      "lines": 47,
+      "executable": false,
+      "size_bytes": 3827,
+      "source_url": null,
+      "source_identity": null,
+      "source_digest": null
+    },
+    {
+      "path": "examples/capabilities/G32/fixtures/account.json",
+      "type": "json",
+      "lines": 11,
+      "executable": false,
+      "size_bytes": 462,
+      "source_url": null,
+      "source_identity": null,
+      "source_digest": null
+    },
+    {
+      "path": "examples/capabilities/G32/fixtures/events.jsonl",
+      "type": "other",
+      "lines": 13,
+      "executable": false,
+      "size_bytes": 1348,
+      "source_url": null,
+      "source_identity": null,
+      "source_digest": null
+    },
+    {
+      "path": "examples/capabilities/G32/followthrough_oracle.py",
+      "type": "python",
+      "lines": 367,
+      "executable": true,
+      "size_bytes": 20648,
+      "source_url": null,
+      "source_identity": null,
+      "source_digest": null
+    },
+    {
+      "path": "examples/capabilities/G32/naive_followthrough.py",
+      "type": "python",
+      "lines": 28,
+      "executable": true,
+      "size_bytes": 1919,
+      "source_url": null,
+      "source_identity": null,
+      "source_digest": null
+    },
+    {
+      "path": "examples/capabilities/G32/noop_followthrough.py",
+      "type": "python",
+      "lines": 4,
+      "executable": true,
+      "size_bytes": 255,
+      "source_url": null,
+      "source_identity": null,
+      "source_digest": null
+    },
+    {
+      "path": "examples/capabilities/G33/README.md",
+      "type": "markdown",
+      "lines": 43,
+      "executable": false,
+      "size_bytes": 3143,
+      "source_url": null,
+      "source_identity": null,
+      "source_digest": null
+    },
+    {
+      "path": "examples/capabilities/G33/evidence_oracle.py",
+      "type": "python",
+      "lines": 298,
+      "executable": true,
+      "size_bytes": 17761,
+      "source_url": null,
+      "source_identity": null,
+      "source_digest": null
+    },
+    {
+      "path": "examples/capabilities/G33/fixtures/choice.json",
+      "type": "json",
+      "lines": 252,
+      "executable": false,
+      "size_bytes": 6057,
+      "source_url": null,
+      "source_identity": null,
+      "source_digest": null
+    },
+    {
+      "path": "examples/capabilities/G33/fixtures/g13-gaps/contract.json",
+      "type": "json",
+      "lines": 88,
+      "executable": false,
+      "size_bytes": 1742,
+      "source_url": null,
+      "source_identity": null,
+      "source_digest": null
+    },
+    {
+      "path": "examples/capabilities/G33/fixtures/g13-gaps/control.csv",
+      "type": "other",
+      "lines": 2,
+      "executable": false,
+      "size_bytes": 36,
+      "source_url": null,
+      "source_identity": null,
+      "source_digest": null
+    },
+    {
+      "path": "examples/capabilities/G33/fixtures/g13-gaps/customers.csv",
+      "type": "other",
+      "lines": 7,
+      "executable": false,
+      "size_bytes": 206,
+      "source_url": null,
+      "source_identity": null,
+      "source_digest": null
+    },
+    {
+      "path": "examples/capabilities/G33/fixtures/g13-gaps/orders.csv",
+      "type": "other",
+      "lines": 21,
+      "executable": false,
+      "size_bytes": 1713,
+      "source_url": null,
+      "source_identity": null,
+      "source_digest": null
+    },
+    {
+      "path": "examples/capabilities/G33/fixtures/g13/contract.json",
+      "type": "json",
+      "lines": 88,
+      "executable": false,
+      "size_bytes": 1742,
+      "source_url": null,
+      "source_identity": null,
+      "source_digest": null
+    },
+    {
+      "path": "examples/capabilities/G33/fixtures/g13/control.csv",
+      "type": "other",
+      "lines": 2,
+      "executable": false,
+      "size_bytes": 33,
+      "source_url": null,
+      "source_identity": null,
+      "source_digest": null
+    },
+    {
+      "path": "examples/capabilities/G33/fixtures/g13/customers.csv",
+      "type": "other",
+      "lines": 4,
+      "executable": false,
+      "size_bytes": 118,
+      "source_url": null,
+      "source_identity": null,
+      "source_digest": null
+    },
+    {
+      "path": "examples/capabilities/G33/fixtures/g13/orders.csv",
+      "type": "other",
+      "lines": 6,
+      "executable": false,
+      "size_bytes": 494,
+      "source_url": null,
+      "source_identity": null,
+      "source_digest": null
+    },
+    {
+      "path": "examples/capabilities/G33/fixtures/sources/ana.txt",
+      "type": "text",
+      "lines": 4,
+      "executable": false,
+      "size_bytes": 389,
+      "source_url": null,
+      "source_identity": null,
+      "source_digest": null
+    },
+    {
+      "path": "examples/capabilities/G33/fixtures/sources/ben.txt",
+      "type": "text",
+      "lines": 2,
+      "executable": false,
+      "size_bytes": 274,
+      "source_url": null,
+      "source_identity": null,
+      "source_digest": null
+    },
+    {
+      "path": "examples/capabilities/G33/fixtures/sources/cy.txt",
+      "type": "text",
+      "lines": 2,
+      "executable": false,
+      "size_bytes": 310,
+      "source_url": null,
+      "source_identity": null,
+      "source_digest": null
+    },
+    {
+      "path": "examples/capabilities/G33/fixtures/sources/market.txt",
+      "type": "text",
+      "lines": 3,
+      "executable": false,
+      "size_bytes": 213,
+      "source_url": null,
+      "source_identity": null,
+      "source_digest": null
+    },
+    {
+      "path": "examples/capabilities/G33/fixtures/sources/reviews.txt",
+      "type": "text",
+      "lines": 4,
+      "executable": false,
+      "size_bytes": 232,
+      "source_url": null,
+      "source_identity": null,
+      "source_digest": null
+    },
+    {
+      "path": "examples/capabilities/G33/naive_decision.py",
+      "type": "python",
+      "lines": 30,
+      "executable": true,
+      "size_bytes": 1394,
+      "source_url": null,
+      "source_identity": null,
+      "source_digest": null
+    },
+    {
+      "path": "examples/capabilities/G33/noop_decision.py",
+      "type": "python",
+      "lines": 12,
+      "executable": true,
+      "size_bytes": 599,
+      "source_url": null,
+      "source_identity": null,
+      "source_digest": null
+    },
+    {
+      "path": "examples/capabilities/G34/README.md",
+      "type": "markdown",
+      "lines": 66,
+      "executable": false,
+      "size_bytes": 4802,
+      "source_url": null,
+      "source_identity": null,
+      "source_digest": null
+    },
+    {
+      "path": "examples/capabilities/G34/diag_oracle.py",
+      "type": "python",
+      "lines": 275,
+      "executable": true,
+      "size_bytes": 14955,
+      "source_url": null,
+      "source_identity": null,
+      "source_digest": null
+    },
+    {
+      "path": "examples/capabilities/G34/fixtures/after/config.json",
+      "type": "json",
+      "lines": 12,
+      "executable": false,
+      "size_bytes": 186,
+      "source_url": null,
+      "source_identity": null,
+      "source_digest": null
+    },
+    {
+      "path": "examples/capabilities/G34/fixtures/after/expected.json",
+      "type": "json",
+      "lines": 1,
+      "executable": false,
+      "size_bytes": 3,
+      "source_url": null,
+      "source_identity": null,
+      "source_digest": null
+    },
+    {
+      "path": "examples/capabilities/G34/fixtures/after/site/about.html",
+      "type": "other",
+      "lines": 17,
+      "executable": false,
+      "size_bytes": 811,
+      "source_url": null,
+      "source_identity": null,
+      "source_digest": null
+    },
+    {
+      "path": "examples/capabilities/G34/fixtures/after/site/blog/decision-logs.html",
+      "type": "other",
+      "lines": 19,
+      "executable": false,
+      "size_bytes": 1099,
+      "source_url": null,
+      "source_identity": null,
+      "source_digest": null
+    },
+    {
+      "path": "examples/capabilities/G34/fixtures/after/site/blog/index.html",
+      "type": "other",
+      "lines": 17,
+      "executable": false,
+      "size_bytes": 824,
+      "source_url": null,
+      "source_identity": null,
+      "source_digest": null
+    },
+    {
+      "path": "examples/capabilities/G34/fixtures/after/site/contact.html",
+      "type": "other",
+      "lines": 22,
+      "executable": false,
+      "size_bytes": 966,
+      "source_url": null,
+      "source_identity": null,
+      "source_digest": null
+    },
+    {
+      "path": "examples/capabilities/G34/fixtures/after/site/features.html",
+      "type": "other",
+      "lines": 19,
+      "executable": false,
+      "size_bytes": 938,
+      "source_url": null,
+      "source_identity": null,
+      "source_digest": null
+    },
+    {
+      "path": "examples/capabilities/G34/fixtures/after/site/index.html",
+      "type": "other",
+      "lines": 20,
+      "executable": false,
+      "size_bytes": 1077,
+      "source_url": null,
+      "source_identity": null,
+      "source_digest": null
+    },
+    {
+      "path": "examples/capabilities/G34/fixtures/after/site/pricing.html",
+      "type": "other",
+      "lines": 19,
+      "executable": false,
+      "size_bytes": 905,
+      "source_url": null,
+      "source_identity": null,
+      "source_digest": null
+    },
+    {
+      "path": "examples/capabilities/G34/fixtures/after/site/signup.html",
+      "type": "other",
+      "lines": 22,
+      "executable": false,
+      "size_bytes": 979,
+      "source_url": null,
+      "source_identity": null,
+      "source_digest": null
+    },
+    {
+      "path": "examples/capabilities/G34/fixtures/after/site/sitemap.xml",
+      "type": "other",
+      "lines": 11,
+      "executable": false,
+      "size_bytes": 588,
+      "source_url": null,
+      "source_identity": null,
+      "source_digest": null
+    },
+    {
+      "path": "examples/capabilities/G34/fixtures/after/site/thanks.html",
+      "type": "other",
+      "lines": 17,
+      "executable": false,
+      "size_bytes": 792,
+      "source_url": null,
+      "source_identity": null,
+      "source_digest": null
+    },
+    {
+      "path": "examples/capabilities/G34/fixtures/before/config.json",
+      "type": "json",
+      "lines": 14,
+      "executable": false,
+      "size_bytes": 218,
+      "source_url": null,
+      "source_identity": null,
+      "source_digest": null
+    },
+    {
+      "path": "examples/capabilities/G34/fixtures/before/expected.json",
+      "type": "json",
+      "lines": 31,
+      "executable": false,
+      "size_bytes": 1717,
+      "source_url": null,
+      "source_identity": null,
+      "source_digest": null
+    },
+    {
+      "path": "examples/capabilities/G34/fixtures/before/site/about.html",
+      "type": "other",
+      "lines": 16,
+      "executable": false,
+      "size_bytes": 732,
+      "source_url": null,
+      "source_identity": null,
+      "source_digest": null
+    },
+    {
+      "path": "examples/capabilities/G34/fixtures/before/site/blog/decision-logs.html",
+      "type": "other",
+      "lines": 19,
+      "executable": false,
+      "size_bytes": 1132,
+      "source_url": null,
+      "source_identity": null,
+      "source_digest": null
+    },
+    {
+      "path": "examples/capabilities/G34/fixtures/before/site/blog/index.html",
+      "type": "other",
+      "lines": 17,
+      "executable": false,
+      "size_bytes": 848,
+      "source_url": null,
+      "source_identity": null,
+      "source_digest": null
+    },
+    {
+      "path": "examples/capabilities/G34/fixtures/before/site/contact.html",
+      "type": "other",
+      "lines": 22,
+      "executable": false,
+      "size_bytes": 973,
+      "source_url": null,
+      "source_identity": null,
+      "source_digest": null
+    },
+    {
+      "path": "examples/capabilities/G34/fixtures/before/site/features.html",
+      "type": "other",
+      "lines": 19,
+      "executable": false,
+      "size_bytes": 747,
+      "source_url": null,
+      "source_identity": null,
+      "source_digest": null
+    },
+    {
+      "path": "examples/capabilities/G34/fixtures/before/site/index.html",
+      "type": "other",
+      "lines": 20,
+      "executable": false,
+      "size_bytes": 1009,
+      "source_url": null,
+      "source_identity": null,
+      "source_digest": null
+    },
+    {
+      "path": "examples/capabilities/G34/fixtures/before/site/pricing.html",
+      "type": "other",
+      "lines": 19,
+      "executable": false,
+      "size_bytes": 876,
+      "source_url": null,
+      "source_identity": null,
+      "source_digest": null
+    },
+    {
+      "path": "examples/capabilities/G34/fixtures/before/site/signup.html",
+      "type": "other",
+      "lines": 21,
+      "executable": false,
+      "size_bytes": 956,
+      "source_url": null,
+      "source_identity": null,
+      "source_digest": null
+    },
+    {
+      "path": "examples/capabilities/G34/fixtures/before/site/sitemap.xml",
+      "type": "other",
+      "lines": 13,
+      "executable": false,
+      "size_bytes": 716,
+      "source_url": null,
+      "source_identity": null,
+      "source_digest": null
+    },
+    {
+      "path": "examples/capabilities/G34/fixtures/before/site/spring-offer.html",
+      "type": "other",
+      "lines": 17,
+      "executable": false,
+      "size_bytes": 846,
+      "source_url": null,
+      "source_identity": null,
+      "source_digest": null
+    },
+    {
+      "path": "examples/capabilities/G34/fixtures/before/site/thanks.html",
+      "type": "other",
+      "lines": 17,
+      "executable": false,
+      "size_bytes": 792,
+      "source_url": null,
+      "source_identity": null,
+      "source_digest": null
+    },
+    {
+      "path": "examples/capabilities/G34/fixtures/clean/config.json",
+      "type": "json",
+      "lines": 3,
+      "executable": false,
+      "size_bytes": 43,
+      "source_url": null,
+      "source_identity": null,
+      "source_digest": null
+    },
+    {
+      "path": "examples/capabilities/G34/fixtures/clean/expected.json",
+      "type": "json",
+      "lines": 1,
+      "executable": false,
+      "size_bytes": 3,
+      "source_url": null,
+      "source_identity": null,
+      "source_digest": null
+    },
+    {
+      "path": "examples/capabilities/G34/fixtures/clean/site/guide/index.html",
+      "type": "other",
+      "lines": 17,
+      "executable": false,
+      "size_bytes": 731,
+      "source_url": null,
+      "source_identity": null,
+      "source_digest": null
+    },
+    {
+      "path": "examples/capabilities/G34/fixtures/clean/site/index.html",
+      "type": "other",
+      "lines": 17,
+      "executable": false,
+      "size_bytes": 700,
+      "source_url": null,
+      "source_identity": null,
+      "source_digest": null
+    },
+    {
+      "path": "examples/capabilities/G34/fixtures/clean/site/sitemap.xml",
+      "type": "other",
+      "lines": 6,
+      "executable": false,
+      "size_bytes": 270,
+      "source_url": null,
+      "source_identity": null,
+      "source_digest": null
+    },
+    {
+      "path": "examples/capabilities/G34/fixtures/clean/site/visit.html",
+      "type": "other",
+      "lines": 18,
+      "executable": false,
+      "size_bytes": 748,
+      "source_url": null,
+      "source_identity": null,
+      "source_digest": null
+    },
+    {
+      "path": "examples/capabilities/G34/fixtures/unseen/config.json",
+      "type": "json",
+      "lines": 18,
+      "executable": false,
+      "size_bytes": 417,
+      "source_url": null,
+      "source_identity": null,
+      "source_digest": null
+    },
+    {
+      "path": "examples/capabilities/G34/fixtures/unseen/expected.json",
+      "type": "json",
+      "lines": 16,
+      "executable": false,
+      "size_bytes": 946,
+      "source_url": null,
+      "source_identity": null,
+      "source_digest": null
+    },
+    {
+      "path": "examples/capabilities/G34/fixtures/unseen/site/Guides/index.html",
+      "type": "other",
+      "lines": 17,
+      "executable": false,
+      "size_bytes": 756,
+      "source_url": null,
+      "source_identity": null,
+      "source_digest": null
+    },
+    {
+      "path": "examples/capabilities/G34/fixtures/unseen/site/Guides/knots.html",
+      "type": "other",
+      "lines": 18,
+      "executable": false,
+      "size_bytes": 825,
+      "source_url": null,
+      "source_identity": null,
+      "source_digest": null
+    },
+    {
+      "path": "examples/capabilities/G34/fixtures/unseen/site/blog/tides-2019.html",
+      "type": "other",
+      "lines": 17,
+      "executable": false,
+      "size_bytes": 737,
+      "source_url": null,
+      "source_identity": null,
+      "source_digest": null
+    },
+    {
+      "path": "examples/capabilities/G34/fixtures/unseen/site/caf\u00e9.html",
+      "type": "other",
+      "lines": 17,
+      "executable": false,
+      "size_bytes": 715,
+      "source_url": null,
+      "source_identity": null,
+      "source_digest": null
+    },
+    {
+      "path": "examples/capabilities/G34/fixtures/unseen/site/checkout.html",
+      "type": "other",
+      "lines": 17,
+      "executable": false,
+      "size_bytes": 809,
+      "source_url": null,
+      "source_identity": null,
+      "source_digest": null
+    },
+    {
+      "path": "examples/capabilities/G34/fixtures/unseen/site/docs/index.html",
+      "type": "other",
+      "lines": 17,
+      "executable": false,
+      "size_bytes": 749,
+      "source_url": null,
+      "source_identity": null,
+      "source_digest": null
+    },
+    {
+      "path": "examples/capabilities/G34/fixtures/unseen/site/draft.html",
+      "type": "other",
+      "lines": 17,
+      "executable": false,
+      "size_bytes": 844,
+      "source_url": null,
+      "source_identity": null,
+      "source_digest": null
+    },
+    {
+      "path": "examples/capabilities/G34/fixtures/unseen/site/index.html",
+      "type": "other",
+      "lines": 20,
+      "executable": false,
+      "size_bytes": 1324,
+      "source_url": null,
+      "source_identity": null,
+      "source_digest": null
+    },
+    {
+      "path": "examples/capabilities/G34/fixtures/unseen/site/kits.html",
+      "type": "other",
+      "lines": 18,
+      "executable": false,
+      "size_bytes": 796,
+      "source_url": null,
+      "source_identity": null,
+      "source_digest": null
+    },
+    {
+      "path": "examples/capabilities/G34/fixtures/unseen/site/legacy.html",
+      "type": "other",
+      "lines": 17,
+      "executable": false,
+      "size_bytes": 781,
+      "source_url": null,
+      "source_identity": null,
+      "source_digest": null
+    },
+    {
+      "path": "examples/capabilities/G34/fixtures/unseen/site/shop.html",
+      "type": "other",
+      "lines": 20,
+      "executable": false,
+      "size_bytes": 828,
+      "source_url": null,
+      "source_identity": null,
+      "source_digest": null
+    },
+    {
+      "path": "examples/capabilities/G34/fixtures/unseen/site/sitemap.xml",
+      "type": "other",
+      "lines": 13,
+      "executable": false,
+      "size_bytes": 720,
+      "source_url": null,
+      "source_identity": null,
+      "source_digest": null
+    },
+    {
+      "path": "examples/capabilities/G34/make_fixtures.py",
+      "type": "python",
+      "lines": 357,
+      "executable": true,
+      "size_bytes": 25275,
+      "source_url": null,
+      "source_identity": null,
+      "source_digest": null
+    },
+    {
+      "path": "examples/capabilities/G34/naive_diagnostics.py",
+      "type": "python",
+      "lines": 60,
+      "executable": true,
+      "size_bytes": 1866,
+      "source_url": null,
+      "source_identity": null,
+      "source_digest": null
+    },
+    {
+      "path": "examples/capabilities/G34/noop_diagnostics.py",
+      "type": "python",
+      "lines": 7,
+      "executable": true,
+      "size_bytes": 281,
+      "source_url": null,
+      "source_identity": null,
+      "source_digest": null
+    },
+    {
+      "path": "examples/capabilities/G35/README.md",
+      "type": "markdown",
+      "lines": 75,
+      "executable": false,
+      "size_bytes": 5004,
+      "source_url": null,
+      "source_identity": null,
+      "source_digest": null
+    },
+    {
+      "path": "examples/capabilities/G35/campaign_oracle.py",
+      "type": "python",
+      "lines": 500,
+      "executable": true,
+      "size_bytes": 28478,
+      "source_url": null,
+      "source_identity": null,
+      "source_digest": null
+    },
+    {
+      "path": "examples/capabilities/G35/fixtures/clean/campaign.json",
+      "type": "json",
+      "lines": 15,
+      "executable": false,
+      "size_bytes": 651,
+      "source_url": null,
+      "source_identity": null,
+      "source_digest": null
+    },
+    {
+      "path": "examples/capabilities/G35/fixtures/clean/conversions.jsonl",
+      "type": "other",
+      "lines": 2,
+      "executable": false,
+      "size_bytes": 349,
+      "source_url": null,
+      "source_identity": null,
+      "source_digest": null
+    },
+    {
+      "path": "examples/capabilities/G35/fixtures/clean/creatives.json",
+      "type": "json",
+      "lines": 8,
+      "executable": false,
+      "size_bytes": 464,
+      "source_url": null,
+      "source_identity": null,
+      "source_digest": null
+    },
+    {
+      "path": "examples/capabilities/G35/fixtures/clean/finance/bank.csv",
+      "type": "other",
+      "lines": 2,
+      "executable": false,
+      "size_bytes": 41,
+      "source_url": null,
+      "source_identity": null,
+      "source_digest": null
+    },
+    {
+      "path": "examples/capabilities/G35/fixtures/clean/finance/credits.csv",
+      "type": "other",
+      "lines": 1,
+      "executable": false,
+      "size_bytes": 62,
+      "source_url": null,
+      "source_identity": null,
+      "source_digest": null
+    },
+    {
+      "path": "examples/capabilities/G35/fixtures/clean/finance/invoices.csv",
+      "type": "other",
+      "lines": 3,
+      "executable": false,
+      "size_bytes": 259,
+      "source_url": null,
+      "source_identity": null,
+      "source_digest": null
+    },
+    {
+      "path": "examples/capabilities/G35/fixtures/clean/finance/package.json",
+      "type": "json",
+      "lines": 10,
+      "executable": false,
+      "size_bytes": 317,
+      "source_url": null,
+      "source_identity": null,
+      "source_digest": null
+    },
+    {
+      "path": "examples/capabilities/G35/fixtures/clean/finance/payments.csv",
+      "type": "other",
+      "lines": 3,
+      "executable": false,
+      "size_bytes": 176,
+      "source_url": null,
+      "source_identity": null,
+      "source_digest": null
+    },
+    {
+      "path": "examples/capabilities/G35/fixtures/clean/orders-contract.json",
+      "type": "json",
+      "lines": 18,
+      "executable": false,
+      "size_bytes": 758,
+      "source_url": null,
+      "source_identity": null,
+      "source_digest": null
+    }
+  ],
+  "structured_summaries": [],
+  "issues": [
+    {
+      "id": "PE3",
+      "finding_id": "finding-5a137aa033ed4e679e63f7d2f661588a",
+      "category": "Privilege Escalation",
+      "pattern": "Credential Access",
+      "severity": "HIGH",
+      "confidence": 0.7,
+      "location": {
+        "file": "examples/capabilities/G22/README.md",
+        "start_line": 3,
+        "end_line": null,
+        "start_column": 75
+      },
+      "finding": "secret.txt",
+      "explanation": "Code accesses credential files (SSH keys, AWS credentials, etc.). This could indicate credential theft attempts.",
+      "remediation": "Remove references to credential paths. Use environment variables or secrets managers. For docs, use placeholder paths (e.g., /path/to/config). Never load .env or token files in production code paths.",
+      "code_snippet": "# G22 payment refunds and inventory conservation: fixtures, oracle, controls, demo\n\n- `fixtures/catalog.json`: a synthetic store (3 SKUs, USD). `fixtures/test-secret.txt`: a local demo\n  signing value that grants nothing. `fixtures/september.jsonl`: 13 signed envelopes written by\n  `make_stream.py` (fixed timestamps; ingest with `--now 1790000200`).\n- `ledger_oracle.py [--tool PATH] [--seeds N]`: 10 checks against its own reference model and the G14",
+      "intent": null,
+      "tags": [
+        "Privilege Escalation"
+      ],
+      "evidence": {},
+      "match_fingerprint": "337762cc34d103c6b1b8e3aff6d24aaf85637a1d962804309c0b9ef091a55a01",
+      "occurrences": [
+        {
+          "file": "examples/capabilities/G22/README.md",
+          "start_line": 3,
+          "end_line": null,
+          "start_column": 75
+        }
+      ]
+    },
+    {
+      "id": "PE3",
+      "finding_id": "finding-b840fffb5c374785a6afcab0317c1de9",
+      "category": "Privilege Escalation",
+      "pattern": "Credential Access",
+      "severity": "HIGH",
+      "confidence": 0.7,
+      "location": {
+        "file": "examples/capabilities/G22/README.md",
+        "start_line": 30,
+        "end_line": null,
+        "start_column": 58
+      },
+      "finding": "secret.txt",
+      "explanation": "Code accesses credential files (SSH keys, AWS credentials, etc.). This could indicate credential theft attempts.",
+      "remediation": "Remove references to credential paths. Use environment variables or secrets managers. For docs, use placeholder paths (e.g., /path/to/config). Never load .env or token files in production code paths.",
+      "code_snippet": "S=employees/specialized/payments-specialist/payment_ledger.py\nF=examples/capabilities/G22/fixtures\npython3 $S init --db $T/ledger.db --catalog $F/catalog.json\npython3 $S ingest --db $T/ledger.db --secret-file $F/test-secret.txt --events $F/september.jsonl --now 1790000200 > $T/first.json || echo \"ingest exit $? (3: two envelopes refused)\"\npython3 $S ingest --db $T/ledger.db --secret-file $F/test-secret.txt --events $F/september.jsonl --now 1790000200 > $T/replay.json || echo \"replay exit $?\"\npython3 $S report --db $T/ledger.db\npython3 $S check --db $T/ledger.db",
+      "intent": null,
+      "tags": [
+        "Privilege Escalation"
+      ],
+      "evidence": {},
+      "match_fingerprint": "337762cc34d103c6b1b8e3aff6d24aaf85637a1d962804309c0b9ef091a55a01",
+      "occurrences": [
+        {
+          "file": "examples/capabilities/G22/README.md",
+          "start_line": 30,
+          "end_line": null,
+          "start_column": 58
+        }
+      ]
+    },
+    {
+      "id": "PE3",
+      "finding_id": "finding-36e72afa2760458d99279605b1263527",
+      "category": "Privilege Escalation",
+      "pattern": "Credential Access",
+      "severity": "HIGH",
+      "confidence": 0.7,
+      "location": {
+        "file": "examples/capabilities/G22/README.md",
+        "start_line": 31,
+        "end_line": null,
+        "start_column": 58
+      },
+      "finding": "secret.txt",
+      "explanation": "Code accesses credential files (SSH keys, AWS credentials, etc.). This could indicate credential theft attempts.",
+      "remediation": "Remove references to credential paths. Use environment variables or secrets managers. For docs, use placeholder paths (e.g., /path/to/config). Never load .env or token files in production code paths.",
+      "code_snippet": "F=examples/capabilities/G22/fixtures\npython3 $S init --db $T/ledger.db --catalog $F/catalog.json\npython3 $S ingest --db $T/ledger.db --secret-file $F/test-secret.txt --events $F/september.jsonl --now 1790000200 > $T/first.json || echo \"ingest exit $? (3: two envelopes refused)\"\npython3 $S ingest --db $T/ledger.db --secret-file $F/test-secret.txt --events $F/september.jsonl --now 1790000200 > $T/replay.json || echo \"replay exit $?\"\npython3 $S report --db $T/ledger.db\npython3 $S check --db $T/ledger.db\npython3 $S export-g14 --db $T/ledger.db --out $T/books --period-start 2026-09-01T00:00:00Z --period-end 2026-10-01T00:00:00Z || echo \"export exit $? (1: evt_007 and evt_008 are open)\"",
+      "intent": null,
+      "tags": [
+        "Privilege Escalation"
+      ],
+      "evidence": {},
+      "match_fingerprint": "337762cc34d103c6b1b8e3aff6d24aaf85637a1d962804309c0b9ef091a55a01",
+      "occurrences": [
+        {
+          "file": "examples/capabilities/G22/README.md",
+          "start_line": 31,
+          "end_line": null,
+          "start_column": 58
+        }
+      ]
+    },
+    {
+      "id": "PE3",
+      "finding_id": "finding-2cf2516e95514f9bba5d06d35d44bcc4",
+      "category": "Privilege Escalation",
+      "pattern": "Credential Access",
+      "severity": "HIGH",
+      "confidence": 0.7,
+      "location": {
+        "file": "examples/capabilities/G22/ledger_oracle.py",
+        "start_line": 57,
+        "end_line": null,
+        "start_column": 16
+      },
+      "finding": "secret.txt",
+      "explanation": "Code accesses credential files (SSH keys, AWS credentials, etc.). This could indicate credential theft attempts.",
+      "remediation": "Remove references to credential paths. Use environment variables or secrets managers. For docs, use placeholder paths (e.g., /path/to/config). Never load .env or token files in production code paths.",
+      "code_snippet": "        self.tool, self.tmp = tool, tmp\n        self.db = tmp / (name + \".db\")\n        (tmp / (name + \"-cat.json\")).write_text(json.dumps(catalog))\n        (tmp / \"secret.txt\").write_text(SECRET.decode() + \"\\n\")\n        r = self.run(\"init\", \"--db\", self.db, \"--catalog\", tmp / (name + \"-cat.json\"))\n        if r.returncode != 0:\n            raise AssertionError(\"init failed: %s\" % r.stderr[:200])",
+      "intent": null,
+      "tags": [
+        "Privilege Escalation"
+      ],
+      "evidence": {},
+      "match_fingerprint": "337762cc34d103c6b1b8e3aff6d24aaf85637a1d962804309c0b9ef091a55a01",
+      "occurrences": [
+        {
+          "file": "examples/capabilities/G22/ledger_oracle.py",
+          "start_line": 57,
+          "end_line": null,
+          "start_column": 16
+        }
+      ]
+    },
+    {
+      "id": "PE3",
+      "finding_id": "finding-4988f39ca91b48b5a6e21765d8fee9f9",
+      "category": "Privilege Escalation",
+      "pattern": "Credential Access",
+      "severity": "HIGH",
+      "confidence": 0.7,
+      "location": {
+        "file": "examples/capabilities/G22/ledger_oracle.py",
+        "start_line": 69,
+        "end_line": null,
+        "start_column": 77
+      },
+      "finding": "secret.txt",
+      "explanation": "Code accesses credential files (SSH keys, AWS credentials, etc.). This could indicate credential theft attempts.",
+      "remediation": "Remove references to credential paths. Use environment variables or secrets managers. For docs, use placeholder paths (e.g., /path/to/config). Never load .env or token files in production code paths.",
+      "code_snippet": "    def ingest(self, lines, now=T0 + 1000, *extra):\n        f = self.tmp / (\"%s-batch-%s.jsonl\" % (self.db.stem, uuid.uuid4().hex))\n        f.write_text(\"\\n\".join(lines) + \"\\n\")\n        r = self.run(\"ingest\", \"--db\", self.db, \"--secret-file\", self.tmp / \"secret.txt\", \"--events\", f, \"--now\", now, \"--tolerance\", \"100000\", *extra)\n        out = json.loads(r.stdout) if r.stdout.strip().startswith(\"{\") else None\n        return r.returncode, out\n",
+      "intent": null,
+      "tags": [
+        "Privilege Escalation"
+      ],
+      "evidence": {},
+      "match_fingerprint": "337762cc34d103c6b1b8e3aff6d24aaf85637a1d962804309c0b9ef091a55a01",
+      "occurrences": [
+        {
+          "file": "examples/capabilities/G22/ledger_oracle.py",
+          "start_line": 69,
+          "end_line": null,
+          "start_column": 77
+        }
+      ]
+    },
+    {
+      "id": "P2",
+      "finding_id": "finding-4e5993df5c744ac98ac77139a5fcaabe",
+      "category": "Prompt Injection",
+      "pattern": "Hidden Instructions",
+      "severity": "HIGH",
+      "confidence": 0.6,
+      "location": {
+        "file": "examples/capabilities/G33/fixtures/g13-gaps/orders.csv",
+        "start_line": 1,
+        "end_line": 1,
+        "start_column": 0,
+        "end_column": 1
+      },
+      "finding": "\ufeff",
+      "explanation": "Hidden instructions were detected in comments or invisible text. These could contain malicious directives. Manual review is recommended.",
+      "remediation": "Audit all comments and invisible characters. Remove any instructions that direct the agent to perform unauthorized actions. Use plain, reviewable content.",
+      "code_snippet": "\ufeffOrder ID,Customer, Amount ,currency,status,event_time,loaded_at,updated_at\nO1,C1,100.00,usd,paid,2026-09-03T10:00:00Z,2026-09-03T11:00:00Z,2026-09-03T10:00:00Z\nO2,C2,\"1,250.00\",USD,paid,2026-09-05 09:00:00,2026-09-05T18:00:00Z,2026-09-05T16:00:00Z\nO3,C3,80.00,EUR,paid,2026-09-10T08:00:00Z,2026-09-10T09:00:00Z,2026-09-10T08:00:00Z",
+      "intent": null,
+      "tags": [
+        "Prompt Injection"
+      ],
+      "evidence": {},
+      "match_fingerprint": "35211fd9a699aec0a131b9fd6ba4f68b32f4df635ea39dfd179ab2451e5a82f9",
+      "occurrences": [
+        {
+          "file": "examples/capabilities/G33/fixtures/g13-gaps/orders.csv",
+          "start_line": 1,
+          "end_line": 1,
+          "start_column": 0,
+          "end_column": 1
+        }
+      ]
+    },
+    {
+      "id": "AST4",
+      "finding_id": "finding-6fd20e4ede5e47b78d99cd4874ed93d8",
+      "category": "Dangerous Code Execution",
+      "pattern": "subprocess module call",
+      "severity": "MEDIUM",
+      "confidence": 0.7,
+      "location": {
+        "file": "examples/capabilities/G20/ui_oracle.py",
+        "start_line": 38,
+        "end_line": 39,
+        "start_column": 8,
+        "end_column": 71
+      },
+      "finding": "subprocess.run([jsc, str(core), str(HERE / \"oracle_checks.js\"), \"--\", str(seed), str(scale)],\n                       capture_output=True, text=True, timeout=timeout)",
+      "explanation": "subprocess module calls execute external commands. Without careful input validation, this enables command injection.",
+      "remediation": "Use subprocess.run() with shell=False and an explicit argument list. Validate all inputs and avoid passing user-controlled data to commands.",
+      "code_snippet": "\n\ndef run_checks(jsc, core, seed, scale, timeout=120):\n    p = subprocess.run([jsc, str(core), str(HERE / \"oracle_checks.js\"), \"--\", str(seed), str(scale)],\n                       capture_output=True, text=True, timeout=timeout)\n    checks, scale_info = {}, {}\n    for line in p.stdout.splitlines():",
+      "intent": null,
+      "tags": [
+        "Dangerous Code Execution"
+      ],
+      "evidence": {},
+      "match_fingerprint": "b590a022d13c731429af8db6e93d43b870482c44cd3f7ca0289ff749697ebe5a",
+      "occurrences": [
+        {
+          "file": "examples/capabilities/G20/ui_oracle.py",
+          "start_line": 38,
+          "end_line": 39,
+          "start_column": 8,
+          "end_column": 71
+        }
+      ]
+    },
+    {
+      "id": "AST4",
+      "finding_id": "finding-a6bf58c9e7f0435490639f0b055758b1",
+      "category": "Dangerous Code Execution",
+      "pattern": "subprocess module call",
+      "severity": "MEDIUM",
+      "confidence": 0.7,
+      "location": {
+        "file": "examples/capabilities/G21/sync_oracle.py",
+        "start_line": 56,
+        "end_line": 56,
+        "start_column": 17,
+        "end_column": 101
+      },
+      "finding": "subprocess.Popen(cmd, env=ENV, stdout=subprocess.DEVNULL, stderr=subprocess.DEVNULL)",
+      "explanation": "subprocess module calls execute external commands. Without careful input validation, this enables command injection.",
+      "remediation": "Use subprocess.run() with shell=False and an explicit argument list. Validate all inputs and avoid passing user-controlled data to commands.",
+      "code_snippet": "            pf = self.tmp / (\"plan-%d.json\" % time.time_ns())\n            pf.write_text(json.dumps(dict(plan, schema=\"solaris.ledger-fault-plan/1\")))\n            cmd += [\"--fault-plan\", str(pf)]\n        self.p = subprocess.Popen(cmd, env=ENV, stdout=subprocess.DEVNULL, stderr=subprocess.DEVNULL)\n        for _ in range(300):\n            if ready.exists() and ready.stat().st_size:\n                self.url = \"<redacted-url>\" % json.loads(ready.read_text())[\"port\"]",
+      "intent": null,
+      "tags": [
+        "Dangerous Code Execution"
+      ],
+      "evidence": {},
+      "match_fingerprint": "e7d7f60b2998f7537a940d2e87aeabe3d05158253989ac8e18113fb06c2bdc19",
+      "occurrences": [
+        {
+          "file": "examples/capabilities/G21/sync_oracle.py",
+          "start_line": 56,
+          "end_line": 56,
+          "start_column": 17,
+          "end_column": 101
+        }
+      ]
+    },
+    {
+      "id": "TT2",
+      "finding_id": "finding-890c1a9810134dbbbd1e6463850e30f4",
+      "category": "Data Flow",
+      "pattern": "Tainted flow: 'req' from urllib.request.urlopen (line 80, network input) \u2192 urllib.request.urlopen (network output)",
+      "severity": "MEDIUM",
+      "confidence": 0.65,
+      "location": {
+        "file": "examples/capabilities/G21/sync_oracle.py",
+        "start_line": 81,
+        "end_line": 81,
+        "start_column": 30,
+        "end_column": 69
+      },
+      "finding": "urllib.request.urlopen(req, timeout=10)",
+      "explanation": "Data from a source is assigned to a variable that is later passed to a sink, creating a variable-mediated taint flow.",
+      "remediation": "Validate tainted variables before passing them to sinks. Use allowlists, type checks, or sanitization functions on data from external sources.",
+      "code_snippet": "        while True:\n            q = \"/api/v1/invoices?limit=100\" + (\"&after=\" + after if after else \"\")\n            req = urllib.request.Request(self.url + q, headers={\"Authorization\": \"Bearer \" + KEYS[who][0]})\n            page = json.loads(urllib.request.urlopen(req, timeout=10).read())\n            out += page[\"data\"]\n            after = page[\"next_after\"]\n            if not after:",
+      "intent": null,
+      "tags": [
+        "Data Flow"
+      ],
+      "evidence": {},
+      "match_fingerprint": "a898d5927c6f50b51ff2bc71c5b5fe2061df9df5b73385112f22f848d59b4bc9",
+      "occurrences": [
+        {
+          "file": "examples/capabilities/G21/sync_oracle.py",
+          "start_line": 81,
+          "end_line": 81,
+          "start_column": 30,
+          "end_column": 69
+        }
+      ]
+    },
+    {
+      "id": "AST4",
+      "finding_id": "finding-b382d6785c4e402c938c6b0be8701f44",
+      "category": "Dangerous Code Execution",
+      "pattern": "subprocess module call",
+      "severity": "MEDIUM",
+      "confidence": 0.7,
+      "location": {
+        "file": "examples/capabilities/G21/sync_oracle.py",
+        "start_line": 96,
+        "end_line": 96,
+        "start_column": 12,
+        "end_column": 126
+      },
+      "finding": "subprocess.run([sys.executable, str(API), \"check\", \"--db\", str(self.db)], env=ENV, capture_output=True, text=True)",
+      "explanation": "subprocess module calls execute external commands. Without careful input validation, this enables command injection.",
+      "remediation": "Use subprocess.run() with shell=False and an explicit argument list. Validate all inputs and avoid passing user-controlled data to commands.",
+      "code_snippet": "            return json.loads(e.read())\n\n    def consistent(self):\n        r = subprocess.run([sys.executable, str(API), \"check\", \"--db\", str(self.db)], env=ENV, capture_output=True, text=True)\n        return r.returncode == 0\n\n",
+      "intent": null,
+      "tags": [
+        "Dangerous Code Execution"
+      ],
+      "evidence": {},
+      "match_fingerprint": "7fc6f69a905b57c9bd3e07c8f0d41984d57051291d4f307c1b01555c63236eca",
+      "occurrences": [
+        {
+          "file": "examples/capabilities/G21/sync_oracle.py",
+          "start_line": 96,
+          "end_line": 96,
+          "start_column": 12,
+          "end_column": 126
+        }
+      ]
+    },
+    {
+      "id": "AST4",
+      "finding_id": "finding-f901d05950594877a6966990ff800a3d",
+      "category": "Dangerous Code Execution",
+      "pattern": "subprocess module call",
+      "severity": "MEDIUM",
+      "confidence": 0.7,
+      "location": {
+        "file": "examples/capabilities/G21/sync_oracle.py",
+        "start_line": 110,
+        "end_line": 111,
+        "start_column": 15,
+        "end_column": 57
+      },
+      "finding": "subprocess.run([sys.executable, str(self.tool)] + [str(a) for a in args], env=ENV, capture_output=True,\n                              text=True, timeout=timeout)",
+      "explanation": "subprocess module calls execute external commands. Without careful input validation, this enables command injection.",
+      "remediation": "Use subprocess.run() with shell=False and an explicit argument list. Validate all inputs and avoid passing user-controlled data to commands.",
+      "code_snippet": "            raise AssertionError(\"init failed: %s\" % r.stderr.strip()[:200])\n\n    def run(self, *args, timeout=120):\n        return subprocess.run([sys.executable, str(self.tool)] + [str(a) for a in args], env=ENV, capture_output=True,\n                              text=True, timeout=timeout)\n\n    def enq(self, kind, ref, **kw):",
+      "intent": null,
+      "tags": [
+        "Dangerous Code Execution"
+      ],
+      "evidence": {},
+      "match_fingerprint": "0ea5fda52b5b43bba7546e3b5efb4ce4004d970387c5b05cfa409ddb3e2fd0eb",
+      "occurrences": [
+        {
+          "file": "examples/capabilities/G21/sync_oracle.py",
+          "start_line": 110,
+          "end_line": 111,
+          "start_column": 15,
+          "end_column": 57
+        }
+      ]
+    },
+    {
+      "id": "AST4",
+      "finding_id": "finding-0588e31685b44802bae57ecff2751a24",
+      "category": "Dangerous Code Execution",
+      "pattern": "subprocess module call",
+      "severity": "MEDIUM",
+      "confidence": 0.7,
+      "location": {
+        "file": "examples/capabilities/G22/ledger_oracle.py",
+        "start_line": 64,
+        "end_line": 64,
+        "start_column": 15,
+        "end_column": 139
+      },
+      "finding": "subprocess.run([sys.executable, str(self.tool)] + [str(x) for x in a], capture_output=True, text=True, env=ENV, timeout=300)",
+      "explanation": "subprocess module calls execute external commands. Without careful input validation, this enables command injection.",
+      "remediation": "Use subprocess.run() with shell=False and an explicit argument list. Validate all inputs and avoid passing user-controlled data to commands.",
+      "code_snippet": "        self.n = 0\n\n    def run(self, *a):\n        return subprocess.run([sys.executable, str(self.tool)] + [str(x) for x in a], capture_output=True, text=True, env=ENV, timeout=300)\n\n    def ingest(self, lines, now=T0 + 1000, *extra):\n        f = self.tmp / (\"%s-batch-%s.jsonl\" % (self.db.stem, uuid.uuid4().hex))",
+      "intent": null,
+      "tags": [
+        "Dangerous Code Execution"
+      ],
+      "evidence": {},
+      "match_fingerprint": "1fc7dda277604579b5ee7c32e77e10cce072a7bed89c16e23cfe90e8e9868576",
+      "occurrences": [
+        {
+          "file": "examples/capabilities/G22/ledger_oracle.py",
+          "start_line": 64,
+          "end_line": 64,
+          "start_column": 15,
+          "end_column": 139
+        }
+      ]
+    },
+    {
+      "id": "AST4",
+      "finding_id": "finding-2911484990534d2dba0b0bdf053e35a5",
+      "category": "Dangerous Code Execution",
+      "pattern": "subprocess module call",
+      "severity": "MEDIUM",
+      "confidence": 0.7,
+      "location": {
+        "file": "examples/capabilities/G22/ledger_oracle.py",
+        "start_line": 295,
+        "end_line": 295,
+        "start_column": 16,
+        "end_column": 149
+      },
+      "finding": "subprocess.run([sys.executable, str(G14), \"reconcile\", str(out / \"package.json\"), \"--json\"], capture_output=True, text=True, env=ENV)",
+      "explanation": "subprocess module calls execute external commands. Without careful input validation, this enables command injection.",
+      "remediation": "Use subprocess.run() with shell=False and an explicit argument list. Validate all inputs and avoid passing user-controlled data to commands.",
+      "code_snippet": "            L.ingest([envelope(e) for e in events])\n            out = self.tmp / (\"g14-%d\" % seed)\n            r = L.run(\"export-g14\", \"--db\", L.db, \"--out\", out, \"--period-start\", \"2026-10-01T00:00:00Z\", \"--period-end\", \"2026-11-01T00:00:00Z\")\n            g = subprocess.run([sys.executable, str(G14), \"reconcile\", str(out / \"package.json\"), \"--json\"], capture_output=True, text=True, env=ENV)\n            cap = sum(v[2] for v in wo.values()); ref = sum(v[3] for v in wo.values())\n            try:\n                c = json.loads(g.stdout)[\"currencies\"][\"USD\"]",
+      "intent": null,
+      "tags": [
+        "Dangerous Code Execution"
+      ],
+      "evidence": {},
+      "match_fingerprint": "d622676f63bd6d21628af3c50e17c1c25d88b584bb6cf5f9dcf7ba7bf501cf2d",
+      "occurrences": [
+        {
+          "file": "examples/capabilities/G22/ledger_oracle.py",
+          "start_line": 295,
+          "end_line": 295,
+          "start_column": 16,
+          "end_column": 149
+        }
+      ]
+    },
+    {
+      "id": "P9",
+      "finding_id": "finding-a5467d9d7b2f4cf697ef106c3b860f9a",
+      "category": "Prompt Injection",
+      "pattern": "Whitespace Padding",
+      "severity": "MEDIUM",
+      "confidence": 0.7,
+      "location": {
+        "file": "examples/capabilities/G22/ledger_oracle.py",
+        "start_line": 303,
+        "end_line": null
+      },
+      "finding": "U+0020 x85",
+      "explanation": "Large whitespace padding was detected (a block of blank lines or a long run of spaces). This can push injected instructions below or to the right of the visible area so a human reviewer never sees them while the agent still reads them. Manual review of the hidden content is recommended.",
+      "remediation": "Remove the large whitespace padding (blank-line blocks or long space runs) and review any content hidden below or to the right of it. Keep skill files compact and reviewable so no instructions can be concealed off-screen.",
+      "code_snippet": "                c = {}\n            if r.returncode != 0 or g.returncode != 0 or c.get(\"net_cash\") != c2s(cap - ref) or c.get(\"recognized_revenue\") != c2s(cap - ref):\n                fails.append(\"seed %d export rc=%s g14 rc=%s net=%s rev=%s want %s\" % (seed, r.returncode, g.returncode, c.get(\"net_cash\"),\n                                                                                     c.get(\"recognized_revenue\"), c2s(cap - ref)))\n        return not fails, \"; \".join(fails)\n\n    def run(self):",
+      "intent": null,
+      "tags": [
+        "Prompt Injection"
+      ],
+      "evidence": {},
+      "match_fingerprint": "6be9cdae7cc485141117cbb224fef5f39f9b82e9bf0cae78de54f0dcd545c8cf",
+      "occurrences": [
+        {
+          "file": "examples/capabilities/G22/ledger_oracle.py",
+          "start_line": 303,
+          "end_line": null
+        }
+      ]
+    },
+    {
+      "id": "EA2",
+      "finding_id": "finding-883db6428d274549beb49d4a21434a39",
+      "category": "Excessive Agency",
+      "pattern": "Autonomous Decision Making",
+      "severity": "MEDIUM",
+      "confidence": 0.75,
+      "location": {
+        "file": "examples/capabilities/G22/naive_ledger.py",
+        "start_line": 6,
+        "end_line": null,
+        "start_column": 0
+      },
+      "finding": "without checking",
+      "explanation": "Skill enables autonomous high-impact decisions without human-in-the-loop verification. Critical operations (destructive commands, financial transactions, data deletion) should require explicit user confirmation.",
+      "remediation": "Add human-in-the-loop confirmation for destructive, irreversible, or high-impact operations. Never auto-execute commands that modify files, send data, or alter system state.",
+      "code_snippet": "\nIt loads the real payment_ledger.py and swaps in three habits: the signature and timestamp are not\nchecked, an event that arrives before what it needs is dropped instead of held, and an order is taken\nwithout checking available stock (it books phantom stock to make the order fit). Not for use; it exists so the oracle and tests can show they catch\nthese habits.\n\"\"\"\nimport importlib.util",
+      "intent": null,
+      "tags": [
+        "Excessive Agency"
+      ],
+      "evidence": {},
+      "match_fingerprint": "9341b6f34d6af9081a0d6673f4217b7307d273da9f43357efd9029e15c5da76c",
+      "occurrences": [
+        {
+          "file": "examples/capabilities/G22/naive_ledger.py",
+          "start_line": 6,
+          "end_line": null,
+          "start_column": 0
+        }
+      ]
+    },
+    {
+      "id": "AST4",
+      "finding_id": "finding-c3491dc80acd4f308e9303a9c6877a2e",
+      "category": "Dangerous Code Execution",
+      "pattern": "subprocess module call",
+      "severity": "MEDIUM",
+      "confidence": 0.7,
+      "location": {
+        "file": "examples/capabilities/G23/wp_oracle.py",
+        "start_line": 33,
+        "end_line": 33,
+        "start_column": 8,
+        "end_column": 115
+      },
+      "finding": "subprocess.run(shlex.split(tool) + [str(x) for x in args], capture_output=True, text=True, timeout=timeout)",
+      "explanation": "subprocess module calls execute external commands. Without careful input validation, this enables command injection.",
+      "remediation": "Use subprocess.run() with shell=False and an explicit argument list. Validate all inputs and avoid passing user-controlled data to commands.",
+      "code_snippet": "\n\ndef run(tool, *args, timeout=600):\n    p = subprocess.run(shlex.split(tool) + [str(x) for x in args], capture_output=True, text=True, timeout=timeout)\n    return p.returncode, p.stdout, p.stderr\n\n",
+      "intent": null,
+      "tags": [
+        "Dangerous Code Execution"
+      ],
+      "evidence": {},
+      "match_fingerprint": "d9b6dda46fe3655519e4a971fb99aa20deea21a7428bdf304612e1068e85fca1",
+      "occurrences": [
+        {
+          "file": "examples/capabilities/G23/wp_oracle.py",
+          "start_line": 33,
+          "end_line": 33,
+          "start_column": 8,
+          "end_column": 115
+        }
+      ]
+    },
+    {
+      "id": "AST4",
+      "finding_id": "finding-405898eb5a474b4ab9df8c540a0d4d71",
+      "category": "Dangerous Code Execution",
+      "pattern": "subprocess module call",
+      "severity": "MEDIUM",
+      "confidence": 0.7,
+      "location": {
+        "file": "examples/capabilities/G25/protocol_oracle.py",
+        "start_line": 26,
+        "end_line": 26,
+        "start_column": 8,
+        "end_column": 115
+      },
+      "finding": "subprocess.run(shlex.split(tool) + [str(x) for x in args], capture_output=True, text=True, timeout=timeout)",
+      "explanation": "subprocess module calls execute external commands. Without careful input validation, this enables command injection.",
+      "remediation": "Use subprocess.run() with shell=False and an explicit argument list. Validate all inputs and avoid passing user-controlled data to commands.",
+      "code_snippet": "\n\ndef run(tool, *args, timeout=600):\n    p = subprocess.run(shlex.split(tool) + [str(x) for x in args], capture_output=True, text=True, timeout=timeout)\n    return p.returncode, p.stdout, p.stderr\n\n",
+      "intent": null,
+      "tags": [
+        "Dangerous Code Execution"
+      ],
+      "evidence": {},
+      "match_fingerprint": "d9b6dda46fe3655519e4a971fb99aa20deea21a7428bdf304612e1068e85fca1",
+      "occurrences": [
+        {
+          "file": "examples/capabilities/G25/protocol_oracle.py",
+          "start_line": 26,
+          "end_line": 26,
+          "start_column": 8,
+          "end_column": 115
+        }
+      ]
+    },
+    {
+      "id": "P9",
+      "finding_id": "finding-94f8e702df5049b3b05eb7f6fe405c0e",
+      "category": "Prompt Injection",
+      "pattern": "Whitespace Padding",
+      "severity": "MEDIUM",
+      "confidence": 0.8,
+      "location": {
+        "file": "examples/capabilities/G25/fixtures/malformed-events.jsonl",
+        "start_line": 12,
+        "end_line": null
+      },
+      "finding": "repeated U+0078 x70000",
+      "explanation": "Large whitespace padding was detected (a block of blank lines or a long run of spaces). This can push injected instructions below or to the right of the visible area so a human reviewer never sees them while the agent still reads them. Manual review of the hidden content is recommended.",
+      "remediation": "Remove the large whitespace padding (blank-line blocks or long space runs) and review any content hidden below or to the right of it. Keep skill files compact and reviewable so no instructions can be concealed off-screen.",
+      "code_snippet": "{\"boot\": 1, \"cmd\": \"c-01\", \"device\": \"valve-a\", \"kind\": \"ack\", \"result\": \"done\", \"seq\": 3, \"state\": \"open\", \"v\": 1}\n{\"v\": 1, \"device\": \"valve-a\", \"boot\": 1, \"seq\": 7, \"kind\": \"hello\", \"extra\": 1}\n{\"boot\": 1, \"device\": \"valve-a\", \"flow_lpm\": 12.5, \"kind\": \"telemetry\", \"seq\": 4, \"v\": 1}\nxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx",
+      "intent": null,
+      "tags": [
+        "Prompt Injection"
+      ],
+      "evidence": {},
+      "match_fingerprint": "4c4599eed3bb430afddfa07a5b471e9a0aa4e3c27e2c2a1c50855dc67c619ea1",
+      "occurrences": [
+        {
+          "file": "examples/capabilities/G25/fixtures/malformed-events.jsonl",
+          "start_line": 12,
+          "end_line": null
+        }
+      ]
+    },
+    {
+      "id": "AST4",
+      "finding_id": "finding-f6fbfaff131c4bf787fd7c5eca000195",
+      "category": "Dangerous Code Execution",
+      "pattern": "subprocess module call",
+      "severity": "MEDIUM",
+      "confidence": 0.7,
+      "location": {
+        "file": "examples/capabilities/G31/scope_oracle.py",
+        "start_line": 39,
+        "end_line": 40,
+        "start_column": 12,
+        "end_column": 48
+      },
+      "finding": "subprocess.run([sys.executable, str(self.tool)] + [str(a) for a in args], capture_output=True, text=True,\n                           env=ENV, timeout=300)",
+      "explanation": "subprocess module calls execute external commands. Without careful input validation, this enables command injection.",
+      "remediation": "Use subprocess.run() with shell=False and an explicit argument list. Validate all inputs and avoid passing user-controlled data to commands.",
+      "code_snippet": "    def run(self, *args):\n        if not Path(self.tool).is_file():\n            return 127, \"\", \"no tool\"\n        r = subprocess.run([sys.executable, str(self.tool)] + [str(a) for a in args], capture_output=True, text=True,\n                           env=ENV, timeout=300)\n        return r.returncode, r.stdout, r.stderr\n",
+      "intent": null,
+      "tags": [
+        "Dangerous Code Execution"
+      ],
+      "evidence": {},
+      "match_fingerprint": "79ad3c0deb48d8154cf0df5e5221d375bf66162b0ba5cfe88171967b3e88bffc",
+      "occurrences": [
+        {
+          "file": "examples/capabilities/G31/scope_oracle.py",
+          "start_line": 39,
+          "end_line": 40,
+          "start_column": 12,
+          "end_column": 48
+        }
+      ]
+    },
+    {
+      "id": "AST4",
+      "finding_id": "finding-124d5f9e744b482aa6d7609b31f7be63",
+      "category": "Dangerous Code Execution",
+      "pattern": "subprocess module call",
+      "severity": "MEDIUM",
+      "confidence": 0.7,
+      "location": {
+        "file": "examples/capabilities/G32/followthrough_oracle.py",
+        "start_line": 120,
+        "end_line": 121,
+        "start_column": 12,
+        "end_column": 140
+      },
+      "finding": "subprocess.run([sys.executable, str(self.tool), \"run\", str(state), \"--account\", str(acc), \"--events\", str(evs),\n                            \"--now\", now, \"--worker\", worker, \"--json\"] + list(extra), c",
+      "explanation": "subprocess module calls execute external commands. Without careful input validation, this enables command injection.",
+      "remediation": "Use subprocess.run() with shell=False and an explicit argument list. Validate all inputs and avoid passing user-controlled data to commands.",
+      "code_snippet": "    def run(self, state, acc, evs, now, worker=\"w1\", *extra):\n        if not Path(self.tool).is_file():\n            return 127, \"\", \"\"\n        r = subprocess.run([sys.executable, str(self.tool), \"run\", str(state), \"--account\", str(acc), \"--events\", str(evs),\n                            \"--now\", now, \"--worker\", worker, \"--json\"] + list(extra), capture_output=True, text=True, env=ENV, timeout=300)\n        return r.returncode, r.stdout, r.stderr\n",
+      "intent": null,
+      "tags": [
+        "Dangerous Code Execution"
+      ],
+      "evidence": {},
+      "match_fingerprint": "36473fbbda6087a84c4e7255bf6bae2a001288f1937956e6c8f003da11bca610",
+      "occurrences": [
+        {
+          "file": "examples/capabilities/G32/followthrough_oracle.py",
+          "start_line": 120,
+          "end_line": 121,
+          "start_column": 12,
+          "end_column": 140
+        }
+      ]
+    },
+    {
+      "id": "AST4",
+      "finding_id": "finding-0d183f813cba405593349994099dcff8",
+      "category": "Dangerous Code Execution",
+      "pattern": "subprocess module call",
+      "severity": "MEDIUM",
+      "confidence": 0.7,
+      "location": {
+        "file": "examples/capabilities/G32/followthrough_oracle.py",
+        "start_line": 125,
+        "end_line": 126,
+        "start_column": 15,
+        "end_column": 130
+      },
+      "finding": "subprocess.Popen([sys.executable, str(self.tool), \"run\", str(state), \"--account\", str(acc), \"--events\", str(evs),\n                                 \"--now\", now, \"--worker\", worker], stdout=subprocess.",
+      "explanation": "subprocess module calls execute external commands. Without careful input validation, this enables command injection.",
+      "remediation": "Use subprocess.run() with shell=False and an explicit argument list. Validate all inputs and avoid passing user-controlled data to commands.",
+      "code_snippet": "        return r.returncode, r.stdout, r.stderr\n\n    def popen(self, state, acc, evs, now, worker):\n        return subprocess.Popen([sys.executable, str(self.tool), \"run\", str(state), \"--account\", str(acc), \"--events\", str(evs),\n                                 \"--now\", now, \"--worker\", worker], stdout=subprocess.DEVNULL, stderr=subprocess.DEVNULL, env=ENV)\n\n",
+      "intent": null,
+      "tags": [
+        "Dangerous Code Execution"
+      ],
+      "evidence": {},
+      "match_fingerprint": "dd9057201f05341c73550698cdf8671a158b621372544a52e246e13b458301ed",
+      "occurrences": [
+        {
+          "file": "examples/capabilities/G32/followthrough_oracle.py",
+          "start_line": 125,
+          "end_line": 126,
+          "start_column": 15,
+          "end_column": 130
+        }
+      ]
+    },
+    {
+      "id": "AST4",
+      "finding_id": "finding-be5cbc7cdbc14a3d82fb94aa543eee5d",
+      "category": "Dangerous Code Execution",
+      "pattern": "subprocess module call",
+      "severity": "MEDIUM",
+      "confidence": 0.7,
+      "location": {
+        "file": "examples/capabilities/G32/followthrough_oracle.py",
+        "start_line": 224,
+        "end_line": 224,
+        "start_column": 9,
+        "end_column": 129
+      },
+      "finding": "subprocess.run([sys.executable, str(c.tool), \"status\", str(d / \"s\"), \"--json\"], capture_output=True, text=True, env=ENV)",
+      "explanation": "subprocess module calls execute external commands. Without careful input validation, this enables command injection.",
+      "remediation": "Use subprocess.run() with shell=False and an explicit argument list. Validate all inputs and avoid passing user-controlled data to commands.",
+      "code_snippet": "    c.run(d / \"s\", a, e, RUNS[0], \"w1\")\n    rc, out, _ = c.run(d / \"s\", a, e, RUNS[1], \"w2\")\n    r = json.loads(out) if rc == 0 else {}\n    st = subprocess.run([sys.executable, str(c.tool), \"status\", str(d / \"s\"), \"--json\"], capture_output=True, text=True, env=ENV)\n    s = json.loads(st.stdout) if st.returncode == 0 else {}\n    opened = [v for v in tool_state(d / \"s\").values() if v[0] == \"draft\"]\n    ok = (rc == 0 and r.get(\"owner\") == \"Priya (customer success lead, synthetic)\" and len(r.get(\"reassigned\", [])) == 3",
+      "intent": null,
+      "tags": [
+        "Dangerous Code Execution"
+      ],
+      "evidence": {},
+      "match_fingerprint": "7a4a8252fa557542fa56916c210a36466190ac26155dc1b875d4eda497429f9f",
+      "occurrences": [
+        {
+          "file": "examples/capabilities/G32/followthrough_oracle.py",
+          "start_line": 224,
+          "end_line": 224,
+          "start_column": 9,
+          "end_column": 129
+        }
+      ]
+    },
+    {
+      "id": "EA2",
+      "finding_id": "finding-6682f4805b47425fb1a24bf64865cfcb",
+      "category": "Excessive Agency",
+      "pattern": "Autonomous Decision Making",
+      "severity": "MEDIUM",
+      "confidence": 0.75,
+      "location": {
+        "file": "examples/capabilities/G32/naive_followthrough.py",
+        "start_line": 2,
+        "end_line": null,
+        "start_column": 92
+      },
+      "finding": "no consent",
+      "explanation": "Skill enables autonomous high-impact decisions without human-in-the-loop verification. Critical operations (destructive commands, financial transactions, data deletion) should require explicit user confirmation.",
+      "remediation": "Add human-in-the-loop confirmation for destructive, irreversible, or high-impact operations. Never auto-execute commands that modify files, send data, or alter system state.",
+      "code_snippet": "#!/usr/bin/env python3\n\"\"\"G32 naive control: a scheduler that drafts every due playbook step from the events, with no consent check,\nno reply state, no ledger and no lock (each run writes its own draft files). Expected REJECTED.\"\"\"\nimport argparse, datetime as dt, json, os, sys\nfrom pathlib import Path",
+      "intent": null,
+      "tags": [
+        "Excessive Agency"
+      ],
+      "evidence": {},
+      "match_fingerprint": "4b9d13ac603b6b3b7223dbea83ec4db8a7d9cd4c5f75cb33027bd83f42ec46e4",
+      "occurrences": [
+        {
+          "file": "examples/capabilities/G32/naive_followthrough.py",
+          "start_line": 2,
+          "end_line": null,
+          "start_column": 92
+        }
+      ]
+    },
+    {
+      "id": "AST4",
+      "finding_id": "finding-e850fc912ce14214af5be8cdba91fb5c",
+      "category": "Dangerous Code Execution",
+      "pattern": "subprocess module call",
+      "severity": "MEDIUM",
+      "confidence": 0.7,
+      "location": {
+        "file": "examples/capabilities/G33/evidence_oracle.py",
+        "start_line": 47,
+        "end_line": 47,
+        "start_column": 12,
+        "end_column": 142
+      },
+      "finding": "subprocess.run([sys.executable, str(self.tool), \"decide\", str(p), \"--json\"], capture_output=True, text=True, env=ENV, timeout=300)",
+      "explanation": "subprocess module calls execute external commands. Without careful input validation, this enables command injection.",
+      "remediation": "Use subprocess.run() with shell=False and an explicit argument list. Validate all inputs and avoid passing user-controlled data to commands.",
+      "code_snippet": "            return 127, None\n        p = d / \"pkg.json\"\n        p.write_text(json.dumps(pkg or json.loads((d / \"choice.json\").read_text())))\n        r = subprocess.run([sys.executable, str(self.tool), \"decide\", str(p), \"--json\"], capture_output=True, text=True, env=ENV, timeout=300)\n        try:\n            return r.returncode, json.loads(r.stdout)\n        except ValueError:",
+      "intent": null,
+      "tags": [
+        "Dangerous Code Execution"
+      ],
+      "evidence": {},
+      "match_fingerprint": "71f582843dd2449a25f4d7b4c24c64c968ed0e6e45cc9be4e0fcde7b138ac977",
+      "occurrences": [
+        {
+          "file": "examples/capabilities/G33/evidence_oracle.py",
+          "start_line": 47,
+          "end_line": 47,
+          "start_column": 12,
+          "end_column": 142
+        }
+      ]
+    },
+    {
+      "id": "AST4",
+      "finding_id": "finding-264be17b70a4494d93169fc95bda5790",
+      "category": "Dangerous Code Execution",
+      "pattern": "subprocess module call",
+      "severity": "MEDIUM",
+      "confidence": 0.7,
+      "location": {
+        "file": "examples/capabilities/G33/evidence_oracle.py",
+        "start_line": 140,
+        "end_line": 140,
+        "start_column": 12,
+        "end_column": 133
+      },
+      "finding": "subprocess.run([sys.executable, str(c.tool), \"decide\", str(q), \"--out\", str(o)], capture_output=True, text=True, env=ENV)",
+      "explanation": "subprocess module calls execute external commands. Without careful input validation, this enables command injection.",
+      "remediation": "Use subprocess.run() with shell=False and an explicit argument list. Validate all inputs and avoid passing user-controlled data to commands.",
+      "code_snippet": "    for p in bad:\n        d = c.fresh(); before = sorted(x.name for x in d.rglob(\"*\"))\n        q = d / \"pkg.json\"; q.write_text(json.dumps(p)); o = d / \"out.json\"\n        r = subprocess.run([sys.executable, str(c.tool), \"decide\", str(q), \"--out\", str(o)], capture_output=True, text=True, env=ENV)\n        ok = ok and r.returncode == 2 and not o.exists()\n    return ok, \"%d invalid packages refused, nothing written\" % len(bad)\n",
+      "intent": null,
+      "tags": [
+        "Dangerous Code Execution"
+      ],
+      "evidence": {},
+      "match_fingerprint": "fbd77185de856fe4084184d529a7822399a685500e90c662d4489767427b2a04",
+      "occurrences": [
+        {
+          "file": "examples/capabilities/G33/evidence_oracle.py",
+          "start_line": 140,
+          "end_line": 140,
+          "start_column": 12,
+          "end_column": 133
+        }
+      ]
+    },
+    {
+      "id": "AST4",
+      "finding_id": "finding-735386728a0041ee956ba9aa07a84878",
+      "category": "Dangerous Code Execution",
+      "pattern": "subprocess module call",
+      "severity": "MEDIUM",
+      "confidence": 0.7,
+      "location": {
+        "file": "examples/capabilities/G33/evidence_oracle.py",
+        "start_line": 226,
+        "end_line": 226,
+        "start_column": 12,
+        "end_column": 133
+      },
+      "finding": "subprocess.run([sys.executable, str(c.tool), \"decide\", str(q), \"--out\", str(o)], capture_output=True, text=True, env=ENV)",
+      "explanation": "subprocess module calls execute external commands. Without careful input validation, this enables command injection.",
+      "remediation": "Use subprocess.run() with shell=False and an explicit argument list. Validate all inputs and avoid passing user-controlled data to commands.",
+      "code_snippet": "    ok = True\n    for key, val in ((\"adoption\", \"35%\"), (\"adoption_rate\", \"0.2\"), (\"assumed_adoption\", 0.35), (\"tam\", \"1\")):\n        p = base(); p[key] = val; d = c.fresh(); q = d / \"pkg.json\"; q.write_text(json.dumps(p)); o = d / \"out.json\"\n        r = subprocess.run([sys.executable, str(c.tool), \"decide\", str(q), \"--out\", str(o)], capture_output=True, text=True, env=ENV)\n        ok = ok and r.returncode == 2 and not o.exists()\n    p = base(); p[\"dimensions\"][0][\"quantity\"] = True  # pain: C1 has a number but no value; C2, C5, C11 state no number\n    for cl in p[\"claims\"]:",
+      "intent": null,
+      "tags": [
+        "Dangerous Code Execution"
+      ],
+      "evidence": {},
+      "match_fingerprint": "fbd77185de856fe4084184d529a7822399a685500e90c662d4489767427b2a04",
+      "occurrences": [
+        {
+          "file": "examples/capabilities/G33/evidence_oracle.py",
+          "start_line": 226,
+          "end_line": 226,
+          "start_column": 12,
+          "end_column": 133
+        }
+      ]
+    },
+    {
+      "id": "AST4",
+      "finding_id": "finding-e13cd7a02ddf418dbb836492ef4b0da4",
+      "category": "Dangerous Code Execution",
+      "pattern": "subprocess module call",
+      "severity": "MEDIUM",
+      "confidence": 0.7,
+      "location": {
+        "file": "examples/capabilities/G33/evidence_oracle.py",
+        "start_line": 147,
+        "end_line": 147,
+        "start_column": 9,
+        "end_column": 130
+      },
+      "finding": "subprocess.run([sys.executable, str(c.tool), \"decide\", str(p), \"--out\", str(o)], capture_output=True, text=True, env=ENV)",
+      "explanation": "subprocess module calls execute external commands. Without careful input validation, this enables command injection.",
+      "remediation": "Use subprocess.run() with shell=False and an explicit argument list. Validate all inputs and avoid passing user-controlled data to commands.",
+      "code_snippet": "\ndef o7(c):\n    d = c.fresh(); p = d / \"choice.json\"; o = d / \"res.json\"\n    r1 = subprocess.run([sys.executable, str(c.tool), \"decide\", str(p), \"--out\", str(o)], capture_output=True, text=True, env=ENV)\n    r2 = subprocess.run([sys.executable, str(c.tool), \"verify\", str(o), str(p)], capture_output=True, text=True, env=ENV)\n    j = json.loads(o.read_text()); j[\"preferred\"] = \"reports\"; t = d / \"t.json\"; t.write_text(json.dumps(j))\n    r3 = subprocess.run([sys.executable, str(c.tool), \"verify\", str(t), str(p)], capture_output=True, text=True, env=ENV)",
+      "intent": null,
+      "tags": [
+        "Dangerous Code Execution"
+      ],
+      "evidence": {},
+      "match_fingerprint": "9fd8249f33c5e392f07e41e2738aa0d452409d4e91f94bf8835fd370beec4edc",
+      "occurrences": [
+        {
+          "file": "examples/capabilities/G33/evidence_oracle.py",
+          "start_line": 147,
+          "end_line": 147,
+          "start_column": 9,
+          "end_column": 130
+        }
+      ]
+    },
+    {
+      "id": "AST4",
+      "finding_id": "finding-dae7ac881a114f1cb0ae113a5377af5f",
+      "category": "Dangerous Code Execution",
+      "pattern": "subprocess module call",
+      "severity": "MEDIUM",
+      "confidence": 0.7,
+      "location": {
+        "file": "examples/capabilities/G33/evidence_oracle.py",
+        "start_line": 148,
+        "end_line": 148,
+        "start_column": 9,
+        "end_column": 121
+      },
+      "finding": "subprocess.run([sys.executable, str(c.tool), \"verify\", str(o), str(p)], capture_output=True, text=True, env=ENV)",
+      "explanation": "subprocess module calls execute external commands. Without careful input validation, this enables command injection.",
+      "remediation": "Use subprocess.run() with shell=False and an explicit argument list. Validate all inputs and avoid passing user-controlled data to commands.",
+      "code_snippet": "def o7(c):\n    d = c.fresh(); p = d / \"choice.json\"; o = d / \"res.json\"\n    r1 = subprocess.run([sys.executable, str(c.tool), \"decide\", str(p), \"--out\", str(o)], capture_output=True, text=True, env=ENV)\n    r2 = subprocess.run([sys.executable, str(c.tool), \"verify\", str(o), str(p)], capture_output=True, text=True, env=ENV)\n    j = json.loads(o.read_text()); j[\"preferred\"] = \"reports\"; t = d / \"t.json\"; t.write_text(json.dumps(j))\n    r3 = subprocess.run([sys.executable, str(c.tool), \"verify\", str(t), str(p)], capture_output=True, text=True, env=ENV)\n    keep = o.read_bytes(); bad = d / \"bad.json\"; bad.write_text(\"{\")",
+      "intent": null,
+      "tags": [
+        "Dangerous Code Execution"
+      ],
+      "evidence": {},
+      "match_fingerprint": "a69017e07b7fb65a119d0fd13c1b2b892e098bffd7a906e7094b2ddea06b468f",
+      "occurrences": [
+        {
+          "file": "examples/capabilities/G33/evidence_oracle.py",
+          "start_line": 148,
+          "end_line": 148,
+          "start_column": 9,
+          "end_column": 121
+        }
+      ]
+    },
+    {
+      "id": "AST4",
+      "finding_id": "finding-0f71bfc6d4384a4b846f09529cfea356",
+      "category": "Dangerous Code Execution",
+      "pattern": "subprocess module call",
+      "severity": "MEDIUM",
+      "confidence": 0.7,
+      "location": {
+        "file": "examples/capabilities/G33/evidence_oracle.py",
+        "start_line": 150,
+        "end_line": 150,
+        "start_column": 9,
+        "end_column": 121
+      },
+      "finding": "subprocess.run([sys.executable, str(c.tool), \"verify\", str(t), str(p)], capture_output=True, text=True, env=ENV)",
+      "explanation": "subprocess module calls execute external commands. Without careful input validation, this enables command injection.",
+      "remediation": "Use subprocess.run() with shell=False and an explicit argument list. Validate all inputs and avoid passing user-controlled data to commands.",
+      "code_snippet": "    r1 = subprocess.run([sys.executable, str(c.tool), \"decide\", str(p), \"--out\", str(o)], capture_output=True, text=True, env=ENV)\n    r2 = subprocess.run([sys.executable, str(c.tool), \"verify\", str(o), str(p)], capture_output=True, text=True, env=ENV)\n    j = json.loads(o.read_text()); j[\"preferred\"] = \"reports\"; t = d / \"t.json\"; t.write_text(json.dumps(j))\n    r3 = subprocess.run([sys.executable, str(c.tool), \"verify\", str(t), str(p)], capture_output=True, text=True, env=ENV)\n    keep = o.read_bytes(); bad = d / \"bad.json\"; bad.write_text(\"{\")\n    r4 = subprocess.run([sys.executable, str(c.tool), \"decide\", str(bad), \"--out\", str(o)], capture_output=True, text=True, env=ENV)\n    r5 = subprocess.run([sys.executable, str(c.tool), \"decide\", str(p), \"--out\", str(p)], capture_output=True, text=True, env=ENV)",
+      "intent": null,
+      "tags": [
+        "Dangerous Code Execution"
+      ],
+      "evidence": {},
+      "match_fingerprint": "5038bbf651ee35eb869e9382a1413d8823d64776e16f0b5633846c169fae9a73",
+      "occurrences": [
+        {
+          "file": "examples/capabilities/G33/evidence_oracle.py",
+          "start_line": 150,
+          "end_line": 150,
+          "start_column": 9,
+          "end_column": 121
+        }
+      ]
+    },
+    {
+      "id": "AST4",
+      "finding_id": "finding-e8465971e98941d28b36cddd05bf9c9e",
+      "category": "Dangerous Code Execution",
+      "pattern": "subprocess module call",
+      "severity": "MEDIUM",
+      "confidence": 0.7,
+      "location": {
+        "file": "examples/capabilities/G33/evidence_oracle.py",
+        "start_line": 152,
+        "end_line": 152,
+        "start_column": 9,
+        "end_column": 132
+      },
+      "finding": "subprocess.run([sys.executable, str(c.tool), \"decide\", str(bad), \"--out\", str(o)], capture_output=True, text=True, env=ENV)",
+      "explanation": "subprocess module calls execute external commands. Without careful input validation, this enables command injection.",
+      "remediation": "Use subprocess.run() with shell=False and an explicit argument list. Validate all inputs and avoid passing user-controlled data to commands.",
+      "code_snippet": "    j = json.loads(o.read_text()); j[\"preferred\"] = \"reports\"; t = d / \"t.json\"; t.write_text(json.dumps(j))\n    r3 = subprocess.run([sys.executable, str(c.tool), \"verify\", str(t), str(p)], capture_output=True, text=True, env=ENV)\n    keep = o.read_bytes(); bad = d / \"bad.json\"; bad.write_text(\"{\")\n    r4 = subprocess.run([sys.executable, str(c.tool), \"decide\", str(bad), \"--out\", str(o)], capture_output=True, text=True, env=ENV)\n    r5 = subprocess.run([sys.executable, str(c.tool), \"decide\", str(p), \"--out\", str(p)], capture_output=True, text=True, env=ENV)\n    ok = (r1.returncode == 0 and r2.returncode == 0 and \"IDENTICAL\" in r2.stdout and r3.returncode == 1 and \"DIFFERENT\" in r3.stdout\n          and r4.returncode == 2 and o.read_bytes() == keep and r5.returncode == 2)",
+      "intent": null,
+      "tags": [
+        "Dangerous Code Execution"
+      ],
+      "evidence": {},
+      "match_fingerprint": "fd008b5d3ef179de253813c72e2f03ba30b622cccb8a0dd4cb1e3ba9b9e06a49",
+      "occurrences": [
+        {
+          "file": "examples/capabilities/G33/evidence_oracle.py",
+          "start_line": 152,
+          "end_line": 152,
+          "start_column": 9,
+          "end_column": 132
+        }
+      ]
+    },
+    {
+      "id": "AST4",
+      "finding_id": "finding-658030871f244d4e9b7234deba0a5d3c",
+      "category": "Dangerous Code Execution",
+      "pattern": "subprocess module call",
+      "severity": "MEDIUM",
+      "confidence": 0.7,
+      "location": {
+        "file": "examples/capabilities/G33/evidence_oracle.py",
+        "start_line": 153,
+        "end_line": 153,
+        "start_column": 9,
+        "end_column": 130
+      },
+      "finding": "subprocess.run([sys.executable, str(c.tool), \"decide\", str(p), \"--out\", str(p)], capture_output=True, text=True, env=ENV)",
+      "explanation": "subprocess module calls execute external commands. Without careful input validation, this enables command injection.",
+      "remediation": "Use subprocess.run() with shell=False and an explicit argument list. Validate all inputs and avoid passing user-controlled data to commands.",
+      "code_snippet": "    r3 = subprocess.run([sys.executable, str(c.tool), \"verify\", str(t), str(p)], capture_output=True, text=True, env=ENV)\n    keep = o.read_bytes(); bad = d / \"bad.json\"; bad.write_text(\"{\")\n    r4 = subprocess.run([sys.executable, str(c.tool), \"decide\", str(bad), \"--out\", str(o)], capture_output=True, text=True, env=ENV)\n    r5 = subprocess.run([sys.executable, str(c.tool), \"decide\", str(p), \"--out\", str(p)], capture_output=True, text=True, env=ENV)\n    ok = (r1.returncode == 0 and r2.returncode == 0 and \"IDENTICAL\" in r2.stdout and r3.returncode == 1 and \"DIFFERENT\" in r3.stdout\n          and r4.returncode == 2 and o.read_bytes() == keep and r5.returncode == 2)\n    return ok, \"--out and verify; tampered result detected; failed run keeps earlier result; input overwrite refused\"",
+      "intent": null,
+      "tags": [
+        "Dangerous Code Execution"
+      ],
+      "evidence": {},
+      "match_fingerprint": "401906d76de7e21fea477b475402ffe39b75dd47438bc848029b6151779190cf",
+      "occurrences": [
+        {
+          "file": "examples/capabilities/G33/evidence_oracle.py",
+          "start_line": 153,
+          "end_line": 153,
+          "start_column": 9,
+          "end_column": 130
+        }
+      ]
+    },
+    {
+      "id": "OH3",
+      "finding_id": "finding-5eef4b724f27495d88c83e96bf4c08f9",
+      "category": "Output Handling",
+      "pattern": "Unbounded Output",
+      "severity": "MEDIUM",
+      "confidence": 0.75,
+      "location": {
+        "file": "examples/capabilities/G34/README.md",
+        "start_line": 63,
+        "end_line": null,
+        "start_column": 100
+      },
+      "finding": "no size cap",
+      "explanation": "Output size or generation rate is not bounded. Unbounded output enables denial-of-service through resource exhaustion, log flooding, or context-window stuffing.",
+      "remediation": "Set explicit limits on output length, generation count, and rate. Use max_tokens and truncation to prevent unbounded output.",
+      "code_snippet": "\n## Results (macOS, Python 3.9.6; raw logs in the handback)\n- Tool 14/14. No-op control 3/14: it passes only o6, o7 and s1, which a do-nothing tool satisfies. Naive\n  control 9/14: it ignores redirects (o2 to o4), follows a symlink out of the snapshot (o8) and has no size cap\n  (o9).\n- Scale: 2,000 pages, 469 findings, about 0.2 s for the scan in a single run. This only shows the tool is cheap\n  on a snapshot of that size; it says nothing about crawl or page speed.",
+      "intent": null,
+      "tags": [
+        "Output Handling"
+      ],
+      "evidence": {},
+      "match_fingerprint": "a516ea36d305bd87bb272828298610a6a5a4c729bc31c029e8c5dbaa63ac909e",
+      "occurrences": [
+        {
+          "file": "examples/capabilities/G34/README.md",
+          "start_line": 63,
+          "end_line": null,
+          "start_column": 100
+        }
+      ]
+    },
+    {
+      "id": "OH3",
+      "finding_id": "finding-3043aa0853394c62bb2efd2265778fc5",
+      "category": "Output Handling",
+      "pattern": "Unbounded Output",
+      "severity": "MEDIUM",
+      "confidence": 0.75,
+      "location": {
+        "file": "examples/capabilities/G34/naive_diagnostics.py",
+        "start_line": 4,
+        "end_line": null,
+        "start_column": 84
+      },
+      "finding": "no size cap",
+      "explanation": "Output size or generation rate is not bounded. Unbounded output enables denial-of-service through resource exhaustion, log flooding, or context-window stuffing.",
+      "remediation": "Set explicit limits on output length, generation count, and rate. Use max_tokens and truncation to prevent unbounded output.",
+      "code_snippet": "#!/usr/bin/env python3\n\"\"\"Control for diag_oracle.py: the real checks with four common shortcuts.\n\n1. Reads every file it finds and follows symlinks, even out of the snapshot. 2. Has no size cap.\n3. Writes --out in place, not atomically. 4. Ignores the configured redirects, so redirected links count as broken.\nThe oracle must reject it.\"\"\"\nimport os",
+      "intent": null,
+      "tags": [
+        "Output Handling"
+      ],
+      "evidence": {},
+      "match_fingerprint": "a516ea36d305bd87bb272828298610a6a5a4c729bc31c029e8c5dbaa63ac909e",
+      "occurrences": [
+        {
+          "file": "examples/capabilities/G34/naive_diagnostics.py",
+          "start_line": 4,
+          "end_line": null,
+          "start_column": 84
+        }
+      ]
+    },
+    {
+      "id": "AST4",
+      "finding_id": "finding-6249260281a949c2a9c6d4339d808959",
+      "category": "Dangerous Code Execution",
+      "pattern": "subprocess module call",
+      "severity": "MEDIUM",
+      "confidence": 0.7,
+      "location": {
+        "file": "examples/capabilities/G34/diag_oracle.py",
+        "start_line": 39,
+        "end_line": 40,
+        "start_column": 8,
+        "end_column": 53
+      },
+      "finding": "subprocess.run([sys.executable, tool] + [str(a) for a in args], capture_output=True, text=True,\n                       cwd=cwd, env=env, timeout=600)",
+      "explanation": "subprocess module calls execute external commands. Without careful input validation, this enables command injection.",
+      "remediation": "Use subprocess.run() with shell=False and an explicit argument list. Validate all inputs and avoid passing user-controlled data to commands.",
+      "code_snippet": "                   'GIT_CONFIG_SYSTEM', 'SSL_CERT_FILE', 'SSL_CERT_DIR', 'REQUESTS_CA_BUNDLE', 'CURL_CA_BUNDLE', 'CI',\n                   'GITHUB_ACTIONS',\n               ) if name in os.environ}, PYTHONDONTWRITEBYTECODE=\"1\")\n    p = subprocess.run([sys.executable, tool] + [str(a) for a in args], capture_output=True, text=True,\n                       cwd=cwd, env=env, timeout=600)\n    return p.returncode, p.stdout, p.stderr\n",
+      "intent": null,
+      "tags": [
+        "Dangerous Code Execution"
+      ],
+      "evidence": {},
+      "match_fingerprint": "7703db51138b3c39541b611ce165862be66bb2534fef6656108ebe15884e2faa",
+      "occurrences": [
+        {
+          "file": "examples/capabilities/G34/diag_oracle.py",
+          "start_line": 39,
+          "end_line": 40,
+          "start_column": 8,
+          "end_column": 53
+        }
+      ]
+    },
+    {
+      "id": "OH3",
+      "finding_id": "finding-51cda8c4e31e407f891577c92b72570c",
+      "category": "Output Handling",
+      "pattern": "Unbounded Output",
+      "severity": "MEDIUM",
+      "confidence": 0.75,
+      "location": {
+        "file": "examples/capabilities/G34/naive_diagnostics.py",
+        "start_line": 35,
+        "end_line": null,
+        "start_column": 7
+      },
+      "finding": "No size cap",
+      "explanation": "Output size or generation rate is not bounded. Unbounded output enables denial-of-service through resource exhaustion, log flooding, or context-window stuffing.",
+      "remediation": "Set explicit limits on output length, generation count, and rate. Use max_tokens and truncation to prevent unbounded output.",
+      "code_snippet": "\n\ndef scan(root, cfg, max_bytes):\n    # \"No size cap\": a cap no file can reach. It is the total size of everything reachable (symlinks\n    # followed), not a fixed huge number: f.read(n) allocates n bytes up front on Linux, so 1 << 40 raised\n    # MemoryError there and the control failed for the wrong reason (found by the CI replay on Linux).\n    total, seen = 0, set()",
+      "intent": null,
+      "tags": [
+        "Output Handling"
+      ],
+      "evidence": {},
+      "match_fingerprint": "63efbcaa79241e3790257edbf02df506506354e7ba9034c26ce3a8a58a0c0bfe",
+      "occurrences": [
+        {
+          "file": "examples/capabilities/G34/naive_diagnostics.py",
+          "start_line": 35,
+          "end_line": null,
+          "start_column": 7
+        }
+      ]
+    },
+    {
+      "id": "AST4",
+      "finding_id": "finding-3c6baf0db4604c6883edb1929ff9d9c6",
+      "category": "Dangerous Code Execution",
+      "pattern": "subprocess module call",
+      "severity": "MEDIUM",
+      "confidence": 0.7,
+      "location": {
+        "file": "examples/capabilities/G35/campaign_oracle.py",
+        "start_line": 45,
+        "end_line": 45,
+        "start_column": 12,
+        "end_column": 81
+      },
+      "finding": "subprocess.run(a, capture_output=True, text=True, timeout=600, env=e)",
+      "explanation": "subprocess module calls execute external commands. Without careful input validation, this enables command injection.",
+      "remediation": "Use subprocess.run() with shell=False and an explicit argument list. Validate all inputs and avoid passing user-controlled data to commands.",
+      "code_snippet": "             ) if name in os.environ}, PYTHONDONTWRITEBYTECODE=\"1\")\n    e.update(env or {})\n    try:\n        r = subprocess.run(a, capture_output=True, text=True, timeout=600, env=e)\n    except (OSError, subprocess.TimeoutExpired) as exc:\n        return 99, None, str(exc)\n    try:",
+      "intent": null,
+      "tags": [
+        "Dangerous Code Execution"
+      ],
+      "evidence": {},
+      "match_fingerprint": "4f0fe9c96a34801cba36ab0fcbb38a8dab25ce71a509db9570245673ae38740f",
+      "occurrences": [
+        {
+          "file": "examples/capabilities/G35/campaign_oracle.py",
+          "start_line": 45,
+          "end_line": 45,
+          "start_column": 12,
+          "end_column": 81
+        }
+      ]
+    },
+    {
+      "id": "AST4",
+      "finding_id": "finding-d2c7385e01084d298fe0dbbf871e4a89",
+      "category": "Dangerous Code Execution",
+      "pattern": "subprocess module call",
+      "severity": "MEDIUM",
+      "confidence": 0.7,
+      "location": {
+        "file": "examples/capabilities/G35/campaign_oracle.py",
+        "start_line": 438,
+        "end_line": 445,
+        "start_column": 25,
+        "end_column": 164
+      },
+      "finding": "subprocess.Popen(a, stdout=subprocess.PIPE, stderr=subprocess.PIPE, env=dict({name: os.environ[name] for name in (\n                                                                                     ",
+      "explanation": "subprocess module calls execute external commands. Without careful input validation, this enables command injection.",
+      "remediation": "Use subprocess.run() with shell=False and an explicit argument list. Validate all inputs and avoid passing user-controlled data to commands.",
+      "code_snippet": "        procs = []\n        for i in range(4):\n            a = cmd + [\"reconcile\", str(pkg), \"--json\", \"--out\", str(tmp / (\"o9-out%d\" % i))]\n            procs.append(subprocess.Popen(a, stdout=subprocess.PIPE, stderr=subprocess.PIPE, env=dict({name: os.environ[name] for name in (\n                                                                                                          'PATH', 'HOME', 'USERPROFILE', 'HOMEDRIVE', 'HOMEPATH', 'TMPDIR',\n                                                                                                          'TMP', 'TEMP', 'SystemRoot', 'SYSTEMROOT', 'SystemDrive', 'COMSPEC',\n                                                                                                          'ComSpec', 'PATHEXT', 'LANG', 'LC_ALL', 'LC_CTYPE', 'TZ',",
+      "intent": null,
+      "tags": [
+        "Dangerous Code Execution"
+      ],
+      "evidence": {},
+      "match_fingerprint": "6fec4689c927bd21540053b73ee4b62ac8fb2dadf1cb821381077506062cfc33",
+      "occurrences": [
+        {
+          "file": "examples/capabilities/G35/campaign_oracle.py",
+          "start_line": 438,
+          "end_line": 445,
+          "start_column": 25,
+          "end_column": 164
+        }
+      ]
+    },
+    {
+      "id": "P9",
+      "finding_id": "finding-e4d1aea9eddc4936a95a6ef7a289e1d2",
+      "category": "Prompt Injection",
+      "pattern": "Whitespace Padding",
+      "severity": "MEDIUM",
+      "confidence": 0.7,
+      "location": {
+        "file": "examples/capabilities/G35/campaign_oracle.py",
+        "start_line": 439,
+        "end_line": null
+      },
+      "finding": "U+0020 x106",
+      "explanation": "Large whitespace padding was detected (a block of blank lines or a long run of spaces). This can push injected instructions below or to the right of the visible area so a human reviewer never sees them while the agent still reads them. Manual review of the hidden content is recommended.",
+      "remediation": "Remove the large whitespace padding (blank-line blocks or long space runs) and review any content hidden below or to the right of it. Keep skill files compact and reviewable so no instructions can be concealed off-screen.",
+      "code_snippet": "        for i in range(4):\n            a = cmd + [\"reconcile\", str(pkg), \"--json\", \"--out\", str(tmp / (\"o9-out%d\" % i))]\n            procs.append(subprocess.Popen(a, stdout=subprocess.PIPE, stderr=subprocess.PIPE, env=dict({name: os.environ[name] for name in (\n                                                                                                          'PATH', 'HOME', 'USERPROFILE', 'HOMEDRIVE', 'HOMEPATH', 'TMPDIR',\n                                                                                                          'TMP', 'TEMP', 'SystemRoot', 'SYSTEMROOT', 'SystemDrive', 'COMSPEC',\n                                                                                                          'ComSpec', 'PATHEXT', 'LANG', 'LC_ALL', 'LC_CTYPE', 'TZ',\n                                                                                                          'PYTHONUTF8', 'PYTHONIOENCODING', 'PYTHONNOUSERSITE', 'PYTHONSAFEPATH', 'GIT_CONFIG_NOSYSTEM', 'GIT_CONFIG_GLOBAL',",
+      "intent": null,
+      "tags": [
+        "Prompt Injection"
+      ],
+      "evidence": {},
+      "match_fingerprint": "ef6ccd825bf3f8a2f54c415aafb941ab10ca4a7fa5f2ef276aea34be5e499618",
+      "occurrences": [
+        {
+          "file": "examples/capabilities/G35/campaign_oracle.py",
+          "start_line": 439,
+          "end_line": null
+        }
+      ]
+    },
+    {
+      "id": "P9",
+      "finding_id": "finding-6e09141381504c8aa00fa610d0689357",
+      "category": "Prompt Injection",
+      "pattern": "Whitespace Padding",
+      "severity": "MEDIUM",
+      "confidence": 0.7,
+      "location": {
+        "file": "examples/capabilities/G35/campaign_oracle.py",
+        "start_line": 440,
+        "end_line": null
+      },
+      "finding": "U+0020 x106",
+      "explanation": "Large whitespace padding was detected (a block of blank lines or a long run of spaces). This can push injected instructions below or to the right of the visible area so a human reviewer never sees them while the agent still reads them. Manual review of the hidden content is recommended.",
+      "remediation": "Remove the large whitespace padding (blank-line blocks or long space runs) and review any content hidden below or to the right of it. Keep skill files compact and reviewable so no instructions can be concealed off-screen.",
+      "code_snippet": "            a = cmd + [\"reconcile\", str(pkg), \"--json\", \"--out\", str(tmp / (\"o9-out%d\" % i))]\n            procs.append(subprocess.Popen(a, stdout=subprocess.PIPE, stderr=subprocess.PIPE, env=dict({name: os.environ[name] for name in (\n                                                                                                          'PATH', 'HOME', 'USERPROFILE', 'HOMEDRIVE', 'HOMEPATH', 'TMPDIR',\n                                                                                                          'TMP', 'TEMP', 'SystemRoot', 'SYSTEMROOT', 'SystemDrive', 'COMSPEC',\n                                                                                                          'ComSpec', 'PATHEXT', 'LANG', 'LC_ALL', 'LC_CTYPE', 'TZ',\n                                                                                                          'PYTHONUTF8', 'PYTHONIOENCODING', 'PYTHONNOUSERSITE', 'PYTHONSAFEPATH', 'GIT_CONFIG_NOSYSTEM', 'GIT_CONFIG_GLOBAL',\n                                 ",
+      "intent": null,
+      "tags": [
+        "Prompt Injection"
+      ],
+      "evidence": {},
+      "match_fingerprint": "ef6ccd825bf3f8a2f54c415aafb941ab10ca4a7fa5f2ef276aea34be5e499618",
+      "occurrences": [
+        {
+          "file": "examples/capabilities/G35/campaign_oracle.py",
+          "start_line": 440,
+          "end_line": null
+        }
+      ]
+    },
+    {
+      "id": "P9",
+      "finding_id": "finding-8c11cfdee7724828b9e6da63764ea0b6",
+      "category": "Prompt Injection",
+      "pattern": "Whitespace Padding",
+      "severity": "MEDIUM",
+      "confidence": 0.7,
+      "location": {
+        "file": "examples/capabilities/G35/campaign_oracle.py",
+        "start_line": 441,
+        "end_line": null
+      },
+      "finding": "U+0020 x106",
+      "explanation": "Large whitespace padding was detected (a block of blank lines or a long run of spaces). This can push injected instructions below or to the right of the visible area so a human reviewer never sees them while the agent still reads them. Manual review of the hidden content is recommended.",
+      "remediation": "Remove the large whitespace padding (blank-line blocks or long space runs) and review any content hidden below or to the right of it. Keep skill files compact and reviewable so no instructions can be concealed off-screen.",
+      "code_snippet": "            procs.append(subprocess.Popen(a, stdout=subprocess.PIPE, stderr=subprocess.PIPE, env=dict({name: os.environ[name] for name in (\n                                                                                                          'PATH', 'HOME', 'USERPROFILE', 'HOMEDRIVE', 'HOMEPATH', 'TMPDIR',\n                                                                                                          'TMP', 'TEMP', 'SystemRoot', 'SYSTEMROOT', 'SystemDrive', 'COMSPEC',\n                                                                                                          'ComSpec', 'PATHEXT', 'LANG', 'LC_ALL', 'LC_CTYPE', 'TZ',\n                                                                                                          'PYTHONUTF8', 'PYTHONIOENCODING', 'PYTHONNOUSERSITE', 'PYTHONSAFEPATH', 'GIT_CONFIG_NOSYSTEM', 'GIT_CONFIG_GLOBAL',\n                                                                                                          'GIT_CONFIG_SYSTEM', ",
+      "intent": null,
+      "tags": [
+        "Prompt Injection"
+      ],
+      "evidence": {},
+      "match_fingerprint": "ef6ccd825bf3f8a2f54c415aafb941ab10ca4a7fa5f2ef276aea34be5e499618",
+      "occurrences": [
+        {
+          "file": "examples/capabilities/G35/campaign_oracle.py",
+          "start_line": 441,
+          "end_line": null
+        }
+      ]
+    },
+    {
+      "id": "P9",
+      "finding_id": "finding-50e1faf9ef4548549eff455d8605fa3f",
+      "category": "Prompt Injection",
+      "pattern": "Whitespace Padding",
+      "severity": "MEDIUM",
+      "confidence": 0.7,
+      "location": {
+        "file": "examples/capabilities/G35/campaign_oracle.py",
+        "start_line": 442,
+        "end_line": null
+      },
+      "finding": "U+0020 x106",
+      "explanation": "Large whitespace padding was detected (a block of blank lines or a long run of spaces). This can push injected instructions below or to the right of the visible area so a human reviewer never sees them while the agent still reads them. Manual review of the hidden content is recommended.",
+      "remediation": "Remove the large whitespace padding (blank-line blocks or long space runs) and review any content hidden below or to the right of it. Keep skill files compact and reviewable so no instructions can be concealed off-screen.",
+      "code_snippet": "                                                                                               'PATH', 'HOME', 'USERPROFILE', 'HOMEDRIVE', 'HOMEPATH', 'TMPDIR',\n                                                                                                          'TMP', 'TEMP', 'SystemRoot', 'SYSTEMROOT', 'SystemDrive', 'COMSPEC',\n                                                                                                          'ComSpec', 'PATHEXT', 'LANG', 'LC_ALL', 'LC_CTYPE', 'TZ',\n                                                                                                          'PYTHONUTF8', 'PYTHONIOENCODING', 'PYTHONNOUSERSITE', 'PYTHONSAFEPATH', 'GIT_CONFIG_NOSYSTEM', 'GIT_CONFIG_GLOBAL',\n                                                                                                          'GIT_CONFIG_SYSTEM', 'SSL_CERT_FILE', 'SSL_CERT_DIR', 'REQUESTS_CA_BUNDLE', 'CURL_CA_BUNDLE', 'CI',\n                                                                        ",
+      "intent": null,
+      "tags": [
+        "Prompt Injection"
+      ],
+      "evidence": {},
+      "match_fingerprint": "ef6ccd825bf3f8a2f54c415aafb941ab10ca4a7fa5f2ef276aea34be5e499618",
+      "occurrences": [
+        {
+          "file": "examples/capabilities/G35/campaign_oracle.py",
+          "start_line": 442,
+          "end_line": null
+        }
+      ]
+    },
+    {
+      "id": "P9",
+      "finding_id": "finding-0bdda35962f449cdb17fd08b19a62fd0",
+      "category": "Prompt Injection",
+      "pattern": "Whitespace Padding",
+      "severity": "MEDIUM",
+      "confidence": 0.7,
+      "location": {
+        "file": "examples/capabilities/G35/campaign_oracle.py",
+        "start_line": 443,
+        "end_line": null
+      },
+      "finding": "U+0020 x106",
+      "explanation": "Large whitespace padding was detected (a block of blank lines or a long run of spaces). This can push injected instructions below or to the right of the visible area so a human reviewer never sees them while the agent still reads them. Manual review of the hidden content is recommended.",
+      "remediation": "Remove the large whitespace padding (blank-line blocks or long space runs) and review any content hidden below or to the right of it. Keep skill files compact and reviewable so no instructions can be concealed off-screen.",
+      "code_snippet": "                                             'TMP', 'TEMP', 'SystemRoot', 'SYSTEMROOT', 'SystemDrive', 'COMSPEC',\n                                                                                                          'ComSpec', 'PATHEXT', 'LANG', 'LC_ALL', 'LC_CTYPE', 'TZ',\n                                                                                                          'PYTHONUTF8', 'PYTHONIOENCODING', 'PYTHONNOUSERSITE', 'PYTHONSAFEPATH', 'GIT_CONFIG_NOSYSTEM', 'GIT_CONFIG_GLOBAL',\n                                                                                                          'GIT_CONFIG_SYSTEM', 'SSL_CERT_FILE', 'SSL_CERT_DIR', 'REQUESTS_CA_BUNDLE', 'CURL_CA_BUNDLE', 'CI',\n                                                                                                          'GITHUB_ACTIONS',\n                                                                                                      ) if name in os.environ}, PYTHONDONTWRITEBYTECODE=\"1\", **env)))\n    ",
+      "intent": null,
+      "tags": [
+        "Prompt Injection"
+      ],
+      "evidence": {},
+      "match_fingerprint": "ef6ccd825bf3f8a2f54c415aafb941ab10ca4a7fa5f2ef276aea34be5e499618",
+      "occurrences": [
+        {
+          "file": "examples/capabilities/G35/campaign_oracle.py",
+          "start_line": 443,
+          "end_line": null
+        }
+      ]
+    },
+    {
+      "id": "P9",
+      "finding_id": "finding-a5eddf55110a4d86a58c6274acc8df64",
+      "category": "Prompt Injection",
+      "pattern": "Whitespace Padding",
+      "severity": "MEDIUM",
+      "confidence": 0.7,
+      "location": {
+        "file": "examples/capabilities/G35/campaign_oracle.py",
+        "start_line": 444,
+        "end_line": null
+      },
+      "finding": "U+0020 x106",
+      "explanation": "Large whitespace padding was detected (a block of blank lines or a long run of spaces). This can push injected instructions below or to the right of the visible area so a human reviewer never sees them while the agent still reads them. Manual review of the hidden content is recommended.",
+      "remediation": "Remove the large whitespace padding (blank-line blocks or long space runs) and review any content hidden below or to the right of it. Keep skill files compact and reviewable so no instructions can be concealed off-screen.",
+      "code_snippet": "                                                                                                          'ComSpec', 'PATHEXT', 'LANG', 'LC_ALL', 'LC_CTYPE', 'TZ',\n                                                                                                          'PYTHONUTF8', 'PYTHONIOENCODING', 'PYTHONNOUSERSITE', 'PYTHONSAFEPATH', 'GIT_CONFIG_NOSYSTEM', 'GIT_CONFIG_GLOBAL',\n                                                                                                          'GIT_CONFIG_SYSTEM', 'SSL_CERT_FILE', 'SSL_CERT_DIR', 'REQUESTS_CA_BUNDLE', 'CURL_CA_BUNDLE', 'CI',\n                                                                                                          'GITHUB_ACTIONS',\n                                                                                                      ) if name in os.environ}, PYTHONDONTWRITEBYTECODE=\"1\", **env)))\n        outs = [p.communicate(timeout=600) for p in procs]\n        rcs = [p.returncode for p in procs]",
+      "intent": null,
+      "tags": [
+        "Prompt Injection"
+      ],
+      "evidence": {},
+      "match_fingerprint": "ef6ccd825bf3f8a2f54c415aafb941ab10ca4a7fa5f2ef276aea34be5e499618",
+      "occurrences": [
+        {
+          "file": "examples/capabilities/G35/campaign_oracle.py",
+          "start_line": 444,
+          "end_line": null
+        }
+      ]
+    },
+    {
+      "id": "P9",
+      "finding_id": "finding-864a36a3f694490c8f4c84a99fd12c0e",
+      "category": "Prompt Injection",
+      "pattern": "Whitespace Padding",
+      "severity": "MEDIUM",
+      "confidence": 0.7,
+      "location": {
+        "file": "examples/capabilities/G35/campaign_oracle.py",
+        "start_line": 445,
+        "end_line": null
+      },
+      "finding": "U+0020 x102",
+      "explanation": "Large whitespace padding was detected (a block of blank lines or a long run of spaces). This can push injected instructions below or to the right of the visible area so a human reviewer never sees them while the agent still reads them. Manual review of the hidden content is recommended.",
+      "remediation": "Remove the large whitespace padding (blank-line blocks or long space runs) and review any content hidden below or to the right of it. Keep skill files compact and reviewable so no instructions can be concealed off-screen.",
+      "code_snippet": "                                                                                                          'PYTHONUTF8', 'PYTHONIOENCODING', 'PYTHONNOUSERSITE', 'PYTHONSAFEPATH', 'GIT_CONFIG_NOSYSTEM', 'GIT_CONFIG_GLOBAL',\n                                                                                                          'GIT_CONFIG_SYSTEM', 'SSL_CERT_FILE', 'SSL_CERT_DIR', 'REQUESTS_CA_BUNDLE', 'CURL_CA_BUNDLE', 'CI',\n                                                                                                          'GITHUB_ACTIONS',\n                                                                                                      ) if name in os.environ}, PYTHONDONTWRITEBYTECODE=\"1\", **env)))\n        outs = [p.communicate(timeout=600) for p in procs]\n        rcs = [p.returncode for p in procs]\n        reps = [(tmp / (\"o9-out%d\" % i) / \"report.json\").read_bytes() if (tmp / (\"o9-out%d\" % i) / \"report.json\").is_file() else b\"\" for i in range(4)]",
+      "intent": null,
+      "tags": [
+        "Prompt Injection"
+      ],
+      "evidence": {},
+      "match_fingerprint": "82eeed5d9268c20512eb2ea2a09bfa898de40ca8a594fd9e8febbb5f21b48f33",
+      "occurrences": [
+        {
+          "file": "examples/capabilities/G35/campaign_oracle.py",
+          "start_line": 445,
+          "end_line": null
+        }
+      ]
+    }
+  ],
+  "suppressed_count": 0,
+  "suppressed": [],
+  "metadata": {
+    "has_executable_scripts": true,
+    "skillspector_version": "2.13.2",
+    "llm_requested": false,
+    "llm_available": false,
+    "meta_analysis_applied": false,
+    "inference_usage": [],
+    "llm_provenance": {
+      "schema_version": 1,
+      "provider": {
+        "configured_adapter": "unknown",
+        "resolved_adapter": "unknown",
+        "effective_adapter": "not_applicable",
+        "effective_adapters": [],
+        "service": "unknown",
+        "routing": {
+          "deployment_override": null,
+          "deployment_source": "unknown",
+          "api_version": null,
+          "api_version_source": "unknown"
+        }
+      },
+      "analyzers": [
+        {
+          "analyzer_id": "mcp_tool_poisoning",
+          "model": "z-ai/glm-5.3",
+          "model_source": "resolved_configuration",
+          "analyzer_revision": {
+            "value": "2.13.2",
+            "source": "skillspector_package",
+            "source_revision": {
+              "value": "unknown",
+              "source": "unknown"
+            }
+          }
+        },
+        {
+          "analyzer_id": "semantic_developer_intent",
+          "model": "z-ai/glm-5.3",
+          "model_source": "resolved_configuration",
+          "analyzer_revision": {
+            "value": "2.13.2",
+            "source": "skillspector_package",
+            "source_revision": {
+              "value": "unknown",
+              "source": "unknown"
+            }
+          }
+        },
+        {
+          "analyzer_id": "semantic_quality_policy",
+          "model": "z-ai/glm-5.3",
+          "model_source": "resolved_configuration",
+          "analyzer_revision": {
+            "value": "2.13.2",
+            "source": "skillspector_package",
+            "source_revision": {
+              "value": "unknown",
+              "source": "unknown"
+            }
+          }
+        },
+        {
+          "analyzer_id": "semantic_security_discovery",
+          "model": "z-ai/glm-5.3",
+          "model_source": "resolved_configuration",
+          "analyzer_revision": {
+            "value": "2.13.2",
+            "source": "skillspector_package",
+            "source_revision": {
+              "value": "unknown",
+              "source": "unknown"
+            }
+          }
+        },
+        {
+          "analyzer_id": "meta_analyzer",
+          "model": "z-ai/glm-5.3",
+          "model_source": "resolved_configuration",
+          "analyzer_revision": {
+            "value": "2.13.2",
+            "source": "skillspector_package",
+            "source_revision": {
+              "value": "unknown",
+              "source": "unknown"
+            }
+          }
+        }
+      ],
+      "sampling": {
+        "temperature": {
+          "requested": null,
+          "source": "provider_default",
+          "forwarded_to_client": null,
+          "adapter_support": false,
+          "provider_support": "unknown"
+        },
+        "seed": {
+          "requested": null,
+          "source": "unset",
+          "forwarded_to_client": null,
+          "adapter_support": false,
+          "provider_support": "unknown"
+        },
+        "reasoning_effort": {
+          "requested": null,
+          "source": "provider_default",
+          "forwarded_to_client": null,
+          "adapter_support": false,
+          "provider_support": "unknown"
+        }
+      },
+      "determinism": {
+        "classification": "not_applicable",
+        "control_status": "not_applied",
+        "provider_guarantee": false,
+        "reason": "LLM analysis was not executed for this scan."
+      }
+    },
+    "filtering_mode": "heuristic"
+  },
+  "execution_successful": true,
+  "analysis_completeness": {
+    "total_components": 147,
+    "scanned_components": 147,
+    "coverage_percent": 100.0,
+    "is_complete": true,
+    "status": "complete",
+    "execution_successful": true,
+    "fully_inspected_files": 147,
+    "partially_inspected_files": 0,
+    "entirely_uninspected_files": 0,
+    "ledger_exceptions": [],
+    "scope_exclusions": [
+      {
+        "outcome": "out_of_scope",
+        "phase": "static",
+        "reason_code": "binary_content",
+        "message": "Binary content is unsupported by this analyzer.",
+        "path": "examples/capabilities/G20/rendered/screenshot-1280.png",
+        "start_line": null,
+        "end_line": null,
+        "fatal": false,
+        "analyzers": [
+          "static_patterns_agent_snooping",
+          "static_patterns_anti_refusal",
+          "static_patterns_data_exfiltration",
+          "static_patterns_deserialization",
+          "static_patterns_excessive_agency",
+          "static_patterns_harmful_content",
+          "static_patterns_memory_poisoning",
+          "static_patterns_output_handling",
+          "static_patterns_privilege_escalation",
+          "static_patterns_prompt_injection",
+          "static_patterns_rogue_agent",
+          "static_patterns_ssrf",
+          "static_patterns_supply_chain",
+          "static_patterns_system_prompt_leakage",
+          "static_patterns_tool_misuse"
+        ]
+      },
+      {
+        "outcome": "out_of_scope",
+        "phase": "static",
+        "reason_code": "binary_content",
+        "message": "Binary content is unsupported by this analyzer.",
+        "path": "examples/capabilities/G20/rendered/screenshot-320.png",
+        "start_line": null,
+        "end_line": null,
+        "fatal": false,
+        "analyzers": [
+          "static_patterns_agent_snooping",
+          "static_patterns_anti_refusal",
+          "static_patterns_data_exfiltration",
+          "static_patterns_deserialization",
+          "static_patterns_excessive_agency",
+          "static_patterns_harmful_content",
+          "static_patterns_memory_poisoning",
+          "static_patterns_output_handling",
+          "static_patterns_privilege_escalation",
+          "static_patterns_prompt_injection",
+          "static_patterns_rogue_agent",
+          "static_patterns_ssrf",
+          "static_patterns_supply_chain",
+          "static_patterns_system_prompt_leakage",
+          "static_patterns_tool_misuse"
+        ]
+      },
+      {
+        "outcome": "out_of_scope",
+        "phase": "static",
+        "reason_code": "binary_content",
+        "message": "Binary content is unsupported by this analyzer.",
+        "path": "examples/capabilities/G20/rendered/screenshot-360.png",
+        "start_line": null,
+        "end_line": null,
+        "fatal": false,
+        "analyzers": [
+          "static_patterns_agent_snooping",
+          "static_patterns_anti_refusal",
+          "static_patterns_data_exfiltration",
+          "static_patterns_deserialization",
+          "static_patterns_excessive_agency",
+          "static_patterns_harmful_content",
+          "static_patterns_memory_poisoning",
+          "static_patterns_output_handling",
+          "static_patterns_privilege_escalation",
+          "static_patterns_prompt_injection",
+          "static_patterns_rogue_agent",
+          "static_patterns_ssrf",
+          "static_patterns_supply_chain",
+          "static_patterns_system_prompt_leakage",
+          "static_patterns_tool_misuse"
+        ]
+      }
+    ],
+    "analyzer_statuses": [
+      {
+        "analyzer_id": "artifact_integrity",
+        "status": "completed",
+        "planned_work": 150,
+        "completed": 150,
+        "partial": 0,
+        "skipped": 0,
+        "failed": 0,
+        "unaccounted": 0
+      },
+      {
+        "analyzer_id": "behavioral_ast",
+        "status": "completed",
+        "planned_work": 29,
+        "completed": 29,
+        "partial": 0,
+        "skipped": 0,
+        "failed": 0,
+        "unaccounted": 0
+      },
+      {
+        "analyzer_id": "behavioral_taint_tracking",
+        "status": "completed",
+        "planned_work": 29,
+        "completed": 29,
+        "partial": 0,
+        "skipped": 0,
+        "failed": 0,
+        "unaccounted": 0
+      },
+      {
+        "analyzer_id": "bundled_execution_surface",
+        "status": "not_applicable",
+        "planned_work": 0,
+        "completed": 0,
+        "partial": 0,
+        "skipped": 0,
+        "failed": 0,
+        "unaccounted": 0,
+        "reason_code": "no_applicable_files",
+        "message": "No files matched this analyzer's applicability contract."
+      },
+      {
+        "analyzer_id": "mcp_least_privilege",
+        "status": "not_applicable",
+        "planned_work": 0,
+        "completed": 0,
+        "partial": 0,
+        "skipped": 0,
+        "failed": 0,
+        "unaccounted": 0,
+        "reason_code": "manifest_absent",
+        "message": "No compatible manifest was present for this analyzer."
+      },
+      {
+        "analyzer_id": "mcp_rug_pull",
+        "status": "completed",
+        "planned_work": 150,
+        "completed": 150,
+        "partial": 0,
+        "skipped": 0,
+        "failed": 0,
+        "unaccounted": 0
+      },
+      {
+        "analyzer_id": "mcp_tool_poisoning",
+        "status": "not_applicable",
+        "planned_work": 0,
+        "completed": 0,
+        "partial": 0,
+        "skipped": 0,
+        "failed": 0,
+        "unaccounted": 0,
+        "reason_code": "manifest_absent",
+        "message": "No compatible manifest was present for this analyzer."
+      },
+      {
+        "analyzer_id": "meta_analyzer",
+        "status": "disabled",
+        "planned_work": 0,
+        "completed": 0,
+        "partial": 0,
+        "skipped": 0,
+        "failed": 0,
+        "unaccounted": 0,
+        "reason_code": "disabled_by_configuration",
+        "message": "Analyzer was disabled by the requested configuration."
+      },
+      {
+        "analyzer_id": "semantic_developer_intent",
+        "status": "disabled",
+        "planned_work": 0,
+        "completed": 0,
+        "partial": 0,
+        "skipped": 0,
+        "failed": 0,
+        "unaccounted": 0,
+        "reason_code": "disabled_by_configuration",
+        "message": "Analyzer was disabled by the requested configuration."
+      },
+      {
+        "analyzer_id": "semantic_quality_policy",
+        "status": "disabled",
+        "planned_work": 0,
+        "completed": 0,
+        "partial": 0,
+        "skipped": 0,
+        "failed": 0,
+        "unaccounted": 0,
+        "reason_code": "disabled_by_configuration",
+        "message": "Analyzer was disabled by the requested configuration."
+      },
+      {
+        "analyzer_id": "semantic_security_discovery",
+        "status": "disabled",
+        "planned_work": 0,
+        "completed": 0,
+        "partial": 0,
+        "skipped": 0,
+        "failed": 0,
+        "unaccounted": 0,
+        "reason_code": "disabled_by_configuration",
+        "message": "Analyzer was disabled by the requested configuration."
+      },
+      {
+        "analyzer_id": "static_patterns_agent_snooping",
+        "status": "completed",
+        "planned_work": 147,
+        "completed": 147,
+        "partial": 0,
+        "skipped": 0,
+        "failed": 0,
+        "unaccounted": 0
+      },
+      {
+        "analyzer_id": "static_patterns_anti_refusal",
+        "status": "completed",
+        "planned_work": 147,
+        "completed": 147,
+        "partial": 0,
+        "skipped": 0,
+        "failed": 0,
+        "unaccounted": 0
+      },
+      {
+        "analyzer_id": "static_patterns_data_exfiltration",
+        "status": "completed",
+        "planned_work": 147,
+        "completed": 147,
+        "partial": 0,
+        "skipped": 0,
+        "failed": 0,
+        "unaccounted": 0
+      },
+      {
+        "analyzer_id": "static_patterns_deserialization",
+        "status": "completed",
+        "planned_work": 147,
+        "completed": 147,
+        "partial": 0,
+        "skipped": 0,
+        "failed": 0,
+        "unaccounted": 0
+      },
+      {
+        "analyzer_id": "static_patterns_excessive_agency",
+        "status": "completed",
+        "planned_work": 147,
+        "completed": 147,
+        "partial": 0,
+        "skipped": 0,
+        "failed": 0,
+        "unaccounted": 0
+      },
+      {
+        "analyzer_id": "static_patterns_harmful_content",
+        "status": "completed",
+        "planned_work": 147,
+        "completed": 147,
+        "partial": 0,
+        "skipped": 0,
+        "failed": 0,
+        "unaccounted": 0
+      },
+      {
+        "analyzer_id": "static_patterns_memory_poisoning",
+        "status": "completed",
+        "planned_work": 147,
+        "completed": 147,
+        "partial": 0,
+        "skipped": 0,
+        "failed": 0,
+        "unaccounted": 0
+      },
+      {
+        "analyzer_id": "static_patterns_output_handling",
+        "status": "completed",
+        "planned_work": 147,
+        "completed": 147,
+        "partial": 0,
+        "skipped": 0,
+        "failed": 0,
+        "unaccounted": 0
+      },
+      {
+        "analyzer_id": "static_patterns_privilege_escalation",
+        "status": "completed",
+        "planned_work": 147,
+        "completed": 147,
+        "partial": 0,
+        "skipped": 0,
+        "failed": 0,
+        "unaccounted": 0
+      },
+      {
+        "analyzer_id": "static_patterns_prompt_injection",
+        "status": "completed",
+        "planned_work": 147,
+        "completed": 147,
+        "partial": 0,
+        "skipped": 0,
+        "failed": 0,
+        "unaccounted": 0
+      },
+      {
+        "analyzer_id": "static_patterns_rogue_agent",
+        "status": "completed",
+        "planned_work": 147,
+        "completed": 147,
+        "partial": 0,
+        "skipped": 0,
+        "failed": 0,
+        "unaccounted": 0
+      },
+      {
+        "analyzer_id": "static_patterns_ssrf",
+        "status": "completed",
+        "planned_work": 147,
+        "completed": 147,
+        "partial": 0,
+        "skipped": 0,
+        "failed": 0,
+        "unaccounted": 0
+      },
+      {
+        "analyzer_id": "static_patterns_supply_chain",
+        "status": "completed",
+        "planned_work": 147,
+        "completed": 147,
+        "partial": 0,
+        "skipped": 0,
+        "failed": 0,
+        "unaccounted": 0
+      },
+      {
+        "analyzer_id": "static_patterns_system_prompt_leakage",
+        "status": "completed",
+        "planned_work": 147,
+        "completed": 147,
+        "partial": 0,
+        "skipped": 0,
+        "failed": 0,
+        "unaccounted": 0
+      },
+      {
+        "analyzer_id": "static_patterns_tool_misuse",
+        "status": "completed",
+        "planned_work": 147,
+        "completed": 147,
+        "partial": 0,
+        "skipped": 0,
+        "failed": 0,
+        "unaccounted": 0
+      },
+      {
+        "analyzer_id": "static_yara",
+        "status": "completed",
+        "planned_work": 150,
+        "completed": 150,
+        "partial": 0,
+        "skipped": 0,
+        "failed": 0,
+        "unaccounted": 0
+      }
+    ],
+    "references": [],
+    "limitations": [],
+    "findings_before_filtering": 44,
+    "findings_after_filtering": 44
+  }
+}
