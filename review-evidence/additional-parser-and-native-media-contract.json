@@ -5348,8 +5348,9 @@
       },
       {
         "file": "tests/test_wordpress_json_fields.py",
-        "entireModuleAstIdentical": true,
-        "literalValueSha256": "23e4fe3d82b7359f00db0e0c07f7465acc33ad0fba153edf2a864879e79b588b"
+        "literalValueSha256": "23e4fe3d82b7359f00db0e0c07f7465acc33ad0fba153edf2a864879e79b588b",
+        "intermediateRawLiteralModuleAstIdentical": true,
+        "finalClaim": "Hostile payload byte-identical; final module intentionally loads the retained fixture relative to the test module. Whole-module AST identity is not claimed."
       },
       {
         "file": "tests/test_wordpress_scrape_inputs.py",
