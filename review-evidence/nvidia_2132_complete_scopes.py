@@ -189,7 +189,7 @@ def run_raw(output, runtime, parser_bin, workers):
         for status in completeness.get('analyzer_statuses', []):
             counters = [status.get(key) for key in ('planned_work', 'completed', 'partial',
                                                    'skipped', 'failed', 'unaccounted')]
-            if not all(isinstance(value, int) and value >= 0 for value in counters):
+            if not all(type(value) is int and value >= 0 for value in counters):
                 contract_errors.append(status.get('analyzer_id'))
                 continue
             planned, completed, partial, skipped, failed, unaccounted = counters
@@ -200,7 +200,7 @@ def run_raw(output, runtime, parser_bin, workers):
             if status.get('status') == 'disabled' and status.get('analyzer_id') not in optional_llm:
                 contract_errors.append(status.get('analyzer_id'))
         metadata = parsed.get('metadata', {})
-        complete = (source_unchanged and not missing and parsed.get('execution_successful') is True
+        complete = (code in (0, 1) and source_unchanged and not missing and parsed.get('execution_successful') is True
                     and not contract_errors and metadata.get('llm_requested') is False
                     and metadata.get('skillspector_version') == SCANNER_VERSION
                     and not completeness.get('scope_exclusions')
@@ -208,7 +208,8 @@ def run_raw(output, runtime, parser_bin, workers):
                     and completeness.get('coverage_percent') == 100
                     and completeness.get('partially_inspected_files') == 0
                     and completeness.get('entirely_uninspected_files') == 0
-                    and not any(x.get('outcome') in ('partial', 'failed') for x in exceptions))
+                    and not any(x.get('outcome') in ('partial', 'failed')
+                                or x.get('reason_code') == 'output_limit' for x in exceptions))
         receipt = {'id': scope['id'], 'command': command, 'exit_code': code,
                    'wall_seconds': round(time.monotonic() - started, 3),
                    'scanner_release': SCANNER_RELEASE, 'scanner_sdist_sha256': SCANNER_SDIST_SHA256,
