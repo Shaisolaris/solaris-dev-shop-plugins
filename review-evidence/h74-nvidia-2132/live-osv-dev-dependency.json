@@ -1,0 +1,24 @@
+{
+  "atUTC": "2026-10-29T22:15:06.617356+00:00",
+  "endpoint": "https://api.osv.dev/v1/querybatch",
+  "request": {
+    "queries": [
+      {
+        "package": {
+          "ecosystem": "PyPI",
+          "name": "PyYAML"
+        },
+        "version": "6.0.3"
+      }
+    ]
+  },
+  "httpStatus": 200,
+  "response": {
+    "results": [
+      {}
+    ]
+  },
+  "sourceFile": "requirements-dev.txt",
+  "sourceSHA256": "360e653ad7f4ed00b2c8e6cc327f77fa208b26640e32d4a1968332ad425ced7e",
+  "scope": "Exact CI-only dependency; does not remove or rewrite original whole-scan connectivity notice."
+}

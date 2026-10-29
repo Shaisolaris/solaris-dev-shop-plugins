@@ -37,6 +37,6 @@
       "removed canonical license"
     ]
   },
-  "ci": "5/8 success;3stillrunning at latest readback",
+  "ci": "All8exact-headchecksSUCCESS at32f31c0; Ubuntu3.10/3.12/3.13,macOS3.12,Windows3.12,TLS,quality,manifests",
   "wholePluginCleared": false
 }
