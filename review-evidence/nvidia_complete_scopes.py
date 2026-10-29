@@ -10,6 +10,7 @@ import hashlib
 import json
 import os
 from pathlib import Path, PurePosixPath
+import re
 import shutil
 import subprocess
 import time
@@ -17,6 +18,7 @@ import zipfile
 
 SCANNER_COMMIT = 'd501c0d5035c2ed6385740a384d942bb05651fda'
 SCANNER_ZIP_SHA256 = '4b1111faf921b04dc351a55d122da112575b2ad6b34263762b5214e0de2fb257'
+SHFMT_SHA256 = 'b7c872db63553ccffc7253aba3ed7d4885a27d83f1ba567b1138c6315a5847e5'
 STRICT_FLAGS = ['--no-llm', '--format', 'json', '--fail-on-incomplete',
                 '--fail-on-findings', '--min-coverage', '100']
 
@@ -41,6 +43,10 @@ def inventory(root):
 
 
 def validate_git(candidate, repository, revision):
+    if not re.fullmatch(r'[0-9a-f]{40}', revision):
+        raise ValueError('Use the immutable full commit SHA')
+    if subprocess.check_output(['git', '-C', str(repository), 'cat-file', '-t', revision]).strip() != b'commit':
+        raise ValueError('The expected revision must be a commit')
     tree = subprocess.check_output(
         ['git', '-C', str(repository), 'ls-tree', '-rz', revision + ':harnesses/openclaw'])
     expected = {}
@@ -76,6 +82,7 @@ def verify_runtime(runtime):
     if digest(archive.read_bytes()) != SCANNER_ZIP_SHA256:
         raise ValueError('Unexpected NVIDIA source archive')
     with zipfile.ZipFile(archive) as stream:
+        expected_package = set()
         for entry in stream.infolist():
             parts = PurePosixPath(entry.filename).parts[1:]
             if not parts or entry.is_dir():
@@ -86,6 +93,13 @@ def verify_runtime(runtime):
             source = runtime / 'source' / relative
             if source.is_symlink() or source.read_bytes() != stream.read(entry):
                 raise ValueError('NVIDIA source was modified: ' + str(relative))
+            if relative.parts[:2] == ('src', 'skillspector'):
+                expected_package.add(str(relative))
+    actual_package = {path.relative_to(runtime / 'source').as_posix()
+                      for path in (runtime / 'source/src/skillspector').rglob('*')
+                      if path.is_file() and '__pycache__' not in path.parts and path.suffix != '.pyc'}
+    if actual_package != expected_package:
+        raise ValueError('Unexpected files in the NVIDIA implementation')
     scanner = runtime / 'source/.venv/bin/skillspector'
     if not scanner.is_file():
         raise ValueError('The locked NVIDIA installation is missing')
@@ -130,6 +144,8 @@ def prepare(candidate, repository, revision, output, maximum):
 
 def run_raw(output, runtime, parser_bin, workers):
     scanner = verify_runtime(runtime)
+    if digest((parser_bin / 'shfmt').read_bytes()) != SHFMT_SHA256:
+        raise ValueError('Unexpected Bash parser; this plan pins official Darwin arm64 shfmt 3.14.1')
     manifest = json.loads((output / 'partition.json').read_text())
     if (manifest['scanner_commit'], manifest['scanner_zip_sha256'], manifest['flags']) != (
             SCANNER_COMMIT, SCANNER_ZIP_SHA256, STRICT_FLAGS):
@@ -164,7 +180,25 @@ def run_raw(output, runtime, parser_bin, workers):
         paths = {entry['path'] for entry in parsed.get('components', [])}
         missing = sorted(set(scope['files']) - paths)
         exceptions = completeness.get('ledger_exceptions', [])
+        contract_errors = []
+        optional_llm = {'meta_analyzer', 'semantic_developer_intent',
+                        'semantic_security_discovery', 'semantic_quality_policy'}
+        for status in completeness.get('analyzer_statuses', []):
+            counters = [status.get(key) for key in ('planned_work', 'completed', 'partial',
+                                                   'skipped', 'failed', 'unaccounted')]
+            if not all(isinstance(value, int) and value >= 0 for value in counters):
+                contract_errors.append(status.get('analyzer_id'))
+                continue
+            planned, completed, partial, skipped, failed, unaccounted = counters
+            if planned != completed + partial + skipped + failed + unaccounted:
+                contract_errors.append(status.get('analyzer_id'))
+            if status.get('status') == 'completed' and (partial or failed or unaccounted):
+                contract_errors.append(status.get('analyzer_id'))
+            if status.get('status') == 'disabled' and status.get('analyzer_id') not in optional_llm:
+                contract_errors.append(status.get('analyzer_id'))
+        metadata = parsed.get('metadata', {})
         complete = (source_unchanged and not missing and parsed.get('execution_successful') is True
+                    and not contract_errors and metadata.get('llm_requested') is False
                     and completeness.get('is_complete') is True
                     and completeness.get('coverage_percent') == 100
                     and completeness.get('partially_inspected_files') == 0
@@ -174,16 +208,20 @@ def run_raw(output, runtime, parser_bin, workers):
                    'wall_seconds': round(time.monotonic() - started, 3),
                    'scanner_commit': SCANNER_COMMIT, 'scanner_zip_sha256': SCANNER_ZIP_SHA256,
                    'source_unchanged': source_unchanged, 'missing_physical_components': missing,
+                   'analyzer_contract_errors': contract_errors,
                    'complete_in_scope': complete, 'analysis_completeness': completeness,
                    'findings': len(parsed.get('issues', [])),
                    'report_sha256': digest(report.read_bytes()) if report.exists() else None,
-                   'model_calls': 0, 'baseline_used': False, 'clearance': False}
+                   'reported_model_calls': metadata.get('llm_calls_attempted'),
+                   'credentials_forwarded': False, 'baseline_used': False, 'clearance': False}
         receipt_path.write_text(json.dumps(receipt, indent=2) + '\n')
         return receipt
 
     with ThreadPoolExecutor(max_workers=workers) as pool:
         results = list(pool.map(run_one, manifest['scopes']))
     verify_runtime(runtime)
+    if digest((parser_bin / 'shfmt').read_bytes()) != SHFMT_SHA256:
+        raise ValueError('The Bash parser changed during the run')
     summary = {'scopes': len(results), 'complete_scopes': sum(x['complete_in_scope'] for x in results),
                'incomplete_scope_ids': [x['id'] for x in results if not x['complete_in_scope']],
                'physical_files': manifest['physical_files'], 'baseline_used': False,
