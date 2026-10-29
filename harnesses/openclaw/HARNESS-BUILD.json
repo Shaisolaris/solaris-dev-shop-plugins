@@ -1,8 +1,8 @@
 {
-  "canonical_files": 1207,
+  "canonical_files": 1213,
   "canonical_notice": "NOTICE.md",
   "coordinator": 1,
-  "core_source": "c5f58457dd92e0d4af1b19a3bfdd0761acf44877",
+  "core_source": "5efe9a59ac1b87e88010e4c97518e8bc8d1267eb",
   "files": {
     "CHANGELOG.md": {
       "executable": false,
@@ -34,7 +34,7 @@
     },
     "README.md": {
       "executable": false,
-      "sha256": "89b75db28743a879ed63f16fc3abaa244b70b26e7559624bcb2970ce6913d300"
+      "sha256": "bf26e0585d3684262c14b537f92f5862883005dd48623ac078e309d62971347f"
     },
     "ROADMAP.md": {
       "executable": false,
@@ -46,7 +46,7 @@
     },
     "SOLARIS-BUILD-SOURCE.json": {
       "executable": false,
-      "sha256": "ebd3218a50fa10a8cca48503ecfae3cfc7b1a76911a94c80db33f5d58a3c6e6f"
+      "sha256": "b0dc47a3af983925e4cf0a756a41f9fab9722df8cbd56bbdf79b927691d09713"
     },
     "SOURCE-README.md": {
       "executable": false,
@@ -186,7 +186,7 @@
     },
     "docs/employees.md": {
       "executable": false,
-      "sha256": "80a5bf2c9876584977298480ec18916dc3fa99696c69c0bfc57bd3f8c36a99eb"
+      "sha256": "05c5600e5b7fca19935c21711ef7e12d893a10b45e6f2a1e98b8009be62a1cd2"
     },
     "docs/faq.md": {
       "executable": false,
@@ -418,7 +418,7 @@
     },
     "employees/data/data-analyst/SKILL.md": {
       "executable": false,
-      "sha256": "4829e65d8a303adaf2f5a841cd045894d83e3d78b266f3fa1585d8a8eff7805b"
+      "sha256": "509283f4b0160514376651412f3d2709a559dec1994d76837b7b53951333bafd"
     },
     "employees/data/data-analyst/analyst-compute-and-reporting-stack.md": {
       "executable": false,
@@ -478,7 +478,7 @@
     },
     "employees/data/data-engineer/rules.md": {
       "executable": false,
-      "sha256": "48f778919dd56327b60cbbc0e53865a1c47bfa0971ac09e6b5cd921b73626c37"
+      "sha256": "d6c51facd4ab1ee0f504624c4f537e3ac0a9aa875a3d2f4b855153a06b60d622"
     },
     "employees/data/data-engineer/vector-embedding-pipelines-pgvector.md": {
       "executable": false,
@@ -594,19 +594,19 @@
     },
     "employees/design/ui-ux-designer/design-intelligence/data/charts.csv": {
       "executable": false,
-      "sha256": "1d20143e20eda94dbee944fb4cc77b7fa4bed5b037d7824381c14434043cd046"
+      "sha256": "9d12bf0f302e1b8a78c0cd8016830ef3f05b97a5b2923d71d7121eb2ec287a04"
     },
     "employees/design/ui-ux-designer/design-intelligence/data/colors.csv": {
       "executable": false,
       "sha256": "69ee8c1147b269599d20ca418bdd6f32563a9aa2d962fb9a9b8dec66bf7b1ba4"
     },
-    "employees/design/ui-ux-designer/design-intelligence/data/design.csv": {
+    "employees/design/ui-ux-designer/design-intelligence/data/design.md": {
       "executable": false,
-      "sha256": "8655c30cf254e1b5cee34bb009a3bfec2f64115453c28459b74d17dfa7970f2f"
+      "sha256": "36e1aeb3c98a4a64b95d546d34c32dfb87eccf4c9e556ee49e72bcd8520d96cc"
     },
-    "employees/design/ui-ux-designer/design-intelligence/data/draft.csv": {
+    "employees/design/ui-ux-designer/design-intelligence/data/draft.md": {
       "executable": false,
-      "sha256": "54a5ac03752f3d4870dd5dbb8eaae78aedf0219ab3efd1e26e0de00472f579ec"
+      "sha256": "29f81b120e3a9d9d96f78b188543ed0684a787c0b700a3f05e74b38bc6957941"
     },
     "employees/design/ui-ux-designer/design-intelligence/data/google-fonts.csv": {
       "executable": false,
@@ -622,7 +622,7 @@
     },
     "employees/design/ui-ux-designer/design-intelligence/data/products.csv": {
       "executable": false,
-      "sha256": "9fd9e776ba847cf44c1ea78f95fe5e33b2c56bb7e186e3cfff9c49bc7fcb691b"
+      "sha256": "26c521e5749ca22b7aedbca1a8d83b4cbfeaea39a769566c7bc9cdd6553ff018"
     },
     "employees/design/ui-ux-designer/design-intelligence/data/react-performance.csv": {
       "executable": false,
@@ -638,7 +638,7 @@
     },
     "employees/design/ui-ux-designer/design-intelligence/data/stacks/flutter.csv": {
       "executable": false,
-      "sha256": "fe36d404c799781e8ba6e9a8179b45799ed5126a545528550cd2eb0f2346e8c5"
+      "sha256": "0213d47115816ed1ceb0b9d412b1f556c609ffd86d22ab5ff64a868adfb6e6d9"
     },
     "employees/design/ui-ux-designer/design-intelligence/data/stacks/html-tailwind.csv": {
       "executable": false,
@@ -654,7 +654,7 @@
     },
     "employees/design/ui-ux-designer/design-intelligence/data/stacks/nextjs.csv": {
       "executable": false,
-      "sha256": "11e27c4456943d4598061b3e65d316a857896c14c5d47f3c225adf250f4fcfce"
+      "sha256": "77835587d6bd5c190ce25227f4e45f23a016a38909be02c173c94ed53e6f3c60"
     },
     "employees/design/ui-ux-designer/design-intelligence/data/stacks/nuxt-ui.csv": {
       "executable": false,
@@ -678,7 +678,7 @@
     },
     "employees/design/ui-ux-designer/design-intelligence/data/stacks/svelte.csv": {
       "executable": false,
-      "sha256": "71af52d64f266c88070b91dbbaa900c2f8074b6baae9f35eaea6ba9cec6fd803"
+      "sha256": "25e66e820415e8281e179145cae8db784bea9440743927ecd4b29cdb0e85e91b"
     },
     "employees/design/ui-ux-designer/design-intelligence/data/stacks/swiftui.csv": {
       "executable": false,
@@ -686,11 +686,11 @@
     },
     "employees/design/ui-ux-designer/design-intelligence/data/stacks/threejs.csv": {
       "executable": false,
-      "sha256": "8d1cac21fd59a53af924d8cb368330f4f17bd53e8e8b91ce8a2258c62cacb8f2"
+      "sha256": "2c3d651e23a4df65da6abcc9175478363e068b9d37318b0a1b6caa0a89741519"
     },
     "employees/design/ui-ux-designer/design-intelligence/data/stacks/vue.csv": {
       "executable": false,
-      "sha256": "1651ac6f411e77346a92c3a6eee282e28ab765da6ab06cdcae1d2f6649498010"
+      "sha256": "24f827f7cab4f62a3eb7fd5d086b7173ebf7518db3a6246ab516d676da5004be"
     },
     "employees/design/ui-ux-designer/design-intelligence/data/styles.csv": {
       "executable": false,
@@ -962,11 +962,11 @@
     },
     "employees/engineering/frontend-developer/async-search-ui.md": {
       "executable": false,
-      "sha256": "c40ba7bd0585d5389148b4ba225cf927f3bac7bffbb71bdb600ab80498f5992c"
+      "sha256": "c6e006fb096b71bc433941f58bbb97df680fd44d51ce6d54ca9dccab019d7331"
     },
     "employees/engineering/frontend-developer/async_search_core.js": {
       "executable": false,
-      "sha256": "86cacdb712f88e37fe8f01d321ae2850b6ecf04d8af12a40680cb39cfb147d41"
+      "sha256": "a2ac55c8b2f2e3bc9aa3551e9e6914162a2fd5d0a6774256fcbc22c7451bed0c"
     },
     "employees/engineering/frontend-developer/capability.contract.json": {
       "executable": false,
@@ -994,7 +994,7 @@
     },
     "employees/engineering/frontend-developer/toolchain-and-stack-patterns.md": {
       "executable": false,
-      "sha256": "56d37767ce7907486362730da0797ac25ff1af25aec7c975e80a40ffe550faa9"
+      "sha256": "574f94c0070dc7312a6b72ad48929531e73d9de50f7bd5bf595f931b0d5438eb"
     },
     "employees/engineering/frontend-developer/verification-and-tokens.md": {
       "executable": false,
@@ -1086,7 +1086,7 @@
     },
     "employees/engineering/llm-agent-designer/SKILL.md": {
       "executable": false,
-      "sha256": "bfb2318924f1454294a5804aeceb2804c5748bd2bd68934c34c6c72b399d2876"
+      "sha256": "3c53b8c67b2a5b80d847be0393c0409cdea64896b0fe07459edd2ad7552c1401"
     },
     "employees/engineering/llm-agent-designer/agent-engineering-craft.md": {
       "executable": false,
@@ -1134,7 +1134,7 @@
     },
     "employees/engineering/mobile-developer/android-architecture.md": {
       "executable": false,
-      "sha256": "c52b6297c7f641d1e11f6c67050271571d9ee530d4866c6331000b4d30a7d63b"
+      "sha256": "259fc304646ac63cfb1ccf63ceda581f49f43e82616db2195f36970507853da9"
     },
     "employees/engineering/mobile-developer/capability.contract.json": {
       "executable": false,
@@ -1266,7 +1266,7 @@
     },
     "employees/engineering/unreal-developer/unreal-cpp-quality-and-build.md": {
       "executable": false,
-      "sha256": "a37ac827df96cddfa827633734008ad2e5bc45043dec03e2b10f4c287469369a"
+      "sha256": "d8e9bd68423a24a15f4bfb6ce8bded4eae76bc75f9934357841e67f7f415502b"
     },
     "employees/engineering/unreal-developer/unreal-gameplay-patterns.md": {
       "executable": false,
@@ -1294,7 +1294,7 @@
     },
     "employees/infrastructure/cloud-architect/SKILL.md": {
       "executable": false,
-      "sha256": "d8d76dad23afb5e17b58e0162d5890480fea972a663560676841305fe631b9f1"
+      "sha256": "cdc9b77f5321b21880be41d40ad856bb11bb5c6fc48c5110a148473eb364000a"
     },
     "employees/infrastructure/cloud-architect/aws-mcp-iac-execution.md": {
       "executable": false,
@@ -1446,7 +1446,7 @@
     },
     "employees/infrastructure/kubernetes-specialist/rules.md": {
       "executable": false,
-      "sha256": "a6cf79c7c2d6a15cc964d1bf8fa6abcddff4ac270ae68a60cb0030bcfefca234"
+      "sha256": "5e4f0e33e444d9d3f80703679df66b4f81039a90f4d475fe1b080fdfe6b107ea"
     },
     "employees/infrastructure/network-engineer/SKILL.md": {
       "executable": false,
@@ -1462,7 +1462,7 @@
     },
     "employees/infrastructure/network-engineer/homelab-and-network-ops.md": {
       "executable": false,
-      "sha256": "e3ec662f888fb12f9446bb41bd98f82f914eeb36be7e9ac54ff05d8c7595c69d"
+      "sha256": "d20159ba3d2e3d48eedffb92e2ecc05efcbce939742d10a34e9960b663e20061"
     },
     "employees/infrastructure/network-engineer/learnings.md": {
       "executable": false,
@@ -1562,7 +1562,7 @@
     },
     "employees/leadership/cfo/SKILL.md": {
       "executable": false,
-      "sha256": "951ad013dcbecf246c58e910e0d1ffb51d77af1e5f7f0ca10bba9c10aed5d54d"
+      "sha256": "a4dede3e822eaba438db6230824103349796661d80108a33d805261cc0233283"
     },
     "employees/leadership/cfo/bootstrapped-cfo-lens-2026.md": {
       "executable": false,
@@ -1696,9 +1696,13 @@
       "executable": false,
       "sha256": "63f3d878b020554b108943f124541916a73c07188ffc64e4281deae470b5318e"
     },
+    "employees/legal-compliance/compliance-auditor/examples/phi-column-comment.sql": {
+      "executable": false,
+      "sha256": "68524c3f7375caca50f9788b38246fa23599b2c91b9b0b11be80845c07a9f9fa"
+    },
     "employees/legal-compliance/compliance-auditor/healthcare-dev-compliance.md": {
       "executable": false,
-      "sha256": "05901c1f38b4e3feb8ab302105ea489e9cbfb6fed90fcbf369aa9d65ef26a2ab"
+      "sha256": "25b2e9cbc88eefef9a43613a94706833abfca7e8887e53660e24a88d248579df"
     },
     "employees/legal-compliance/compliance-auditor/learnings.md": {
       "executable": false,
@@ -1714,7 +1718,7 @@
     },
     "employees/legal-compliance/compliance-auditor/privacy_inventory.py": {
       "executable": false,
-      "sha256": "6a34b7401b47e7d272e9492898da430eb4c0d8c16bb968125a86ef657d63e9a7"
+      "sha256": "cb2047d8c9bbb9ae9b346274db1ccefe209fb4a5816311764eab1b0fc9aa3e8c"
     },
     "employees/legal-compliance/compliance-auditor/probo-grc-patterns.md": {
       "executable": false,
@@ -1926,7 +1930,7 @@
     },
     "employees/marketing/seo-aso-specialist/live-search-data-tooling.md": {
       "executable": false,
-      "sha256": "4084bb2721c8e1b196e74a36c8137a1345b66b85194f21e808e0b725d233c45d"
+      "sha256": "55a76e2cc98b72200f5f50a67688356089f634f72fb4e8595aba98876b83875f"
     },
     "employees/marketing/seo-aso-specialist/page_diagnostics.py": {
       "executable": false,
@@ -2034,7 +2038,7 @@
     },
     "employees/product-project/delivery-lead/delivery_evidence.py": {
       "executable": false,
-      "sha256": "54fca8b761c2f64cc75a2a9b84884a643da104b009ed24fc5d1fc12e3189eb78"
+      "sha256": "61af4b50b0cd2f98e89e56e0a50508b2751268822b9f9aca733cdd2a95f5f09a"
     },
     "employees/product-project/delivery-lead/docling-parsing-layer.md": {
       "executable": false,
@@ -2126,7 +2130,7 @@
     },
     "employees/product-project/project-onboarding/SKILL.md": {
       "executable": false,
-      "sha256": "2d9add0377639ffc5b6e7a1f5b144299d72643661a181055db13b8442e27cc93"
+      "sha256": "48d61b111867ae37420f188870dc2037b09191bf4d328f7d683de2ef0b1dd1ef"
     },
     "employees/product-project/project-onboarding/activate.py": {
       "executable": false,
@@ -2198,7 +2202,7 @@
     },
     "employees/quality-security/code-reviewer/SKILL.md": {
       "executable": false,
-      "sha256": "a3c82734471908e111d26258eec18594045d328785cb769b0db3707ca87b87f6"
+      "sha256": "1ec9377d924699d919b12e589667a28226c58b5d700feb0611e64274c6151d6d"
     },
     "employees/quality-security/code-reviewer/capability.contract.json": {
       "executable": false,
@@ -2211,6 +2215,10 @@
     "employees/quality-security/code-reviewer/codebase-takeover-and-audit.md": {
       "executable": false,
       "sha256": "10d60d1b58b17ad02951a12bf7f05f82394888de472ce30ec2052c3a860815e3"
+    },
+    "employees/quality-security/code-reviewer/examples/review-report.md": {
+      "executable": false,
+      "sha256": "e822ff30abc6dcca61b3544d4a6b23eee391196452eda3996b694543e8b9926c"
     },
     "employees/quality-security/code-reviewer/job-two-improvement.md": {
       "executable": false,
@@ -2314,7 +2322,7 @@
     },
     "employees/quality-security/security-auditor/SKILL.md": {
       "executable": false,
-      "sha256": "1140eeef0c903274043161191cb92a954e080ffef2e28ede5f9214877f87b4e7"
+      "sha256": "1b8c00ebb64b701dee15508afa7b7c26be9e108b2b5402f6a720ae2760496022"
     },
     "employees/quality-security/security-auditor/adversarial-bounty-hunting.md": {
       "executable": false,
@@ -2686,7 +2694,7 @@
     },
     "employees/specialized/wordpress-master/diagnostics/build-mcp/SKILL.md": {
       "executable": false,
-      "sha256": "70b40236a4f3dfaa321c8e41b0eb6fc4600cb62e56c8b70a641a9252261f7424"
+      "sha256": "61f08d6177271b1e98b72356a2750a76b951ba148a9a7620890cb7f13d49ed83"
     },
     "employees/specialized/wordpress-master/diagnostics/build-modify/SKILL.md": {
       "executable": false,
@@ -2694,15 +2702,19 @@
     },
     "employees/specialized/wordpress-master/diagnostics/build-scaffold/SKILL.md": {
       "executable": false,
-      "sha256": "61607849c1e702b4389b28918b45cc2f726e35c8c15afbfdba6563b2e6a79ba2"
+      "sha256": "630a9824eb99aabb1259507f7b645dc76b91d9848ab4519a311b4e75a27ab3a4"
     },
     "employees/specialized/wordpress-master/diagnostics/build-scrape/SKILL.md": {
       "executable": false,
-      "sha256": "3f54b433f46e47fc35149a74dff112c07d2c9b6403a2d16bb0ed6343b1f232f1"
+      "sha256": "dc76010dfe5a71a2d8bda888cc7d0c89d4784f682726de1723aecef8084e64bd"
     },
     "employees/specialized/wordpress-master/diagnostics/build-scrape/scraper.js": {
       "executable": false,
       "sha256": "84edb61acba7e1305e62a263a44b3f16ed7930a268ef8070bfea3e474e8a0ef3"
+    },
+    "employees/specialized/wordpress-master/diagnostics/build-scrape/update_scrape.py": {
+      "executable": false,
+      "sha256": "7bd05dc5535f6c396d58bd6c4ba5ba60edf4040638202fe105b0b8c79557bafb"
     },
     "employees/specialized/wordpress-master/diagnostics/build-setup/SKILL.md": {
       "executable": false,
@@ -2710,11 +2722,11 @@
     },
     "employees/specialized/wordpress-master/diagnostics/build-theme/SKILL.md": {
       "executable": false,
-      "sha256": "5a6b93867464c539b75737eac4b4bec8df3fab518e8ec9a3c284427f25b26121"
+      "sha256": "51c166df2c787054fb9c5ac05aa41546ee8c747300ec23bdcec57e717b909559"
     },
     "employees/specialized/wordpress-master/diagnostics/build-visual/SKILL.md": {
       "executable": false,
-      "sha256": "08ee7de353d56ce712c693a4ccd901dbf1d1edbb401678b0c185d772f2d9913d"
+      "sha256": "d6eab973bd65f79969beafc0b1f4c48f6e96948137f69063465fccf796ab6ccb"
     },
     "employees/specialized/wordpress-master/diagnostics/build-visual/extract_design_tokens.py": {
       "executable": false,
@@ -2806,7 +2818,11 @@
     },
     "employees/specialized/wordpress-master/diagnostics/reporting/SKILL.md": {
       "executable": false,
-      "sha256": "7ae629450a2502ef42d53222214e5ab6786bd5928bc9edc1799786945019999a"
+      "sha256": "39c51bca6c7a52adaf50913a3f0609f5e94994161598e65cad02cad30f4ee159"
+    },
+    "employees/specialized/wordpress-master/diagnostics/reporting/examples/csrf-finding.md": {
+      "executable": false,
+      "sha256": "fa92f76bf64b318009f5d7643063a2af8f1c29db163d3670e63cb797d541b62e"
     },
     "employees/specialized/wordpress-master/diagnostics/scan-reviewer/SKILL.md": {
       "executable": false,
@@ -3718,7 +3734,7 @@
     },
     "examples/capabilities/G23/wp_oracle.py": {
       "executable": false,
-      "sha256": "7fad9ad020cc4f9eb104e793680fd84d37d487c6f6940ff9371b7c6bc3c1e3c5"
+      "sha256": "f025d2a5da008b015e37c546053036b38fc996401c1e7d2e3e3c375e557dc194"
     },
     "examples/capabilities/G25/README.md": {
       "executable": false,
@@ -4474,7 +4490,7 @@
     },
     "examples/capabilities/G42/plan.json": {
       "executable": false,
-      "sha256": "cae51f6ee5cb5330be7692c732f0130b27d1ee4af53bca6d45f496b72ee9669d"
+      "sha256": "9cdc80743723b9f75f20d245816ce475b1e66e2931899dd4c14c6dbe1c095e36"
     },
     "examples/escalation/README.md": {
       "executable": false,
@@ -4602,11 +4618,11 @@
     },
     "native/openclaw.mjs": {
       "executable": false,
-      "sha256": "ec496d8046dee6b82ce407f76b0861c8367c7f09df3e7ba8ed610de299a4596c"
+      "sha256": "a3cdcadb2b2ce3fd00c695f425b9c47a2791c1a9463507ae944def884b4c2011"
     },
     "native/skills.json": {
       "executable": false,
-      "sha256": "fca18ee220bc0868b72b72a5017acbb958bd802f3aea710040b569ab62781afc"
+      "sha256": "ee9c1ca1884d0ed3c563fb9b4bf961d9189aca9ba0c5a7a911099f0c1cc0fcc1"
     },
     "openclaw.plugin.json": {
       "executable": false,
@@ -4618,7 +4634,7 @@
     },
     "pyproject.toml": {
       "executable": false,
-      "sha256": "2e4dabb63199eef6897135163d3c63994c570d3e2937b9c23c770c9cb73844fc"
+      "sha256": "cca54a33dd257cd3d10789a4c57fce7d50f90244c240507ab593bbf3489d94b3"
     },
     "requirements-dev.txt": {
       "executable": false,
@@ -4706,7 +4722,7 @@
     },
     "skills/cloud-architect/SKILL.md": {
       "executable": false,
-      "sha256": "3e9208b4c2fc456b8cfa94f15405f42fa4c479db8fad368a7726b8746067d30b"
+      "sha256": "24e2bb277cf92683c0bb111b3bfe7d3cd4ca1b48b545edbc3913eb4ef25defd5"
     },
     "skills/cloud-architect/scripts/run.py": {
       "executable": true,
@@ -4778,7 +4794,7 @@
     },
     "skills/data-analyst/SKILL.md": {
       "executable": false,
-      "sha256": "89f9eeca935e7d9bc10f5c4133a56abdc040e84c51d2693541410331646e12ac"
+      "sha256": "2bb04b7cf855afd13d549337b475358ecd680f928362228a6207f1213242b14e"
     },
     "skills/data-analyst/scripts/run.py": {
       "executable": true,
@@ -5172,6 +5188,10 @@
       "executable": false,
       "sha256": "a229d41277c202abcf83635f83f52eac8dec9bd119c2d898799ae75ad5ec2b60"
     },
+    "tests/test_delivery_ledger_preflight.py": {
+      "executable": false,
+      "sha256": "248d5acbb3e225c5990be32e927b3f49bdc27b676d6f7a1338bfa66662f06a2f"
+    },
     "tests/test_explicit_runtime_setup.py": {
       "executable": false,
       "sha256": "3d2913d599d556994e7ea1becf364aeb9be158755bcfccbabf9096b8925fe12d"
@@ -5186,7 +5206,7 @@
     },
     "tests/test_g03_capability.py": {
       "executable": false,
-      "sha256": "81e8ce3db2df61bffd6baf41dcb791edd02082301e1135dbc7063245f41a60b7"
+      "sha256": "bdd0b3a695f5a1ee2a90610e32200a399292361e7bef248141313f149ad4cd53"
     },
     "tests/test_g04_capability.py": {
       "executable": false,
@@ -5322,7 +5342,7 @@
     },
     "tests/test_g42_capability.py": {
       "executable": false,
-      "sha256": "c0c31314badb2344b4bc861761bc35aa2c2a767227d7658cd33563fcccbf5dd2"
+      "sha256": "cc9bae79f900211647fef6e0b9a6784770cb1b1cbf4b94f142b7f16bb5062468"
     },
     "tests/test_intake_features.py": {
       "executable": false,
@@ -5348,6 +5368,10 @@
       "executable": false,
       "sha256": "9fc093b5e7bcfebf16518159e7699cdb5fbedaf879ccf32a2b7d9f3c5fae4b90"
     },
+    "tests/test_wordpress_scrape_inputs.py": {
+      "executable": false,
+      "sha256": "2a7f34df24c93df984062f74390ab19d0991e65de55f562e9f6651e20aa8c6b7"
+    },
     "tests/test_wordpress_target_scope.py": {
       "executable": false,
       "sha256": "c89a01a43447df04afc6ddc8bd60e6b375a4f6d88ca83c079c30be23e686b23f"
@@ -5367,7 +5391,7 @@
   },
   "host": "openclaw",
   "layout": "shared-canonical",
-  "native_source": "e02d8002d195f929e30fb5063bd04d4ed27190d6",
+  "native_source": "d3f6febc027631a987ff84795f24a9cb40b7e7d2",
   "new_employee_capabilities": 0,
   "omitted_other_provider_files": [
     ".claude-plugin/plugin.json",

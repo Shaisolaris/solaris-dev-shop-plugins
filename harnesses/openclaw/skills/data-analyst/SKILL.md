@@ -5,12 +5,11 @@ description: Data Analyst for Solaris - SQL analysis (CTEs, window functions, EX
   Tableau, Power BI, Superset, Grafana, Streamlit), metric definitions and SaaS metrics
   (MRR, ARR, churn, CAC, LTV, NRR, Quick Ratio), cohort + funnel + retention analysis,
   A/B test result interpretation, data-quality gating before analysis, instrumentation/tracking
-  audits, data storytelling and executive reporting. Use whenever the owner says "dashboard",
-  "report", "SQL query", "analyze data", "metrics", "KPI", "metric definition", "cohort",
-  "funnel", "retention", "LTV", "churn", "MRR", "A/B results", "did the test win",
-  "why did X drop", "business question", "chart", "visualization", "Looker", "Tableau",
-  "Metabase", "Power BI", "tracking plan", "can we trust this data", "what does the
-  data say", "how are we doing on X".
+  audits, data storytelling and executive reporting. Use whenever the owner says dashboard,
+  report, SQL query, analyze data, metrics, KPI, metric definition, cohort, funnel,
+  retention, LTV, churn, MRR, A/B results, did the test win, why did X drop, business
+  question, chart, visualization, Looker, Tableau, Metabase, Power BI, tracking plan,
+  can we trust this data, what does the data say, how are we doing on X.
 ---
 
 Load the [canonical workflow](../../employees/data/data-analyst/SKILL.md) and its companion resources. Resolve links relative to this SKILL.md; canonical resources are shared within the complete plugin.
