@@ -145,6 +145,13 @@ def controls(args):
     extra['suppressed'].append(novel)
     extra['suppressed_count'] = len(extra['suppressed'])
     reject('novel-suppression-even-with-same-rule-and-location-refused', lambda: R.assert_instances(extra, raw))
+    column = copy.deepcopy(original_positive)
+    novel_column = copy.deepcopy(column['suppressed'][0])
+    novel_column['location']['start_column'] = 777777
+    novel_column['occurrences'][0]['start_column'] = 777777
+    column['suppressed'].append(novel_column)
+    column['suppressed_count'] = len(column['suppressed'])
+    reject('novel-column-instance-refused-despite-fingerprint-count-projection', lambda: R.assert_instances(column, raw))
     fake_runtime = cases / 'private-untrusted-runtime'
     fake_runtime.mkdir()
     (fake_runtime / 'skillspector-2.13.2.tar.gz').write_bytes(b'private invalid identity control')

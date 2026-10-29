@@ -1,0 +1,26 @@
+Traceback (most recent call last):
+  File "/private/tmp/solaris-nvidia-remediation-20261028/review-evidence/nvidia_h74_exact_classification.py", line 256, in <module>
+    print(json.dumps(classify(args), indent=2))
+                     ^^^^^^^^^^^^^^
+  File "/private/tmp/solaris-nvidia-remediation-20261028/review-evidence/nvidia_h74_exact_classification.py", line 219, in classify
+    results = list(pool.map(run_scope, manifest['scopes']))
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/shai/.cache/codex-runtimes/codex-primary-runtime/dependencies/python/lib/python3.12/concurrent/futures/_base.py", line 619, in result_iterator
+    yield _result_or_cancel(fs.pop())
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/shai/.cache/codex-runtimes/codex-primary-runtime/dependencies/python/lib/python3.12/concurrent/futures/_base.py", line 317, in _result_or_cancel
+    return fut.result(timeout)
+           ^^^^^^^^^^^^^^^^^^^
+  File "/Users/shai/.cache/codex-runtimes/codex-primary-runtime/dependencies/python/lib/python3.12/concurrent/futures/_base.py", line 456, in result
+    return self.__get_result()
+           ^^^^^^^^^^^^^^^^^^^
+  File "/Users/shai/.cache/codex-runtimes/codex-primary-runtime/dependencies/python/lib/python3.12/concurrent/futures/_base.py", line 401, in __get_result
+    raise self._exception
+  File "/Users/shai/.cache/codex-runtimes/codex-primary-runtime/dependencies/python/lib/python3.12/concurrent/futures/thread.py", line 59, in run
+    result = self.fn(*self.args, **self.kwargs)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/private/tmp/solaris-nvidia-remediation-20261028/review-evidence/nvidia_h74_exact_classification.py", line 207, in run_scope
+    assert_classified(report, raw)
+  File "/private/tmp/solaris-nvidia-remediation-20261028/review-evidence/nvidia_h74_exact_classification.py", line 110, in assert_classified
+    raise ValueError('Active, missing or unexpected finding after classification')
+ValueError: Active, missing or unexpected finding after classification

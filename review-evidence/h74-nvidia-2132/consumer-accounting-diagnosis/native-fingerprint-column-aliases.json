@@ -1,0 +1,178 @@
+{
+  "originalRawFindings": 109,
+  "officialGeneratedFingerprints": 106,
+  "publicProjectionsIdenticalExceptColumns": 106,
+  "columnAliasGroups": [
+    [
+      {
+        "id": "PE3",
+        "finding_id": "finding-fbd962538cc3489480e1cd4b7bc211dd",
+        "category": "Privilege Escalation",
+        "pattern": "Credential Access",
+        "severity": "HIGH",
+        "confidence": 0.6,
+        "location": {
+          "file": "employees/engineering/ai-automation-engineer/mcp-and-pipeline-building.md",
+          "start_line": 118,
+          "end_line": null,
+          "start_column": 13
+        },
+        "finding": ".env ",
+        "explanation": "Code accesses credential files (SSH keys, AWS credentials, etc.). This could indicate credential theft attempts.",
+        "remediation": "Remove references to credential paths. Use environment variables or secrets managers. For docs, use placeholder paths (e.g., /path/to/config). Never load .env or token files in production code paths.",
+        "code_snippet": "- Respect robots.txt and platform ToS; prefer public APIs over scraping where one exists.\n- Rate-limit requests (sleep between calls) to avoid IP bans.\n- Deduplicate by URL before every storage write.\n- Secrets in .env + GitHub Secrets only; .env in .gitignore; ship a .env.example.\n- Set LLM maxOutputTokens high enough (2048+) for batch responses so JSON does not truncate and fail to parse.\n\n### Quality checklist before \"done\"",
+        "intent": null,
+        "tags": [
+          "Privilege Escalation"
+        ],
+        "evidence": {},
+        "match_fingerprint": "66ef81c27c03406fd9935e5fc86fc4126d7150c15b8d076fdc528d05cea7c7bf",
+        "occurrences": [
+          {
+            "file": "employees/engineering/ai-automation-engineer/mcp-and-pipeline-building.md",
+            "start_line": 118,
+            "end_line": null,
+            "start_column": 13
+          }
+        ]
+      },
+      {
+        "id": "PE3",
+        "finding_id": "finding-5a746007f65b42f286ac089bc1b509cf",
+        "category": "Privilege Escalation",
+        "pattern": "Credential Access",
+        "severity": "HIGH",
+        "confidence": 0.6,
+        "location": {
+          "file": "employees/engineering/ai-automation-engineer/mcp-and-pipeline-building.md",
+          "start_line": 118,
+          "end_line": null,
+          "start_column": 41
+        },
+        "finding": ".env ",
+        "explanation": "Code accesses credential files (SSH keys, AWS credentials, etc.). This could indicate credential theft attempts.",
+        "remediation": "Remove references to credential paths. Use environment variables or secrets managers. For docs, use placeholder paths (e.g., /path/to/config). Never load .env or token files in production code paths.",
+        "code_snippet": "- Respect robots.txt and platform ToS; prefer public APIs over scraping where one exists.\n- Rate-limit requests (sleep between calls) to avoid IP bans.\n- Deduplicate by URL before every storage write.\n- Secrets in .env + GitHub Secrets only; .env in .gitignore; ship a .env.example.\n- Set LLM maxOutputTokens high enough (2048+) for batch responses so JSON does not truncate and fail to parse.\n\n### Quality checklist before \"done\"",
+        "intent": null,
+        "tags": [
+          "Privilege Escalation"
+        ],
+        "evidence": {},
+        "match_fingerprint": "66ef81c27c03406fd9935e5fc86fc4126d7150c15b8d076fdc528d05cea7c7bf",
+        "occurrences": [
+          {
+            "file": "employees/engineering/ai-automation-engineer/mcp-and-pipeline-building.md",
+            "start_line": 118,
+            "end_line": null,
+            "start_column": 41
+          }
+        ]
+      }
+    ],
+    [
+      {
+        "id": "PE3",
+        "finding_id": "finding-fd4ac7d61f5d4481ba5f1c89c7eb61f7",
+        "category": "Privilege Escalation",
+        "pattern": "Credential Access",
+        "severity": "HIGH",
+        "confidence": 0.6,
+        "location": {
+          "file": "employees/engineering/devops-engineer/ftp-git-deploy.md",
+          "start_line": 260,
+          "end_line": null,
+          "start_column": 7
+        },
+        "finding": ".env ",
+        "explanation": "Code accesses credential files (SSH keys, AWS credentials, etc.). This could indicate credential theft attempts.",
+        "remediation": "Remove references to credential paths. Use environment variables or secrets managers. For docs, use placeholder paths (e.g., /path/to/config). Never load .env or token files in production code paths.",
+        "code_snippet": "\n**Deployed .env with credentials**\n.env with DB password, API keys pushed to repo.\n*Rule: .env NEVER goes in repo. .gitignore MUST include .env before first commit. If .env ever got committed, rotate every credential it contained.*\n\n**Public repo for client project**\nClient code in a public GitHub repo.",
+        "intent": null,
+        "tags": [
+          "Privilege Escalation"
+        ],
+        "evidence": {},
+        "match_fingerprint": "66ef81c27c03406fd9935e5fc86fc4126d7150c15b8d076fdc528d05cea7c7bf",
+        "occurrences": [
+          {
+            "file": "employees/engineering/devops-engineer/ftp-git-deploy.md",
+            "start_line": 260,
+            "end_line": null,
+            "start_column": 7
+          }
+        ]
+      },
+      {
+        "id": "PE3",
+        "finding_id": "finding-1ee32d8285c0494bb41a89f370f5d208",
+        "category": "Privilege Escalation",
+        "pattern": "Credential Access",
+        "severity": "HIGH",
+        "confidence": 0.6,
+        "location": {
+          "file": "employees/engineering/devops-engineer/ftp-git-deploy.md",
+          "start_line": 260,
+          "end_line": null,
+          "start_column": 56
+        },
+        "finding": ".env ",
+        "explanation": "Code accesses credential files (SSH keys, AWS credentials, etc.). This could indicate credential theft attempts.",
+        "remediation": "Remove references to credential paths. Use environment variables or secrets managers. For docs, use placeholder paths (e.g., /path/to/config). Never load .env or token files in production code paths.",
+        "code_snippet": "\n**Deployed .env with credentials**\n.env with DB password, API keys pushed to repo.\n*Rule: .env NEVER goes in repo. .gitignore MUST include .env before first commit. If .env ever got committed, rotate every credential it contained.*\n\n**Public repo for client project**\nClient code in a public GitHub repo.",
+        "intent": null,
+        "tags": [
+          "Privilege Escalation"
+        ],
+        "evidence": {},
+        "match_fingerprint": "66ef81c27c03406fd9935e5fc86fc4126d7150c15b8d076fdc528d05cea7c7bf",
+        "occurrences": [
+          {
+            "file": "employees/engineering/devops-engineer/ftp-git-deploy.md",
+            "start_line": 260,
+            "end_line": null,
+            "start_column": 56
+          }
+        ]
+      },
+      {
+        "id": "PE3",
+        "finding_id": "finding-88ac5eccb81349118a5144c0bba9a491",
+        "category": "Privilege Escalation",
+        "pattern": "Credential Access",
+        "severity": "HIGH",
+        "confidence": 0.6,
+        "location": {
+          "file": "employees/engineering/devops-engineer/ftp-git-deploy.md",
+          "start_line": 260,
+          "end_line": null,
+          "start_column": 85
+        },
+        "finding": ".env ",
+        "explanation": "Code accesses credential files (SSH keys, AWS credentials, etc.). This could indicate credential theft attempts.",
+        "remediation": "Remove references to credential paths. Use environment variables or secrets managers. For docs, use placeholder paths (e.g., /path/to/config). Never load .env or token files in production code paths.",
+        "code_snippet": "\n**Deployed .env with credentials**\n.env with DB password, API keys pushed to repo.\n*Rule: .env NEVER goes in repo. .gitignore MUST include .env before first commit. If .env ever got committed, rotate every credential it contained.*\n\n**Public repo for client project**\nClient code in a public GitHub repo.",
+        "intent": null,
+        "tags": [
+          "Privilege Escalation"
+        ],
+        "evidence": {},
+        "match_fingerprint": "66ef81c27c03406fd9935e5fc86fc4126d7150c15b8d076fdc528d05cea7c7bf",
+        "occurrences": [
+          {
+            "file": "employees/engineering/devops-engineer/ftp-git-deploy.md",
+            "start_line": 260,
+            "end_line": null,
+            "start_column": 85
+          }
+        ]
+      }
+    ]
+  ],
+  "vendorFingerprintSourceSHA256": "01c8d17189b36a24fc5f28d9d9e8c36acb7f3ac84ef589f18d1c490d534f5dc2",
+  "vendorReportSourceSHA256": "f714a2383ee15585e5ecfd6429f83c7b802a88a5d095410bfe0464e0f6b24f32",
+  "vendorBehavior": "finding_fingerprint v2 binds source/full content, line and full internal evidence but omits start/end columns; report deduplicates active_findings after partitioning and retains original suppressed instances.",
+  "proposedConsumerCorrection": "Fingerprint count/rule-file accounting uses only the exact column-neutral public projection; final suppressed identity matching retains every column and all other original fields. Duplicate native instances retained with exact multiplicity, never rewritten.",
+  "originalFailureRetained": true,
+  "sourceOrVendorChanged": false,
+  "noClearanceGranted": true
+}

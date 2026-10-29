@@ -1,0 +1,55 @@
+{
+  "scope": "scope-000",
+  "nativeVendorExit": 0,
+  "nativeComplete": true,
+  "coverage": 100.0,
+  "risk": {
+    "score": 0,
+    "severity": "LOW",
+    "recommendation": "SAFE",
+    "max_issue_severity": "NONE"
+  },
+  "rawUniqueReviewedFindings": 112,
+  "vendorSuppressedInstances": 114,
+  "identicalDuplicateInstances": 2,
+  "noMissingOrNewFindingIdentities": true,
+  "allOriginalFieldsAndOccurrencesCompared": true,
+  "duplicates": [
+    {
+      "finding": {
+        "category": "MCP Rug Pull",
+        "code_snippet": null,
+        "confidence": 0.7,
+        "evidence": {},
+        "explanation": "npx commands without a version suffix (e.g. @1.0.0) create a rug-pull risk if the upstream server is compromised and publishes a malicious update.",
+        "finding": null,
+        "id": "RP1",
+        "intent": null,
+        "location": {
+          "end_line": null,
+          "file": "employees/design/technical-writer/codebase-onboarding-2026.md",
+          "start_line": 14
+        },
+        "match_fingerprint": "12d1850b559f1231581d84bd11751d63936b9046245f0b40f3a683e64dd802ac",
+        "occurrences": [
+          {
+            "end_line": null,
+            "file": "employees/design/technical-writer/codebase-onboarding-2026.md",
+            "start_line": 14
+          }
+        ],
+        "pattern": null,
+        "remediation": "Pin the version: npx @scope/server@1.2.3",
+        "severity": "MEDIUM",
+        "tags": [
+          "ASI16"
+        ]
+      },
+      "rawCount": 1,
+      "suppressedCount": 3
+    }
+  ],
+  "consumerResult": "Original exact-multiset wrapper rejects the duplicate multiplicity; no clearance granted. Original vendor JSON untouched.",
+  "sourceUnchanged": true,
+  "clearance": false
+}

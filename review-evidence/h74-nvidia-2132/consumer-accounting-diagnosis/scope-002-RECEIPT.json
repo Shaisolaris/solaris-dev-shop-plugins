@@ -1,0 +1,18 @@
+{
+  "scope": "scope-002",
+  "physicalFiles": 150,
+  "exit": 0,
+  "nativeComplete": true,
+  "nativeCoverage": 100,
+  "recommendation": "SAFE",
+  "score": 0,
+  "activeFindings": 0,
+  "reviewedSuppressedFindings": 48,
+  "baselineSha256": "802935196a71d5f5e8f9263e277d14091d5b6e642e3ea3a545e37b4b555ab40f",
+  "reportSha256": "3aceb3ce228c1fa1156038f904a756262b529f6f295decd8b3b07ed29737d1c3",
+  "reviewSidecarSha256": "f0ed1e5fd15d7bcc499051a7342a86684fc17cca2e9082ad63182f7b96724971",
+  "media": {},
+  "sourceUnchanged": true,
+  "noGlobRules": true,
+  "releaseClearance": false
+}
