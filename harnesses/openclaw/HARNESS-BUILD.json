@@ -1,12 +1,12 @@
 {
-  "canonical_files": 1201,
+  "canonical_files": 1203,
   "canonical_notice": "NOTICE.md",
   "coordinator": 1,
-  "core_source": "c7c9b395795f488dd3c48122ff916970438b67e6",
+  "core_source": "dea39818dd09b2059266e44f39def0ecf6ca8151",
   "files": {
     "CHANGELOG.md": {
       "executable": false,
-      "sha256": "10ae30bce1df171bc1a99c23a6a795dff171a4bfcce07a62feb9687b344bb4ba"
+      "sha256": "2cb6542516ec10d8169dd67f31f9cb9c3219c327227ec1176e538ca54951e34b"
     },
     "CODE_OF_CONDUCT.md": {
       "executable": false,
@@ -34,7 +34,7 @@
     },
     "README.md": {
       "executable": false,
-      "sha256": "7f60822c3d69d3faa05d2219ea34a29027ed08e0ff851384854f0573fa9042de"
+      "sha256": "08554f31956a6e14a0bcd8f069fa169699b3fc9b679f69a5a189d85f55e514e2"
     },
     "ROADMAP.md": {
       "executable": false,
@@ -46,7 +46,7 @@
     },
     "SOLARIS-BUILD-SOURCE.json": {
       "executable": false,
-      "sha256": "488cc24dfbc3b3451315324e73bf980750db9ea6613183361834bea852180bd7"
+      "sha256": "92638867e493fc3b4133e46fc022009ab660f5fc405e4d27f6c4cbea27d882dc"
     },
     "SOURCE-README.md": {
       "executable": false,
@@ -2678,7 +2678,7 @@
     },
     "employees/specialized/wordpress-master/diagnostics/build-content/SKILL.md": {
       "executable": false,
-      "sha256": "06b34c85977274e413e21f4b9925b7b19ae32dfb41da560e74f974ccfb4fa1c8"
+      "sha256": "f7f1f2a94e670a4a96659127a39c835500f010adfcea05035aa4120b1a9ff9a8"
     },
     "employees/specialized/wordpress-master/diagnostics/build-git/SKILL.md": {
       "executable": false,
@@ -2686,7 +2686,7 @@
     },
     "employees/specialized/wordpress-master/diagnostics/build-mcp/SKILL.md": {
       "executable": false,
-      "sha256": "1b0ed5258684c31709358f33f8d2ffd1371f8207e4a1e29ba6f105b8c722996a"
+      "sha256": "70b40236a4f3dfaa321c8e41b0eb6fc4600cb62e56c8b70a641a9252261f7424"
     },
     "employees/specialized/wordpress-master/diagnostics/build-modify/SKILL.md": {
       "executable": false,
@@ -2694,7 +2694,7 @@
     },
     "employees/specialized/wordpress-master/diagnostics/build-scaffold/SKILL.md": {
       "executable": false,
-      "sha256": "ff6f9f0b549e26d51169b5bb49ebd701db619ed1086ac1e3f86b6956caa8d24c"
+      "sha256": "61607849c1e702b4389b28918b45cc2f726e35c8c15afbfdba6563b2e6a79ba2"
     },
     "employees/specialized/wordpress-master/diagnostics/build-scrape/SKILL.md": {
       "executable": false,
@@ -2710,11 +2710,11 @@
     },
     "employees/specialized/wordpress-master/diagnostics/build-theme/SKILL.md": {
       "executable": false,
-      "sha256": "ac5c208c1b7cd6ae4ff8a3962b16e86dadd013aa8bcfd5a0b24e2e64e7bbaa42"
+      "sha256": "5a6b93867464c539b75737eac4b4bec8df3fab518e8ec9a3c284427f25b26121"
     },
     "employees/specialized/wordpress-master/diagnostics/build-visual/SKILL.md": {
       "executable": false,
-      "sha256": "586ebe78ce5614c225de6af4a57d28f36758fea40df71b2a697958633a3a81fb"
+      "sha256": "856cf2b80fb377210631688fc9afa444181ca96e62d44fea772d3dbe047daa22"
     },
     "employees/specialized/wordpress-master/diagnostics/code-quality/SKILL.md": {
       "executable": false,
@@ -4470,7 +4470,7 @@
     },
     "examples/capabilities/G42/plan.json": {
       "executable": false,
-      "sha256": "f831848c774fd5c48b32997c0ed5f4328cf54b2703a448c0a4dc36c71f1e4fce"
+      "sha256": "a55766131e14425e81fc6ce4818d6a2b487fc7fb39f5ddb6d1d6144cf21b60c9"
     },
     "examples/escalation/README.md": {
       "executable": false,
@@ -4606,15 +4606,15 @@
     },
     "openclaw.plugin.json": {
       "executable": false,
-      "sha256": "81f390534fac23c39a6e07e21d2aa780c67538ec1ec9eed591a26ba2e3bb6d38"
+      "sha256": "4922fe52841c41d5b334cbe640b3fcf49a49461eae9919ea9c46550b9772a77c"
     },
     "package.json": {
       "executable": false,
-      "sha256": "28e15862f3110818e363ac6cdadceed6506cdbc69c5bcb13d33a15f2615d01ec"
+      "sha256": "0d3951005f76b00cd95d6372da3e67eaf43a74995556cb9ea32969bc35c5fe18"
     },
     "pyproject.toml": {
       "executable": false,
-      "sha256": "6fc4c128a2d59669c6e0d7d3288c169e4a32a4ad87d8e19ae2ce85b13c9a4bce"
+      "sha256": "2e4dabb63199eef6897135163d3c63994c570d3e2937b9c23c770c9cb73844fc"
     },
     "requirements-dev.txt": {
       "executable": false,
@@ -5310,7 +5310,7 @@
     },
     "tests/test_g42_capability.py": {
       "executable": false,
-      "sha256": "26f43de251697514679f6112fd209861b4e29c4122fdd7f1c404f58c8dc9f902"
+      "sha256": "a6d2d1d814b1b7b4406f4568d8f1c73f19e6d4f7aede8b4556e87a3ef489f519"
     },
     "tests/test_intake_features.py": {
       "executable": false,
@@ -5319,6 +5319,10 @@
     "tests/test_router.py": {
       "executable": false,
       "sha256": "de0db294e6681b92d45df2ab994506b3e8c15ec20540322e434f196dcc9db6fd"
+    },
+    "tests/test_wordpress_content_stdin.py": {
+      "executable": false,
+      "sha256": "00a75de867bf2e8379af2847d081e474e1c17cbd4f58b07e68749644b7afd512"
     },
     "tests/test_wordpress_diagnostic_shell.py": {
       "executable": false,
@@ -5331,6 +5335,10 @@
     "tests/test_wordpress_json_fields.py": {
       "executable": false,
       "sha256": "69f56c544750f7c1d7f277f72dcbc959ec4ff873a883a62e7b10e9df94490533"
+    },
+    "tests/test_wordpress_target_scope.py": {
+      "executable": false,
+      "sha256": "c89a01a43447df04afc6ddc8bd60e6b375a4f6d88ca83c079c30be23e686b23f"
     },
     "tools/build_skill_catalog.py": {
       "executable": false,
@@ -5364,5 +5372,5 @@
   },
   "reviewed_packager": "129781961be54cc2f12d6bafe80e81d6a1cd8d02",
   "specialists": 61,
-  "version": "0.69.0"
+  "version": "0.70.0"
 }

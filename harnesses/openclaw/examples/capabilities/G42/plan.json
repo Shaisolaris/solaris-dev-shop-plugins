@@ -503,6 +503,20 @@
         "tests.test_explicit_runtime_setup",
         "tests.test_g38_capability"
       ]
+    },
+    {
+      "id": "H70",
+      "commit": "b767fbbde003907e2dc155ea050ff91de63801af",
+      "note": "Complete reviewed local-scan correction candidate 471341adde7ef3cdd33e581bfd40681040e851e5 excluding only integration-owned plan/test metadata. Historical H66/H67/H68 bindings, original scope/checker and all negative controls remain. This source binding does not constitute a scanner verdict or marketplace admission.",
+      "tests": [
+        "tests.test_wordpress_target_scope",
+        "tests.test_wordpress_content_stdin",
+        "tests.test_wordpress_diagnostic_shell",
+        "tests.test_wordpress_instruction_examples",
+        "tests.test_wordpress_json_fields",
+        "tests.test_explicit_runtime_setup",
+        "tests.test_g38_capability"
+      ]
     }
   ],
   "external": [],
@@ -747,6 +761,8 @@
     "October23 owner-authorized publication/security follow-through (PR51): add only seven explicit integration paths for scoped fleet/runbook/Unreal guidance and typed WordPress data handling. G07 is extended by one scoped documentation amendment based on its original candidate, merged without rewriting history. Original 84 selected outcomes are retained; source-binding/test gates are not waived.",
     "H66 66dadbe966a9b7eb66d20d92614302014875475e binds complete source 8631e1bfcb45288194296b84e662def1c1da0bcf except only examples/capabilities/G42/plan.json and tests/test_g42_capability.py, retained under original G42 scope. Invariant tests bind all other source blobs/modes to subject and final HEAD. Original base/prerequisites/writable list/checker/13oracle controls remain unchanged; independent review is required.",
     "H67 b480fbf1e6660b8fc29cb9f520a5081e1076e583 binds the complete independently reviewed 7b55e5fb7e31c3d48733d13af73658c77f2bae81 source except only integration-owned plan/test metadata. The H66 historical invariant remains; the final-tree invariant now binds H67. Writable scope, checker logic and thirteen oracle controls are unchanged. This source amendment is not a new programme task, release or provider approval.",
-    "H68 830ebbd93f5dd846519ba33060acf91a09986fdf binds complete subject 7e45f7b8dfa3a1bb860e8eab3e404225387d5f3b except only examples/capabilities/G42/plan.json and tests/test_g42_capability.py. All older H66/H67 component invariants, original base/scope/checker and negative controls remain. This is a security amendment, not a new programme task or provider approval."
+    "H68 830ebbd93f5dd846519ba33060acf91a09986fdf binds complete subject 7e45f7b8dfa3a1bb860e8eab3e404225387d5f3b except only examples/capabilities/G42/plan.json and tests/test_g42_capability.py. All older H66/H67 component invariants, original base/scope/checker and negative controls remain. This is a security amendment, not a new programme task or provider approval.",
+    "H70 a0fe9b5a96fbc8a8210a8e11defce04076f373a3 binds complete subject b8fd9b341ab1120fada8e21e66ef4c0637a4cd7b except only examples/capabilities/G42/plan.json and tests/test_g42_capability.py. The H68 historical invariant remains unchanged; the final-tree invariant now binds H70. No scope, checker, original prerequisite or refusal control is removed.",
+    "H70 final correction component b767fbbde003907e2dc155ea050ff91de63801af binds subject 471341adde7ef3cdd33e581bfd40681040e851e5 after the same8stdin cases exposed the stockBash3.2 nested-heredoc parser failure. The earlier25dd/a0fe binding remains historical, not release evidence. Only the exact subject/component pins change; all historicalH66/H67/H68 gates remain."
   ]
 }
