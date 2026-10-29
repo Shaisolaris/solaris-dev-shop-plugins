@@ -559,6 +559,17 @@
         "tests.test_child_environment_scope",
         "tests.test_g38_capability"
       ]
+    },
+    {
+      "id": "H74",
+      "commit": "94b7ef027e5c453840b1a108550f5416822e5a14",
+      "note": "Complete source b1fcb3e62ffd80599c23cff9f9bf95be65ba6af8 excluding only integration-owned plan/test metadata. Keeps byte-exact defensive input fixtures, all original test cases and role contracts; corrects five additional parser paths. Offline wheel preflight validates the actual pinned build backend before writes; CI verifies the official84.2.1 wheel SHA256 before exercising the existing offline success test. All historical source bindings and original scope/checker/negative controls remain. Whole NVIDIA clearance is mandatory before Chrome-only ClawHub publication.",
+      "tests": [
+        "tests.test_g07_capability",
+        "tests.test_g40_capability",
+        "tests.test_wordpress_json_fields",
+        "tests.test_wordpress_scrape_inputs"
+      ]
     }
   ],
   "external": [],
@@ -808,6 +819,7 @@
     "H70 final correction component b767fbbde003907e2dc155ea050ff91de63801af binds subject 471341adde7ef3cdd33e581bfd40681040e851e5 after the same8stdin cases exposed the stockBash3.2 nested-heredoc parser failure. The earlier25dd/a0fe binding remains historical, not release evidence. Only the exact subject/component pins change; all historicalH66/H67/H68 gates remain.",
     "H71 91e71bc8864e2277d8784549e096a2dcc2c42f16 binds exact subject 6c807172676836d1b4ff6fdcd8efee67b55bc8c7 after ambient credential isolation, owned media temporaries, explicit CSS token input/private output and pinned security tools. All H70 subject/component comparisons remain historical; the full final HEAD invariant is carried forward to H71. This source binding is not NVIDIA clearance or marketplace acceptance.",
     "H72 da17acd12e0bd510291ae42484dc2f372e0d4127 binds exact subject 42177f50a3942f3868b73fad13a3d0cea9bb3097 after the deterministic ledger preflight race correction. H71 remains a historical subject/component comparison; the strict final HEAD blob and mode invariant transfers unchanged to H72. Baseline race/busy failures, candidate three-method pass and unchanged G39 54-test pass are retained. This is not NVIDIA clearance or marketplace acceptance.",
-    "H73 ee7198336748ba883c84fc3a832c8f37b29c25ac binds exact subject 9c801fc12d65ebb1b9e85ca5d07a2489a9cdc6f3 after the reviewed parser corrections and the compatible exact setuptools build pin. Every original test case ID remains; the H72 strict case now verifies its historical8c5d1e21 checkpoint while the same full HEAD blob/mode invariant transfers to H73. Stock2.13.2 inspects the41affected files completely; this is not whole-package clearance or marketplace acceptance."
+    "H73 ee7198336748ba883c84fc3a832c8f37b29c25ac binds exact subject 9c801fc12d65ebb1b9e85ca5d07a2489a9cdc6f3 after the reviewed parser corrections and the compatible exact setuptools build pin. Every original test case ID remains; the H72 strict case now verifies its historical8c5d1e21 checkpoint while the same full HEAD blob/mode invariant transfers to H73. Stock2.13.2 inspects the41affected files completely; this is not whole-package clearance or marketplace acceptance.",
+    "H74 94b7ef027e5c453840b1a108550f5416822e5a14 binds exact subject b1fcb3e62ffd80599c23cff9f9bf95be65ba6af8 after the additional parser corrections and actual offline-backend regression fix. Every prior prerequisite and test case ID is retained. The H73 strict case now verifies its immutable5efe9a59 checkpoint; the same full HEAD blob/mode equality transfers unchanged to H74. The targeted61tests pass, including offline success with the digest-verified wheel and wrong-version refusal before writes. Native incidental-media applicability follows stock NVIDIA policy, with real partials still blocked. This is not whole-plugin NVIDIA clearance or marketplace acceptance."
   ]
 }

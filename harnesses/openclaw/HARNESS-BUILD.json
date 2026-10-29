@@ -1,8 +1,8 @@
 {
-  "canonical_files": 1213,
+  "canonical_files": 1214,
   "canonical_notice": "NOTICE.md",
   "coordinator": 1,
-  "core_source": "5efe9a59ac1b87e88010e4c97518e8bc8d1267eb",
+  "core_source": "32f31c0d5c14b2cd9159a52a191d047cb7ba21ec",
   "files": {
     "CHANGELOG.md": {
       "executable": false,
@@ -34,7 +34,7 @@
     },
     "README.md": {
       "executable": false,
-      "sha256": "bf26e0585d3684262c14b537f92f5862883005dd48623ac078e309d62971347f"
+      "sha256": "4e79088c2938068fc17f3602993f532e7e4e717d69dab1b339ec44637fe327e7"
     },
     "ROADMAP.md": {
       "executable": false,
@@ -46,7 +46,7 @@
     },
     "SOLARIS-BUILD-SOURCE.json": {
       "executable": false,
-      "sha256": "b0dc47a3af983925e4cf0a756a41f9fab9722df8cbd56bbdf79b927691d09713"
+      "sha256": "d202877cb87dbe952a770658c3e0d73f1fdec57c5b962fea8d9be5ab9c514f5a"
     },
     "SOURCE-README.md": {
       "executable": false,
@@ -198,7 +198,7 @@
     },
     "docs/install.md": {
       "executable": false,
-      "sha256": "3b0f40db57cdb95e019ba698f48f1bd23e6b9c3b35a2788b72a480b9c2d9a7ad"
+      "sha256": "0653454ae0df655960921d1828eb4756cb3ea2d6f056191de2fe85773435cb25"
     },
     "docs/keyword-index.md": {
       "executable": false,
@@ -1450,7 +1450,7 @@
     },
     "employees/infrastructure/network-engineer/SKILL.md": {
       "executable": false,
-      "sha256": "e392efa8cff91236afcd6b4d1280a76d3ab3c7c9bc1b95d19f14548e506ca5b0"
+      "sha256": "46eb3ff43a478f756888955962dec58358754d106f124d42af9539ba2f7190b3"
     },
     "employees/infrastructure/network-engineer/capability.contract.json": {
       "executable": false,
@@ -2302,11 +2302,11 @@
     },
     "employees/quality-security/qa-engineer/host-portability.md": {
       "executable": false,
-      "sha256": "0659c64c2024564815d3d45203cb5304a2e1d709fd010713ae1a5d4059d8a5b1"
+      "sha256": "852e7617279e66bb3017a115bddb66b31cc76abc44b0419e8a71128096a1f49e"
     },
     "employees/quality-security/qa-engineer/host_portability.py": {
       "executable": true,
-      "sha256": "19ea2e5da5ac4bffd65887d9ccf4713cb80fafd63bedd7db882f4b340c607ed8"
+      "sha256": "17b44de6585c9d4301629c81725156051313cb9031b6e5e5c847d203a02b9282"
     },
     "employees/quality-security/qa-engineer/learnings.md": {
       "executable": false,
@@ -2366,7 +2366,7 @@
     },
     "employees/quality-security/security-auditor/rules.md": {
       "executable": false,
-      "sha256": "8b8a0056523301d136482c4cdc1595c8e964aae2e251fbee09cf64dad34e12a2"
+      "sha256": "0b9839ae4040c4b4a34ccf1211929f1cc7dde162e3652ed8ef7c23738e3a9905"
     },
     "employees/quality-security/security-auditor/scanning-stack.md": {
       "executable": false,
@@ -4450,7 +4450,7 @@
     },
     "examples/capabilities/G40/README.md": {
       "executable": false,
-      "sha256": "e668d2786c6ebdc1396b0acf96f26aa6a4d4a9fdd0147d437215ab5773a3593a"
+      "sha256": "92625adc9ac7f165c8569f9186a8743db77bc0d3cf8bcb8a37abc225fd7cd871"
     },
     "examples/capabilities/G40/naive_portability.py": {
       "executable": false,
@@ -4462,7 +4462,7 @@
     },
     "examples/capabilities/G40/portability_oracle.py": {
       "executable": false,
-      "sha256": "a469de71fc27f4ca228a44673cab3b455c85ef6838f46a873f2117e4d6669f5c"
+      "sha256": "ec0e9642c3eb6b0e0c7da5b1bc38be3f581ae948481a426eb8c98ce6f211bb69"
     },
     "examples/capabilities/G41/README.md": {
       "executable": false,
@@ -4490,7 +4490,7 @@
     },
     "examples/capabilities/G42/plan.json": {
       "executable": false,
-      "sha256": "9cdc80743723b9f75f20d245816ce475b1e66e2931899dd4c14c6dbe1c095e36"
+      "sha256": "6f04f8b23a12166e64e294eddbc9190f53a935766f510eda5233127f3afb2ea1"
     },
     "examples/escalation/README.md": {
       "executable": false,
@@ -5166,7 +5166,7 @@
     },
     "source-config/.github/workflows/ci.yml": {
       "executable": false,
-      "sha256": "d6bb103e1feee8d9ae41f39aa59cbf749f1101e695789b522dcea752a79197a4"
+      "sha256": "d66b062d62492ea0b43b5ff570a2ff5c26cd588265c93793afd4ef8370886827"
     },
     "source-config/.github/workflows/try-router.yml": {
       "executable": false,
@@ -5175,6 +5175,10 @@
     "tests/fixtures/subprocess-environment-scope.json": {
       "executable": false,
       "sha256": "1748d3acc38d97bed43ebadf3e1105f51feccbac742b7ad5ef167338dc4ac0de"
+    },
+    "tests/fixtures/wordpress-new-value-injection.txt": {
+      "executable": false,
+      "sha256": "23e4fe3d82b7359f00db0e0c07f7465acc33ad0fba153edf2a864879e79b588b"
     },
     "tests/test_assurance_packets.py": {
       "executable": false,
@@ -5218,7 +5222,7 @@
     },
     "tests/test_g07_capability.py": {
       "executable": false,
-      "sha256": "d583854a5120fb4824f475ce960b7ebfddf132694f7b6cf0997d23fae0f1f07f"
+      "sha256": "0cf54866ba99a53a0b012d14e1c864740cb1c50b6efb4a076220e3f82979713c"
     },
     "tests/test_g08_capability.py": {
       "executable": false,
@@ -5334,7 +5338,7 @@
     },
     "tests/test_g40_capability.py": {
       "executable": false,
-      "sha256": "e6a18308ab67d54b91e907d86555a6df7c038180ae92a5c61b24d6a0623465d2"
+      "sha256": "0a281d860bef521fdaefb9fedfafa02ea97e3b6b141ac3f7bbdc462bb55e3bf0"
     },
     "tests/test_g41_capability.py": {
       "executable": false,
@@ -5342,7 +5346,7 @@
     },
     "tests/test_g42_capability.py": {
       "executable": false,
-      "sha256": "cc9bae79f900211647fef6e0b9a6784770cb1b1cbf4b94f142b7f16bb5062468"
+      "sha256": "4c45f33c78b2db630422673b8a7e968c34228ecbb2b326c6c56fbba77b3a168e"
     },
     "tests/test_intake_features.py": {
       "executable": false,
@@ -5366,11 +5370,11 @@
     },
     "tests/test_wordpress_json_fields.py": {
       "executable": false,
-      "sha256": "9fc093b5e7bcfebf16518159e7699cdb5fbedaf879ccf32a2b7d9f3c5fae4b90"
+      "sha256": "2375d6068f0614ffd6aae695371a3ab35217d39534d30de371d543fa47fd1978"
     },
     "tests/test_wordpress_scrape_inputs.py": {
       "executable": false,
-      "sha256": "2a7f34df24c93df984062f74390ab19d0991e65de55f562e9f6651e20aa8c6b7"
+      "sha256": "32c03e44011f08640bb65b66c3d861eec0ed7306e86fed117add71fc157a5e1a"
     },
     "tests/test_wordpress_target_scope.py": {
       "executable": false,
