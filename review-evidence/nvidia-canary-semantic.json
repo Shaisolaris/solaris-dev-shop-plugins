@@ -1,0 +1,657 @@
+{
+  "sourceCore": "8c5d1e21b8f4568e73cb58f81ff7ca27ca0d867f",
+  "sourceFile": "tests/test_child_environment_scope.py",
+  "sourceSha256": "5dbf413e731f2f14f338e3f743ebbf0eb26b14b6a6121dc9894aa7a1ee4e3b81",
+  "vendorCommit": "d501c0d5035c2ed6385740a384d942bb05651fda",
+  "semanticReportSha256": "dfd722dd6ef8c7fdc7605cd0461e88a4a4c95c2b1d8079508d9edcf1f031f2b2",
+  "fullBundleCleared": false,
+  "baselineUsed": false,
+  "fileScopeComplete": true,
+  "report": {
+    "skill": {
+      "name": "unknown",
+      "source": "/tmp/skillspector_kfycdwv6",
+      "scanned_at": "2026-10-29T18:29:10.194456+00:00"
+    },
+    "risk_assessment": {
+      "score": 100,
+      "severity": "CRITICAL",
+      "recommendation": "DO_NOT_INSTALL",
+      "max_issue_severity": "CRITICAL"
+    },
+    "components": [
+      {
+        "path": "test_child_environment_scope.py",
+        "type": "python",
+        "lines": 104,
+        "executable": true,
+        "size_bytes": 6528,
+        "source_url": null,
+        "source_identity": null,
+        "source_digest": null
+      }
+    ],
+    "structured_summaries": [],
+    "issues": [
+      {
+        "id": "AST8",
+        "finding_id": "finding-94b9ef58fa9d42dfa8cc9f5a70b00916",
+        "category": "Dangerous Code Execution",
+        "pattern": "Dangerous chain: eval() wrapping compile",
+        "severity": "CRITICAL",
+        "confidence": 0.95,
+        "location": {
+          "file": "test_child_environment_scope.py",
+          "start_line": 55,
+          "end_line": 56,
+          "start_column": 29,
+          "end_column": 90
+        },
+        "finding": "eval(compile(ast.Expression(expression), name, 'eval'),\n                                  {'os': fake_os, '_os': fake_os, '__builtins__': {}}, {})",
+        "explanation": "A dangerous execution chain combines code execution (exec/eval) with a dynamic source (network, encoded data, dynamic import), creating a high-confidence attack vector.",
+        "remediation": "Remove the execution chain entirely. Never pass network data, decoded bytes, or dynamically imported code to exec()/eval(). Use structured data formats instead.",
+        "code_snippet": "                    # No product function, import, command, or real environment runs.\n                    for call in (n for n in ast.walk(expression) if isinstance(n, ast.Call)):\n                        self.assertIn(ast.unparse(call.func), ('os.environ.items', '_os.environ.items'))\n                    result = eval(compile(ast.Expression(expression), name, 'eval'),\n                                  {'os': fake_os, '_os': fake_os, '__builtins__': {}}, {})\n                    for key in ('PATH', 'HOME', 'TMPDIR', 'SystemRoot'):\n                        self.assertEqual(result.get(key), synthetic[key])",
+        "intent": null,
+        "tags": [
+          "Dangerous Code Execution",
+          "llm-unconfirmed"
+        ],
+        "evidence": {
+          "llm_review_outcome": "disagreed",
+          "llm_review_confidence": 0.95
+        },
+        "match_fingerprint": "14731ea2a77f54cf75b8f99e1022a89be286e21b546625495c22347bc75ff79b",
+        "occurrences": [
+          {
+            "file": "test_child_environment_scope.py",
+            "start_line": 55,
+            "end_line": 56,
+            "start_column": 29,
+            "end_column": 90
+          }
+        ]
+      },
+      {
+        "id": "AST2",
+        "finding_id": "finding-eb96dd50d5d1452191a3f01cfb3221ad",
+        "category": "Dangerous Code Execution",
+        "pattern": "eval() call detected",
+        "severity": "HIGH",
+        "confidence": 0.85,
+        "location": {
+          "file": "test_child_environment_scope.py",
+          "start_line": 55,
+          "end_line": 56,
+          "start_column": 29,
+          "end_column": 90
+        },
+        "finding": "eval(compile(ast.Expression(expression), name, 'eval'),\n                                  {'os': fake_os, '_os': fake_os, '__builtins__': {}}, {})",
+        "explanation": "Direct eval() call evaluates arbitrary expressions. This can be exploited to execute malicious code or exfiltrate data.",
+        "remediation": "Replace eval() with ast.literal_eval() for data parsing, or use explicit parsing logic. Never evaluate untrusted strings.",
+        "code_snippet": "                    # No product function, import, command, or real environment runs.\n                    for call in (n for n in ast.walk(expression) if isinstance(n, ast.Call)):\n                        self.assertIn(ast.unparse(call.func), ('os.environ.items', '_os.environ.items'))\n                    result = eval(compile(ast.Expression(expression), name, 'eval'),\n                                  {'os': fake_os, '_os': fake_os, '__builtins__': {}}, {})\n                    for key in ('PATH', 'HOME', 'TMPDIR', 'SystemRoot'):\n                        self.assertEqual(result.get(key), synthetic[key])",
+        "intent": null,
+        "tags": [
+          "Dangerous Code Execution",
+          "llm-unconfirmed"
+        ],
+        "evidence": {
+          "llm_review_outcome": "disagreed",
+          "llm_review_confidence": 0.95
+        },
+        "match_fingerprint": "843e763c971c5559b5afef72c7040e9d86285d7481803a2b3c488ed408c56dd5",
+        "occurrences": [
+          {
+            "file": "test_child_environment_scope.py",
+            "start_line": 55,
+            "end_line": 56,
+            "start_column": 29,
+            "end_column": 90
+          }
+        ]
+      },
+      {
+        "id": "AST6",
+        "finding_id": "finding-f5ce8fa3f38643a8960a9dd5c6719234",
+        "category": "Dangerous Code Execution",
+        "pattern": "compile() call detected",
+        "severity": "MEDIUM",
+        "confidence": 0.65,
+        "location": {
+          "file": "test_child_environment_scope.py",
+          "start_line": 55,
+          "end_line": 55,
+          "start_column": 34,
+          "end_column": 83
+        },
+        "finding": "compile(ast.Expression(expression), name, 'eval')",
+        "explanation": "compile() creates code objects from strings. When combined with exec()/eval(), it enables obfuscated code execution.",
+        "remediation": "Avoid compile() with dynamic strings. If code generation is needed, use templates or AST manipulation with strict validation.",
+        "code_snippet": "                    # No product function, import, command, or real environment runs.\n                    for call in (n for n in ast.walk(expression) if isinstance(n, ast.Call)):\n                        self.assertIn(ast.unparse(call.func), ('os.environ.items', '_os.environ.items'))\n                    result = eval(compile(ast.Expression(expression), name, 'eval'),\n                                  {'os': fake_os, '_os': fake_os, '__builtins__': {}}, {})\n                    for key in ('PATH', 'HOME', 'TMPDIR', 'SystemRoot'):\n                        self.assertEqual(result.get(key), synthetic[key])",
+        "intent": null,
+        "tags": [
+          "Dangerous Code Execution",
+          "llm-unconfirmed"
+        ],
+        "evidence": {
+          "llm_review_outcome": "disagreed",
+          "llm_review_confidence": 0.95
+        },
+        "match_fingerprint": "c35aa76a505e7ead19ef60e769cb5076cd4de12de5a84884953bf0eafd2c8302",
+        "occurrences": [
+          {
+            "file": "test_child_environment_scope.py",
+            "start_line": 55,
+            "end_line": 55,
+            "start_column": 34,
+            "end_column": 83
+          }
+        ]
+      },
+      {
+        "id": "AST4",
+        "finding_id": "finding-8e0209466c15444da2e5db3ccdf9c46f",
+        "category": "Dangerous Code Execution",
+        "pattern": "subprocess module call",
+        "severity": "MEDIUM",
+        "confidence": 0.7,
+        "location": {
+          "file": "test_child_environment_scope.py",
+          "start_line": 90,
+          "end_line": 93,
+          "start_column": 29,
+          "end_column": 99
+        },
+        "finding": "subprocess.run(\n                        [shutil.which('bash') or '/bin/bash', '--noprofile', '--norc'],\n                        input='set -eu\\ntrap \\'touch \"$OUTER_TRAP\"\\' EXIT\\n' + block + '\\n',\n   ",
+        "explanation": "subprocess module calls execute external commands. Without careful input validation, this enables command injection.",
+        "remediation": "Use subprocess.run() with shell=False and an explicit argument list. Validate all inputs and avoid passing user-controlled data to commands.",
+        "code_snippet": "                                   'OUTPUT': str(workspace / 'output.mp4'),\n                                   'CONCAT_CAPTURE': str(capture), 'FAKE_FFMPEG_EXIT': str(exit_code),\n                                   'OUTER_TRAP': str(outer)}\n                    result = subprocess.run(\n                        [shutil.which('bash') or '/bin/bash', '--noprofile', '--norc'],\n                        input='set -eu\\ntrap \\'touch \"$OUTER_TRAP\"\\' EXIT\\n' + block + '\\n',\n                        text=True, capture_output=True, cwd=workspace, env=environment, timeout=10)",
+        "intent": null,
+        "tags": [
+          "Dangerous Code Execution",
+          "llm-unconfirmed"
+        ],
+        "evidence": {
+          "llm_review_outcome": "disagreed",
+          "llm_review_confidence": 0.9
+        },
+        "match_fingerprint": "9c0c3540d329977bb7add720da9bf93f89c92fa9fdabf0f0bfb9ea99a8ecfd6d",
+        "occurrences": [
+          {
+            "file": "test_child_environment_scope.py",
+            "start_line": 90,
+            "end_line": 93,
+            "start_column": 29,
+            "end_column": 99
+          }
+        ]
+      }
+    ],
+    "suppressed_count": 0,
+    "suppressed": [],
+    "metadata": {
+      "has_executable_scripts": true,
+      "skillspector_version": "2.12.0",
+      "llm_requested": true,
+      "llm_available": true,
+      "meta_analysis_applied": true,
+      "inference_usage": [
+        {
+          "node": "semantic_developer_intent",
+          "request_kind": "structured_output",
+          "provider": "nv_build",
+          "model": "nvidia/nemotron-3-ultra-550b-a55b",
+          "model_source": "requested_model",
+          "usage_source": "provider_response",
+          "prompt_tokens": 3004,
+          "completion_tokens": 1274,
+          "total_tokens": 4278
+        },
+        {
+          "node": "semantic_quality_policy",
+          "request_kind": "structured_output",
+          "provider": "nv_build",
+          "model": "nvidia/nemotron-3-ultra-550b-a55b",
+          "model_source": "requested_model",
+          "usage_source": "provider_response",
+          "prompt_tokens": 3385,
+          "completion_tokens": 657,
+          "total_tokens": 4042
+        },
+        {
+          "node": "semantic_security_discovery",
+          "request_kind": "structured_output",
+          "provider": "nv_build",
+          "model": "nvidia/nemotron-3-ultra-550b-a55b",
+          "model_source": "requested_model",
+          "usage_source": "provider_response",
+          "prompt_tokens": 2632,
+          "completion_tokens": 364,
+          "total_tokens": 2996
+        },
+        {
+          "node": "meta_analyzer",
+          "request_kind": "structured_output",
+          "provider": "nv_build",
+          "model": "nvidia/nemotron-3-ultra-550b-a55b",
+          "model_source": "requested_model",
+          "usage_source": "provider_response",
+          "prompt_tokens": 2807,
+          "completion_tokens": 1966,
+          "total_tokens": 4773
+        }
+      ],
+      "llm_provenance": {
+        "schema_version": 1,
+        "provider": {
+          "configured_adapter": "nv_build",
+          "resolved_adapter": "nv_build",
+          "effective_adapter": "nv_build",
+          "effective_adapters": [
+            "nv_build"
+          ],
+          "service": "unknown",
+          "routing": {
+            "deployment_override": null,
+            "deployment_source": "not_applicable",
+            "api_version": null,
+            "api_version_source": "not_applicable"
+          }
+        },
+        "analyzers": [
+          {
+            "analyzer_id": "mcp_tool_poisoning",
+            "model": "nvidia/nemotron-3-ultra-550b-a55b",
+            "model_source": "resolved_configuration",
+            "analyzer_revision": {
+              "value": "2.12.0",
+              "source": "skillspector_package",
+              "source_revision": {
+                "value": "unknown",
+                "source": "unknown"
+              }
+            }
+          },
+          {
+            "analyzer_id": "semantic_developer_intent",
+            "model": "nvidia/nemotron-3-ultra-550b-a55b",
+            "model_source": "resolved_configuration",
+            "analyzer_revision": {
+              "value": "2.12.0",
+              "source": "skillspector_package",
+              "source_revision": {
+                "value": "unknown",
+                "source": "unknown"
+              }
+            }
+          },
+          {
+            "analyzer_id": "semantic_quality_policy",
+            "model": "nvidia/nemotron-3-ultra-550b-a55b",
+            "model_source": "resolved_configuration",
+            "analyzer_revision": {
+              "value": "2.12.0",
+              "source": "skillspector_package",
+              "source_revision": {
+                "value": "unknown",
+                "source": "unknown"
+              }
+            }
+          },
+          {
+            "analyzer_id": "semantic_security_discovery",
+            "model": "nvidia/nemotron-3-ultra-550b-a55b",
+            "model_source": "resolved_configuration",
+            "analyzer_revision": {
+              "value": "2.12.0",
+              "source": "skillspector_package",
+              "source_revision": {
+                "value": "unknown",
+                "source": "unknown"
+              }
+            }
+          },
+          {
+            "analyzer_id": "meta_analyzer",
+            "model": "nvidia/nemotron-3-ultra-550b-a55b",
+            "model_source": "resolved_configuration",
+            "analyzer_revision": {
+              "value": "2.12.0",
+              "source": "skillspector_package",
+              "source_revision": {
+                "value": "unknown",
+                "source": "unknown"
+              }
+            }
+          }
+        ],
+        "sampling": {
+          "temperature": {
+            "requested": null,
+            "source": "provider_default",
+            "forwarded_to_client": null,
+            "adapter_support": true,
+            "provider_support": "unknown"
+          },
+          "seed": {
+            "requested": null,
+            "source": "unset",
+            "forwarded_to_client": null,
+            "adapter_support": true,
+            "provider_support": "unknown"
+          },
+          "reasoning_effort": {
+            "requested": null,
+            "source": "provider_default",
+            "forwarded_to_client": null,
+            "adapter_support": true,
+            "provider_support": "unknown"
+          }
+        },
+        "determinism": {
+          "classification": "nondeterministic",
+          "control_status": "provider_defaults",
+          "provider_guarantee": false,
+          "reason": "Optional controls do not guarantee identical provider output."
+        }
+      },
+      "llm_calls_attempted": 4,
+      "llm_calls_succeeded": 4
+    },
+    "execution_successful": true,
+    "analysis_completeness": {
+      "total_components": 1,
+      "scanned_components": 1,
+      "coverage_percent": 100.0,
+      "is_complete": true,
+      "status": "complete",
+      "execution_successful": true,
+      "fully_inspected_files": 1,
+      "partially_inspected_files": 0,
+      "entirely_uninspected_files": 0,
+      "ledger_exceptions": [],
+      "scope_exclusions": [],
+      "analyzer_statuses": [
+        {
+          "analyzer_id": "artifact_integrity",
+          "status": "completed",
+          "planned_work": 1,
+          "completed": 1,
+          "partial": 0,
+          "skipped": 0,
+          "failed": 0,
+          "unaccounted": 0
+        },
+        {
+          "analyzer_id": "behavioral_ast",
+          "status": "completed",
+          "planned_work": 1,
+          "completed": 1,
+          "partial": 0,
+          "skipped": 0,
+          "failed": 0,
+          "unaccounted": 0
+        },
+        {
+          "analyzer_id": "behavioral_taint_tracking",
+          "status": "completed",
+          "planned_work": 1,
+          "completed": 1,
+          "partial": 0,
+          "skipped": 0,
+          "failed": 0,
+          "unaccounted": 0
+        },
+        {
+          "analyzer_id": "bundled_execution_surface",
+          "status": "not_applicable",
+          "planned_work": 0,
+          "completed": 0,
+          "partial": 0,
+          "skipped": 0,
+          "failed": 0,
+          "unaccounted": 0,
+          "reason_code": "no_applicable_files",
+          "message": "No files matched this analyzer's applicability contract."
+        },
+        {
+          "analyzer_id": "mcp_least_privilege",
+          "status": "not_applicable",
+          "planned_work": 0,
+          "completed": 0,
+          "partial": 0,
+          "skipped": 0,
+          "failed": 0,
+          "unaccounted": 0,
+          "reason_code": "manifest_absent",
+          "message": "No compatible manifest was present for this analyzer."
+        },
+        {
+          "analyzer_id": "mcp_rug_pull",
+          "status": "completed",
+          "planned_work": 1,
+          "completed": 1,
+          "partial": 0,
+          "skipped": 0,
+          "failed": 0,
+          "unaccounted": 0
+        },
+        {
+          "analyzer_id": "mcp_tool_poisoning",
+          "status": "not_applicable",
+          "planned_work": 0,
+          "completed": 0,
+          "partial": 0,
+          "skipped": 0,
+          "failed": 0,
+          "unaccounted": 0,
+          "reason_code": "manifest_absent",
+          "message": "No compatible manifest was present for this analyzer."
+        },
+        {
+          "analyzer_id": "meta_analyzer",
+          "status": "completed",
+          "planned_work": 1,
+          "completed": 1,
+          "partial": 0,
+          "skipped": 0,
+          "failed": 0,
+          "unaccounted": 0
+        },
+        {
+          "analyzer_id": "semantic_developer_intent",
+          "status": "completed",
+          "planned_work": 1,
+          "completed": 1,
+          "partial": 0,
+          "skipped": 0,
+          "failed": 0,
+          "unaccounted": 0
+        },
+        {
+          "analyzer_id": "semantic_quality_policy",
+          "status": "completed",
+          "planned_work": 1,
+          "completed": 1,
+          "partial": 0,
+          "skipped": 0,
+          "failed": 0,
+          "unaccounted": 0
+        },
+        {
+          "analyzer_id": "semantic_security_discovery",
+          "status": "completed",
+          "planned_work": 1,
+          "completed": 1,
+          "partial": 0,
+          "skipped": 0,
+          "failed": 0,
+          "unaccounted": 0
+        },
+        {
+          "analyzer_id": "static_patterns_agent_snooping",
+          "status": "completed",
+          "planned_work": 1,
+          "completed": 1,
+          "partial": 0,
+          "skipped": 0,
+          "failed": 0,
+          "unaccounted": 0
+        },
+        {
+          "analyzer_id": "static_patterns_anti_refusal",
+          "status": "completed",
+          "planned_work": 1,
+          "completed": 1,
+          "partial": 0,
+          "skipped": 0,
+          "failed": 0,
+          "unaccounted": 0
+        },
+        {
+          "analyzer_id": "static_patterns_data_exfiltration",
+          "status": "completed",
+          "planned_work": 1,
+          "completed": 1,
+          "partial": 0,
+          "skipped": 0,
+          "failed": 0,
+          "unaccounted": 0
+        },
+        {
+          "analyzer_id": "static_patterns_deserialization",
+          "status": "completed",
+          "planned_work": 1,
+          "completed": 1,
+          "partial": 0,
+          "skipped": 0,
+          "failed": 0,
+          "unaccounted": 0
+        },
+        {
+          "analyzer_id": "static_patterns_excessive_agency",
+          "status": "completed",
+          "planned_work": 1,
+          "completed": 1,
+          "partial": 0,
+          "skipped": 0,
+          "failed": 0,
+          "unaccounted": 0
+        },
+        {
+          "analyzer_id": "static_patterns_harmful_content",
+          "status": "completed",
+          "planned_work": 1,
+          "completed": 1,
+          "partial": 0,
+          "skipped": 0,
+          "failed": 0,
+          "unaccounted": 0
+        },
+        {
+          "analyzer_id": "static_patterns_memory_poisoning",
+          "status": "completed",
+          "planned_work": 1,
+          "completed": 1,
+          "partial": 0,
+          "skipped": 0,
+          "failed": 0,
+          "unaccounted": 0
+        },
+        {
+          "analyzer_id": "static_patterns_output_handling",
+          "status": "completed",
+          "planned_work": 1,
+          "completed": 1,
+          "partial": 0,
+          "skipped": 0,
+          "failed": 0,
+          "unaccounted": 0
+        },
+        {
+          "analyzer_id": "static_patterns_privilege_escalation",
+          "status": "completed",
+          "planned_work": 1,
+          "completed": 1,
+          "partial": 0,
+          "skipped": 0,
+          "failed": 0,
+          "unaccounted": 0
+        },
+        {
+          "analyzer_id": "static_patterns_prompt_injection",
+          "status": "completed",
+          "planned_work": 1,
+          "completed": 1,
+          "partial": 0,
+          "skipped": 0,
+          "failed": 0,
+          "unaccounted": 0
+        },
+        {
+          "analyzer_id": "static_patterns_rogue_agent",
+          "status": "completed",
+          "planned_work": 1,
+          "completed": 1,
+          "partial": 0,
+          "skipped": 0,
+          "failed": 0,
+          "unaccounted": 0
+        },
+        {
+          "analyzer_id": "static_patterns_ssrf",
+          "status": "completed",
+          "planned_work": 1,
+          "completed": 1,
+          "partial": 0,
+          "skipped": 0,
+          "failed": 0,
+          "unaccounted": 0
+        },
+        {
+          "analyzer_id": "static_patterns_supply_chain",
+          "status": "completed",
+          "planned_work": 1,
+          "completed": 1,
+          "partial": 0,
+          "skipped": 0,
+          "failed": 0,
+          "unaccounted": 0
+        },
+        {
+          "analyzer_id": "static_patterns_system_prompt_leakage",
+          "status": "completed",
+          "planned_work": 1,
+          "completed": 1,
+          "partial": 0,
+          "skipped": 0,
+          "failed": 0,
+          "unaccounted": 0
+        },
+        {
+          "analyzer_id": "static_patterns_tool_misuse",
+          "status": "completed",
+          "planned_work": 1,
+          "completed": 1,
+          "partial": 0,
+          "skipped": 0,
+          "failed": 0,
+          "unaccounted": 0
+        },
+        {
+          "analyzer_id": "static_yara",
+          "status": "completed",
+          "planned_work": 1,
+          "completed": 1,
+          "partial": 0,
+          "skipped": 0,
+          "failed": 0,
+          "unaccounted": 0
+        }
+      ],
+      "references": [],
+      "limitations": [],
+      "findings_before_filtering": 4,
+      "findings_after_filtering": 4
+    }
+  }
+}
