@@ -14,7 +14,12 @@ import nvidia_h74_reconcile_classified_instances as R
 
 
 def controls(args):
-    summary = C.read(args.classified / 'CLASSIFIED-SUMMARY.json')
+    summary = C.read(args.proof)
+    aliases = C.read(args.aliases)
+    if (summary.get('sourceRevision') != C.REVISION or summary.get('aliasManifestSHA256') != C.sha(args.aliases)
+            or C.sha(args.aliases) != R.ALIAS_MANIFEST_SHA256
+            or summary.get('classifiedEvidenceRoot') != str(args.classified)):
+        raise ValueError('Classification proof or exact alias identity changed')
     if (summary.get('completeSafeScopes'), summary.get('exactPhysicalFilesCovered'),
             summary.get('reviewedFindingsClassified')) != (9, 1348, 846):
         raise ValueError('All exact complete classified scans must precede controls')
@@ -134,24 +139,36 @@ def controls(args):
         mutate(changed)
         reject(label, lambda: C.assert_complete(changed, source, scope['files']))
     original_positive = C.read(args.classified / 'scope-008/classified-report.json')
+    R.assert_instances(original_positive, raw, aliases, args.candidate)
     missing = copy.deepcopy(original_positive)
     removed = C.issue_identity(missing['suppressed'][0])
     missing['suppressed'] = [x for x in missing['suppressed'] if C.issue_identity(x) != removed]
     missing['suppressed_count'] = len(missing['suppressed'])
-    reject('missing-reviewed-suppression-refused', lambda: R.assert_instances(missing, raw))
+    reject('missing-reviewed-suppression-refused', lambda: R.assert_instances(missing, raw, aliases, args.candidate))
     extra = copy.deepcopy(original_positive)
     novel = copy.deepcopy(extra['suppressed'][0])
     novel['finding'] = 'PRIVATE-UNREVIEWED-IDENTITY-CONTROL'
     extra['suppressed'].append(novel)
     extra['suppressed_count'] = len(extra['suppressed'])
-    reject('novel-suppression-even-with-same-rule-and-location-refused', lambda: R.assert_instances(extra, raw))
+    reject('novel-suppression-even-with-same-rule-and-location-refused', lambda: R.assert_instances(extra, raw, aliases, args.candidate))
     column = copy.deepcopy(original_positive)
     novel_column = copy.deepcopy(column['suppressed'][0])
     novel_column['location']['start_column'] = 777777
     novel_column['occurrences'][0]['start_column'] = 777777
     column['suppressed'].append(novel_column)
     column['suppressed_count'] = len(column['suppressed'])
-    reject('novel-column-instance-refused-despite-fingerprint-count-projection', lambda: R.assert_instances(column, raw))
+    reject('novel-column-instance-refused-despite-fingerprint-count-projection', lambda: R.assert_instances(column, raw, aliases, args.candidate))
+    witness = next(iter(aliases['aliases'].values()))
+    alias_positive = C.read(args.classified / witness['scope'] / 'classified-report.json')
+    alias_raw = C.read(args.scopes / 'scopes' / witness['scope'] / 'raw-report.json')
+    R.assert_instances(alias_positive, alias_raw, aliases, args.candidate)
+    variant = copy.deepcopy(alias_positive)
+    exact_key = next(iter(aliases['aliases']))
+    for instance in variant['suppressed']:
+        if C.review_key(instance) == exact_key:
+            instance['finding'] += ' '
+    reject('unlisted-ast-equivalent-display-variant-refused',
+           lambda: R.assert_instances(variant, alias_raw, aliases, args.candidate))
     fake_runtime = cases / 'private-untrusted-runtime'
     fake_runtime.mkdir()
     (fake_runtime / 'skillspector-2.13.2.tar.gz').write_bytes(b'private invalid identity control')
@@ -188,7 +205,7 @@ def controls(args):
 
 if __name__ == '__main__':
     parser = argparse.ArgumentParser(description=__doc__)
-    for name in ('scopes', 'review', 'candidate', 'runtime', 'parser-bin', 'classified', 'output'):
+    for name in ('scopes', 'review', 'candidate', 'runtime', 'parser-bin', 'classified', 'proof', 'aliases', 'output'):
         parser.add_argument('--' + name, type=Path, required=True)
     args = parser.parse_args()
     for name in vars(args):
