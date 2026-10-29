@@ -1,0 +1,374 @@
+{
+  "coreSubject": "b1fcb3e62ffd80599c23cff9f9bf95be65ba6af8",
+  "review": "MUSE-ADDITIONAL-SOURCE-MEDIA-SCOPE.txt",
+  "tests": {
+    "runs": [
+      {
+        "label": "BASELINE-H73-WHEEL-PREFLIGHT",
+        "exit": 1,
+        "expectedExit": 1,
+        "seconds": 0.816,
+        "logSha256": "d510288d184368b47d636f44f0282163cebb0defc5d735f0fe648bcbe3e74d84",
+        "command": [
+          "/Users/shai/Documents/ChatGPT/Marketing/Operations/Solaris-DevShop-seven-day-20261018/root-takeover-20261021/clawhub-069/qa-venv/bin/python",
+          "-B",
+          "-m",
+          "unittest",
+          "tests.test_g40_capability.G40Direct.test_wheelhouse_with_a_different_backend_version_is_refused_before_writes",
+          "-v"
+        ]
+      },
+      {
+        "label": "CANDIDATE-ADDITIONAL-TARGETED",
+        "exit": 0,
+        "expectedExit": 0,
+        "seconds": 43.665,
+        "logSha256": "dfb199c4a8e51b039f38f9449a11c9017fa0cd066e8bcc92d48ce1a783eaaf5f",
+        "command": [
+          "/Users/shai/Documents/ChatGPT/Marketing/Operations/Solaris-DevShop-seven-day-20261018/root-takeover-20261021/clawhub-069/qa-venv/bin/python",
+          "-B",
+          "-m",
+          "unittest",
+          "tests.test_g40_capability",
+          "tests.test_g07_capability",
+          "tests.test_wordpress_json_fields",
+          "tests.test_wordpress_scrape_inputs",
+          "-v"
+        ]
+      }
+    ],
+    "review": "MUSE-ADDITIONAL-SOURCE-MEDIA-SCOPE.txt",
+    "core": "b1fcb3e62ffd80599c23cff9f9bf95be65ba6af8",
+    "wholePluginCleared": false
+  },
+  "media": {
+    "vendorPolicy": "Stock 2.13.2 docs/scan-completeness.md incidental-media rows; no partial status is overridden.",
+    "nativeCompleteReportsOnly": true,
+    "vendorReportBytesChanged": false,
+    "images": {
+      "assets/demo.gif": {
+        "sha256": "bbe9af7d242c77129d35dfef2ffc2cce7e39c8a9daf731796269236e0550e532",
+        "bytes": 137853,
+        "format": "GIF",
+        "size": [
+          760,
+          480
+        ],
+        "framesDecoded": 33,
+        "sourceBytesUnchanged": true,
+        "nonExecutable": true,
+        "imageBlocks": 33
+      },
+      "assets/icon.png": {
+        "sha256": "68c9c3e204c69be62be039bd83d55a5030890b585b1c5df65bf9cd29c6c5d5ec",
+        "bytes": 510148,
+        "format": "PNG",
+        "size": [
+          1254,
+          1254
+        ],
+        "framesDecoded": 1,
+        "sourceBytesUnchanged": true,
+        "nonExecutable": true,
+        "chunks": [
+          "IHDR",
+          "IDAT",
+          "IEND"
+        ]
+      },
+      "assets/native-plugin-icon.png": {
+        "sha256": "293fd397b99ca61af1dc9a47b60635722e4290c7417f6bfe390cb4e1c88cf8a9",
+        "bytes": 685519,
+        "format": "PNG",
+        "size": [
+          1254,
+          1254
+        ],
+        "framesDecoded": 1,
+        "sourceBytesUnchanged": true,
+        "nonExecutable": true,
+        "chunks": [
+          "IHDR",
+          "caBX",
+          "IDAT",
+          "IEND"
+        ]
+      },
+      "assets/social-preview.png": {
+        "sha256": "2478ce031cd8f75617303cdf60bdf226343dc55f97f7102ebc454e19664265ec",
+        "bytes": 868693,
+        "format": "PNG",
+        "size": [
+          1600,
+          1200
+        ],
+        "framesDecoded": 1,
+        "sourceBytesUnchanged": true,
+        "nonExecutable": true,
+        "chunks": [
+          "IHDR",
+          "pHYs",
+          "sRGB",
+          "gAMA",
+          "tEXt",
+          "IDAT",
+          "IEND"
+        ]
+      },
+      "assets/walkthrough-preview.png": {
+        "sha256": "3628161cc5109d1cf6837de3c5a65e401fb2bb8b6f9d6afbce2fbee48b44e821",
+        "bytes": 168800,
+        "format": "PNG",
+        "size": [
+          2560,
+          1440
+        ],
+        "framesDecoded": 1,
+        "sourceBytesUnchanged": true,
+        "nonExecutable": true,
+        "chunks": [
+          "IHDR",
+          "iCCP",
+          "IDAT",
+          "IDAT",
+          "IDAT",
+          "IDAT",
+          "IDAT",
+          "IDAT",
+          "IDAT",
+          "IDAT",
+          "IDAT",
+          "IDAT",
+          "IDAT",
+          "IDAT",
+          "IDAT",
+          "IDAT",
+          "IDAT",
+          "IDAT",
+          "IDAT",
+          "IDAT",
+          "IDAT",
+          "IDAT",
+          "IDAT",
+          "IDAT",
+          "IDAT",
+          "IDAT",
+          "IDAT",
+          "IDAT",
+          "IDAT",
+          "IDAT",
+          "IDAT",
+          "IDAT",
+          "IDAT",
+          "IDAT",
+          "IDAT",
+          "IDAT",
+          "IDAT",
+          "IDAT",
+          "IDAT",
+          "IDAT",
+          "IDAT",
+          "IDAT",
+          "IDAT",
+          "IDAT",
+          "IDAT",
+          "IEND"
+        ]
+      },
+      "examples/capabilities/G20/rendered/screenshot-1280.png": {
+        "sha256": "2a5f7602c9b8f9edc3c6324ab8888eb67055afc818743fe3b5c29b1c67671a4b",
+        "bytes": 58070,
+        "format": "PNG",
+        "size": [
+          1280,
+          800
+        ],
+        "framesDecoded": 1,
+        "sourceBytesUnchanged": true,
+        "nonExecutable": true,
+        "chunks": [
+          "IHDR",
+          "IDAT",
+          "IDAT",
+          "IDAT",
+          "IDAT",
+          "IDAT",
+          "IDAT",
+          "IDAT",
+          "IDAT",
+          "IDAT",
+          "IDAT",
+          "IDAT",
+          "IDAT",
+          "IDAT",
+          "IDAT",
+          "IDAT",
+          "IDAT",
+          "IEND"
+        ]
+      },
+      "examples/capabilities/G20/rendered/screenshot-320.png": {
+        "sha256": "f988c347e3a5c5118f2a4147d6f8d4b5d483d8534d239e49f09e03101dedf8fc",
+        "bytes": 46817,
+        "format": "PNG",
+        "size": [
+          320,
+          800
+        ],
+        "framesDecoded": 1,
+        "sourceBytesUnchanged": true,
+        "nonExecutable": true,
+        "chunks": [
+          "IHDR",
+          "IDAT",
+          "IDAT",
+          "IDAT",
+          "IDAT",
+          "IDAT",
+          "IDAT",
+          "IDAT",
+          "IDAT",
+          "IDAT",
+          "IDAT",
+          "IDAT",
+          "IDAT",
+          "IDAT",
+          "IEND"
+        ]
+      },
+      "examples/capabilities/G20/rendered/screenshot-360.png": {
+        "sha256": "c100322d28b111c1356483dd2ca349db78cc398d571229a4760363f9c652d846",
+        "bytes": 51963,
+        "format": "PNG",
+        "size": [
+          360,
+          800
+        ],
+        "framesDecoded": 1,
+        "sourceBytesUnchanged": true,
+        "nonExecutable": true,
+        "chunks": [
+          "IHDR",
+          "IDAT",
+          "IDAT",
+          "IDAT",
+          "IDAT",
+          "IDAT",
+          "IDAT",
+          "IDAT",
+          "IDAT",
+          "IDAT",
+          "IDAT",
+          "IDAT",
+          "IDAT",
+          "IDAT",
+          "IDAT",
+          "IEND"
+        ]
+      }
+    },
+    "mediaNegativeControlsPassed": [
+      "trailing-bytes-.png",
+      "trailing-bytes-.gif",
+      "misleading-image-suffix",
+      "executable-image-mode",
+      "symlink-image",
+      "native-partial-stays-blocked",
+      "real-ledger-gap-stays-blocked",
+      "explicit-source-exclusion-stays-blocked",
+      "missing-binary-yara-stays-blocked"
+    ],
+    "nvidiaSourceChanged": false,
+    "wholePluginCleared": false
+  },
+  "fidelity": {
+    "base": "8c5d1e21b8f4568e73cb58f81ff7ca27ca0d867f",
+    "tables": [
+      {
+        "table": "charts.csv",
+        "rowsIncludingHeader": 26,
+        "allOtherCellsAndRowWidthsIdentical": true,
+        "reviewedCellChanges": []
+      },
+      {
+        "table": "products.csv",
+        "rowsIncludingHeader": 162,
+        "allOtherCellsAndRowWidthsIdentical": true,
+        "reviewedCellChanges": []
+      },
+      {
+        "table": "stacks/flutter.csv",
+        "rowsIncludingHeader": 53,
+        "allOtherCellsAndRowWidthsIdentical": true,
+        "reviewedCellChanges": []
+      },
+      {
+        "table": "stacks/nextjs.csv",
+        "rowsIncludingHeader": 53,
+        "allOtherCellsAndRowWidthsIdentical": true,
+        "reviewedCellChanges": [
+          {
+            "row": 30,
+            "column": 4,
+            "before": "Export GET POST PUT DELETE",
+            "after": "Provide named GET, POST, PUT and DELETE HTTP handlers."
+          }
+        ]
+      },
+      {
+        "table": "stacks/svelte.csv",
+        "rowsIncludingHeader": 54,
+        "allOtherCellsAndRowWidthsIdentical": true,
+        "reviewedCellChanges": [
+          {
+            "row": 38,
+            "column": 7,
+            "before": "{items.map(i => `<div>${i}</div>`)}",
+            "after": "{items.map(i => \"<div>\".concat(i, \"</div>\"))}"
+          }
+        ]
+      },
+      {
+        "table": "stacks/threejs.csv",
+        "rowsIncludingHeader": 54,
+        "allOtherCellsAndRowWidthsIdentical": true,
+        "reviewedCellChanges": []
+      },
+      {
+        "table": "stacks/vue.csv",
+        "rowsIncludingHeader": 50,
+        "allOtherCellsAndRowWidthsIdentical": true,
+        "reviewedCellChanges": []
+      },
+      {
+        "reference": "design",
+        "allOtherContentByteIdentical": true
+      },
+      {
+        "reference": "draft",
+        "allOtherContentByteIdentical": true
+      }
+    ],
+    "allCapabilityContractsUnchanged": 62,
+    "originalDeclaredTestMethodsRetained": 984,
+    "originalG03AssertionsUnchanged": true,
+    "tableNegativeControlsPassed": true,
+    "sourceOrWorkflowCodeExecuted": false,
+    "nvidiaClearance": false
+  },
+  "h74": {
+    "subject": "b1fcb3e62ffd80599c23cff9f9bf95be65ba6af8",
+    "component": "94b7ef027e5c453840b1a108550f5416822e5a14",
+    "final": "32f31c0d5c14b2cd9159a52a191d047cb7ba21ec",
+    "integrationOwnedFilesOnly": [
+      "examples/capabilities/G42/plan.json",
+      "tests/test_g42_capability.py"
+    ],
+    "historicalPrerequisitesUnchanged": 38,
+    "newStrictCase": "Plan.test_h74_binds_every_current_source_blob_and_mode",
+    "expectedTests": 993,
+    "canonicalFilesExpected": 1214,
+    "wholePluginCleared": false
+  },
+  "wholePluginCleared": false
+}
