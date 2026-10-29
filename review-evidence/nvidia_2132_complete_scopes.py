@@ -9,6 +9,7 @@ Reports and the partition manifest remain outside every scanned input.
 import argparse
 from concurrent.futures import ThreadPoolExecutor
 import hashlib
+import importlib.util
 import json
 import os
 from pathlib import Path, PurePosixPath
@@ -149,6 +150,10 @@ def run_raw(output, runtime, parser_bin, workers):
     scanner = verify_runtime(runtime)
     if digest((parser_bin / 'shfmt').read_bytes()) != SHFMT_SHA256:
         raise ValueError('Unexpected Bash parser; this plan pins official Darwin arm64 shfmt 3.14.1')
+    media_path = Path(__file__).resolve().parents[1] / 'tools/validate_incidental_media.py'
+    media_spec = importlib.util.spec_from_file_location('native_media_validation', media_path)
+    media = importlib.util.module_from_spec(media_spec)
+    media_spec.loader.exec_module(media)
     manifest = json.loads((output / 'partition.json').read_text())
     if (manifest['scanner_release'], manifest['scanner_sdist_sha256'], manifest['flags']) != (
             SCANNER_RELEASE, SCANNER_SDIST_SHA256, STRICT_FLAGS):
@@ -200,10 +205,16 @@ def run_raw(output, runtime, parser_bin, workers):
             if status.get('status') == 'disabled' and status.get('analyzer_id') not in optional_llm:
                 contract_errors.append(status.get('analyzer_id'))
         metadata = parsed.get('metadata', {})
+        media_errors = []
+        validated_media = {}
+        try:
+            validated_media = media.native_media_contract(parsed, root, scope['files'])
+        except (OSError, ValueError) as error:
+            media_errors.append(str(error))
         complete = (code in (0, 1) and source_unchanged and not missing and parsed.get('execution_successful') is True
                     and not contract_errors and metadata.get('llm_requested') is False
                     and metadata.get('skillspector_version') == SCANNER_VERSION
-                    and not completeness.get('scope_exclusions')
+                    and not media_errors
                     and completeness.get('is_complete') is True
                     and completeness.get('coverage_percent') == 100
                     and completeness.get('partially_inspected_files') == 0
@@ -215,6 +226,8 @@ def run_raw(output, runtime, parser_bin, workers):
                    'scanner_release': SCANNER_RELEASE, 'scanner_sdist_sha256': SCANNER_SDIST_SHA256,
                    'source_unchanged': source_unchanged, 'missing_physical_components': missing,
                    'analyzer_contract_errors': contract_errors,
+                   'native_media_contract_errors': media_errors,
+                   'native_incidental_media_validation': validated_media,
                    'complete_in_scope': complete, 'analysis_completeness': completeness,
                    'findings': len(parsed.get('issues', [])),
                    'report_sha256': digest(report.read_bytes()) if report.exists() else None,
