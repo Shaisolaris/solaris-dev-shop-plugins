@@ -1,0 +1,37 @@
+[
+  {
+    "label": "generate",
+    "command": [
+      "/private/tmp/solaris-skillspector-2132-20261029/skillspector-2.13.2/.venv/bin/skillspector",
+      "baseline",
+      "/Users/shai/Desktop/Agent Marketplace/outputs/01a144ce-dc4c-79d0-a375-2637bd01b9ff/harness-publication-20261028/parser-corrections-20261029/nvidia-2132-h74-scopes/scopes/scope-006/input",
+      "--no-llm",
+      "--output",
+      "/Users/shai/Desktop/Agent Marketplace/outputs/01a144ce-dc4c-79d0-a375-2637bd01b9ff/harness-publication-20261028/parser-corrections-20261029/nvidia-2132-h74-classified/scope-006/official-baseline.json",
+      "--reason",
+      "Exact contextual false positives individually reviewed in sidecar SHA256 f0ed1e5fd15d7bcc499051a7342a86684fc17cca2e9082ad63182f7b96724971; source 1b3212f0ba9fc58f7675877be9cf0ea0d8283ee8; original findings c35a55549005cedd65827c88e1aec775a0c579dd. Reasons and source hashes are recorded per review key. No new findings or coverage gaps accepted."
+    ],
+    "exit": 0,
+    "seconds": 23.788
+  },
+  {
+    "label": "classified",
+    "command": [
+      "/private/tmp/solaris-skillspector-2132-20261029/skillspector-2.13.2/.venv/bin/skillspector",
+      "scan",
+      "/Users/shai/Desktop/Agent Marketplace/outputs/01a144ce-dc4c-79d0-a375-2637bd01b9ff/harness-publication-20261028/parser-corrections-20261029/nvidia-2132-h74-scopes/scopes/scope-006/input",
+      "--output",
+      "/Users/shai/Desktop/Agent Marketplace/outputs/01a144ce-dc4c-79d0-a375-2637bd01b9ff/harness-publication-20261028/parser-corrections-20261029/nvidia-2132-h74-classified/scope-006/classified-report.json",
+      "--baseline",
+      "/Users/shai/Desktop/Agent Marketplace/outputs/01a144ce-dc4c-79d0-a375-2637bd01b9ff/harness-publication-20261028/parser-corrections-20261029/nvidia-2132-h74-classified/scope-006/official-baseline.json",
+      "--show-suppressed",
+      "--no-llm",
+      "--format",
+      "json",
+      "--fail-on-incomplete",
+      "--fail-on-findings"
+    ],
+    "exit": 0,
+    "seconds": 21.276
+  }
+]

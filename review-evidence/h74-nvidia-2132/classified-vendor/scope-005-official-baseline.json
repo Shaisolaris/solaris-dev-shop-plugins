@@ -1,0 +1,193 @@
+{
+  "version": 2,
+  "scanner_version": "2.13.2",
+  "rules": [],
+  "fingerprints": [
+    {
+      "hash": "sha256:3190ac353774fcb3f52b6ef713cc192088dc1a594b7765b9f72beb6eaf2377ed",
+      "rule_id": "AST4",
+      "file": "examples/capabilities/G07/registry_oracle.py",
+      "reason": "Exact contextual false positives individually reviewed in sidecar SHA256 f0ed1e5fd15d7bcc499051a7342a86684fc17cca2e9082ad63182f7b96724971; source 1b3212f0ba9fc58f7675877be9cf0ea0d8283ee8; original findings c35a55549005cedd65827c88e1aec775a0c579dd. Reasons and source hashes are recorded per review key. No new findings or coverage gaps accepted."
+    },
+    {
+      "hash": "sha256:7fd5569b4560bc93b05a392ed774e09a1dec394e06355ea6ccc68da3b1f3ea28",
+      "rule_id": "AST4",
+      "file": "examples/capabilities/G07/registry_oracle.py",
+      "reason": "Exact contextual false positives individually reviewed in sidecar SHA256 f0ed1e5fd15d7bcc499051a7342a86684fc17cca2e9082ad63182f7b96724971; source 1b3212f0ba9fc58f7675877be9cf0ea0d8283ee8; original findings c35a55549005cedd65827c88e1aec775a0c579dd. Reasons and source hashes are recorded per review key. No new findings or coverage gaps accepted."
+    },
+    {
+      "hash": "sha256:b650ade359f363f79b5d6e03c6f30a0e611433a4ae6ac6b2e768cfc1475554ea",
+      "rule_id": "AST4",
+      "file": "examples/capabilities/G07/registry_oracle.py",
+      "reason": "Exact contextual false positives individually reviewed in sidecar SHA256 f0ed1e5fd15d7bcc499051a7342a86684fc17cca2e9082ad63182f7b96724971; source 1b3212f0ba9fc58f7675877be9cf0ea0d8283ee8; original findings c35a55549005cedd65827c88e1aec775a0c579dd. Reasons and source hashes are recorded per review key. No new findings or coverage gaps accepted."
+    },
+    {
+      "hash": "sha256:dce5a7e6c54afeb3b341b6e0186a741c904d7a75d98fbb6a059cd358924e527d",
+      "rule_id": "AST4",
+      "file": "examples/capabilities/G07/registry_oracle.py",
+      "reason": "Exact contextual false positives individually reviewed in sidecar SHA256 f0ed1e5fd15d7bcc499051a7342a86684fc17cca2e9082ad63182f7b96724971; source 1b3212f0ba9fc58f7675877be9cf0ea0d8283ee8; original findings c35a55549005cedd65827c88e1aec775a0c579dd. Reasons and source hashes are recorded per review key. No new findings or coverage gaps accepted."
+    },
+    {
+      "hash": "sha256:7a538aa8321cbc370d0394273f762c00831e07ccb749bdc329f4db52b3251f11",
+      "rule_id": "AST4",
+      "file": "examples/capabilities/G08/deploy_oracle.py",
+      "reason": "Exact contextual false positives individually reviewed in sidecar SHA256 f0ed1e5fd15d7bcc499051a7342a86684fc17cca2e9082ad63182f7b96724971; source 1b3212f0ba9fc58f7675877be9cf0ea0d8283ee8; original findings c35a55549005cedd65827c88e1aec775a0c579dd. Reasons and source hashes are recorded per review key. No new findings or coverage gaps accepted."
+    },
+    {
+      "hash": "sha256:cca3bcf6164a7d2bd314ae2c8021590363ab479feeeb6803097feb013ce2a96b",
+      "rule_id": "AST4",
+      "file": "examples/capabilities/G08/deploy_oracle.py",
+      "reason": "Exact contextual false positives individually reviewed in sidecar SHA256 f0ed1e5fd15d7bcc499051a7342a86684fc17cca2e9082ad63182f7b96724971; source 1b3212f0ba9fc58f7675877be9cf0ea0d8283ee8; original findings c35a55549005cedd65827c88e1aec775a0c579dd. Reasons and source hashes are recorded per review key. No new findings or coverage gaps accepted."
+    },
+    {
+      "hash": "sha256:2b5ecb3469962c73000e7a1f1e069d87050f9a45c9d15993367dfe126baff903",
+      "rule_id": "AST4",
+      "file": "examples/capabilities/G09/k8s_oracle.py",
+      "reason": "Exact contextual false positives individually reviewed in sidecar SHA256 f0ed1e5fd15d7bcc499051a7342a86684fc17cca2e9082ad63182f7b96724971; source 1b3212f0ba9fc58f7675877be9cf0ea0d8283ee8; original findings c35a55549005cedd65827c88e1aec775a0c579dd. Reasons and source hashes are recorded per review key. No new findings or coverage gaps accepted."
+    },
+    {
+      "hash": "sha256:6be6fffe4f667db98bccca7c74263b44285ae2a021e9b5d7486073d3af6d8954",
+      "rule_id": "AST4",
+      "file": "examples/capabilities/G10/diagnosis_oracle.py",
+      "reason": "Exact contextual false positives individually reviewed in sidecar SHA256 f0ed1e5fd15d7bcc499051a7342a86684fc17cca2e9082ad63182f7b96724971; source 1b3212f0ba9fc58f7675877be9cf0ea0d8283ee8; original findings c35a55549005cedd65827c88e1aec775a0c579dd. Reasons and source hashes are recorded per review key. No new findings or coverage gaps accepted."
+    },
+    {
+      "hash": "sha256:5218b10317cdaaef32b4306ef03544d921cb2dc3ef389135140fdabab12eb913",
+      "rule_id": "AST4",
+      "file": "examples/capabilities/G10/diagnosis_oracle.py",
+      "reason": "Exact contextual false positives individually reviewed in sidecar SHA256 f0ed1e5fd15d7bcc499051a7342a86684fc17cca2e9082ad63182f7b96724971; source 1b3212f0ba9fc58f7675877be9cf0ea0d8283ee8; original findings c35a55549005cedd65827c88e1aec775a0c579dd. Reasons and source hashes are recorded per review key. No new findings or coverage gaps accepted."
+    },
+    {
+      "hash": "sha256:022f31b1d1e51b8240409908fb56481469e204e0bcfc02bf19d4eaff982dbe10",
+      "rule_id": "AST4",
+      "file": "examples/capabilities/G10/diagnosis_oracle.py",
+      "reason": "Exact contextual false positives individually reviewed in sidecar SHA256 f0ed1e5fd15d7bcc499051a7342a86684fc17cca2e9082ad63182f7b96724971; source 1b3212f0ba9fc58f7675877be9cf0ea0d8283ee8; original findings c35a55549005cedd65827c88e1aec775a0c579dd. Reasons and source hashes are recorded per review key. No new findings or coverage gaps accepted."
+    },
+    {
+      "hash": "sha256:cb9fcaab4cc5aa9d6ce293fcfcbcb0ba813fba999858b5d1096b80c0b6d7d684",
+      "rule_id": "AST4",
+      "file": "examples/capabilities/G11/incident_oracle.py",
+      "reason": "Exact contextual false positives individually reviewed in sidecar SHA256 f0ed1e5fd15d7bcc499051a7342a86684fc17cca2e9082ad63182f7b96724971; source 1b3212f0ba9fc58f7675877be9cf0ea0d8283ee8; original findings c35a55549005cedd65827c88e1aec775a0c579dd. Reasons and source hashes are recorded per review key. No new findings or coverage gaps accepted."
+    },
+    {
+      "hash": "sha256:cb1642c53e09dc812c6cae8cb1110475043cee956a82bf9706829298ab105ca4",
+      "rule_id": "AST4",
+      "file": "examples/capabilities/G11/incident_oracle.py",
+      "reason": "Exact contextual false positives individually reviewed in sidecar SHA256 f0ed1e5fd15d7bcc499051a7342a86684fc17cca2e9082ad63182f7b96724971; source 1b3212f0ba9fc58f7675877be9cf0ea0d8283ee8; original findings c35a55549005cedd65827c88e1aec775a0c579dd. Reasons and source hashes are recorded per review key. No new findings or coverage gaps accepted."
+    },
+    {
+      "hash": "sha256:3133f2bc650a2fba563f0f2990540ff5f42bf6257b993c63cfd64bf6bf493f66",
+      "rule_id": "AST4",
+      "file": "examples/capabilities/G11/incident_oracle.py",
+      "reason": "Exact contextual false positives individually reviewed in sidecar SHA256 f0ed1e5fd15d7bcc499051a7342a86684fc17cca2e9082ad63182f7b96724971; source 1b3212f0ba9fc58f7675877be9cf0ea0d8283ee8; original findings c35a55549005cedd65827c88e1aec775a0c579dd. Reasons and source hashes are recorded per review key. No new findings or coverage gaps accepted."
+    },
+    {
+      "hash": "sha256:65c01b8937dfe03bc2a51bd9ee0bbbe8571cfaaad15accad2f7170b78e27b1fa",
+      "rule_id": "AST4",
+      "file": "examples/capabilities/G13/reconcile_oracle.py",
+      "reason": "Exact contextual false positives individually reviewed in sidecar SHA256 f0ed1e5fd15d7bcc499051a7342a86684fc17cca2e9082ad63182f7b96724971; source 1b3212f0ba9fc58f7675877be9cf0ea0d8283ee8; original findings c35a55549005cedd65827c88e1aec775a0c579dd. Reasons and source hashes are recorded per review key. No new findings or coverage gaps accepted."
+    },
+    {
+      "hash": "sha256:8c7065455bb91e8c6e18483ea6e5ae3c12ac6d1f93a82d6f393c17c84e3ac16c",
+      "rule_id": "AST4",
+      "file": "examples/capabilities/G14/cash_oracle.py",
+      "reason": "Exact contextual false positives individually reviewed in sidecar SHA256 f0ed1e5fd15d7bcc499051a7342a86684fc17cca2e9082ad63182f7b96724971; source 1b3212f0ba9fc58f7675877be9cf0ea0d8283ee8; original findings c35a55549005cedd65827c88e1aec775a0c579dd. Reasons and source hashes are recorded per review key. No new findings or coverage gaps accepted."
+    },
+    {
+      "hash": "sha256:630ebc59ca5de930782485bcb21baf84a32930ac6580c605e3911114117dc1e7",
+      "rule_id": "AST4",
+      "file": "examples/capabilities/G15/readout_oracle.py",
+      "reason": "Exact contextual false positives individually reviewed in sidecar SHA256 f0ed1e5fd15d7bcc499051a7342a86684fc17cca2e9082ad63182f7b96724971; source 1b3212f0ba9fc58f7675877be9cf0ea0d8283ee8; original findings c35a55549005cedd65827c88e1aec775a0c579dd. Reasons and source hashes are recorded per review key. No new findings or coverage gaps accepted."
+    },
+    {
+      "hash": "sha256:c01180d0a663779b1b007368f4b6d957ca00296e717e0a463238d6802fa09e96",
+      "rule_id": "AST4",
+      "file": "examples/capabilities/G16/grounding_oracle.py",
+      "reason": "Exact contextual false positives individually reviewed in sidecar SHA256 f0ed1e5fd15d7bcc499051a7342a86684fc17cca2e9082ad63182f7b96724971; source 1b3212f0ba9fc58f7675877be9cf0ea0d8283ee8; original findings c35a55549005cedd65827c88e1aec775a0c579dd. Reasons and source hashes are recorded per review key. No new findings or coverage gaps accepted."
+    },
+    {
+      "hash": "sha256:938ed0a7733a5c1d8da2ffb02d2d69b9dd9537bcc03365a0e515e93c9003fa27",
+      "rule_id": "AST4",
+      "file": "examples/capabilities/G16/grounding_oracle.py",
+      "reason": "Exact contextual false positives individually reviewed in sidecar SHA256 f0ed1e5fd15d7bcc499051a7342a86684fc17cca2e9082ad63182f7b96724971; source 1b3212f0ba9fc58f7675877be9cf0ea0d8283ee8; original findings c35a55549005cedd65827c88e1aec775a0c579dd. Reasons and source hashes are recorded per review key. No new findings or coverage gaps accepted."
+    },
+    {
+      "hash": "sha256:a1aa6e8d71630ec436223fce7b9d0cb2a19b4edcfbec1665a3bacf7b567f3fb0",
+      "rule_id": "AST4",
+      "file": "examples/capabilities/G17/decision_oracle.py",
+      "reason": "Exact contextual false positives individually reviewed in sidecar SHA256 f0ed1e5fd15d7bcc499051a7342a86684fc17cca2e9082ad63182f7b96724971; source 1b3212f0ba9fc58f7675877be9cf0ea0d8283ee8; original findings c35a55549005cedd65827c88e1aec775a0c579dd. Reasons and source hashes are recorded per review key. No new findings or coverage gaps accepted."
+    },
+    {
+      "hash": "sha256:7c19a58fb7cd163aa4eec7bf7350ebf905aa3e3115da5a35fdf801cf3aba26c6",
+      "rule_id": "AST4",
+      "file": "examples/capabilities/G19/boundary_oracle.py",
+      "reason": "Exact contextual false positives individually reviewed in sidecar SHA256 f0ed1e5fd15d7bcc499051a7342a86684fc17cca2e9082ad63182f7b96724971; source 1b3212f0ba9fc58f7675877be9cf0ea0d8283ee8; original findings c35a55549005cedd65827c88e1aec775a0c579dd. Reasons and source hashes are recorded per review key. No new findings or coverage gaps accepted."
+    },
+    {
+      "hash": "sha256:7f029df40e6a1b64a6fd4b81ecce1e93a3cba0c019f5a2049c24de69fbfcf05e",
+      "rule_id": "AST4",
+      "file": "examples/capabilities/G19/boundary_oracle.py",
+      "reason": "Exact contextual false positives individually reviewed in sidecar SHA256 f0ed1e5fd15d7bcc499051a7342a86684fc17cca2e9082ad63182f7b96724971; source 1b3212f0ba9fc58f7675877be9cf0ea0d8283ee8; original findings c35a55549005cedd65827c88e1aec775a0c579dd. Reasons and source hashes are recorded per review key. No new findings or coverage gaps accepted."
+    },
+    {
+      "hash": "sha256:47062af7dfffd3f08c5a693b82ab2fcd39694c9fb1ac7f638ec4b0cdeea932ab",
+      "rule_id": "AST4",
+      "file": "examples/capabilities/G20/browser_checks.py",
+      "reason": "Exact contextual false positives individually reviewed in sidecar SHA256 f0ed1e5fd15d7bcc499051a7342a86684fc17cca2e9082ad63182f7b96724971; source 1b3212f0ba9fc58f7675877be9cf0ea0d8283ee8; original findings c35a55549005cedd65827c88e1aec775a0c579dd. Reasons and source hashes are recorded per review key. No new findings or coverage gaps accepted."
+    },
+    {
+      "hash": "sha256:8aefbf6e71590a5a9fb7a81e8f2fd47feadb24db20162f2d839747d70d935802",
+      "rule_id": "TT2",
+      "file": "examples/capabilities/G20/browser_checks.py",
+      "reason": "Exact contextual false positives individually reviewed in sidecar SHA256 f0ed1e5fd15d7bcc499051a7342a86684fc17cca2e9082ad63182f7b96724971; source 1b3212f0ba9fc58f7675877be9cf0ea0d8283ee8; original findings c35a55549005cedd65827c88e1aec775a0c579dd. Reasons and source hashes are recorded per review key. No new findings or coverage gaps accepted."
+    },
+    {
+      "hash": "sha256:4974394e39b5f43b1729a397e60eab324c84f00a3eda6460b5f5ac0e71c62af6",
+      "rule_id": "EA2",
+      "file": "examples/capabilities/G08/README.md",
+      "reason": "Exact contextual false positives individually reviewed in sidecar SHA256 f0ed1e5fd15d7bcc499051a7342a86684fc17cca2e9082ad63182f7b96724971; source 1b3212f0ba9fc58f7675877be9cf0ea0d8283ee8; original findings c35a55549005cedd65827c88e1aec775a0c579dd. Reasons and source hashes are recorded per review key. No new findings or coverage gaps accepted."
+    },
+    {
+      "hash": "sha256:a4c922548fe74fc2b84a4fec7af1ede9a07f30570c3d9cf37f87f12841591177",
+      "rule_id": "EA2",
+      "file": "examples/capabilities/G08/README.md",
+      "reason": "Exact contextual false positives individually reviewed in sidecar SHA256 f0ed1e5fd15d7bcc499051a7342a86684fc17cca2e9082ad63182f7b96724971; source 1b3212f0ba9fc58f7675877be9cf0ea0d8283ee8; original findings c35a55549005cedd65827c88e1aec775a0c579dd. Reasons and source hashes are recorded per review key. No new findings or coverage gaps accepted."
+    },
+    {
+      "hash": "sha256:3cd07eda7c4078c5399c1e312bdace488f30ee486e918c39c9c7470383fd3777",
+      "rule_id": "EA2",
+      "file": "examples/capabilities/G08/deploy_oracle.py",
+      "reason": "Exact contextual false positives individually reviewed in sidecar SHA256 f0ed1e5fd15d7bcc499051a7342a86684fc17cca2e9082ad63182f7b96724971; source 1b3212f0ba9fc58f7675877be9cf0ea0d8283ee8; original findings c35a55549005cedd65827c88e1aec775a0c579dd. Reasons and source hashes are recorded per review key. No new findings or coverage gaps accepted."
+    },
+    {
+      "hash": "sha256:d013cca6c50c8622053bf5fa51f29be08a8c2617de4be2547750db512764672f",
+      "rule_id": "EA2",
+      "file": "examples/capabilities/G08/naive_deploy.py",
+      "reason": "Exact contextual false positives individually reviewed in sidecar SHA256 f0ed1e5fd15d7bcc499051a7342a86684fc17cca2e9082ad63182f7b96724971; source 1b3212f0ba9fc58f7675877be9cf0ea0d8283ee8; original findings c35a55549005cedd65827c88e1aec775a0c579dd. Reasons and source hashes are recorded per review key. No new findings or coverage gaps accepted."
+    },
+    {
+      "hash": "sha256:c9a7c24301af66c9a15cb6c0679c31c86d63f47cb9b2648aa280f5fea5406546",
+      "rule_id": "EA2",
+      "file": "examples/capabilities/G11/naive_stub.py",
+      "reason": "Exact contextual false positives individually reviewed in sidecar SHA256 f0ed1e5fd15d7bcc499051a7342a86684fc17cca2e9082ad63182f7b96724971; source 1b3212f0ba9fc58f7675877be9cf0ea0d8283ee8; original findings c35a55549005cedd65827c88e1aec775a0c579dd. Reasons and source hashes are recorded per review key. No new findings or coverage gaps accepted."
+    },
+    {
+      "hash": "sha256:7dd7d93eaf312982f86b880602fc9436414c3ff07c4b54a05d639c6f2140f885",
+      "rule_id": "PE3",
+      "file": "examples/capabilities/G08/deploy_oracle.py",
+      "reason": "Exact contextual false positives individually reviewed in sidecar SHA256 f0ed1e5fd15d7bcc499051a7342a86684fc17cca2e9082ad63182f7b96724971; source 1b3212f0ba9fc58f7675877be9cf0ea0d8283ee8; original findings c35a55549005cedd65827c88e1aec775a0c579dd. Reasons and source hashes are recorded per review key. No new findings or coverage gaps accepted."
+    },
+    {
+      "hash": "sha256:9a487633d34a4626b0a77e7ef976a55c613062ad90f9d90c89da7b5cf84191db",
+      "rule_id": "P2",
+      "file": "examples/capabilities/G13/fixtures/september/orders.csv",
+      "reason": "Exact contextual false positives individually reviewed in sidecar SHA256 f0ed1e5fd15d7bcc499051a7342a86684fc17cca2e9082ad63182f7b96724971; source 1b3212f0ba9fc58f7675877be9cf0ea0d8283ee8; original findings c35a55549005cedd65827c88e1aec775a0c579dd. Reasons and source hashes are recorded per review key. No new findings or coverage gaps accepted."
+    },
+    {
+      "hash": "sha256:d0b4a992d984bf00135464009d3d8f268ac36a36bca3eda5ce0a41784c32cec5",
+      "rule_id": "SSRF2",
+      "file": "examples/capabilities/G20/browser_checks.py",
+      "reason": "Exact contextual false positives individually reviewed in sidecar SHA256 f0ed1e5fd15d7bcc499051a7342a86684fc17cca2e9082ad63182f7b96724971; source 1b3212f0ba9fc58f7675877be9cf0ea0d8283ee8; original findings c35a55549005cedd65827c88e1aec775a0c579dd. Reasons and source hashes are recorded per review key. No new findings or coverage gaps accepted."
+    }
+  ]
+}

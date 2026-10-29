@@ -1,0 +1,865 @@
+{
+  "version": 2,
+  "scanner_version": "2.13.2",
+  "rules": [],
+  "fingerprints": [
+    {
+      "hash": "sha256:c75f032666db7ca9c5f15eea6b5ed016224e2e71ad20143fd72d4722e8e9ff55",
+      "rule_id": "AST4",
+      "file": "examples/capabilities/G02/activation_oracle.py",
+      "reason": "Exact contextual false positives individually reviewed in sidecar SHA256 f0ed1e5fd15d7bcc499051a7342a86684fc17cca2e9082ad63182f7b96724971; source 1b3212f0ba9fc58f7675877be9cf0ea0d8283ee8; original findings c35a55549005cedd65827c88e1aec775a0c579dd. Reasons and source hashes are recorded per review key. No new findings or coverage gaps accepted."
+    },
+    {
+      "hash": "sha256:7e7b2b5029518ca8d3ef82d175ee6db30c161df591fd5a9a572e075541d5ba2a",
+      "rule_id": "AST4",
+      "file": "examples/capabilities/G02/activation_oracle.py",
+      "reason": "Exact contextual false positives individually reviewed in sidecar SHA256 f0ed1e5fd15d7bcc499051a7342a86684fc17cca2e9082ad63182f7b96724971; source 1b3212f0ba9fc58f7675877be9cf0ea0d8283ee8; original findings c35a55549005cedd65827c88e1aec775a0c579dd. Reasons and source hashes are recorded per review key. No new findings or coverage gaps accepted."
+    },
+    {
+      "hash": "sha256:df669f414c1610637c8df9891d43a3afa92923016553d5407300e14e82f94549",
+      "rule_id": "AST4",
+      "file": "examples/capabilities/G02/activation_oracle.py",
+      "reason": "Exact contextual false positives individually reviewed in sidecar SHA256 f0ed1e5fd15d7bcc499051a7342a86684fc17cca2e9082ad63182f7b96724971; source 1b3212f0ba9fc58f7675877be9cf0ea0d8283ee8; original findings c35a55549005cedd65827c88e1aec775a0c579dd. Reasons and source hashes are recorded per review key. No new findings or coverage gaps accepted."
+    },
+    {
+      "hash": "sha256:9f84c2dbbc672f10b9a25ba309681e9693326fda86f28abde53366b130d2a42b",
+      "rule_id": "AST7",
+      "file": "examples/capabilities/G02/activation_oracle.py",
+      "reason": "Exact contextual false positives individually reviewed in sidecar SHA256 f0ed1e5fd15d7bcc499051a7342a86684fc17cca2e9082ad63182f7b96724971; source 1b3212f0ba9fc58f7675877be9cf0ea0d8283ee8; original findings c35a55549005cedd65827c88e1aec775a0c579dd. Reasons and source hashes are recorded per review key. No new findings or coverage gaps accepted."
+    },
+    {
+      "hash": "sha256:8a402dfe06a4adbb853a1eabf8af4bba388680d5fb470170cfa04f0318534241",
+      "rule_id": "AST4",
+      "file": "examples/capabilities/G03/recovery_oracle.py",
+      "reason": "Exact contextual false positives individually reviewed in sidecar SHA256 f0ed1e5fd15d7bcc499051a7342a86684fc17cca2e9082ad63182f7b96724971; source 1b3212f0ba9fc58f7675877be9cf0ea0d8283ee8; original findings c35a55549005cedd65827c88e1aec775a0c579dd. Reasons and source hashes are recorded per review key. No new findings or coverage gaps accepted."
+    },
+    {
+      "hash": "sha256:95e2322d9dddf96e8bf15f6633db0695ea0ab69fbef63ead6f10ee745e289011",
+      "rule_id": "AST4",
+      "file": "examples/capabilities/G03/recovery_oracle.py",
+      "reason": "Exact contextual false positives individually reviewed in sidecar SHA256 f0ed1e5fd15d7bcc499051a7342a86684fc17cca2e9082ad63182f7b96724971; source 1b3212f0ba9fc58f7675877be9cf0ea0d8283ee8; original findings c35a55549005cedd65827c88e1aec775a0c579dd. Reasons and source hashes are recorded per review key. No new findings or coverage gaps accepted."
+    },
+    {
+      "hash": "sha256:0a26696e2fdb2a9355bbe19623333e8edbedf625996027d238395d461a99c85e",
+      "rule_id": "AST4",
+      "file": "examples/capabilities/G03/recovery_oracle.py",
+      "reason": "Exact contextual false positives individually reviewed in sidecar SHA256 f0ed1e5fd15d7bcc499051a7342a86684fc17cca2e9082ad63182f7b96724971; source 1b3212f0ba9fc58f7675877be9cf0ea0d8283ee8; original findings c35a55549005cedd65827c88e1aec775a0c579dd. Reasons and source hashes are recorded per review key. No new findings or coverage gaps accepted."
+    },
+    {
+      "hash": "sha256:a14b38b08f93b61e8471ff2e1b1dde032d886436b07bff0aef39ba70db44526a",
+      "rule_id": "AST4",
+      "file": "examples/capabilities/G03/recovery_oracle.py",
+      "reason": "Exact contextual false positives individually reviewed in sidecar SHA256 f0ed1e5fd15d7bcc499051a7342a86684fc17cca2e9082ad63182f7b96724971; source 1b3212f0ba9fc58f7675877be9cf0ea0d8283ee8; original findings c35a55549005cedd65827c88e1aec775a0c579dd. Reasons and source hashes are recorded per review key. No new findings or coverage gaps accepted."
+    },
+    {
+      "hash": "sha256:b88e97727d3fe90610d69b9df5a5a337e3062f30c3e7b3e57e5177e84ae29662",
+      "rule_id": "AST4",
+      "file": "examples/capabilities/G03/recovery_oracle.py",
+      "reason": "Exact contextual false positives individually reviewed in sidecar SHA256 f0ed1e5fd15d7bcc499051a7342a86684fc17cca2e9082ad63182f7b96724971; source 1b3212f0ba9fc58f7675877be9cf0ea0d8283ee8; original findings c35a55549005cedd65827c88e1aec775a0c579dd. Reasons and source hashes are recorded per review key. No new findings or coverage gaps accepted."
+    },
+    {
+      "hash": "sha256:c28bf11db87c31b5fc5712dd14131521ec77ff6ea6249459c24315367559ba40",
+      "rule_id": "AST4",
+      "file": "examples/capabilities/G03/recovery_oracle.py",
+      "reason": "Exact contextual false positives individually reviewed in sidecar SHA256 f0ed1e5fd15d7bcc499051a7342a86684fc17cca2e9082ad63182f7b96724971; source 1b3212f0ba9fc58f7675877be9cf0ea0d8283ee8; original findings c35a55549005cedd65827c88e1aec775a0c579dd. Reasons and source hashes are recorded per review key. No new findings or coverage gaps accepted."
+    },
+    {
+      "hash": "sha256:15c36707ceb7091726a9664e3568cf39d20beb006639cca2f9e78c4c043f08f4",
+      "rule_id": "AST7",
+      "file": "examples/capabilities/G03/recovery_oracle.py",
+      "reason": "Exact contextual false positives individually reviewed in sidecar SHA256 f0ed1e5fd15d7bcc499051a7342a86684fc17cca2e9082ad63182f7b96724971; source 1b3212f0ba9fc58f7675877be9cf0ea0d8283ee8; original findings c35a55549005cedd65827c88e1aec775a0c579dd. Reasons and source hashes are recorded per review key. No new findings or coverage gaps accepted."
+    },
+    {
+      "hash": "sha256:a1426d2912c3713e6b689a31b83c84991fbe8871addc3e0dc83e488b40ef1410",
+      "rule_id": "AST4",
+      "file": "examples/capabilities/G04/handoff_oracle.py",
+      "reason": "Exact contextual false positives individually reviewed in sidecar SHA256 f0ed1e5fd15d7bcc499051a7342a86684fc17cca2e9082ad63182f7b96724971; source 1b3212f0ba9fc58f7675877be9cf0ea0d8283ee8; original findings c35a55549005cedd65827c88e1aec775a0c579dd. Reasons and source hashes are recorded per review key. No new findings or coverage gaps accepted."
+    },
+    {
+      "hash": "sha256:064d253142df05c92fe4de268774c7199267859ad9752ea7686c6c93fc0cfb4a",
+      "rule_id": "AST4",
+      "file": "examples/capabilities/G05/binding_oracle.py",
+      "reason": "Exact contextual false positives individually reviewed in sidecar SHA256 f0ed1e5fd15d7bcc499051a7342a86684fc17cca2e9082ad63182f7b96724971; source 1b3212f0ba9fc58f7675877be9cf0ea0d8283ee8; original findings c35a55549005cedd65827c88e1aec775a0c579dd. Reasons and source hashes are recorded per review key. No new findings or coverage gaps accepted."
+    },
+    {
+      "hash": "sha256:af0ef190519b160bd2095ab6eb642a6d5b57bee78361ded438a321800e1b2939",
+      "rule_id": "TT2",
+      "file": "examples/capabilities/G05/binding_oracle.py",
+      "reason": "Exact contextual false positives individually reviewed in sidecar SHA256 f0ed1e5fd15d7bcc499051a7342a86684fc17cca2e9082ad63182f7b96724971; source 1b3212f0ba9fc58f7675877be9cf0ea0d8283ee8; original findings c35a55549005cedd65827c88e1aec775a0c579dd. Reasons and source hashes are recorded per review key. No new findings or coverage gaps accepted."
+    },
+    {
+      "hash": "sha256:6e3b544a90f59312ddae6ce38ce26058e0a6a94e297b753d8578bf2b8e597156",
+      "rule_id": "RP1",
+      "file": "employees/specialized/ecommerce-specialist/shopify-mcp-layer.md",
+      "reason": "Exact contextual false positives individually reviewed in sidecar SHA256 f0ed1e5fd15d7bcc499051a7342a86684fc17cca2e9082ad63182f7b96724971; source 1b3212f0ba9fc58f7675877be9cf0ea0d8283ee8; original findings c35a55549005cedd65827c88e1aec775a0c579dd. Reasons and source hashes are recorded per review key. No new findings or coverage gaps accepted."
+    },
+    {
+      "hash": "sha256:1c76e08c31d7a15a2a50e4473e05b9259186d7afbc8795cf1e0d428c7160a9ba",
+      "rule_id": "RP1",
+      "file": "employees/specialized/ecommerce-specialist/shopify-mcp-layer.md",
+      "reason": "Exact contextual false positives individually reviewed in sidecar SHA256 f0ed1e5fd15d7bcc499051a7342a86684fc17cca2e9082ad63182f7b96724971; source 1b3212f0ba9fc58f7675877be9cf0ea0d8283ee8; original findings c35a55549005cedd65827c88e1aec775a0c579dd. Reasons and source hashes are recorded per review key. No new findings or coverage gaps accepted."
+    },
+    {
+      "hash": "sha256:8b40eb636c412d5f92d1f8270dc6495f28bbe0f08ea99c7bbb573d75d993e4ed",
+      "rule_id": "RP1",
+      "file": "employees/specialized/wordpress-master/diagnostics/build-modify/SKILL.md",
+      "reason": "Exact contextual false positives individually reviewed in sidecar SHA256 f0ed1e5fd15d7bcc499051a7342a86684fc17cca2e9082ad63182f7b96724971; source 1b3212f0ba9fc58f7675877be9cf0ea0d8283ee8; original findings c35a55549005cedd65827c88e1aec775a0c579dd. Reasons and source hashes are recorded per review key. No new findings or coverage gaps accepted."
+    },
+    {
+      "hash": "sha256:9353b91888e67642220c64bc7af14b1c9b564a20251a19cf580a69f7677a14a7",
+      "rule_id": "RP1",
+      "file": "employees/specialized/wordpress-master/diagnostics/build-scaffold/SKILL.md",
+      "reason": "Exact contextual false positives individually reviewed in sidecar SHA256 f0ed1e5fd15d7bcc499051a7342a86684fc17cca2e9082ad63182f7b96724971; source 1b3212f0ba9fc58f7675877be9cf0ea0d8283ee8; original findings c35a55549005cedd65827c88e1aec775a0c579dd. Reasons and source hashes are recorded per review key. No new findings or coverage gaps accepted."
+    },
+    {
+      "hash": "sha256:3ebc88d90a9624acfcbac53328b0f30b2f515443511caa70b228cf07d9f15322",
+      "rule_id": "RP1",
+      "file": "employees/specialized/wordpress-master/diagnostics/build-scrape/SKILL.md",
+      "reason": "Exact contextual false positives individually reviewed in sidecar SHA256 f0ed1e5fd15d7bcc499051a7342a86684fc17cca2e9082ad63182f7b96724971; source 1b3212f0ba9fc58f7675877be9cf0ea0d8283ee8; original findings c35a55549005cedd65827c88e1aec775a0c579dd. Reasons and source hashes are recorded per review key. No new findings or coverage gaps accepted."
+    },
+    {
+      "hash": "sha256:62031c309f0eb5230ae5e41522e6ce3835e9972d2ca46f7a565a1a46c95a85fe",
+      "rule_id": "AS2",
+      "file": "employees/specialized/ecommerce-specialist/shopify-mcp-layer.md",
+      "reason": "Exact contextual false positives individually reviewed in sidecar SHA256 f0ed1e5fd15d7bcc499051a7342a86684fc17cca2e9082ad63182f7b96724971; source 1b3212f0ba9fc58f7675877be9cf0ea0d8283ee8; original findings c35a55549005cedd65827c88e1aec775a0c579dd. Reasons and source hashes are recorded per review key. No new findings or coverage gaps accepted."
+    },
+    {
+      "hash": "sha256:761d3d7b48d1d1bb28e67be3d407715a3dc06a73b6745589da69a82b4bd28d49",
+      "rule_id": "AS3",
+      "file": "employees/specialized/game-designer/SKILL.md",
+      "reason": "Exact contextual false positives individually reviewed in sidecar SHA256 f0ed1e5fd15d7bcc499051a7342a86684fc17cca2e9082ad63182f7b96724971; source 1b3212f0ba9fc58f7675877be9cf0ea0d8283ee8; original findings c35a55549005cedd65827c88e1aec775a0c579dd. Reasons and source hashes are recorded per review key. No new findings or coverage gaps accepted."
+    },
+    {
+      "hash": "sha256:b601229828b7eba96f57b0a225b2632f66903c72d7785482ded593b6534b32e4",
+      "rule_id": "AS3",
+      "file": "employees/specialized/payments-specialist/SKILL.md",
+      "reason": "Exact contextual false positives individually reviewed in sidecar SHA256 f0ed1e5fd15d7bcc499051a7342a86684fc17cca2e9082ad63182f7b96724971; source 1b3212f0ba9fc58f7675877be9cf0ea0d8283ee8; original findings c35a55549005cedd65827c88e1aec775a0c579dd. Reasons and source hashes are recorded per review key. No new findings or coverage gaps accepted."
+    },
+    {
+      "hash": "sha256:18c6e6223c4898e1d41439e7d9210cdcdb38056d99d43379f7825996b50f94a4",
+      "rule_id": "AS3",
+      "file": "employees/specialized/payments-specialist/SKILL.md",
+      "reason": "Exact contextual false positives individually reviewed in sidecar SHA256 f0ed1e5fd15d7bcc499051a7342a86684fc17cca2e9082ad63182f7b96724971; source 1b3212f0ba9fc58f7675877be9cf0ea0d8283ee8; original findings c35a55549005cedd65827c88e1aec775a0c579dd. Reasons and source hashes are recorded per review key. No new findings or coverage gaps accepted."
+    },
+    {
+      "hash": "sha256:12a6031f395f5c29008da13dc3893648ae73c51895ff43ddc56bf2e569e6c9b6",
+      "rule_id": "AS3",
+      "file": "employees/specialized/wordpress-master/diagnostics/build-scrape/SKILL.md",
+      "reason": "Exact contextual false positives individually reviewed in sidecar SHA256 f0ed1e5fd15d7bcc499051a7342a86684fc17cca2e9082ad63182f7b96724971; source 1b3212f0ba9fc58f7675877be9cf0ea0d8283ee8; original findings c35a55549005cedd65827c88e1aec775a0c579dd. Reasons and source hashes are recorded per review key. No new findings or coverage gaps accepted."
+    },
+    {
+      "hash": "sha256:c7501485772a2bc14a53965f3863acf2f8e2a9410522b4730a9fd0eed85ceca9",
+      "rule_id": "AS3",
+      "file": "employees/specialized/wordpress-master/diagnostics/build-visual/SKILL.md",
+      "reason": "Exact contextual false positives individually reviewed in sidecar SHA256 f0ed1e5fd15d7bcc499051a7342a86684fc17cca2e9082ad63182f7b96724971; source 1b3212f0ba9fc58f7675877be9cf0ea0d8283ee8; original findings c35a55549005cedd65827c88e1aec775a0c579dd. Reasons and source hashes are recorded per review key. No new findings or coverage gaps accepted."
+    },
+    {
+      "hash": "sha256:5650946c910e6ac02ab3454ca1755278f5985279e396a0907cac111a8ffd2db5",
+      "rule_id": "AS3",
+      "file": "employees/specialized/wordpress-master/diagnostics/build-visual/SKILL.md",
+      "reason": "Exact contextual false positives individually reviewed in sidecar SHA256 f0ed1e5fd15d7bcc499051a7342a86684fc17cca2e9082ad63182f7b96724971; source 1b3212f0ba9fc58f7675877be9cf0ea0d8283ee8; original findings c35a55549005cedd65827c88e1aec775a0c579dd. Reasons and source hashes are recorded per review key. No new findings or coverage gaps accepted."
+    },
+    {
+      "hash": "sha256:c72a52a83210403461df5dae81927bb20e49d52486d9fc4f094b80a329fc0170",
+      "rule_id": "AS3",
+      "file": "employees/specialized/wordpress-master/diagnostics/build-visual/SKILL.md",
+      "reason": "Exact contextual false positives individually reviewed in sidecar SHA256 f0ed1e5fd15d7bcc499051a7342a86684fc17cca2e9082ad63182f7b96724971; source 1b3212f0ba9fc58f7675877be9cf0ea0d8283ee8; original findings c35a55549005cedd65827c88e1aec775a0c579dd. Reasons and source hashes are recorded per review key. No new findings or coverage gaps accepted."
+    },
+    {
+      "hash": "sha256:35cabd25350016f93af73d88b91f19d1788ac0346877dc8cf13d613ec0df372e",
+      "rule_id": "E1",
+      "file": "employees/specialized/wordpress-master/diagnostics/build-content/SKILL.md",
+      "reason": "Exact contextual false positives individually reviewed in sidecar SHA256 f0ed1e5fd15d7bcc499051a7342a86684fc17cca2e9082ad63182f7b96724971; source 1b3212f0ba9fc58f7675877be9cf0ea0d8283ee8; original findings c35a55549005cedd65827c88e1aec775a0c579dd. Reasons and source hashes are recorded per review key. No new findings or coverage gaps accepted."
+    },
+    {
+      "hash": "sha256:b1d3851b1bbe8acc85f630d5ad1c83b515658ba1c2b30886303a54c2741587d6",
+      "rule_id": "E1",
+      "file": "employees/specialized/wordpress-master/diagnostics/build-content/SKILL.md",
+      "reason": "Exact contextual false positives individually reviewed in sidecar SHA256 f0ed1e5fd15d7bcc499051a7342a86684fc17cca2e9082ad63182f7b96724971; source 1b3212f0ba9fc58f7675877be9cf0ea0d8283ee8; original findings c35a55549005cedd65827c88e1aec775a0c579dd. Reasons and source hashes are recorded per review key. No new findings or coverage gaps accepted."
+    },
+    {
+      "hash": "sha256:12545d3439712656271a46b5cbe62f3a29c4125f8adc097168d5d54634f54fd2",
+      "rule_id": "E1",
+      "file": "employees/specialized/wordpress-master/diagnostics/build-theme/SKILL.md",
+      "reason": "Exact contextual false positives individually reviewed in sidecar SHA256 f0ed1e5fd15d7bcc499051a7342a86684fc17cca2e9082ad63182f7b96724971; source 1b3212f0ba9fc58f7675877be9cf0ea0d8283ee8; original findings c35a55549005cedd65827c88e1aec775a0c579dd. Reasons and source hashes are recorded per review key. No new findings or coverage gaps accepted."
+    },
+    {
+      "hash": "sha256:d9981b7d46746aa5443e2eaf7c3c953d2a1bbdeff4567532aa6b025510dec444",
+      "rule_id": "E1",
+      "file": "employees/specialized/wordpress-master/diagnostics/build-visual/SKILL.md",
+      "reason": "Exact contextual false positives individually reviewed in sidecar SHA256 f0ed1e5fd15d7bcc499051a7342a86684fc17cca2e9082ad63182f7b96724971; source 1b3212f0ba9fc58f7675877be9cf0ea0d8283ee8; original findings c35a55549005cedd65827c88e1aec775a0c579dd. Reasons and source hashes are recorded per review key. No new findings or coverage gaps accepted."
+    },
+    {
+      "hash": "sha256:51af2d2150eb56cd30c9655a1cc6c031aa16c3f7aa5268210b7f7d5d4e0a807f",
+      "rule_id": "E1",
+      "file": "employees/specialized/wordpress-master/diagnostics/diagnostic-code-quality/SKILL.md",
+      "reason": "Exact contextual false positives individually reviewed in sidecar SHA256 f0ed1e5fd15d7bcc499051a7342a86684fc17cca2e9082ad63182f7b96724971; source 1b3212f0ba9fc58f7675877be9cf0ea0d8283ee8; original findings c35a55549005cedd65827c88e1aec775a0c579dd. Reasons and source hashes are recorded per review key. No new findings or coverage gaps accepted."
+    },
+    {
+      "hash": "sha256:bf787188df795bad5a8bf0ba6975e81a748185e824cec326a08f02527e5f7346",
+      "rule_id": "E1",
+      "file": "employees/specialized/wordpress-master/diagnostics/diagnostic-config-security/SKILL.md",
+      "reason": "Exact contextual false positives individually reviewed in sidecar SHA256 f0ed1e5fd15d7bcc499051a7342a86684fc17cca2e9082ad63182f7b96724971; source 1b3212f0ba9fc58f7675877be9cf0ea0d8283ee8; original findings c35a55549005cedd65827c88e1aec775a0c579dd. Reasons and source hashes are recorded per review key. No new findings or coverage gaps accepted."
+    },
+    {
+      "hash": "sha256:6b2fd30ce83fe03f24e37270e1a7b4206ccb958c4575603b3f7e8ab0d5239903",
+      "rule_id": "E1",
+      "file": "employees/specialized/wordpress-master/diagnostics/diagnostic-config-security/SKILL.md",
+      "reason": "Exact contextual false positives individually reviewed in sidecar SHA256 f0ed1e5fd15d7bcc499051a7342a86684fc17cca2e9082ad63182f7b96724971; source 1b3212f0ba9fc58f7675877be9cf0ea0d8283ee8; original findings c35a55549005cedd65827c88e1aec775a0c579dd. Reasons and source hashes are recorded per review key. No new findings or coverage gaps accepted."
+    },
+    {
+      "hash": "sha256:f7f30f6ff7c8adb823341931a215a9c2566bb6a85b36900b016d6b05bc3caba4",
+      "rule_id": "E1",
+      "file": "employees/specialized/wordpress-master/diagnostics/diagnostic-version-audit/SKILL.md",
+      "reason": "Exact contextual false positives individually reviewed in sidecar SHA256 f0ed1e5fd15d7bcc499051a7342a86684fc17cca2e9082ad63182f7b96724971; source 1b3212f0ba9fc58f7675877be9cf0ea0d8283ee8; original findings c35a55549005cedd65827c88e1aec775a0c579dd. Reasons and source hashes are recorded per review key. No new findings or coverage gaps accepted."
+    },
+    {
+      "hash": "sha256:ecece5c3288ee5203663ae1125bb49e4637b4018a543419f8be1cc6b2d9fe871",
+      "rule_id": "E1",
+      "file": "employees/specialized/wordpress-master/diagnostics/wp-patterns/SKILL.md",
+      "reason": "Exact contextual false positives individually reviewed in sidecar SHA256 f0ed1e5fd15d7bcc499051a7342a86684fc17cca2e9082ad63182f7b96724971; source 1b3212f0ba9fc58f7675877be9cf0ea0d8283ee8; original findings c35a55549005cedd65827c88e1aec775a0c579dd. Reasons and source hashes are recorded per review key. No new findings or coverage gaps accepted."
+    },
+    {
+      "hash": "sha256:38ea14875a4b535c04522fbfa9c9569a6e6eceafaf057a975426c92dfbedd6fa",
+      "rule_id": "EA2",
+      "file": "employees/sales-outreach/customer-success/rules.md",
+      "reason": "Exact contextual false positives individually reviewed in sidecar SHA256 f0ed1e5fd15d7bcc499051a7342a86684fc17cca2e9082ad63182f7b96724971; source 1b3212f0ba9fc58f7675877be9cf0ea0d8283ee8; original findings c35a55549005cedd65827c88e1aec775a0c579dd. Reasons and source hashes are recorded per review key. No new findings or coverage gaps accepted."
+    },
+    {
+      "hash": "sha256:36fb292462f6ce022e25c92bceb45e9466464e450c5e2af6f709e208c36afe33",
+      "rule_id": "EA2",
+      "file": "employees/sales-outreach/customer-success/rules.md",
+      "reason": "Exact contextual false positives individually reviewed in sidecar SHA256 f0ed1e5fd15d7bcc499051a7342a86684fc17cca2e9082ad63182f7b96724971; source 1b3212f0ba9fc58f7675877be9cf0ea0d8283ee8; original findings c35a55549005cedd65827c88e1aec775a0c579dd. Reasons and source hashes are recorded per review key. No new findings or coverage gaps accepted."
+    },
+    {
+      "hash": "sha256:4427989ce63e318ac4e0457e1b833c639531853d3870d52a4c6d4c342bfc3750",
+      "rule_id": "EA2",
+      "file": "employees/sales-outreach/outreach-specialist/rules.md",
+      "reason": "Exact contextual false positives individually reviewed in sidecar SHA256 f0ed1e5fd15d7bcc499051a7342a86684fc17cca2e9082ad63182f7b96724971; source 1b3212f0ba9fc58f7675877be9cf0ea0d8283ee8; original findings c35a55549005cedd65827c88e1aec775a0c579dd. Reasons and source hashes are recorded per review key. No new findings or coverage gaps accepted."
+    },
+    {
+      "hash": "sha256:6febef1b5e2fadca4df7f47b5fbf2ec74432193423a6e89fa61c1ad9f740af70",
+      "rule_id": "EA2",
+      "file": "employees/sales-outreach/proposal-writer/rules.md",
+      "reason": "Exact contextual false positives individually reviewed in sidecar SHA256 f0ed1e5fd15d7bcc499051a7342a86684fc17cca2e9082ad63182f7b96724971; source 1b3212f0ba9fc58f7675877be9cf0ea0d8283ee8; original findings c35a55549005cedd65827c88e1aec775a0c579dd. Reasons and source hashes are recorded per review key. No new findings or coverage gaps accepted."
+    },
+    {
+      "hash": "sha256:7dfb38959be499bb3a6453b3773c610b72e31570c78e6102acd489c66f6d064d",
+      "rule_id": "EA2",
+      "file": "employees/sales-outreach/sales-engineer/capability.contract.json",
+      "reason": "Exact contextual false positives individually reviewed in sidecar SHA256 f0ed1e5fd15d7bcc499051a7342a86684fc17cca2e9082ad63182f7b96724971; source 1b3212f0ba9fc58f7675877be9cf0ea0d8283ee8; original findings c35a55549005cedd65827c88e1aec775a0c579dd. Reasons and source hashes are recorded per review key. No new findings or coverage gaps accepted."
+    },
+    {
+      "hash": "sha256:5c6408d4fd2b0c9a7518d9015d55d30d607070803abc4b76e1566ca92ee522ab",
+      "rule_id": "EA2",
+      "file": "employees/sales-outreach/sales-engineer/capability.contract.json",
+      "reason": "Exact contextual false positives individually reviewed in sidecar SHA256 f0ed1e5fd15d7bcc499051a7342a86684fc17cca2e9082ad63182f7b96724971; source 1b3212f0ba9fc58f7675877be9cf0ea0d8283ee8; original findings c35a55549005cedd65827c88e1aec775a0c579dd. Reasons and source hashes are recorded per review key. No new findings or coverage gaps accepted."
+    },
+    {
+      "hash": "sha256:2081350a803545e373726eccb003402cc86f55818c6faf30dcf35db7a92761ff",
+      "rule_id": "EA2",
+      "file": "employees/sales-outreach/sales-engineer/rules.md",
+      "reason": "Exact contextual false positives individually reviewed in sidecar SHA256 f0ed1e5fd15d7bcc499051a7342a86684fc17cca2e9082ad63182f7b96724971; source 1b3212f0ba9fc58f7675877be9cf0ea0d8283ee8; original findings c35a55549005cedd65827c88e1aec775a0c579dd. Reasons and source hashes are recorded per review key. No new findings or coverage gaps accepted."
+    },
+    {
+      "hash": "sha256:3740b2fd4918eaddc3666cc019bc19948712964f54c9f9e6e97d2480be01e268",
+      "rule_id": "EA2",
+      "file": "employees/specialized/SPECIALIST-ENGINEERING-STANDARD.md",
+      "reason": "Exact contextual false positives individually reviewed in sidecar SHA256 f0ed1e5fd15d7bcc499051a7342a86684fc17cca2e9082ad63182f7b96724971; source 1b3212f0ba9fc58f7675877be9cf0ea0d8283ee8; original findings c35a55549005cedd65827c88e1aec775a0c579dd. Reasons and source hashes are recorded per review key. No new findings or coverage gaps accepted."
+    },
+    {
+      "hash": "sha256:4589e467eb0534dc526ccb695ea529b615bc286b40594fcb440d9337145ae014",
+      "rule_id": "EA2",
+      "file": "employees/specialized/SPECIALIST-ENGINEERING-STANDARD.md",
+      "reason": "Exact contextual false positives individually reviewed in sidecar SHA256 f0ed1e5fd15d7bcc499051a7342a86684fc17cca2e9082ad63182f7b96724971; source 1b3212f0ba9fc58f7675877be9cf0ea0d8283ee8; original findings c35a55549005cedd65827c88e1aec775a0c579dd. Reasons and source hashes are recorded per review key. No new findings or coverage gaps accepted."
+    },
+    {
+      "hash": "sha256:733949337698f553e7c2ba5dcee0142049996a6a0d8c2d979c270e5a9dd3c7bb",
+      "rule_id": "EA2",
+      "file": "employees/specialized/ar-vr-developer/SKILL.md",
+      "reason": "Exact contextual false positives individually reviewed in sidecar SHA256 f0ed1e5fd15d7bcc499051a7342a86684fc17cca2e9082ad63182f7b96724971; source 1b3212f0ba9fc58f7675877be9cf0ea0d8283ee8; original findings c35a55549005cedd65827c88e1aec775a0c579dd. Reasons and source hashes are recorded per review key. No new findings or coverage gaps accepted."
+    },
+    {
+      "hash": "sha256:6c6ad6aefc286f82aba2fd4b23382fe401160f755ae2d8449ceac211b8d48179",
+      "rule_id": "EA2",
+      "file": "employees/specialized/ar-vr-developer/SKILL.md",
+      "reason": "Exact contextual false positives individually reviewed in sidecar SHA256 f0ed1e5fd15d7bcc499051a7342a86684fc17cca2e9082ad63182f7b96724971; source 1b3212f0ba9fc58f7675877be9cf0ea0d8283ee8; original findings c35a55549005cedd65827c88e1aec775a0c579dd. Reasons and source hashes are recorded per review key. No new findings or coverage gaps accepted."
+    },
+    {
+      "hash": "sha256:1098de7be5333ca36d9148f318cf158a19e1cdb9f5f449e748e5284774442bb5",
+      "rule_id": "EA2",
+      "file": "employees/specialized/ar-vr-developer/depth-2026-06.md",
+      "reason": "Exact contextual false positives individually reviewed in sidecar SHA256 f0ed1e5fd15d7bcc499051a7342a86684fc17cca2e9082ad63182f7b96724971; source 1b3212f0ba9fc58f7675877be9cf0ea0d8283ee8; original findings c35a55549005cedd65827c88e1aec775a0c579dd. Reasons and source hashes are recorded per review key. No new findings or coverage gaps accepted."
+    },
+    {
+      "hash": "sha256:6ae256baf2d805614f1f9fa2e44f12be374119b321db80bb1f4048548b3999d0",
+      "rule_id": "EA2",
+      "file": "employees/specialized/ar-vr-developer/rules.md",
+      "reason": "Exact contextual false positives individually reviewed in sidecar SHA256 f0ed1e5fd15d7bcc499051a7342a86684fc17cca2e9082ad63182f7b96724971; source 1b3212f0ba9fc58f7675877be9cf0ea0d8283ee8; original findings c35a55549005cedd65827c88e1aec775a0c579dd. Reasons and source hashes are recorded per review key. No new findings or coverage gaps accepted."
+    },
+    {
+      "hash": "sha256:589355cff1a5f8e82f66d5ed65e522b75171a3e879d80b26e7693024f3ca2e93",
+      "rule_id": "EA2",
+      "file": "employees/specialized/ecommerce-specialist/rules.md",
+      "reason": "Exact contextual false positives individually reviewed in sidecar SHA256 f0ed1e5fd15d7bcc499051a7342a86684fc17cca2e9082ad63182f7b96724971; source 1b3212f0ba9fc58f7675877be9cf0ea0d8283ee8; original findings c35a55549005cedd65827c88e1aec775a0c579dd. Reasons and source hashes are recorded per review key. No new findings or coverage gaps accepted."
+    },
+    {
+      "hash": "sha256:8172163fdcb2c3327e9b5d07ce5d8ff068effd6529ed273b536afe45842c0533",
+      "rule_id": "EA2",
+      "file": "employees/specialized/ecommerce-specialist/rules.md",
+      "reason": "Exact contextual false positives individually reviewed in sidecar SHA256 f0ed1e5fd15d7bcc499051a7342a86684fc17cca2e9082ad63182f7b96724971; source 1b3212f0ba9fc58f7675877be9cf0ea0d8283ee8; original findings c35a55549005cedd65827c88e1aec775a0c579dd. Reasons and source hashes are recorded per review key. No new findings or coverage gaps accepted."
+    },
+    {
+      "hash": "sha256:dd6aa8ed2d52f96ce0f3c0bad3a2b5d8f6883adf683b00990ba65f2ed9eba50c",
+      "rule_id": "EA2",
+      "file": "employees/specialized/payments-specialist/rules.md",
+      "reason": "Exact contextual false positives individually reviewed in sidecar SHA256 f0ed1e5fd15d7bcc499051a7342a86684fc17cca2e9082ad63182f7b96724971; source 1b3212f0ba9fc58f7675877be9cf0ea0d8283ee8; original findings c35a55549005cedd65827c88e1aec775a0c579dd. Reasons and source hashes are recorded per review key. No new findings or coverage gaps accepted."
+    },
+    {
+      "hash": "sha256:7ea2e26deec85ee345f84a9e621086d2e043452144cff48d75461beb87018a02",
+      "rule_id": "EA2",
+      "file": "employees/specialized/wordpress-master/diagnostics/accessibility/SKILL.md",
+      "reason": "Exact contextual false positives individually reviewed in sidecar SHA256 f0ed1e5fd15d7bcc499051a7342a86684fc17cca2e9082ad63182f7b96724971; source 1b3212f0ba9fc58f7675877be9cf0ea0d8283ee8; original findings c35a55549005cedd65827c88e1aec775a0c579dd. Reasons and source hashes are recorded per review key. No new findings or coverage gaps accepted."
+    },
+    {
+      "hash": "sha256:50ce8f69e9f6622247ec2d3c2f91080fe697230f35e7f214eae8776786dbb2b3",
+      "rule_id": "EA2",
+      "file": "employees/specialized/wordpress-master/diagnostics/build-scrape/SKILL.md",
+      "reason": "Exact contextual false positives individually reviewed in sidecar SHA256 f0ed1e5fd15d7bcc499051a7342a86684fc17cca2e9082ad63182f7b96724971; source 1b3212f0ba9fc58f7675877be9cf0ea0d8283ee8; original findings c35a55549005cedd65827c88e1aec775a0c579dd. Reasons and source hashes are recorded per review key. No new findings or coverage gaps accepted."
+    },
+    {
+      "hash": "sha256:6f5e9b0c92b5e5103c5e86e5fb78119c8a8813333e94c057fac5fc14ba10e538",
+      "rule_id": "EA2",
+      "file": "employees/specialized/wordpress-master/diagnostics/diagnostic-malware-scan/SKILL.md",
+      "reason": "Exact contextual false positives individually reviewed in sidecar SHA256 f0ed1e5fd15d7bcc499051a7342a86684fc17cca2e9082ad63182f7b96724971; source 1b3212f0ba9fc58f7675877be9cf0ea0d8283ee8; original findings c35a55549005cedd65827c88e1aec775a0c579dd. Reasons and source hashes are recorded per review key. No new findings or coverage gaps accepted."
+    },
+    {
+      "hash": "sha256:bb9486fa7036a1a907d6edbd0a24b98201cffc598ff270ce1217000262cf2031",
+      "rule_id": "EA2",
+      "file": "examples/capabilities/G03/naive_stub.py",
+      "reason": "Exact contextual false positives individually reviewed in sidecar SHA256 f0ed1e5fd15d7bcc499051a7342a86684fc17cca2e9082ad63182f7b96724971; source 1b3212f0ba9fc58f7675877be9cf0ea0d8283ee8; original findings c35a55549005cedd65827c88e1aec775a0c579dd. Reasons and source hashes are recorded per review key. No new findings or coverage gaps accepted."
+    },
+    {
+      "hash": "sha256:20c7bd65d101bec7c483ca8257b5bd6593428b135868c1e4867853420c47aa3e",
+      "rule_id": "EA2",
+      "file": "examples/capabilities/G04/README.md",
+      "reason": "Exact contextual false positives individually reviewed in sidecar SHA256 f0ed1e5fd15d7bcc499051a7342a86684fc17cca2e9082ad63182f7b96724971; source 1b3212f0ba9fc58f7675877be9cf0ea0d8283ee8; original findings c35a55549005cedd65827c88e1aec775a0c579dd. Reasons and source hashes are recorded per review key. No new findings or coverage gaps accepted."
+    },
+    {
+      "hash": "sha256:87628389250a28760e96057a3fa916a7d035e14b77923f9c663cd073077ad1c3",
+      "rule_id": "PE3",
+      "file": "employees/specialized/payments-specialist/webhook-ledger.md",
+      "reason": "Exact contextual false positives individually reviewed in sidecar SHA256 f0ed1e5fd15d7bcc499051a7342a86684fc17cca2e9082ad63182f7b96724971; source 1b3212f0ba9fc58f7675877be9cf0ea0d8283ee8; original findings c35a55549005cedd65827c88e1aec775a0c579dd. Reasons and source hashes are recorded per review key. No new findings or coverage gaps accepted."
+    },
+    {
+      "hash": "sha256:3e6cad2cfebf91b97ae3e4f1408f7d0e5c33b53ab1c7583243835ea1988e13d1",
+      "rule_id": "PE3",
+      "file": "employees/specialized/payments-specialist/webhook-ledger.md",
+      "reason": "Exact contextual false positives individually reviewed in sidecar SHA256 f0ed1e5fd15d7bcc499051a7342a86684fc17cca2e9082ad63182f7b96724971; source 1b3212f0ba9fc58f7675877be9cf0ea0d8283ee8; original findings c35a55549005cedd65827c88e1aec775a0c579dd. Reasons and source hashes are recorded per review key. No new findings or coverage gaps accepted."
+    },
+    {
+      "hash": "sha256:6b180cf0018fa5930baa0ed1f5785a691885e9ef7c58ed70213df547aa049311",
+      "rule_id": "PE3",
+      "file": "employees/specialized/payments-specialist/webhook-ledger.md",
+      "reason": "Exact contextual false positives individually reviewed in sidecar SHA256 f0ed1e5fd15d7bcc499051a7342a86684fc17cca2e9082ad63182f7b96724971; source 1b3212f0ba9fc58f7675877be9cf0ea0d8283ee8; original findings c35a55549005cedd65827c88e1aec775a0c579dd. Reasons and source hashes are recorded per review key. No new findings or coverage gaps accepted."
+    },
+    {
+      "hash": "sha256:50dbcb4f193e67c9d89c9e8d422ec300e920e746031bf5115e51cd0c16dca069",
+      "rule_id": "PE2",
+      "file": "employees/specialized/wordpress-master/diagnostics/diagnostic-arch-narrative/SKILL.md",
+      "reason": "Exact contextual false positives individually reviewed in sidecar SHA256 f0ed1e5fd15d7bcc499051a7342a86684fc17cca2e9082ad63182f7b96724971; source 1b3212f0ba9fc58f7675877be9cf0ea0d8283ee8; original findings c35a55549005cedd65827c88e1aec775a0c579dd. Reasons and source hashes are recorded per review key. No new findings or coverage gaps accepted."
+    },
+    {
+      "hash": "sha256:984f8e6463ad3b321fd18a7859619a0d26edbe59c93163818124d62e49a7da97",
+      "rule_id": "PE2",
+      "file": "employees/specialized/wordpress-master/diagnostics/diagnostic-arch-narrative/SKILL.md",
+      "reason": "Exact contextual false positives individually reviewed in sidecar SHA256 f0ed1e5fd15d7bcc499051a7342a86684fc17cca2e9082ad63182f7b96724971; source 1b3212f0ba9fc58f7675877be9cf0ea0d8283ee8; original findings c35a55549005cedd65827c88e1aec775a0c579dd. Reasons and source hashes are recorded per review key. No new findings or coverage gaps accepted."
+    },
+    {
+      "hash": "sha256:193b988be0883bed96333389f1673a3fa417c0c2788d8bfd258873c058f5b3b2",
+      "rule_id": "PE2",
+      "file": "employees/specialized/wordpress-master/diagnostics/diagnostic-core-integrity/SKILL.md",
+      "reason": "Exact contextual false positives individually reviewed in sidecar SHA256 f0ed1e5fd15d7bcc499051a7342a86684fc17cca2e9082ad63182f7b96724971; source 1b3212f0ba9fc58f7675877be9cf0ea0d8283ee8; original findings c35a55549005cedd65827c88e1aec775a0c579dd. Reasons and source hashes are recorded per review key. No new findings or coverage gaps accepted."
+    },
+    {
+      "hash": "sha256:e07fb009d46fbbabca6a3762ebc201e0c627470968f275f7b829b68a0125c2a8",
+      "rule_id": "PE2",
+      "file": "employees/specialized/wordpress-master/diagnostics/diagnostic-file-permissions/SKILL.md",
+      "reason": "Exact contextual false positives individually reviewed in sidecar SHA256 f0ed1e5fd15d7bcc499051a7342a86684fc17cca2e9082ad63182f7b96724971; source 1b3212f0ba9fc58f7675877be9cf0ea0d8283ee8; original findings c35a55549005cedd65827c88e1aec775a0c579dd. Reasons and source hashes are recorded per review key. No new findings or coverage gaps accepted."
+    },
+    {
+      "hash": "sha256:93cb8f20c96d7e9ff6cbbce66f6980015ef589cae99294b566916763e5091132",
+      "rule_id": "PE2",
+      "file": "employees/specialized/wordpress-master/diagnostics/diagnostic-file-permissions/SKILL.md",
+      "reason": "Exact contextual false positives individually reviewed in sidecar SHA256 f0ed1e5fd15d7bcc499051a7342a86684fc17cca2e9082ad63182f7b96724971; source 1b3212f0ba9fc58f7675877be9cf0ea0d8283ee8; original findings c35a55549005cedd65827c88e1aec775a0c579dd. Reasons and source hashes are recorded per review key. No new findings or coverage gaps accepted."
+    },
+    {
+      "hash": "sha256:b977be1eadd9dcabe6f90121a3bc6cef29b6a9930ed22010ddf5fea3d3aa315c",
+      "rule_id": "PE2",
+      "file": "employees/specialized/wordpress-master/diagnostics/diagnostic-file-permissions/SKILL.md",
+      "reason": "Exact contextual false positives individually reviewed in sidecar SHA256 f0ed1e5fd15d7bcc499051a7342a86684fc17cca2e9082ad63182f7b96724971; source 1b3212f0ba9fc58f7675877be9cf0ea0d8283ee8; original findings c35a55549005cedd65827c88e1aec775a0c579dd. Reasons and source hashes are recorded per review key. No new findings or coverage gaps accepted."
+    },
+    {
+      "hash": "sha256:50256355f0291cbec6f9b7db6d9313fd5ddd33a7ef54e7b71b4688c767d1b8f2",
+      "rule_id": "PE2",
+      "file": "employees/specialized/wordpress-master/diagnostics/diagnostic-file-permissions/SKILL.md",
+      "reason": "Exact contextual false positives individually reviewed in sidecar SHA256 f0ed1e5fd15d7bcc499051a7342a86684fc17cca2e9082ad63182f7b96724971; source 1b3212f0ba9fc58f7675877be9cf0ea0d8283ee8; original findings c35a55549005cedd65827c88e1aec775a0c579dd. Reasons and source hashes are recorded per review key. No new findings or coverage gaps accepted."
+    },
+    {
+      "hash": "sha256:71d6ae2e0af257e7a41b6267bb97c7020e1e7377dbc9b145295e99f27b04d88d",
+      "rule_id": "PE2",
+      "file": "employees/specialized/wordpress-master/diagnostics/diagnostic-file-permissions/SKILL.md",
+      "reason": "Exact contextual false positives individually reviewed in sidecar SHA256 f0ed1e5fd15d7bcc499051a7342a86684fc17cca2e9082ad63182f7b96724971; source 1b3212f0ba9fc58f7675877be9cf0ea0d8283ee8; original findings c35a55549005cedd65827c88e1aec775a0c579dd. Reasons and source hashes are recorded per review key. No new findings or coverage gaps accepted."
+    },
+    {
+      "hash": "sha256:103815301574ab7ddae73c0be911eefc95c188e7f4e17eb52f09e33204f9241d",
+      "rule_id": "PE2",
+      "file": "employees/specialized/wordpress-master/diagnostics/diagnostic-user-audit/SKILL.md",
+      "reason": "Exact contextual false positives individually reviewed in sidecar SHA256 f0ed1e5fd15d7bcc499051a7342a86684fc17cca2e9082ad63182f7b96724971; source 1b3212f0ba9fc58f7675877be9cf0ea0d8283ee8; original findings c35a55549005cedd65827c88e1aec775a0c579dd. Reasons and source hashes are recorded per review key. No new findings or coverage gaps accepted."
+    },
+    {
+      "hash": "sha256:e5cd6274f7e214eadb47b3fa78ddae9880e81e80ca76af3bb957cdab66b0694e",
+      "rule_id": "PE3",
+      "file": "employees/specialized/wordpress-master/diagnostics/diagnostic-version-audit/SKILL.md",
+      "reason": "Exact contextual false positives individually reviewed in sidecar SHA256 f0ed1e5fd15d7bcc499051a7342a86684fc17cca2e9082ad63182f7b96724971; source 1b3212f0ba9fc58f7675877be9cf0ea0d8283ee8; original findings c35a55549005cedd65827c88e1aec775a0c579dd. Reasons and source hashes are recorded per review key. No new findings or coverage gaps accepted."
+    },
+    {
+      "hash": "sha256:38ec58d26d1e080d4fb45f3af3827f91763635c1c5c30ed67e0bf235c7fc2f77",
+      "rule_id": "P2",
+      "file": "employees/specialized/wordpress-master/diagnostics/build-visual/SKILL.md",
+      "reason": "Exact contextual false positives individually reviewed in sidecar SHA256 f0ed1e5fd15d7bcc499051a7342a86684fc17cca2e9082ad63182f7b96724971; source 1b3212f0ba9fc58f7675877be9cf0ea0d8283ee8; original findings c35a55549005cedd65827c88e1aec775a0c579dd. Reasons and source hashes are recorded per review key. No new findings or coverage gaps accepted."
+    },
+    {
+      "hash": "sha256:0a0b5b7f23e3cff28059a6f51f96587caad02710b1888fadcae6dc86d1ceff52",
+      "rule_id": "P2",
+      "file": "employees/specialized/wordpress-master/diagnostics/build-visual/SKILL.md",
+      "reason": "Exact contextual false positives individually reviewed in sidecar SHA256 f0ed1e5fd15d7bcc499051a7342a86684fc17cca2e9082ad63182f7b96724971; source 1b3212f0ba9fc58f7675877be9cf0ea0d8283ee8; original findings c35a55549005cedd65827c88e1aec775a0c579dd. Reasons and source hashes are recorded per review key. No new findings or coverage gaps accepted."
+    },
+    {
+      "hash": "sha256:309007c31e199fda98457159774845cc69cca2e1d9cf35770e40ac781f77a7a6",
+      "rule_id": "P2",
+      "file": "employees/specialized/wordpress-master/diagnostics/build-visual/SKILL.md",
+      "reason": "Exact contextual false positives individually reviewed in sidecar SHA256 f0ed1e5fd15d7bcc499051a7342a86684fc17cca2e9082ad63182f7b96724971; source 1b3212f0ba9fc58f7675877be9cf0ea0d8283ee8; original findings c35a55549005cedd65827c88e1aec775a0c579dd. Reasons and source hashes are recorded per review key. No new findings or coverage gaps accepted."
+    },
+    {
+      "hash": "sha256:fe7885af47e67d3b4d7033ea10e619909d17adcdcf38ffcf85a2fc12b789967a",
+      "rule_id": "P2",
+      "file": "employees/specialized/wordpress-master/diagnostics/build-visual/SKILL.md",
+      "reason": "Exact contextual false positives individually reviewed in sidecar SHA256 f0ed1e5fd15d7bcc499051a7342a86684fc17cca2e9082ad63182f7b96724971; source 1b3212f0ba9fc58f7675877be9cf0ea0d8283ee8; original findings c35a55549005cedd65827c88e1aec775a0c579dd. Reasons and source hashes are recorded per review key. No new findings or coverage gaps accepted."
+    },
+    {
+      "hash": "sha256:0d48f494ee603454d51a29ae236ad40fdd478c6fce059d1684c5cc3703bd2077",
+      "rule_id": "P2",
+      "file": "employees/specialized/wordpress-master/diagnostics/build-visual/SKILL.md",
+      "reason": "Exact contextual false positives individually reviewed in sidecar SHA256 f0ed1e5fd15d7bcc499051a7342a86684fc17cca2e9082ad63182f7b96724971; source 1b3212f0ba9fc58f7675877be9cf0ea0d8283ee8; original findings c35a55549005cedd65827c88e1aec775a0c579dd. Reasons and source hashes are recorded per review key. No new findings or coverage gaps accepted."
+    },
+    {
+      "hash": "sha256:22e3c90292218a2be7855cf956765792e27e3e7c7603d1a9dfb382b738332f55",
+      "rule_id": "P2",
+      "file": "employees/specialized/wordpress-master/diagnostics/build-visual/SKILL.md",
+      "reason": "Exact contextual false positives individually reviewed in sidecar SHA256 f0ed1e5fd15d7bcc499051a7342a86684fc17cca2e9082ad63182f7b96724971; source 1b3212f0ba9fc58f7675877be9cf0ea0d8283ee8; original findings c35a55549005cedd65827c88e1aec775a0c579dd. Reasons and source hashes are recorded per review key. No new findings or coverage gaps accepted."
+    },
+    {
+      "hash": "sha256:f062db701f7e6e9192229004ac3326d684e2caa535e3dba66abf25d8f36eb4a5",
+      "rule_id": "P2",
+      "file": "employees/specialized/wordpress-master/diagnostics/build-visual/SKILL.md",
+      "reason": "Exact contextual false positives individually reviewed in sidecar SHA256 f0ed1e5fd15d7bcc499051a7342a86684fc17cca2e9082ad63182f7b96724971; source 1b3212f0ba9fc58f7675877be9cf0ea0d8283ee8; original findings c35a55549005cedd65827c88e1aec775a0c579dd. Reasons and source hashes are recorded per review key. No new findings or coverage gaps accepted."
+    },
+    {
+      "hash": "sha256:7fcdba7938312caacc99de4c975c95a0af96fd382c122e12d5fc3dac07973ee9",
+      "rule_id": "P2",
+      "file": "employees/specialized/wordpress-master/diagnostics/build-visual/SKILL.md",
+      "reason": "Exact contextual false positives individually reviewed in sidecar SHA256 f0ed1e5fd15d7bcc499051a7342a86684fc17cca2e9082ad63182f7b96724971; source 1b3212f0ba9fc58f7675877be9cf0ea0d8283ee8; original findings c35a55549005cedd65827c88e1aec775a0c579dd. Reasons and source hashes are recorded per review key. No new findings or coverage gaps accepted."
+    },
+    {
+      "hash": "sha256:7dba8396c90e7cedd1f200e9fa26c4428d1e798503838b8b4c9620c94801c1f9",
+      "rule_id": "P2",
+      "file": "employees/specialized/wordpress-master/diagnostics/build-visual/SKILL.md",
+      "reason": "Exact contextual false positives individually reviewed in sidecar SHA256 f0ed1e5fd15d7bcc499051a7342a86684fc17cca2e9082ad63182f7b96724971; source 1b3212f0ba9fc58f7675877be9cf0ea0d8283ee8; original findings c35a55549005cedd65827c88e1aec775a0c579dd. Reasons and source hashes are recorded per review key. No new findings or coverage gaps accepted."
+    },
+    {
+      "hash": "sha256:b117d0625c4e641b18240695c6ff5a8abd50dd9442dbfd1a5a11f68f2012773d",
+      "rule_id": "P2",
+      "file": "employees/specialized/wordpress-master/diagnostics/build-visual/SKILL.md",
+      "reason": "Exact contextual false positives individually reviewed in sidecar SHA256 f0ed1e5fd15d7bcc499051a7342a86684fc17cca2e9082ad63182f7b96724971; source 1b3212f0ba9fc58f7675877be9cf0ea0d8283ee8; original findings c35a55549005cedd65827c88e1aec775a0c579dd. Reasons and source hashes are recorded per review key. No new findings or coverage gaps accepted."
+    },
+    {
+      "hash": "sha256:b809dee10c97d94c47c671be964b3cf45da9371b1a73b233e9a23be628c9789c",
+      "rule_id": "P2",
+      "file": "employees/specialized/wordpress-master/diagnostics/build-visual/SKILL.md",
+      "reason": "Exact contextual false positives individually reviewed in sidecar SHA256 f0ed1e5fd15d7bcc499051a7342a86684fc17cca2e9082ad63182f7b96724971; source 1b3212f0ba9fc58f7675877be9cf0ea0d8283ee8; original findings c35a55549005cedd65827c88e1aec775a0c579dd. Reasons and source hashes are recorded per review key. No new findings or coverage gaps accepted."
+    },
+    {
+      "hash": "sha256:f679f6776752e4676c2b8d3a707856e6cd8591a70d36a7be0e87e3b982114f61",
+      "rule_id": "P2",
+      "file": "employees/specialized/wordpress-master/diagnostics/build-visual/SKILL.md",
+      "reason": "Exact contextual false positives individually reviewed in sidecar SHA256 f0ed1e5fd15d7bcc499051a7342a86684fc17cca2e9082ad63182f7b96724971; source 1b3212f0ba9fc58f7675877be9cf0ea0d8283ee8; original findings c35a55549005cedd65827c88e1aec775a0c579dd. Reasons and source hashes are recorded per review key. No new findings or coverage gaps accepted."
+    },
+    {
+      "hash": "sha256:138ce51bc2e477878400c77ebc27754f75f578172b38479a9bd77e7d74a781e7",
+      "rule_id": "P2",
+      "file": "employees/specialized/wordpress-master/diagnostics/build-visual/SKILL.md",
+      "reason": "Exact contextual false positives individually reviewed in sidecar SHA256 f0ed1e5fd15d7bcc499051a7342a86684fc17cca2e9082ad63182f7b96724971; source 1b3212f0ba9fc58f7675877be9cf0ea0d8283ee8; original findings c35a55549005cedd65827c88e1aec775a0c579dd. Reasons and source hashes are recorded per review key. No new findings or coverage gaps accepted."
+    },
+    {
+      "hash": "sha256:5703399ab723199857ccd2655831161f4960ddea1bf5b8e9be9f604e3e07e3a7",
+      "rule_id": "P2",
+      "file": "employees/specialized/wordpress-master/diagnostics/build-visual/SKILL.md",
+      "reason": "Exact contextual false positives individually reviewed in sidecar SHA256 f0ed1e5fd15d7bcc499051a7342a86684fc17cca2e9082ad63182f7b96724971; source 1b3212f0ba9fc58f7675877be9cf0ea0d8283ee8; original findings c35a55549005cedd65827c88e1aec775a0c579dd. Reasons and source hashes are recorded per review key. No new findings or coverage gaps accepted."
+    },
+    {
+      "hash": "sha256:e24bf8d5854a0f0926ca9eb9352e4daba70da7dd99f8050c2a3e9ab2c634f456",
+      "rule_id": "P2",
+      "file": "employees/specialized/wordpress-master/diagnostics/build-visual/SKILL.md",
+      "reason": "Exact contextual false positives individually reviewed in sidecar SHA256 f0ed1e5fd15d7bcc499051a7342a86684fc17cca2e9082ad63182f7b96724971; source 1b3212f0ba9fc58f7675877be9cf0ea0d8283ee8; original findings c35a55549005cedd65827c88e1aec775a0c579dd. Reasons and source hashes are recorded per review key. No new findings or coverage gaps accepted."
+    },
+    {
+      "hash": "sha256:3d7e37edf85ba20bc4df4e79ba53f39f53d3e31c9e592a99cc40d9f1b48cfb91",
+      "rule_id": "P2",
+      "file": "employees/specialized/wordpress-master/diagnostics/build-visual/SKILL.md",
+      "reason": "Exact contextual false positives individually reviewed in sidecar SHA256 f0ed1e5fd15d7bcc499051a7342a86684fc17cca2e9082ad63182f7b96724971; source 1b3212f0ba9fc58f7675877be9cf0ea0d8283ee8; original findings c35a55549005cedd65827c88e1aec775a0c579dd. Reasons and source hashes are recorded per review key. No new findings or coverage gaps accepted."
+    },
+    {
+      "hash": "sha256:72a6d12af1e8817235aa223074ffa44b4b405fc217dd6d61ea5277d375399f9d",
+      "rule_id": "P2",
+      "file": "employees/specialized/wordpress-master/diagnostics/build-visual/SKILL.md",
+      "reason": "Exact contextual false positives individually reviewed in sidecar SHA256 f0ed1e5fd15d7bcc499051a7342a86684fc17cca2e9082ad63182f7b96724971; source 1b3212f0ba9fc58f7675877be9cf0ea0d8283ee8; original findings c35a55549005cedd65827c88e1aec775a0c579dd. Reasons and source hashes are recorded per review key. No new findings or coverage gaps accepted."
+    },
+    {
+      "hash": "sha256:e725215df7fdf0a6002f99108573214e702f96598abdcae905f0f6f21a9eb533",
+      "rule_id": "P2",
+      "file": "employees/specialized/wordpress-master/diagnostics/build-visual/SKILL.md",
+      "reason": "Exact contextual false positives individually reviewed in sidecar SHA256 f0ed1e5fd15d7bcc499051a7342a86684fc17cca2e9082ad63182f7b96724971; source 1b3212f0ba9fc58f7675877be9cf0ea0d8283ee8; original findings c35a55549005cedd65827c88e1aec775a0c579dd. Reasons and source hashes are recorded per review key. No new findings or coverage gaps accepted."
+    },
+    {
+      "hash": "sha256:cdb55675967a62d31b462a09b12901c20a228d6def919d1667368db0c356796e",
+      "rule_id": "P2",
+      "file": "employees/specialized/wordpress-master/diagnostics/build-visual/SKILL.md",
+      "reason": "Exact contextual false positives individually reviewed in sidecar SHA256 f0ed1e5fd15d7bcc499051a7342a86684fc17cca2e9082ad63182f7b96724971; source 1b3212f0ba9fc58f7675877be9cf0ea0d8283ee8; original findings c35a55549005cedd65827c88e1aec775a0c579dd. Reasons and source hashes are recorded per review key. No new findings or coverage gaps accepted."
+    },
+    {
+      "hash": "sha256:43c58a91202c8d26ce7e16654ec693d589d90c638be2c142c35525422c59a5f0",
+      "rule_id": "P2",
+      "file": "employees/specialized/wordpress-master/diagnostics/build-visual/SKILL.md",
+      "reason": "Exact contextual false positives individually reviewed in sidecar SHA256 f0ed1e5fd15d7bcc499051a7342a86684fc17cca2e9082ad63182f7b96724971; source 1b3212f0ba9fc58f7675877be9cf0ea0d8283ee8; original findings c35a55549005cedd65827c88e1aec775a0c579dd. Reasons and source hashes are recorded per review key. No new findings or coverage gaps accepted."
+    },
+    {
+      "hash": "sha256:7604bcbaef4fdf6d1c29a1693f9a9260a9590f50520deeddce40e0218c23ed4d",
+      "rule_id": "P2",
+      "file": "employees/specialized/wordpress-master/diagnostics/build-visual/SKILL.md",
+      "reason": "Exact contextual false positives individually reviewed in sidecar SHA256 f0ed1e5fd15d7bcc499051a7342a86684fc17cca2e9082ad63182f7b96724971; source 1b3212f0ba9fc58f7675877be9cf0ea0d8283ee8; original findings c35a55549005cedd65827c88e1aec775a0c579dd. Reasons and source hashes are recorded per review key. No new findings or coverage gaps accepted."
+    },
+    {
+      "hash": "sha256:6d057f838e84efeb9d173d59f4b71762e27d8f2d6ca5216f39b1cbcb665e1128",
+      "rule_id": "P2",
+      "file": "employees/specialized/wordpress-master/diagnostics/build-visual/SKILL.md",
+      "reason": "Exact contextual false positives individually reviewed in sidecar SHA256 f0ed1e5fd15d7bcc499051a7342a86684fc17cca2e9082ad63182f7b96724971; source 1b3212f0ba9fc58f7675877be9cf0ea0d8283ee8; original findings c35a55549005cedd65827c88e1aec775a0c579dd. Reasons and source hashes are recorded per review key. No new findings or coverage gaps accepted."
+    },
+    {
+      "hash": "sha256:7f77634d4619b778facd945a7985b6d850de13b08fb488258c519c9eeb78fa3b",
+      "rule_id": "P2",
+      "file": "employees/specialized/wordpress-master/diagnostics/build-visual/SKILL.md",
+      "reason": "Exact contextual false positives individually reviewed in sidecar SHA256 f0ed1e5fd15d7bcc499051a7342a86684fc17cca2e9082ad63182f7b96724971; source 1b3212f0ba9fc58f7675877be9cf0ea0d8283ee8; original findings c35a55549005cedd65827c88e1aec775a0c579dd. Reasons and source hashes are recorded per review key. No new findings or coverage gaps accepted."
+    },
+    {
+      "hash": "sha256:2e8a869573f3fcafee301aca580cb29824b3ca60755f2abac7b0d035d28eb7ac",
+      "rule_id": "P2",
+      "file": "employees/specialized/wordpress-master/diagnostics/build-visual/SKILL.md",
+      "reason": "Exact contextual false positives individually reviewed in sidecar SHA256 f0ed1e5fd15d7bcc499051a7342a86684fc17cca2e9082ad63182f7b96724971; source 1b3212f0ba9fc58f7675877be9cf0ea0d8283ee8; original findings c35a55549005cedd65827c88e1aec775a0c579dd. Reasons and source hashes are recorded per review key. No new findings or coverage gaps accepted."
+    },
+    {
+      "hash": "sha256:8aeaadb770886041724d7b061b5ac81447c71b063c1eb5d7ad8621ba8fa3d78a",
+      "rule_id": "P1",
+      "file": "employees/specialized/wordpress-master/diagnostics/plugin-conflicts/SKILL.md",
+      "reason": "Exact contextual false positives individually reviewed in sidecar SHA256 f0ed1e5fd15d7bcc499051a7342a86684fc17cca2e9082ad63182f7b96724971; source 1b3212f0ba9fc58f7675877be9cf0ea0d8283ee8; original findings c35a55549005cedd65827c88e1aec775a0c579dd. Reasons and source hashes are recorded per review key. No new findings or coverage gaps accepted."
+    },
+    {
+      "hash": "sha256:21930a8ca29285fb37cfe671fca44a7da1b9496005e191406ab0e94ec9913901",
+      "rule_id": "P2",
+      "file": "employees/specialized/wordpress-master/wp-modern-engineering-methodology.md",
+      "reason": "Exact contextual false positives individually reviewed in sidecar SHA256 f0ed1e5fd15d7bcc499051a7342a86684fc17cca2e9082ad63182f7b96724971; source 1b3212f0ba9fc58f7675877be9cf0ea0d8283ee8; original findings c35a55549005cedd65827c88e1aec775a0c579dd. Reasons and source hashes are recorded per review key. No new findings or coverage gaps accepted."
+    },
+    {
+      "hash": "sha256:9fa9bd3d3bdda6eeac838c253216e62be6624a6100b0163fc94d44b0f1d4fc76",
+      "rule_id": "RA1",
+      "file": "employees/specialized/wordpress-master/diagnostics/build-git/SKILL.md",
+      "reason": "Exact contextual false positives individually reviewed in sidecar SHA256 f0ed1e5fd15d7bcc499051a7342a86684fc17cca2e9082ad63182f7b96724971; source 1b3212f0ba9fc58f7675877be9cf0ea0d8283ee8; original findings c35a55549005cedd65827c88e1aec775a0c579dd. Reasons and source hashes are recorded per review key. No new findings or coverage gaps accepted."
+    },
+    {
+      "hash": "sha256:7c3a5326df26158d7329a4ce66aed747e4406f77710a0983cf682792bc77f679",
+      "rule_id": "RA1",
+      "file": "employees/specialized/wordpress-master/diagnostics/build-modify/SKILL.md",
+      "reason": "Exact contextual false positives individually reviewed in sidecar SHA256 f0ed1e5fd15d7bcc499051a7342a86684fc17cca2e9082ad63182f7b96724971; source 1b3212f0ba9fc58f7675877be9cf0ea0d8283ee8; original findings c35a55549005cedd65827c88e1aec775a0c579dd. Reasons and source hashes are recorded per review key. No new findings or coverage gaps accepted."
+    },
+    {
+      "hash": "sha256:6c7752678dbb1ddb401251cb4300403c592ce242ea92a47c75dc9444fbb02f4e",
+      "rule_id": "RA1",
+      "file": "employees/specialized/wordpress-master/diagnostics/diagnostic-file-permissions/SKILL.md",
+      "reason": "Exact contextual false positives individually reviewed in sidecar SHA256 f0ed1e5fd15d7bcc499051a7342a86684fc17cca2e9082ad63182f7b96724971; source 1b3212f0ba9fc58f7675877be9cf0ea0d8283ee8; original findings c35a55549005cedd65827c88e1aec775a0c579dd. Reasons and source hashes are recorded per review key. No new findings or coverage gaps accepted."
+    },
+    {
+      "hash": "sha256:b3349e7112629c8a4ed5bccff78ef9d2a7a2069ee1512dae0b234918e51dc2df",
+      "rule_id": "RA1",
+      "file": "employees/specialized/wordpress-master/diagnostics/diagnostic-file-permissions/SKILL.md",
+      "reason": "Exact contextual false positives individually reviewed in sidecar SHA256 f0ed1e5fd15d7bcc499051a7342a86684fc17cca2e9082ad63182f7b96724971; source 1b3212f0ba9fc58f7675877be9cf0ea0d8283ee8; original findings c35a55549005cedd65827c88e1aec775a0c579dd. Reasons and source hashes are recorded per review key. No new findings or coverage gaps accepted."
+    },
+    {
+      "hash": "sha256:9d48d6e867dd2e97145dde3eda6b5cf7646627b326464a5a75b3476d9f512b0c",
+      "rule_id": "TM1",
+      "file": "employees/specialized/wordpress-master/diagnostics/build-mcp/SKILL.md",
+      "reason": "Exact contextual false positives individually reviewed in sidecar SHA256 f0ed1e5fd15d7bcc499051a7342a86684fc17cca2e9082ad63182f7b96724971; source 1b3212f0ba9fc58f7675877be9cf0ea0d8283ee8; original findings c35a55549005cedd65827c88e1aec775a0c579dd. Reasons and source hashes are recorded per review key. No new findings or coverage gaps accepted."
+    },
+    {
+      "hash": "sha256:6620ab5bb6da3b722448de424e26cdb676d6d69fa459f71b8c49aa6024b09e56",
+      "rule_id": "TM1",
+      "file": "employees/specialized/wordpress-master/diagnostics/build-scaffold/SKILL.md",
+      "reason": "Exact contextual false positives individually reviewed in sidecar SHA256 f0ed1e5fd15d7bcc499051a7342a86684fc17cca2e9082ad63182f7b96724971; source 1b3212f0ba9fc58f7675877be9cf0ea0d8283ee8; original findings c35a55549005cedd65827c88e1aec775a0c579dd. Reasons and source hashes are recorded per review key. No new findings or coverage gaps accepted."
+    },
+    {
+      "hash": "sha256:a9239c17b27a1e46d4bb396025625cbadb376e3a702e6fccb75ba1e8f4b1efb8",
+      "rule_id": "TM1",
+      "file": "employees/specialized/wordpress-master/diagnostics/build-scaffold/SKILL.md",
+      "reason": "Exact contextual false positives individually reviewed in sidecar SHA256 f0ed1e5fd15d7bcc499051a7342a86684fc17cca2e9082ad63182f7b96724971; source 1b3212f0ba9fc58f7675877be9cf0ea0d8283ee8; original findings c35a55549005cedd65827c88e1aec775a0c579dd. Reasons and source hashes are recorded per review key. No new findings or coverage gaps accepted."
+    },
+    {
+      "hash": "sha256:a79bb38ae6a3d92763d0b72cb555532ad43efb231abc389c9dc6d8c4ec0eaec5",
+      "rule_id": "TM1",
+      "file": "employees/specialized/wordpress-master/diagnostics/build-scrape/SKILL.md",
+      "reason": "Exact contextual false positives individually reviewed in sidecar SHA256 f0ed1e5fd15d7bcc499051a7342a86684fc17cca2e9082ad63182f7b96724971; source 1b3212f0ba9fc58f7675877be9cf0ea0d8283ee8; original findings c35a55549005cedd65827c88e1aec775a0c579dd. Reasons and source hashes are recorded per review key. No new findings or coverage gaps accepted."
+    },
+    {
+      "hash": "sha256:d51889b24fdf792aff3df37b097a50365c7dbe85814aaedbe3f357ef39a61c82",
+      "rule_id": "TM3",
+      "file": "employees/specialized/wordpress-master/diagnostics/diagnostic-arch-narrative/SKILL.md",
+      "reason": "Exact contextual false positives individually reviewed in sidecar SHA256 f0ed1e5fd15d7bcc499051a7342a86684fc17cca2e9082ad63182f7b96724971; source 1b3212f0ba9fc58f7675877be9cf0ea0d8283ee8; original findings c35a55549005cedd65827c88e1aec775a0c579dd. Reasons and source hashes are recorded per review key. No new findings or coverage gaps accepted."
+    },
+    {
+      "hash": "sha256:44eb22fe735036736b7f3c1af0378169474d254b33b990505af4d67efff5243b",
+      "rule_id": "TM3",
+      "file": "employees/specialized/wordpress-master/diagnostics/diagnostic-arch-narrative/SKILL.md",
+      "reason": "Exact contextual false positives individually reviewed in sidecar SHA256 f0ed1e5fd15d7bcc499051a7342a86684fc17cca2e9082ad63182f7b96724971; source 1b3212f0ba9fc58f7675877be9cf0ea0d8283ee8; original findings c35a55549005cedd65827c88e1aec775a0c579dd. Reasons and source hashes are recorded per review key. No new findings or coverage gaps accepted."
+    },
+    {
+      "hash": "sha256:4ef7e8bb93e2e47f0e777e6ff038c4366f7b9a5060df3a82a4c170c6cecee13f",
+      "rule_id": "TM3",
+      "file": "employees/specialized/wordpress-master/diagnostics/diagnostic-arch-narrative/SKILL.md",
+      "reason": "Exact contextual false positives individually reviewed in sidecar SHA256 f0ed1e5fd15d7bcc499051a7342a86684fc17cca2e9082ad63182f7b96724971; source 1b3212f0ba9fc58f7675877be9cf0ea0d8283ee8; original findings c35a55549005cedd65827c88e1aec775a0c579dd. Reasons and source hashes are recorded per review key. No new findings or coverage gaps accepted."
+    },
+    {
+      "hash": "sha256:c5c9a374e4f56dcc7d871e20ad87e9607f68e8e17e1c72e2a6a52fbcf264c1b4",
+      "rule_id": "TM1",
+      "file": "employees/specialized/wordpress-master/diagnostics/diagnostic-file-permissions/SKILL.md",
+      "reason": "Exact contextual false positives individually reviewed in sidecar SHA256 f0ed1e5fd15d7bcc499051a7342a86684fc17cca2e9082ad63182f7b96724971; source 1b3212f0ba9fc58f7675877be9cf0ea0d8283ee8; original findings c35a55549005cedd65827c88e1aec775a0c579dd. Reasons and source hashes are recorded per review key. No new findings or coverage gaps accepted."
+    },
+    {
+      "hash": "sha256:d4943792251de4377b8cf459b50ca26b9d3141bf2f23ef6ff86b9356dc1a741d",
+      "rule_id": "TM3",
+      "file": "employees/specialized/wordpress-master/diagnostics/diagnostic-file-permissions/SKILL.md",
+      "reason": "Exact contextual false positives individually reviewed in sidecar SHA256 f0ed1e5fd15d7bcc499051a7342a86684fc17cca2e9082ad63182f7b96724971; source 1b3212f0ba9fc58f7675877be9cf0ea0d8283ee8; original findings c35a55549005cedd65827c88e1aec775a0c579dd. Reasons and source hashes are recorded per review key. No new findings or coverage gaps accepted."
+    },
+    {
+      "hash": "sha256:c524ebc1f5731f9561bef0a0b35b565f81a693918c1404fc6b7a6073b276d77b",
+      "rule_id": "TM3",
+      "file": "employees/specialized/wordpress-master/diagnostics/diagnostic-file-permissions/SKILL.md",
+      "reason": "Exact contextual false positives individually reviewed in sidecar SHA256 f0ed1e5fd15d7bcc499051a7342a86684fc17cca2e9082ad63182f7b96724971; source 1b3212f0ba9fc58f7675877be9cf0ea0d8283ee8; original findings c35a55549005cedd65827c88e1aec775a0c579dd. Reasons and source hashes are recorded per review key. No new findings or coverage gaps accepted."
+    },
+    {
+      "hash": "sha256:8b4e8d0ac264dd75fb2b66c942566538c8fe95d155421387f8431d5e3e02794f",
+      "rule_id": "TM3",
+      "file": "employees/specialized/wordpress-master/diagnostics/diagnostic-file-permissions/SKILL.md",
+      "reason": "Exact contextual false positives individually reviewed in sidecar SHA256 f0ed1e5fd15d7bcc499051a7342a86684fc17cca2e9082ad63182f7b96724971; source 1b3212f0ba9fc58f7675877be9cf0ea0d8283ee8; original findings c35a55549005cedd65827c88e1aec775a0c579dd. Reasons and source hashes are recorded per review key. No new findings or coverage gaps accepted."
+    },
+    {
+      "hash": "sha256:c8534c3c8beb4b7d96d7598029cef667b25578b142abeabe66b335f505ffcdab",
+      "rule_id": "TM3",
+      "file": "employees/specialized/wordpress-master/diagnostics/diagnostic-file-permissions/SKILL.md",
+      "reason": "Exact contextual false positives individually reviewed in sidecar SHA256 f0ed1e5fd15d7bcc499051a7342a86684fc17cca2e9082ad63182f7b96724971; source 1b3212f0ba9fc58f7675877be9cf0ea0d8283ee8; original findings c35a55549005cedd65827c88e1aec775a0c579dd. Reasons and source hashes are recorded per review key. No new findings or coverage gaps accepted."
+    },
+    {
+      "hash": "sha256:d587b9824ff1f7d14e6892e1b847b28d649a7a462d7a727e081cf48dd4258499",
+      "rule_id": "TM3",
+      "file": "employees/specialized/wordpress-master/diagnostics/diagnostic-file-permissions/SKILL.md",
+      "reason": "Exact contextual false positives individually reviewed in sidecar SHA256 f0ed1e5fd15d7bcc499051a7342a86684fc17cca2e9082ad63182f7b96724971; source 1b3212f0ba9fc58f7675877be9cf0ea0d8283ee8; original findings c35a55549005cedd65827c88e1aec775a0c579dd. Reasons and source hashes are recorded per review key. No new findings or coverage gaps accepted."
+    },
+    {
+      "hash": "sha256:139243349ae831c6134c0b7edfaf9e572d188cf2ca2fec60030f4b66ea3906ad",
+      "rule_id": "TM3",
+      "file": "employees/specialized/wordpress-master/diagnostics/diagnostic-file-permissions/SKILL.md",
+      "reason": "Exact contextual false positives individually reviewed in sidecar SHA256 f0ed1e5fd15d7bcc499051a7342a86684fc17cca2e9082ad63182f7b96724971; source 1b3212f0ba9fc58f7675877be9cf0ea0d8283ee8; original findings c35a55549005cedd65827c88e1aec775a0c579dd. Reasons and source hashes are recorded per review key. No new findings or coverage gaps accepted."
+    },
+    {
+      "hash": "sha256:21246d9568a8d81b4202aea42ebb417b58d70c6c8e0dfda5b6017cac009b8136",
+      "rule_id": "TM3",
+      "file": "employees/specialized/wordpress-master/diagnostics/diagnostic-file-permissions/SKILL.md",
+      "reason": "Exact contextual false positives individually reviewed in sidecar SHA256 f0ed1e5fd15d7bcc499051a7342a86684fc17cca2e9082ad63182f7b96724971; source 1b3212f0ba9fc58f7675877be9cf0ea0d8283ee8; original findings c35a55549005cedd65827c88e1aec775a0c579dd. Reasons and source hashes are recorded per review key. No new findings or coverage gaps accepted."
+    },
+    {
+      "hash": "sha256:82099ec0928755e96b3ac6f0950fdd77427d675a0a4ded53691a8e4131a28cb3",
+      "rule_id": "TM3",
+      "file": "employees/specialized/wordpress-master/diagnostics/diagnostic-file-permissions/SKILL.md",
+      "reason": "Exact contextual false positives individually reviewed in sidecar SHA256 f0ed1e5fd15d7bcc499051a7342a86684fc17cca2e9082ad63182f7b96724971; source 1b3212f0ba9fc58f7675877be9cf0ea0d8283ee8; original findings c35a55549005cedd65827c88e1aec775a0c579dd. Reasons and source hashes are recorded per review key. No new findings or coverage gaps accepted."
+    },
+    {
+      "hash": "sha256:d2b5e3382aae835d163c4532310f7360a96739550fa13b53c13a64caaedc83d1",
+      "rule_id": "TM3",
+      "file": "employees/specialized/wordpress-master/diagnostics/diagnostic-file-permissions/SKILL.md",
+      "reason": "Exact contextual false positives individually reviewed in sidecar SHA256 f0ed1e5fd15d7bcc499051a7342a86684fc17cca2e9082ad63182f7b96724971; source 1b3212f0ba9fc58f7675877be9cf0ea0d8283ee8; original findings c35a55549005cedd65827c88e1aec775a0c579dd. Reasons and source hashes are recorded per review key. No new findings or coverage gaps accepted."
+    },
+    {
+      "hash": "sha256:0a0f0d996672b166f90ff0c75e576ee1728fecc3e4e86054e813730effb22787",
+      "rule_id": "TM3",
+      "file": "employees/specialized/wordpress-master/diagnostics/diagnostic-file-permissions/SKILL.md",
+      "reason": "Exact contextual false positives individually reviewed in sidecar SHA256 f0ed1e5fd15d7bcc499051a7342a86684fc17cca2e9082ad63182f7b96724971; source 1b3212f0ba9fc58f7675877be9cf0ea0d8283ee8; original findings c35a55549005cedd65827c88e1aec775a0c579dd. Reasons and source hashes are recorded per review key. No new findings or coverage gaps accepted."
+    },
+    {
+      "hash": "sha256:0f193b20ae19a363cfabdf4cc2cc1ce27d7c3d5d9e170d6f486d3be08b49ccc4",
+      "rule_id": "TM3",
+      "file": "employees/specialized/wordpress-master/diagnostics/diagnostic-file-permissions/SKILL.md",
+      "reason": "Exact contextual false positives individually reviewed in sidecar SHA256 f0ed1e5fd15d7bcc499051a7342a86684fc17cca2e9082ad63182f7b96724971; source 1b3212f0ba9fc58f7675877be9cf0ea0d8283ee8; original findings c35a55549005cedd65827c88e1aec775a0c579dd. Reasons and source hashes are recorded per review key. No new findings or coverage gaps accepted."
+    },
+    {
+      "hash": "sha256:9770181349d75a72210b267b3071034254607e51c54b844d4f74b3f7bc11738f",
+      "rule_id": "TM3",
+      "file": "employees/specialized/wordpress-master/diagnostics/diagnostic-file-permissions/SKILL.md",
+      "reason": "Exact contextual false positives individually reviewed in sidecar SHA256 f0ed1e5fd15d7bcc499051a7342a86684fc17cca2e9082ad63182f7b96724971; source 1b3212f0ba9fc58f7675877be9cf0ea0d8283ee8; original findings c35a55549005cedd65827c88e1aec775a0c579dd. Reasons and source hashes are recorded per review key. No new findings or coverage gaps accepted."
+    },
+    {
+      "hash": "sha256:8dc84c3e53b87e22fa3c37220524d3c801c19b65d6264a7be8dbb764c88cff12",
+      "rule_id": "TM3",
+      "file": "employees/specialized/wordpress-master/diagnostics/diagnostic-file-permissions/SKILL.md",
+      "reason": "Exact contextual false positives individually reviewed in sidecar SHA256 f0ed1e5fd15d7bcc499051a7342a86684fc17cca2e9082ad63182f7b96724971; source 1b3212f0ba9fc58f7675877be9cf0ea0d8283ee8; original findings c35a55549005cedd65827c88e1aec775a0c579dd. Reasons and source hashes are recorded per review key. No new findings or coverage gaps accepted."
+    },
+    {
+      "hash": "sha256:d7880a8b5b5e56715e1c558ca398ec32b765dda2387dcbbb9aa500d06de1d6de",
+      "rule_id": "TM3",
+      "file": "employees/specialized/wordpress-master/diagnostics/diagnostic-file-permissions/SKILL.md",
+      "reason": "Exact contextual false positives individually reviewed in sidecar SHA256 f0ed1e5fd15d7bcc499051a7342a86684fc17cca2e9082ad63182f7b96724971; source 1b3212f0ba9fc58f7675877be9cf0ea0d8283ee8; original findings c35a55549005cedd65827c88e1aec775a0c579dd. Reasons and source hashes are recorded per review key. No new findings or coverage gaps accepted."
+    },
+    {
+      "hash": "sha256:004a86627e86fdb87e1a7fb5cd122e3e9a36629b410e337aa8ac0cd8e0a6654b",
+      "rule_id": "TM3",
+      "file": "employees/specialized/wordpress-master/diagnostics/diagnostic-file-permissions/SKILL.md",
+      "reason": "Exact contextual false positives individually reviewed in sidecar SHA256 f0ed1e5fd15d7bcc499051a7342a86684fc17cca2e9082ad63182f7b96724971; source 1b3212f0ba9fc58f7675877be9cf0ea0d8283ee8; original findings c35a55549005cedd65827c88e1aec775a0c579dd. Reasons and source hashes are recorded per review key. No new findings or coverage gaps accepted."
+    },
+    {
+      "hash": "sha256:879a5f889f8376225c02eb46af88589527595c868c1b558aa390baaaad110d67",
+      "rule_id": "TM3",
+      "file": "employees/specialized/wordpress-master/diagnostics/diagnostic-file-permissions/SKILL.md",
+      "reason": "Exact contextual false positives individually reviewed in sidecar SHA256 f0ed1e5fd15d7bcc499051a7342a86684fc17cca2e9082ad63182f7b96724971; source 1b3212f0ba9fc58f7675877be9cf0ea0d8283ee8; original findings c35a55549005cedd65827c88e1aec775a0c579dd. Reasons and source hashes are recorded per review key. No new findings or coverage gaps accepted."
+    },
+    {
+      "hash": "sha256:6691b117d79b9ab3ab1a1dc9598ef26c6658f3b0899d0bff6daff799e93b4bc6",
+      "rule_id": "TM3",
+      "file": "employees/specialized/wordpress-master/diagnostics/diagnostic-file-permissions/SKILL.md",
+      "reason": "Exact contextual false positives individually reviewed in sidecar SHA256 f0ed1e5fd15d7bcc499051a7342a86684fc17cca2e9082ad63182f7b96724971; source 1b3212f0ba9fc58f7675877be9cf0ea0d8283ee8; original findings c35a55549005cedd65827c88e1aec775a0c579dd. Reasons and source hashes are recorded per review key. No new findings or coverage gaps accepted."
+    },
+    {
+      "hash": "sha256:65de617e9c93ab0b27086863a467efde4ce359a080b9f6e8164eb90719bc0981",
+      "rule_id": "TM3",
+      "file": "employees/specialized/wordpress-master/diagnostics/diagnostic-file-permissions/SKILL.md",
+      "reason": "Exact contextual false positives individually reviewed in sidecar SHA256 f0ed1e5fd15d7bcc499051a7342a86684fc17cca2e9082ad63182f7b96724971; source 1b3212f0ba9fc58f7675877be9cf0ea0d8283ee8; original findings c35a55549005cedd65827c88e1aec775a0c579dd. Reasons and source hashes are recorded per review key. No new findings or coverage gaps accepted."
+    },
+    {
+      "hash": "sha256:29cbaa6c4a92ff5cd05069508484977a37da34e7b976be5ca1fe6d1615045101",
+      "rule_id": "TM3",
+      "file": "employees/specialized/wordpress-master/diagnostics/diagnostic-file-permissions/SKILL.md",
+      "reason": "Exact contextual false positives individually reviewed in sidecar SHA256 f0ed1e5fd15d7bcc499051a7342a86684fc17cca2e9082ad63182f7b96724971; source 1b3212f0ba9fc58f7675877be9cf0ea0d8283ee8; original findings c35a55549005cedd65827c88e1aec775a0c579dd. Reasons and source hashes are recorded per review key. No new findings or coverage gaps accepted."
+    },
+    {
+      "hash": "sha256:a6593155cde9fa95ae7a944df12644e6e76da511cce4014eea3b9d963e7cbbf7",
+      "rule_id": "TM3",
+      "file": "employees/specialized/wordpress-master/diagnostics/diagnostic-file-permissions/SKILL.md",
+      "reason": "Exact contextual false positives individually reviewed in sidecar SHA256 f0ed1e5fd15d7bcc499051a7342a86684fc17cca2e9082ad63182f7b96724971; source 1b3212f0ba9fc58f7675877be9cf0ea0d8283ee8; original findings c35a55549005cedd65827c88e1aec775a0c579dd. Reasons and source hashes are recorded per review key. No new findings or coverage gaps accepted."
+    },
+    {
+      "hash": "sha256:e51bba432b7902278629c7746e29c477aa025d723c40f2d8099e79a5d5968e52",
+      "rule_id": "TM3",
+      "file": "employees/specialized/wordpress-master/diagnostics/diagnostic-file-permissions/SKILL.md",
+      "reason": "Exact contextual false positives individually reviewed in sidecar SHA256 f0ed1e5fd15d7bcc499051a7342a86684fc17cca2e9082ad63182f7b96724971; source 1b3212f0ba9fc58f7675877be9cf0ea0d8283ee8; original findings c35a55549005cedd65827c88e1aec775a0c579dd. Reasons and source hashes are recorded per review key. No new findings or coverage gaps accepted."
+    },
+    {
+      "hash": "sha256:bc8fa86e7d471952de76684d24e623f5aa3c217287723f2a056e68ab3b0d31cc",
+      "rule_id": "TM3",
+      "file": "employees/specialized/wordpress-master/diagnostics/diagnostic-file-permissions/SKILL.md",
+      "reason": "Exact contextual false positives individually reviewed in sidecar SHA256 f0ed1e5fd15d7bcc499051a7342a86684fc17cca2e9082ad63182f7b96724971; source 1b3212f0ba9fc58f7675877be9cf0ea0d8283ee8; original findings c35a55549005cedd65827c88e1aec775a0c579dd. Reasons and source hashes are recorded per review key. No new findings or coverage gaps accepted."
+    },
+    {
+      "hash": "sha256:e9b679879d12542ccdd20ca4fcc01fe08a73f05155e653e2cd7e373f42cbaaf3",
+      "rule_id": "TM3",
+      "file": "employees/specialized/wordpress-master/diagnostics/diagnostic-file-permissions/SKILL.md",
+      "reason": "Exact contextual false positives individually reviewed in sidecar SHA256 f0ed1e5fd15d7bcc499051a7342a86684fc17cca2e9082ad63182f7b96724971; source 1b3212f0ba9fc58f7675877be9cf0ea0d8283ee8; original findings c35a55549005cedd65827c88e1aec775a0c579dd. Reasons and source hashes are recorded per review key. No new findings or coverage gaps accepted."
+    },
+    {
+      "hash": "sha256:3190998b9019e0bb71ed704c041de8e94ddce9c5f081cbac3423945ca6990014",
+      "rule_id": "TM3",
+      "file": "employees/specialized/wordpress-master/diagnostics/diagnostic-file-permissions/SKILL.md",
+      "reason": "Exact contextual false positives individually reviewed in sidecar SHA256 f0ed1e5fd15d7bcc499051a7342a86684fc17cca2e9082ad63182f7b96724971; source 1b3212f0ba9fc58f7675877be9cf0ea0d8283ee8; original findings c35a55549005cedd65827c88e1aec775a0c579dd. Reasons and source hashes are recorded per review key. No new findings or coverage gaps accepted."
+    },
+    {
+      "hash": "sha256:f3dea20a503b08c67a65e3fb359cdb236501351db6f04c8ac4633707f1c1f49e",
+      "rule_id": "TM3",
+      "file": "employees/specialized/wordpress-master/diagnostics/diagnostic-file-permissions/SKILL.md",
+      "reason": "Exact contextual false positives individually reviewed in sidecar SHA256 f0ed1e5fd15d7bcc499051a7342a86684fc17cca2e9082ad63182f7b96724971; source 1b3212f0ba9fc58f7675877be9cf0ea0d8283ee8; original findings c35a55549005cedd65827c88e1aec775a0c579dd. Reasons and source hashes are recorded per review key. No new findings or coverage gaps accepted."
+    },
+    {
+      "hash": "sha256:99b160607ad844ae0602adb8778aa52379f2c75c3173c0cb9888e7d45b6f01e9",
+      "rule_id": "TM3",
+      "file": "employees/specialized/wordpress-master/diagnostics/diagnostic-file-permissions/SKILL.md",
+      "reason": "Exact contextual false positives individually reviewed in sidecar SHA256 f0ed1e5fd15d7bcc499051a7342a86684fc17cca2e9082ad63182f7b96724971; source 1b3212f0ba9fc58f7675877be9cf0ea0d8283ee8; original findings c35a55549005cedd65827c88e1aec775a0c579dd. Reasons and source hashes are recorded per review key. No new findings or coverage gaps accepted."
+    },
+    {
+      "hash": "sha256:0bad0e6c8e97cf2a751f6c2d386aefa8122e9ac6f18ecdf90c310dd459ad6d1f",
+      "rule_id": "TM3",
+      "file": "employees/specialized/wordpress-master/diagnostics/diagnostic-file-permissions/SKILL.md",
+      "reason": "Exact contextual false positives individually reviewed in sidecar SHA256 f0ed1e5fd15d7bcc499051a7342a86684fc17cca2e9082ad63182f7b96724971; source 1b3212f0ba9fc58f7675877be9cf0ea0d8283ee8; original findings c35a55549005cedd65827c88e1aec775a0c579dd. Reasons and source hashes are recorded per review key. No new findings or coverage gaps accepted."
+    },
+    {
+      "hash": "sha256:288a063aa726ce297ad1c7648f607c8a15725d5398205e777e013bd5bef01a99",
+      "rule_id": "TM3",
+      "file": "employees/specialized/wordpress-master/diagnostics/diagnostic-file-permissions/SKILL.md",
+      "reason": "Exact contextual false positives individually reviewed in sidecar SHA256 f0ed1e5fd15d7bcc499051a7342a86684fc17cca2e9082ad63182f7b96724971; source 1b3212f0ba9fc58f7675877be9cf0ea0d8283ee8; original findings c35a55549005cedd65827c88e1aec775a0c579dd. Reasons and source hashes are recorded per review key. No new findings or coverage gaps accepted."
+    },
+    {
+      "hash": "sha256:b2ddf9e4c9487d1bf5bb657d9382a20a66509bc54c91fcc4d82229463b090013",
+      "rule_id": "TM3",
+      "file": "employees/specialized/wordpress-master/diagnostics/diagnostic-file-permissions/SKILL.md",
+      "reason": "Exact contextual false positives individually reviewed in sidecar SHA256 f0ed1e5fd15d7bcc499051a7342a86684fc17cca2e9082ad63182f7b96724971; source 1b3212f0ba9fc58f7675877be9cf0ea0d8283ee8; original findings c35a55549005cedd65827c88e1aec775a0c579dd. Reasons and source hashes are recorded per review key. No new findings or coverage gaps accepted."
+    },
+    {
+      "hash": "sha256:52d9dfe78b8d509cea602a9e6eb5e1a42c2a2f933bd0a35b3a06f8ac3dee4641",
+      "rule_id": "TM3",
+      "file": "employees/specialized/wordpress-master/diagnostics/diagnostic-file-permissions/SKILL.md",
+      "reason": "Exact contextual false positives individually reviewed in sidecar SHA256 f0ed1e5fd15d7bcc499051a7342a86684fc17cca2e9082ad63182f7b96724971; source 1b3212f0ba9fc58f7675877be9cf0ea0d8283ee8; original findings c35a55549005cedd65827c88e1aec775a0c579dd. Reasons and source hashes are recorded per review key. No new findings or coverage gaps accepted."
+    },
+    {
+      "hash": "sha256:c4a2eff2d6f9d609e890e66c7ce0e15c84aed2e55183c84b4ec515fbacbb5c97",
+      "rule_id": "TM3",
+      "file": "employees/specialized/wordpress-master/diagnostics/diagnostic-file-permissions/SKILL.md",
+      "reason": "Exact contextual false positives individually reviewed in sidecar SHA256 f0ed1e5fd15d7bcc499051a7342a86684fc17cca2e9082ad63182f7b96724971; source 1b3212f0ba9fc58f7675877be9cf0ea0d8283ee8; original findings c35a55549005cedd65827c88e1aec775a0c579dd. Reasons and source hashes are recorded per review key. No new findings or coverage gaps accepted."
+    },
+    {
+      "hash": "sha256:5949f9bfa76e3c4160a030d3bad407599ae3f86d3313d418ea36f908623e2d6c",
+      "rule_id": "TM3",
+      "file": "employees/specialized/wordpress-master/diagnostics/diagnostic-file-permissions/SKILL.md",
+      "reason": "Exact contextual false positives individually reviewed in sidecar SHA256 f0ed1e5fd15d7bcc499051a7342a86684fc17cca2e9082ad63182f7b96724971; source 1b3212f0ba9fc58f7675877be9cf0ea0d8283ee8; original findings c35a55549005cedd65827c88e1aec775a0c579dd. Reasons and source hashes are recorded per review key. No new findings or coverage gaps accepted."
+    },
+    {
+      "hash": "sha256:e0ac56b57b4bf7097872881fc729b9f8a91d0d129dd3dc51618b2bb6d5049578",
+      "rule_id": "TM3",
+      "file": "employees/specialized/wordpress-master/diagnostics/diagnostic-file-permissions/SKILL.md",
+      "reason": "Exact contextual false positives individually reviewed in sidecar SHA256 f0ed1e5fd15d7bcc499051a7342a86684fc17cca2e9082ad63182f7b96724971; source 1b3212f0ba9fc58f7675877be9cf0ea0d8283ee8; original findings c35a55549005cedd65827c88e1aec775a0c579dd. Reasons and source hashes are recorded per review key. No new findings or coverage gaps accepted."
+    },
+    {
+      "hash": "sha256:4dce449425f18c0552df50fee0b898fb956120fcc3fa9cd7bed9ee16db486aa2",
+      "rule_id": "TM3",
+      "file": "employees/specialized/wordpress-master/diagnostics/trend-tracker/SKILL.md",
+      "reason": "Exact contextual false positives individually reviewed in sidecar SHA256 f0ed1e5fd15d7bcc499051a7342a86684fc17cca2e9082ad63182f7b96724971; source 1b3212f0ba9fc58f7675877be9cf0ea0d8283ee8; original findings c35a55549005cedd65827c88e1aec775a0c579dd. Reasons and source hashes are recorded per review key. No new findings or coverage gaps accepted."
+    },
+    {
+      "hash": "sha256:388af056230fa1152bc81965c93bd6990aad4312964118aff5ce75343af5bec6",
+      "rule_id": "YR2",
+      "file": "employees/specialized/wordpress-master/diagnostics/diagnostic-malware-scan/SKILL.md",
+      "reason": "Exact contextual false positives individually reviewed in sidecar SHA256 f0ed1e5fd15d7bcc499051a7342a86684fc17cca2e9082ad63182f7b96724971; source 1b3212f0ba9fc58f7675877be9cf0ea0d8283ee8; original findings c35a55549005cedd65827c88e1aec775a0c579dd. Reasons and source hashes are recorded per review key. No new findings or coverage gaps accepted."
+    }
+  ]
+}

@@ -1,0 +1,47 @@
+{
+  "results": [
+    {
+      "scope": "scope-006",
+      "nativeExit": 0,
+      "nativeComplete": true,
+      "nativeCoverage": 100,
+      "nativeRecommendation": "SAFE",
+      "nativeScore": 0,
+      "nativeActiveFindings": 0,
+      "requiresFinalOccurrenceReconciliation": true,
+      "releaseClearance": false,
+      "reportSha256": "812f0fb4cbccd68586510728b0b64f94d7919376eaddb27641be226dcfeaa697",
+      "baselineSha256": "e39b722c9520cec6fd2369614b55a04a22f8c191ba585c33d371b24048801f2d"
+    },
+    {
+      "scope": "scope-007",
+      "nativeExit": 0,
+      "nativeComplete": true,
+      "nativeCoverage": 100,
+      "nativeRecommendation": "SAFE",
+      "nativeScore": 0,
+      "nativeActiveFindings": 0,
+      "requiresFinalOccurrenceReconciliation": true,
+      "releaseClearance": false,
+      "reportSha256": "98b9ab8fe6e80291090a28c3efbf4d2780276e69dca0d93e0cdd088de2833af6",
+      "baselineSha256": "5bc6332b305c29e1e7ee37e920e2ccf77f59636885f84d12248ad895904652a4"
+    },
+    {
+      "scope": "scope-008",
+      "nativeExit": 0,
+      "nativeComplete": true,
+      "nativeCoverage": 100,
+      "nativeRecommendation": "SAFE",
+      "nativeScore": 0,
+      "nativeActiveFindings": 0,
+      "requiresFinalOccurrenceReconciliation": true,
+      "releaseClearance": false,
+      "reportSha256": "9aa4357074a324d71c0fa6174da23535a863cc55fbff670d7c35a7f801010519",
+      "baselineSha256": "43c1a5c2b90cefe431f290b7ca9cd382a1dfd8fc03b93365a24f9698b330b76a"
+    }
+  ],
+  "newVendorCommands": 6,
+  "repeatedCompletedCommands": 0,
+  "sourceAndVendorUnchanged": true,
+  "releaseClearance": false
+}

@@ -1,0 +1,159 @@
+{
+  "sourceRevision": "1b3212f0ba9fc58f7675877be9cf0ea0d8283ee8",
+  "scannerVersion": "2.13.2",
+  "aliases": {
+    "1cfe012553b88d14aace10dc7228f46cb3b8f20a09df316e5fe395c8f946f04b": {
+      "rawReviewKey": "48c839be9ee6e59b48c84b1137b275c53ae79d65522ab50df162b995987baa8d",
+      "scope": "scope-003",
+      "file": "employees/quality-security/assurance/release_candidate.py",
+      "sourceSHA256": "88151ac2653cc772281ddd82de065518c3e1ebc2bf535dfa0e090239929fdea8",
+      "rawFindingExact": "subprocess.run([\"git\", \"-C\", str(repo), \"merge-base\", \"--is-ancestor\", old, new], capture_output=True,\n                          env=env, timeout=60)",
+      "nativeFindingExact": "subprocess.run([\"git\", \"-C\", str(repo), \"merge-base\", \"--is-ancestor\", old, new], capture_output=True,\n                        env=env, timeout=60)",
+      "parsedAstSHA256": "892336c18b227e96464cb2ff5ed04652cd5a0cecab5f0bb5e1c80b662f2f882e",
+      "allOtherPublicFieldsIncludingColumnsIdentical": true,
+      "codeSnippetAndMatchFingerprintIdentical": true,
+      "reason": "Native active-report compaction reuses a representative matched expression while binding the exact occurrence snippet; native suppressed output retains the original expression. These exact AST4 expression strings differ only in insignificant Python formatting and parse to identical ASTs, preserving string constants and call arguments. This mapping applies only to the listed full identities in the frozen source/scanner."
+    }
+  },
+  "unknownInstances": [],
+  "snapshots": [
+    {
+      "scope": "scope-000",
+      "nativeComplete": true,
+      "coverage": 100.0,
+      "risk": {
+        "score": 0,
+        "severity": "LOW",
+        "recommendation": "SAFE",
+        "max_issue_severity": "NONE"
+      },
+      "active": 0,
+      "rawRows": 112,
+      "nativeSuppressedInstances": 114,
+      "reportSHA256": "411d2423662cff3d7e4b4577d5d3e80a92ef5105e1c5caed0b6dfcc591229c9a"
+    },
+    {
+      "scope": "scope-001",
+      "nativeComplete": true,
+      "coverage": 100.0,
+      "risk": {
+        "score": 0,
+        "severity": "LOW",
+        "recommendation": "SAFE",
+        "max_issue_severity": "NONE"
+      },
+      "active": 0,
+      "rawRows": 109,
+      "nativeSuppressedInstances": 116,
+      "reportSHA256": "a73fa9e11fed49fa0c4468f758614eaeca5868af078ac0b88fa4bf79561bd1a1"
+    },
+    {
+      "scope": "scope-002",
+      "nativeComplete": true,
+      "coverage": 100.0,
+      "risk": {
+        "score": 0,
+        "severity": "LOW",
+        "recommendation": "SAFE",
+        "max_issue_severity": "NONE"
+      },
+      "active": 0,
+      "rawRows": 48,
+      "nativeSuppressedInstances": 48,
+      "reportSHA256": "3aceb3ce228c1fa1156038f904a756262b529f6f295decd8b3b07ed29737d1c3"
+    },
+    {
+      "scope": "scope-003",
+      "nativeComplete": true,
+      "coverage": 100.0,
+      "risk": {
+        "score": 0,
+        "severity": "LOW",
+        "recommendation": "SAFE",
+        "max_issue_severity": "NONE"
+      },
+      "active": 0,
+      "rawRows": 68,
+      "nativeSuppressedInstances": 69,
+      "reportSHA256": "95a1663cb0f65f1bea21f97494045ae0e12c1da2ba19ec4c3a8546e0942b1405"
+    },
+    {
+      "scope": "scope-004",
+      "nativeComplete": true,
+      "coverage": 100.0,
+      "risk": {
+        "score": 0,
+        "severity": "LOW",
+        "recommendation": "SAFE",
+        "max_issue_severity": "NONE"
+      },
+      "active": 0,
+      "rawRows": 147,
+      "nativeSuppressedInstances": 147,
+      "reportSHA256": "cc64fc671b967a48dfac1ba35a7b4b484e4f9a26e38e63ca09fad5fafbc0e604"
+    },
+    {
+      "scope": "scope-005",
+      "nativeComplete": true,
+      "coverage": 100.0,
+      "risk": {
+        "score": 0,
+        "severity": "LOW",
+        "recommendation": "SAFE",
+        "max_issue_severity": "NONE"
+      },
+      "active": 0,
+      "rawRows": 31,
+      "nativeSuppressedInstances": 31,
+      "reportSHA256": "208685b55bbab57f559b830a4c82d406aa6b51c28812e91100514c65e9ddec32"
+    },
+    {
+      "scope": "scope-006",
+      "nativeComplete": true,
+      "coverage": 100.0,
+      "risk": {
+        "score": 0,
+        "severity": "LOW",
+        "recommendation": "SAFE",
+        "max_issue_severity": "NONE"
+      },
+      "active": 0,
+      "rawRows": 44,
+      "nativeSuppressedInstances": 44,
+      "reportSHA256": "812f0fb4cbccd68586510728b0b64f94d7919376eaddb27641be226dcfeaa697"
+    },
+    {
+      "scope": "scope-007",
+      "nativeComplete": true,
+      "coverage": 100.0,
+      "risk": {
+        "score": 0,
+        "severity": "LOW",
+        "recommendation": "SAFE",
+        "max_issue_severity": "NONE"
+      },
+      "active": 0,
+      "rawRows": 43,
+      "nativeSuppressedInstances": 43,
+      "reportSHA256": "98b9ab8fe6e80291090a28c3efbf4d2780276e69dca0d93e0cdd088de2833af6"
+    },
+    {
+      "scope": "scope-008",
+      "nativeComplete": true,
+      "coverage": 100.0,
+      "risk": {
+        "score": 0,
+        "severity": "LOW",
+        "recommendation": "SAFE",
+        "max_issue_severity": "NONE"
+      },
+      "active": 0,
+      "rawRows": 244,
+      "nativeSuppressedInstances": 244,
+      "reportSHA256": "9aa4357074a324d71c0fa6174da23535a863cc55fbff670d7c35a7f801010519"
+    }
+  ],
+  "vendorReportsUnchanged": true,
+  "notGeneralWhitespaceNormalization": true,
+  "releaseClearance": false
+}

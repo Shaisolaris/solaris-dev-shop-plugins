@@ -1,0 +1,643 @@
+{
+  "version": 2,
+  "scanner_version": "2.13.2",
+  "rules": [],
+  "fingerprints": [
+    {
+      "hash": "sha256:8a6eb4d22ee9707e3ba4e069af787bb644ca0164b3b8003fbb5332a8d3ca9a99",
+      "rule_id": "AST7",
+      "file": "employees/engineering/backend-developer/ledger_api.py",
+      "reason": "Exact contextual false positives individually reviewed in sidecar SHA256 f0ed1e5fd15d7bcc499051a7342a86684fc17cca2e9082ad63182f7b96724971; source 1b3212f0ba9fc58f7675877be9cf0ea0d8283ee8; original findings c35a55549005cedd65827c88e1aec775a0c579dd. Reasons and source hashes are recorded per review key. No new findings or coverage gaps accepted."
+    },
+    {
+      "hash": "sha256:d1e11d7fa95863c42a075df58ba0f9c95f8a70b5e0ec0bd598c6c9303dd4601e",
+      "rule_id": "AST7",
+      "file": "employees/engineering/backend-developer/ledger_api.py",
+      "reason": "Exact contextual false positives individually reviewed in sidecar SHA256 f0ed1e5fd15d7bcc499051a7342a86684fc17cca2e9082ad63182f7b96724971; source 1b3212f0ba9fc58f7675877be9cf0ea0d8283ee8; original findings c35a55549005cedd65827c88e1aec775a0c579dd. Reasons and source hashes are recorded per review key. No new findings or coverage gaps accepted."
+    },
+    {
+      "hash": "sha256:67efecea3c5604457fd172ccce6857328b1fd535d5ddb38330335b020761fb66",
+      "rule_id": "RP1",
+      "file": "employees/design/ui-ux-designer/design-intelligence/data/stacks/astro.csv",
+      "reason": "Exact contextual false positives individually reviewed in sidecar SHA256 f0ed1e5fd15d7bcc499051a7342a86684fc17cca2e9082ad63182f7b96724971; source 1b3212f0ba9fc58f7675877be9cf0ea0d8283ee8; original findings c35a55549005cedd65827c88e1aec775a0c579dd. Reasons and source hashes are recorded per review key. No new findings or coverage gaps accepted."
+    },
+    {
+      "hash": "sha256:cb4524efd4708cd8d85015b38779169a69e51ecbb54673f255a225b5fc98e01b",
+      "rule_id": "RP1",
+      "file": "employees/design/ui-ux-designer/design-intelligence/data/stacks/astro.csv",
+      "reason": "Exact contextual false positives individually reviewed in sidecar SHA256 f0ed1e5fd15d7bcc499051a7342a86684fc17cca2e9082ad63182f7b96724971; source 1b3212f0ba9fc58f7675877be9cf0ea0d8283ee8; original findings c35a55549005cedd65827c88e1aec775a0c579dd. Reasons and source hashes are recorded per review key. No new findings or coverage gaps accepted."
+    },
+    {
+      "hash": "sha256:6e30902dc9703a0d06cd67cab56340781502c288dad800c0d6624a8f6955a239",
+      "rule_id": "RP1",
+      "file": "employees/design/ui-ux-designer/design-intelligence/data/stacks/astro.csv",
+      "reason": "Exact contextual false positives individually reviewed in sidecar SHA256 f0ed1e5fd15d7bcc499051a7342a86684fc17cca2e9082ad63182f7b96724971; source 1b3212f0ba9fc58f7675877be9cf0ea0d8283ee8; original findings c35a55549005cedd65827c88e1aec775a0c579dd. Reasons and source hashes are recorded per review key. No new findings or coverage gaps accepted."
+    },
+    {
+      "hash": "sha256:a5468b712ce7e700ccdeb0b8cc55fc170713de4611e81d06faad1c7412694f08",
+      "rule_id": "RP1",
+      "file": "employees/design/ui-ux-designer/design-intelligence/data/stacks/astro.csv",
+      "reason": "Exact contextual false positives individually reviewed in sidecar SHA256 f0ed1e5fd15d7bcc499051a7342a86684fc17cca2e9082ad63182f7b96724971; source 1b3212f0ba9fc58f7675877be9cf0ea0d8283ee8; original findings c35a55549005cedd65827c88e1aec775a0c579dd. Reasons and source hashes are recorded per review key. No new findings or coverage gaps accepted."
+    },
+    {
+      "hash": "sha256:7f01943d2e3323b66bfb38af58b4f45edf3f969509b1fa20627a38c7dc7a27ac",
+      "rule_id": "RP1",
+      "file": "employees/design/ui-ux-designer/design-intelligence/data/stacks/shadcn.csv",
+      "reason": "Exact contextual false positives individually reviewed in sidecar SHA256 f0ed1e5fd15d7bcc499051a7342a86684fc17cca2e9082ad63182f7b96724971; source 1b3212f0ba9fc58f7675877be9cf0ea0d8283ee8; original findings c35a55549005cedd65827c88e1aec775a0c579dd. Reasons and source hashes are recorded per review key. No new findings or coverage gaps accepted."
+    },
+    {
+      "hash": "sha256:6347d45b0773b934f7daefab85583a9ca87b42895e9323c7bd2004639771e1a3",
+      "rule_id": "RP1",
+      "file": "employees/design/ui-ux-designer/design-intelligence/data/stacks/shadcn.csv",
+      "reason": "Exact contextual false positives individually reviewed in sidecar SHA256 f0ed1e5fd15d7bcc499051a7342a86684fc17cca2e9082ad63182f7b96724971; source 1b3212f0ba9fc58f7675877be9cf0ea0d8283ee8; original findings c35a55549005cedd65827c88e1aec775a0c579dd. Reasons and source hashes are recorded per review key. No new findings or coverage gaps accepted."
+    },
+    {
+      "hash": "sha256:c2d3ca973c65b3c562eb0b12501d53af81b37aa1c66ed5d364c0fb5704ac156e",
+      "rule_id": "RP1",
+      "file": "employees/design/ui-ux-designer/design-intelligence/data/stacks/shadcn.csv",
+      "reason": "Exact contextual false positives individually reviewed in sidecar SHA256 f0ed1e5fd15d7bcc499051a7342a86684fc17cca2e9082ad63182f7b96724971; source 1b3212f0ba9fc58f7675877be9cf0ea0d8283ee8; original findings c35a55549005cedd65827c88e1aec775a0c579dd. Reasons and source hashes are recorded per review key. No new findings or coverage gaps accepted."
+    },
+    {
+      "hash": "sha256:d70344e16df006540524da9101d9229e718fd8b170588e81abf4c762d5f07454",
+      "rule_id": "RP1",
+      "file": "employees/design/ui-ux-designer/design-intelligence/data/stacks/vue.csv",
+      "reason": "Exact contextual false positives individually reviewed in sidecar SHA256 f0ed1e5fd15d7bcc499051a7342a86684fc17cca2e9082ad63182f7b96724971; source 1b3212f0ba9fc58f7675877be9cf0ea0d8283ee8; original findings c35a55549005cedd65827c88e1aec775a0c579dd. Reasons and source hashes are recorded per review key. No new findings or coverage gaps accepted."
+    },
+    {
+      "hash": "sha256:313c449d169f9f6c9d466d29d80627ac4fb48f57181a90f842ae4d11b1bea64d",
+      "rule_id": "RP1",
+      "file": "employees/design/ui-ux-designer/design-taste-heuristics.md",
+      "reason": "Exact contextual false positives individually reviewed in sidecar SHA256 f0ed1e5fd15d7bcc499051a7342a86684fc17cca2e9082ad63182f7b96724971; source 1b3212f0ba9fc58f7675877be9cf0ea0d8283ee8; original findings c35a55549005cedd65827c88e1aec775a0c579dd. Reasons and source hashes are recorded per review key. No new findings or coverage gaps accepted."
+    },
+    {
+      "hash": "sha256:43841b175170376cdd0a2edb92ce14322d451ff1ef34be0e775e92eefe7ea21c",
+      "rule_id": "RP1",
+      "file": "employees/design/ui-ux-designer/figma-context-codegen.md",
+      "reason": "Exact contextual false positives individually reviewed in sidecar SHA256 f0ed1e5fd15d7bcc499051a7342a86684fc17cca2e9082ad63182f7b96724971; source 1b3212f0ba9fc58f7675877be9cf0ea0d8283ee8; original findings c35a55549005cedd65827c88e1aec775a0c579dd. Reasons and source hashes are recorded per review key. No new findings or coverage gaps accepted."
+    },
+    {
+      "hash": "sha256:c5a8ff1823b4ec8d67c24ab951856c861f278055020f3e6ce9ac1f9107892dbe",
+      "rule_id": "RP1",
+      "file": "employees/engineering/ai-ml-engineer/jupyter-notebook-workflow.md",
+      "reason": "Exact contextual false positives individually reviewed in sidecar SHA256 f0ed1e5fd15d7bcc499051a7342a86684fc17cca2e9082ad63182f7b96724971; source 1b3212f0ba9fc58f7675877be9cf0ea0d8283ee8; original findings c35a55549005cedd65827c88e1aec775a0c579dd. Reasons and source hashes are recorded per review key. No new findings or coverage gaps accepted."
+    },
+    {
+      "hash": "sha256:eaf08e27b974f57b30cb46f9d8c06642ed8a99509d0b5c7844a78dd6193c306f",
+      "rule_id": "RP1",
+      "file": "employees/engineering/devops-engineer/docker-skill.md",
+      "reason": "Exact contextual false positives individually reviewed in sidecar SHA256 f0ed1e5fd15d7bcc499051a7342a86684fc17cca2e9082ad63182f7b96724971; source 1b3212f0ba9fc58f7675877be9cf0ea0d8283ee8; original findings c35a55549005cedd65827c88e1aec775a0c579dd. Reasons and source hashes are recorded per review key. No new findings or coverage gaps accepted."
+    },
+    {
+      "hash": "sha256:14f022c042c996d62ae326b954b0d5fac589ef76707310e69c9e9088727e7912",
+      "rule_id": "RP1",
+      "file": "employees/engineering/devops-engineer/terraform-skill.md",
+      "reason": "Exact contextual false positives individually reviewed in sidecar SHA256 f0ed1e5fd15d7bcc499051a7342a86684fc17cca2e9082ad63182f7b96724971; source 1b3212f0ba9fc58f7675877be9cf0ea0d8283ee8; original findings c35a55549005cedd65827c88e1aec775a0c579dd. Reasons and source hashes are recorded per review key. No new findings or coverage gaps accepted."
+    },
+    {
+      "hash": "sha256:a0632c543c774db60884502464e27bebff4878c1e76067849ad6fcc684872535",
+      "rule_id": "RP1",
+      "file": "employees/engineering/frontend-developer/toolchain-and-stack-patterns.md",
+      "reason": "Exact contextual false positives individually reviewed in sidecar SHA256 f0ed1e5fd15d7bcc499051a7342a86684fc17cca2e9082ad63182f7b96724971; source 1b3212f0ba9fc58f7675877be9cf0ea0d8283ee8; original findings c35a55549005cedd65827c88e1aec775a0c579dd. Reasons and source hashes are recorded per review key. No new findings or coverage gaps accepted."
+    },
+    {
+      "hash": "sha256:ef510ceda3236228cfcb40cc70a22c3f8c82f7732640362915b8d6e7bc59a673",
+      "rule_id": "RP1",
+      "file": "employees/engineering/frontend-developer/toolchain-and-stack-patterns.md",
+      "reason": "Exact contextual false positives individually reviewed in sidecar SHA256 f0ed1e5fd15d7bcc499051a7342a86684fc17cca2e9082ad63182f7b96724971; source 1b3212f0ba9fc58f7675877be9cf0ea0d8283ee8; original findings c35a55549005cedd65827c88e1aec775a0c579dd. Reasons and source hashes are recorded per review key. No new findings or coverage gaps accepted."
+    },
+    {
+      "hash": "sha256:76145107f8b01722aa5d64bd47ac5be3803c3e717fa20a7c78cdd1d2389bcdc9",
+      "rule_id": "RP1",
+      "file": "employees/engineering/mobile-developer/SKILL.md",
+      "reason": "Exact contextual false positives individually reviewed in sidecar SHA256 f0ed1e5fd15d7bcc499051a7342a86684fc17cca2e9082ad63182f7b96724971; source 1b3212f0ba9fc58f7675877be9cf0ea0d8283ee8; original findings c35a55549005cedd65827c88e1aec775a0c579dd. Reasons and source hashes are recorded per review key. No new findings or coverage gaps accepted."
+    },
+    {
+      "hash": "sha256:e51d5c8332f08958b87b3af3cb0fe6ad36c9f0e185bfeb8104609dd632ac7150",
+      "rule_id": "RP1",
+      "file": "employees/engineering/mobile-developer/SKILL.md",
+      "reason": "Exact contextual false positives individually reviewed in sidecar SHA256 f0ed1e5fd15d7bcc499051a7342a86684fc17cca2e9082ad63182f7b96724971; source 1b3212f0ba9fc58f7675877be9cf0ea0d8283ee8; original findings c35a55549005cedd65827c88e1aec775a0c579dd. Reasons and source hashes are recorded per review key. No new findings or coverage gaps accepted."
+    },
+    {
+      "hash": "sha256:f7e22d94be313c1c30d4308e376c9efe13e167d88a8faa4307e488df4419a512",
+      "rule_id": "RP1",
+      "file": "employees/engineering/mobile-developer/mobile-mcp-operator.md",
+      "reason": "Exact contextual false positives individually reviewed in sidecar SHA256 f0ed1e5fd15d7bcc499051a7342a86684fc17cca2e9082ad63182f7b96724971; source 1b3212f0ba9fc58f7675877be9cf0ea0d8283ee8; original findings c35a55549005cedd65827c88e1aec775a0c579dd. Reasons and source hashes are recorded per review key. No new findings or coverage gaps accepted."
+    },
+    {
+      "hash": "sha256:b8d4d07252adce2f5e419adf1d1a18a9952333ff269ed7e2f24ca68ae00fd3f1",
+      "rule_id": "RP1",
+      "file": "employees/engineering/mobile-developer/plugin.json",
+      "reason": "Exact contextual false positives individually reviewed in sidecar SHA256 f0ed1e5fd15d7bcc499051a7342a86684fc17cca2e9082ad63182f7b96724971; source 1b3212f0ba9fc58f7675877be9cf0ea0d8283ee8; original findings c35a55549005cedd65827c88e1aec775a0c579dd. Reasons and source hashes are recorded per review key. No new findings or coverage gaps accepted."
+    },
+    {
+      "hash": "sha256:70cbf8f128656796ce5b4426e6fd17a0015306ec4c7fb1e7e1bc3336b46a03b2",
+      "rule_id": "AS3",
+      "file": "employees/engineering/mobile-developer/rules.md",
+      "reason": "Exact contextual false positives individually reviewed in sidecar SHA256 f0ed1e5fd15d7bcc499051a7342a86684fc17cca2e9082ad63182f7b96724971; source 1b3212f0ba9fc58f7675877be9cf0ea0d8283ee8; original findings c35a55549005cedd65827c88e1aec775a0c579dd. Reasons and source hashes are recorded per review key. No new findings or coverage gaps accepted."
+    },
+    {
+      "hash": "sha256:b4d873ea65c528a0f76526cfd24f5c2ace30dc35e0da2522f360c95c0c6106f7",
+      "rule_id": "AR2",
+      "file": "employees/design/ui-ux-designer/design-intelligence/data/stacks/threejs.csv",
+      "reason": "Exact contextual false positives individually reviewed in sidecar SHA256 f0ed1e5fd15d7bcc499051a7342a86684fc17cca2e9082ad63182f7b96724971; source 1b3212f0ba9fc58f7675877be9cf0ea0d8283ee8; original findings c35a55549005cedd65827c88e1aec775a0c579dd. Reasons and source hashes are recorded per review key. No new findings or coverage gaps accepted."
+    },
+    {
+      "hash": "sha256:98162f18a0edbb972c9affd910e504c9e3374325bcbfc1ab2f7dd3f97cf1316c",
+      "rule_id": "E1",
+      "file": "employees/design/ui-ux-designer/design-intelligence/data/stacks/flutter.csv",
+      "reason": "Exact contextual false positives individually reviewed in sidecar SHA256 f0ed1e5fd15d7bcc499051a7342a86684fc17cca2e9082ad63182f7b96724971; source 1b3212f0ba9fc58f7675877be9cf0ea0d8283ee8; original findings c35a55549005cedd65827c88e1aec775a0c579dd. Reasons and source hashes are recorded per review key. No new findings or coverage gaps accepted."
+    },
+    {
+      "hash": "sha256:a4426d65e6dd87c825285688a65e4e3e9bd57499795719f881b1b173143d1179",
+      "rule_id": "E1",
+      "file": "employees/design/ui-ux-designer/design-intelligence/data/stacks/flutter.csv",
+      "reason": "Exact contextual false positives individually reviewed in sidecar SHA256 f0ed1e5fd15d7bcc499051a7342a86684fc17cca2e9082ad63182f7b96724971; source 1b3212f0ba9fc58f7675877be9cf0ea0d8283ee8; original findings c35a55549005cedd65827c88e1aec775a0c579dd. Reasons and source hashes are recorded per review key. No new findings or coverage gaps accepted."
+    },
+    {
+      "hash": "sha256:e31e1a9b3b4f981c56852d3a0d77299ccb93331c011163617816a4581e81ef4a",
+      "rule_id": "E1",
+      "file": "employees/design/ui-ux-designer/design-intelligence/data/stacks/flutter.csv",
+      "reason": "Exact contextual false positives individually reviewed in sidecar SHA256 f0ed1e5fd15d7bcc499051a7342a86684fc17cca2e9082ad63182f7b96724971; source 1b3212f0ba9fc58f7675877be9cf0ea0d8283ee8; original findings c35a55549005cedd65827c88e1aec775a0c579dd. Reasons and source hashes are recorded per review key. No new findings or coverage gaps accepted."
+    },
+    {
+      "hash": "sha256:243efdff2793a268bcd07ca0fc821d8eb9dec06e52c3c4330e3f805523c7c651",
+      "rule_id": "E1",
+      "file": "employees/design/ui-ux-designer/design-intelligence/data/stacks/flutter.csv",
+      "reason": "Exact contextual false positives individually reviewed in sidecar SHA256 f0ed1e5fd15d7bcc499051a7342a86684fc17cca2e9082ad63182f7b96724971; source 1b3212f0ba9fc58f7675877be9cf0ea0d8283ee8; original findings c35a55549005cedd65827c88e1aec775a0c579dd. Reasons and source hashes are recorded per review key. No new findings or coverage gaps accepted."
+    },
+    {
+      "hash": "sha256:8d3918ee45812b361e978edc68deb1c81e93c3fa1ef855a77bfb0aef4f740478",
+      "rule_id": "E1",
+      "file": "employees/design/ui-ux-designer/design-intelligence/data/stacks/flutter.csv",
+      "reason": "Exact contextual false positives individually reviewed in sidecar SHA256 f0ed1e5fd15d7bcc499051a7342a86684fc17cca2e9082ad63182f7b96724971; source 1b3212f0ba9fc58f7675877be9cf0ea0d8283ee8; original findings c35a55549005cedd65827c88e1aec775a0c579dd. Reasons and source hashes are recorded per review key. No new findings or coverage gaps accepted."
+    },
+    {
+      "hash": "sha256:92d1936b087120bdfd7151c9b55fcdb8c43d52cf733f7409dbed1d9ba0b09d24",
+      "rule_id": "E1",
+      "file": "employees/design/ui-ux-designer/design-intelligence/data/stacks/flutter.csv",
+      "reason": "Exact contextual false positives individually reviewed in sidecar SHA256 f0ed1e5fd15d7bcc499051a7342a86684fc17cca2e9082ad63182f7b96724971; source 1b3212f0ba9fc58f7675877be9cf0ea0d8283ee8; original findings c35a55549005cedd65827c88e1aec775a0c579dd. Reasons and source hashes are recorded per review key. No new findings or coverage gaps accepted."
+    },
+    {
+      "hash": "sha256:a48d68382f125a6b9367677cc69436d05632c59cc391a5a8f6b5cf43b3367734",
+      "rule_id": "E1",
+      "file": "employees/design/ui-ux-designer/design-intelligence/data/stacks/flutter.csv",
+      "reason": "Exact contextual false positives individually reviewed in sidecar SHA256 f0ed1e5fd15d7bcc499051a7342a86684fc17cca2e9082ad63182f7b96724971; source 1b3212f0ba9fc58f7675877be9cf0ea0d8283ee8; original findings c35a55549005cedd65827c88e1aec775a0c579dd. Reasons and source hashes are recorded per review key. No new findings or coverage gaps accepted."
+    },
+    {
+      "hash": "sha256:d87626bc5be8bcd7b4960a320ca764633e42fef8575f80421785c428f19cdfb1",
+      "rule_id": "E1",
+      "file": "employees/design/ui-ux-designer/design-intelligence/data/stacks/flutter.csv",
+      "reason": "Exact contextual false positives individually reviewed in sidecar SHA256 f0ed1e5fd15d7bcc499051a7342a86684fc17cca2e9082ad63182f7b96724971; source 1b3212f0ba9fc58f7675877be9cf0ea0d8283ee8; original findings c35a55549005cedd65827c88e1aec775a0c579dd. Reasons and source hashes are recorded per review key. No new findings or coverage gaps accepted."
+    },
+    {
+      "hash": "sha256:283a08dd4f8a6b99349831016469514a6a603ccd5112aad2fdf6c380c67a674d",
+      "rule_id": "E1",
+      "file": "employees/design/ui-ux-designer/design-intelligence/data/stacks/flutter.csv",
+      "reason": "Exact contextual false positives individually reviewed in sidecar SHA256 f0ed1e5fd15d7bcc499051a7342a86684fc17cca2e9082ad63182f7b96724971; source 1b3212f0ba9fc58f7675877be9cf0ea0d8283ee8; original findings c35a55549005cedd65827c88e1aec775a0c579dd. Reasons and source hashes are recorded per review key. No new findings or coverage gaps accepted."
+    },
+    {
+      "hash": "sha256:177f35ea72925759bcabba41fb7ff3af7c1fcc617ad6b08d5a7090b16d0df7ca",
+      "rule_id": "E1",
+      "file": "employees/design/ui-ux-designer/design-intelligence/data/stacks/flutter.csv",
+      "reason": "Exact contextual false positives individually reviewed in sidecar SHA256 f0ed1e5fd15d7bcc499051a7342a86684fc17cca2e9082ad63182f7b96724971; source 1b3212f0ba9fc58f7675877be9cf0ea0d8283ee8; original findings c35a55549005cedd65827c88e1aec775a0c579dd. Reasons and source hashes are recorded per review key. No new findings or coverage gaps accepted."
+    },
+    {
+      "hash": "sha256:f233dc9e26445e9abbddfbc70dd1afc7119a0e0a8b95480572260ffe3f2789fe",
+      "rule_id": "E1",
+      "file": "employees/design/ui-ux-designer/design-intelligence/data/stacks/flutter.csv",
+      "reason": "Exact contextual false positives individually reviewed in sidecar SHA256 f0ed1e5fd15d7bcc499051a7342a86684fc17cca2e9082ad63182f7b96724971; source 1b3212f0ba9fc58f7675877be9cf0ea0d8283ee8; original findings c35a55549005cedd65827c88e1aec775a0c579dd. Reasons and source hashes are recorded per review key. No new findings or coverage gaps accepted."
+    },
+    {
+      "hash": "sha256:adfd249c792e784c7c23791648096d8772cd35113341e5819cd1904adec8ffbe",
+      "rule_id": "E1",
+      "file": "employees/design/ui-ux-designer/design-intelligence/data/stacks/flutter.csv",
+      "reason": "Exact contextual false positives individually reviewed in sidecar SHA256 f0ed1e5fd15d7bcc499051a7342a86684fc17cca2e9082ad63182f7b96724971; source 1b3212f0ba9fc58f7675877be9cf0ea0d8283ee8; original findings c35a55549005cedd65827c88e1aec775a0c579dd. Reasons and source hashes are recorded per review key. No new findings or coverage gaps accepted."
+    },
+    {
+      "hash": "sha256:33a48864b3a9556aae8b598bc5251e35cd86f917e8b7717c857268dd6dc30974",
+      "rule_id": "E1",
+      "file": "employees/design/ui-ux-designer/design-intelligence/data/stacks/flutter.csv",
+      "reason": "Exact contextual false positives individually reviewed in sidecar SHA256 f0ed1e5fd15d7bcc499051a7342a86684fc17cca2e9082ad63182f7b96724971; source 1b3212f0ba9fc58f7675877be9cf0ea0d8283ee8; original findings c35a55549005cedd65827c88e1aec775a0c579dd. Reasons and source hashes are recorded per review key. No new findings or coverage gaps accepted."
+    },
+    {
+      "hash": "sha256:7e9e12598b3cb720768f1b7eaf11486740aa0d03be48699b50554f13b5f8484c",
+      "rule_id": "E1",
+      "file": "employees/design/ui-ux-designer/design-intelligence/data/stacks/flutter.csv",
+      "reason": "Exact contextual false positives individually reviewed in sidecar SHA256 f0ed1e5fd15d7bcc499051a7342a86684fc17cca2e9082ad63182f7b96724971; source 1b3212f0ba9fc58f7675877be9cf0ea0d8283ee8; original findings c35a55549005cedd65827c88e1aec775a0c579dd. Reasons and source hashes are recorded per review key. No new findings or coverage gaps accepted."
+    },
+    {
+      "hash": "sha256:4dd65dc8b0edbaa261f6f0ad83f6545ab7926a79a4a4e75c726421901151d3ad",
+      "rule_id": "E1",
+      "file": "employees/design/ui-ux-designer/design-intelligence/data/stacks/flutter.csv",
+      "reason": "Exact contextual false positives individually reviewed in sidecar SHA256 f0ed1e5fd15d7bcc499051a7342a86684fc17cca2e9082ad63182f7b96724971; source 1b3212f0ba9fc58f7675877be9cf0ea0d8283ee8; original findings c35a55549005cedd65827c88e1aec775a0c579dd. Reasons and source hashes are recorded per review key. No new findings or coverage gaps accepted."
+    },
+    {
+      "hash": "sha256:a7e7d51c019e97061edd8992c6e79f296652377f7291fd91bad1bda40ed859b3",
+      "rule_id": "E1",
+      "file": "employees/engineering/backend-developer/duplicate-safe-api.md",
+      "reason": "Exact contextual false positives individually reviewed in sidecar SHA256 f0ed1e5fd15d7bcc499051a7342a86684fc17cca2e9082ad63182f7b96724971; source 1b3212f0ba9fc58f7675877be9cf0ea0d8283ee8; original findings c35a55549005cedd65827c88e1aec775a0c579dd. Reasons and source hashes are recorded per review key. No new findings or coverage gaps accepted."
+    },
+    {
+      "hash": "sha256:908d7f06feccc654f096f3042468f4d7c45de56c090b772df0cc53001d188db4",
+      "rule_id": "EA2",
+      "file": "employees/design/ui-ux-designer/design-intelligence/data/stacks/react-native.csv",
+      "reason": "Exact contextual false positives individually reviewed in sidecar SHA256 f0ed1e5fd15d7bcc499051a7342a86684fc17cca2e9082ad63182f7b96724971; source 1b3212f0ba9fc58f7675877be9cf0ea0d8283ee8; original findings c35a55549005cedd65827c88e1aec775a0c579dd. Reasons and source hashes are recorded per review key. No new findings or coverage gaps accepted."
+    },
+    {
+      "hash": "sha256:67cf4935adebbbbed5ada71724623f439dac624a41a02b898c8db086208e5573",
+      "rule_id": "EA2",
+      "file": "employees/design/ui-ux-designer/design-intelligence/data/ui-reasoning.csv",
+      "reason": "Exact contextual false positives individually reviewed in sidecar SHA256 f0ed1e5fd15d7bcc499051a7342a86684fc17cca2e9082ad63182f7b96724971; source 1b3212f0ba9fc58f7675877be9cf0ea0d8283ee8; original findings c35a55549005cedd65827c88e1aec775a0c579dd. Reasons and source hashes are recorded per review key. No new findings or coverage gaps accepted."
+    },
+    {
+      "hash": "sha256:94fb3a7b12fb12d6b4703da42d3424dff07dfc195ff9c26550266b25476c6781",
+      "rule_id": "EA2",
+      "file": "employees/design/ui-ux-designer/design-intelligence/data/ux-guidelines.csv",
+      "reason": "Exact contextual false positives individually reviewed in sidecar SHA256 f0ed1e5fd15d7bcc499051a7342a86684fc17cca2e9082ad63182f7b96724971; source 1b3212f0ba9fc58f7675877be9cf0ea0d8283ee8; original findings c35a55549005cedd65827c88e1aec775a0c579dd. Reasons and source hashes are recorded per review key. No new findings or coverage gaps accepted."
+    },
+    {
+      "hash": "sha256:0eba1d7a58e6e6e7400450802999060cc243707443bb3d4cb3180cda7a9fc191",
+      "rule_id": "EA2",
+      "file": "employees/design/ui-ux-designer/design-intelligence/data/ux-guidelines.csv",
+      "reason": "Exact contextual false positives individually reviewed in sidecar SHA256 f0ed1e5fd15d7bcc499051a7342a86684fc17cca2e9082ad63182f7b96724971; source 1b3212f0ba9fc58f7675877be9cf0ea0d8283ee8; original findings c35a55549005cedd65827c88e1aec775a0c579dd. Reasons and source hashes are recorded per review key. No new findings or coverage gaps accepted."
+    },
+    {
+      "hash": "sha256:2c21c95f4ec8edac690f7e78aeacc20610c29141669c59c7db0413846b0408b3",
+      "rule_id": "EA2",
+      "file": "employees/design/ui-ux-designer/design-intelligence/data/ux-guidelines.csv",
+      "reason": "Exact contextual false positives individually reviewed in sidecar SHA256 f0ed1e5fd15d7bcc499051a7342a86684fc17cca2e9082ad63182f7b96724971; source 1b3212f0ba9fc58f7675877be9cf0ea0d8283ee8; original findings c35a55549005cedd65827c88e1aec775a0c579dd. Reasons and source hashes are recorded per review key. No new findings or coverage gaps accepted."
+    },
+    {
+      "hash": "sha256:0d63ab10d3665aa8ad3ba89d9573c94017c9fa84582a6df0e53e570aae004142",
+      "rule_id": "EA2",
+      "file": "employees/design/ui-ux-designer/figma-context-codegen.md",
+      "reason": "Exact contextual false positives individually reviewed in sidecar SHA256 f0ed1e5fd15d7bcc499051a7342a86684fc17cca2e9082ad63182f7b96724971; source 1b3212f0ba9fc58f7675877be9cf0ea0d8283ee8; original findings c35a55549005cedd65827c88e1aec775a0c579dd. Reasons and source hashes are recorded per review key. No new findings or coverage gaps accepted."
+    },
+    {
+      "hash": "sha256:2d9be813009f898ebfafc7fe95a246c30126dce00ffc8a338d9bd319d8f8e89e",
+      "rule_id": "EA2",
+      "file": "employees/design/ui-ux-designer/rules.md",
+      "reason": "Exact contextual false positives individually reviewed in sidecar SHA256 f0ed1e5fd15d7bcc499051a7342a86684fc17cca2e9082ad63182f7b96724971; source 1b3212f0ba9fc58f7675877be9cf0ea0d8283ee8; original findings c35a55549005cedd65827c88e1aec775a0c579dd. Reasons and source hashes are recorded per review key. No new findings or coverage gaps accepted."
+    },
+    {
+      "hash": "sha256:3d822eda908c7b25ab5b2cf4e741e7f7db9d1654c07a2c25061b8dc6a9b3bf96",
+      "rule_id": "EA2",
+      "file": "employees/engineering/ai-automation-engineer/orchestration-patterns.md",
+      "reason": "Exact contextual false positives individually reviewed in sidecar SHA256 f0ed1e5fd15d7bcc499051a7342a86684fc17cca2e9082ad63182f7b96724971; source 1b3212f0ba9fc58f7675877be9cf0ea0d8283ee8; original findings c35a55549005cedd65827c88e1aec775a0c579dd. Reasons and source hashes are recorded per review key. No new findings or coverage gaps accepted."
+    },
+    {
+      "hash": "sha256:6d542103122f4ef09470d3f9491244c537637e9a45bdff4d9a3c94e8b8665fcf",
+      "rule_id": "EA2",
+      "file": "employees/engineering/ai-automation-engineer/orchestration-patterns.md",
+      "reason": "Exact contextual false positives individually reviewed in sidecar SHA256 f0ed1e5fd15d7bcc499051a7342a86684fc17cca2e9082ad63182f7b96724971; source 1b3212f0ba9fc58f7675877be9cf0ea0d8283ee8; original findings c35a55549005cedd65827c88e1aec775a0c579dd. Reasons and source hashes are recorded per review key. No new findings or coverage gaps accepted."
+    },
+    {
+      "hash": "sha256:d615760827914f3ad80b65861511ac445a1c55964ca3c6f76776c61c6fff0a74",
+      "rule_id": "EA2",
+      "file": "employees/engineering/ai-ml-engineer/SKILL.md",
+      "reason": "Exact contextual false positives individually reviewed in sidecar SHA256 f0ed1e5fd15d7bcc499051a7342a86684fc17cca2e9082ad63182f7b96724971; source 1b3212f0ba9fc58f7675877be9cf0ea0d8283ee8; original findings c35a55549005cedd65827c88e1aec775a0c579dd. Reasons and source hashes are recorded per review key. No new findings or coverage gaps accepted."
+    },
+    {
+      "hash": "sha256:68f7136012a4772634d7e0f659307ee4234989152de5d308f3e09fd6b8525904",
+      "rule_id": "EA2",
+      "file": "employees/engineering/ai-ml-engineer/SKILL.md",
+      "reason": "Exact contextual false positives individually reviewed in sidecar SHA256 f0ed1e5fd15d7bcc499051a7342a86684fc17cca2e9082ad63182f7b96724971; source 1b3212f0ba9fc58f7675877be9cf0ea0d8283ee8; original findings c35a55549005cedd65827c88e1aec775a0c579dd. Reasons and source hashes are recorded per review key. No new findings or coverage gaps accepted."
+    },
+    {
+      "hash": "sha256:4f88a9133b9bb40089147e54f2951c3b23da80e9972fda3d89d5442ac2cae8d8",
+      "rule_id": "EA2",
+      "file": "employees/engineering/devops-engineer/capability.contract.json",
+      "reason": "Exact contextual false positives individually reviewed in sidecar SHA256 f0ed1e5fd15d7bcc499051a7342a86684fc17cca2e9082ad63182f7b96724971; source 1b3212f0ba9fc58f7675877be9cf0ea0d8283ee8; original findings c35a55549005cedd65827c88e1aec775a0c579dd. Reasons and source hashes are recorded per review key. No new findings or coverage gaps accepted."
+    },
+    {
+      "hash": "sha256:18ae3e6a8ba44647aaa12297dfe3096b75b5db3cd11da35b2b8a6eb86ca2f546",
+      "rule_id": "EA2",
+      "file": "employees/engineering/devops-engineer/ftp-git-deploy.md",
+      "reason": "Exact contextual false positives individually reviewed in sidecar SHA256 f0ed1e5fd15d7bcc499051a7342a86684fc17cca2e9082ad63182f7b96724971; source 1b3212f0ba9fc58f7675877be9cf0ea0d8283ee8; original findings c35a55549005cedd65827c88e1aec775a0c579dd. Reasons and source hashes are recorded per review key. No new findings or coverage gaps accepted."
+    },
+    {
+      "hash": "sha256:8746b43da2ecb9963673dbfcc923e11aece6297ed3835475d0ee180b15fca0c1",
+      "rule_id": "EA2",
+      "file": "employees/engineering/devops-engineer/ftp-git-deploy.md",
+      "reason": "Exact contextual false positives individually reviewed in sidecar SHA256 f0ed1e5fd15d7bcc499051a7342a86684fc17cca2e9082ad63182f7b96724971; source 1b3212f0ba9fc58f7675877be9cf0ea0d8283ee8; original findings c35a55549005cedd65827c88e1aec775a0c579dd. Reasons and source hashes are recorded per review key. No new findings or coverage gaps accepted."
+    },
+    {
+      "hash": "sha256:1e52034f9605b446fde1175a9e725ad22d920c57b40b6a2c0995b607224ca2b2",
+      "rule_id": "EA2",
+      "file": "employees/engineering/devops-engineer/ftp-git-deploy.md",
+      "reason": "Exact contextual false positives individually reviewed in sidecar SHA256 f0ed1e5fd15d7bcc499051a7342a86684fc17cca2e9082ad63182f7b96724971; source 1b3212f0ba9fc58f7675877be9cf0ea0d8283ee8; original findings c35a55549005cedd65827c88e1aec775a0c579dd. Reasons and source hashes are recorded per review key. No new findings or coverage gaps accepted."
+    },
+    {
+      "hash": "sha256:7d3c896bf99c6447d7852029ee2ca1e90abe7605e2094349ef27142446e459a4",
+      "rule_id": "EA2",
+      "file": "employees/engineering/devops-engineer/learnings.md",
+      "reason": "Exact contextual false positives individually reviewed in sidecar SHA256 f0ed1e5fd15d7bcc499051a7342a86684fc17cca2e9082ad63182f7b96724971; source 1b3212f0ba9fc58f7675877be9cf0ea0d8283ee8; original findings c35a55549005cedd65827c88e1aec775a0c579dd. Reasons and source hashes are recorded per review key. No new findings or coverage gaps accepted."
+    },
+    {
+      "hash": "sha256:708a760187289daf22ef63d230445011d3d2679a296019762fc760e35f1c67f1",
+      "rule_id": "EA2",
+      "file": "employees/engineering/devops-engineer/local_deploy.py",
+      "reason": "Exact contextual false positives individually reviewed in sidecar SHA256 f0ed1e5fd15d7bcc499051a7342a86684fc17cca2e9082ad63182f7b96724971; source 1b3212f0ba9fc58f7675877be9cf0ea0d8283ee8; original findings c35a55549005cedd65827c88e1aec775a0c579dd. Reasons and source hashes are recorded per review key. No new findings or coverage gaps accepted."
+    },
+    {
+      "hash": "sha256:b699c71524914d323805537562c269069e2b62c74ae7f51d3cc5e72e26c5eae0",
+      "rule_id": "EA2",
+      "file": "employees/engineering/devops-engineer/rules.md",
+      "reason": "Exact contextual false positives individually reviewed in sidecar SHA256 f0ed1e5fd15d7bcc499051a7342a86684fc17cca2e9082ad63182f7b96724971; source 1b3212f0ba9fc58f7675877be9cf0ea0d8283ee8; original findings c35a55549005cedd65827c88e1aec775a0c579dd. Reasons and source hashes are recorded per review key. No new findings or coverage gaps accepted."
+    },
+    {
+      "hash": "sha256:1296b94900b28a8f7573ed81adcde98ab6c80a5c567d26f9e99f2847e3228598",
+      "rule_id": "EA2",
+      "file": "employees/engineering/devops-engineer/terraform-skill.md",
+      "reason": "Exact contextual false positives individually reviewed in sidecar SHA256 f0ed1e5fd15d7bcc499051a7342a86684fc17cca2e9082ad63182f7b96724971; source 1b3212f0ba9fc58f7675877be9cf0ea0d8283ee8; original findings c35a55549005cedd65827c88e1aec775a0c579dd. Reasons and source hashes are recorded per review key. No new findings or coverage gaps accepted."
+    },
+    {
+      "hash": "sha256:4c2c20ca658db48788e298de3660f23f39bf5b5f657e4fb4d00ed28a2bb17d33",
+      "rule_id": "EA2",
+      "file": "employees/engineering/devops-engineer/terraform-skill.md",
+      "reason": "Exact contextual false positives individually reviewed in sidecar SHA256 f0ed1e5fd15d7bcc499051a7342a86684fc17cca2e9082ad63182f7b96724971; source 1b3212f0ba9fc58f7675877be9cf0ea0d8283ee8; original findings c35a55549005cedd65827c88e1aec775a0c579dd. Reasons and source hashes are recorded per review key. No new findings or coverage gaps accepted."
+    },
+    {
+      "hash": "sha256:0aec51a67143a113fd3161546b343d1522e544f70896f1a224e735b9c3944389",
+      "rule_id": "EA2",
+      "file": "employees/engineering/full-stack-developer/SKILL.md",
+      "reason": "Exact contextual false positives individually reviewed in sidecar SHA256 f0ed1e5fd15d7bcc499051a7342a86684fc17cca2e9082ad63182f7b96724971; source 1b3212f0ba9fc58f7675877be9cf0ea0d8283ee8; original findings c35a55549005cedd65827c88e1aec775a0c579dd. Reasons and source hashes are recorded per review key. No new findings or coverage gaps accepted."
+    },
+    {
+      "hash": "sha256:426a6d0c43c1fd4d3f0f2141cca011da909aa9b717adfd491a56e42839bb822d",
+      "rule_id": "EA2",
+      "file": "employees/engineering/full-stack-developer/rules.md",
+      "reason": "Exact contextual false positives individually reviewed in sidecar SHA256 f0ed1e5fd15d7bcc499051a7342a86684fc17cca2e9082ad63182f7b96724971; source 1b3212f0ba9fc58f7675877be9cf0ea0d8283ee8; original findings c35a55549005cedd65827c88e1aec775a0c579dd. Reasons and source hashes are recorded per review key. No new findings or coverage gaps accepted."
+    },
+    {
+      "hash": "sha256:da082251b0eb825a5ddd80beeae2c09b57be13371f37dd277e9301bc40f04271",
+      "rule_id": "EA2",
+      "file": "employees/engineering/iot-engineer/capability.contract.json",
+      "reason": "Exact contextual false positives individually reviewed in sidecar SHA256 f0ed1e5fd15d7bcc499051a7342a86684fc17cca2e9082ad63182f7b96724971; source 1b3212f0ba9fc58f7675877be9cf0ea0d8283ee8; original findings c35a55549005cedd65827c88e1aec775a0c579dd. Reasons and source hashes are recorded per review key. No new findings or coverage gaps accepted."
+    },
+    {
+      "hash": "sha256:6aefddea05a0870323f8498689acc0e5cc4bbc525b14eae3894876508b935b92",
+      "rule_id": "EA2",
+      "file": "employees/engineering/llm-agent-designer/agentic-build-patterns.md",
+      "reason": "Exact contextual false positives individually reviewed in sidecar SHA256 f0ed1e5fd15d7bcc499051a7342a86684fc17cca2e9082ad63182f7b96724971; source 1b3212f0ba9fc58f7675877be9cf0ea0d8283ee8; original findings c35a55549005cedd65827c88e1aec775a0c579dd. Reasons and source hashes are recorded per review key. No new findings or coverage gaps accepted."
+    },
+    {
+      "hash": "sha256:a9077c491953846b8fe959050ac31b450c356a8df6e8924a9ec3af88cd966953",
+      "rule_id": "EA2",
+      "file": "employees/engineering/llm-agent-designer/agentic-build-patterns.md",
+      "reason": "Exact contextual false positives individually reviewed in sidecar SHA256 f0ed1e5fd15d7bcc499051a7342a86684fc17cca2e9082ad63182f7b96724971; source 1b3212f0ba9fc58f7675877be9cf0ea0d8283ee8; original findings c35a55549005cedd65827c88e1aec775a0c579dd. Reasons and source hashes are recorded per review key. No new findings or coverage gaps accepted."
+    },
+    {
+      "hash": "sha256:b8b1f9c9e9a09808a58f72bfd899dfd3a6a89a0f182799fd34bb5cb16333f1a6",
+      "rule_id": "EA2",
+      "file": "employees/engineering/llm-agent-designer/superpowers-methodology.md",
+      "reason": "Exact contextual false positives individually reviewed in sidecar SHA256 f0ed1e5fd15d7bcc499051a7342a86684fc17cca2e9082ad63182f7b96724971; source 1b3212f0ba9fc58f7675877be9cf0ea0d8283ee8; original findings c35a55549005cedd65827c88e1aec775a0c579dd. Reasons and source hashes are recorded per review key. No new findings or coverage gaps accepted."
+    },
+    {
+      "hash": "sha256:8d01739cc9fe698fce17fa29cf33ffd82c3d458b5188aae5c94124e93d28c1ad",
+      "rule_id": "MP3",
+      "file": "employees/engineering/devops-engineer/opensource-release-pipeline.md",
+      "reason": "Exact contextual false positives individually reviewed in sidecar SHA256 f0ed1e5fd15d7bcc499051a7342a86684fc17cca2e9082ad63182f7b96724971; source 1b3212f0ba9fc58f7675877be9cf0ea0d8283ee8; original findings c35a55549005cedd65827c88e1aec775a0c579dd. Reasons and source hashes are recorded per review key. No new findings or coverage gaps accepted."
+    },
+    {
+      "hash": "sha256:1b2505dea632f59dbf7c77e81528855471c76ee6679b420901f6b38496d5e085",
+      "rule_id": "MP3",
+      "file": "employees/engineering/devops-engineer/terraform-skill.md",
+      "reason": "Exact contextual false positives individually reviewed in sidecar SHA256 f0ed1e5fd15d7bcc499051a7342a86684fc17cca2e9082ad63182f7b96724971; source 1b3212f0ba9fc58f7675877be9cf0ea0d8283ee8; original findings c35a55549005cedd65827c88e1aec775a0c579dd. Reasons and source hashes are recorded per review key. No new findings or coverage gaps accepted."
+    },
+    {
+      "hash": "sha256:efd69997b44e9e53ac471063da4bc2c749e6f81d9b961fb84fb44a2b2ab485ef",
+      "rule_id": "MP1",
+      "file": "employees/engineering/unity-developer/SKILL.md",
+      "reason": "Exact contextual false positives individually reviewed in sidecar SHA256 f0ed1e5fd15d7bcc499051a7342a86684fc17cca2e9082ad63182f7b96724971; source 1b3212f0ba9fc58f7675877be9cf0ea0d8283ee8; original findings c35a55549005cedd65827c88e1aec775a0c579dd. Reasons and source hashes are recorded per review key. No new findings or coverage gaps accepted."
+    },
+    {
+      "hash": "sha256:084bd83dbd1995286747d1460f1b9e41f9594f014132e51375ed0a9e30955d56",
+      "rule_id": "OH1",
+      "file": "employees/design/ui-ux-designer/design-intelligence/data/react-performance.csv",
+      "reason": "Exact contextual false positives individually reviewed in sidecar SHA256 f0ed1e5fd15d7bcc499051a7342a86684fc17cca2e9082ad63182f7b96724971; source 1b3212f0ba9fc58f7675877be9cf0ea0d8283ee8; original findings c35a55549005cedd65827c88e1aec775a0c579dd. Reasons and source hashes are recorded per review key. No new findings or coverage gaps accepted."
+    },
+    {
+      "hash": "sha256:ffe56028ed232ad25318fe6efd04775a593fdbed9813c69f1f70d0e4da3b178f",
+      "rule_id": "OH1",
+      "file": "employees/design/ui-ux-designer/design-intelligence/data/stacks/nextjs.csv",
+      "reason": "Exact contextual false positives individually reviewed in sidecar SHA256 f0ed1e5fd15d7bcc499051a7342a86684fc17cca2e9082ad63182f7b96724971; source 1b3212f0ba9fc58f7675877be9cf0ea0d8283ee8; original findings c35a55549005cedd65827c88e1aec775a0c579dd. Reasons and source hashes are recorded per review key. No new findings or coverage gaps accepted."
+    },
+    {
+      "hash": "sha256:8f128698abc09c0cce998985852f32456769465cea12dde2306e36223a7fed32",
+      "rule_id": "PE3",
+      "file": "employees/design/ui-ux-designer/design-intelligence/data/products.csv",
+      "reason": "Exact contextual false positives individually reviewed in sidecar SHA256 f0ed1e5fd15d7bcc499051a7342a86684fc17cca2e9082ad63182f7b96724971; source 1b3212f0ba9fc58f7675877be9cf0ea0d8283ee8; original findings c35a55549005cedd65827c88e1aec775a0c579dd. Reasons and source hashes are recorded per review key. No new findings or coverage gaps accepted."
+    },
+    {
+      "hash": "sha256:d95be91ee484525a5a1f30ec50c26eab1ba3f62ec11a22110767938bdb5e0d0e",
+      "rule_id": "PE3",
+      "file": "employees/design/ui-ux-designer/design-intelligence/data/stacks/nextjs.csv",
+      "reason": "Exact contextual false positives individually reviewed in sidecar SHA256 f0ed1e5fd15d7bcc499051a7342a86684fc17cca2e9082ad63182f7b96724971; source 1b3212f0ba9fc58f7675877be9cf0ea0d8283ee8; original findings c35a55549005cedd65827c88e1aec775a0c579dd. Reasons and source hashes are recorded per review key. No new findings or coverage gaps accepted."
+    },
+    {
+      "hash": "sha256:926834d769de1b00d1865eee5ea9150e6027b9e25f3357c4f5339d17d429e54a",
+      "rule_id": "PE3",
+      "file": "employees/design/ui-ux-designer/design-intelligence/data/stacks/nextjs.csv",
+      "reason": "Exact contextual false positives individually reviewed in sidecar SHA256 f0ed1e5fd15d7bcc499051a7342a86684fc17cca2e9082ad63182f7b96724971; source 1b3212f0ba9fc58f7675877be9cf0ea0d8283ee8; original findings c35a55549005cedd65827c88e1aec775a0c579dd. Reasons and source hashes are recorded per review key. No new findings or coverage gaps accepted."
+    },
+    {
+      "hash": "sha256:b4ebc0dec4894cad339ab78958604188a0865e18a0f18fcd322e3f912f989e3f",
+      "rule_id": "PE3",
+      "file": "employees/design/ui-ux-designer/design-intelligence/data/stacks/nextjs.csv",
+      "reason": "Exact contextual false positives individually reviewed in sidecar SHA256 f0ed1e5fd15d7bcc499051a7342a86684fc17cca2e9082ad63182f7b96724971; source 1b3212f0ba9fc58f7675877be9cf0ea0d8283ee8; original findings c35a55549005cedd65827c88e1aec775a0c579dd. Reasons and source hashes are recorded per review key. No new findings or coverage gaps accepted."
+    },
+    {
+      "hash": "sha256:b4acc530ce0311925c0c04faac08f62f6b3ff16af4340176b112a0d51d16dfb6",
+      "rule_id": "PE3",
+      "file": "employees/design/ui-ux-designer/design-intelligence/data/stacks/nextjs.csv",
+      "reason": "Exact contextual false positives individually reviewed in sidecar SHA256 f0ed1e5fd15d7bcc499051a7342a86684fc17cca2e9082ad63182f7b96724971; source 1b3212f0ba9fc58f7675877be9cf0ea0d8283ee8; original findings c35a55549005cedd65827c88e1aec775a0c579dd. Reasons and source hashes are recorded per review key. No new findings or coverage gaps accepted."
+    },
+    {
+      "hash": "sha256:4d00c9eb29e10c997c023bb75c23a4775f9d54581aac2f6fad4ba3feef952900",
+      "rule_id": "PE3",
+      "file": "employees/design/ui-ux-designer/figma-context-codegen.md",
+      "reason": "Exact contextual false positives individually reviewed in sidecar SHA256 f0ed1e5fd15d7bcc499051a7342a86684fc17cca2e9082ad63182f7b96724971; source 1b3212f0ba9fc58f7675877be9cf0ea0d8283ee8; original findings c35a55549005cedd65827c88e1aec775a0c579dd. Reasons and source hashes are recorded per review key. No new findings or coverage gaps accepted."
+    },
+    {
+      "hash": "sha256:809917df6460eeb0fdd50c0b638919a9199fa86b0d94c113025539b8e8d3796d",
+      "rule_id": "PE3",
+      "file": "employees/engineering/ai-automation-engineer/mcp-and-pipeline-building.md",
+      "reason": "Exact contextual false positives individually reviewed in sidecar SHA256 f0ed1e5fd15d7bcc499051a7342a86684fc17cca2e9082ad63182f7b96724971; source 1b3212f0ba9fc58f7675877be9cf0ea0d8283ee8; original findings c35a55549005cedd65827c88e1aec775a0c579dd. Reasons and source hashes are recorded per review key. No new findings or coverage gaps accepted."
+    },
+    {
+      "hash": "sha256:e82919dc1d14d81a12479f0d03942aed57d496e7f88b70dddf9359175d0c3512",
+      "rule_id": "PE3",
+      "file": "employees/engineering/ai-automation-engineer/mcp-and-pipeline-building.md",
+      "reason": "Exact contextual false positives individually reviewed in sidecar SHA256 f0ed1e5fd15d7bcc499051a7342a86684fc17cca2e9082ad63182f7b96724971; source 1b3212f0ba9fc58f7675877be9cf0ea0d8283ee8; original findings c35a55549005cedd65827c88e1aec775a0c579dd. Reasons and source hashes are recorded per review key. No new findings or coverage gaps accepted."
+    },
+    {
+      "hash": "sha256:2df390f7aa8a357e5e48f339b5622fda052219a8272fb74e3996c8c2063d29c2",
+      "rule_id": "PE5",
+      "file": "employees/engineering/devops-engineer/docker-skill.md",
+      "reason": "Exact contextual false positives individually reviewed in sidecar SHA256 f0ed1e5fd15d7bcc499051a7342a86684fc17cca2e9082ad63182f7b96724971; source 1b3212f0ba9fc58f7675877be9cf0ea0d8283ee8; original findings c35a55549005cedd65827c88e1aec775a0c579dd. Reasons and source hashes are recorded per review key. No new findings or coverage gaps accepted."
+    },
+    {
+      "hash": "sha256:bfda946827e6761f0883f29b9d7f456b0d3b1500ede4df398a0d69bd96d1cf49",
+      "rule_id": "PE3",
+      "file": "employees/engineering/devops-engineer/ftp-git-deploy.md",
+      "reason": "Exact contextual false positives individually reviewed in sidecar SHA256 f0ed1e5fd15d7bcc499051a7342a86684fc17cca2e9082ad63182f7b96724971; source 1b3212f0ba9fc58f7675877be9cf0ea0d8283ee8; original findings c35a55549005cedd65827c88e1aec775a0c579dd. Reasons and source hashes are recorded per review key. No new findings or coverage gaps accepted."
+    },
+    {
+      "hash": "sha256:5f30a9ef51ebc0a2e75cc48dcf0834aafbd6e297e78d658e17577c610e0f5e88",
+      "rule_id": "PE3",
+      "file": "employees/engineering/devops-engineer/ftp-git-deploy.md",
+      "reason": "Exact contextual false positives individually reviewed in sidecar SHA256 f0ed1e5fd15d7bcc499051a7342a86684fc17cca2e9082ad63182f7b96724971; source 1b3212f0ba9fc58f7675877be9cf0ea0d8283ee8; original findings c35a55549005cedd65827c88e1aec775a0c579dd. Reasons and source hashes are recorded per review key. No new findings or coverage gaps accepted."
+    },
+    {
+      "hash": "sha256:51e12e7de0e3adb510362acffa0df2ffec8da2f4841a70e6f4014d9a1728e6e9",
+      "rule_id": "PE3",
+      "file": "employees/engineering/devops-engineer/ftp-git-deploy.md",
+      "reason": "Exact contextual false positives individually reviewed in sidecar SHA256 f0ed1e5fd15d7bcc499051a7342a86684fc17cca2e9082ad63182f7b96724971; source 1b3212f0ba9fc58f7675877be9cf0ea0d8283ee8; original findings c35a55549005cedd65827c88e1aec775a0c579dd. Reasons and source hashes are recorded per review key. No new findings or coverage gaps accepted."
+    },
+    {
+      "hash": "sha256:bfc76f89f3ca242f97f62bf89fe4e42ee962ef35909922cc0185bc90c5d9982c",
+      "rule_id": "PE3",
+      "file": "employees/engineering/devops-engineer/gitops-skill.md",
+      "reason": "Exact contextual false positives individually reviewed in sidecar SHA256 f0ed1e5fd15d7bcc499051a7342a86684fc17cca2e9082ad63182f7b96724971; source 1b3212f0ba9fc58f7675877be9cf0ea0d8283ee8; original findings c35a55549005cedd65827c88e1aec775a0c579dd. Reasons and source hashes are recorded per review key. No new findings or coverage gaps accepted."
+    },
+    {
+      "hash": "sha256:d45e7291b90be564fc82f5be3854d4b2016b271b8f717bd101c99d3051d9ee87",
+      "rule_id": "PE3",
+      "file": "employees/engineering/devops-engineer/local-deploy-preflight.md",
+      "reason": "Exact contextual false positives individually reviewed in sidecar SHA256 f0ed1e5fd15d7bcc499051a7342a86684fc17cca2e9082ad63182f7b96724971; source 1b3212f0ba9fc58f7675877be9cf0ea0d8283ee8; original findings c35a55549005cedd65827c88e1aec775a0c579dd. Reasons and source hashes are recorded per review key. No new findings or coverage gaps accepted."
+    },
+    {
+      "hash": "sha256:20ebcff3d38cba27fda28a05112fdc7de55c9aea5c4921db971009d519675b48",
+      "rule_id": "PE3",
+      "file": "employees/engineering/devops-engineer/opensource-release-pipeline.md",
+      "reason": "Exact contextual false positives individually reviewed in sidecar SHA256 f0ed1e5fd15d7bcc499051a7342a86684fc17cca2e9082ad63182f7b96724971; source 1b3212f0ba9fc58f7675877be9cf0ea0d8283ee8; original findings c35a55549005cedd65827c88e1aec775a0c579dd. Reasons and source hashes are recorded per review key. No new findings or coverage gaps accepted."
+    },
+    {
+      "hash": "sha256:73d3e6e85116cf75962b4902132c8856335e0eee1bea0276b6042badd0326f71",
+      "rule_id": "PE3",
+      "file": "employees/engineering/devops-engineer/opensource-release-pipeline.md",
+      "reason": "Exact contextual false positives individually reviewed in sidecar SHA256 f0ed1e5fd15d7bcc499051a7342a86684fc17cca2e9082ad63182f7b96724971; source 1b3212f0ba9fc58f7675877be9cf0ea0d8283ee8; original findings c35a55549005cedd65827c88e1aec775a0c579dd. Reasons and source hashes are recorded per review key. No new findings or coverage gaps accepted."
+    },
+    {
+      "hash": "sha256:2211f0126bc8ab50aa7139692f0547fde4f23cc46ce858d9f4c0aca0eb0c5484",
+      "rule_id": "PE3",
+      "file": "employees/engineering/devops-engineer/rules.md",
+      "reason": "Exact contextual false positives individually reviewed in sidecar SHA256 f0ed1e5fd15d7bcc499051a7342a86684fc17cca2e9082ad63182f7b96724971; source 1b3212f0ba9fc58f7675877be9cf0ea0d8283ee8; original findings c35a55549005cedd65827c88e1aec775a0c579dd. Reasons and source hashes are recorded per review key. No new findings or coverage gaps accepted."
+    },
+    {
+      "hash": "sha256:27614f523819e1340061f923caa84239a1301a9a4b1c7b2c37e47e070300e71b",
+      "rule_id": "PE3",
+      "file": "employees/engineering/devops-engineer/rules.md",
+      "reason": "Exact contextual false positives individually reviewed in sidecar SHA256 f0ed1e5fd15d7bcc499051a7342a86684fc17cca2e9082ad63182f7b96724971; source 1b3212f0ba9fc58f7675877be9cf0ea0d8283ee8; original findings c35a55549005cedd65827c88e1aec775a0c579dd. Reasons and source hashes are recorded per review key. No new findings or coverage gaps accepted."
+    },
+    {
+      "hash": "sha256:261f8f9545355b5ec76868c118ad324d60a0e2890fcb763698144f0dc903d2e5",
+      "rule_id": "PE3",
+      "file": "employees/engineering/devops-engineer/rules.md",
+      "reason": "Exact contextual false positives individually reviewed in sidecar SHA256 f0ed1e5fd15d7bcc499051a7342a86684fc17cca2e9082ad63182f7b96724971; source 1b3212f0ba9fc58f7675877be9cf0ea0d8283ee8; original findings c35a55549005cedd65827c88e1aec775a0c579dd. Reasons and source hashes are recorded per review key. No new findings or coverage gaps accepted."
+    },
+    {
+      "hash": "sha256:067aebc70e5b38eaaf728a953f7785ff15c6a6c4350866e0880606b2ff634dcc",
+      "rule_id": "PE3",
+      "file": "employees/engineering/devops-engineer/rules.md",
+      "reason": "Exact contextual false positives individually reviewed in sidecar SHA256 f0ed1e5fd15d7bcc499051a7342a86684fc17cca2e9082ad63182f7b96724971; source 1b3212f0ba9fc58f7675877be9cf0ea0d8283ee8; original findings c35a55549005cedd65827c88e1aec775a0c579dd. Reasons and source hashes are recorded per review key. No new findings or coverage gaps accepted."
+    },
+    {
+      "hash": "sha256:910801d3da33c2bd2208e201bffa284b764e2ba032945de4d2865faabb443552",
+      "rule_id": "PE3",
+      "file": "employees/engineering/frontend-developer/design-to-code.md",
+      "reason": "Exact contextual false positives individually reviewed in sidecar SHA256 f0ed1e5fd15d7bcc499051a7342a86684fc17cca2e9082ad63182f7b96724971; source 1b3212f0ba9fc58f7675877be9cf0ea0d8283ee8; original findings c35a55549005cedd65827c88e1aec775a0c579dd. Reasons and source hashes are recorded per review key. No new findings or coverage gaps accepted."
+    },
+    {
+      "hash": "sha256:4c01866320b61151c86cac6a61a9d91e5b75c65c4cb0abbb101329dec5e47ff0",
+      "rule_id": "PE3",
+      "file": "employees/engineering/full-stack-developer/SKILL.md",
+      "reason": "Exact contextual false positives individually reviewed in sidecar SHA256 f0ed1e5fd15d7bcc499051a7342a86684fc17cca2e9082ad63182f7b96724971; source 1b3212f0ba9fc58f7675877be9cf0ea0d8283ee8; original findings c35a55549005cedd65827c88e1aec775a0c579dd. Reasons and source hashes are recorded per review key. No new findings or coverage gaps accepted."
+    },
+    {
+      "hash": "sha256:14ff73b3619b3fa7529f9adf5d1606d094500b2e52162372b32c0aa17214578c",
+      "rule_id": "PE3",
+      "file": "employees/engineering/full-stack-developer/auth-patterns.md",
+      "reason": "Exact contextual false positives individually reviewed in sidecar SHA256 f0ed1e5fd15d7bcc499051a7342a86684fc17cca2e9082ad63182f7b96724971; source 1b3212f0ba9fc58f7675877be9cf0ea0d8283ee8; original findings c35a55549005cedd65827c88e1aec775a0c579dd. Reasons and source hashes are recorded per review key. No new findings or coverage gaps accepted."
+    },
+    {
+      "hash": "sha256:96015144e6569dd58a432bd1f50d9c8bb6eea33e3018e98352cc90363d32389d",
+      "rule_id": "PE1",
+      "file": "employees/engineering/llm-agent-designer/SKILL.md",
+      "reason": "Exact contextual false positives individually reviewed in sidecar SHA256 f0ed1e5fd15d7bcc499051a7342a86684fc17cca2e9082ad63182f7b96724971; source 1b3212f0ba9fc58f7675877be9cf0ea0d8283ee8; original findings c35a55549005cedd65827c88e1aec775a0c579dd. Reasons and source hashes are recorded per review key. No new findings or coverage gaps accepted."
+    },
+    {
+      "hash": "sha256:2a46382952e6189c6b026cacb0bdff02fbd8f797f62c9323352003c0eb112b1b",
+      "rule_id": "P1",
+      "file": "employees/design/ui-ux-designer/design-intelligence/data/ux-guidelines.csv",
+      "reason": "Exact contextual false positives individually reviewed in sidecar SHA256 f0ed1e5fd15d7bcc499051a7342a86684fc17cca2e9082ad63182f7b96724971; source 1b3212f0ba9fc58f7675877be9cf0ea0d8283ee8; original findings c35a55549005cedd65827c88e1aec775a0c579dd. Reasons and source hashes are recorded per review key. No new findings or coverage gaps accepted."
+    },
+    {
+      "hash": "sha256:8daaac00ec4ce85e2019ae4ae89c5883aaabee6b11e768287078c43ae0fa5afe",
+      "rule_id": "RA2",
+      "file": "employees/engineering/mobile-developer/SKILL.md",
+      "reason": "Exact contextual false positives individually reviewed in sidecar SHA256 f0ed1e5fd15d7bcc499051a7342a86684fc17cca2e9082ad63182f7b96724971; source 1b3212f0ba9fc58f7675877be9cf0ea0d8283ee8; original findings c35a55549005cedd65827c88e1aec775a0c579dd. Reasons and source hashes are recorded per review key. No new findings or coverage gaps accepted."
+    },
+    {
+      "hash": "sha256:19341e33cc2f5c24f1b4d584e943650fd3c86372337818f117715c0bfcff028d",
+      "rule_id": "RA2",
+      "file": "employees/engineering/mobile-developer/SKILL.md",
+      "reason": "Exact contextual false positives individually reviewed in sidecar SHA256 f0ed1e5fd15d7bcc499051a7342a86684fc17cca2e9082ad63182f7b96724971; source 1b3212f0ba9fc58f7675877be9cf0ea0d8283ee8; original findings c35a55549005cedd65827c88e1aec775a0c579dd. Reasons and source hashes are recorded per review key. No new findings or coverage gaps accepted."
+    },
+    {
+      "hash": "sha256:962cb8b34178b272ca89802c7c2ebf941f0175bbf8a2359ea02862b06f31dbad",
+      "rule_id": "RA2",
+      "file": "employees/engineering/mobile-developer/mobile-mcp-operator.md",
+      "reason": "Exact contextual false positives individually reviewed in sidecar SHA256 f0ed1e5fd15d7bcc499051a7342a86684fc17cca2e9082ad63182f7b96724971; source 1b3212f0ba9fc58f7675877be9cf0ea0d8283ee8; original findings c35a55549005cedd65827c88e1aec775a0c579dd. Reasons and source hashes are recorded per review key. No new findings or coverage gaps accepted."
+    },
+    {
+      "hash": "sha256:28de8fc9932fd1f515f19f404fa5fbc43b8e2962b41147fff423355cf5e525ee",
+      "rule_id": "RA1",
+      "file": "employees/engineering/unity-developer/SKILL.md",
+      "reason": "Exact contextual false positives individually reviewed in sidecar SHA256 f0ed1e5fd15d7bcc499051a7342a86684fc17cca2e9082ad63182f7b96724971; source 1b3212f0ba9fc58f7675877be9cf0ea0d8283ee8; original findings c35a55549005cedd65827c88e1aec775a0c579dd. Reasons and source hashes are recorded per review key. No new findings or coverage gaps accepted."
+    },
+    {
+      "hash": "sha256:dc4e9c5bca47b091314d61189ee673b2eae463b962a36d7585f03c83a970df6c",
+      "rule_id": "P6",
+      "file": "employees/design/ui-ux-designer/design-intelligence/scripts/design_system.py",
+      "reason": "Exact contextual false positives individually reviewed in sidecar SHA256 f0ed1e5fd15d7bcc499051a7342a86684fc17cca2e9082ad63182f7b96724971; source 1b3212f0ba9fc58f7675877be9cf0ea0d8283ee8; original findings c35a55549005cedd65827c88e1aec775a0c579dd. Reasons and source hashes are recorded per review key. No new findings or coverage gaps accepted."
+    },
+    {
+      "hash": "sha256:e0a73a02c1f82883db01d11507b73db958af81f177497fb0ea8a5aa7074d697b",
+      "rule_id": "P6",
+      "file": "employees/design/ui-ux-designer/design-intelligence/scripts/design_system.py",
+      "reason": "Exact contextual false positives individually reviewed in sidecar SHA256 f0ed1e5fd15d7bcc499051a7342a86684fc17cca2e9082ad63182f7b96724971; source 1b3212f0ba9fc58f7675877be9cf0ea0d8283ee8; original findings c35a55549005cedd65827c88e1aec775a0c579dd. Reasons and source hashes are recorded per review key. No new findings or coverage gaps accepted."
+    },
+    {
+      "hash": "sha256:3c008d625cf566347f228d18f36477181c6359a21dd6a6e9db818ba54ae0e457",
+      "rule_id": "P6",
+      "file": "employees/design/ui-ux-designer/design-intelligence/scripts/design_system.py",
+      "reason": "Exact contextual false positives individually reviewed in sidecar SHA256 f0ed1e5fd15d7bcc499051a7342a86684fc17cca2e9082ad63182f7b96724971; source 1b3212f0ba9fc58f7675877be9cf0ea0d8283ee8; original findings c35a55549005cedd65827c88e1aec775a0c579dd. Reasons and source hashes are recorded per review key. No new findings or coverage gaps accepted."
+    },
+    {
+      "hash": "sha256:f19be91a3bc60c1daa388fc5a64289c82b18dce836e860141315a9686552c4a6",
+      "rule_id": "P6",
+      "file": "employees/engineering/llm-agent-designer/grounded_eval.py",
+      "reason": "Exact contextual false positives individually reviewed in sidecar SHA256 f0ed1e5fd15d7bcc499051a7342a86684fc17cca2e9082ad63182f7b96724971; source 1b3212f0ba9fc58f7675877be9cf0ea0d8283ee8; original findings c35a55549005cedd65827c88e1aec775a0c579dd. Reasons and source hashes are recorded per review key. No new findings or coverage gaps accepted."
+    },
+    {
+      "hash": "sha256:09c052f9831541dad01bf66d190b5b4af5f10219a419ceb6ae9158e6c6343201",
+      "rule_id": "TM3",
+      "file": "employees/design/ui-ux-designer/design-intelligence/data/stacks/nextjs.csv",
+      "reason": "Exact contextual false positives individually reviewed in sidecar SHA256 f0ed1e5fd15d7bcc499051a7342a86684fc17cca2e9082ad63182f7b96724971; source 1b3212f0ba9fc58f7675877be9cf0ea0d8283ee8; original findings c35a55549005cedd65827c88e1aec775a0c579dd. Reasons and source hashes are recorded per review key. No new findings or coverage gaps accepted."
+    },
+    {
+      "hash": "sha256:9eb91fb7f38b5f0159a922d2c9f6a0841afce5ee2b41a5ff1a381c9928438948",
+      "rule_id": "TM3",
+      "file": "employees/engineering/full-stack-developer/rules.md",
+      "reason": "Exact contextual false positives individually reviewed in sidecar SHA256 f0ed1e5fd15d7bcc499051a7342a86684fc17cca2e9082ad63182f7b96724971; source 1b3212f0ba9fc58f7675877be9cf0ea0d8283ee8; original findings c35a55549005cedd65827c88e1aec775a0c579dd. Reasons and source hashes are recorded per review key. No new findings or coverage gaps accepted."
+    },
+    {
+      "hash": "sha256:23d6bbc731a1205a796d048799c7c2dc16e9114a2379e92951ac00875dc57ca4",
+      "rule_id": "YR4",
+      "file": "employees/engineering/mobile-developer/native-mobile-language-packs.md",
+      "reason": "Exact contextual false positives individually reviewed in sidecar SHA256 f0ed1e5fd15d7bcc499051a7342a86684fc17cca2e9082ad63182f7b96724971; source 1b3212f0ba9fc58f7675877be9cf0ea0d8283ee8; original findings c35a55549005cedd65827c88e1aec775a0c579dd. Reasons and source hashes are recorded per review key. No new findings or coverage gaps accepted."
+    }
+  ]
+}

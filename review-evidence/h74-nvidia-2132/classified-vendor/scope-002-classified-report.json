@@ -1,0 +1,3681 @@
+{
+  "skill": {
+    "name": "unknown",
+    "source": "/Users/shai/Desktop/Agent Marketplace/outputs/01a144ce-dc4c-79d0-a375-2637bd01b9ff/harness-publication-20261028/parser-corrections-20261029/nvidia-2132-h74-scopes/scopes/scope-002/input",
+    "scanned_at": "2026-10-29T22:29:38.489533+00:00"
+  },
+  "risk_assessment": {
+    "score": 0,
+    "severity": "LOW",
+    "recommendation": "SAFE",
+    "max_issue_severity": "NONE"
+  },
+  "components": [
+    {
+      "path": "employees/engineering/unity-developer/plugin.json",
+      "type": "json",
+      "lines": 53,
+      "executable": false,
+      "size_bytes": 1877,
+      "source_url": null,
+      "source_identity": null,
+      "source_digest": null
+    },
+    {
+      "path": "employees/engineering/unity-developer/rules.md",
+      "type": "markdown",
+      "lines": 105,
+      "executable": false,
+      "size_bytes": 9133,
+      "source_url": null,
+      "source_identity": null,
+      "source_digest": null
+    },
+    {
+      "path": "employees/engineering/unity-developer/unity-build-ship.md",
+      "type": "markdown",
+      "lines": 169,
+      "executable": false,
+      "size_bytes": 9569,
+      "source_url": null,
+      "source_identity": null,
+      "source_digest": null
+    },
+    {
+      "path": "employees/engineering/unity-developer/unity-mcp-operator.md",
+      "type": "markdown",
+      "lines": 278,
+      "executable": false,
+      "size_bytes": 13757,
+      "source_url": null,
+      "source_identity": null,
+      "source_digest": null
+    },
+    {
+      "path": "employees/engineering/unity-developer/unity-performance-mobile.md",
+      "type": "markdown",
+      "lines": 85,
+      "executable": false,
+      "size_bytes": 6887,
+      "source_url": null,
+      "source_identity": null,
+      "source_digest": null
+    },
+    {
+      "path": "employees/engineering/unity-developer/unity-scene-architecture.md",
+      "type": "markdown",
+      "lines": 217,
+      "executable": false,
+      "size_bytes": 11794,
+      "source_url": null,
+      "source_identity": null,
+      "source_digest": null
+    },
+    {
+      "path": "employees/engineering/unity-developer/unity-testing-pipeline.md",
+      "type": "markdown",
+      "lines": 255,
+      "executable": false,
+      "size_bytes": 15897,
+      "source_url": null,
+      "source_identity": null,
+      "source_digest": null
+    },
+    {
+      "path": "employees/engineering/unity-developer/unity.skill",
+      "type": "zip",
+      "lines": 0,
+      "executable": false,
+      "size_bytes": 47232,
+      "source_url": null,
+      "source_identity": null,
+      "source_digest": null
+    },
+    {
+      "path": "employees/engineering/unreal-developer/CLAUDE_template.md",
+      "type": "markdown",
+      "lines": 60,
+      "executable": false,
+      "size_bytes": 2980,
+      "source_url": null,
+      "source_identity": null,
+      "source_digest": null
+    },
+    {
+      "path": "employees/engineering/unreal-developer/SKILL.md",
+      "type": "markdown",
+      "lines": 201,
+      "executable": false,
+      "size_bytes": 20020,
+      "source_url": null,
+      "source_identity": null,
+      "source_digest": null
+    },
+    {
+      "path": "employees/engineering/unreal-developer/capability.contract.json",
+      "type": "json",
+      "lines": 541,
+      "executable": false,
+      "size_bytes": 15755,
+      "source_url": null,
+      "source_identity": null,
+      "source_digest": null
+    },
+    {
+      "path": "employees/engineering/unreal-developer/game-design-mentor.md",
+      "type": "markdown",
+      "lines": 37,
+      "executable": false,
+      "size_bytes": 4019,
+      "source_url": null,
+      "source_identity": null,
+      "source_digest": null
+    },
+    {
+      "path": "employees/engineering/unreal-developer/job-two-improvement.md",
+      "type": "markdown",
+      "lines": 37,
+      "executable": false,
+      "size_bytes": 2065,
+      "source_url": null,
+      "source_identity": null,
+      "source_digest": null
+    },
+    {
+      "path": "employees/engineering/unreal-developer/learnings.md",
+      "type": "markdown",
+      "lines": 50,
+      "executable": false,
+      "size_bytes": 8352,
+      "source_url": null,
+      "source_identity": null,
+      "source_digest": null
+    },
+    {
+      "path": "employees/engineering/unreal-developer/plugin.json",
+      "type": "json",
+      "lines": 54,
+      "executable": false,
+      "size_bytes": 2373,
+      "source_url": null,
+      "source_identity": null,
+      "source_digest": null
+    },
+    {
+      "path": "employees/engineering/unreal-developer/rules.md",
+      "type": "markdown",
+      "lines": 71,
+      "executable": false,
+      "size_bytes": 7984,
+      "source_url": null,
+      "source_identity": null,
+      "source_digest": null
+    },
+    {
+      "path": "employees/engineering/unreal-developer/unreal-cpp-quality-and-build.md",
+      "type": "markdown",
+      "lines": 193,
+      "executable": false,
+      "size_bytes": 20384,
+      "source_url": null,
+      "source_identity": null,
+      "source_digest": null
+    },
+    {
+      "path": "employees/engineering/unreal-developer/unreal-gameplay-patterns.md",
+      "type": "markdown",
+      "lines": 105,
+      "executable": false,
+      "size_bytes": 12086,
+      "source_url": null,
+      "source_identity": null,
+      "source_digest": null
+    },
+    {
+      "path": "employees/engineering/unreal-developer/unreal-genai-asset-gen.md",
+      "type": "markdown",
+      "lines": 72,
+      "executable": false,
+      "size_bytes": 7837,
+      "source_url": null,
+      "source_identity": null,
+      "source_digest": null
+    },
+    {
+      "path": "employees/engineering/unreal-developer/unreal-mcp-operator.md",
+      "type": "markdown",
+      "lines": 147,
+      "executable": false,
+      "size_bytes": 12804,
+      "source_url": null,
+      "source_identity": null,
+      "source_digest": null
+    },
+    {
+      "path": "employees/engineering/unreal-developer/unreal-scene-architecture.md",
+      "type": "markdown",
+      "lines": 47,
+      "executable": false,
+      "size_bytes": 4225,
+      "source_url": null,
+      "source_identity": null,
+      "source_digest": null
+    },
+    {
+      "path": "employees/engineering/unreal-developer/unreal-testing-pipeline.md",
+      "type": "markdown",
+      "lines": 39,
+      "executable": false,
+      "size_bytes": 3448,
+      "source_url": null,
+      "source_identity": null,
+      "source_digest": null
+    },
+    {
+      "path": "employees/hierarchy.md",
+      "type": "markdown",
+      "lines": 122,
+      "executable": false,
+      "size_bytes": 6972,
+      "source_url": null,
+      "source_identity": null,
+      "source_digest": null
+    },
+    {
+      "path": "employees/infrastructure/cloud-architect/SKILL.md",
+      "type": "markdown",
+      "lines": 191,
+      "executable": false,
+      "size_bytes": 21965,
+      "source_url": null,
+      "source_identity": null,
+      "source_digest": null
+    },
+    {
+      "path": "employees/infrastructure/cloud-architect/aws-mcp-iac-execution.md",
+      "type": "markdown",
+      "lines": 33,
+      "executable": false,
+      "size_bytes": 3883,
+      "source_url": null,
+      "source_identity": null,
+      "source_digest": null
+    },
+    {
+      "path": "employees/infrastructure/cloud-architect/capability.contract.json",
+      "type": "json",
+      "lines": 529,
+      "executable": false,
+      "size_bytes": 16175,
+      "source_url": null,
+      "source_identity": null,
+      "source_digest": null
+    },
+    {
+      "path": "employees/infrastructure/cloud-architect/finops-pre-deploy-and-cost-data.md",
+      "type": "markdown",
+      "lines": 37,
+      "executable": false,
+      "size_bytes": 5866,
+      "source_url": null,
+      "source_identity": null,
+      "source_digest": null
+    },
+    {
+      "path": "employees/infrastructure/cloud-architect/learnings.md",
+      "type": "markdown",
+      "lines": 35,
+      "executable": false,
+      "size_bytes": 3793,
+      "source_url": null,
+      "source_identity": null,
+      "source_digest": null
+    },
+    {
+      "path": "employees/infrastructure/cloud-architect/plugin.json",
+      "type": "json",
+      "lines": 35,
+      "executable": false,
+      "size_bytes": 1152,
+      "source_url": null,
+      "source_identity": null,
+      "source_digest": null
+    },
+    {
+      "path": "employees/infrastructure/cloud-architect/rules.md",
+      "type": "markdown",
+      "lines": 176,
+      "executable": false,
+      "size_bytes": 21987,
+      "source_url": null,
+      "source_identity": null,
+      "source_digest": null
+    },
+    {
+      "path": "employees/infrastructure/database-administrator/SKILL.md",
+      "type": "markdown",
+      "lines": 266,
+      "executable": false,
+      "size_bytes": 17148,
+      "source_url": null,
+      "source_identity": null,
+      "source_digest": null
+    },
+    {
+      "path": "employees/infrastructure/database-administrator/capability.contract.json",
+      "type": "json",
+      "lines": 546,
+      "executable": false,
+      "size_bytes": 16606,
+      "source_url": null,
+      "source_identity": null,
+      "source_digest": null
+    },
+    {
+      "path": "employees/infrastructure/database-administrator/learnings.md",
+      "type": "markdown",
+      "lines": 32,
+      "executable": false,
+      "size_bytes": 3718,
+      "source_url": null,
+      "source_identity": null,
+      "source_digest": null
+    },
+    {
+      "path": "employees/infrastructure/database-administrator/mongodb-nosql-admin.md",
+      "type": "markdown",
+      "lines": 28,
+      "executable": false,
+      "size_bytes": 3695,
+      "source_url": null,
+      "source_identity": null,
+      "source_digest": null
+    },
+    {
+      "path": "employees/infrastructure/database-administrator/plugin.json",
+      "type": "json",
+      "lines": 37,
+      "executable": false,
+      "size_bytes": 967,
+      "source_url": null,
+      "source_identity": null,
+      "source_digest": null
+    },
+    {
+      "path": "employees/infrastructure/database-administrator/rules.md",
+      "type": "markdown",
+      "lines": 160,
+      "executable": false,
+      "size_bytes": 16939,
+      "source_url": null,
+      "source_identity": null,
+      "source_digest": null
+    },
+    {
+      "path": "employees/infrastructure/database-administrator/sql-ops-tuning-ha-backup.md",
+      "type": "markdown",
+      "lines": 75,
+      "executable": false,
+      "size_bytes": 9533,
+      "source_url": null,
+      "source_identity": null,
+      "source_digest": null
+    },
+    {
+      "path": "employees/infrastructure/database-administrator/sqlite-recovery.md",
+      "type": "markdown",
+      "lines": 70,
+      "executable": false,
+      "size_bytes": 5257,
+      "source_url": null,
+      "source_identity": null,
+      "source_digest": null
+    },
+    {
+      "path": "employees/infrastructure/database-administrator/sqlite_recovery.py",
+      "type": "python",
+      "lines": 1028,
+      "executable": true,
+      "size_bytes": 49464,
+      "source_url": null,
+      "source_identity": null,
+      "source_digest": null
+    },
+    {
+      "path": "employees/infrastructure/database-administrator/verified-restore-and-baselining.md",
+      "type": "markdown",
+      "lines": 151,
+      "executable": false,
+      "size_bytes": 9382,
+      "source_url": null,
+      "source_identity": null,
+      "source_digest": null
+    },
+    {
+      "path": "employees/infrastructure/fleet-dispatcher/SKILL.md",
+      "type": "markdown",
+      "lines": 126,
+      "executable": false,
+      "size_bytes": 7361,
+      "source_url": null,
+      "source_identity": null,
+      "source_digest": null
+    },
+    {
+      "path": "employees/infrastructure/fleet-dispatcher/capability.contract.json",
+      "type": "json",
+      "lines": 446,
+      "executable": false,
+      "size_bytes": 12699,
+      "source_url": null,
+      "source_identity": null,
+      "source_digest": null
+    },
+    {
+      "path": "employees/infrastructure/fleet-dispatcher/handoff-work-orders.md",
+      "type": "markdown",
+      "lines": 92,
+      "executable": false,
+      "size_bytes": 5853,
+      "source_url": null,
+      "source_identity": null,
+      "source_digest": null
+    },
+    {
+      "path": "employees/infrastructure/fleet-dispatcher/handoff.py",
+      "type": "python",
+      "lines": 496,
+      "executable": true,
+      "size_bytes": 24496,
+      "source_url": null,
+      "source_identity": null,
+      "source_digest": null
+    },
+    {
+      "path": "employees/infrastructure/fleet-dispatcher/learnings.md",
+      "type": "markdown",
+      "lines": 15,
+      "executable": false,
+      "size_bytes": 1421,
+      "source_url": null,
+      "source_identity": null,
+      "source_digest": null
+    },
+    {
+      "path": "employees/infrastructure/fleet-dispatcher/plugin.json",
+      "type": "json",
+      "lines": 1,
+      "executable": false,
+      "size_bytes": 505,
+      "source_url": null,
+      "source_identity": null,
+      "source_digest": null
+    },
+    {
+      "path": "employees/infrastructure/fleet-dispatcher/rules.md",
+      "type": "markdown",
+      "lines": 24,
+      "executable": false,
+      "size_bytes": 1584,
+      "source_url": null,
+      "source_identity": null,
+      "source_digest": null
+    },
+    {
+      "path": "employees/infrastructure/fleet-provisioner/SKILL.md",
+      "type": "markdown",
+      "lines": 110,
+      "executable": false,
+      "size_bytes": 6681,
+      "source_url": null,
+      "source_identity": null,
+      "source_digest": null
+    },
+    {
+      "path": "employees/infrastructure/fleet-provisioner/capability.contract.json",
+      "type": "json",
+      "lines": 438,
+      "executable": false,
+      "size_bytes": 12440,
+      "source_url": null,
+      "source_identity": null,
+      "source_digest": null
+    },
+    {
+      "path": "employees/infrastructure/fleet-provisioner/fleet-registration.md",
+      "type": "markdown",
+      "lines": 56,
+      "executable": false,
+      "size_bytes": 3748,
+      "source_url": null,
+      "source_identity": null,
+      "source_digest": null
+    },
+    {
+      "path": "employees/infrastructure/fleet-provisioner/learnings.md",
+      "type": "markdown",
+      "lines": 14,
+      "executable": false,
+      "size_bytes": 1167,
+      "source_url": null,
+      "source_identity": null,
+      "source_digest": null
+    },
+    {
+      "path": "employees/infrastructure/fleet-provisioner/plugin.json",
+      "type": "json",
+      "lines": 1,
+      "executable": false,
+      "size_bytes": 503,
+      "source_url": null,
+      "source_identity": null,
+      "source_digest": null
+    },
+    {
+      "path": "employees/infrastructure/fleet-provisioner/registry.py",
+      "type": "python",
+      "lines": 348,
+      "executable": true,
+      "size_bytes": 16391,
+      "source_url": null,
+      "source_identity": null,
+      "source_digest": null
+    },
+    {
+      "path": "employees/infrastructure/fleet-provisioner/rules.md",
+      "type": "markdown",
+      "lines": 22,
+      "executable": false,
+      "size_bytes": 1529,
+      "source_url": null,
+      "source_identity": null,
+      "source_digest": null
+    },
+    {
+      "path": "employees/infrastructure/kubernetes-specialist/SKILL.md",
+      "type": "markdown",
+      "lines": 209,
+      "executable": false,
+      "size_bytes": 17829,
+      "source_url": null,
+      "source_identity": null,
+      "source_digest": null
+    },
+    {
+      "path": "employees/infrastructure/kubernetes-specialist/capability.contract.json",
+      "type": "json",
+      "lines": 524,
+      "executable": false,
+      "size_bytes": 15973,
+      "source_url": null,
+      "source_identity": null,
+      "source_digest": null
+    },
+    {
+      "path": "employees/infrastructure/kubernetes-specialist/k8s-manifest-check.md",
+      "type": "markdown",
+      "lines": 63,
+      "executable": false,
+      "size_bytes": 4673,
+      "source_url": null,
+      "source_identity": null,
+      "source_digest": null
+    },
+    {
+      "path": "employees/infrastructure/kubernetes-specialist/k8s_manifest_check.py",
+      "type": "python",
+      "lines": 1032,
+      "executable": true,
+      "size_bytes": 49850,
+      "source_url": null,
+      "source_identity": null,
+      "source_digest": null
+    },
+    {
+      "path": "employees/infrastructure/kubernetes-specialist/learnings.md",
+      "type": "markdown",
+      "lines": 34,
+      "executable": false,
+      "size_bytes": 3477,
+      "source_url": null,
+      "source_identity": null,
+      "source_digest": null
+    },
+    {
+      "path": "employees/infrastructure/kubernetes-specialist/platform-patterns.md",
+      "type": "markdown",
+      "lines": 54,
+      "executable": false,
+      "size_bytes": 8870,
+      "source_url": null,
+      "source_identity": null,
+      "source_digest": null
+    },
+    {
+      "path": "employees/infrastructure/kubernetes-specialist/plugin.json",
+      "type": "json",
+      "lines": 46,
+      "executable": false,
+      "size_bytes": 1328,
+      "source_url": null,
+      "source_identity": null,
+      "source_digest": null
+    },
+    {
+      "path": "employees/infrastructure/kubernetes-specialist/rules.md",
+      "type": "markdown",
+      "lines": 165,
+      "executable": false,
+      "size_bytes": 22964,
+      "source_url": null,
+      "source_identity": null,
+      "source_digest": null
+    },
+    {
+      "path": "employees/infrastructure/network-engineer/SKILL.md",
+      "type": "markdown",
+      "lines": 253,
+      "executable": false,
+      "size_bytes": 25515,
+      "source_url": null,
+      "source_identity": null,
+      "source_digest": null
+    },
+    {
+      "path": "employees/infrastructure/network-engineer/capability.contract.json",
+      "type": "json",
+      "lines": 546,
+      "executable": false,
+      "size_bytes": 16578,
+      "source_url": null,
+      "source_identity": null,
+      "source_digest": null
+    },
+    {
+      "path": "employees/infrastructure/network-engineer/enterprise-network-ops.md",
+      "type": "markdown",
+      "lines": 212,
+      "executable": false,
+      "size_bytes": 13690,
+      "source_url": null,
+      "source_identity": null,
+      "source_digest": null
+    },
+    {
+      "path": "employees/infrastructure/network-engineer/homelab-and-network-ops.md",
+      "type": "markdown",
+      "lines": 219,
+      "executable": false,
+      "size_bytes": 13468,
+      "source_url": null,
+      "source_identity": null,
+      "source_digest": null
+    },
+    {
+      "path": "employees/infrastructure/network-engineer/learnings.md",
+      "type": "markdown",
+      "lines": 25,
+      "executable": false,
+      "size_bytes": 5466,
+      "source_url": null,
+      "source_identity": null,
+      "source_digest": null
+    },
+    {
+      "path": "employees/infrastructure/network-engineer/netdiag.py",
+      "type": "python",
+      "lines": 897,
+      "executable": true,
+      "size_bytes": 48031,
+      "source_url": null,
+      "source_identity": null,
+      "source_digest": null
+    },
+    {
+      "path": "employees/infrastructure/network-engineer/offline-trace-diagnosis.md",
+      "type": "markdown",
+      "lines": 57,
+      "executable": false,
+      "size_bytes": 6207,
+      "source_url": null,
+      "source_identity": null,
+      "source_digest": null
+    },
+    {
+      "path": "employees/infrastructure/network-engineer/plugin.json",
+      "type": "json",
+      "lines": 50,
+      "executable": false,
+      "size_bytes": 1898,
+      "source_url": null,
+      "source_identity": null,
+      "source_digest": null
+    },
+    {
+      "path": "employees/infrastructure/network-engineer/rules.md",
+      "type": "markdown",
+      "lines": 101,
+      "executable": false,
+      "size_bytes": 16197,
+      "source_url": null,
+      "source_identity": null,
+      "source_digest": null
+    },
+    {
+      "path": "employees/infrastructure/network-engineer/server-hardening-tls-headers.md",
+      "type": "markdown",
+      "lines": 39,
+      "executable": false,
+      "size_bytes": 5573,
+      "source_url": null,
+      "source_identity": null,
+      "source_digest": null
+    },
+    {
+      "path": "employees/infrastructure/site-reliability-engineer/SKILL.md",
+      "type": "markdown",
+      "lines": 198,
+      "executable": false,
+      "size_bytes": 16184,
+      "source_url": null,
+      "source_identity": null,
+      "source_digest": null
+    },
+    {
+      "path": "employees/infrastructure/site-reliability-engineer/ai-rca-investigation-playbook.md",
+      "type": "markdown",
+      "lines": 125,
+      "executable": false,
+      "size_bytes": 7557,
+      "source_url": null,
+      "source_identity": null,
+      "source_digest": null
+    },
+    {
+      "path": "employees/infrastructure/site-reliability-engineer/capability.contract.json",
+      "type": "json",
+      "lines": 541,
+      "executable": false,
+      "size_bytes": 16675,
+      "source_url": null,
+      "source_identity": null,
+      "source_digest": null
+    },
+    {
+      "path": "employees/infrastructure/site-reliability-engineer/chaos-and-slo-as-code.md",
+      "type": "markdown",
+      "lines": 52,
+      "executable": false,
+      "size_bytes": 6548,
+      "source_url": null,
+      "source_identity": null,
+      "source_digest": null
+    },
+    {
+      "path": "employees/infrastructure/site-reliability-engineer/incident-slo.md",
+      "type": "markdown",
+      "lines": 102,
+      "executable": false,
+      "size_bytes": 7381,
+      "source_url": null,
+      "source_identity": null,
+      "source_digest": null
+    },
+    {
+      "path": "employees/infrastructure/site-reliability-engineer/incident_slo.py",
+      "type": "python",
+      "lines": 682,
+      "executable": true,
+      "size_bytes": 37474,
+      "source_url": null,
+      "source_identity": null,
+      "source_digest": null
+    },
+    {
+      "path": "employees/infrastructure/site-reliability-engineer/learnings.md",
+      "type": "markdown",
+      "lines": 28,
+      "executable": false,
+      "size_bytes": 3760,
+      "source_url": null,
+      "source_identity": null,
+      "source_digest": null
+    },
+    {
+      "path": "employees/infrastructure/site-reliability-engineer/plugin.json",
+      "type": "json",
+      "lines": 36,
+      "executable": false,
+      "size_bytes": 1066,
+      "source_url": null,
+      "source_identity": null,
+      "source_digest": null
+    },
+    {
+      "path": "employees/infrastructure/site-reliability-engineer/promql-patterns.md",
+      "type": "markdown",
+      "lines": 36,
+      "executable": false,
+      "size_bytes": 3690,
+      "source_url": null,
+      "source_identity": null,
+      "source_digest": null
+    },
+    {
+      "path": "employees/infrastructure/site-reliability-engineer/rules.md",
+      "type": "markdown",
+      "lines": 162,
+      "executable": false,
+      "size_bytes": 21173,
+      "source_url": null,
+      "source_identity": null,
+      "source_digest": null
+    },
+    {
+      "path": "employees/leadership/EXISTING-CAPABILITY-AUDIT.md",
+      "type": "markdown",
+      "lines": 53,
+      "executable": false,
+      "size_bytes": 3183,
+      "source_url": null,
+      "source_identity": null,
+      "source_digest": null
+    },
+    {
+      "path": "employees/leadership/RUNTIME-POLICY.md",
+      "type": "markdown",
+      "lines": 95,
+      "executable": false,
+      "size_bytes": 4146,
+      "source_url": null,
+      "source_identity": null,
+      "source_digest": null
+    },
+    {
+      "path": "employees/leadership/ceo/SKILL.md",
+      "type": "markdown",
+      "lines": 351,
+      "executable": false,
+      "size_bytes": 21394,
+      "source_url": null,
+      "source_identity": null,
+      "source_digest": null
+    },
+    {
+      "path": "employees/leadership/ceo/capability.contract.json",
+      "type": "json",
+      "lines": 489,
+      "executable": false,
+      "size_bytes": 14714,
+      "source_url": null,
+      "source_identity": null,
+      "source_digest": null
+    },
+    {
+      "path": "employees/leadership/ceo/investor-narrative-and-outreach.md",
+      "type": "markdown",
+      "lines": 107,
+      "executable": false,
+      "size_bytes": 6387,
+      "source_url": null,
+      "source_identity": null,
+      "source_digest": null
+    },
+    {
+      "path": "employees/leadership/ceo/learnings.md",
+      "type": "markdown",
+      "lines": 17,
+      "executable": false,
+      "size_bytes": 1266,
+      "source_url": null,
+      "source_identity": null,
+      "source_digest": null
+    },
+    {
+      "path": "employees/leadership/ceo/plugin.json",
+      "type": "json",
+      "lines": 42,
+      "executable": false,
+      "size_bytes": 1561,
+      "source_url": null,
+      "source_identity": null,
+      "source_digest": null
+    },
+    {
+      "path": "employees/leadership/ceo/rules.md",
+      "type": "markdown",
+      "lines": 111,
+      "executable": false,
+      "size_bytes": 7539,
+      "source_url": null,
+      "source_identity": null,
+      "source_digest": null
+    },
+    {
+      "path": "employees/leadership/cfo/SKILL.md",
+      "type": "markdown",
+      "lines": 384,
+      "executable": false,
+      "size_bytes": 20999,
+      "source_url": null,
+      "source_identity": null,
+      "source_digest": null
+    },
+    {
+      "path": "employees/leadership/cfo/bootstrapped-cfo-lens-2026.md",
+      "type": "markdown",
+      "lines": 34,
+      "executable": false,
+      "size_bytes": 3499,
+      "source_url": null,
+      "source_identity": null,
+      "source_digest": null
+    },
+    {
+      "path": "employees/leadership/cfo/capability.contract.json",
+      "type": "json",
+      "lines": 504,
+      "executable": false,
+      "size_bytes": 15354,
+      "source_url": null,
+      "source_identity": null,
+      "source_digest": null
+    },
+    {
+      "path": "employees/leadership/cfo/cash-revenue-reconciliation.md",
+      "type": "markdown",
+      "lines": 69,
+      "executable": false,
+      "size_bytes": 4581,
+      "source_url": null,
+      "source_identity": null,
+      "source_digest": null
+    },
+    {
+      "path": "employees/leadership/cfo/cash_revenue_reconcile.py",
+      "type": "python",
+      "lines": 486,
+      "executable": true,
+      "size_bytes": 24921,
+      "source_url": null,
+      "source_identity": null,
+      "source_digest": null
+    },
+    {
+      "path": "employees/leadership/cfo/filings-and-market-data-tooling.md",
+      "type": "markdown",
+      "lines": 38,
+      "executable": false,
+      "size_bytes": 3798,
+      "source_url": null,
+      "source_identity": null,
+      "source_digest": null
+    },
+    {
+      "path": "employees/leadership/cfo/financial-analysis.md",
+      "type": "markdown",
+      "lines": 15,
+      "executable": false,
+      "size_bytes": 1572,
+      "source_url": null,
+      "source_identity": null,
+      "source_digest": null
+    },
+    {
+      "path": "employees/leadership/cfo/fundraising-materials.md",
+      "type": "markdown",
+      "lines": 89,
+      "executable": false,
+      "size_bytes": 7812,
+      "source_url": null,
+      "source_identity": null,
+      "source_digest": null
+    },
+    {
+      "path": "employees/leadership/cfo/learnings.md",
+      "type": "markdown",
+      "lines": 24,
+      "executable": false,
+      "size_bytes": 2432,
+      "source_url": null,
+      "source_identity": null,
+      "source_digest": null
+    },
+    {
+      "path": "employees/leadership/cfo/plugin.json",
+      "type": "json",
+      "lines": 45,
+      "executable": false,
+      "size_bytes": 1963,
+      "source_url": null,
+      "source_identity": null,
+      "source_digest": null
+    },
+    {
+      "path": "employees/leadership/cfo/rules.md",
+      "type": "markdown",
+      "lines": 108,
+      "executable": false,
+      "size_bytes": 8329,
+      "source_url": null,
+      "source_identity": null,
+      "source_digest": null
+    },
+    {
+      "path": "employees/leadership/cmo/SKILL.md",
+      "type": "markdown",
+      "lines": 443,
+      "executable": false,
+      "size_bytes": 23804,
+      "source_url": null,
+      "source_identity": null,
+      "source_digest": null
+    },
+    {
+      "path": "employees/leadership/cmo/capability.contract.json",
+      "type": "json",
+      "lines": 455,
+      "executable": false,
+      "size_bytes": 12822,
+      "source_url": null,
+      "source_identity": null,
+      "source_digest": null
+    },
+    {
+      "path": "employees/leadership/cmo/learnings.md",
+      "type": "markdown",
+      "lines": 18,
+      "executable": false,
+      "size_bytes": 1495,
+      "source_url": null,
+      "source_identity": null,
+      "source_digest": null
+    },
+    {
+      "path": "employees/leadership/cmo/plugin.json",
+      "type": "json",
+      "lines": 37,
+      "executable": false,
+      "size_bytes": 1502,
+      "source_url": null,
+      "source_identity": null,
+      "source_digest": null
+    },
+    {
+      "path": "employees/leadership/cmo/rules.md",
+      "type": "markdown",
+      "lines": 119,
+      "executable": false,
+      "size_bytes": 6998,
+      "source_url": null,
+      "source_identity": null,
+      "source_digest": null
+    },
+    {
+      "path": "employees/leadership/coo/SKILL.md",
+      "type": "markdown",
+      "lines": 269,
+      "executable": false,
+      "size_bytes": 15351,
+      "source_url": null,
+      "source_identity": null,
+      "source_digest": null
+    },
+    {
+      "path": "employees/leadership/coo/capability.contract.json",
+      "type": "json",
+      "lines": 501,
+      "executable": false,
+      "size_bytes": 15230,
+      "source_url": null,
+      "source_identity": null,
+      "source_digest": null
+    },
+    {
+      "path": "employees/leadership/coo/eos-operating-cadence.md",
+      "type": "markdown",
+      "lines": 14,
+      "executable": false,
+      "size_bytes": 1465,
+      "source_url": null,
+      "source_identity": null,
+      "source_digest": null
+    },
+    {
+      "path": "employees/leadership/coo/learnings.md",
+      "type": "markdown",
+      "lines": 21,
+      "executable": false,
+      "size_bytes": 1646,
+      "source_url": null,
+      "source_identity": null,
+      "source_digest": null
+    },
+    {
+      "path": "employees/leadership/coo/plugin.json",
+      "type": "json",
+      "lines": 36,
+      "executable": false,
+      "size_bytes": 1349,
+      "source_url": null,
+      "source_identity": null,
+      "source_digest": null
+    },
+    {
+      "path": "employees/leadership/coo/resource-cash-decision.md",
+      "type": "markdown",
+      "lines": 59,
+      "executable": false,
+      "size_bytes": 4350,
+      "source_url": null,
+      "source_identity": null,
+      "source_digest": null
+    },
+    {
+      "path": "employees/leadership/coo/resource_decision.py",
+      "type": "python",
+      "lines": 757,
+      "executable": true,
+      "size_bytes": 39385,
+      "source_url": null,
+      "source_identity": null,
+      "source_digest": null
+    },
+    {
+      "path": "employees/leadership/coo/rules.md",
+      "type": "markdown",
+      "lines": 94,
+      "executable": false,
+      "size_bytes": 5150,
+      "source_url": null,
+      "source_identity": null,
+      "source_digest": null
+    },
+    {
+      "path": "employees/leadership/cto/SKILL.md",
+      "type": "markdown",
+      "lines": 335,
+      "executable": false,
+      "size_bytes": 21992,
+      "source_url": null,
+      "source_identity": null,
+      "source_digest": null
+    },
+    {
+      "path": "employees/leadership/cto/capability.contract.json",
+      "type": "json",
+      "lines": 493,
+      "executable": false,
+      "size_bytes": 14826,
+      "source_url": null,
+      "source_identity": null,
+      "source_digest": null
+    },
+    {
+      "path": "employees/leadership/cto/learnings.md",
+      "type": "markdown",
+      "lines": 16,
+      "executable": false,
+      "size_bytes": 1234,
+      "source_url": null,
+      "source_identity": null,
+      "source_digest": null
+    },
+    {
+      "path": "employees/leadership/cto/plugin.json",
+      "type": "json",
+      "lines": 36,
+      "executable": false,
+      "size_bytes": 1278,
+      "source_url": null,
+      "source_identity": null,
+      "source_digest": null
+    },
+    {
+      "path": "employees/leadership/cto/rules.md",
+      "type": "markdown",
+      "lines": 127,
+      "executable": false,
+      "size_bytes": 7587,
+      "source_url": null,
+      "source_identity": null,
+      "source_digest": null
+    },
+    {
+      "path": "employees/leadership/decision-quality-protocol-2026.md",
+      "type": "markdown",
+      "lines": 79,
+      "executable": false,
+      "size_bytes": 3623,
+      "source_url": null,
+      "source_identity": null,
+      "source_digest": null
+    },
+    {
+      "path": "employees/legal-compliance/assurance/ASSURANCE.md",
+      "type": "markdown",
+      "lines": 68,
+      "executable": false,
+      "size_bytes": 2260,
+      "source_url": null,
+      "source_identity": null,
+      "source_digest": null
+    },
+    {
+      "path": "employees/legal-compliance/compliance-auditor/SKILL.md",
+      "type": "markdown",
+      "lines": 238,
+      "executable": false,
+      "size_bytes": 25914,
+      "source_url": null,
+      "source_identity": null,
+      "source_digest": null
+    },
+    {
+      "path": "employees/legal-compliance/compliance-auditor/capability.contract.json",
+      "type": "json",
+      "lines": 502,
+      "executable": false,
+      "size_bytes": 16123,
+      "source_url": null,
+      "source_identity": null,
+      "source_digest": null
+    },
+    {
+      "path": "employees/legal-compliance/compliance-auditor/depth-2026-06.md",
+      "type": "markdown",
+      "lines": 36,
+      "executable": false,
+      "size_bytes": 4757,
+      "source_url": null,
+      "source_identity": null,
+      "source_digest": null
+    },
+    {
+      "path": "employees/legal-compliance/compliance-auditor/examples/phi-column-comment.sql",
+      "type": "other",
+      "lines": 1,
+      "executable": false,
+      "size_bytes": 56,
+      "source_url": null,
+      "source_identity": null,
+      "source_digest": null
+    },
+    {
+      "path": "employees/legal-compliance/compliance-auditor/healthcare-dev-compliance.md",
+      "type": "markdown",
+      "lines": 147,
+      "executable": false,
+      "size_bytes": 14876,
+      "source_url": null,
+      "source_identity": null,
+      "source_digest": null
+    },
+    {
+      "path": "employees/legal-compliance/compliance-auditor/learnings.md",
+      "type": "markdown",
+      "lines": 19,
+      "executable": false,
+      "size_bytes": 2014,
+      "source_url": null,
+      "source_identity": null,
+      "source_digest": null
+    },
+    {
+      "path": "employees/legal-compliance/compliance-auditor/plugin.json",
+      "type": "json",
+      "lines": 84,
+      "executable": false,
+      "size_bytes": 3382,
+      "source_url": null,
+      "source_identity": null,
+      "source_digest": null
+    },
+    {
+      "path": "employees/legal-compliance/compliance-auditor/privacy-inventory.md",
+      "type": "markdown",
+      "lines": 42,
+      "executable": false,
+      "size_bytes": 3541,
+      "source_url": null,
+      "source_identity": null,
+      "source_digest": null
+    },
+    {
+      "path": "employees/legal-compliance/compliance-auditor/privacy_inventory.py",
+      "type": "python",
+      "lines": 476,
+      "executable": true,
+      "size_bytes": 24741,
+      "source_url": null,
+      "source_identity": null,
+      "source_digest": null
+    },
+    {
+      "path": "employees/legal-compliance/compliance-auditor/probo-grc-patterns.md",
+      "type": "markdown",
+      "lines": 31,
+      "executable": false,
+      "size_bytes": 3788,
+      "source_url": null,
+      "source_identity": null,
+      "source_digest": null
+    },
+    {
+      "path": "employees/legal-compliance/compliance-auditor/rules.md",
+      "type": "markdown",
+      "lines": 186,
+      "executable": false,
+      "size_bytes": 23421,
+      "source_url": null,
+      "source_identity": null,
+      "source_digest": null
+    },
+    {
+      "path": "employees/legal-compliance/legal-advisor/SKILL.md",
+      "type": "markdown",
+      "lines": 286,
+      "executable": false,
+      "size_bytes": 16414,
+      "source_url": null,
+      "source_identity": null,
+      "source_digest": null
+    },
+    {
+      "path": "employees/legal-compliance/legal-advisor/capability.contract.json",
+      "type": "json",
+      "lines": 480,
+      "executable": false,
+      "size_bytes": 15033,
+      "source_url": null,
+      "source_identity": null,
+      "source_digest": null
+    },
+    {
+      "path": "employees/legal-compliance/legal-advisor/depth-2026-06.md",
+      "type": "markdown",
+      "lines": 38,
+      "executable": false,
+      "size_bytes": 4832,
+      "source_url": null,
+      "source_identity": null,
+      "source_digest": null
+    },
+    {
+      "path": "employees/legal-compliance/legal-advisor/learnings.md",
+      "type": "markdown",
+      "lines": 20,
+      "executable": false,
+      "size_bytes": 2463,
+      "source_url": null,
+      "source_identity": null,
+      "source_digest": null
+    },
+    {
+      "path": "employees/legal-compliance/legal-advisor/legal-intake-ops.md",
+      "type": "markdown",
+      "lines": 18,
+      "executable": false,
+      "size_bytes": 1815,
+      "source_url": null,
+      "source_identity": null,
+      "source_digest": null
+    },
+    {
+      "path": "employees/legal-compliance/legal-advisor/plugin.json",
+      "type": "json",
+      "lines": 52,
+      "executable": false,
+      "size_bytes": 2749,
+      "source_url": null,
+      "source_identity": null,
+      "source_digest": null
+    },
+    {
+      "path": "employees/legal-compliance/legal-advisor/rules.md",
+      "type": "markdown",
+      "lines": 102,
+      "executable": false,
+      "size_bytes": 9167,
+      "source_url": null,
+      "source_identity": null,
+      "source_digest": null
+    },
+    {
+      "path": "employees/marketing/GROWTH-REVENUE-STANDARD.md",
+      "type": "markdown",
+      "lines": 137,
+      "executable": false,
+      "size_bytes": 6205,
+      "source_url": null,
+      "source_identity": null,
+      "source_digest": null
+    },
+    {
+      "path": "employees/marketing/RUNTIME-POLICY.md",
+      "type": "markdown",
+      "lines": 85,
+      "executable": false,
+      "size_bytes": 3570,
+      "source_url": null,
+      "source_identity": null,
+      "source_digest": null
+    },
+    {
+      "path": "employees/marketing/content-marketer/SKILL.md",
+      "type": "markdown",
+      "lines": 290,
+      "executable": false,
+      "size_bytes": 16851,
+      "source_url": null,
+      "source_identity": null,
+      "source_digest": null
+    },
+    {
+      "path": "employees/marketing/content-marketer/capability.contract.json",
+      "type": "json",
+      "lines": 459,
+      "executable": false,
+      "size_bytes": 12730,
+      "source_url": null,
+      "source_identity": null,
+      "source_digest": null
+    },
+    {
+      "path": "employees/marketing/content-marketer/content-strategy-taste-2026.md",
+      "type": "markdown",
+      "lines": 29,
+      "executable": false,
+      "size_bytes": 4592,
+      "source_url": null,
+      "source_identity": null,
+      "source_digest": null
+    },
+    {
+      "path": "employees/marketing/content-marketer/geo-operational-2026.md",
+      "type": "markdown",
+      "lines": 68,
+      "executable": false,
+      "size_bytes": 7907,
+      "source_url": null,
+      "source_identity": null,
+      "source_digest": null
+    },
+    {
+      "path": "employees/marketing/content-marketer/learnings.md",
+      "type": "markdown",
+      "lines": 15,
+      "executable": false,
+      "size_bytes": 1337,
+      "source_url": null,
+      "source_identity": null,
+      "source_digest": null
+    },
+    {
+      "path": "employees/marketing/content-marketer/plugin.json",
+      "type": "json",
+      "lines": 35,
+      "executable": false,
+      "size_bytes": 1722,
+      "source_url": null,
+      "source_identity": null,
+      "source_digest": null
+    },
+    {
+      "path": "employees/marketing/content-marketer/rules.md",
+      "type": "markdown",
+      "lines": 133,
+      "executable": false,
+      "size_bytes": 10011,
+      "source_url": null,
+      "source_identity": null,
+      "source_digest": null
+    },
+    {
+      "path": "employees/marketing/cro-landing-designer/SKILL.md",
+      "type": "markdown",
+      "lines": 230,
+      "executable": false,
+      "size_bytes": 20535,
+      "source_url": null,
+      "source_identity": null,
+      "source_digest": null
+    },
+    {
+      "path": "employees/marketing/cro-landing-designer/capability.contract.json",
+      "type": "json",
+      "lines": 450,
+      "executable": false,
+      "size_bytes": 12574,
+      "source_url": null,
+      "source_identity": null,
+      "source_digest": null
+    },
+    {
+      "path": "employees/engineering/unity-developer/unity.skill!/unity/CLAUDE_template.md",
+      "type": "markdown",
+      "lines": 165,
+      "executable": false,
+      "size_bytes": 6135,
+      "source_url": null,
+      "source_identity": null,
+      "source_digest": null
+    },
+    {
+      "path": "employees/engineering/unity-developer/unity.skill!/unity/SKILL.md",
+      "type": "markdown",
+      "lines": 141,
+      "executable": false,
+      "size_bytes": 14843,
+      "source_url": null,
+      "source_identity": null,
+      "source_digest": null
+    },
+    {
+      "path": "employees/engineering/unity-developer/unity.skill!/unity/coplaydev-unity-mcp.md",
+      "type": "markdown",
+      "lines": 24,
+      "executable": false,
+      "size_bytes": 1757,
+      "source_url": null,
+      "source_identity": null,
+      "source_digest": null
+    },
+    {
+      "path": "employees/engineering/unity-developer/unity.skill!/unity/game-design-mentor.md",
+      "type": "markdown",
+      "lines": 159,
+      "executable": false,
+      "size_bytes": 8145,
+      "source_url": null,
+      "source_identity": null,
+      "source_digest": null
+    },
+    {
+      "path": "employees/engineering/unity-developer/unity.skill!/unity/learnings.md",
+      "type": "markdown",
+      "lines": 52,
+      "executable": false,
+      "size_bytes": 3746,
+      "source_url": null,
+      "source_identity": null,
+      "source_digest": null
+    },
+    {
+      "path": "employees/engineering/unity-developer/unity.skill!/unity/rules.md",
+      "type": "markdown",
+      "lines": 102,
+      "executable": false,
+      "size_bytes": 8203,
+      "source_url": null,
+      "source_identity": null,
+      "source_digest": null
+    },
+    {
+      "path": "employees/engineering/unity-developer/unity.skill!/unity/unity-build-ship.md",
+      "type": "markdown",
+      "lines": 169,
+      "executable": false,
+      "size_bytes": 9564,
+      "source_url": null,
+      "source_identity": null,
+      "source_digest": null
+    },
+    {
+      "path": "employees/engineering/unity-developer/unity.skill!/unity/unity-mcp-operator.md",
+      "type": "markdown",
+      "lines": 273,
+      "executable": false,
+      "size_bytes": 13464,
+      "source_url": null,
+      "source_identity": null,
+      "source_digest": null
+    },
+    {
+      "path": "employees/engineering/unity-developer/unity.skill!/unity/unity-performance-mobile.md",
+      "type": "markdown",
+      "lines": 85,
+      "executable": false,
+      "size_bytes": 6887,
+      "source_url": null,
+      "source_identity": null,
+      "source_digest": null
+    },
+    {
+      "path": "employees/engineering/unity-developer/unity.skill!/unity/unity-scene-architecture.md",
+      "type": "markdown",
+      "lines": 217,
+      "executable": false,
+      "size_bytes": 11834,
+      "source_url": null,
+      "source_identity": null,
+      "source_digest": null
+    },
+    {
+      "path": "employees/engineering/unity-developer/unity.skill!/unity/unity-testing-pipeline.md",
+      "type": "markdown",
+      "lines": 255,
+      "executable": false,
+      "size_bytes": 15943,
+      "source_url": null,
+      "source_identity": null,
+      "source_digest": null
+    }
+  ],
+  "structured_summaries": [],
+  "issues": [],
+  "suppressed_count": 48,
+  "suppressed": [
+    {
+      "id": "AST4",
+      "finding_id": "finding-581609c1b93e45089fe1ff69ae050c82",
+      "category": "Dangerous Code Execution",
+      "pattern": "subprocess module call",
+      "severity": "MEDIUM",
+      "confidence": 0.7,
+      "location": {
+        "file": "employees/legal-compliance/compliance-auditor/privacy_inventory.py",
+        "start_line": 114,
+        "end_line": 122,
+        "start_column": 8,
+        "end_column": 87
+      },
+      "finding": "subprocess.run([sys.executable, str(G13), \"reconcile\", str(contract), \"--json\"], capture_output=True, text=True,\n                       env=dict({name: os.environ[name] for name in (\n                 ",
+      "explanation": "subprocess module calls execute external commands. Without careful input validation, this enables command injection.",
+      "remediation": "Use subprocess.run() with shell=False and an explicit argument list. Validate all inputs and avoid passing user-controlled data to commands.",
+      "code_snippet": "\ndef g13(contract):\n    need(G13.is_file(), \"csv_reconcile.py (G13) is missing\")\n    r = subprocess.run([sys.executable, str(G13), \"reconcile\", str(contract), \"--json\"], capture_output=True, text=True,\n                       env=dict({name: os.environ[name] for name in (\n                                    'PATH', 'HOME', 'USERPROFILE', 'HOMEDRIVE', 'HOMEPATH', 'TMPDIR',\n                                    'TMP', 'TEMP', 'SystemRoot', 'SYSTEMROOT', 'SystemDrive', 'COMSPEC',",
+      "intent": null,
+      "tags": [
+        "Dangerous Code Execution"
+      ],
+      "evidence": {},
+      "match_fingerprint": "d072cfbc483f3934a2b59f2ca3ca9b99e9a1acce264bed76ef09557ef752aeca",
+      "occurrences": [
+        {
+          "file": "employees/legal-compliance/compliance-auditor/privacy_inventory.py",
+          "start_line": 114,
+          "end_line": 122,
+          "start_column": 8,
+          "end_column": 87
+        }
+      ],
+      "suppressed": true,
+      "suppression_reason": "Exact contextual false positives individually reviewed in sidecar SHA256 f0ed1e5fd15d7bcc499051a7342a86684fc17cca2e9082ad63182f7b96724971; source 1b3212f0ba9fc58f7675877be9cf0ea0d8283ee8; original findings c35a55549005cedd65827c88e1aec775a0c579dd. Reasons and source hashes are recorded per review key. No new findings or coverage gaps accepted."
+    },
+    {
+      "id": "TT2",
+      "finding_id": "finding-081848c2d680439283da673f551009bd",
+      "category": "Data Flow",
+      "pattern": "Tainted flow: 'self.path' from pathlib.Path.read_bytes (line 140, file read) \u2192 open (file write)",
+      "severity": "MEDIUM",
+      "confidence": 0.65,
+      "location": {
+        "file": "employees/infrastructure/fleet-dispatcher/handoff.py",
+        "start_line": 172,
+        "end_line": 172,
+        "start_column": 13,
+        "end_column": 34
+      },
+      "finding": "open(self.path, \"ab\")",
+      "explanation": "Data from a source is assigned to a variable that is later passed to a sink, creating a variable-mediated taint flow.",
+      "remediation": "Validate tainted variables before passing them to sinks. Use allowlists, type checks, or sanitization functions on data from external sources.",
+      "code_snippet": "            self.append({\"type\": \"recovered_torn_tail\"})\n        prev = getattr(self, \"head\", \"0\" * 64)\n        h = sha_bytes((prev + canon(entry)).encode(\"utf-8\"))\n        with open(self.path, \"ab\") as f:\n            f.write((canon({\"prev\": prev, \"hash\": h, \"entry\": entry}) + \"\\n\").encode(\"utf-8\"))\n            f.flush()\n            os.fsync(f.fileno())",
+      "intent": null,
+      "tags": [
+        "Data Flow"
+      ],
+      "evidence": {},
+      "match_fingerprint": "1a5fe18da62af6bbfeef43c02ce24162fb0c4b09f41a2d0c9a0e8e3a309eaf46",
+      "occurrences": [
+        {
+          "file": "employees/infrastructure/fleet-dispatcher/handoff.py",
+          "start_line": 172,
+          "end_line": 172,
+          "start_column": 13,
+          "end_column": 34
+        }
+      ],
+      "suppressed": true,
+      "suppression_reason": "Exact contextual false positives individually reviewed in sidecar SHA256 f0ed1e5fd15d7bcc499051a7342a86684fc17cca2e9082ad63182f7b96724971; source 1b3212f0ba9fc58f7675877be9cf0ea0d8283ee8; original findings c35a55549005cedd65827c88e1aec775a0c579dd. Reasons and source hashes are recorded per review key. No new findings or coverage gaps accepted."
+    },
+    {
+      "id": "TT2",
+      "finding_id": "finding-00477d217d024e8b9670234d9bf49683",
+      "category": "Data Flow",
+      "pattern": "Tainted flow: 'lp' from pathlib.Path.read_bytes (line 404, file read) \u2192 open (file write)",
+      "severity": "MEDIUM",
+      "confidence": 0.65,
+      "location": {
+        "file": "employees/infrastructure/fleet-dispatcher/handoff.py",
+        "start_line": 406,
+        "end_line": 406,
+        "start_column": 25,
+        "end_column": 39
+      },
+      "finding": "open(lp, \"ab\")",
+      "explanation": "Data from a source is assigned to a variable that is later passed to a sink, creating a variable-mediated taint flow.",
+      "remediation": "Validate tainted variables before passing them to sinks. Use allowlists, type checks, or sanitization functions on data from external sources.",
+      "code_snippet": "                                  \"owner\": o[\"owner\"], \"brief_sha256\": ins[\"brief\"], \"delivered_by\": worker})\n                    lp = o[\"outbox\"] / \"ledger.jsonl\"\n                    torn = lp.exists() and lp.stat().st_size and not lp.read_bytes().endswith(b\"\\n\")\n                    with open(lp, \"ab\") as f:\n                        # a torn last record stays unreadable on its own line instead of swallowing this one\n                        f.write(((\"\\n\" if torn else \"\") + line + \"\\n\").encode(\"utf-8\"))\n                        f.flush()",
+      "intent": null,
+      "tags": [
+        "Data Flow"
+      ],
+      "evidence": {},
+      "match_fingerprint": "9634bf3157490e783fe0a61124f5c1cc78f5a9ff4df8ca723e00289c57cdbab3",
+      "occurrences": [
+        {
+          "file": "employees/infrastructure/fleet-dispatcher/handoff.py",
+          "start_line": 406,
+          "end_line": 406,
+          "start_column": 25,
+          "end_column": 39
+        }
+      ],
+      "suppressed": true,
+      "suppression_reason": "Exact contextual false positives individually reviewed in sidecar SHA256 f0ed1e5fd15d7bcc499051a7342a86684fc17cca2e9082ad63182f7b96724971; source 1b3212f0ba9fc58f7675877be9cf0ea0d8283ee8; original findings c35a55549005cedd65827c88e1aec775a0c579dd. Reasons and source hashes are recorded per review key. No new findings or coverage gaps accepted."
+    },
+    {
+      "id": "RP1",
+      "finding_id": "finding-f47507fce1d549978df1906382abe124",
+      "category": "MCP Rug Pull",
+      "pattern": null,
+      "severity": "MEDIUM",
+      "confidence": 0.7,
+      "location": {
+        "file": "employees/engineering/unity-developer/unity-mcp-operator.md",
+        "start_line": 44,
+        "end_line": null
+      },
+      "finding": null,
+      "explanation": "npx commands without a version suffix (e.g. @1.0.0) create a rug-pull risk if the upstream server is compromised and publishes a malicious update.",
+      "remediation": "Pin the version: npx @scope/server@1.2.3",
+      "code_snippet": null,
+      "intent": null,
+      "tags": [
+        "ASI16"
+      ],
+      "evidence": {},
+      "match_fingerprint": "242d05d6441bc6e9271afb10f402e77013ada58b0d404f4bf4b395a125879063",
+      "occurrences": [
+        {
+          "file": "employees/engineering/unity-developer/unity-mcp-operator.md",
+          "start_line": 44,
+          "end_line": null
+        }
+      ],
+      "suppressed": true,
+      "suppression_reason": "Exact contextual false positives individually reviewed in sidecar SHA256 f0ed1e5fd15d7bcc499051a7342a86684fc17cca2e9082ad63182f7b96724971; source 1b3212f0ba9fc58f7675877be9cf0ea0d8283ee8; original findings c35a55549005cedd65827c88e1aec775a0c579dd. Reasons and source hashes are recorded per review key. No new findings or coverage gaps accepted."
+    },
+    {
+      "id": "RP1",
+      "finding_id": "finding-b118e96f358244178f180056a5e593ad",
+      "category": "MCP Rug Pull",
+      "pattern": null,
+      "severity": "MEDIUM",
+      "confidence": 0.75,
+      "location": {
+        "file": "employees/engineering/unity-developer/unity-mcp-operator.md",
+        "start_line": 55,
+        "end_line": null
+      },
+      "finding": null,
+      "explanation": "Docker image references without a specific tag (:latest is implicit) or digest (@sha256:...) can be silently replaced by a malicious image.",
+      "remediation": "Pin the image: image:tag or image@sha256:abc123",
+      "code_snippet": null,
+      "intent": null,
+      "tags": [
+        "ASI16"
+      ],
+      "evidence": {},
+      "match_fingerprint": "efc156300614fe5ffcf05d4db3303fe76bb02fad1f9d185be59396ae5dfd036c",
+      "occurrences": [
+        {
+          "file": "employees/engineering/unity-developer/unity-mcp-operator.md",
+          "start_line": 55,
+          "end_line": null
+        }
+      ],
+      "suppressed": true,
+      "suppression_reason": "Exact contextual false positives individually reviewed in sidecar SHA256 f0ed1e5fd15d7bcc499051a7342a86684fc17cca2e9082ad63182f7b96724971; source 1b3212f0ba9fc58f7675877be9cf0ea0d8283ee8; original findings c35a55549005cedd65827c88e1aec775a0c579dd. Reasons and source hashes are recorded per review key. No new findings or coverage gaps accepted."
+    },
+    {
+      "id": "RP1",
+      "finding_id": "finding-1868c97550e74ae6a29fb00c0ee0c46f",
+      "category": "MCP Rug Pull",
+      "pattern": null,
+      "severity": "MEDIUM",
+      "confidence": 0.7,
+      "location": {
+        "file": "employees/engineering/unreal-developer/unreal-mcp-operator.md",
+        "start_line": 23,
+        "end_line": null
+      },
+      "finding": null,
+      "explanation": "npx commands without a version suffix (e.g. @1.0.0) create a rug-pull risk if the upstream server is compromised and publishes a malicious update.",
+      "remediation": "Pin the version: npx @scope/server@1.2.3",
+      "code_snippet": null,
+      "intent": null,
+      "tags": [
+        "ASI16"
+      ],
+      "evidence": {},
+      "match_fingerprint": "6d045d029f35526901c7d1e9e919738e2251876b74b07f85c036488f932a1033",
+      "occurrences": [
+        {
+          "file": "employees/engineering/unreal-developer/unreal-mcp-operator.md",
+          "start_line": 23,
+          "end_line": null
+        }
+      ],
+      "suppressed": true,
+      "suppression_reason": "Exact contextual false positives individually reviewed in sidecar SHA256 f0ed1e5fd15d7bcc499051a7342a86684fc17cca2e9082ad63182f7b96724971; source 1b3212f0ba9fc58f7675877be9cf0ea0d8283ee8; original findings c35a55549005cedd65827c88e1aec775a0c579dd. Reasons and source hashes are recorded per review key. No new findings or coverage gaps accepted."
+    },
+    {
+      "id": "RP1",
+      "finding_id": "finding-636549b7b0ad42c39fd4a4cc7194adc1",
+      "category": "MCP Rug Pull",
+      "pattern": null,
+      "severity": "MEDIUM",
+      "confidence": 0.75,
+      "location": {
+        "file": "employees/engineering/unreal-developer/unreal-mcp-operator.md",
+        "start_line": 63,
+        "end_line": null
+      },
+      "finding": null,
+      "explanation": "Docker image references without a specific tag (:latest is implicit) or digest (@sha256:...) can be silently replaced by a malicious image.",
+      "remediation": "Pin the image: image:tag or image@sha256:abc123",
+      "code_snippet": null,
+      "intent": null,
+      "tags": [
+        "ASI16"
+      ],
+      "evidence": {},
+      "match_fingerprint": "cf03f37dcb366758fe15d36de27f76fa9df92929d49cf512a9f13b682c0de336",
+      "occurrences": [
+        {
+          "file": "employees/engineering/unreal-developer/unreal-mcp-operator.md",
+          "start_line": 63,
+          "end_line": null
+        }
+      ],
+      "suppressed": true,
+      "suppression_reason": "Exact contextual false positives individually reviewed in sidecar SHA256 f0ed1e5fd15d7bcc499051a7342a86684fc17cca2e9082ad63182f7b96724971; source 1b3212f0ba9fc58f7675877be9cf0ea0d8283ee8; original findings c35a55549005cedd65827c88e1aec775a0c579dd. Reasons and source hashes are recorded per review key. No new findings or coverage gaps accepted."
+    },
+    {
+      "id": "RP1",
+      "finding_id": "finding-083d3afa0cae43288c776d1901af7345",
+      "category": "MCP Rug Pull",
+      "pattern": null,
+      "severity": "MEDIUM",
+      "confidence": 0.65,
+      "location": {
+        "file": "employees/infrastructure/cloud-architect/aws-mcp-iac-execution.md",
+        "start_line": 33,
+        "end_line": null
+      },
+      "finding": null,
+      "explanation": "uvx/uv tool run commands without ==version create a rug-pull risk.",
+      "remediation": "Pin the version: uvx package-name==1.2.3",
+      "code_snippet": null,
+      "intent": null,
+      "tags": [
+        "ASI16"
+      ],
+      "evidence": {},
+      "match_fingerprint": "7dbfa312be5dafe4a4fb1cb2ac2ad3afc0c3f7508875139cbb2baa1e4f08dfd9",
+      "occurrences": [
+        {
+          "file": "employees/infrastructure/cloud-architect/aws-mcp-iac-execution.md",
+          "start_line": 33,
+          "end_line": null
+        }
+      ],
+      "suppressed": true,
+      "suppression_reason": "Exact contextual false positives individually reviewed in sidecar SHA256 f0ed1e5fd15d7bcc499051a7342a86684fc17cca2e9082ad63182f7b96724971; source 1b3212f0ba9fc58f7675877be9cf0ea0d8283ee8; original findings c35a55549005cedd65827c88e1aec775a0c579dd. Reasons and source hashes are recorded per review key. No new findings or coverage gaps accepted."
+    },
+    {
+      "id": "RP1",
+      "finding_id": "finding-7cc2b40370e34a2e87dc08aeddebc3c3",
+      "category": "MCP Rug Pull",
+      "pattern": null,
+      "severity": "MEDIUM",
+      "confidence": 0.7,
+      "location": {
+        "file": "employees/infrastructure/database-administrator/mongodb-nosql-admin.md",
+        "start_line": 28,
+        "end_line": null
+      },
+      "finding": null,
+      "explanation": "npx commands without a version suffix (e.g. @1.0.0) create a rug-pull risk if the upstream server is compromised and publishes a malicious update.",
+      "remediation": "Pin the version: npx @scope/server@1.2.3",
+      "code_snippet": null,
+      "intent": null,
+      "tags": [
+        "ASI16"
+      ],
+      "evidence": {},
+      "match_fingerprint": "eb9b779d30993c8d025c238e3a91b8e99455eb03e774a3d5599942f0ed9303c1",
+      "occurrences": [
+        {
+          "file": "employees/infrastructure/database-administrator/mongodb-nosql-admin.md",
+          "start_line": 28,
+          "end_line": null
+        }
+      ],
+      "suppressed": true,
+      "suppression_reason": "Exact contextual false positives individually reviewed in sidecar SHA256 f0ed1e5fd15d7bcc499051a7342a86684fc17cca2e9082ad63182f7b96724971; source 1b3212f0ba9fc58f7675877be9cf0ea0d8283ee8; original findings c35a55549005cedd65827c88e1aec775a0c579dd. Reasons and source hashes are recorded per review key. No new findings or coverage gaps accepted."
+    },
+    {
+      "id": "RP1",
+      "finding_id": "finding-5b34836aaaa444c3a65ced670dc9351b",
+      "category": "MCP Rug Pull",
+      "pattern": null,
+      "severity": "MEDIUM",
+      "confidence": 0.65,
+      "location": {
+        "file": "employees/infrastructure/kubernetes-specialist/rules.md",
+        "start_line": 157,
+        "end_line": null
+      },
+      "finding": null,
+      "explanation": "uvx/uv tool run commands without ==version create a rug-pull risk.",
+      "remediation": "Pin the version: uvx package-name==1.2.3",
+      "code_snippet": null,
+      "intent": null,
+      "tags": [
+        "ASI16"
+      ],
+      "evidence": {},
+      "match_fingerprint": "f191bda530a956a7dc951fe215f2079303179482d9f24555a978eeb965ee61cb",
+      "occurrences": [
+        {
+          "file": "employees/infrastructure/kubernetes-specialist/rules.md",
+          "start_line": 157,
+          "end_line": null
+        }
+      ],
+      "suppressed": true,
+      "suppression_reason": "Exact contextual false positives individually reviewed in sidecar SHA256 f0ed1e5fd15d7bcc499051a7342a86684fc17cca2e9082ad63182f7b96724971; source 1b3212f0ba9fc58f7675877be9cf0ea0d8283ee8; original findings c35a55549005cedd65827c88e1aec775a0c579dd. Reasons and source hashes are recorded per review key. No new findings or coverage gaps accepted."
+    },
+    {
+      "id": "RP1",
+      "finding_id": "finding-bb13fe16476c4439b62d6c4e6b14a3da",
+      "category": "MCP Rug Pull",
+      "pattern": null,
+      "severity": "MEDIUM",
+      "confidence": 0.75,
+      "location": {
+        "file": "employees/leadership/cfo/filings-and-market-data-tooling.md",
+        "start_line": 35,
+        "end_line": null
+      },
+      "finding": null,
+      "explanation": "Docker image references without a specific tag (:latest is implicit) or digest (@sha256:...) can be silently replaced by a malicious image.",
+      "remediation": "Pin the image: image:tag or image@sha256:abc123",
+      "code_snippet": null,
+      "intent": null,
+      "tags": [
+        "ASI16"
+      ],
+      "evidence": {},
+      "match_fingerprint": "4ea725006beadae82801abbe40da247faca390d8f65499810782eb797f878de2",
+      "occurrences": [
+        {
+          "file": "employees/leadership/cfo/filings-and-market-data-tooling.md",
+          "start_line": 35,
+          "end_line": null
+        }
+      ],
+      "suppressed": true,
+      "suppression_reason": "Exact contextual false positives individually reviewed in sidecar SHA256 f0ed1e5fd15d7bcc499051a7342a86684fc17cca2e9082ad63182f7b96724971; source 1b3212f0ba9fc58f7675877be9cf0ea0d8283ee8; original findings c35a55549005cedd65827c88e1aec775a0c579dd. Reasons and source hashes are recorded per review key. No new findings or coverage gaps accepted."
+    },
+    {
+      "id": "RP1",
+      "finding_id": "finding-6958c6951d5144b4be92ad6dafa00e72",
+      "category": "MCP Rug Pull",
+      "pattern": null,
+      "severity": "MEDIUM",
+      "confidence": 0.7,
+      "location": {
+        "file": "employees/engineering/unity-developer/unity.skill!/unity/unity-mcp-operator.md",
+        "start_line": 44,
+        "end_line": null
+      },
+      "finding": null,
+      "explanation": "npx commands without a version suffix (e.g. @1.0.0) create a rug-pull risk if the upstream server is compromised and publishes a malicious update.",
+      "remediation": "Pin the version: npx @scope/server@1.2.3",
+      "code_snippet": null,
+      "intent": null,
+      "tags": [
+        "ASI16"
+      ],
+      "evidence": {},
+      "match_fingerprint": "242d05d6441bc6e9271afb10f402e77013ada58b0d404f4bf4b395a125879063",
+      "occurrences": [
+        {
+          "file": "employees/engineering/unity-developer/unity.skill!/unity/unity-mcp-operator.md",
+          "start_line": 44,
+          "end_line": null
+        }
+      ],
+      "suppressed": true,
+      "suppression_reason": "Exact contextual false positives individually reviewed in sidecar SHA256 f0ed1e5fd15d7bcc499051a7342a86684fc17cca2e9082ad63182f7b96724971; source 1b3212f0ba9fc58f7675877be9cf0ea0d8283ee8; original findings c35a55549005cedd65827c88e1aec775a0c579dd. Reasons and source hashes are recorded per review key. No new findings or coverage gaps accepted."
+    },
+    {
+      "id": "RP1",
+      "finding_id": "finding-288e076232ad495bbe68cb3f01d808af",
+      "category": "MCP Rug Pull",
+      "pattern": null,
+      "severity": "MEDIUM",
+      "confidence": 0.75,
+      "location": {
+        "file": "employees/engineering/unity-developer/unity.skill!/unity/unity-mcp-operator.md",
+        "start_line": 50,
+        "end_line": null
+      },
+      "finding": null,
+      "explanation": "Docker image references without a specific tag (:latest is implicit) or digest (@sha256:...) can be silently replaced by a malicious image.",
+      "remediation": "Pin the image: image:tag or image@sha256:abc123",
+      "code_snippet": null,
+      "intent": null,
+      "tags": [
+        "ASI16"
+      ],
+      "evidence": {},
+      "match_fingerprint": "29d709b6d6f740878a261fda073a846b679bbcfc19ae4e177f80c70381b789b3",
+      "occurrences": [
+        {
+          "file": "employees/engineering/unity-developer/unity.skill!/unity/unity-mcp-operator.md",
+          "start_line": 50,
+          "end_line": null
+        }
+      ],
+      "suppressed": true,
+      "suppression_reason": "Exact contextual false positives individually reviewed in sidecar SHA256 f0ed1e5fd15d7bcc499051a7342a86684fc17cca2e9082ad63182f7b96724971; source 1b3212f0ba9fc58f7675877be9cf0ea0d8283ee8; original findings c35a55549005cedd65827c88e1aec775a0c579dd. Reasons and source hashes are recorded per review key. No new findings or coverage gaps accepted."
+    },
+    {
+      "id": "AS3",
+      "finding_id": "finding-08d6c48067a44a5b9b6663e6d7b5a5e9",
+      "category": "Agent Snooping",
+      "pattern": "Skill Enumeration",
+      "severity": "MEDIUM",
+      "confidence": 0.8,
+      "location": {
+        "file": "employees/leadership/ceo/SKILL.md",
+        "start_line": 301,
+        "end_line": null,
+        "start_column": 57
+      },
+      "finding": "skills/c-level-advisor/SKILL.md",
+      "explanation": "Skill enumerates or reads other installed skills. Access to other skills' SKILL.md files or the skills directory reveals prompt instructions, capabilities, and secrets that should be invisible to peer skills.",
+      "remediation": "Remove all code or instructions that list or read other skills' files or directories. Skills should operate independently; cross-skill access is a privilege escalation.",
+      "code_snippet": "---\n\n## Hand-offs (Chief of Staff routing pattern)\nSource: `solaris/sources/alirezarezvani-the coding agent-skills/c-level-advisor/SKILL.md` routing matrix\n\n| Topic | Primary | Supporting |\n|-------|---------|------------|",
+      "intent": null,
+      "tags": [
+        "Agent Snooping"
+      ],
+      "evidence": {},
+      "match_fingerprint": "f90a0c22e739e7e28012bb51b5e685609ddd4d4fc36555d6e1e1a2a5bfaf6931",
+      "occurrences": [
+        {
+          "file": "employees/leadership/ceo/SKILL.md",
+          "start_line": 301,
+          "end_line": null,
+          "start_column": 57
+        }
+      ],
+      "suppressed": true,
+      "suppression_reason": "Exact contextual false positives individually reviewed in sidecar SHA256 f0ed1e5fd15d7bcc499051a7342a86684fc17cca2e9082ad63182f7b96724971; source 1b3212f0ba9fc58f7675877be9cf0ea0d8283ee8; original findings c35a55549005cedd65827c88e1aec775a0c579dd. Reasons and source hashes are recorded per review key. No new findings or coverage gaps accepted."
+    },
+    {
+      "id": "AS3",
+      "finding_id": "finding-eb84e36f76ea46b4afb25beca0c71a39",
+      "category": "Agent Snooping",
+      "pattern": "Skill Enumeration",
+      "severity": "MEDIUM",
+      "confidence": 0.8,
+      "location": {
+        "file": "employees/leadership/ceo/SKILL.md",
+        "start_line": 331,
+        "end_line": null,
+        "start_column": 36
+      },
+      "finding": "skills/c-level-advisor/SKILL.md",
+      "explanation": "Skill enumerates or reads other installed skills. Access to other skills' SKILL.md files or the skills directory reveals prompt instructions, capabilities, and secrets that should be invisible to peer skills.",
+      "remediation": "Remove all code or instructions that list or read other skills' files or directories. Skills should operate independently; cross-skill access is a privilege escalation.",
+      "code_snippet": "---\n\n## Absorbed from (9-repo scope, real reads)\n- **alirezarezvani-the coding agent-skills/c-level-advisor/SKILL.md** - multi-role board orchestration, /cs:setup + /cs:board, routing matrix, structured output format\n- **alirezarezvani-the coding agent-skills/c-level-advisor/ceo-advisor/references/executive_decision_framework.md** - DECIDE / capital allocation / SWOT-TOWS / BCG / Porter / Blue Ocean / Balanced Scorecard / decision biases / crisis levels / exit options\n- **alirezarezvani-the coding agent-skills/c-level-advisor/founder-coach/references/founder-toolkit.md** - Weekly CEO Reflection / Energy Audit / Delegation Matrix / 70% Rule / 1:1 Template / Personal OKRs / Stop-Doing / Evidence File\n- **alirezarezvani-the coding agent-skills/agents/c-level/cs-ceo-advisor.md** - workflows (annual / board prep / fundraising / culture transformation), board package components, pitch deck structure, success metrics",
+      "intent": null,
+      "tags": [
+        "Agent Snooping"
+      ],
+      "evidence": {},
+      "match_fingerprint": "f90a0c22e739e7e28012bb51b5e685609ddd4d4fc36555d6e1e1a2a5bfaf6931",
+      "occurrences": [
+        {
+          "file": "employees/leadership/ceo/SKILL.md",
+          "start_line": 331,
+          "end_line": null,
+          "start_column": 36
+        }
+      ],
+      "suppressed": true,
+      "suppression_reason": "Exact contextual false positives individually reviewed in sidecar SHA256 f0ed1e5fd15d7bcc499051a7342a86684fc17cca2e9082ad63182f7b96724971; source 1b3212f0ba9fc58f7675877be9cf0ea0d8283ee8; original findings c35a55549005cedd65827c88e1aec775a0c579dd. Reasons and source hashes are recorded per review key. No new findings or coverage gaps accepted."
+    },
+    {
+      "id": "AS3",
+      "finding_id": "finding-d9664dfb86754bb28db03cdf00598e3c",
+      "category": "Agent Snooping",
+      "pattern": "Skill Enumeration",
+      "severity": "MEDIUM",
+      "confidence": 0.8,
+      "location": {
+        "file": "employees/marketing/content-marketer/SKILL.md",
+        "start_line": 282,
+        "end_line": null,
+        "start_column": 68
+      },
+      "finding": "skill/social-media-manager/SKILL.md",
+      "explanation": "Skill enumerates or reads other installed skills. Access to other skills' SKILL.md files or the skills directory reveals prompt instructions, capabilities, and secrets that should be invisible to peer skills.",
+      "remediation": "Remove all code or instructions that list or read other skills' files or directories. Skills should operate independently; cross-skill access is a privilege escalation.",
+      "code_snippet": "| Source | What was used |\n|------|---------------|\n| `solaris/sources/wshobson-agents/plugins/content-marketing/agents/content-marketer.md` | AI-powered content creation, SEO/search optimization, social content, email marketing, distribution + amplification, performance analytics, e-commerce content, video + multimedia, emerging tech, 10-step response approach |\n| `solaris/sources/alirezarezvani-the coding agent-skills/marketing-skill/social-media-manager/SKILL.md` | 5-pillar content framework (40/20/15/15/10), weekly batch template |\n| `solaris/sources/alirezarezvani-the coding agent-skills/docs/skills/marketing-skill/email-sequence.md` + `cold-email.md` | Email nurture + cold email patterns |\n| METHODOLOGY 2026-06-13 (web): Auriti-Labs/geo-optimizer-skill (MIT), mascanho/RustySEO (GPL, self-host), amplifying-ai/awesome-generative-engine-optimization (NOASSERTION, cite-only), spatie/schema-org (MIT); research arXiv:2311.09735 / 2510.11438 / 2506.11097 | GEO operational layer: crawled",
+      "intent": null,
+      "tags": [
+        "Agent Snooping"
+      ],
+      "evidence": {},
+      "match_fingerprint": "dbbba5b1bb7841d6cb47dcf0be01bd3d75f62b0f08365c7778b59aa5b1cf5ada",
+      "occurrences": [
+        {
+          "file": "employees/marketing/content-marketer/SKILL.md",
+          "start_line": 282,
+          "end_line": null,
+          "start_column": 68
+        }
+      ],
+      "suppressed": true,
+      "suppression_reason": "Exact contextual false positives individually reviewed in sidecar SHA256 f0ed1e5fd15d7bcc499051a7342a86684fc17cca2e9082ad63182f7b96724971; source 1b3212f0ba9fc58f7675877be9cf0ea0d8283ee8; original findings c35a55549005cedd65827c88e1aec775a0c579dd. Reasons and source hashes are recorded per review key. No new findings or coverage gaps accepted."
+    },
+    {
+      "id": "AR2",
+      "finding_id": "finding-efb581cfe3fb4ce7b0514a27c067372b",
+      "category": "Anti-Refusal",
+      "pattern": "Anti-Refusal Statement",
+      "severity": "HIGH",
+      "confidence": 0.8,
+      "location": {
+        "file": "employees/infrastructure/cloud-architect/rules.md",
+        "start_line": 121,
+        "end_line": 121,
+        "start_column": 154,
+        "end_column": 169
+      },
+      "finding": "skip the safety",
+      "explanation": "Skill instructs the agent to omit warnings, disclaimers, or ethical commentary. Stripping safety caveats hides risk from the user and is a common jailbreak preamble.",
+      "remediation": "Remove instructions that suppress warnings, disclaimers, or ethical commentary. Let the agent surface safety-relevant caveats to the user.",
+      "code_snippet": "3. Validate with owners (dependencies, tags, snapshots of anything deletable) - then execute with dry-run first, verify, document realized savings. Never skip the safety checklist (rollback plan, non-prod first).",
+      "intent": null,
+      "tags": [
+        "Anti-Refusal",
+        "contextual-triage",
+        "likely-benign-context"
+      ],
+      "evidence": {},
+      "match_fingerprint": "67e4191bf28bb1b35e4bf19b15618a28a374cc4ab438706649c3ea4e8f6acac9",
+      "occurrences": [
+        {
+          "file": "employees/infrastructure/cloud-architect/rules.md",
+          "start_line": 121,
+          "end_line": 121,
+          "start_column": 154,
+          "end_column": 169
+        }
+      ],
+      "suppressed": true,
+      "suppression_reason": "Exact contextual false positives individually reviewed in sidecar SHA256 f0ed1e5fd15d7bcc499051a7342a86684fc17cca2e9082ad63182f7b96724971; source 1b3212f0ba9fc58f7675877be9cf0ea0d8283ee8; original findings c35a55549005cedd65827c88e1aec775a0c579dd. Reasons and source hashes are recorded per review key. No new findings or coverage gaps accepted."
+    },
+    {
+      "id": "AR2",
+      "finding_id": "finding-840e2ede2d7c42c5b3b8f83599d732aa",
+      "category": "Anti-Refusal",
+      "pattern": "Anti-Refusal Statement",
+      "severity": "HIGH",
+      "confidence": 0.8,
+      "location": {
+        "file": "employees/legal-compliance/compliance-auditor/capability.contract.json",
+        "start_line": 241,
+        "end_line": 241,
+        "start_column": 46,
+        "end_column": 64
+      },
+      "finding": "without disclaimer",
+      "explanation": "Skill instructs the agent to omit warnings, disclaimers, or ethical commentary. Stripping safety caveats hides risk from the user and is a common jailbreak preamble.",
+      "remediation": "Remove instructions that suppress warnings, disclaimers, or ethical commentary. Let the agent surface safety-relevant caveats to the user.",
+      "code_snippet": "      \"claiming to be a licensed attorney or binding counsel\",\n      \"autonomous legal_file or regulatory filing\",\n      \"destroying or altering evidence\",\n      \"presenting research as counsel opinion without disclaimer\",\n      \"production credentials in git\",\n      \"raw customer PII in fixtures\",\n      \"stale primary sources presented as current without LEGAL_SOURCE_STALE flag\",",
+      "intent": null,
+      "tags": [
+        "Anti-Refusal"
+      ],
+      "evidence": {},
+      "match_fingerprint": "dc3888afffb983c083527e82b78dde6e36ba559d12d32e8901d6fd58ba00a0b2",
+      "occurrences": [
+        {
+          "file": "employees/legal-compliance/compliance-auditor/capability.contract.json",
+          "start_line": 241,
+          "end_line": 241,
+          "start_column": 46,
+          "end_column": 64
+        }
+      ],
+      "suppressed": true,
+      "suppression_reason": "Exact contextual false positives individually reviewed in sidecar SHA256 f0ed1e5fd15d7bcc499051a7342a86684fc17cca2e9082ad63182f7b96724971; source 1b3212f0ba9fc58f7675877be9cf0ea0d8283ee8; original findings c35a55549005cedd65827c88e1aec775a0c579dd. Reasons and source hashes are recorded per review key. No new findings or coverage gaps accepted."
+    },
+    {
+      "id": "AR2",
+      "finding_id": "finding-37a355d43dd449108a322636bd47cb6e",
+      "category": "Anti-Refusal",
+      "pattern": "Anti-Refusal Statement",
+      "severity": "HIGH",
+      "confidence": 0.8,
+      "location": {
+        "file": "employees/legal-compliance/legal-advisor/capability.contract.json",
+        "start_line": 131,
+        "end_line": 131,
+        "start_column": 43,
+        "end_column": 61
+      },
+      "finding": "without disclaimer",
+      "explanation": "Skill instructs the agent to omit warnings, disclaimers, or ethical commentary. Stripping safety caveats hides risk from the user and is a common jailbreak preamble.",
+      "remediation": "Remove instructions that suppress warnings, disclaimers, or ethical commentary. Let the agent surface safety-relevant caveats to the user.",
+      "code_snippet": "      \"autonomous legal_file or court filing\",\n      \"binding signature, settlement, or fee agreement\",\n      \"destroy or alter evidence\",\n      \"present research as counsel opinion without disclaimer\",\n      \"transmitting a redline, notice to cure, or termination letter to a counterparty - drafting is in scope, sending is irreversible (it starts a cure or limitation clock that cannot be recalled) and requires the owner's written confirmation\",\n      \"holding or using e-signature, filing, or registry credentials (DocuSign, USPTO, Companies House); those stay with the owner and licensed counsel\",\n      \"disclosing privileged or without-prejudice material outside the engagement\"",
+      "intent": null,
+      "tags": [
+        "Anti-Refusal"
+      ],
+      "evidence": {},
+      "match_fingerprint": "dc3888afffb983c083527e82b78dde6e36ba559d12d32e8901d6fd58ba00a0b2",
+      "occurrences": [
+        {
+          "file": "employees/legal-compliance/legal-advisor/capability.contract.json",
+          "start_line": 131,
+          "end_line": 131,
+          "start_column": 43,
+          "end_column": 61
+        }
+      ],
+      "suppressed": true,
+      "suppression_reason": "Exact contextual false positives individually reviewed in sidecar SHA256 f0ed1e5fd15d7bcc499051a7342a86684fc17cca2e9082ad63182f7b96724971; source 1b3212f0ba9fc58f7675877be9cf0ea0d8283ee8; original findings c35a55549005cedd65827c88e1aec775a0c579dd. Reasons and source hashes are recorded per review key. No new findings or coverage gaps accepted."
+    },
+    {
+      "id": "AR2",
+      "finding_id": "finding-e51bd7d356b844569c7f4bab1122d5c7",
+      "category": "Anti-Refusal",
+      "pattern": "Anti-Refusal Statement",
+      "severity": "HIGH",
+      "confidence": 0.8,
+      "location": {
+        "file": "employees/legal-compliance/legal-advisor/capability.contract.json",
+        "start_line": 228,
+        "end_line": 228,
+        "start_column": 46,
+        "end_column": 64
+      },
+      "finding": "without disclaimer",
+      "explanation": "Skill instructs the agent to omit warnings, disclaimers, or ethical commentary. Stripping safety caveats hides risk from the user and is a common jailbreak preamble.",
+      "remediation": "Remove instructions that suppress warnings, disclaimers, or ethical commentary. Let the agent surface safety-relevant caveats to the user.",
+      "code_snippet": "      \"claiming to be a licensed attorney or binding counsel\",\n      \"autonomous legal_file or regulatory filing\",\n      \"destroying or altering evidence\",\n      \"presenting research as counsel opinion without disclaimer\",\n      \"production credentials in git\",\n      \"raw customer PII in fixtures\",\n      \"stale primary sources presented as current without LEGAL_SOURCE_STALE flag\",",
+      "intent": null,
+      "tags": [
+        "Anti-Refusal"
+      ],
+      "evidence": {},
+      "match_fingerprint": "dc3888afffb983c083527e82b78dde6e36ba559d12d32e8901d6fd58ba00a0b2",
+      "occurrences": [
+        {
+          "file": "employees/legal-compliance/legal-advisor/capability.contract.json",
+          "start_line": 228,
+          "end_line": 228,
+          "start_column": 46,
+          "end_column": 64
+        }
+      ],
+      "suppressed": true,
+      "suppression_reason": "Exact contextual false positives individually reviewed in sidecar SHA256 f0ed1e5fd15d7bcc499051a7342a86684fc17cca2e9082ad63182f7b96724971; source 1b3212f0ba9fc58f7675877be9cf0ea0d8283ee8; original findings c35a55549005cedd65827c88e1aec775a0c579dd. Reasons and source hashes are recorded per review key. No new findings or coverage gaps accepted."
+    },
+    {
+      "id": "EA4",
+      "finding_id": "finding-1247009a3a8d4d109d68290bd4939e9c",
+      "category": "Excessive Agency",
+      "pattern": "Unbounded Resource Access",
+      "severity": "MEDIUM",
+      "confidence": 0.75,
+      "location": {
+        "file": "employees/engineering/unreal-developer/unreal-cpp-quality-and-build.md",
+        "start_line": 178,
+        "end_line": null,
+        "start_column": 28
+      },
+      "finding": "loop forever",
+      "explanation": "Skill allows unbounded resource consumption (API calls, storage, compute). Without rate limits or quotas, a compromised or misbehaving agent can cause denial-of-service or cost overruns.",
+      "remediation": "Set explicit rate limits, timeouts, and resource quotas for API calls, file operations, and compute. Implement circuit breakers for runaway loops.",
+      "code_snippet": "- Never change a function signature unless the error genuinely requires it.\n- One fix at a time, verify after each.\n\n### Stop conditions (do not loop forever)\nStop and report if: the same error survives 3 fix attempts; a fix creates more errors than it removes; or the fix needs architectural changes beyond the immediate scope (escalate the design instead of forcing a local patch).\n\n### Report format",
+      "intent": null,
+      "tags": [
+        "Excessive Agency"
+      ],
+      "evidence": {},
+      "match_fingerprint": "bf8606359f1586f62d6cc35460abf9efe79d8f62a4bb79e9135d3a7eb705940e",
+      "occurrences": [
+        {
+          "file": "employees/engineering/unreal-developer/unreal-cpp-quality-and-build.md",
+          "start_line": 178,
+          "end_line": null,
+          "start_column": 28
+        }
+      ],
+      "suppressed": true,
+      "suppression_reason": "Exact contextual false positives individually reviewed in sidecar SHA256 f0ed1e5fd15d7bcc499051a7342a86684fc17cca2e9082ad63182f7b96724971; source 1b3212f0ba9fc58f7675877be9cf0ea0d8283ee8; original findings c35a55549005cedd65827c88e1aec775a0c579dd. Reasons and source hashes are recorded per review key. No new findings or coverage gaps accepted."
+    },
+    {
+      "id": "EA2",
+      "finding_id": "finding-f75143689efc4681b3da6372f9fb725f",
+      "category": "Excessive Agency",
+      "pattern": "Autonomous Decision Making",
+      "severity": "MEDIUM",
+      "confidence": 0.75,
+      "location": {
+        "file": "employees/infrastructure/cloud-architect/capability.contract.json",
+        "start_line": 220,
+        "end_line": null,
+        "start_column": 68
+      },
+      "finding": "without approval",
+      "explanation": "Skill enables autonomous high-impact decisions without human-in-the-loop verification. Critical operations (destructive commands, financial transactions, data deletion) should require explicit user confirmation.",
+      "remediation": "Add human-in-the-loop confirmation for destructive, irreversible, or high-impact operations. Never auto-execute commands that modify files, send data, or alter system state.",
+      "code_snippet": "      \"force-push as recovery default\",\n      \"silent production deploy or apply without human confirmation\",\n      \"real cloud credentials or production cluster access in fixtures\",\n      \"installing or executing third-party candidate infrastructure without approval\",\n      \"Gas Town control-plane mutation\",\n      \"invented cost or SLO metrics without provenance\"\n    ],",
+      "intent": null,
+      "tags": [
+        "Excessive Agency"
+      ],
+      "evidence": {},
+      "match_fingerprint": "7868080a35a6878aa292c53196ddb331f19d628c33953fb70850fdaf54c4191c",
+      "occurrences": [
+        {
+          "file": "employees/infrastructure/cloud-architect/capability.contract.json",
+          "start_line": 220,
+          "end_line": null,
+          "start_column": 68
+        }
+      ],
+      "suppressed": true,
+      "suppression_reason": "Exact contextual false positives individually reviewed in sidecar SHA256 f0ed1e5fd15d7bcc499051a7342a86684fc17cca2e9082ad63182f7b96724971; source 1b3212f0ba9fc58f7675877be9cf0ea0d8283ee8; original findings c35a55549005cedd65827c88e1aec775a0c579dd. Reasons and source hashes are recorded per review key. No new findings or coverage gaps accepted."
+    },
+    {
+      "id": "EA2",
+      "finding_id": "finding-0d2394c1103a4013a2a87ec4a9f00853",
+      "category": "Excessive Agency",
+      "pattern": "Autonomous Decision Making",
+      "severity": "MEDIUM",
+      "confidence": 0.75,
+      "location": {
+        "file": "employees/infrastructure/database-administrator/capability.contract.json",
+        "start_line": 220,
+        "end_line": null,
+        "start_column": 68
+      },
+      "finding": "without approval",
+      "explanation": "Skill enables autonomous high-impact decisions without human-in-the-loop verification. Critical operations (destructive commands, financial transactions, data deletion) should require explicit user confirmation.",
+      "remediation": "Add human-in-the-loop confirmation for destructive, irreversible, or high-impact operations. Never auto-execute commands that modify files, send data, or alter system state.",
+      "code_snippet": "      \"force-push as recovery default\",\n      \"silent production deploy or apply without human confirmation\",\n      \"real cloud credentials or production cluster access in fixtures\",\n      \"installing or executing third-party candidate infrastructure without approval\",\n      \"Gas Town control-plane mutation\",\n      \"invented cost or SLO metrics without provenance\"\n    ],",
+      "intent": null,
+      "tags": [
+        "Excessive Agency"
+      ],
+      "evidence": {},
+      "match_fingerprint": "7868080a35a6878aa292c53196ddb331f19d628c33953fb70850fdaf54c4191c",
+      "occurrences": [
+        {
+          "file": "employees/infrastructure/database-administrator/capability.contract.json",
+          "start_line": 220,
+          "end_line": null,
+          "start_column": 68
+        }
+      ],
+      "suppressed": true,
+      "suppression_reason": "Exact contextual false positives individually reviewed in sidecar SHA256 f0ed1e5fd15d7bcc499051a7342a86684fc17cca2e9082ad63182f7b96724971; source 1b3212f0ba9fc58f7675877be9cf0ea0d8283ee8; original findings c35a55549005cedd65827c88e1aec775a0c579dd. Reasons and source hashes are recorded per review key. No new findings or coverage gaps accepted."
+    },
+    {
+      "id": "EA2",
+      "finding_id": "finding-6146da44e37d4e368a62f864e71740fc",
+      "category": "Excessive Agency",
+      "pattern": "Autonomous Decision Making",
+      "severity": "MEDIUM",
+      "confidence": 0.75,
+      "location": {
+        "file": "employees/infrastructure/kubernetes-specialist/capability.contract.json",
+        "start_line": 220,
+        "end_line": null,
+        "start_column": 68
+      },
+      "finding": "without approval",
+      "explanation": "Skill enables autonomous high-impact decisions without human-in-the-loop verification. Critical operations (destructive commands, financial transactions, data deletion) should require explicit user confirmation.",
+      "remediation": "Add human-in-the-loop confirmation for destructive, irreversible, or high-impact operations. Never auto-execute commands that modify files, send data, or alter system state.",
+      "code_snippet": "      \"force-push as recovery default\",\n      \"silent production deploy or apply without human confirmation\",\n      \"real cloud credentials or production cluster access in fixtures\",\n      \"installing or executing third-party candidate infrastructure without approval\",\n      \"Gas Town control-plane mutation\",\n      \"invented cost or SLO metrics without provenance\"\n    ],",
+      "intent": null,
+      "tags": [
+        "Excessive Agency"
+      ],
+      "evidence": {},
+      "match_fingerprint": "7868080a35a6878aa292c53196ddb331f19d628c33953fb70850fdaf54c4191c",
+      "occurrences": [
+        {
+          "file": "employees/infrastructure/kubernetes-specialist/capability.contract.json",
+          "start_line": 220,
+          "end_line": null,
+          "start_column": 68
+        }
+      ],
+      "suppressed": true,
+      "suppression_reason": "Exact contextual false positives individually reviewed in sidecar SHA256 f0ed1e5fd15d7bcc499051a7342a86684fc17cca2e9082ad63182f7b96724971; source 1b3212f0ba9fc58f7675877be9cf0ea0d8283ee8; original findings c35a55549005cedd65827c88e1aec775a0c579dd. Reasons and source hashes are recorded per review key. No new findings or coverage gaps accepted."
+    },
+    {
+      "id": "EA2",
+      "finding_id": "finding-450158deb52748739ebdafd82c684897",
+      "category": "Excessive Agency",
+      "pattern": "Autonomous Decision Making",
+      "severity": "MEDIUM",
+      "confidence": 0.75,
+      "location": {
+        "file": "employees/infrastructure/network-engineer/SKILL.md",
+        "start_line": 202,
+        "end_line": null,
+        "start_column": 165
+      },
+      "finding": "without asking",
+      "explanation": "Skill enables autonomous high-impact decisions without human-in-the-loop verification. Critical operations (destructive commands, financial transactions, data deletion) should require explicit user confirmation.",
+      "remediation": "Add human-in-the-loop confirmation for destructive, irreversible, or high-impact operations. Never auto-execute commands that modify files, send data, or alter system state.",
+      "code_snippet": "- **The four things you never drop, regardless of lane:** (1) capture read-only state before any change; (2) preserve a working path back to gateway/DNS/internet and out-of-band/console access; (3) any destructive or wide-blast command gets a dry-run/diff/count first; (4) document the rollback in the platform's own vocabulary.\n\n## Workflow 12 - Offline failure localization from a captured trace\n1. When the owner hands over captures (\"site down\", \"VPN works but the API fails\"), put them in a `solaris.net-trace/1` file; do not probe live systems to fill gaps without asking.\n2. Run `python3 netdiag.py diagnose trace.json` (see `offline-trace-diagnosis.md`). Report its verdict, layer, candidates and missing evidence as given; `probable` and `undetermined` are not a diagnosis.\n3. Collect the named missing evidence, re-run, and only then plan a change in a window with rollback.\n",
+      "intent": null,
+      "tags": [
+        "Excessive Agency"
+      ],
+      "evidence": {},
+      "match_fingerprint": "8dc77d3dce9ba1f2672e813265a1b1a0c8594866ef38a4e978bf4f4451795465",
+      "occurrences": [
+        {
+          "file": "employees/infrastructure/network-engineer/SKILL.md",
+          "start_line": 202,
+          "end_line": null,
+          "start_column": 165
+        }
+      ],
+      "suppressed": true,
+      "suppression_reason": "Exact contextual false positives individually reviewed in sidecar SHA256 f0ed1e5fd15d7bcc499051a7342a86684fc17cca2e9082ad63182f7b96724971; source 1b3212f0ba9fc58f7675877be9cf0ea0d8283ee8; original findings c35a55549005cedd65827c88e1aec775a0c579dd. Reasons and source hashes are recorded per review key. No new findings or coverage gaps accepted."
+    },
+    {
+      "id": "EA2",
+      "finding_id": "finding-f31e23b33d6c48b887f1667975d94816",
+      "category": "Excessive Agency",
+      "pattern": "Autonomous Decision Making",
+      "severity": "MEDIUM",
+      "confidence": 0.75,
+      "location": {
+        "file": "employees/infrastructure/network-engineer/capability.contract.json",
+        "start_line": 220,
+        "end_line": null,
+        "start_column": 68
+      },
+      "finding": "without approval",
+      "explanation": "Skill enables autonomous high-impact decisions without human-in-the-loop verification. Critical operations (destructive commands, financial transactions, data deletion) should require explicit user confirmation.",
+      "remediation": "Add human-in-the-loop confirmation for destructive, irreversible, or high-impact operations. Never auto-execute commands that modify files, send data, or alter system state.",
+      "code_snippet": "      \"force-push as recovery default\",\n      \"silent production deploy or apply without human confirmation\",\n      \"real cloud credentials or production cluster access in fixtures\",\n      \"installing or executing third-party candidate infrastructure without approval\",\n      \"Gas Town control-plane mutation\",\n      \"invented cost or SLO metrics without provenance\"\n    ],",
+      "intent": null,
+      "tags": [
+        "Excessive Agency"
+      ],
+      "evidence": {},
+      "match_fingerprint": "7868080a35a6878aa292c53196ddb331f19d628c33953fb70850fdaf54c4191c",
+      "occurrences": [
+        {
+          "file": "employees/infrastructure/network-engineer/capability.contract.json",
+          "start_line": 220,
+          "end_line": null,
+          "start_column": 68
+        }
+      ],
+      "suppressed": true,
+      "suppression_reason": "Exact contextual false positives individually reviewed in sidecar SHA256 f0ed1e5fd15d7bcc499051a7342a86684fc17cca2e9082ad63182f7b96724971; source 1b3212f0ba9fc58f7675877be9cf0ea0d8283ee8; original findings c35a55549005cedd65827c88e1aec775a0c579dd. Reasons and source hashes are recorded per review key. No new findings or coverage gaps accepted."
+    },
+    {
+      "id": "EA2",
+      "finding_id": "finding-e3c9bc6bb015473fb73cbe90a5a3d722",
+      "category": "Excessive Agency",
+      "pattern": "Autonomous Decision Making",
+      "severity": "MEDIUM",
+      "confidence": 0.75,
+      "location": {
+        "file": "employees/infrastructure/network-engineer/enterprise-network-ops.md",
+        "start_line": 168,
+        "end_line": null,
+        "start_column": 378
+      },
+      "finding": "without approval",
+      "explanation": "Skill enables autonomous high-impact decisions without human-in-the-loop verification. Critical operations (destructive commands, financial transactions, data deletion) should require explicit user confirmation.",
+      "remediation": "Add human-in-the-loop confirmation for destructive, irreversible, or high-impact operations. Never auto-execute commands that modify files, send data, or alter system state.",
+      "code_snippet": "\nTransport checks: `ping <peer> source <local-source>`, `traceroute <peer> source <local-source>`, `show ip route <peer>`, `show bgp neighbors <peer> | include BGP state|Last reset|Local host|Foreign host`. If the peer is sourced from a loopback, confirm both directions route to the loopbacks and the config uses the expected update source.\n\nRoute policy / AS-path: `show bgp neighbors <peer> advertised-routes|routes`, `show ip prefix-list <name>`, `show route-map <name>`, `show bgp <prefix>`. AS-path regex needs token boundaries (`_65001_` matches AS 65001 as a token; bare `65001` can match longer ASNs). Some platforms need extra config before `received-routes` is available - do not add it during incident triage without approval.\n\nA simple BGP-summary parser can classify each row as Established (numeric prefix count) vs a state string, but store raw output with the incident record because formats vary by platform and address family.\n",
+      "intent": null,
+      "tags": [
+        "Excessive Agency"
+      ],
+      "evidence": {},
+      "match_fingerprint": "7868080a35a6878aa292c53196ddb331f19d628c33953fb70850fdaf54c4191c",
+      "occurrences": [
+        {
+          "file": "employees/infrastructure/network-engineer/enterprise-network-ops.md",
+          "start_line": 168,
+          "end_line": null,
+          "start_column": 378
+        }
+      ],
+      "suppressed": true,
+      "suppression_reason": "Exact contextual false positives individually reviewed in sidecar SHA256 f0ed1e5fd15d7bcc499051a7342a86684fc17cca2e9082ad63182f7b96724971; source 1b3212f0ba9fc58f7675877be9cf0ea0d8283ee8; original findings c35a55549005cedd65827c88e1aec775a0c579dd. Reasons and source hashes are recorded per review key. No new findings or coverage gaps accepted."
+    },
+    {
+      "id": "EA2",
+      "finding_id": "finding-fc874a8328f54cceaaf6a103fed95b4d",
+      "category": "Excessive Agency",
+      "pattern": "Autonomous Decision Making",
+      "severity": "MEDIUM",
+      "confidence": 0.75,
+      "location": {
+        "file": "employees/infrastructure/site-reliability-engineer/capability.contract.json",
+        "start_line": 220,
+        "end_line": null,
+        "start_column": 68
+      },
+      "finding": "without approval",
+      "explanation": "Skill enables autonomous high-impact decisions without human-in-the-loop verification. Critical operations (destructive commands, financial transactions, data deletion) should require explicit user confirmation.",
+      "remediation": "Add human-in-the-loop confirmation for destructive, irreversible, or high-impact operations. Never auto-execute commands that modify files, send data, or alter system state.",
+      "code_snippet": "      \"force-push as recovery default\",\n      \"silent production deploy or apply without human confirmation\",\n      \"real cloud credentials or production cluster access in fixtures\",\n      \"installing or executing third-party candidate infrastructure without approval\",\n      \"Gas Town control-plane mutation\",\n      \"invented cost or SLO metrics without provenance\"\n    ],",
+      "intent": null,
+      "tags": [
+        "Excessive Agency"
+      ],
+      "evidence": {},
+      "match_fingerprint": "7868080a35a6878aa292c53196ddb331f19d628c33953fb70850fdaf54c4191c",
+      "occurrences": [
+        {
+          "file": "employees/infrastructure/site-reliability-engineer/capability.contract.json",
+          "start_line": 220,
+          "end_line": null,
+          "start_column": 68
+        }
+      ],
+      "suppressed": true,
+      "suppression_reason": "Exact contextual false positives individually reviewed in sidecar SHA256 f0ed1e5fd15d7bcc499051a7342a86684fc17cca2e9082ad63182f7b96724971; source 1b3212f0ba9fc58f7675877be9cf0ea0d8283ee8; original findings c35a55549005cedd65827c88e1aec775a0c579dd. Reasons and source hashes are recorded per review key. No new findings or coverage gaps accepted."
+    },
+    {
+      "id": "EA2",
+      "finding_id": "finding-80385ab1eb874758b7e05e2b44a80651",
+      "category": "Excessive Agency",
+      "pattern": "Autonomous Decision Making",
+      "severity": "MEDIUM",
+      "confidence": 0.85,
+      "location": {
+        "file": "employees/leadership/cfo/filings-and-market-data-tooling.md",
+        "start_line": 26,
+        "end_line": null,
+        "start_column": 27
+      },
+      "finding": "auto-deploy",
+      "explanation": "Skill enables autonomous high-impact decisions without human-in-the-loop verification. Critical operations (destructive commands, financial transactions, data deletion) should require explicit user confirmation.",
+      "remediation": "Add human-in-the-loop confirmation for destructive, irreversible, or high-impact operations. Never auto-execute commands that modify files, send data, or alter system state.",
+      "code_snippet": "- Use it for: current/historical prices for public comparables, quick market-cap and ratio sanity checks, beta/returns inputs for a discount-rate assumption.\n- Caveat: Yahoo data is convenience-grade (delayed, occasionally gappy). Fine for assumption sanity-checks and comps context; for anything committed/audited, the SEC filing (sec-edgar) is the authoritative source. Never quote Yahoo as a primary figure in a deliverable when a filing exists.\n\n## CONNECT - host install (auto-deploy does NOT install external MCP servers)\n- **sec-edgar-mcp** (AGPL-3.0): optional, explicitly authorized host setup, with an already available reviewed image pinned by digest. No API key. Self-host only; respect AGPL if served to third parties. The SEC user-agent must identify the authorized operator; do not supply someone else's identity or start this service on workflow load.\n\n```bash",
+      "intent": null,
+      "tags": [
+        "Excessive Agency"
+      ],
+      "evidence": {},
+      "match_fingerprint": "aecb003e8ead5b32ee406fb48315cab877a5af9dd0afd219fc7674a8cbd6b5aa",
+      "occurrences": [
+        {
+          "file": "employees/leadership/cfo/filings-and-market-data-tooling.md",
+          "start_line": 26,
+          "end_line": null,
+          "start_column": 27
+        }
+      ],
+      "suppressed": true,
+      "suppression_reason": "Exact contextual false positives individually reviewed in sidecar SHA256 f0ed1e5fd15d7bcc499051a7342a86684fc17cca2e9082ad63182f7b96724971; source 1b3212f0ba9fc58f7675877be9cf0ea0d8283ee8; original findings c35a55549005cedd65827c88e1aec775a0c579dd. Reasons and source hashes are recorded per review key. No new findings or coverage gaps accepted."
+    },
+    {
+      "id": "EA2",
+      "finding_id": "finding-ed55263c57484704914835f07b5abcf4",
+      "category": "Excessive Agency",
+      "pattern": "Autonomous Decision Making",
+      "severity": "MEDIUM",
+      "confidence": 0.75,
+      "location": {
+        "file": "employees/legal-compliance/compliance-auditor/SKILL.md",
+        "start_line": 181,
+        "end_line": null,
+        "start_column": 77
+      },
+      "finding": "no approval",
+      "explanation": "Skill enables autonomous high-impact decisions without human-in-the-loop verification. Critical operations (destructive commands, financial transactions, data deletion) should require explicit user confirmation.",
+      "remediation": "Add human-in-the-loop confirmation for destructive, irreversible, or high-impact operations. Never auto-execute commands that modify files, send data, or alter system state.",
+      "code_snippet": "|---|---|---|---|---|---|---|---|---|---|\n| CC6.1 | Logical Access | Access provisioning restricted, least-privilege | Ad-hoc grants by founders | Role-based, ticketed grants | process + technology | P0 | CTO | IAM export + access-review tickets | Gap |\n| CC6.3 | Logical Access | Timely access removal | Offboarding manual, unverified | Offboarding ticket w/ per-app confirmation | implementation | P0 | IT | Resolved offboarding tickets | Attention |\n| CC8.1 | Change Control | Changes authorized, tested, approved | PRs exist, no approval rule | Branch protection + required review | technology | P1 | CTO | Repo settings export + PR history | Attention |\n| A1.1 | Availability | Capacity planning | None | Quarterly capacity review | documentation + process | P2 | DevOps | Review tickets | Gap |\n\n### Audit-prep runway (dated, owner-assigned)",
+      "intent": null,
+      "tags": [
+        "Excessive Agency"
+      ],
+      "evidence": {},
+      "match_fingerprint": "02114119728c4c9031d411902239e1c4b76f46eb7c1932c9ae63fcbe2fd1030c",
+      "occurrences": [
+        {
+          "file": "employees/legal-compliance/compliance-auditor/SKILL.md",
+          "start_line": 181,
+          "end_line": null,
+          "start_column": 77
+        }
+      ],
+      "suppressed": true,
+      "suppression_reason": "Exact contextual false positives individually reviewed in sidecar SHA256 f0ed1e5fd15d7bcc499051a7342a86684fc17cca2e9082ad63182f7b96724971; source 1b3212f0ba9fc58f7675877be9cf0ea0d8283ee8; original findings c35a55549005cedd65827c88e1aec775a0c579dd. Reasons and source hashes are recorded per review key. No new findings or coverage gaps accepted."
+    },
+    {
+      "id": "EA2",
+      "finding_id": "finding-2cd98af746c44680a222fcacfab8d4b1",
+      "category": "Excessive Agency",
+      "pattern": "Autonomous Decision Making",
+      "severity": "MEDIUM",
+      "confidence": 0.85,
+      "location": {
+        "file": "employees/legal-compliance/compliance-auditor/probo-grc-patterns.md",
+        "start_line": 29,
+        "end_line": null,
+        "start_column": 28
+      },
+      "finding": "auto-deploy",
+      "explanation": "Skill enables autonomous high-impact decisions without human-in-the-loop verification. Critical operations (destructive commands, financial transactions, data deletion) should require explicit user confirmation.",
+      "remediation": "Add human-in-the-loop confirmation for destructive, irreversible, or high-impact operations. Never auto-execute commands that modify files, send data, or alter system state.",
+      "code_snippet": "- DPIA/TIA, DPA/BAA tracking, subprocessor inventory - already in vendor/GDPR sections.\n- Compliance-as-code - already covered via trestle/OSCAL.\n\n## CONNECT - host installs (auto-deploy does NOT install external MCP servers)\n- **Probo** (ISC, self-host): clone with submodules, `make stack-up && make build`, run `bin/probod` (web console at :8080); its MCP exposes 270+ tools, plus `prb` CLI and a GraphQL API. Use as the live GRC system-of-record when a client wants a self-hosted Vanta/Drata alternative. The patterns above apply whether or not Probo itself is installed.\n- **Comp AI** (~1.6k stars, **AGPL - self-host/connect fine, copyleft if served**): open-source Vanta/Drata-style continuous-compliance automation. CONNECT as the automated-evidence + monitoring platform for clients who want continuous control monitoring rather than point-in-time readiness. Self-host; respect AGPL if offered as a service.",
+      "intent": null,
+      "tags": [
+        "Excessive Agency"
+      ],
+      "evidence": {},
+      "match_fingerprint": "aecb003e8ead5b32ee406fb48315cab877a5af9dd0afd219fc7674a8cbd6b5aa",
+      "occurrences": [
+        {
+          "file": "employees/legal-compliance/compliance-auditor/probo-grc-patterns.md",
+          "start_line": 29,
+          "end_line": null,
+          "start_column": 28
+        }
+      ],
+      "suppressed": true,
+      "suppression_reason": "Exact contextual false positives individually reviewed in sidecar SHA256 f0ed1e5fd15d7bcc499051a7342a86684fc17cca2e9082ad63182f7b96724971; source 1b3212f0ba9fc58f7675877be9cf0ea0d8283ee8; original findings c35a55549005cedd65827c88e1aec775a0c579dd. Reasons and source hashes are recorded per review key. No new findings or coverage gaps accepted."
+    },
+    {
+      "id": "EA3",
+      "finding_id": "finding-e823b1b40e77456cac604428bb152092",
+      "category": "Excessive Agency",
+      "pattern": "Scope Creep",
+      "severity": "LOW",
+      "confidence": 0.7,
+      "location": {
+        "file": "employees/legal-compliance/legal-advisor/SKILL.md",
+        "start_line": 122,
+        "end_line": null,
+        "start_column": 63
+      },
+      "finding": "beyond scope",
+      "explanation": "Skill's behavior or capabilities extend beyond its stated purpose. Scope creep allows an agent to perform actions unrelated to its documented functionality, increasing the attack surface.",
+      "remediation": "Limit the skill's scope to its documented purpose. Remove instructions that enable the agent to perform actions outside its stated functionality.",
+      "code_snippet": "#### Indemnification\n- **IP indemnification**: customer protected if vendor's IP infringes\n- **Mutual indemnification**: both parties protect each other\n- **Exclusions**: third-party combinations, modifications, use beyond scope\n\n#### Warranties\n- **Express warranties**: explicit promises",
+      "intent": null,
+      "tags": [
+        "Excessive Agency"
+      ],
+      "evidence": {},
+      "match_fingerprint": "3492077d65eeeb18369145f79da7a88c4b587469c0663d10b0ded6f307c27f29",
+      "occurrences": [
+        {
+          "file": "employees/legal-compliance/legal-advisor/SKILL.md",
+          "start_line": 122,
+          "end_line": null,
+          "start_column": 63
+        }
+      ],
+      "suppressed": true,
+      "suppression_reason": "Exact contextual false positives individually reviewed in sidecar SHA256 f0ed1e5fd15d7bcc499051a7342a86684fc17cca2e9082ad63182f7b96724971; source 1b3212f0ba9fc58f7675877be9cf0ea0d8283ee8; original findings c35a55549005cedd65827c88e1aec775a0c579dd. Reasons and source hashes are recorded per review key. No new findings or coverage gaps accepted."
+    },
+    {
+      "id": "EA2",
+      "finding_id": "finding-481feb25fad6469b9eda3d503046ca6f",
+      "category": "Excessive Agency",
+      "pattern": "Autonomous Decision Making",
+      "severity": "MEDIUM",
+      "confidence": 0.85,
+      "location": {
+        "file": "employees/legal-compliance/legal-advisor/rules.md",
+        "start_line": 91,
+        "end_line": null,
+        "start_column": 257
+      },
+      "finding": "Auto-deploy",
+      "explanation": "Skill enables autonomous high-impact decisions without human-in-the-loop verification. Critical operations (destructive commands, financial transactions, data deletion) should require explicit user confirmation.",
+      "remediation": "Add human-in-the-loop confirmation for destructive, irreversible, or high-impact operations. Never auto-execute commands that modify files, send data, or alter system state.",
+      "code_snippet": "\n## E-signature + case-law connectors (CONNECT, added 2026-06-13)\n\nThe legal-advisor already knows *which system owns which job* (CLM vs e-sign vs DMS vs e-discovery vs case-law - see the connector-awareness rule above). These are the open-source / open-API connectors to actually wire, so the advice has an execution path. Auto-deploy does NOT install external MCP servers - the host installs.\n\n### Open-source e-signature (CONNECT, AGPL)\n- **Documenso** (~13k stars, **AGPL - self-host/connect fine; copyleft if served as a service**) and **DocuSeal** (**AGPL - same terms**) are the open-source alternatives to DocuSign/Adobe Sign for executing NDAs, MSAs, SOWs, engagement letters.",
+      "intent": null,
+      "tags": [
+        "Excessive Agency"
+      ],
+      "evidence": {},
+      "match_fingerprint": "4dd8207403aae8d56ccb063f6f4a471eb935bcf537c43beb3effea4fc9ad3392",
+      "occurrences": [
+        {
+          "file": "employees/legal-compliance/legal-advisor/rules.md",
+          "start_line": 91,
+          "end_line": null,
+          "start_column": 257
+        }
+      ],
+      "suppressed": true,
+      "suppression_reason": "Exact contextual false positives individually reviewed in sidecar SHA256 f0ed1e5fd15d7bcc499051a7342a86684fc17cca2e9082ad63182f7b96724971; source 1b3212f0ba9fc58f7675877be9cf0ea0d8283ee8; original findings c35a55549005cedd65827c88e1aec775a0c579dd. Reasons and source hashes are recorded per review key. No new findings or coverage gaps accepted."
+    },
+    {
+      "id": "EA2",
+      "finding_id": "finding-271ee8f6a07d4e348170e007f19dc012",
+      "category": "Excessive Agency",
+      "pattern": "Autonomous Decision Making",
+      "severity": "MEDIUM",
+      "confidence": 0.75,
+      "location": {
+        "file": "employees/marketing/GROWTH-REVENUE-STANDARD.md",
+        "start_line": 17,
+        "end_line": null,
+        "start_column": 82
+      },
+      "finding": "without verification",
+      "explanation": "Skill enables autonomous high-impact decisions without human-in-the-loop verification. Critical operations (destructive commands, financial transactions, data deletion) should require explicit user confirmation.",
+      "remediation": "Add human-in-the-loop confirmation for destructive, irreversible, or high-impact operations. Never auto-execute commands that modify files, send data, or alter system state.",
+      "code_snippet": "|---------|----------------------------|-------|\n| Marketing email | explicit opt-in or soft opt-in per jurisdiction + recorded source | honor unsubscribe in all future mail |\n| SMS | express written consent (TCPA-class) | stop keywords honored immediately |\n| Cold email / LinkedIn | legitimate interest or permission path; no bought lists without verification | suppression always wins |\n| Paid ads retargeting | pixel/CAPI consent where required (GDPR/ePrivacy) | no sensitive category targeting abuses |\n| CRM enroll | documented basis + purpose limitation | bulk enroll needs approval_preview |\n",
+      "intent": null,
+      "tags": [
+        "Excessive Agency"
+      ],
+      "evidence": {},
+      "match_fingerprint": "fe5d1711651a4715ab1d9b8451c549b9733b35dcee753a00cc95b0754ef2c699",
+      "occurrences": [
+        {
+          "file": "employees/marketing/GROWTH-REVENUE-STANDARD.md",
+          "start_line": 17,
+          "end_line": null,
+          "start_column": 82
+        }
+      ],
+      "suppressed": true,
+      "suppression_reason": "Exact contextual false positives individually reviewed in sidecar SHA256 f0ed1e5fd15d7bcc499051a7342a86684fc17cca2e9082ad63182f7b96724971; source 1b3212f0ba9fc58f7675877be9cf0ea0d8283ee8; original findings c35a55549005cedd65827c88e1aec775a0c579dd. Reasons and source hashes are recorded per review key. No new findings or coverage gaps accepted."
+    },
+    {
+      "id": "EA2",
+      "finding_id": "finding-f35184f967cc45e8b414279db8730e2b",
+      "category": "Excessive Agency",
+      "pattern": "Autonomous Decision Making",
+      "severity": "MEDIUM",
+      "confidence": 0.85,
+      "location": {
+        "file": "employees/marketing/content-marketer/rules.md",
+        "start_line": 133,
+        "end_line": null,
+        "start_column": 70
+      },
+      "finding": "Auto-deploy",
+      "explanation": "Skill enables autonomous high-impact decisions without human-in-the-loop verification. Critical operations (destructive commands, financial transactions, data deletion) should require explicit user confirmation.",
+      "remediation": "Add human-in-the-loop confirmation for destructive, irreversible, or high-impact operations. Never auto-execute commands that modify files, send data, or alter system state.",
+      "code_snippet": "- Role for content: a clean white-label home for a client's (or our own) blog/publication, email newsletter, and paid-membership/subscription business in one platform. Publish content, send it as a newsletter, and gate/monetize it without stitching a CMS + ESP + membership tool together.\n- License note: **MIT = clean resale.** Permissive, so we can self-host, customize, and white-label/resell freely; no copyleft trigger. The cleanest of the publishing options.\n- Boundary: content owns the editorial/publishing use; **email-specialist** owns deliverability + the newsletter-as-email mechanics when Ghost's email goes out (see its one-line Ghost note). For productization scope see delivery-lead/sellable-platforms.md.\n- CONNECT: host self-hosts Ghost (or Ghost Pro); wire per engagement. Auto-deploy does NOT install it.",
+      "intent": null,
+      "tags": [
+        "Excessive Agency"
+      ],
+      "evidence": {},
+      "match_fingerprint": "4dd8207403aae8d56ccb063f6f4a471eb935bcf537c43beb3effea4fc9ad3392",
+      "occurrences": [
+        {
+          "file": "employees/marketing/content-marketer/rules.md",
+          "start_line": 133,
+          "end_line": null,
+          "start_column": 70
+        }
+      ],
+      "suppressed": true,
+      "suppression_reason": "Exact contextual false positives individually reviewed in sidecar SHA256 f0ed1e5fd15d7bcc499051a7342a86684fc17cca2e9082ad63182f7b96724971; source 1b3212f0ba9fc58f7675877be9cf0ea0d8283ee8; original findings c35a55549005cedd65827c88e1aec775a0c579dd. Reasons and source hashes are recorded per review key. No new findings or coverage gaps accepted."
+    },
+    {
+      "id": "MP1",
+      "finding_id": "finding-ac19f31061344c0282e3383a790893bf",
+      "category": "Memory Poisoning",
+      "pattern": "Persistent Context Injection",
+      "severity": "MEDIUM",
+      "confidence": 0.8,
+      "location": {
+        "file": "employees/engineering/unity-developer/unity.skill!/unity/SKILL.md",
+        "start_line": 23,
+        "end_line": null,
+        "start_column": 84
+      },
+      "finding": "a permanent rule",
+      "explanation": "Skill injects content designed to persist in agent memory or context across interactions. Persistent injection can alter agent behavior long after the initial interaction.",
+      "remediation": "Do not allow untrusted input to persist in agent memory or context. Validate all content before storing and implement memory isolation between sessions.",
+      "code_snippet": "- **`learnings.md`** \u2014 mistakes and patterns from past Unity work. Read at session start, updated at session end.\n- **`CLAUDE.md`** (at each Unity project's root) \u2014 standing decisions for THAT game. So Claude never re-asks things the project already knows.\n\nIf a lesson shows up twice, it gets promoted into the main body of this SKILL.md as a permanent rule. This is encoded below in the Self-Learning Protocol \u2014 **not optional, Claude must actually do it every session**. The point of this skill is that it grows with Shai, instead of starting from scratch every time.\n\n## First moves in every Unity session \u2014 DO THESE BEFORE ANY CODE\n",
+      "intent": null,
+      "tags": [
+        "Memory Poisoning"
+      ],
+      "evidence": {},
+      "match_fingerprint": "25bf31103d23cc7bd07ceebf55a156312a0a5f335108b43866e394f4fbfc0b02",
+      "occurrences": [
+        {
+          "file": "employees/engineering/unity-developer/unity.skill!/unity/SKILL.md",
+          "start_line": 23,
+          "end_line": null,
+          "start_column": 84
+        }
+      ],
+      "suppressed": true,
+      "suppression_reason": "Exact contextual false positives individually reviewed in sidecar SHA256 f0ed1e5fd15d7bcc499051a7342a86684fc17cca2e9082ad63182f7b96724971; source 1b3212f0ba9fc58f7675877be9cf0ea0d8283ee8; original findings c35a55549005cedd65827c88e1aec775a0c579dd. Reasons and source hashes are recorded per review key. No new findings or coverage gaps accepted."
+    },
+    {
+      "id": "PE3",
+      "finding_id": "finding-cefbe50da3504c8e8a38da641f04ac24",
+      "category": "Privilege Escalation",
+      "pattern": "Credential Access",
+      "severity": "HIGH",
+      "confidence": 0.7,
+      "location": {
+        "file": "employees/infrastructure/fleet-provisioner/capability.contract.json",
+        "start_line": 12,
+        "end_line": null,
+        "start_column": 70
+      },
+      "finding": "Keychain",
+      "explanation": "Code accesses credential files (SSH keys, AWS credentials, etc.). This could indicate credential theft attempts.",
+      "remediation": "Remove references to credential paths. Use environment variables or secrets managers. For docs, use placeholder paths (e.g., /path/to/config). Never load .env or token files in production code paths.",
+      "code_snippet": "    \"domain\": \"infrastructure\",\n    \"owner\": \"solaris-infrastructure\",\n    \"maturity\": \"L2\",\n    \"summary\": \"Worker provisioning plans with synthetic fixtures; no Keychain or personal-path access.\",\n    \"tags\": [\n      \"infrastructure\",\n      \"fleet\"",
+      "intent": null,
+      "tags": [
+        "Privilege Escalation"
+      ],
+      "evidence": {},
+      "match_fingerprint": "044e59b8cb232d8d2a59d6f4b1e8fe2b50ce1a35abe47e0398df30fd491b561c",
+      "occurrences": [
+        {
+          "file": "employees/infrastructure/fleet-provisioner/capability.contract.json",
+          "start_line": 12,
+          "end_line": null,
+          "start_column": 70
+        }
+      ],
+      "suppressed": true,
+      "suppression_reason": "Exact contextual false positives individually reviewed in sidecar SHA256 f0ed1e5fd15d7bcc499051a7342a86684fc17cca2e9082ad63182f7b96724971; source 1b3212f0ba9fc58f7675877be9cf0ea0d8283ee8; original findings c35a55549005cedd65827c88e1aec775a0c579dd. Reasons and source hashes are recorded per review key. No new findings or coverage gaps accepted."
+    },
+    {
+      "id": "PE2",
+      "finding_id": "finding-67e501e65eb54f22b65bd352b435eba1",
+      "category": "Privilege Escalation",
+      "pattern": "Sudo/Root Execution",
+      "severity": "MEDIUM",
+      "confidence": 0.7,
+      "location": {
+        "file": "employees/infrastructure/network-engineer/homelab-and-network-ops.md",
+        "start_line": 120,
+        "end_line": null,
+        "start_column": 15
+      },
+      "finding": "sudo ",
+      "explanation": "Commands invoke sudo or root privileges. Verify this elevated access is necessary and justified.",
+      "remediation": "Avoid sudo/root unless strictly required. Prefer least-privilege patterns. If elevation is needed, document the justification and scope.",
+      "code_snippet": "\nDDNS for dynamic ISP IPs (Cloudflare/DuckDNS): store credentials in a 600-mode env file, never inline, never committed. Forward only UDP 51820 to the VPN service, never to an admin UI.\n\nTroubleshoot: `sudo wg show` (handshake age - \"never\"/old = not connected); is UDP 51820 open?; does the client have the correct server public key?; `cat /proc/sys/net/ipv4/ip_forward` = 1?; does `AllowedIPs` cover the target?; `dmesg | grep wireguard`; `wg-quick down wg0 && wg-quick up wg0`.\n\nAnti-patterns: keys in version control; `0.0.0.0/0` on mobile without thinking; missing `PersistentKeepalive` on mobile; port open but `ip_forward` off; shared keypair across devices; blanket FORWARD ACCEPT.\n",
+      "intent": null,
+      "tags": [
+        "Privilege Escalation"
+      ],
+      "evidence": {},
+      "match_fingerprint": "16746f7044f347c6322d4c5b879b3fb06b2f205cbf1c9a209b43d52b34b3afd7",
+      "occurrences": [
+        {
+          "file": "employees/infrastructure/network-engineer/homelab-and-network-ops.md",
+          "start_line": 120,
+          "end_line": null,
+          "start_column": 15
+        }
+      ],
+      "suppressed": true,
+      "suppression_reason": "Exact contextual false positives individually reviewed in sidecar SHA256 f0ed1e5fd15d7bcc499051a7342a86684fc17cca2e9082ad63182f7b96724971; source 1b3212f0ba9fc58f7675877be9cf0ea0d8283ee8; original findings c35a55549005cedd65827c88e1aec775a0c579dd. Reasons and source hashes are recorded per review key. No new findings or coverage gaps accepted."
+    },
+    {
+      "id": "P9",
+      "finding_id": "finding-d53d5b82c3724cd7a2cea9058fb2ef29",
+      "category": "Prompt Injection",
+      "pattern": "Whitespace Padding",
+      "severity": "MEDIUM",
+      "confidence": 0.7,
+      "location": {
+        "file": "employees/infrastructure/fleet-dispatcher/handoff.py",
+        "start_line": 374,
+        "end_line": null
+      },
+      "finding": "U+0020 x82",
+      "explanation": "Large whitespace padding was detected (a block of blank lines or a long run of spaces). This can push injected instructions below or to the right of the visible area so a human reviewer never sees them while the agent still reads them. Manual review of the hidden content is recommended.",
+      "remediation": "Remove the large whitespace padding (blank-line blocks or long space runs) and review any content hidden below or to the right of it. Keep skill files compact and reviewable so no instructions can be concealed off-screen.",
+      "code_snippet": "                          \"status\": res.get(\"status\"), \"errors\": (res.get(\"errors\") or [])[:3],\n                          \"problems\": (res.get(\"problems\") or [])[:3]})\n                report[\"steps\"][step] = \"failed: %s\" % \"; \".join(str(x) for x in (res.get(\"errors\") or\n                                                                                  res.get(\"problems\") or [res.get(\"status\")]))\n                j.append({\"type\": \"release\", \"worker\": worker})\n                return 1, report\n            outs = {\"STATUS.md\": sha_file(status_p), \"changed\": res.get(\"changed\", [])}",
+      "intent": null,
+      "tags": [
+        "Prompt Injection"
+      ],
+      "evidence": {},
+      "match_fingerprint": "56a1fba3fc5c2b6f6be05d02db28d3222329cdc90432ba911b95334ba07ef204",
+      "occurrences": [
+        {
+          "file": "employees/infrastructure/fleet-dispatcher/handoff.py",
+          "start_line": 374,
+          "end_line": null
+        }
+      ],
+      "suppressed": true,
+      "suppression_reason": "Exact contextual false positives individually reviewed in sidecar SHA256 f0ed1e5fd15d7bcc499051a7342a86684fc17cca2e9082ad63182f7b96724971; source 1b3212f0ba9fc58f7675877be9cf0ea0d8283ee8; original findings c35a55549005cedd65827c88e1aec775a0c579dd. Reasons and source hashes are recorded per review key. No new findings or coverage gaps accepted."
+    },
+    {
+      "id": "RA2",
+      "finding_id": "finding-ebee7b20408d4efeb8c4d4ef9e6b0730",
+      "category": "Rogue Agent",
+      "pattern": "Session Persistence",
+      "severity": "MEDIUM",
+      "confidence": 0.75,
+      "location": {
+        "file": "employees/engineering/unity-developer/unity-build-ship.md",
+        "start_line": 136,
+        "end_line": null,
+        "start_column": 79
+      },
+      "finding": "plist",
+      "explanation": "Skill establishes unauthorized persistence across sessions via cron jobs, startup scripts, or state files. Session persistence allows an attacker to maintain access beyond the current interaction.",
+      "remediation": "Remove any persistence mechanisms (cron jobs, startup scripts, state files). Skills should not maintain state across sessions without explicit user consent.",
+      "code_snippet": "\n## Store-submission gotchas (the ITMS / Play rejections that cost a resubmit cycle)\n\n- **iOS privacy:** every data-collecting API needs a usage description in Info.plist (camera, photos, ATT/IDFA). Missing one = ITMS rejection. Set them in Unity Player Settings -> iOS -> Other Settings, and fill App Privacy + ATT in App Store Connect.\n- **iOS encryption declaration:** answer the export-compliance question; set `ITSAppUsesNonExemptEncryption=false` in Info.plist if you only use standard HTTPS, to skip the manual prompt each upload.\n- **Android target API level:** Play enforces a minimum target SDK each year. Set Player Settings -> Android -> Target API Level to the latest required, or the upload is blocked.\n- **Android 64-bit + AAB:** Play requires 64-bit and the App Bundle format. Build IL2CPP with ARM64 in Scripting Backend / Target Architectures.",
+      "intent": null,
+      "tags": [
+        "Rogue Agent"
+      ],
+      "evidence": {},
+      "match_fingerprint": "92ac6668a75d0bc0e0c009eaa03caa4e6c179ffa107b611e1fe7194dd61864e6",
+      "occurrences": [
+        {
+          "file": "employees/engineering/unity-developer/unity-build-ship.md",
+          "start_line": 136,
+          "end_line": null,
+          "start_column": 79
+        }
+      ],
+      "suppressed": true,
+      "suppression_reason": "Exact contextual false positives individually reviewed in sidecar SHA256 f0ed1e5fd15d7bcc499051a7342a86684fc17cca2e9082ad63182f7b96724971; source 1b3212f0ba9fc58f7675877be9cf0ea0d8283ee8; original findings c35a55549005cedd65827c88e1aec775a0c579dd. Reasons and source hashes are recorded per review key. No new findings or coverage gaps accepted."
+    },
+    {
+      "id": "RA2",
+      "finding_id": "finding-990f4d38a8a94646bb2e9d55848444f3",
+      "category": "Rogue Agent",
+      "pattern": "Session Persistence",
+      "severity": "MEDIUM",
+      "confidence": 0.75,
+      "location": {
+        "file": "employees/engineering/unity-developer/unity-build-ship.md",
+        "start_line": 137,
+        "end_line": null,
+        "start_column": 123
+      },
+      "finding": "plist",
+      "explanation": "Skill establishes unauthorized persistence across sessions via cron jobs, startup scripts, or state files. Session persistence allows an attacker to maintain access beyond the current interaction.",
+      "remediation": "Remove any persistence mechanisms (cron jobs, startup scripts, state files). Skills should not maintain state across sessions without explicit user consent.",
+      "code_snippet": "## Store-submission gotchas (the ITMS / Play rejections that cost a resubmit cycle)\n\n- **iOS privacy:** every data-collecting API needs a usage description in Info.plist (camera, photos, ATT/IDFA). Missing one = ITMS rejection. Set them in Unity Player Settings -> iOS -> Other Settings, and fill App Privacy + ATT in App Store Connect.\n- **iOS encryption declaration:** answer the export-compliance question; set `ITSAppUsesNonExemptEncryption=false` in Info.plist if you only use standard HTTPS, to skip the manual prompt each upload.\n- **Android target API level:** Play enforces a minimum target SDK each year. Set Player Settings -> Android -> Target API Level to the latest required, or the upload is blocked.\n- **Android 64-bit + AAB:** Play requires 64-bit and the App Bundle format. Build IL2CPP with ARM64 in Scripting Backend / Target Architectures.\n- **Build number monotonicity:** both stores reject a build number <= the last accepted one. Always increment in the lane.",
+      "intent": null,
+      "tags": [
+        "Rogue Agent"
+      ],
+      "evidence": {},
+      "match_fingerprint": "92ac6668a75d0bc0e0c009eaa03caa4e6c179ffa107b611e1fe7194dd61864e6",
+      "occurrences": [
+        {
+          "file": "employees/engineering/unity-developer/unity-build-ship.md",
+          "start_line": 137,
+          "end_line": null,
+          "start_column": 123
+        }
+      ],
+      "suppressed": true,
+      "suppression_reason": "Exact contextual false positives individually reviewed in sidecar SHA256 f0ed1e5fd15d7bcc499051a7342a86684fc17cca2e9082ad63182f7b96724971; source 1b3212f0ba9fc58f7675877be9cf0ea0d8283ee8; original findings c35a55549005cedd65827c88e1aec775a0c579dd. Reasons and source hashes are recorded per review key. No new findings or coverage gaps accepted."
+    },
+    {
+      "id": "RA2",
+      "finding_id": "finding-39f5500e3a874d2e8221dae291a5bc7d",
+      "category": "Rogue Agent",
+      "pattern": "Session Persistence",
+      "severity": "MEDIUM",
+      "confidence": 0.75,
+      "location": {
+        "file": "employees/engineering/unity-developer/unity.skill!/unity/unity-build-ship.md",
+        "start_line": 136,
+        "end_line": null,
+        "start_column": 79
+      },
+      "finding": "plist",
+      "explanation": "Skill establishes unauthorized persistence across sessions via cron jobs, startup scripts, or state files. Session persistence allows an attacker to maintain access beyond the current interaction.",
+      "remediation": "Remove any persistence mechanisms (cron jobs, startup scripts, state files). Skills should not maintain state across sessions without explicit user consent.",
+      "code_snippet": "\n## Store-submission gotchas (the ITMS / Play rejections that cost a resubmit cycle)\n\n- **iOS privacy:** every data-collecting API needs a usage description in Info.plist (camera, photos, ATT/IDFA). Missing one = ITMS rejection. Set them in Unity Player Settings -> iOS -> Other Settings, and fill App Privacy + ATT in App Store Connect.\n- **iOS encryption declaration:** answer the export-compliance question; set `ITSAppUsesNonExemptEncryption=false` in Info.plist if you only use standard HTTPS, to skip the manual prompt each upload.\n- **Android target API level:** Play enforces a minimum target SDK each year. Set Player Settings -> Android -> Target API Level to the latest required, or the upload is blocked.\n- **Android 64-bit + AAB:** Play requires 64-bit and the App Bundle format. Build IL2CPP with ARM64 in Scripting Backend / Target Architectures.",
+      "intent": null,
+      "tags": [
+        "Rogue Agent"
+      ],
+      "evidence": {},
+      "match_fingerprint": "92ac6668a75d0bc0e0c009eaa03caa4e6c179ffa107b611e1fe7194dd61864e6",
+      "occurrences": [
+        {
+          "file": "employees/engineering/unity-developer/unity.skill!/unity/unity-build-ship.md",
+          "start_line": 136,
+          "end_line": null,
+          "start_column": 79
+        }
+      ],
+      "suppressed": true,
+      "suppression_reason": "Exact contextual false positives individually reviewed in sidecar SHA256 f0ed1e5fd15d7bcc499051a7342a86684fc17cca2e9082ad63182f7b96724971; source 1b3212f0ba9fc58f7675877be9cf0ea0d8283ee8; original findings c35a55549005cedd65827c88e1aec775a0c579dd. Reasons and source hashes are recorded per review key. No new findings or coverage gaps accepted."
+    },
+    {
+      "id": "RA2",
+      "finding_id": "finding-f0b5bf4b37024977b58df61774f90f3d",
+      "category": "Rogue Agent",
+      "pattern": "Session Persistence",
+      "severity": "MEDIUM",
+      "confidence": 0.75,
+      "location": {
+        "file": "employees/engineering/unity-developer/unity.skill!/unity/unity-build-ship.md",
+        "start_line": 137,
+        "end_line": null,
+        "start_column": 123
+      },
+      "finding": "plist",
+      "explanation": "Skill establishes unauthorized persistence across sessions via cron jobs, startup scripts, or state files. Session persistence allows an attacker to maintain access beyond the current interaction.",
+      "remediation": "Remove any persistence mechanisms (cron jobs, startup scripts, state files). Skills should not maintain state across sessions without explicit user consent.",
+      "code_snippet": "## Store-submission gotchas (the ITMS / Play rejections that cost a resubmit cycle)\n\n- **iOS privacy:** every data-collecting API needs a usage description in Info.plist (camera, photos, ATT/IDFA). Missing one = ITMS rejection. Set them in Unity Player Settings -> iOS -> Other Settings, and fill App Privacy + ATT in App Store Connect.\n- **iOS encryption declaration:** answer the export-compliance question; set `ITSAppUsesNonExemptEncryption=false` in Info.plist if you only use standard HTTPS, to skip the manual prompt each upload.\n- **Android target API level:** Play enforces a minimum target SDK each year. Set Player Settings -> Android -> Target API Level to the latest required, or the upload is blocked.\n- **Android 64-bit + AAB:** Play requires 64-bit and the App Bundle format. Build IL2CPP with ARM64 in Scripting Backend / Target Architectures.\n- **Build number monotonicity:** both stores reject a build number <= the last accepted one. Always increment in the lane.",
+      "intent": null,
+      "tags": [
+        "Rogue Agent"
+      ],
+      "evidence": {},
+      "match_fingerprint": "92ac6668a75d0bc0e0c009eaa03caa4e6c179ffa107b611e1fe7194dd61864e6",
+      "occurrences": [
+        {
+          "file": "employees/engineering/unity-developer/unity.skill!/unity/unity-build-ship.md",
+          "start_line": 137,
+          "end_line": null,
+          "start_column": 123
+        }
+      ],
+      "suppressed": true,
+      "suppression_reason": "Exact contextual false positives individually reviewed in sidecar SHA256 f0ed1e5fd15d7bcc499051a7342a86684fc17cca2e9082ad63182f7b96724971; source 1b3212f0ba9fc58f7675877be9cf0ea0d8283ee8; original findings c35a55549005cedd65827c88e1aec775a0c579dd. Reasons and source hashes are recorded per review key. No new findings or coverage gaps accepted."
+    },
+    {
+      "id": "RA1",
+      "finding_id": "finding-fa7eeb98bd5043bd96bc13d4e8230b7f",
+      "category": "Rogue Agent",
+      "pattern": "Self-Modification",
+      "severity": "HIGH",
+      "confidence": 0.9,
+      "location": {
+        "file": "employees/engineering/unreal-developer/learnings.md",
+        "start_line": 3,
+        "end_line": null,
+        "start_column": 188
+      },
+      "finding": "self-update",
+      "explanation": "Skill modifies its own code, configuration, or behavior at runtime. Self-modification enables an agent to escalate privileges, disable safety constraints, or install persistent backdoors.",
+      "remediation": "Prevent the skill from modifying its own code, SKILL.md, or configuration files. Treat skill files as read-only at runtime.",
+      "code_snippet": "# Unreal Developer - Learnings\n\nRead as bundled reference. Record new observations in project notes, not this installed file. Repeated lessons may justify an authorized, reviewed source change; no automatic promotion or self-update.\n\n## Seed entries (from source absorption, 2026-06-13)\n",
+      "intent": null,
+      "tags": [
+        "Rogue Agent"
+      ],
+      "evidence": {},
+      "match_fingerprint": "acc52580b0a6763c2be5b86ab2142cbb1b9fcd880aebd75d357a5c575d309983",
+      "occurrences": [
+        {
+          "file": "employees/engineering/unreal-developer/learnings.md",
+          "start_line": 3,
+          "end_line": null,
+          "start_column": 188
+        }
+      ],
+      "suppressed": true,
+      "suppression_reason": "Exact contextual false positives individually reviewed in sidecar SHA256 f0ed1e5fd15d7bcc499051a7342a86684fc17cca2e9082ad63182f7b96724971; source 1b3212f0ba9fc58f7675877be9cf0ea0d8283ee8; original findings c35a55549005cedd65827c88e1aec775a0c579dd. Reasons and source hashes are recorded per review key. No new findings or coverage gaps accepted."
+    },
+    {
+      "id": "RA2",
+      "finding_id": "finding-82f8b086865e48cc90e9362dfbea70c3",
+      "category": "Rogue Agent",
+      "pattern": "Session Persistence",
+      "severity": "MEDIUM",
+      "confidence": 0.6,
+      "location": {
+        "file": "employees/infrastructure/fleet-provisioner/capability.contract.json",
+        "start_line": 101,
+        "end_line": null,
+        "start_column": 23
+      },
+      "finding": "write shared repository history\",\n      \"read Desktop/the coding agent or Alfred personal-data directories\",\n      \"silent credential rotation or secret file edits\"\n    ],\n    \"escalation\": \"delivery-",
+      "explanation": "Skill establishes unauthorized persistence across sessions via cron jobs, startup scripts, or state files. Session persistence allows an attacker to maintain access beyond the current interaction.",
+      "remediation": "Remove any persistence mechanisms (cron jobs, startup scripts, state files). Skills should not maintain state across sessions without explicit user consent.",
+      "code_snippet": "    \"cannot_decide\": [\n      \"production deploy without explicit human confirmation\",\n      \"commit credentials, tokens, or private personal data\",\n      \"force-push or rewrite shared repository history\",\n      \"read Desktop/the coding agent or Alfred personal-data directories\",\n      \"silent credential rotation or secret file edits\"\n    ],",
+      "intent": null,
+      "tags": [
+        "Rogue Agent"
+      ],
+      "evidence": {},
+      "match_fingerprint": "17096f99c68fcb9cb40d5e91a15e5932188cc5211cd9cbb3776cf7c9676fb939",
+      "occurrences": [
+        {
+          "file": "employees/infrastructure/fleet-provisioner/capability.contract.json",
+          "start_line": 101,
+          "end_line": null,
+          "start_column": 23
+        }
+      ],
+      "suppressed": true,
+      "suppression_reason": "Exact contextual false positives individually reviewed in sidecar SHA256 f0ed1e5fd15d7bcc499051a7342a86684fc17cca2e9082ad63182f7b96724971; source 1b3212f0ba9fc58f7675877be9cf0ea0d8283ee8; original findings c35a55549005cedd65827c88e1aec775a0c579dd. Reasons and source hashes are recorded per review key. No new findings or coverage gaps accepted."
+    },
+    {
+      "id": "RA2",
+      "finding_id": "finding-102ca2f1ad7048da865111bf25402c77",
+      "category": "Rogue Agent",
+      "pattern": "Session Persistence",
+      "severity": "MEDIUM",
+      "confidence": 0.8,
+      "location": {
+        "file": "employees/infrastructure/network-engineer/homelab-and-network-ops.md",
+        "start_line": 107,
+        "end_line": null,
+        "start_column": 54
+      },
+      "finding": "systemctl enable",
+      "explanation": "Skill establishes unauthorized persistence across sessions via cron jobs, startup scripts, or state files. Session persistence allows an attacker to maintain access beyond the current interaction.",
+      "remediation": "Remove any persistence mechanisms (cron jobs, startup scripts, state files). Skills should not maintain state across sessions without explicit user consent.",
+      "code_snippet": "  (matching PostDown -D rules)\n  ```\n- `[Peer]` per client: `PublicKey` + `AllowedIPs = 10.8.0.x/32`.\n- Enable `net.ipv4.ip_forward=1`; `wg-quick up wg0`; `systemctl enable wg-quick@wg0`. Replace `eth0` with the real outbound interface (`ip route show default`).\n\nClient config:\n- `[Interface]`: `PrivateKey`, `Address = 10.8.0.x/32`, optional `DNS = <pihole-ip>`.",
+      "intent": null,
+      "tags": [
+        "Rogue Agent"
+      ],
+      "evidence": {},
+      "match_fingerprint": "9bd3987b1e7eb1f3ae4e81621a2f94408559610e4556fdb1373fa6f662c9f677",
+      "occurrences": [
+        {
+          "file": "employees/infrastructure/network-engineer/homelab-and-network-ops.md",
+          "start_line": 107,
+          "end_line": null,
+          "start_column": 54
+        }
+      ],
+      "suppressed": true,
+      "suppression_reason": "Exact contextual false positives individually reviewed in sidecar SHA256 f0ed1e5fd15d7bcc499051a7342a86684fc17cca2e9082ad63182f7b96724971; source 1b3212f0ba9fc58f7675877be9cf0ea0d8283ee8; original findings c35a55549005cedd65827c88e1aec775a0c579dd. Reasons and source hashes are recorded per review key. No new findings or coverage gaps accepted."
+    },
+    {
+      "id": "P6",
+      "finding_id": "finding-6aed6d1bf825414d87130f7332d17457",
+      "category": "System Prompt Leakage",
+      "pattern": "Direct Prompt Extraction",
+      "severity": "HIGH",
+      "confidence": 0.85,
+      "location": {
+        "file": "employees/engineering/unreal-developer/SKILL.md",
+        "start_line": 92,
+        "end_line": null,
+        "start_column": 53
+      },
+      "finding": "print rule",
+      "explanation": "Skill contains instructions that could directly expose system prompts, internal rules, or hidden instructions to users or external parties.",
+      "remediation": "Remove any instructions that reveal, print, or output system prompts or internal rules. System instructions should never be exposed to end users.",
+      "code_snippet": "\nWhy 10/10: it recognised the 120s timeout as the harness failing rather than the build,\ndid not retry blindly, found a real dangling reference that PIE hid, added a CI check so\nthe class of bug cannot recur, and wrote the C++/Blueprint rule down.\n\n## HARD NUMBERS\n- Cook/package request timeout raised above the **120s** default before starting - it will otherwise time out on any real package.",
+      "intent": null,
+      "tags": [
+        "System Prompt Leakage"
+      ],
+      "evidence": {},
+      "match_fingerprint": "0ab1cacfd1464101a0980676f7ca7a709dd524afeb9cad64f9053b5540162d66",
+      "occurrences": [
+        {
+          "file": "employees/engineering/unreal-developer/SKILL.md",
+          "start_line": 92,
+          "end_line": null,
+          "start_column": 53
+        }
+      ],
+      "suppressed": true,
+      "suppression_reason": "Exact contextual false positives individually reviewed in sidecar SHA256 f0ed1e5fd15d7bcc499051a7342a86684fc17cca2e9082ad63182f7b96724971; source 1b3212f0ba9fc58f7675877be9cf0ea0d8283ee8; original findings c35a55549005cedd65827c88e1aec775a0c579dd. Reasons and source hashes are recorded per review key. No new findings or coverage gaps accepted."
+    },
+    {
+      "id": "TM4",
+      "finding_id": "finding-1a140a69277b42f1910c3b027811be00",
+      "category": "Tool Misuse",
+      "pattern": "Privileged Kubernetes Workload",
+      "severity": "HIGH",
+      "confidence": 0.7,
+      "location": {
+        "file": "employees/infrastructure/kubernetes-specialist/rules.md",
+        "start_line": 118,
+        "end_line": null,
+        "start_column": 20
+      },
+      "finding": "privileged: true",
+      "explanation": "Code deploys a privileged Kubernetes workload (privileged container, hostPath mount, or host namespaces). This grants root on the node and is a node/cluster takeover vector.",
+      "remediation": "Remove privileged, hostPath, and host-namespace settings from workloads. Use a least-privilege securityContext, drop capabilities, and avoid mounting the host filesystem.",
+      "code_snippet": "## Red flags (refuse to ship)\n- No resource requests/limits; HPA without requests (silently does nothing)\n- `:latest` or mutable tags in prod; unscanned images; public-registry pulls in regulated environments\n- Root containers, `privileged: true`, `hostNetwork`/`hostPath` without written justification\n- No NetworkPolicies; default SA with auto-mounted token everywhere; verb `*` RBAC\n- No PDB on HA workloads; all replicas schedulable onto one node/zone\n- Plain K8s Secrets as source of truth; static cloud keys in cluster",
+      "intent": null,
+      "tags": [
+        "Tool Misuse"
+      ],
+      "evidence": {},
+      "match_fingerprint": "17ab375f63f3f398f1955b01229dd1421528cfb609daf9b94ed7a92414094a0c",
+      "occurrences": [
+        {
+          "file": "employees/infrastructure/kubernetes-specialist/rules.md",
+          "start_line": 118,
+          "end_line": null,
+          "start_column": 20
+        }
+      ],
+      "suppressed": true,
+      "suppression_reason": "Exact contextual false positives individually reviewed in sidecar SHA256 f0ed1e5fd15d7bcc499051a7342a86684fc17cca2e9082ad63182f7b96724971; source 1b3212f0ba9fc58f7675877be9cf0ea0d8283ee8; original findings c35a55549005cedd65827c88e1aec775a0c579dd. Reasons and source hashes are recorded per review key. No new findings or coverage gaps accepted."
+    }
+  ],
+  "metadata": {
+    "has_executable_scripts": true,
+    "skillspector_version": "2.13.2",
+    "llm_requested": false,
+    "llm_available": false,
+    "meta_analysis_applied": false,
+    "inference_usage": [],
+    "llm_provenance": {
+      "schema_version": 1,
+      "provider": {
+        "configured_adapter": "unknown",
+        "resolved_adapter": "unknown",
+        "effective_adapter": "not_applicable",
+        "effective_adapters": [],
+        "service": "unknown",
+        "routing": {
+          "deployment_override": null,
+          "deployment_source": "unknown",
+          "api_version": null,
+          "api_version_source": "unknown"
+        }
+      },
+      "analyzers": [
+        {
+          "analyzer_id": "mcp_tool_poisoning",
+          "model": "z-ai/glm-5.3",
+          "model_source": "resolved_configuration",
+          "analyzer_revision": {
+            "value": "2.13.2",
+            "source": "skillspector_package",
+            "source_revision": {
+              "value": "unknown",
+              "source": "unknown"
+            }
+          }
+        },
+        {
+          "analyzer_id": "semantic_developer_intent",
+          "model": "z-ai/glm-5.3",
+          "model_source": "resolved_configuration",
+          "analyzer_revision": {
+            "value": "2.13.2",
+            "source": "skillspector_package",
+            "source_revision": {
+              "value": "unknown",
+              "source": "unknown"
+            }
+          }
+        },
+        {
+          "analyzer_id": "semantic_quality_policy",
+          "model": "z-ai/glm-5.3",
+          "model_source": "resolved_configuration",
+          "analyzer_revision": {
+            "value": "2.13.2",
+            "source": "skillspector_package",
+            "source_revision": {
+              "value": "unknown",
+              "source": "unknown"
+            }
+          }
+        },
+        {
+          "analyzer_id": "semantic_security_discovery",
+          "model": "z-ai/glm-5.3",
+          "model_source": "resolved_configuration",
+          "analyzer_revision": {
+            "value": "2.13.2",
+            "source": "skillspector_package",
+            "source_revision": {
+              "value": "unknown",
+              "source": "unknown"
+            }
+          }
+        },
+        {
+          "analyzer_id": "meta_analyzer",
+          "model": "z-ai/glm-5.3",
+          "model_source": "resolved_configuration",
+          "analyzer_revision": {
+            "value": "2.13.2",
+            "source": "skillspector_package",
+            "source_revision": {
+              "value": "unknown",
+              "source": "unknown"
+            }
+          }
+        }
+      ],
+      "sampling": {
+        "temperature": {
+          "requested": null,
+          "source": "provider_default",
+          "forwarded_to_client": null,
+          "adapter_support": false,
+          "provider_support": "unknown"
+        },
+        "seed": {
+          "requested": null,
+          "source": "unset",
+          "forwarded_to_client": null,
+          "adapter_support": false,
+          "provider_support": "unknown"
+        },
+        "reasoning_effort": {
+          "requested": null,
+          "source": "provider_default",
+          "forwarded_to_client": null,
+          "adapter_support": false,
+          "provider_support": "unknown"
+        }
+      },
+      "determinism": {
+        "classification": "not_applicable",
+        "control_status": "not_applied",
+        "provider_guarantee": false,
+        "reason": "LLM analysis was not executed for this scan."
+      }
+    },
+    "filtering_mode": "heuristic"
+  },
+  "execution_successful": true,
+  "analysis_completeness": {
+    "total_components": 160,
+    "scanned_components": 160,
+    "coverage_percent": 100.0,
+    "is_complete": true,
+    "status": "complete",
+    "execution_successful": true,
+    "fully_inspected_files": 160,
+    "partially_inspected_files": 0,
+    "entirely_uninspected_files": 0,
+    "ledger_exceptions": [],
+    "scope_exclusions": [],
+    "analyzer_statuses": [
+      {
+        "analyzer_id": "artifact_integrity",
+        "status": "completed",
+        "planned_work": 161,
+        "completed": 161,
+        "partial": 0,
+        "skipped": 0,
+        "failed": 0,
+        "unaccounted": 0
+      },
+      {
+        "analyzer_id": "behavioral_ast",
+        "status": "completed",
+        "planned_work": 9,
+        "completed": 9,
+        "partial": 0,
+        "skipped": 0,
+        "failed": 0,
+        "unaccounted": 0
+      },
+      {
+        "analyzer_id": "behavioral_taint_tracking",
+        "status": "completed",
+        "planned_work": 9,
+        "completed": 9,
+        "partial": 0,
+        "skipped": 0,
+        "failed": 0,
+        "unaccounted": 0
+      },
+      {
+        "analyzer_id": "bundled_execution_surface",
+        "status": "not_applicable",
+        "planned_work": 0,
+        "completed": 0,
+        "partial": 0,
+        "skipped": 0,
+        "failed": 0,
+        "unaccounted": 0,
+        "reason_code": "no_applicable_files",
+        "message": "No files matched this analyzer's applicability contract."
+      },
+      {
+        "analyzer_id": "mcp_least_privilege",
+        "status": "not_applicable",
+        "planned_work": 0,
+        "completed": 0,
+        "partial": 0,
+        "skipped": 0,
+        "failed": 0,
+        "unaccounted": 0,
+        "reason_code": "manifest_absent",
+        "message": "No compatible manifest was present for this analyzer."
+      },
+      {
+        "analyzer_id": "mcp_rug_pull",
+        "status": "completed",
+        "planned_work": 161,
+        "completed": 161,
+        "partial": 0,
+        "skipped": 0,
+        "failed": 0,
+        "unaccounted": 0
+      },
+      {
+        "analyzer_id": "mcp_tool_poisoning",
+        "status": "not_applicable",
+        "planned_work": 0,
+        "completed": 0,
+        "partial": 0,
+        "skipped": 0,
+        "failed": 0,
+        "unaccounted": 0,
+        "reason_code": "manifest_absent",
+        "message": "No compatible manifest was present for this analyzer."
+      },
+      {
+        "analyzer_id": "meta_analyzer",
+        "status": "disabled",
+        "planned_work": 0,
+        "completed": 0,
+        "partial": 0,
+        "skipped": 0,
+        "failed": 0,
+        "unaccounted": 0,
+        "reason_code": "disabled_by_configuration",
+        "message": "Analyzer was disabled by the requested configuration."
+      },
+      {
+        "analyzer_id": "semantic_developer_intent",
+        "status": "disabled",
+        "planned_work": 0,
+        "completed": 0,
+        "partial": 0,
+        "skipped": 0,
+        "failed": 0,
+        "unaccounted": 0,
+        "reason_code": "disabled_by_configuration",
+        "message": "Analyzer was disabled by the requested configuration."
+      },
+      {
+        "analyzer_id": "semantic_quality_policy",
+        "status": "disabled",
+        "planned_work": 0,
+        "completed": 0,
+        "partial": 0,
+        "skipped": 0,
+        "failed": 0,
+        "unaccounted": 0,
+        "reason_code": "disabled_by_configuration",
+        "message": "Analyzer was disabled by the requested configuration."
+      },
+      {
+        "analyzer_id": "semantic_security_discovery",
+        "status": "disabled",
+        "planned_work": 0,
+        "completed": 0,
+        "partial": 0,
+        "skipped": 0,
+        "failed": 0,
+        "unaccounted": 0,
+        "reason_code": "disabled_by_configuration",
+        "message": "Analyzer was disabled by the requested configuration."
+      },
+      {
+        "analyzer_id": "static_patterns_agent_snooping",
+        "status": "completed",
+        "planned_work": 161,
+        "completed": 161,
+        "partial": 0,
+        "skipped": 0,
+        "failed": 0,
+        "unaccounted": 0
+      },
+      {
+        "analyzer_id": "static_patterns_anti_refusal",
+        "status": "completed",
+        "planned_work": 161,
+        "completed": 161,
+        "partial": 0,
+        "skipped": 0,
+        "failed": 0,
+        "unaccounted": 0
+      },
+      {
+        "analyzer_id": "static_patterns_data_exfiltration",
+        "status": "completed",
+        "planned_work": 161,
+        "completed": 161,
+        "partial": 0,
+        "skipped": 0,
+        "failed": 0,
+        "unaccounted": 0
+      },
+      {
+        "analyzer_id": "static_patterns_deserialization",
+        "status": "completed",
+        "planned_work": 161,
+        "completed": 161,
+        "partial": 0,
+        "skipped": 0,
+        "failed": 0,
+        "unaccounted": 0
+      },
+      {
+        "analyzer_id": "static_patterns_excessive_agency",
+        "status": "completed",
+        "planned_work": 161,
+        "completed": 161,
+        "partial": 0,
+        "skipped": 0,
+        "failed": 0,
+        "unaccounted": 0
+      },
+      {
+        "analyzer_id": "static_patterns_harmful_content",
+        "status": "completed",
+        "planned_work": 161,
+        "completed": 161,
+        "partial": 0,
+        "skipped": 0,
+        "failed": 0,
+        "unaccounted": 0
+      },
+      {
+        "analyzer_id": "static_patterns_memory_poisoning",
+        "status": "completed",
+        "planned_work": 161,
+        "completed": 161,
+        "partial": 0,
+        "skipped": 0,
+        "failed": 0,
+        "unaccounted": 0
+      },
+      {
+        "analyzer_id": "static_patterns_output_handling",
+        "status": "completed",
+        "planned_work": 161,
+        "completed": 161,
+        "partial": 0,
+        "skipped": 0,
+        "failed": 0,
+        "unaccounted": 0
+      },
+      {
+        "analyzer_id": "static_patterns_privilege_escalation",
+        "status": "completed",
+        "planned_work": 161,
+        "completed": 161,
+        "partial": 0,
+        "skipped": 0,
+        "failed": 0,
+        "unaccounted": 0
+      },
+      {
+        "analyzer_id": "static_patterns_prompt_injection",
+        "status": "completed",
+        "planned_work": 161,
+        "completed": 161,
+        "partial": 0,
+        "skipped": 0,
+        "failed": 0,
+        "unaccounted": 0
+      },
+      {
+        "analyzer_id": "static_patterns_rogue_agent",
+        "status": "completed",
+        "planned_work": 161,
+        "completed": 161,
+        "partial": 0,
+        "skipped": 0,
+        "failed": 0,
+        "unaccounted": 0
+      },
+      {
+        "analyzer_id": "static_patterns_ssrf",
+        "status": "completed",
+        "planned_work": 161,
+        "completed": 161,
+        "partial": 0,
+        "skipped": 0,
+        "failed": 0,
+        "unaccounted": 0
+      },
+      {
+        "analyzer_id": "static_patterns_supply_chain",
+        "status": "completed",
+        "planned_work": 161,
+        "completed": 161,
+        "partial": 0,
+        "skipped": 0,
+        "failed": 0,
+        "unaccounted": 0
+      },
+      {
+        "analyzer_id": "static_patterns_system_prompt_leakage",
+        "status": "completed",
+        "planned_work": 161,
+        "completed": 161,
+        "partial": 0,
+        "skipped": 0,
+        "failed": 0,
+        "unaccounted": 0
+      },
+      {
+        "analyzer_id": "static_patterns_tool_misuse",
+        "status": "completed",
+        "planned_work": 161,
+        "completed": 161,
+        "partial": 0,
+        "skipped": 0,
+        "failed": 0,
+        "unaccounted": 0
+      },
+      {
+        "analyzer_id": "static_yara",
+        "status": "completed",
+        "planned_work": 161,
+        "completed": 161,
+        "partial": 0,
+        "skipped": 0,
+        "failed": 0,
+        "unaccounted": 0
+      }
+    ],
+    "references": [],
+    "limitations": [],
+    "findings_before_filtering": 48,
+    "findings_after_filtering": 48
+  }
+}
