@@ -13,9 +13,9 @@ import shutil
 import subprocess
 import tempfile
 
-CORE = 'c5f58457dd92e0d4af1b19a3bfdd0761acf44877'
+CORE = '5efe9a59ac1b87e88010e4c97518e8bc8d1267eb'
 PACKAGER = '129781961be54cc2f12d6bafe80e81d6a1cd8d02'
-NATIVE = 'e02d8002d195f929e30fb5063bd04d4ed27190d6'
+NATIVE = 'd3f6febc027631a987ff84795f24a9cb40b7e7d2'
 VERSION = '0.70.0'
 OMIT = {'.claude-plugin/plugin.json', 'plugin.json', 'server.mjs', 'native/opencode.mjs'}
 
@@ -71,7 +71,7 @@ def build(source, packager, native_source, output):
         module.build(CORE, temporary / 'base')
         base = temporary / 'base/plugin'
         original = json.loads((base / 'SOLARIS-BUILD-SOURCE.json').read_text())
-        if len(original['canonical_files']) != 1207 or OMIT.intersection(original['canonical_files']):
+        if len(original['canonical_files']) != 1213 or OMIT.intersection(original['canonical_files']):
             raise ValueError('Unexpected canonical input or attempted canonical omission')
         shutil.copytree(base, output)
         for name in OMIT:
@@ -163,7 +163,7 @@ def build(source, packager, native_source, output):
         'Loading the plugin installs no service, container, scheduler, updater or MCP connection and grants no account access. '
         'Host tools and permission checks apply. Local Python helpers require Python 3.10+ and their documented prerequisites.\n\n'
         'Core source: ' + CORE + '. Reviewed native adapter and guarded entrypoints: ' + NATIVE + '. '
-        'SOLARIS-BUILD-SOURCE.json binds all 1207 canonical hashes; HARNESS-BUILD.json binds generated files and modes. '
+        'SOLARIS-BUILD-SOURCE.json binds all 1213 canonical hashes; HARNESS-BUILD.json binds generated files and modes. '
         'A prepared candidate is not ClawHub approval or a completed security scan.\n\n'
         'MIT licensed. Solaris Technologies, https://solaristek.com. '
         'Support: https://github.com/Shaisolaris/solaris-dev-shop-plugins/issues.\n')
@@ -174,13 +174,13 @@ def build(source, packager, native_source, output):
     if list((output / 'skills').glob('*/resources/canonical')):
         raise ValueError('Unexpected redundant resource mirror')
     record = {'host': 'openclaw', 'version': VERSION, 'core_source': CORE, 'native_source': NATIVE,
-              'reviewed_packager': PACKAGER, 'layout': 'shared-canonical', 'canonical_files': 1207,
+              'reviewed_packager': PACKAGER, 'layout': 'shared-canonical', 'canonical_files': 1213,
               'specialists': 61, 'coordinator': 1, 'new_employee_capabilities': 0,
               'canonical_notice': 'NOTICE.md', 'redundant_resource_aliases': [],
               'relocated_repository_configuration': relocated, 'omitted_other_provider_files': sorted(OMIT),
               'files': inventory(output)}
     write_json(output / 'HARNESS-BUILD.json', record)
-    return {'host': 'openclaw', 'files': len(record['files']) + 1, 'canonical_files': 1207,
+    return {'host': 'openclaw', 'files': len(record['files']) + 1, 'canonical_files': 1213,
             'workflows': 62, 'source': CORE, 'version': VERSION}
 
 
