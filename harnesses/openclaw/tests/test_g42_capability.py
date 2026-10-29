@@ -13,7 +13,14 @@ TOOL = os.path.join(A, "daily_integration.py")
 ORACLE = os.path.join(A, "daily_integration_oracle.py")
 CAP = os.path.join(ROOT, "examples", "capabilities", "G42")
 PLAN = os.path.join(CAP, "plan.json")
-ENV = dict(os.environ, PYTHONDONTWRITEBYTECODE="1")
+ENV = dict({name: os.environ[name] for name in (
+               'PATH', 'HOME', 'USERPROFILE', 'HOMEDRIVE', 'HOMEPATH', 'TMPDIR',
+               'TMP', 'TEMP', 'SystemRoot', 'SYSTEMROOT', 'SystemDrive', 'COMSPEC',
+               'ComSpec', 'PATHEXT', 'LANG', 'LC_ALL', 'LC_CTYPE', 'TZ',
+               'PYTHONUTF8', 'PYTHONIOENCODING', 'PYTHONNOUSERSITE', 'PYTHONSAFEPATH', 'GIT_CONFIG_NOSYSTEM', 'GIT_CONFIG_GLOBAL',
+               'GIT_CONFIG_SYSTEM', 'SSL_CERT_FILE', 'SSL_CERT_DIR', 'REQUESTS_CA_BUNDLE', 'CURL_CA_BUNDLE', 'CI',
+               'GITHUB_ACTIONS',
+           ) if name in os.environ}, PYTHONDONTWRITEBYTECODE="1")
 
 
 def run(argv, **kw):
@@ -95,7 +102,7 @@ class Plan(unittest.TestCase):
         # exact tree, so their evidence folders cannot share this tree; every build they integrate is here.
         self.assertEqual(ids, ["G01", "G02", "G03", "G04", "G05", "G07", "G08", "G09", "G10", "G11", "G13", "G14", "G15",
                                "G16", "G17", "G19", "G20", "G21", "G22", "G23", "G25", "G31", "G32", "G33", "G34", "G35",
-                               "G37", "G38", "G39", "G40", "G41", "H66", "H67", "H68", "H70"])
+                               "G37", "G38", "G39", "G40", "G41", "H66", "H67", "H68", "H70", "H71"])
         amendment = next(p for p in self.plan["prerequisites"] if p["id"] == "H66")
         self.assertEqual(amendment["commit"], "66dadbe966a9b7eb66d20d92614302014875475e")
         self.assertIn("tests.test_explicit_runtime_setup", amendment["tests"])
@@ -173,7 +180,7 @@ class Plan(unittest.TestCase):
         self.assertEqual(inventory(component), expected)
         self.assertFalse(excluded & inventory(self.plan["base"]).keys())
 
-    def test_h70_binds_every_current_source_blob_and_mode(self):
+    def test_h70_preserves_historical_source_blob_and_mode_binding(self):
         subject = "471341adde7ef3cdd33e581bfd40681040e851e5"
         amendment = next(p for p in self.plan["prerequisites"] if p["id"] == "H70")
         self.assertEqual(amendment["commit"], "b767fbbde003907e2dc155ea050ff91de63801af")
@@ -182,6 +189,24 @@ class Plan(unittest.TestCase):
         component = amendment["commit"]
         if not git_ok(subject, component):
             self.skipTest("not a checkout holding the exact reviewed 0.70 component")
+        def inventory(revision):
+            raw = subprocess.check_output(["git", "-C", ROOT, "ls-tree", "-rz", revision])
+            return {row.split(b"\t", 1)[1].decode(): row.split(b"\t", 1)[0]
+                    for row in raw.split(b"\0") if row}
+        excluded = {"examples/capabilities/G42/plan.json", "tests/test_g42_capability.py"}
+        expected = {path: value for path, value in inventory(subject).items() if path not in excluded}
+        self.assertEqual(inventory(component), expected)
+        self.assertFalse(excluded & inventory(self.plan["base"]).keys())
+
+    def test_h71_binds_every_current_source_blob_and_mode(self):
+        subject = "6c807172676836d1b4ff6fdcd8efee67b55bc8c7"
+        amendment = next(p for p in self.plan["prerequisites"] if p["id"] == "H71")
+        self.assertEqual(amendment["commit"], "91e71bc8864e2277d8784549e096a2dcc2c42f16")
+        self.assertIn("tests.test_child_environment_scope", amendment["tests"])
+        self.assertIn("tests.test_wordpress_visual_tokens", amendment["tests"])
+        component = amendment["commit"]
+        if not git_ok(subject, component):
+            self.skipTest("not a checkout holding the reviewed environment/token component")
         def inventory(revision):
             raw = subprocess.check_output(["git", "-C", ROOT, "ls-tree", "-rz", revision])
             return {row.split(b"\t", 1)[1].decode(): row.split(b"\t", 1)[0]

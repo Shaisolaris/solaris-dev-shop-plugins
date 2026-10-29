@@ -8,6 +8,6 @@ Specialist operations run only when requested for a specific task using the host
 
 The native `solaris intake` command returns a bounded assignment and does not execute specialist work. Loading the plugin installs no service, container, scheduler, updater or MCP connection and grants no account access. Host tools and permission checks apply. Local Python helpers require Python 3.10+ and their documented prerequisites.
 
-Core source: dea39818dd09b2059266e44f39def0ecf6ca8151. Reviewed native adapter and guarded entrypoints: e02d8002d195f929e30fb5063bd04d4ed27190d6. SOLARIS-BUILD-SOURCE.json binds all 1203 canonical hashes; HARNESS-BUILD.json binds generated files and modes. A prepared candidate is not ClawHub approval or a completed security scan.
+Core source: c5f58457dd92e0d4af1b19a3bfdd0761acf44877. Reviewed native adapter and guarded entrypoints: e02d8002d195f929e30fb5063bd04d4ed27190d6. SOLARIS-BUILD-SOURCE.json binds all 1207 canonical hashes; HARNESS-BUILD.json binds generated files and modes. A prepared candidate is not ClawHub approval or a completed security scan.
 
 MIT licensed. Solaris Technologies, https://solaristek.com. Support: https://github.com/Shaisolaris/solaris-dev-shop-plugins/issues.
