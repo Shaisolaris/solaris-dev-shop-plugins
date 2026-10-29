@@ -28,7 +28,7 @@ export default definePluginEntry({
           });
           const result = JSON.parse(stdout);
           if (result.performed_work !== false) throw new Error('Coordinator returned an unexpected execution result');
-          process.stdout.write((options.json ? JSON.stringify(result) : `${result.decision}: ${result.assignment?.primary_capability ?? 'See the structured intake result'}`) + '\n');
+          process.stdout.write((options.json ? JSON.stringify(result) : ''.concat(result.decision, ': ', result.assignment?.primary_capability ?? 'See the structured intake result')) + '\n');
         });
     }, { descriptors: [{ ...descriptor, machineOutput: ({ argv }) => argv.includes('--json') }] });
   },
