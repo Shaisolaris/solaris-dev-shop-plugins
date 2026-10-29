@@ -1,0 +1,16 @@
+{
+  "scope": "Read-only private reproduction before any product correction or publication",
+  "baseline": "f197f4566f8a3c11755bc6688ec92a2c3347b4dd:harnesses/openclaw",
+  "canonicalCore": "c7c9b395795f488dd3c48122ff916970438b67e6",
+  "runner": "review-evidence/wordpress-caller-probe.py",
+  "cases": ["WP-ARG-THEME-PLAIN", "WP-ARG-THEME-LITERAL", "WP-ARG-CONTENT-PLAIN", "WP-ARG-CONTENT-LITERAL", "WP-ARG-MCP-PLAIN", "WP-ARG-MCP-LITERAL", "WP-ARG-VISUAL-PLAIN", "WP-ARG-VISUAL-LITERAL"],
+  "trigger": "The existing scaffold declares WP as a Bash array including --path, but downstream consumers expand $WP as a scalar, potentially omitting the target",
+  "measurement": "Execute only one captured WP invocation expression per consumer against an inert private fake wp. Assert the selected build path remains the first argv item, for ordinary and literal-metacharacter paths.",
+  "allowedReads": ["The five named public source documents", "The reviewed runner", "Python standard library", "/bin/bash", "/usr/bin/env"],
+  "allowedWrites": ["One TemporaryDirectory allocated by Python, including fake wp and its NUL argv record", "Explicit JSON result under the conversation evidence directory"],
+  "forbidden": ["Network or model calls", "Real wp, Docker, database or server invocation", "Source changes during the probe", "Credentials or owner configuration", "Shared /tmp victim or symlink manipulation", "Publisher API calls"],
+  "baselineExpectation": "Eight genuine target-path assertion failures with zero fixture/runtime errors, not a declaration of production exploitability",
+  "candidateExpectation": "The same eight case IDs pass only after an independently reviewed source correction",
+  "rollback": "No product or deployed state is changed by this reproduction. TemporaryDirectory removes only its own fixture; preserve the result and all source bytes.",
+  "reviewStatus": "Awaiting independent exact runner/source/scope review before execution"
+}
